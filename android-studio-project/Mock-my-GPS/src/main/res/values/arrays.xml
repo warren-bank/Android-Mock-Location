@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="geo_intent_menu_options">
+        <item>@string/geo_intent_option_1</item>
+        <item>@string/geo_intent_option_2</item>
+        <item>@string/geo_intent_option_3</item>
+        <item>@string/geo_intent_option_4</item>
+    </string-array>
+
+    <string-array name="open_bookmark_menu_options">
+        <item>@string/open_bookmark_option_1</item>
+        <item>@string/open_bookmark_option_2</item>
+        <item>@string/open_bookmark_option_3</item>
+    </string-array>
+
+    <string-array name="save_bookmark_menu_options">
+        <item>@string/save_bookmark_option_1</item>
+        <item>@string/save_bookmark_option_2</item>
+    </string-array>
+
+</resources>

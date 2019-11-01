@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <!-- heading_1 =========================================== -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PreferencesActivity_heading_1"
+            style="@style/section_heading_textview" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PreferencesActivity_field_1"
+            style="@style/input_label_textview" />
+
+        <EditText
+            android:id="@+id/input_time_interval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number|textMultiLine" />
+
+        <!-- heading_2 =========================================== -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PreferencesActivity_heading_2"
+            style="@style/section_heading_textview" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PreferencesActivity_field_2"
+            style="@style/input_label_textview" />
+
+        <EditText
+            android:id="@+id/input_fixed_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number|textMultiLine" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PreferencesActivity_field_3"
+            style="@style/input_label_textview" />
+
+        <CheckBox
+            android:id="@+id/input_fixed_joystick_enabled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PreferencesActivity_field_4"
+            style="@style/input_label_textview" />
+
+        <EditText
+            android:id="@+id/input_fixed_joystick_increment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number|textMultiLine" />
+
+        <!-- buttons ============================================= -->
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/label_button_cancel" />
+
+            <Button
+                android:layout_marginLeft="20dp"
+                android:id="@+id/button_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/label_button_save" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

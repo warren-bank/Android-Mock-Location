@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_save_bookmarkitem"
+        android:icon="@drawable/menu_save_bookmarkitem"
+        android:title="@string/MainActivity_actionbar_item_1"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/menu_start_bookmarks"
+        android:title="@string/MainActivity_actionbar_item_2"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/menu_start_preferences"
+        android:title="@string/MainActivity_actionbar_item_3"
+        android:showAsAction="never" />
+</menu>

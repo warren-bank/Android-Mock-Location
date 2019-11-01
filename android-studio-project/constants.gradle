@@ -1,0 +1,9 @@
+project.ext {
+    releaseVersionCode = Integer.parseInt("001000001", 10)
+    releaseVersion     = '001.00.00-01API'
+    minSdkVersion      = 1
+    targetSdkVersion   = 28
+    compileSdkVersion  = 28
+    buildToolsVersion  = '28.0.3'
+    javaVersion        = JavaVersion.VERSION_1_8
+}

@@ -1,0 +1,15 @@
+<!--
+  copied from:
+    https://github.com/xiangtailiang/FakeGPS/blob/V1.1/app/src/main/res/values/dimens.xml
+-->
+
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="joystick_width">96dp</dimen>    <!-- (48dp)(2) -->
+    <dimen name="joystick_height">144dp</dimen>  <!-- (48dp)(3) -->
+    <dimen name="joystick_button_width">48dp</dimen>
+    <dimen name="joystick_button_height">48dp</dimen>
+</resources>

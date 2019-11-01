@@ -1,0 +1,5 @@
+file: android-studio-project/Mock-my-GPS/src/main/res/drawable/launcher.png
+from: https://pixabay.com/illustrations/gps-color-locator-map-online-2845363/
+note: Pixabay License:
+      - Free for commercial use
+      - No attribution required

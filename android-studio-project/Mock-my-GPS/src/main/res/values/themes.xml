@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="app_theme" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
+
+    <style name="section_heading_textview" parent="@android:style/TextAppearance">
+        <item name="android:background">@color/section_heading_textview_background</item>
+        <item name="android:textColor">@color/section_heading_textview_color</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="input_label_textview" parent="@android:style/TextAppearance">
+        <item name="android:background">@color/input_label_textview_background</item>
+        <item name="android:textColor">@color/input_label_textview_color</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="joystick_button" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">@dimen/joystick_button_width</item>
+        <item name="android:layout_height">@dimen/joystick_button_height</item>
+        <item name="android:background">@color/joystick_button_background</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="listview_background">#FFFFFF</color>
+    <color name="listview_divider">#999999</color>
+
+    <color name="section_heading_textview_background">#333333</color>
+    <color name="section_heading_textview_color">#EEEEEE</color>
+
+    <color name="input_label_textview_background">#999999</color>
+    <color name="input_label_textview_color">#FFFFFF</color>
+
+    <color name="joystick_button_background">#E2EEF6</color>
+    <color name="joystick_button_background_none">@android:color/transparent</color>
+
+</resources>
