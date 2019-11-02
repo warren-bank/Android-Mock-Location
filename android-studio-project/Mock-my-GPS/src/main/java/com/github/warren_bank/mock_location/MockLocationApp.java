@@ -9,7 +9,7 @@ public class MockLocationApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        LocationThreadManager.get().init(this);
+        LocationThreadManager.get().init(getApplicationContext());
     }
 
 }

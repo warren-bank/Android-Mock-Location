@@ -49,7 +49,7 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
 
         mCurrentLocPoint = locPoint;
         if ((mLocationThread == null) || !mLocationThread.isAlive()) {
-            mLocationThread = new LocationThread(mContext.getApplicationContext(), this, mTimeInterval);
+            mLocationThread = new LocationThread(mContext, this, mTimeInterval);
             mLocationThread.startThread();
         }
 
