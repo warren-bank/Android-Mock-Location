@@ -3,8 +3,7 @@ package com.github.warren_bank.mock_location.ui;
 import com.github.warren_bank.mock_location.R;
 import com.github.warren_bank.mock_location.data_model.SharedPrefs;
 import com.github.warren_bank.mock_location.data_model.SharedPrefsState;
-import com.github.warren_bank.mock_location.event_hooks.ISharedPrefsListener;
-import com.github.warren_bank.mock_location.looper.LocationThreadManager;
+import com.github.warren_bank.mock_location.service.LocationService;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
@@ -130,8 +129,7 @@ public class PreferencesActivity extends Activity {
 
                     editor.commit();
 
-                    ISharedPrefsListener prefsListener = LocationThreadManager.get();
-                    prefsListener.onSharedPrefsChange(diff_fields);
+                    LocationService.doSharedPrefsChange(PreferencesActivity.this, true);
                 }
 
                 PreferencesActivity.this.finish();

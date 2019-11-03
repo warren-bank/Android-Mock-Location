@@ -1,4 +1,4 @@
-package com.github.warren_bank.mock_location.looper;
+package com.github.warren_bank.mock_location.service.looper;
 
 // copied from:
 //   https://github.com/xiangtailiang/FakeGPS/blob/V1.1/app/src/main/java/com/github/fakegps/JoyStickManager.java
@@ -7,6 +7,7 @@ import com.github.warren_bank.mock_location.data_model.LocPoint;
 import com.github.warren_bank.mock_location.data_model.SharedPrefsState;
 import com.github.warren_bank.mock_location.event_hooks.IJoyStickPresenter;
 import com.github.warren_bank.mock_location.event_hooks.ISharedPrefsListener;
+import com.github.warren_bank.mock_location.service.LocationService;
 import com.github.warren_bank.mock_location.ui.components.JoyStickView;
 
 import android.content.Context;
@@ -46,6 +47,7 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
 
     public void start(LocPoint locPoint) {
         if (mContext == null) return;
+        if (locPoint == null) return;
 
         mCurrentLocPoint = locPoint;
         if ((mLocationThread == null) || !mLocationThread.isAlive()) {
@@ -69,6 +71,12 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
 
         hideJoyStick();
         mIsStarted = false;
+
+        stopService();
+    }
+
+    private void stopService() {
+        LocationService.doStop(mContext, true);
     }
 
     public boolean isStarted() {

@@ -106,15 +106,6 @@ __other enhancements__:
   - ability to enable/disable "joystick"
   - ability to configure the increment value added to lat/lon values each time a "joystick" button is pressed
 
-#### Design Failings
-
-* [this branch](https://github.com/warren-bank/Android-Mock-Location/tree/handlerthread) uses `HandlerThread` to recursively invoke a `Runnable` from the `Application` context
-  - a problem was encountered during testing of [this release](https://github.com/warren-bank/Android-Mock-Location/releases/tag/handlerthread%2Fv01.00.00):
-    * Android will eventually kill the `Application` process and the worker `Thread` along with it
-* goals for the next release:
-  * start in a [new/separate git branch](https://github.com/warren-bank/Android-Mock-Location/tree/service)
-  * migrate the worker `Thread` to a foreground `Service` context
-
 - - - -
 
 #### Legal:

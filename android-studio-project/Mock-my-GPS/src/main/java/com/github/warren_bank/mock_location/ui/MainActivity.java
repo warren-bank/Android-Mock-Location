@@ -4,7 +4,7 @@ import com.github.warren_bank.mock_location.R;
 import com.github.warren_bank.mock_location.data_model.BookmarkItem;
 import com.github.warren_bank.mock_location.data_model.LocPoint;
 import com.github.warren_bank.mock_location.data_model.SharedPrefs;
-import com.github.warren_bank.mock_location.looper.LocationThreadManager;
+import com.github.warren_bank.mock_location.service.LocationService;
 
 import android.app.ActivityGroup;
 import android.app.AlertDialog;
@@ -72,7 +72,7 @@ public class MainActivity extends ActivityGroup {
     protected void onPause() {
         super.onPause();
 
-        boolean is_started = LocationThreadManager.get().isStarted();
+        boolean is_started = LocationService.isStarted();
 
         if (is_started && !isFinishing())
             finish();

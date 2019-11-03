@@ -3,7 +3,7 @@ package com.github.warren_bank.mock_location.ui;
 import com.github.warren_bank.mock_location.R;
 import com.github.warren_bank.mock_location.data_model.LocPoint;
 import com.github.warren_bank.mock_location.data_model.SharedPrefs;
-import com.github.warren_bank.mock_location.looper.LocationThreadManager;
+import com.github.warren_bank.mock_location.service.LocationService;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -14,7 +14,6 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class TripSimulationActivity extends Activity {
-    private LocationThreadManager LTM;
     private LocPoint originalLocOrigin;
     private LocPoint originalLocDestination;
     private int originalTripDuration;
@@ -32,7 +31,6 @@ public class TripSimulationActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_trip_simulation);
 
-        LTM = LocationThreadManager.get();
         originalLocOrigin      = SharedPrefs.getTripOrigin(TripSimulationActivity.this);
         originalLocDestination = SharedPrefs.getTripDestination(TripSimulationActivity.this);
         originalTripDuration   = SharedPrefs.getTripDuration(TripSimulationActivity.this);
@@ -47,7 +45,7 @@ public class TripSimulationActivity extends Activity {
 
         input_trip_origin.addTextChangedListener(new TextWatcher() {
             public void afterTextChanged(Editable s) {
-                if (!LTM.isStarted()) return;
+                if (!LocationService.isStarted()) return;
 
                 try {
                     String trip_origin = s.toString();
@@ -72,7 +70,7 @@ public class TripSimulationActivity extends Activity {
 
         input_trip_destination.addTextChangedListener(new TextWatcher() {
             public void afterTextChanged(Editable s) {
-                if (!LTM.isStarted()) return;
+                if (!LocationService.isStarted()) return;
 
                 try {
                     String trip_destination = s.toString();
@@ -97,7 +95,7 @@ public class TripSimulationActivity extends Activity {
 
         input_trip_duration.addTextChangedListener(new TextWatcher() {
             public void afterTextChanged(Editable s) {
-                if (!LTM.isStarted()) return;
+                if (!LocationService.isStarted()) return;
 
                 try {
                     String trip_duration = s.toString();
@@ -124,12 +122,12 @@ public class TripSimulationActivity extends Activity {
             @Override
             public void onClick(View v) {
                 try {
-                    if (LTM.isStarted()) {
-                        LTM.stop();
+                    if (LocationService.isStarted()) {
+                        LocationService.doStop(TripSimulationActivity.this, true);
                         button_toggle_state.setText(R.string.label_button_start);
                     }
                     else {
-                        LTM.start(preStart());
+                        doStart();
                         button_toggle_state.setText(R.string.label_button_stop);
                     }
                     button_update.setVisibility(View.GONE);
@@ -142,8 +140,8 @@ public class TripSimulationActivity extends Activity {
             @Override
             public void onClick(View v) {
                 try {
-                    if (LTM.isStarted()) {
-                        LTM.start(preStart());
+                    if (LocationService.isStarted()) {
+                        doStart();
                     }
                     button_update.setVisibility(View.GONE);
                 }
@@ -157,7 +155,7 @@ public class TripSimulationActivity extends Activity {
         input_trip_destination.setText(originalLocDestination.toString());
         input_trip_duration.setText(Integer.toString(originalTripDuration, 10));
 
-        if (LTM.isStarted())
+        if (LocationService.isStarted())
             button_toggle_state.setText(R.string.label_button_stop);
 
         button_update.setVisibility(View.GONE);
@@ -172,7 +170,7 @@ public class TripSimulationActivity extends Activity {
         }
     }
 
-    private LocPoint preStart() {
+    private void doStart() {
         String trip_origin              = input_trip_origin.getText().toString();
         LocPoint modifiedLocOrigin      = new LocPoint(trip_origin);
 
@@ -182,8 +180,7 @@ public class TripSimulationActivity extends Activity {
         String trip_duration            = input_trip_duration.getText().toString();
         int modifiedTripDuration        = Integer.parseInt(trip_duration, 10);
 
-        LTM.jumpToLocation(modifiedLocOrigin);
-        LTM.flyToLocation(modifiedLocDestination, modifiedTripDuration);
+        LocationService.doStart(TripSimulationActivity.this, true, modifiedLocOrigin, modifiedLocDestination, modifiedTripDuration);
 
         short mask;
 
@@ -206,7 +203,5 @@ public class TripSimulationActivity extends Activity {
         originalLocDestination = modifiedLocDestination;
         originalTripDuration   = modifiedTripDuration;
         diff_fields = 0;
-
-        return modifiedLocOrigin;
     }
 }

@@ -116,4 +116,12 @@
     <string name="error_missing_required_value">Error: Missing Required Value</string>
     <string name="error_add_bookmarkitem">Error: Could not add new bookmark</string>
 
+    <!-- notifications -->
+    <string name="notification_service_ticker">Mock my GPS: running</string>
+    <string name="notification_service_content_line1">Mock my GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Click to open. Dismiss to stop.</string>
+    -->
+    <string name="notification_service_content_line2">Click to open.</string>
+
 </resources>

@@ -3,7 +3,7 @@ package com.github.warren_bank.mock_location.ui;
 import com.github.warren_bank.mock_location.R;
 import com.github.warren_bank.mock_location.data_model.LocPoint;
 import com.github.warren_bank.mock_location.data_model.SharedPrefs;
-import com.github.warren_bank.mock_location.looper.LocationThreadManager;
+import com.github.warren_bank.mock_location.service.LocationService;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -14,7 +14,6 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class FixedPositionActivity extends Activity {
-    private LocationThreadManager LTM;
     private LocPoint originalLoc;
 
     private TextView input_fixed_position;
@@ -26,7 +25,6 @@ public class FixedPositionActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fixed_position);
 
-        LTM = LocationThreadManager.get();
         originalLoc = SharedPrefs.getTripOrigin(FixedPositionActivity.this);
 
         input_fixed_position = (TextView) findViewById(R.id.input_fixed_position);
@@ -37,7 +35,7 @@ public class FixedPositionActivity extends Activity {
 
         input_fixed_position.addTextChangedListener(new TextWatcher() {
             public void afterTextChanged(Editable s) {
-                if (!LTM.isStarted()) return;
+                if (!LocationService.isStarted()) return;
 
                 try {
                     String fixed_position = s.toString();
@@ -60,12 +58,12 @@ public class FixedPositionActivity extends Activity {
             @Override
             public void onClick(View v) {
                 try {
-                    if (LTM.isStarted()) {
-                        LTM.stop();
+                    if (LocationService.isStarted()) {
+                        LocationService.doStop(FixedPositionActivity.this, true);
                         button_toggle_state.setText(R.string.label_button_start);
                     }
                     else {
-                        LTM.start(preStart());
+                        doStart();
                         button_toggle_state.setText(R.string.label_button_stop);
                     }
                     button_update.setVisibility(View.GONE);
@@ -78,8 +76,8 @@ public class FixedPositionActivity extends Activity {
             @Override
             public void onClick(View v) {
                 try {
-                    if (LTM.isStarted()) {
-                        LTM.start(preStart());
+                    if (LocationService.isStarted()) {
+                        doStart();
                     }
                     button_update.setVisibility(View.GONE);
                 }
@@ -91,21 +89,19 @@ public class FixedPositionActivity extends Activity {
     private void reset() {
         input_fixed_position.setText(originalLoc.toString());
 
-        if (LTM.isStarted())
+        if (LocationService.isStarted())
             button_toggle_state.setText(R.string.label_button_stop);
 
         button_update.setVisibility(View.GONE);
     }
 
-    private LocPoint preStart() {
+    private void doStart() {
         String fixed_position = input_fixed_position.getText().toString();
         LocPoint modifiedLoc  = new LocPoint(fixed_position);
 
-        LTM.jumpToLocation(modifiedLoc);
+        LocationService.doStart(FixedPositionActivity.this, true, modifiedLoc, null, 0);
 
         SharedPrefs.putTripOrigin(FixedPositionActivity.this, modifiedLoc);
         originalLoc = modifiedLoc;
-
-        return modifiedLoc;
     }
 }

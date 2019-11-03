@@ -1,4 +1,4 @@
-package com.github.warren_bank.mock_location.looper;
+package com.github.warren_bank.mock_location.service.looper;
 
 // copied from:
 //   https://github.com/xiangtailiang/FakeGPS/blob/V1.1/app/src/main/java/com/github/fakegps/LocationThread.java
