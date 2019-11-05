@@ -19,6 +19,7 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
     private JoyStickView mJoyStickView;
     private LocationThread mLocationThread;
     private LocPoint mCurrentLocPoint;
+    private LocPoint mOriginLocPoint;
     private LocPoint mTargetLocPoint;
     private int mFlyTime;
     private int mFlyTimeIndex;
@@ -49,7 +50,7 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
         if (mContext == null) return;
         if (locPoint == null) return;
 
-        mCurrentLocPoint = locPoint;
+        mCurrentLocPoint = new LocPoint(locPoint);
         if ((mLocationThread == null) || !mLocationThread.isAlive()) {
             mLocationThread = new LocationThread(mContext, this, mTimeInterval);
             mLocationThread.startThread();
@@ -101,7 +102,7 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
     }
 
     public LocPoint getCurrentLocPoint() {
-        return mCurrentLocPoint;
+        return new LocPoint(mCurrentLocPoint);
     }
 
     public LocPoint getUpdateLocPoint() {
@@ -118,23 +119,23 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
         }
 
         if (!mIsFlyMode) {
-            return mCurrentLocPoint;
+            return new LocPoint(mCurrentLocPoint);
         }
 
         if (mFlyTimeIndex >= mFlyTime) {
             mFlyTimeIndex++;
             jumpToLocation(mTargetLocPoint);
             mFixedCountRemaining = -1;
-            return mCurrentLocPoint;
+            return new LocPoint(mCurrentLocPoint);
         }
         else {
             float factor = (float) mFlyTimeIndex / (float) mFlyTime;
-            double lat = mCurrentLocPoint.getLatitude()  + (factor * (mTargetLocPoint.getLatitude()  - mCurrentLocPoint.getLatitude()));
-            double lon = mCurrentLocPoint.getLongitude() + (factor * (mTargetLocPoint.getLongitude() - mCurrentLocPoint.getLongitude()));
+            double lat = mOriginLocPoint.getLatitude()  + (factor * (mTargetLocPoint.getLatitude()  - mOriginLocPoint.getLatitude()));
+            double lon = mOriginLocPoint.getLongitude() + (factor * (mTargetLocPoint.getLongitude() - mOriginLocPoint.getLongitude()));
             mFlyTimeIndex++;
             mCurrentLocPoint.setLatitude(lat);
             mCurrentLocPoint.setLongitude(lon);
-            return mCurrentLocPoint;
+            return new LocPoint(mCurrentLocPoint);
         }
     }
 
@@ -153,7 +154,7 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
 
     public void jumpToLocation(LocPoint location) {
         mIsFlyMode = false;
-        mCurrentLocPoint = location;
+        mCurrentLocPoint = new LocPoint(location);
     }
 
     public void flyToLocation(LocPoint location, int trip_duration_seconds) {
@@ -161,10 +162,11 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
             hideJoyStick();
         }
 
-        mTargetLocPoint = location;
-        mFlyTime        = convertFlyTime_secondsToLoopIterations(trip_duration_seconds, mTimeInterval);
-        mFlyTimeIndex   = 0;
+        mOriginLocPoint = new LocPoint(mCurrentLocPoint);
+        mTargetLocPoint = new LocPoint(location);
         mIsFlyMode      = true;
+        mFlyTimeIndex   = 0;
+        mFlyTime        = convertFlyTime_secondsToLoopIterations(trip_duration_seconds, mTimeInterval);
     }
 
     public boolean isFlyMode() {
@@ -250,6 +252,7 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
 
         /*
         mCurrentLocPoint = new LocPoint(prefsState.trip_origin_lat,      prefsState.trip_origin_lon);
+        mOriginLocPoint  = new LocPoint(prefsState.trip_origin_lat,      prefsState.trip_origin_lon);
         mTargetLocPoint  = new LocPoint(prefsState.trip_destination_lat, prefsState.trip_destination_lon);
         mFlyTime         = prefsState.trip_duration;
         */
@@ -267,8 +270,9 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
         int remaining_trip_duration_seconds    = convertFlyTime_loopIterationsToSeconds(mFlyTime - mFlyTimeIndex, mTimeInterval);
         int remaining_trip_duration_iterations = convertFlyTime_secondsToLoopIterations(remaining_trip_duration_seconds, new_time_interval);
 
-        mFlyTime      = remaining_trip_duration_iterations;
-        mFlyTimeIndex = 0;
+        mOriginLocPoint = new LocPoint(mCurrentLocPoint);
+        mFlyTimeIndex   = 0;
+        mFlyTime        = remaining_trip_duration_iterations;
     }
 
     // =================================
