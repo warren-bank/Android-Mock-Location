@@ -156,15 +156,15 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
         mCurrentLocPoint = location;
     }
 
-    public void flyToLocation(LocPoint location, int flyTime) {
+    public void flyToLocation(LocPoint location, int trip_duration_seconds) {
         if (mIsStarted && mFixedJoystickEnabled) {
             hideJoyStick();
         }
 
         mTargetLocPoint = location;
-        mFlyTime = flyTime;
-        mFlyTimeIndex = 0;
-        mIsFlyMode = true;
+        mFlyTime        = convertFlyTime_secondsToLoopIterations(trip_duration_seconds, mTimeInterval);
+        mFlyTimeIndex   = 0;
+        mIsFlyMode      = true;
     }
 
     public boolean isFlyMode() {
@@ -217,9 +217,35 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
 
         SharedPrefsState prefsState = new SharedPrefsState(mContext, true);
 
-        mTimeInterval           = prefsState.time_interval;
-        mFixedCount             = prefsState.fixed_count;
-        mFixedJoystickEnabled   = prefsState.fixed_joystick_enabled;
+        if (mFixedCount != prefsState.fixed_count) {
+            mFixedCount = prefsState.fixed_count;
+
+            if (mIsStarted && !mIsFlyMode) {
+                mFixedCountRemaining = mFixedCount;
+            }
+        }
+
+        if (mTimeInterval != prefsState.time_interval) {
+            updateFlyTime(prefsState.time_interval);
+
+            mTimeInterval = prefsState.time_interval;
+
+            if ((mLocationThread != null) && mLocationThread.isAlive()) {
+                mLocationThread.updateTimeInterval(mTimeInterval);
+            }
+        }
+
+        if (mFixedJoystickEnabled != prefsState.fixed_joystick_enabled) {
+            mFixedJoystickEnabled = prefsState.fixed_joystick_enabled;
+
+            if (mIsStarted && !mIsFlyMode) {
+                if (mFixedJoystickEnabled)
+                    showJoyStick();
+                else
+                    hideJoyStick();
+            }
+        }
+
         mFixedJoystickIncrement = prefsState.fixed_joystick_increment;
 
         /*
@@ -227,17 +253,36 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
         mTargetLocPoint  = new LocPoint(prefsState.trip_destination_lat, prefsState.trip_destination_lon);
         mFlyTime         = prefsState.trip_duration;
         */
+    }
 
-        if (mIsStarted && !mIsFlyMode) {
-            if (mFixedJoystickEnabled)
-                showJoyStick();
-            else
-                hideJoyStick();
-        }
+    // =================================
+    // mFlyTime counts the number of loop iterations that occur @ mTimeInterval
+    // - when mTimeInterval changes, mFlyTime needs to be recalculated
+    // - call this method BEFORE mTimeInterval is changed
+    // =================================
+    private void updateFlyTime(int new_time_interval) {
+        if (!mIsStarted || !mIsFlyMode || (mFlyTimeIndex >= mFlyTime))
+            return;
 
-        if ((mLocationThread != null) && mLocationThread.isAlive()) {
-            mLocationThread.updateTimeInterval(mTimeInterval);
-        }
+        int remaining_trip_duration_seconds    = convertFlyTime_loopIterationsToSeconds(mFlyTime - mFlyTimeIndex, mTimeInterval);
+        int remaining_trip_duration_iterations = convertFlyTime_secondsToLoopIterations(remaining_trip_duration_seconds, new_time_interval);
+
+        mFlyTime      = remaining_trip_duration_iterations;
+        mFlyTimeIndex = 0;
+    }
+
+    // =================================
+    // static helpers
+    // =================================
+
+    private static int convertFlyTime_secondsToLoopIterations(int trip_duration_seconds, int time_interval) {
+        // (1 loop iteration / time_interval ms)(1000 ms / 1 sec)(trip_duration_seconds secs)
+        return (int) Math.ceil((1000f / time_interval) * trip_duration_seconds);
+    }
+
+    private static int convertFlyTime_loopIterationsToSeconds(int trip_duration_iterations, int time_interval) {
+        // (time_interval ms / 1 loop iteration)(1 sec / 1000 ms)(trip_duration_iterations loop iterations)
+        return (int) Math.ceil((time_interval / 1000f) * trip_duration_iterations);
     }
 
 }
