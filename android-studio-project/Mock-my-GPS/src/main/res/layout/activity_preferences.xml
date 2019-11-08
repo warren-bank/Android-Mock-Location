@@ -74,6 +74,24 @@
             android:layout_height="wrap_content"
             android:inputType="number|textMultiLine" />
 
+        <!-- heading_3 =========================================== -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PreferencesActivity_heading_3"
+            style="@style/section_heading_textview" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PreferencesActivity_field_5"
+            style="@style/input_label_textview" />
+
+        <CheckBox
+            android:id="@+id/input_trip_hold_destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
         <!-- buttons ============================================= -->
         <LinearLayout
             android:layout_marginTop="10dp"

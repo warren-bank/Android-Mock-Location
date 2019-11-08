@@ -105,6 +105,7 @@ __other enhancements__:
     * `0` holds the special meaning that the duration is indefinite and will continue until the "stop" button is pressed
   - ability to enable/disable "joystick"
   - ability to configure the increment value added to lat/lon values each time a "joystick" button is pressed
+  - ability to continue to mock the destination after a trip simulation completes
 
 - - - -
 

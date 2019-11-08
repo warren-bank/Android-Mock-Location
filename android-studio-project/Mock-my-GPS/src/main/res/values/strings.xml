@@ -72,9 +72,7 @@
 
     <string name="PreferencesActivity_heading_1">General</string>
     <string name="PreferencesActivity_heading_2">@string/MainActivity_tab_1_label</string>
-    <!--
     <string name="PreferencesActivity_heading_3">@string/MainActivity_tab_2_label</string>
-    -->
 
     <!-- heading_1 -->
     <string name="PreferencesActivity_field_1">Time (ms) between each update:</string>
@@ -83,6 +81,9 @@
     <string name="PreferencesActivity_field_2">Number of times to mock location:\n<small>(0 = continue until explicitly stopped)</small></string>
     <string name="PreferencesActivity_field_3">Show joystick:</string>
     <string name="PreferencesActivity_field_4">Joystick lat/lon increment:</string>
+
+    <!-- heading_3 -->
+    <string name="PreferencesActivity_field_5">Hold destination as fixed position:</string>
 
     <!-- common ============================================================ -->
 
@@ -101,6 +102,7 @@
     <!-- int           --><string name="pref_fixed_count">fixed_count</string>
     <!-- boolean       --><string name="pref_fixed_joystick_enabled">fixed_joystick_enabled</string>
     <!-- double        --><string name="pref_fixed_joystick_increment">fixed_joystick_increment</string>
+    <!-- boolean       --><string name="pref_trip_hold_destination">trip_hold_destination</string>
     <!-- double        --><string name="pref_trip_origin_lat">trip_origin_lat</string>
     <!-- double        --><string name="pref_trip_origin_lon">trip_origin_lon</string>
     <!-- double        --><string name="pref_trip_destination_lat">trip_destination_lat</string>

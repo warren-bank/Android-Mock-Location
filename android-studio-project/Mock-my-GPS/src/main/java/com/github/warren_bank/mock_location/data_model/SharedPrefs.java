@@ -355,6 +355,31 @@ public final class SharedPrefs {
         return getDouble(sharedPreferences, context, pref_key_id, defValue);
     }
 
+    // --------------------------------------------------------------------------------------------- putTripHoldDestination()
+
+    public static boolean putTripHoldDestination(Context context, boolean value) {
+        SharedPreferences.Editor editor = getSharedPreferencesEditor(context);
+        return putTripHoldDestination(editor, context, value, true);
+    }
+
+    public static boolean putTripHoldDestination(SharedPreferences.Editor editor, Context context, boolean value, boolean flush) {
+        int pref_key_id = R.string.pref_trip_hold_destination;
+        return putBoolean(editor, context, pref_key_id, value, flush);
+    }
+
+    // --------------------------------------------------------------------------------------------- getTripHoldDestination()
+
+    public static boolean getTripHoldDestination(Context context) {
+        SharedPreferences sharedPreferences = getSharedPreferences(context);
+        return getTripHoldDestination(sharedPreferences, context);
+    }
+
+    public static boolean getTripHoldDestination(SharedPreferences sharedPreferences, Context context) {
+        int pref_key_id = R.string.pref_trip_hold_destination;
+        boolean defValue = true;
+        return getBoolean(sharedPreferences, context, pref_key_id, defValue);
+    }
+
     // --------------------------------------------------------------------------------------------- putTripOriginLat()
 
     public static boolean putTripOriginLat(Context context, double value) {

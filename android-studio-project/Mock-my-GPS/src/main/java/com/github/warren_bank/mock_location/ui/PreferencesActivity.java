@@ -21,6 +21,7 @@ public class PreferencesActivity extends Activity {
     private TextView input_fixed_count;
     private CheckBox input_fixed_joystick_enabled;
     private TextView input_fixed_joystick_increment;
+    private CheckBox input_trip_hold_destination;
     private Button   button_cancel;
     private Button   button_save;
 
@@ -35,6 +36,7 @@ public class PreferencesActivity extends Activity {
         input_fixed_count              = (TextView) findViewById(R.id.input_fixed_count);
         input_fixed_joystick_enabled   = (CheckBox) findViewById(R.id.input_fixed_joystick_enabled);
         input_fixed_joystick_increment = (TextView) findViewById(R.id.input_fixed_joystick_increment);
+        input_trip_hold_destination    = (CheckBox) findViewById(R.id.input_trip_hold_destination);
         button_cancel                  = (Button)   findViewById(R.id.button_cancel);
         button_save                    = (Button)   findViewById(R.id.button_save);
 
@@ -54,6 +56,7 @@ public class PreferencesActivity extends Activity {
                 int fixed_count;
                 boolean fixed_joystick_enabled;
                 double fixed_joystick_increment;
+                boolean trip_hold_destination;
 
                 String text = null;
 
@@ -82,6 +85,7 @@ public class PreferencesActivity extends Activity {
                     showError(getString(R.string.error_number_format, text));
                     return;
                 }
+                trip_hold_destination = input_trip_hold_destination.isChecked();
 
                 SharedPrefsState modifiedState = new SharedPrefsState(
                     originalState.bookmarks,
@@ -91,6 +95,7 @@ public class PreferencesActivity extends Activity {
                     fixed_count,
                     fixed_joystick_enabled,
                     fixed_joystick_increment,
+                    trip_hold_destination,
 
                     originalState.trip_origin_lat,
                     originalState.trip_origin_lon,
@@ -127,6 +132,11 @@ public class PreferencesActivity extends Activity {
                         SharedPrefs.putFixedJoystickIncrement(editor, PreferencesActivity.this, fixed_joystick_increment, flush);
                     }
 
+                    mask = (1 << 5);
+                    if ((diff_fields & mask) == mask) {
+                        SharedPrefs.putTripHoldDestination(editor, PreferencesActivity.this, trip_hold_destination, flush);
+                    }
+
                     editor.commit();
 
                     LocationService.doSharedPrefsChange(PreferencesActivity.this, true);
@@ -142,6 +152,7 @@ public class PreferencesActivity extends Activity {
         input_fixed_count.setText(Integer.toString(originalState.fixed_count, 10));
         input_fixed_joystick_enabled.setChecked(originalState.fixed_joystick_enabled);
         input_fixed_joystick_increment.setText(Double.toString(originalState.fixed_joystick_increment));
+        input_trip_hold_destination.setChecked(originalState.trip_hold_destination);
     }
 
     private void showError(String text) {

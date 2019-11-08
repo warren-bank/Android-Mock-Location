@@ -29,6 +29,7 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
     private int mFixedCountRemaining;
     private boolean mFixedJoystickEnabled;
     private double mFixedJoystickIncrement;
+    private boolean mTripHoldDestination;
 
     private boolean mIsStarted = false;
     private boolean mIsFlyMode = false;
@@ -123,9 +124,8 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
         }
 
         if (mFlyTimeIndex >= mFlyTime) {
-            mFlyTimeIndex++;
             jumpToLocation(mTargetLocPoint);
-            mFixedCountRemaining = -1;
+            mFixedCountRemaining = (mTripHoldDestination) ? mFixedCount : -1;
             return new LocPoint(mCurrentLocPoint);
         }
         else {
@@ -249,6 +249,7 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
         }
 
         mFixedJoystickIncrement = prefsState.fixed_joystick_increment;
+        mTripHoldDestination    = prefsState.trip_hold_destination;
 
         /*
         mCurrentLocPoint = new LocPoint(prefsState.trip_origin_lat,      prefsState.trip_origin_lon);
