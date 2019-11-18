@@ -7,6 +7,7 @@ import com.github.warren_bank.mock_location.data_model.LocPoint;
 import com.github.warren_bank.mock_location.data_model.SharedPrefsState;
 import com.github.warren_bank.mock_location.event_hooks.IJoyStickPresenter;
 import com.github.warren_bank.mock_location.event_hooks.ISharedPrefsListener;
+import com.github.warren_bank.mock_location.security_model.RuntimePermissions;
 import com.github.warren_bank.mock_location.service.LocationService;
 import com.github.warren_bank.mock_location.ui.components.JoyStickView;
 
@@ -57,7 +58,7 @@ public class LocationThreadManager implements IJoyStickPresenter, ISharedPrefsLi
             mLocationThread.startThread();
         }
 
-        if (mFixedJoystickEnabled && !mIsFlyMode) {
+        if (mFixedJoystickEnabled && !mIsFlyMode && RuntimePermissions.canDrawOverlays(mContext)) {
             showJoyStick();
         }
 
