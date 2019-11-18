@@ -22,6 +22,7 @@
         android:gravity="center_vertical">
 
         <TextView android:id="@+id/notification_text_line1"
+            android:textAppearance="@style/NotificationTitle"
             android:layout_width="match_parent"
             android:layout_height="32dp"
             android:layout_margin="0dp"
@@ -29,6 +30,7 @@
             android:textSize="18sp"
             android:lines="1" />
         <TextView android:id="@+id/notification_text_line2"
+            android:textAppearance="@style/NotificationText"
             android:layout_width="match_parent"
             android:layout_height="32dp"
             android:layout_margin="0dp"

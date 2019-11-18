@@ -30,4 +30,7 @@
         <item name="android:padding">0dp</item>
     </style>
 
+    <style name="NotificationText"  parent="@android:style/TextAppearance.StatusBar.EventContent" />
+    <style name="NotificationTitle" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+
 </resources>
