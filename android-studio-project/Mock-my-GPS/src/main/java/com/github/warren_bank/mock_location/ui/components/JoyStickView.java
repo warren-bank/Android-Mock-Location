@@ -9,6 +9,7 @@ import com.github.warren_bank.mock_location.util.ScreenUtils;
 
 import android.content.Context;
 import android.graphics.PixelFormat;
+import android.os.Build;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -47,7 +48,7 @@ public class JoyStickView extends FrameLayout {
         mViewHeight = context.getResources().getDimensionPixelSize(R.dimen.joystick_height);
 
         mWindowLayoutParams = new WindowManager.LayoutParams();
-        mWindowLayoutParams.type = WindowManager.LayoutParams.TYPE_SYSTEM_ALERT;
+        mWindowLayoutParams.type = (Build.VERSION.SDK_INT >= 26) ? WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY : WindowManager.LayoutParams.TYPE_SYSTEM_ALERT;
         mWindowLayoutParams.format = PixelFormat.RGBA_8888;
         mWindowLayoutParams.flags = WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL
                 | WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE;
