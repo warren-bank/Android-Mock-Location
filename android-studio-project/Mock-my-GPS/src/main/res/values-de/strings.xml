@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Breitengrad, Längengrad">
+  <!ENTITY fixed_position "Feste Position">
+  <!ENTITY trip           "Trip">
+  <!ENTITY origin         "Ausgangpunkt">
+  <!ENTITY destination    "Ziel">
+]>
+
+<resources>
+    <string name="app_name">Mock my GPS</string>
+
+    <!-- GeoIntentActivity ================================================= -->
+
+    <string name="geo_intent_menu_title">Use Geo-Intent For:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Neuer Favorit</string>
+
+    <!-- MainActivity ====================================================== -->
+
+    <!-- extras -->
+    <string name="MainActivity_extra_current_tab_tag">current_tab_tag</string>
+    <string name="MainActivity_extra_toast">toast</string>
+
+    <!-- actionbar -->
+    <string name="MainActivity_actionbar_item_1">Favorit speichern</string>
+    <string name="MainActivity_actionbar_item_2">Favoriten</string>
+    <string name="MainActivity_actionbar_item_3">Optionen</string>
+
+    <string name="MainActivity_tab_1_tag">tag_1</string>
+    <string name="MainActivity_tab_2_tag">tag_2</string>
+
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Simulation</string>
+
+    <!-- conditional dialog: Save Bookmark -->
+    <string name="save_bookmark_menu_title">Speichern des Standorts:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+
+    <!-- tab_1: FixedPositionActivity ====================================== -->
+
+    <string name="FixedPositionActivity_field_1">Standort:\n<small>(&lat_lon;)</small></string>
+
+    <!-- tab_2: TripSimulationActivity ===================================== -->
+
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Dauer:\n<small>(seconds)</small></string>
+
+    <!-- BookmarksActivity ================================================= -->
+
+    <!-- extras -->
+    <string name="BookmarksActivity_extra_add_lat">lat</string>
+    <string name="BookmarksActivity_extra_add_lon">lon</string>
+
+    <!-- actionbar -->
+    <string name="BookmarksActivity_actionbar_item_1">Hinzufügen</string>
+
+    <string name="open_bookmark_menu_title">Favorit benutzen für:</string>
+    <string name="open_bookmark_option_1">@string/geo_intent_option_1</string>
+    <string name="open_bookmark_option_2">@string/geo_intent_option_2</string>
+    <string name="open_bookmark_option_3">@string/geo_intent_option_3</string>
+
+    <string name="edit_bookmark_field_1">Titel:</string>
+    <string name="edit_bookmark_field_2">Standort:\n<small>(&lat_lon;)</small></string>
+
+    <!-- PreferencesActivity =============================================== -->
+
+    <string name="PreferencesActivity_heading_1">Allgemein</string>
+    <string name="PreferencesActivity_heading_2">@string/MainActivity_tab_1_label</string>
+    <string name="PreferencesActivity_heading_3">@string/MainActivity_tab_2_label</string>
+
+    <!-- heading_1 -->
+    <string name="PreferencesActivity_field_1">Zeit (ms) zwischen jeder Aktualisierung:</string>
+
+    <!-- heading_2 -->
+    <string name="PreferencesActivity_field_2">Anzahl der Standortnachahmungen:\n<small>(0 = fortsetzen bis zum stoppen)</small></string>
+    <string name="PreferencesActivity_field_3">Joystick anzeigen:</string>
+    <string name="PreferencesActivity_field_4">Joystick Breiten-/Längen-Zuwachs:</string>
+
+    <!-- heading_3 -->
+    <string name="PreferencesActivity_field_5">Ziel als feste Position halten:</string>
+
+    <!-- common ============================================================ -->
+
+    <!-- buttons -->
+    <string name="label_button_start">START</string>
+    <string name="label_button_stop">STOPP</string>
+    <string name="label_button_update">AKTUALISIEREN</string>
+    <string name="label_button_cancel">ABBRECHEN</string>
+    <string name="label_button_delete">LÖSCHEN</string>
+    <string name="label_button_save">SPEICHERN</string>
+
+    <!-- shared preferences -->
+    <string name="prefs_filename">OPTIONEN</string>
+    <!-- string (json) --><string name="pref_bookmarks">bookmarks</string>
+    <!-- int      (ms) --><string name="pref_time_interval">time_interval</string>
+    <!-- int           --><string name="pref_fixed_count">fixed_count</string>
+    <!-- boolean       --><string name="pref_fixed_joystick_enabled">fixed_joystick_enabled</string>
+    <!-- double        --><string name="pref_fixed_joystick_increment">fixed_joystick_increment</string>
+    <!-- boolean       --><string name="pref_trip_hold_destination">trip_hold_destination</string>
+    <!-- double        --><string name="pref_trip_origin_lat">trip_origin_lat</string>
+    <!-- double        --><string name="pref_trip_origin_lon">trip_origin_lon</string>
+    <!-- double        --><string name="pref_trip_destination_lat">trip_destination_lat</string>
+    <!-- double        --><string name="pref_trip_destination_lon">trip_destination_lon</string>
+    <!-- int     (sec) --><string name="pref_trip_duration">trip_duration</string>
+
+    <!-- errors -->
+    <!-- copied from https://github.com/osmandapp/Osmand/blob/2.0.0/OsmAnd/res/values/strings.xml#L2760 -->
+    <string name="error_geo_intent">Geo-Intention \'%s\' konnte nicht analyisiert werden.</string>
+    <string name="error_number_format">Konnte Nummer \'%s\' nicht analyiseren.</string>
+    <string name="error_location_format">Konnte Standort \'%s\' nicht analyiseren.</string>
+    <string name="error_bookmarkitem_exists">Favorit \'%s\' existiert bereits.</string>
+    <string name="error_missing_required_value">Fehler: Erforderlicher Wert fehlt</string>
+    <string name="error_add_bookmarkitem">Fehler: Neuer Favorit konnte nicht hinzugefügt werden</string>
+
+    <!-- notifications -->
+    <string name="notification_service_ticker">Mock my GPS: in Betrieb</string>
+    <string name="notification_service_content_line1">Mock my GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Zum Öffnen klicken. Wegwischen zum Stoppen.</string>
+    -->
+    <string name="notification_service_content_line2">Zum Öffnen klicken.</string>
+
+</resources>
