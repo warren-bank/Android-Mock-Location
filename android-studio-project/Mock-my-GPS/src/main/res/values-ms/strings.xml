@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Latitud, Longitud">
+  <!ENTITY fixed_position "Kedudukan Tetap">
+  <!ENTITY trip           "Perjalanan">
+  <!ENTITY origin         "Asalan">
+  <!ENTITY destination    "Destinasi">
+]>
+<resources>
+    <string name="app_name">Mock saya GPS</string>
+    <string name="geo_intent_menu_title">Gunakan Geo-Inkhemah Untuk:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Tanda Buku Baru</string>
+    <string name="MainActivity_actionbar_item_1">Simpan Tanda Buku</string>
+    <string name="MainActivity_actionbar_item_2">Tanda Buku</string>
+    <string name="MainActivity_actionbar_item_3">Keutamaan</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Simulasi</string>
+    <string name="save_bookmark_menu_title">Lokasi untuk Simpan:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Lokasi:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Jangkamasa:\n<small>(Saat)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Tambah</string>
+    <string name="open_bookmark_menu_title">Guna Tanda Buku Untuk:</string>
+    <string name="edit_bookmark_field_1">Tajuk::</string>
+    <string name="edit_bookmark_field_2">Lokasi:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">&amp; Umum</string>
+    <string name="PreferencesActivity_field_1">Masa (ms) antara setiap kemaskini:</string>
+    <string name="PreferencesActivity_field_2">Bilangan kali ke lokasi mock:\n<small>(0 = teruskan sehingga explicitly dihentikan)</small></string>
+    <string name="PreferencesActivity_field_3">Papar pedal.:</string>
+    <string name="PreferencesActivity_field_4">Joystick lat/lon tokokan:</string>
+    <string name="PreferencesActivity_field_5">Kekalkan destinasi sebagai kedudukan tetap:</string>
+    <string name="label_button_start">START</string>
+    <string name="label_button_stop">STOP</string>
+    <string name="label_button_update">KEMASKINI</string>
+    <string name="label_button_cancel">BATAL</string>
+    <string name="label_button_delete">PADAM</string>
+    <string name="label_button_save">SIMPAN</string>
+    <string name="error_geo_intent">Tidak dapat hurai niat geo \'%s\'.</string>
+    <string name="error_number_format">Tidak dapat hurai nombor \'%s\'.</string>
+    <string name="error_location_format">Tidak dapat hurai lokasi \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Tanda buku sudah wujud \'%s\'.</string>
+    <string name="error_missing_required_value">Ralat: Nilai Yang Hilang Hilang</string>
+    <string name="error_add_bookmarkitem">Ralat: Tidak dapat tambah tanda buku baru</string>
+    <string name="notification_service_ticker">Mock saya GPS: berjalan</string>
+    <string name="notification_service_content_line1">Mock saya GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Klik untuk dibuka. Lepaskan untuk berhenti..</string>
+    -->
+    <string name="notification_service_content_line2">Klik untuk dibuka.</string>
+</resources>

@@ -1,0 +1,11 @@
+{
+  "name": "@warren-bank/Android-Mock-Location",
+  "private": true,
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "@warren-bank/translate-android-strings": "^1.7.3"
+  },
+  "scripts": {
+    "translate": "node_modules/.bin/translate-android-strings -i \"en\" -f \"android-studio-project/Mock-my-GPS/src/main/res/values/strings.xml\" -d \"android-studio-project/Mock-my-GPS/src/main/res\" -m --na --nc --nw -b \"GPS\" -b \"\\(ms\\)\" -b \"lat/lon\""
+  }
+}

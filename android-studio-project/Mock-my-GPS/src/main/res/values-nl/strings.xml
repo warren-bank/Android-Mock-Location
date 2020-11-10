@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Breedtegraad, Lengtegraad">
+  <!ENTITY fixed_position "Vaste positie">
+  <!ENTITY trip           "Reis">
+  <!ENTITY origin         "Oorsprong">
+  <!ENTITY destination    "Bestemming">
+]>
+<resources>
+    <string name="app_name">Spot met mijn GPS</string>
+    <string name="geo_intent_menu_title">Gebruik Geo-Intent Voor:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Nieuwe bladwijzer</string>
+    <string name="MainActivity_actionbar_item_1">Bladwijzer opslaan</string>
+    <string name="MainActivity_actionbar_item_2">Bladwijzers</string>
+    <string name="MainActivity_actionbar_item_3">Voorkeuren</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Simulatie</string>
+    <string name="save_bookmark_menu_title">Locatie om op te slaan:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Locatie:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Duur:\n<small>(seconden)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Toevoegen</string>
+    <string name="open_bookmark_menu_title">Bladwijzer gebruiken voor:</string>
+    <string name="edit_bookmark_field_1">Titel:</string>
+    <string name="edit_bookmark_field_2">Locatie:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Algemeen</string>
+    <string name="PreferencesActivity_field_1">Tijd (ms) tussen elke update:</string>
+    <string name="PreferencesActivity_field_2">Aantal keren dat de locatie wordt bespot:\n<small>(0 = doorgaan tot expliciet gestopt)</small></string>
+    <string name="PreferencesActivity_field_3">Joystick tonen:</string>
+    <string name="PreferencesActivity_field_4">Joystick lat/lon Verhoging:</string>
+    <string name="PreferencesActivity_field_5">Plaats van bestemming als vaste positie:</string>
+    <string name="label_button_start">STAREN</string>
+    <string name="label_button_stop">STOP</string>
+    <string name="label_button_update">BIJWERKEN</string>
+    <string name="label_button_cancel">ANNULEREN</string>
+    <string name="label_button_delete">WISSEN</string>
+    <string name="label_button_save">OPSLAAN</string>
+    <string name="error_geo_intent">Kon geo intent niet ontleden \'%s\'.</string>
+    <string name="error_number_format">Kon nummer niet verwerken \'%s\'.</string>
+    <string name="error_location_format">Kon locatie niet ontleden \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Bladwijzer bestaat al \'%s\'.</string>
+    <string name="error_missing_required_value">Fout: vereiste waarde ontbreekt</string>
+    <string name="error_add_bookmarkitem">Fout: Kan geen nieuwe bladwijzer toevoegen</string>
+    <string name="notification_service_ticker">Spot met mijn GPS: uitvoeren</string>
+    <string name="notification_service_content_line1">Spot met mijn GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Klik om te openen. Afwijzen om te stoppen.</string>
+    -->
+    <string name="notification_service_content_line2">Klik om te openen.</string>
+</resources>

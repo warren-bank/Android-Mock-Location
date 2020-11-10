@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "خط العرض ، خط الطول">
+  <!ENTITY fixed_position "موضع ثابت">
+  <!ENTITY trip           "رحلة">
+  <!ENTITY origin         "الأصل">
+  <!ENTITY destination    "الوجهة المستهدفة">
+]>
+<resources>
+    <string name="app_name">جورب بلدي GPS</string>
+    <string name="geo_intent_menu_title">استخدام Geجيو-Inخيمة ل ـ:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">علامة توقف جديدة</string>
+    <string name="MainActivity_actionbar_item_1">حفظ علامة التوقف</string>
+    <string name="MainActivity_actionbar_item_2">علامات التوقف</string>
+    <string name="MainActivity_actionbar_item_3">التفضيلات</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; المحاكاة</string>
+    <string name="save_bookmark_menu_title">المكان المطلوب حفظه:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">الموقع:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">المدة:\n<small>(ثواني)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">اضافة</string>
+    <string name="open_bookmark_menu_title">استخدام علامة توقف الى:</string>
+    <string name="edit_bookmark_field_1">العنوان:</string>
+    <string name="edit_bookmark_field_2">الموقع:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">عام</string>
+    <string name="PreferencesActivity_field_1">الوقت (ms) بين كل تعديل:</string>
+    <string name="PreferencesActivity_field_2">عدد المرات التي سيتم فيها محاكاة المكان:\n<small>(0 = استمر حتى يتم ايقافه بشكل صريح)</small></string>
+    <string name="PreferencesActivity_field_3">عرض عصا:</string>
+    <string name="PreferencesActivity_field_4">عصا lat/lon تزايد:</string>
+    <string name="PreferencesActivity_field_5">وجهة الايقاف المؤقت كموضع ثابت:</string>
+    <string name="label_button_start">بدء</string>
+    <string name="label_button_stop">! توقف</string>
+    <string name="label_button_update">تعديل</string>
+    <string name="label_button_cancel">الغاء</string>
+    <string name="label_button_delete">حذف</string>
+    <string name="label_button_save">حفظ</string>
+    <string name="error_geo_intent">لا يمكن اجراء تحليل لغوي للهدف الجغرافي \'%s\'.</string>
+    <string name="error_number_format">لا يمكن تحليل الرقم لغويا \'%s\'.</string>
+    <string name="error_location_format">لا يمكن تحليل المكان لغويا \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">علامة التوقف موجودة بالفعل \'%s\'.</string>
+    <string name="error_missing_required_value">خطأ : القيمة المطلوبة غير موجودة</string>
+    <string name="error_add_bookmarkitem">خطأ : لا يمكن اضافة علامة توقف جديدة</string>
+    <string name="notification_service_ticker">جورب بلدي GPS: جاري التشغيل</string>
+    <string name="notification_service_content_line1">جورب بلدي GPS</string>
+    <!--
+    <string name="notification_service_content_line2">اضغط للفتح. الغاء للايقاف.</string>
+    -->
+    <string name="notification_service_content_line2">اضغط للفتح.</string>
+</resources>

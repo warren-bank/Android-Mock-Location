@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "अक्षांश, देशान्तर">
+  <!ENTITY fixed_position "स्थिर स्थिति">
+  <!ENTITY trip           "ट्रिप">
+  <!ENTITY origin         "ओरिजिन">
+  <!ENTITY destination    "गन्तव्य">
+]>
+<resources>
+    <string name="app_name">Mock मेरो GPS</string>
+    <string name="geo_intent_menu_title">जीओ-इन्टेन्ट प्रयोग गर्नुहोस्:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">नयाँ पुस्तकचिनो</string>
+    <string name="MainActivity_actionbar_item_1">पुस्तकचिनो बचत गर्नुहोस्</string>
+    <string name="MainActivity_actionbar_item_2">पुस्तकचिनो</string>
+    <string name="MainActivity_actionbar_item_3">प्राथमिकताहरू</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; सिमुलेसन</string>
+    <string name="save_bookmark_menu_title">बचत गर्ने स्थान:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">स्थान:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">अवधि:\n<small>(सेकेन्ड)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">थप्नुहोस्</string>
+    <string name="open_bookmark_menu_title">यसका लागि पुस्तकचिनो प्रयोग गर्नुहोस्:</string>
+    <string name="edit_bookmark_field_1">शीर्षक:</string>
+    <string name="edit_bookmark_field_2">स्थान:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">साधारण</string>
+    <string name="PreferencesActivity_field_1">समय (ms) प्रत्येक अद्यावधिक बीच:</string>
+    <string name="PreferencesActivity_field_2">स्थान मोक गर्न पटक पटक:\n<small>(स्पष्ट रूपमा बन्द नभएसम्म 0 = जारी)</small></string>
+    <string name="PreferencesActivity_field_3">जोइस्टिक देखाउनुहोस्:</string>
+    <string name="PreferencesActivity_field_4">जोइस्टिक lat/lon वृद्धि:</string>
+    <string name="PreferencesActivity_field_5">स्थिर स्थितिको रूपमा गन्तव्य समाउनुहोस्:</string>
+    <string name="label_button_start">सुरु गर्नुहोस्</string>
+    <string name="label_button_stop">रोक्नुहोस्</string>
+    <string name="label_button_update">अद्यावधिक गर्नुहोस्</string>
+    <string name="label_button_cancel">रद्द गर्नुहोस्</string>
+    <string name="label_button_delete">मेट्नुहोस्</string>
+    <string name="label_button_save">बचत गर्नुहोस्</string>
+    <string name="error_geo_intent">Geo इन्टेन्ट पद वर्णन गर्न सकेन \'%s\'.</string>
+    <string name="error_number_format">सङ्ख्या पद वर्णन गर्न सकेन \'%s\'.</string>
+    <string name="error_location_format">स्थान पद वर्णन गर्न सकेन \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">पुस्तकचिनो पहिल्यै अवस्थित छ \'%s\'.</string>
+    <string name="error_missing_required_value">त्रुटि: हराएको आवश्यक मान</string>
+    <string name="error_add_bookmarkitem">त्रुटि: नयाँ पुस्तकचिनो थप्न सकेन</string>
+    <string name="notification_service_ticker">Mock मेरो GPS: चलिरहेको</string>
+    <string name="notification_service_content_line1">Mock मेरो GPS</string>
+    <!--
+    <string name="notification_service_content_line2">खोल्न क्लिक गर्नुहोस्. रोक्नका लागि बन्द गर्नुहोस्.</string>
+    -->
+    <string name="notification_service_content_line2">खोल्न क्लिक गर्नुहोस्.</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Γεωγραφικό πλάτος, μήκος">
+  <!ENTITY fixed_position "Σταθερή θέση">
+  <!ENTITY trip           "-Τριπ">
+  <!ENTITY origin         "Προέλευση:">
+  <!ENTITY destination    "Προορισμός:">
+]>
+<resources>
+    <string name="app_name">Mock μου GPS</string>
+    <string name="geo_intent_menu_title">Χρήση Geo-Intent:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Νέος σελιδοδείκτης</string>
+    <string name="MainActivity_actionbar_item_1">Αποθήκευση σελιδοδείκτη</string>
+    <string name="MainActivity_actionbar_item_2">Οι σελιδοδείκτες</string>
+    <string name="MainActivity_actionbar_item_3">Προτιμήσεις:</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; \')</string>
+    <string name="save_bookmark_menu_title">Θέση αποθήκευσης::</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Τοποθεσία::\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">\" Διάρκεια:\n<small>(δευτερόλεπτα.)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Προσθήκη</string>
+    <string name="open_bookmark_menu_title">Χρήση σελιδοδείκτη για::</string>
+    <string name="edit_bookmark_field_1">\' Τίτλος:</string>
+    <string name="edit_bookmark_field_2">Τοποθεσία::\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">-Γενικά</string>
+    <string name="PreferencesActivity_field_1">\' Ωρα (ms) μεταξύ κάθε ενημέρωσης::</string>
+    <string name="PreferencesActivity_field_2">Αριθμός ωρών σε εικονική θέση:\n<small>(0 = συνέχιση μέχρι να τερματιστεί ρητά)</small></string>
+    <string name="PreferencesActivity_field_3">Εμφάνιση χειριστηρίου:</string>
+    <string name="PreferencesActivity_field_4">Joystick lat/lon προσαύξηση::</string>
+    <string name="PreferencesActivity_field_5">Διατήρηση προορισμού ως σταθερή θέση.:</string>
+    <string name="label_button_start">\' ΡΧΙΣΕ</string>
+    <string name="label_button_stop">-ΣΤΑΜΆΤΑ.</string>
+    <string name="label_button_update">ΕΝΗΜΈΡΩΣΗ:</string>
+    <string name="label_button_cancel">ΑΚΎΡΩΣΗ.</string>
+    <string name="label_button_delete">ΔΙΑΓΡΑΦΉ:</string>
+    <string name="label_button_save">ΑΠΟΘΉΚΕΥΣΗ:</string>
+    <string name="error_geo_intent">Δεν ήταν δυνατή η ανάλυση της πρόθεση geo \'%s\'.</string>
+    <string name="error_number_format">Αδυναμία ανάλυσης του αριθμού \'%s\'.</string>
+    <string name="error_location_format">Αδυναμία ανάλυσης θέσης: \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Ο σελιδοδείκτης υπάρχει ήδη \'%s\'.</string>
+    <string name="error_missing_required_value">Σφάλμα: Λείπει η απαιτούμενη τιμή</string>
+    <string name="error_add_bookmarkitem">Σφάλμα: Δεν ήταν δυνατή η προσθήκη νέου σελιδοδείκτη</string>
+    <string name="notification_service_ticker">Mock μου GPS: εκτέλεση.</string>
+    <string name="notification_service_content_line1">Mock μου GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Πατήστε για άνοιγμα. Διακόψτε το..</string>
+    -->
+    <string name="notification_service_content_line2">Πατήστε για άνοιγμα..</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Latitude, Longitude">
+  <!ENTITY fixed_position "ચોક્કસ સ્થાન">
+  <!ENTITY trip           "ટ્રીપ">
+  <!ENTITY origin         "મૂળ">
+  <!ENTITY destination    "લક્ષ્ય">
+]>
+<resources>
+    <string name="app_name">મારી નાખો GPS</string>
+    <string name="geo_intent_menu_title">Geo-Intent માટે વાપરો:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">નવો બુકમાર્ક</string>
+    <string name="MainActivity_actionbar_item_1">બુકમાર્ક સંગ્રહો</string>
+    <string name="MainActivity_actionbar_item_2">બુકમાર્કો</string>
+    <string name="MainActivity_actionbar_item_3">પસંદગીઓ</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; સિમ્યુલેશન</string>
+    <string name="save_bookmark_menu_title">સંગ્રહ કરવા માટેનું સ્થાન:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">સ્થાન:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">સમયગાળાઓ:\n<small>(સેકંડ)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">ઉમેરો</string>
+    <string name="open_bookmark_menu_title">બુકમાર્ક માટે વાપરો:</string>
+    <string name="edit_bookmark_field_1">શીર્ષક:</string>
+    <string name="edit_bookmark_field_2">સ્થાન:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">સામાન્ય</string>
+    <string name="PreferencesActivity_field_1">સમય (ms) દરેક સુધારો વચ્ચે:</string>
+    <string name="PreferencesActivity_field_2">મોટું સ્થાન માટે સમયની સંખ્યા:\n<small>(0 = જ્યાં સુધી બાહ્ય રીતે બંધ થાય ત્યાં સુધી ચાલુ રાખો)</small></string>
+    <string name="PreferencesActivity_field_3">જોયસ્ટીક બતાવો:</string>
+    <string name="PreferencesActivity_field_4">જોયસ્ટીક lat/lon વધારો:</string>
+    <string name="PreferencesActivity_field_5">ચોક્કસ સ્થાન તરીકે લક્ષ્ય રાખો:</string>
+    <string name="label_button_start">શરૂઆત</string>
+    <string name="label_button_stop">બંધ કરો</string>
+    <string name="label_button_update">સુધારો</string>
+    <string name="label_button_cancel">રદ કરો</string>
+    <string name="label_button_delete">કાઢી નાંખો</string>
+    <string name="label_button_save">સંગ્રહ કરો</string>
+    <string name="error_geo_intent">Geo intent નું પદચ્છેદન કરી શક્યા નહિં \'%s\'.</string>
+    <string name="error_number_format">નંબર પદચ્છેદન કરી શક્યા નહિં \'%s\'.</string>
+    <string name="error_location_format">સ્થાનને પદચ્છેદન કરી શક્યા નહિં \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">બુકમાર્ક પહેલાથી જ હાજર છે \'%s\'.</string>
+    <string name="error_missing_required_value">ભૂલ: ગુમ થયેલ જરૂરી કિંમત</string>
+    <string name="error_add_bookmarkitem">ક્ષતિ: નવી બુકમાર્ક ઉમેરી શક્યા નહિં</string>
+    <string name="notification_service_ticker">મારી નાખો GPS: ચાલી રહ્યુ</string>
+    <string name="notification_service_content_line1">મારી નાખો GPS</string>
+    <!--
+    <string name="notification_service_content_line2">ખોલવા માટે ક્લિક કરો. બંધ કરવા માટે કાઢી નાંખો.</string>
+    -->
+    <string name="notification_service_content_line2">ખોલવા માટે ક્લિક કરો.</string>
+</resources>

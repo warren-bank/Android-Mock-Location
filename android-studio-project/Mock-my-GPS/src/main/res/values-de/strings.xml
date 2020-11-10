@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Breitengrad, Längengrad">
+  <!ENTITY fixed_position "Feste Position">
+  <!ENTITY trip           "Reise">
+  <!ENTITY origin         "Ursprung">
+  <!ENTITY destination    "Ziel">
+]>
+<resources>
+    <string name="app_name">Mock meine GPS</string>
+    <string name="geo_intent_menu_title">Verwenden Sie Geo-Intent für:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Neues Lesezeichen</string>
+    <string name="MainActivity_actionbar_item_1">Lesezeichen speichern</string>
+    <string name="MainActivity_actionbar_item_2">Lesezeichen</string>
+    <string name="MainActivity_actionbar_item_3">Vorgaben</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Simulation</string>
+    <string name="save_bookmark_menu_title">Zu speichernder Standort:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Position:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Dauer:\n<small>(Sekunden)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Hinzufügen</string>
+    <string name="open_bookmark_menu_title">Lesezeichen verwenden für:</string>
+    <string name="edit_bookmark_field_1">Titel:</string>
+    <string name="edit_bookmark_field_2">Position:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Allgemein</string>
+    <string name="PreferencesActivity_field_1">Zeit (ms) zwischen jedem Update:</string>
+    <string name="PreferencesActivity_field_2">Anzahl der Zeiten, an denen die Position des Mocks:\n<small>(0 = Fortsetzung bis explizit gestoppt)</small></string>
+    <string name="PreferencesActivity_field_3">Joystick anzeigen:</string>
+    <string name="PreferencesActivity_field_4">Joystick lat/lon Erhöhen:</string>
+    <string name="PreferencesActivity_field_5">Ziel als feste Position anhalten:</string>
+    <string name="label_button_start">START</string>
+    <string name="label_button_stop">STOPP</string>
+    <string name="label_button_update">UPDATE</string>
+    <string name="label_button_cancel">ABBRECHEN</string>
+    <string name="label_button_delete">LÖSCHEN</string>
+    <string name="label_button_save">SAVE</string>
+    <string name="error_geo_intent">Geo-Intent konnte nicht analysiert werden \'%s\'.</string>
+    <string name="error_number_format">Anzahl konnte nicht syntaktisch analysiert werden \'%s\'.</string>
+    <string name="error_location_format">Position konnte nicht syntaktisch analysiert werden \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Lesezeichen bereits vorhanden \'%s\'.</string>
+    <string name="error_missing_required_value">Fehler: Fehlender erforderlicher Wert</string>
+    <string name="error_add_bookmarkitem">Fehler: Neues Lesezeichen konnte nicht hinzugefügt werden</string>
+    <string name="notification_service_ticker">Mock meine GPS: Ausführen</string>
+    <string name="notification_service_content_line1">Mock meine GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Zum Öffnen klicken. Entlassung zum Stoppen.</string>
+    -->
+    <string name="notification_service_content_line2">Zum Öffnen klicken.</string>
+</resources>

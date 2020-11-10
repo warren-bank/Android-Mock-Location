@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "عرض بلد, طول بلد">
+  <!ENTITY fixed_position "فکسڈ پوجیشن">
+  <!ENTITY trip           "دورہ">
+  <!ENTITY origin         "مول">
+  <!ENTITY destination    "مقصود">
+]>
+<resources>
+    <string name="app_name">میاک میری GPS</string>
+    <string name="geo_intent_menu_title">جیو-انٹینٹ کا اپیوگ کریں:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">نیا بک مارک</string>
+    <string name="MainActivity_actionbar_item_1">بک مارک محفوظ کریں</string>
+    <string name="MainActivity_actionbar_item_2">بک مارکس</string>
+    <string name="MainActivity_actionbar_item_3">حوالہ جات</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; سمبل</string>
+    <string name="save_bookmark_menu_title">سیو کرنے کی جگہ:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">ستھانکرن:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">دورانیہ:\n<small>(سیکنڈ)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">شامل ہیں</string>
+    <string name="open_bookmark_menu_title">کے لئے Bookmark استعمال کریں:</string>
+    <string name="edit_bookmark_field_1">شیرشک:</string>
+    <string name="edit_bookmark_field_2">ستھانکرن:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">جنرل</string>
+    <string name="PreferencesActivity_field_1">وقت (ms) ہر اپڈیٹ کے درمیان:</string>
+    <string name="PreferencesActivity_field_2">فرضی مقام کے لئے اوقات کی تعداد:\n<small>(0 = مسلسل بند ہونے تک = 0 =)</small></string>
+    <string name="PreferencesActivity_field_3">شو joystick:</string>
+    <string name="PreferencesActivity_field_4">Joystick lat/lon اضافہ:</string>
+    <string name="PreferencesActivity_field_5">طے شدہ مقام کے تعین کی منزل:</string>
+    <string name="label_button_start">آغاز</string>
+    <string name="label_button_stop">بند کرو</string>
+    <string name="label_button_update">اپ ڈیٹ</string>
+    <string name="label_button_cancel">منسوخ</string>
+    <string name="label_button_delete">حذف</string>
+    <string name="label_button_save">بچائیں</string>
+    <string name="error_geo_intent">جیو کے ارادے سے پردہ نہیں کیا جا سکتا \'%s\'.</string>
+    <string name="error_number_format">تعداد زیادہ نہیں ہو سکتی \'%s\'.</string>
+    <string name="error_location_format">محل وقوع نہیں ہو سکا \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">بک مارک پہلے سے موجود ہے \'%s\'.</string>
+    <string name="error_missing_required_value">غلطي: مصاحي دوبارہ دریافت</string>
+    <string name="error_add_bookmarkitem">غلطي: نئے بکمارکلي کا اضافہ نہ ہوسکا</string>
+    <string name="notification_service_ticker">میاک میری GPS: چل رہا</string>
+    <string name="notification_service_content_line1">میاک میری GPS</string>
+    <!--
+    <string name="notification_service_content_line2">کھولنے کے لئے کلک کریں. روکنے کے لئے چھوٹ.</string>
+    -->
+    <string name="notification_service_content_line2">کھولنے کے لئے کلک.</string>
+</resources>
