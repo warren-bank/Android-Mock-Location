@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Latitudni, Longtù">
+  <!ENTITY fixed_position "Pożizzjoni fissa">
+  <!ENTITY trip           "Vjaġġ">
+  <!ENTITY origin         "Oriġini">
+  <!ENTITY destination    "Destinazzjoni">
+]>
+<resources>
+    <string name="app_name">Mock tiegħi GPS</string>
+    <string name="geo_intent_menu_title">Użu Geo-Intenzjoni Għal:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Bookmark</string>
+    <string name="MainActivity_actionbar_item_1">Save Bookmark</string>
+    <string name="MainActivity_actionbar_item_2">Bookmarks</string>
+    <string name="MainActivity_actionbar_item_3">Preferenzi</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Simulazzjoni</string>
+    <string name="save_bookmark_menu_title">Post li Save:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Post:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Tul:\n<small>(sekondi)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Żid</string>
+    <string name="open_bookmark_menu_title">Użu Bookmark:</string>
+    <string name="edit_bookmark_field_1">Titolu:</string>
+    <string name="edit_bookmark_field_2">Post:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Ġenerali</string>
+    <string name="PreferencesActivity_field_1">Ħin (ms) bejn kull aġġornament:</string>
+    <string name="PreferencesActivity_field_2">Numru ta \' drabi għal lokazzjoni finta:\n<small>(0 = tkompli sakemm titwaqqaf b\'mod espliċitu)</small></string>
+    <string name="PreferencesActivity_field_3">Uri joystick:</string>
+    <string name="PreferencesActivity_field_4">Joystick lat/lon żieda:</string>
+    <string name="PreferencesActivity_field_5">Żomm id-destinazzjoni bħala pożizzjoni fissa:</string>
+    <string name="label_button_start">START</string>
+    <string name="label_button_stop">STOP</string>
+    <string name="label_button_update">AĠĠORNAMENT</string>
+    <string name="label_button_cancel">CANCEL</string>
+    <string name="label_button_delete">ĦASSAR</string>
+    <string name="label_button_save">SAVE</string>
+    <string name="error_geo_intent">Ma setgħux parse ħsieb ġeografiku \'%s\'.</string>
+    <string name="error_number_format">Ma setax parse numru \'%s\'.</string>
+    <string name="error_location_format">Ma tistax tinsab fil-post \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Bookmark diġà teżisti \'%s\'.</string>
+    <string name="error_missing_required_value">Żball: Valur Meħtieġ Nieqes</string>
+    <string name="error_add_bookmarkitem">Żball: Ma setax iżid bookmark ġdida</string>
+    <string name="notification_service_ticker">Mock tiegħi GPS: taħdem</string>
+    <string name="notification_service_content_line1">Mock tiegħi GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Ikklikkja biex tiftaħ. Tkeċċi biex tieqaf.</string>
+    -->
+    <string name="notification_service_content_line2">Ikklikkja biex tiftaħ.</string>
+</resources>

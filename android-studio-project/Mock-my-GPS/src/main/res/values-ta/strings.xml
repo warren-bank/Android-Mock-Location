@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "நீள்வட்ட, நீள்சதுரம்">
+  <!ENTITY fixed_position "நிலையான நிலை">
+  <!ENTITY trip           "டிரிப்">
+  <!ENTITY origin         "மூலம்Name">
+  <!ENTITY destination    "சேமிப்பு">
+]>
+<resources>
+    <string name="app_name">Mock என் GPS</string>
+    <string name="geo_intent_menu_title">Geo-Intent யை பயன்படுத்து:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">புதிய புத்தகக்குறி</string>
+    <string name="MainActivity_actionbar_item_1">புத்தகக்குறியை சேமி</string>
+    <string name="MainActivity_actionbar_item_2">புத்தகக்குறிகள்</string>
+    <string name="MainActivity_actionbar_item_3">விருப்பங்கள்</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; ஒழுங்குபடுத்தல்</string>
+    <string name="save_bookmark_menu_title">சேமிப்பதற்கு இடம்:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">இடம்:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">கால அளவு:\n<small>(நொடிகள்)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">சேர்</string>
+    <string name="open_bookmark_menu_title">புத்தகக்குறியை பயன்படுத்து:</string>
+    <string name="edit_bookmark_field_1">தலைப்பு:</string>
+    <string name="edit_bookmark_field_2">இடம்:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">பொதுவான</string>
+    <string name="PreferencesActivity_field_1">நேரம் (ms) ஒவ்வொரு புதுப்புக்கும் இடையே:</string>
+    <string name="PreferencesActivity_field_2">இடத்தை எடுக்க வேண்டிய எண்ணிக்கை:\n<small>(0 = தொடர்ந்து தொடர்ந்து நிறுத்தும் வரை)</small></string>
+    <string name="PreferencesActivity_field_3">ஜாயிஸ்டிக் காட்டு:</string>
+    <string name="PreferencesActivity_field_4">ஜோஸ்டிக் lat/lon கூடுதல்:</string>
+    <string name="PreferencesActivity_field_5">நிலையான நிலையை அழுத்தவும்:</string>
+    <string name="label_button_start">ஆரம்பம்</string>
+    <string name="label_button_stop">நிறுத்து</string>
+    <string name="label_button_update">புதுப்பி</string>
+    <string name="label_button_cancel">ரத்து செய்</string>
+    <string name="label_button_delete">நீக்கு</string>
+    <string name="label_button_save">சேமி</string>
+    <string name="error_geo_intent">Geo intent parse முடியவில்லை \'%s\'.</string>
+    <string name="error_number_format">எண்களை பாக்க முடியவில்லை \'%s\'.</string>
+    <string name="error_location_format">இடத்தை பராமரிக்க முடியவில்லை \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">புத்தகக்குறி ஏற்கனவே உள்ளது \'%s\'.</string>
+    <string name="error_missing_required_value">பிழை: தேவையான மதிப்பு</string>
+    <string name="error_add_bookmarkitem">பிழை: புதிய புத்தகக்குறியை சேர்க்க முடியவில்லை</string>
+    <string name="notification_service_ticker">Mock என் GPS: இயங்குகிறது</string>
+    <string name="notification_service_content_line1">Mock என் GPS</string>
+    <!--
+    <string name="notification_service_content_line2">திறக்க க்ளிக் செய்யவும். நிறுத்த தவறு.</string>
+    -->
+    <string name="notification_service_content_line2">திறக்க க்ளிக் செய்யவும்.</string>
+</resources>

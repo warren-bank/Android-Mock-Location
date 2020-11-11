@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Latitude, Dug.">
+  <!ENTITY fixed_position "Položaj jedan.">
+  <!ENTITY trip           "Jedan put.">
+  <!ENTITY origin         "Jedno porijeklo.">
+  <!ENTITY destination    "Jedno odredište.">
+]>
+<resources>
+    <string name="app_name">Rugaj mi se. GPS</string>
+    <string name="geo_intent_menu_title">Jedan od njih je Geo-Intent.:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Nova knjiška oznaka</string>
+    <string name="MainActivity_actionbar_item_1">Spremi knjišku oznaku</string>
+    <string name="MainActivity_actionbar_item_2">Knjiške oznake</string>
+    <string name="MainActivity_actionbar_item_3">Jedna stvar.</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Simulacija</string>
+    <string name="save_bookmark_menu_title">Jedna lokacija za spas.:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Jedna lokacija.:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Jedno vrijeme.:\n<small>(sekundi.)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Jedan dodatak.</string>
+    <string name="open_bookmark_menu_title">Koristi knjišku oznaku za:</string>
+    <string name="edit_bookmark_field_1">Jedan naslov.:</string>
+    <string name="edit_bookmark_field_2">Jedna lokacija.:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Jedan general.</string>
+    <string name="PreferencesActivity_field_1">Vrijeme. (ms) između svakog ažuriranja:</string>
+    <string name="PreferencesActivity_field_2">Broj puta za izrugivanje.:\n<small>(0 = nastavak dok se izričito ne zaustavi)</small></string>
+    <string name="PreferencesActivity_field_3">Pokaži radost.:</string>
+    <string name="PreferencesActivity_field_4">Džojstik. lat/lon prirast:</string>
+    <string name="PreferencesActivity_field_5">Ostanite na mjestu kao što ste i rekli.:</string>
+    <string name="label_button_start">POČETAK.</string>
+    <string name="label_button_stop">PRESTANI!</string>
+    <string name="label_button_update">AŽURIRANJE</string>
+    <string name="label_button_cancel">OPOZIV</string>
+    <string name="label_button_delete">BRIŠI.</string>
+    <string name="label_button_save">Jedna stvar.</string>
+    <string name="error_geo_intent">Ne mogu da raščlanim geo namjere. \'%s\'.</string>
+    <string name="error_number_format">Ne mogu da raščlanim broj. \'%s\'.</string>
+    <string name="error_location_format">Ne mogu da raščlanim lokaciju. \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Knjiška oznaka već postoji. \'%s\'.</string>
+    <string name="error_missing_required_value">Jedna greška: nedostaje obavezna vrijednost</string>
+    <string name="error_add_bookmarkitem">Greška: nijesam mogao da dodam novu knjišku oznaku</string>
+    <string name="notification_service_ticker">Rugaj mi se. GPS: Bježi.</string>
+    <string name="notification_service_content_line1">Rugaj mi se. GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Jedan klik da se otvori. Odbacivanje optužbe.</string>
+    -->
+    <string name="notification_service_content_line2">Klikni na otvaranje..</string>
+</resources>

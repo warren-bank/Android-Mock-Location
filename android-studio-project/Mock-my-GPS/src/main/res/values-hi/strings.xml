@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "अक्षांश, देशांतर">
+  <!ENTITY fixed_position "स्थिर स्थिति">
+  <!ENTITY trip           "यात्रा">
+  <!ENTITY origin         "उत्पति">
+  <!ENTITY destination    "गंतव्य">
+]>
+<resources>
+    <string name="app_name">मेरी नकल करें GPS</string>
+    <string name="geo_intent_menu_title">के लिए जियो-इंटेंट का उपयोग करें:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">नया पसंदीदा</string>
+    <string name="MainActivity_actionbar_item_1">पसंद सहेजें</string>
+    <string name="MainActivity_actionbar_item_2">पसंद</string>
+    <string name="MainActivity_actionbar_item_3">वरीयताएं</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; अनुकार</string>
+    <string name="save_bookmark_menu_title">सहेजने के लिए स्थान:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">स्थान:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">अवधि:\n<small>(सेकेंड)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">जोड़ें</string>
+    <string name="open_bookmark_menu_title">के लिए पसंदीदा उपयोग करें:</string>
+    <string name="edit_bookmark_field_1">शीर्षक:</string>
+    <string name="edit_bookmark_field_2">स्थान:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">सामान्य</string>
+    <string name="PreferencesActivity_field_1">समय (ms) के प्रत्येक अद्यतन:</string>
+    <string name="PreferencesActivity_field_2">स्थान की नकल करने के लिए टाइम्स की संख्या:\n<small>(0 = चलता है जब तक स्पष्ट रूप से)</small></string>
+    <string name="PreferencesActivity_field_3">जॉयस्टिक दिखाएँ:</string>
+    <string name="PreferencesActivity_field_4">जॉयस्टिक lat/lon वेतनवृद्धि:</string>
+    <string name="PreferencesActivity_field_5">स्थिर स्थिति के रूप में गंतव्य होल्ड करें:</string>
+    <string name="label_button_start">अकला</string>
+    <string name="label_button_stop">बंद करना</string>
+    <string name="label_button_update">अद्यतन</string>
+    <string name="label_button_cancel">रद्द करें</string>
+    <string name="label_button_delete">मिटाएँ</string>
+    <string name="label_button_save">सहेजें</string>
+    <string name="error_geo_intent">भू-आशय का विश्लेषण नहीं कर सका \'%s\'.</string>
+    <string name="error_number_format">संख्या विश्लेषित नहीं कर सका \'%s\'.</string>
+    <string name="error_location_format">स्थान विश्लेषण नहीं कर सका \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">बुकमार्क पहले से मौजूद है \'%s\'.</string>
+    <string name="error_missing_required_value">त्रुटिः आवश्यक मान गुम है</string>
+    <string name="error_add_bookmarkitem">त्रुटि: नया पसंदीदा नहीं जोड़ सका</string>
+    <string name="notification_service_ticker">मेरी नकल करें GPS: दौड़ना</string>
+    <string name="notification_service_content_line1">मेरी नकल करें GPS</string>
+    <!--
+    <string name="notification_service_content_line2">खोलने के लिए क्लिक करें. रोकने के लिए खारिज करें.</string>
+    -->
+    <string name="notification_service_content_line2">खोलने के लिए क्लिक करें.</string>
+</resources>

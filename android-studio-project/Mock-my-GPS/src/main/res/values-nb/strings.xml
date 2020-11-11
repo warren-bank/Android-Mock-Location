@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Breddegrad, Lengdegrad">
+  <!ENTITY fixed_position "Fast stilling">
+  <!ENTITY trip           "Reise">
+  <!ENTITY origin         "Opprinnelse">
+  <!ENTITY destination    "Målavmål">
+]>
+<resources>
+    <string name="app_name">Mock min GPS</string>
+    <string name="geo_intent_menu_title">Bruk Geo-insteltet for:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Nytt bokmerke</string>
+    <string name="MainActivity_actionbar_item_1">Lagre bokmerke</string>
+    <string name="MainActivity_actionbar_item_2">Bokmerker</string>
+    <string name="MainActivity_actionbar_item_3">Preferanser</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Simulering</string>
+    <string name="save_bookmark_menu_title">Plassering til lagring:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Plassering:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Varighet:\n<small>(sekunder)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Tillegg</string>
+    <string name="open_bookmark_menu_title">Bruk bokmerke for:</string>
+    <string name="edit_bookmark_field_1">Tittel:</string>
+    <string name="edit_bookmark_field_2">Plassering:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Generelt</string>
+    <string name="PreferencesActivity_field_1">Tidspunkt (ms) mellom hver oppdatering:</string>
+    <string name="PreferencesActivity_field_2">Antall ganger til fiktiv plassering:\n<small>(0 = fortsette til eksplisitt stoppet)</small></string>
+    <string name="PreferencesActivity_field_3">Vis joystick:</string>
+    <string name="PreferencesActivity_field_4">Joystick lat/lon økning:</string>
+    <string name="PreferencesActivity_field_5">Hold reisemål som fast posisjon:</string>
+    <string name="label_button_start">START</string>
+    <string name="label_button_stop">STOPP</string>
+    <string name="label_button_update">OPPDATERING</string>
+    <string name="label_button_cancel">ANNULLER</string>
+    <string name="label_button_delete">SLETT</string>
+    <string name="label_button_save">LAGRING</string>
+    <string name="error_geo_intent">Kunne ikke analysere geo hensikt \'%s\'.</string>
+    <string name="error_number_format">Kunne ikke analysere tall \'%s\'.</string>
+    <string name="error_location_format">Kunne ikke analysere plassering \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Bokmerke finnes allerede \'%s\'.</string>
+    <string name="error_missing_required_value">Feil: Mangler nødvendig verdi</string>
+    <string name="error_add_bookmarkitem">Feil: Kunne ikke legge til nytt bokmerke</string>
+    <string name="notification_service_ticker">Mock min GPS: kjøre</string>
+    <string name="notification_service_content_line1">Mock min GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Klikk for å åpne. Avvis å stoppe.</string>
+    -->
+    <string name="notification_service_content_line2">Klikk for å åpne.</string>
+</resources>

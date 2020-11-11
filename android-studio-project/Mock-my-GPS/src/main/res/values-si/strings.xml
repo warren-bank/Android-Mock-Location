@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "දිගුව, දිගුව">
+  <!ENTITY fixed_position "ස්ථිතික ස්ථානය">
+  <!ENTITY trip           "ට්රිප්">
+  <!ENTITY origin         "ඔරිජින්">
+  <!ENTITY destination    "ගමනාන්තය">
+]>
+<resources>
+    <string name="app_name">Mock my GPS</string>
+    <string name="geo_intent_menu_title">Geo-Intent සඳහා භාවිත කරන්න:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">නව පිටු සලකුණු</string>
+    <string name="MainActivity_actionbar_item_1">පිටු සලකුණු සුරකින්න</string>
+    <string name="MainActivity_actionbar_item_2">පිටු සලකුණු</string>
+    <string name="MainActivity_actionbar_item_3">අභිප්රේත</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; සිමියුලකරණය</string>
+    <string name="save_bookmark_menu_title">සුරකින්න ස්ථානය:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">පිහිටුම:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">දුෂ්කරය:\n<small>(තත්පර)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">එක් කරන්න</string>
+    <string name="open_bookmark_menu_title">සඳහා පිටු සලකුණු භාවිත කරන්න:</string>
+    <string name="edit_bookmark_field_1">මාතෘකාව:</string>
+    <string name="edit_bookmark_field_2">පිහිටුම:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">සාමාන්ය</string>
+    <string name="PreferencesActivity_field_1">වේලාව (ms) එක් එක් යාවත්කාලීනය අතර:</string>
+    <string name="PreferencesActivity_field_2">පිහිටුම සඳහා වන වාර ගණන:\n<small>(0 = දිගටම ගවේශනය නතර කරන තුරු)</small></string>
+    <string name="PreferencesActivity_field_3">ජෝයිස්ටික් පෙන්වන්න:</string>
+    <string name="PreferencesActivity_field_4">Joystick lat/lon අතිශයින්ම:</string>
+    <string name="PreferencesActivity_field_5">ස්ථිර ස්ථානයක් ලෙස ස්ථානගත කරන්න:</string>
+    <string name="label_button_start">ආරම්භ කරන්න</string>
+    <string name="label_button_stop">නවත්වන්න</string>
+    <string name="label_button_update">යාවත්කාලීන කිරීම</string>
+    <string name="label_button_cancel">අවලංගු කරන්න</string>
+    <string name="label_button_delete">මකන්න</string>
+    <string name="label_button_save">සුරකින්න</string>
+    <string name="error_geo_intent">Geo intent parse නොහැකිවිය \'%s\'.</string>
+    <string name="error_number_format">අංකනය කල නොහැක \'%s\'.</string>
+    <string name="error_location_format">පිහිටීම පැරදවිය නොහැක \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">පිටු සලකුණු දැනටමත් පවතී \'%s\'.</string>
+    <string name="error_missing_required_value">දෝෂය: නැතිවූ ඉල්ලුම් අගය</string>
+    <string name="error_add_bookmarkitem">දෝෂය: නව පොත්සලකුණු එක් කල නොහැක</string>
+    <string name="notification_service_ticker">Mock my GPS: ධාවනය කරන්න</string>
+    <string name="notification_service_content_line1">Mock my GPS</string>
+    <!--
+    <string name="notification_service_content_line2">විවෘත කිරීමට ක්ලික් කරන්න. නවත්වන්න..</string>
+    -->
+    <string name="notification_service_content_line2">විවෘත කිරීමට ක්ලික් කරන්න.</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Zemljopisna širina, Longitude">
+  <!ENTITY fixed_position "Fiksni položaj">
+  <!ENTITY trip           "Trip.">
+  <!ENTITY origin         "Porijeklo">
+  <!ENTITY destination    "Odredište">
+]>
+<resources>
+    <string name="app_name">Ismija moje GPS</string>
+    <string name="geo_intent_menu_title">Koristite Geo-Inšator Za:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Nova knjiška oznaka</string>
+    <string name="MainActivity_actionbar_item_1">Spremi knjišku oznaku</string>
+    <string name="MainActivity_actionbar_item_2">Knjiške oznake</string>
+    <string name="MainActivity_actionbar_item_3">Preference</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Simulacija</string>
+    <string name="save_bookmark_menu_title">Lokacija za spremanje:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Lokacija:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Trajanje:\n<small>(sekunde)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Dodaj</string>
+    <string name="open_bookmark_menu_title">Koristi knjišku oznaku za:</string>
+    <string name="edit_bookmark_field_1">Naslov:</string>
+    <string name="edit_bookmark_field_2">Lokacija:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Općenito</string>
+    <string name="PreferencesActivity_field_1">Vrijeme (ms) između svakog ažuriranja:</string>
+    <string name="PreferencesActivity_field_2">Broj puta do ismija lokacije:\n<small>(0 = nastavi do izričitog zaustavnog)</small></string>
+    <string name="PreferencesActivity_field_3">Pokaži joystick:</string>
+    <string name="PreferencesActivity_field_4">Joystick. lat/lon povećanje:</string>
+    <string name="PreferencesActivity_field_5">Zadržavanje odredišta kao fiksne pozicije:</string>
+    <string name="label_button_start">POČETI</string>
+    <string name="label_button_stop">STOP!</string>
+    <string name="label_button_update">UPDATE</string>
+    <string name="label_button_cancel">OPOZIV</string>
+    <string name="label_button_delete">IZBRIŠI</string>
+    <string name="label_button_save">SPREMI</string>
+    <string name="error_geo_intent">Ne može se rastaviti geo namjeru \'%s\'.</string>
+    <string name="error_number_format">Ne može se parsirati broj \'%s\'.</string>
+    <string name="error_location_format">Ne može se parsirati lokacija \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Knjiška oznaka već postoji \'%s\'.</string>
+    <string name="error_missing_required_value">Greška: Nedostaje Potrebna Vrijednost</string>
+    <string name="error_add_bookmarkitem">Greška: Ne može se dodati nova knjiška oznaka</string>
+    <string name="notification_service_ticker">Ismija moje GPS: izvođenje</string>
+    <string name="notification_service_content_line1">Ismija moje GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Kliknite za otvaranje. Odbacivanje za zaustavljanje.</string>
+    -->
+    <string name="notification_service_content_line2">Kliknite za otvaranje.</string>
+</resources>

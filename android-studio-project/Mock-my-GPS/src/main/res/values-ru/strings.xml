@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Широта, Долгота">
+  <!ENTITY fixed_position "Фиксированная позиция">
+  <!ENTITY trip           "Поездка">
+  <!ENTITY origin         "Происхождение">
+  <!ENTITY destination    "Пункт назначения">
+]>
+<resources>
+    <string name="app_name">Поиздеваться GPS</string>
+    <string name="geo_intent_menu_title">Использовать Geo-Intent Для:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Создать закладку</string>
+    <string name="MainActivity_actionbar_item_1">Сохранить закладку</string>
+    <string name="MainActivity_actionbar_item_2">Закладки</string>
+    <string name="MainActivity_actionbar_item_3">Параметры</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Имитация</string>
+    <string name="save_bookmark_menu_title">Расположение для сохранения:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Расположение:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Продолжительность:\n<small>(сек.)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Добавить</string>
+    <string name="open_bookmark_menu_title">Использовать закладку для:</string>
+    <string name="edit_bookmark_field_1">Название:</string>
+    <string name="edit_bookmark_field_2">Расположение:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Общие сведения</string>
+    <string name="PreferencesActivity_field_1">Время (ms) между каждым обновлением:</string>
+    <string name="PreferencesActivity_field_2">Число раз для имитации положения:\n<small>(0 = продолжить до явного останова)</small></string>
+    <string name="PreferencesActivity_field_3">Показать джойстик:</string>
+    <string name="PreferencesActivity_field_4">Джойстик lat/lon приращение:</string>
+    <string name="PreferencesActivity_field_5">Удерживать назначение как фиксированное положение:</string>
+    <string name="label_button_start">НАЧАЛО</string>
+    <string name="label_button_stop">СТОП</string>
+    <string name="label_button_update">UPDATE</string>
+    <string name="label_button_cancel">ОТМЕНА</string>
+    <string name="label_button_delete">УДАЛИТЬ</string>
+    <string name="label_button_save">СОХРАНИТЬ</string>
+    <string name="error_geo_intent">Не удалось проанализировать намерение geo \'%s\'.</string>
+    <string name="error_number_format">Не удалось проанализировать число \'%s\'.</string>
+    <string name="error_location_format">Не удалось проанализировать расположение \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Закладка уже существует \'%s\'.</string>
+    <string name="error_missing_required_value">Ошибка: Отсутствует обязательное значение</string>
+    <string name="error_add_bookmarkitem">Ошибка: Не удалось добавить новую закладку</string>
+    <string name="notification_service_ticker">Поиздеваться GPS: запуск</string>
+    <string name="notification_service_content_line1">Поиздеваться GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Щелкните, чтобы открыть. Остановить для остановки.</string>
+    -->
+    <string name="notification_service_content_line2">Щелкните, чтобы открыть.</string>
+</resources>

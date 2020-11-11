@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "ละติจูด, ลองติจูด">
+  <!ENTITY fixed_position "ตำแหน่งคงที่">
+  <!ENTITY trip           "การเดินทาง">
+  <!ENTITY origin         "จุดกำเนิด">
+  <!ENTITY destination    "ปลายทาง">
+]>
+<resources>
+    <string name="app_name">หม่อน GPS</string>
+    <string name="geo_intent_menu_title">ใช้ Geo-Intent For:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">สร้างบุ๊กมาร์กใหม่</string>
+    <string name="MainActivity_actionbar_item_1">บันทึกบุ๊กมาร์ก</string>
+    <string name="MainActivity_actionbar_item_2">บุ๊กมาร์ก</string>
+    <string name="MainActivity_actionbar_item_3">ค่า preference</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; การจำลอง</string>
+    <string name="save_bookmark_menu_title">ตำแหน่งที่ต้องการบันทึก:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">ตำแหน่ง:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">ระยะเวลา:\n<small>(วินาที)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">เพิ่ม</string>
+    <string name="open_bookmark_menu_title">ใช้บุ๊กมาร์กสำหรับ:</string>
+    <string name="edit_bookmark_field_1">ชื่อเรื่อง:</string>
+    <string name="edit_bookmark_field_2">ตำแหน่ง:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">ทั่วไป</string>
+    <string name="PreferencesActivity_field_1">เวลา (ms) ระหว่างการอัพเดตแต่ละครั้ง:</string>
+    <string name="PreferencesActivity_field_2">จำนวนครั้งในการเยาะเย้ยตำแหน่ง:\n<small>(0 = ดำเนินการต่อจนกว่าจะหยุดอย่างชัดแจ้ง)</small></string>
+    <string name="PreferencesActivity_field_3">แสดงจอยสติ๊ก:</string>
+    <string name="PreferencesActivity_field_4">เครื่องหมายแสดง lat/lon ส่วนเพิ่ม:</string>
+    <string name="PreferencesActivity_field_5">หยุดปลายทางเป็นตำแหน่งที่คงที่:</string>
+    <string name="label_button_start">เริ่มต้น</string>
+    <string name="label_button_stop">หยุด</string>
+    <string name="label_button_update">อัพเดต</string>
+    <string name="label_button_cancel">ยกเลิก</string>
+    <string name="label_button_delete">ลบ</string>
+    <string name="label_button_save">บันทึก</string>
+    <string name="error_geo_intent">ไม่สามารถวิเคราะห์คำที่ตั้งทางภูมิศาสตร์ \'%s\'.</string>
+    <string name="error_number_format">ไม่สามารถวิเคราะห์หมายเลข \'%s\'.</string>
+    <string name="error_location_format">ไม่สามารถวิเคราะห์ตำแหน่ง \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">บุ๊กมาร์กมีอยู่แล้ว \'%s\'.</string>
+    <string name="error_missing_required_value">ข้อผิดพลาด: ค่าที่จำเป็นหายไป</string>
+    <string name="error_add_bookmarkitem">ข้อผิดพลาด: ไม่สามารถเพิ่มบุ๊กมาร์กใหม่</string>
+    <string name="notification_service_ticker">หม่อน GPS: การรัน</string>
+    <string name="notification_service_content_line1">หม่อน GPS</string>
+    <!--
+    <string name="notification_service_content_line2">คลิกเพื่อเปิด ยกเลิกเพื่อหยุด.</string>
+    -->
+    <string name="notification_service_content_line2">คลิกเพื่อเปิด.</string>
+</resources>

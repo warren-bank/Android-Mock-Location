@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Lintang, Longitude">
+  <!ENTITY fixed_position "Posisi Tetap">
+  <!ENTITY trip           "Perjalanan">
+  <!ENTITY origin         "Asal">
+  <!ENTITY destination    "Tujuan">
+]>
+<resources>
+    <string name="app_name">Ejek saja GPS</string>
+    <string name="geo_intent_menu_title">Gunakan Geo-Intent Untuk:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Markah Baru</string>
+    <string name="MainActivity_actionbar_item_1">Simpan Bookmark</string>
+    <string name="MainActivity_actionbar_item_2">Markah</string>
+    <string name="MainActivity_actionbar_item_3">Preferensi</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Simulasi</string>
+    <string name="save_bookmark_menu_title">Lokasi untuk disimpan:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Lokasi:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Durasi:\n<small>(detik)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Tambahkan</string>
+    <string name="open_bookmark_menu_title">Gunakan Bookmark Untuk:</string>
+    <string name="edit_bookmark_field_1">Judul:</string>
+    <string name="edit_bookmark_field_2">Lokasi:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Jeneral</string>
+    <string name="PreferencesActivity_field_1">Waktu (ms) antara setiap pembaruan:</string>
+    <string name="PreferencesActivity_field_2">Jumlah waktu untuk mengejek lokasi:\n<small>(0 = berlanjut sampai secara eksplisit berhenti)</small></string>
+    <string name="PreferencesActivity_field_3">Tampilkan joystick:</string>
+    <string name="PreferencesActivity_field_4">Joystick lat/lon peningkatan:</string>
+    <string name="PreferencesActivity_field_5">Tahan tujuan sebagai posisi tetap:</string>
+    <string name="label_button_start">START</string>
+    <string name="label_button_stop">STOP</string>
+    <string name="label_button_update">PEMUTAKHIRAN</string>
+    <string name="label_button_cancel">Batalkan</string>
+    <string name="label_button_delete">HAPUS</string>
+    <string name="label_button_save">SAVE</string>
+    <string name="error_geo_intent">Tidak dapat mengurai maksud geo \'%s\'.</string>
+    <string name="error_number_format">Tak bisa mengurai nomor \'%s\'.</string>
+    <string name="error_location_format">Tidak dapat mengurai lokasi \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Markah sudah ada \'%s\'.</string>
+    <string name="error_missing_required_value">Kesalahan: Kehilangan Nilai yang Diperlukan</string>
+    <string name="error_add_bookmarkitem">Kesalahan: Tidak dapat menambahkan markah baru</string>
+    <string name="notification_service_ticker">Ejek saja GPS: menjalankan</string>
+    <string name="notification_service_content_line1">Ejek saja GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Klik untuk membuka. Bubarkan untuk berhenti.</string>
+    -->
+    <string name="notification_service_content_line2">Klik untuk membuka.</string>
+</resources>

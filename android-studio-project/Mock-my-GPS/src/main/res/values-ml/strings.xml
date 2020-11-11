@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "à \'- à\', à \', à\', à \', à\', à \',">
+  <!ENTITY fixed_position "സ്ഥിരമായ സ്ഥാനം">
+  <!ENTITY trip           "ട്രിപ്പ്">
+  <!ENTITY origin         "ഉല്പത്തി">
+  <!ENTITY destination    "ലക്ഷ്യം">
+]>
+<resources>
+    <string name="app_name">എന്റെ GPS</string>
+    <string name="geo_intent_menu_title">ജിയോ-ഇൻടെന്റ് ഉപയോഗിക്കുക:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">പുതിയ ഓര്മ്മക്കുറിപ്പു്</string>
+    <string name="MainActivity_actionbar_item_1">ഓര്മ്മക്കുറിപ്പു് സൂക്ഷിക്കുക</string>
+    <string name="MainActivity_actionbar_item_2">ഓര്മ്മക്കുറിപ്പുകള്</string>
+    <string name="MainActivity_actionbar_item_3">മുന്ഗണനകള്</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; സിമുലേഷന്</string>
+    <string name="save_bookmark_menu_title">സൂക്ഷിക്കുവാനുള്ള സ്ഥലം:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">സ്ഥാനം:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">ദൂരം:\n<small>(സെക്കന്റുകള്)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">ചേര്ക്കുക</string>
+    <string name="open_bookmark_menu_title">ഓര്മ്മക്കുറിപ്പു് ഉപയോഗിയ്ക്കുക:</string>
+    <string name="edit_bookmark_field_1">തലക്കെട്ടു്:</string>
+    <string name="edit_bookmark_field_2">സ്ഥാനം:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">ജനറല്</string>
+    <string name="PreferencesActivity_field_1">സമയം (ms) ഓരോ പരിഷ്കളും തമ്മില്:</string>
+    <string name="PreferencesActivity_field_2">സ്ഥലം മോക് ചെയ്യാനുള്ള സമയങ്ങളുടെ എണ്ണം:\n<small>(തുടരുന്നതുവരെ 0 = തുടരുന്നു.)</small></string>
+    <string name="PreferencesActivity_field_3">ജോയിസ്റ്റിക്ക് കാണിക്കുക:</string>
+    <string name="PreferencesActivity_field_4">ജോയിസ്റ്റിക്ക് lat/lon വർദ്ധിപ്പിക്കുക:</string>
+    <string name="PreferencesActivity_field_5">നിശ്ചിത സ്ഥാനത്തായി ലക്ഷ്യസ്ഥാനം പിടിക്കുക:</string>
+    <string name="label_button_start">തുടങ്ങുക</string>
+    <string name="label_button_stop">നിര്ത്തുക</string>
+    <string name="label_button_update">പുതുക്കുക</string>
+    <string name="label_button_cancel">റദ്ദാക്കുക</string>
+    <string name="label_button_delete">നീക്കം ചെയ്യുക</string>
+    <string name="label_button_save">സൂക്ഷിക്കുക</string>
+    <string name="error_geo_intent">ജിയോ ഉദ്ദേശ്യം പാഴ്സ് ചെയ്യുവാന് സാധ്യമായില്ല \'%s\'.</string>
+    <string name="error_number_format">എണ്ണം പാഴ്സ് ചെയ്യുവാന് സാധ്യമായില്ല \'%s\'.</string>
+    <string name="error_location_format">സ്ഥാനം പാഴ്സ് ചെയ്യുവാന് സാധ്യമായില്ല \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">ഓര്മ്മക്കുറിപ്പു് നിലവിലുണ്ടു് \'%s\'.</string>
+    <string name="error_missing_required_value">പിശക്: ലഭ്യമായ ആവശ്യമായ മൂല്ല്യം</string>
+    <string name="error_add_bookmarkitem">പിശകു്: പുതിയ പുസ്തക അടയാളം ചേര്ക്കുവാന് സാധ്യമായില്ല</string>
+    <string name="notification_service_ticker">എന്റെ GPS: പ്രവര്ത്തിപ്പിക്കുന്നു</string>
+    <string name="notification_service_content_line1">എന്റെ GPS</string>
+    <!--
+    <string name="notification_service_content_line2">തുറക്കാന് ഞൊട്ടുക. നിര്ത്താന് പോകുന്നു.</string>
+    -->
+    <string name="notification_service_content_line2">തുറക്കാന് ഞൊട്ടുക.</string>
+</resources>

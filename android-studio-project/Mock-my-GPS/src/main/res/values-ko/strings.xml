@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "위도, 경도 (경도)">
+  <!ENTITY fixed_position "고정 위치">
+  <!ENTITY trip           "트립">
+  <!ENTITY origin         "원점">
+  <!ENTITY destination    "대상">
+]>
+<resources>
+    <string name="app_name">내가 하고 있는 GPS</string>
+    <string name="geo_intent_menu_title">지역용으로 사용하기:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">새 책갈피</string>
+    <string name="MainActivity_actionbar_item_1">책갈피 저장하기</string>
+    <string name="MainActivity_actionbar_item_2">책갈피</string>
+    <string name="MainActivity_actionbar_item_3">환경 설정</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; 시뮬레이션</string>
+    <string name="save_bookmark_menu_title">저장 위치:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">위치:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">지속 기간:\n<small>(초)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">추가</string>
+    <string name="open_bookmark_menu_title">책갈피 사용하기:</string>
+    <string name="edit_bookmark_field_1">제목:</string>
+    <string name="edit_bookmark_field_2">위치:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">일반</string>
+    <string name="PreferencesActivity_field_1">시간 (ms) 각 갱신 사이에:</string>
+    <string name="PreferencesActivity_field_2">모조 위치에 대한 횟수:\n<small>(0 = 명시적으로 중지될 때까지 계속)</small></string>
+    <string name="PreferencesActivity_field_3">조이스틱 쇼:</string>
+    <string name="PreferencesActivity_field_4">조이스틱 lat/lon 늘리기:</string>
+    <string name="PreferencesActivity_field_5">대상을 고정 위치로 보류:</string>
+    <string name="label_button_start">시작</string>
+    <string name="label_button_stop">중지</string>
+    <string name="label_button_update">업데이트</string>
+    <string name="label_button_cancel">취소</string>
+    <string name="label_button_delete">삭제</string>
+    <string name="label_button_save">저장</string>
+    <string name="error_geo_intent">geo 의도를 구문 분석할 수 없음 \'%s\'.</string>
+    <string name="error_number_format">숫자를 구문 분석할 수 없음 \'%s\'.</string>
+    <string name="error_location_format">위치를 구문 분석할 수 없음 \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">책갈피가 이미 있음 \'%s\'.</string>
+    <string name="error_missing_required_value">오류: 필수 값이 누락되었습니다.</string>
+    <string name="error_add_bookmarkitem">오류: 새 책갈피를 추가할 수 없음</string>
+    <string name="notification_service_ticker">내가 하고 있는 GPS: 실행하는</string>
+    <string name="notification_service_content_line1">내가 하고 있는 GPS</string>
+    <!--
+    <string name="notification_service_content_line2">클릭하면 클릭한다. 멈추고 싶지 않다.</string>
+    -->
+    <string name="notification_service_content_line2">클릭하여 열기.</string>
+</resources>

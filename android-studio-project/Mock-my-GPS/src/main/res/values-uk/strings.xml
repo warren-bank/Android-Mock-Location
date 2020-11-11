@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Широта, довгота">
+  <!ENTITY fixed_position "Фіксована позиція">
+  <!ENTITY trip           "Поїздка">
+  <!ENTITY origin         "Походження">
+  <!ENTITY destination    "Призначення">
+]>
+<resources>
+    <string name="app_name">Смій мій GPS</string>
+    <string name="geo_intent_menu_title">Використовувати Geo-Intent для:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Створити закладку</string>
+    <string name="MainActivity_actionbar_item_1">Зберегти закладку</string>
+    <string name="MainActivity_actionbar_item_2">Закладки</string>
+    <string name="MainActivity_actionbar_item_3">Параметри</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Симуляція</string>
+    <string name="save_bookmark_menu_title">Місце для збереження:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Місце:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Тривалість:\n<small>(секунд)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Додати</string>
+    <string name="open_bookmark_menu_title">Використовувати закладку для:</string>
+    <string name="edit_bookmark_field_1">Заголовок:</string>
+    <string name="edit_bookmark_field_2">Місце:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Загальний</string>
+    <string name="PreferencesActivity_field_1">Час (ms) між кожним оновленням:</string>
+    <string name="PreferencesActivity_field_2">Кількість разів, що слід насміювати:\n<small>(0 = продовжити до явного зупинки)</small></string>
+    <string name="PreferencesActivity_field_3">Показати джойстик:</string>
+    <string name="PreferencesActivity_field_4">Джойстик lat/lon Приріст:</string>
+    <string name="PreferencesActivity_field_5">Утримувати місце призначення як фіксовану позицію:</string>
+    <string name="label_button_start">ПОЧАТИ</string>
+    <string name="label_button_stop">STOP</string>
+    <string name="label_button_update">UPDATE</string>
+    <string name="label_button_cancel">СКАСУВАТИ</string>
+    <string name="label_button_delete">ВИЛУЧИТИ</string>
+    <string name="label_button_save">ЗБЕРЕГТИ</string>
+    <string name="error_geo_intent">Не вдалося обробити мету geo \'%s\'.</string>
+    <string name="error_number_format">Не вдалося розібрати номер \'%s\'.</string>
+    <string name="error_location_format">Не вдалося проаналізувати розташування \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Закладка вже існує \'%s\'.</string>
+    <string name="error_missing_required_value">Помилка: Не задано значення, що</string>
+    <string name="error_add_bookmarkitem">Помилка: Не вдалося додати нову закладку</string>
+    <string name="notification_service_ticker">Смій мій GPS: запущено</string>
+    <string name="notification_service_content_line1">Смій мій GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Клацніть, щоб відкрити. Вимкнути зупинку.</string>
+    -->
+    <string name="notification_service_content_line2">Клацніть, щоб відкрити.</string>
+</resources>
