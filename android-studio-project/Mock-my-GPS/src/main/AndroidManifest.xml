@@ -12,6 +12,9 @@
     <!-- required for "joystick" -->
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
+    <!-- required for "LocationService" on API 28+ -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
     <application
         android:allowBackup="false"
         android:icon="@drawable/launcher"
