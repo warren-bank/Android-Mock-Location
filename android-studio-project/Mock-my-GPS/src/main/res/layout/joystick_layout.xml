@@ -21,6 +21,10 @@
             android:src="@drawable/joystickbutton_left"
             style="@style/joystick_button" />
 
+        <ImageView
+            android:src="@drawable/joystick_draghandle"
+            style="@style/joystick_draghandle" />
+
         <com.github.warren_bank.mock_location.ui.components.JoyStickButton
             android:id="@+id/btn_right"
             android:src="@drawable/joystickbutton_right"

@@ -8,8 +8,10 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
-    <dimen name="joystick_width">96dp</dimen>    <!-- (48dp)(2) -->
-    <dimen name="joystick_height">144dp</dimen>  <!-- (48dp)(3) -->
+    <dimen name="joystick_width">120dp</dimen>   <!-- (48dp)(2) + (24dp) -->
+    <dimen name="joystick_height">144dp</dimen>  <!-- (48dp)(3)          -->
     <dimen name="joystick_button_width">48dp</dimen>
     <dimen name="joystick_button_height">48dp</dimen>
+    <dimen name="joystick_draghandle_width">24dp</dimen>
+    <dimen name="joystick_draghandle_height">48dp</dimen>
 </resources>

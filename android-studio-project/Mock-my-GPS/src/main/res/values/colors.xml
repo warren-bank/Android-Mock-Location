@@ -10,7 +10,8 @@
     <color name="input_label_textview_background">#999999</color>
     <color name="input_label_textview_color">#FFFFFF</color>
 
-    <color name="joystick_button_background">#E2EEF6</color>
     <color name="joystick_button_background_none">@android:color/transparent</color>
+    <color name="joystick_button_background">#CCE2EEF6</color>
+    <color name="joystick_draghandle_background">#B3E2EEF6</color>
 
 </resources>
