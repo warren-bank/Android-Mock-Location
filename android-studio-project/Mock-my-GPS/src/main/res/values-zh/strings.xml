@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE resources [
-  <!ENTITY lat_lon        "纬度，经度">
+  <!ENTITY lat_lon        "纬度, 经度">
   <!ENTITY fixed_position "固定位置">
-  <!ENTITY trip           "旅行">
-  <!ENTITY origin         "起源">
+  <!ENTITY trip           "行程">
+  <!ENTITY origin         "起点">
   <!ENTITY destination    "目的地">
 ]>
 <resources>
     <string name="app_name">模拟我的 GPS</string>
-    <string name="geo_intent_menu_title">使用地理位置 - 意向:</string>
+    <string name="geo_intent_menu_title">地理意图(Geo-Intent)使用对象：</string>
     <string name="geo_intent_option_1">&fixed_position;</string>
     <string name="geo_intent_option_2">&trip; - &origin;</string>
     <string name="geo_intent_option_3">&trip; - &destination;</string>
-    <string name="geo_intent_option_4">新建书签</string>
+    <string name="geo_intent_option_4">新书签</string>
     <string name="MainActivity_actionbar_item_1">保存书签</string>
     <string name="MainActivity_actionbar_item_2">书签</string>
     <string name="MainActivity_actionbar_item_3">首选项</string>
     <string name="MainActivity_tab_1_label">&fixed_position;</string>
     <string name="MainActivity_tab_2_label">&trip; 模拟</string>
-    <string name="save_bookmark_menu_title">要保存的位置:</string>
+    <string name="save_bookmark_menu_title">要保存的位置：</string>
     <string name="save_bookmark_option_1">&origin;</string>
     <string name="save_bookmark_option_2">&destination;</string>
-    <string name="FixedPositionActivity_field_1">地点:\n<small>(&lat_lon;)</small></string>
+    <string name="FixedPositionActivity_field_1">位置：\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
-    <string name="TripSimulationActivity_field_3">持续时间:\n<small>(秒)</small></string>
-    <string name="BookmarksActivity_actionbar_item_1">加添</string>
-    <string name="open_bookmark_menu_title">使用书签:</string>
-    <string name="edit_bookmark_field_1">标题:</string>
-    <string name="edit_bookmark_field_2">地点:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">持续时间：\n<small>(秒)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">添加</string>
+    <string name="open_bookmark_menu_title">书签使用对象：</string>
+    <string name="edit_bookmark_field_1">标题：</string>
+    <string name="edit_bookmark_field_2">位置：\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">一般</string>
-    <string name="PreferencesActivity_field_1">时间 (ms) 每次更新之间:</string>
-    <string name="PreferencesActivity_field_2">模拟位置的次数:\n<small>(0 = 继续直到显式停止)</small></string>
-    <string name="PreferencesActivity_field_3">显示操纵杆:</string>
-    <string name="PreferencesActivity_field_4">操纵杆 lat/lon 增量:</string>
-    <string name="PreferencesActivity_field_5">将目标定位为固定位置:</string>
-    <string name="label_button_start">START</string>
+    <string name="PreferencesActivity_field_1">更新间隔(毫秒)：</string>
+    <string name="PreferencesActivity_field_2">模拟位置的次数：\n<small>(0 = 在明确停止前一直继续)</small></string>
+    <string name="PreferencesActivity_field_3">显示操纵杆：</string>
+    <string name="PreferencesActivity_field_4">操纵杆纬度/经度增量：</string>
+    <string name="PreferencesActivity_field_5">保持目的地为固定位置：</string>
+    <string name="label_button_start">启动</string>
     <string name="label_button_stop">停止</string>
     <string name="label_button_update">更新</string>
     <string name="label_button_cancel">取消</string>
     <string name="label_button_delete">删除</string>
-    <string name="label_button_save">Save</string>
-    <string name="error_geo_intent">无法解析地理位置 \'%s\'.</string>
+    <string name="label_button_save">保存</string>
+    <string name="error_geo_intent">无法解析地理意图 \'%s\'.</string>
     <string name="error_number_format">无法解析数字 \'%s\'.</string>
     <string name="error_location_format">无法解析位置 \'%s\'.</string>
-    <string name="error_bookmarkitem_exists">书签已存在 \'%s\'.</string>
-    <string name="error_missing_required_value">错误: 缺少必需值</string>
-    <string name="error_add_bookmarkitem">错误: 无法添加新书签</string>
-    <string name="notification_service_ticker">模拟我的 GPS: 奔跑</string>
+    <string name="error_bookmarkitem_exists">书签已经存在 \'%s\'.</string>
+    <string name="error_missing_required_value">错误： 缺少所需的值</string>
+    <string name="error_add_bookmarkitem">错误：无法添加新书签</string>
+    <string name="notification_service_ticker">模拟我的 GPS： 运行中</string>
     <string name="notification_service_content_line1">模拟我的 GPS</string>
     <!--
-    <string name="notification_service_content_line2">单击以打开。 拒绝停止.</string>
+    <string name="notification_service_content_line2">单击打开。撤销停止。</string>
     -->
-    <string name="notification_service_content_line2">单击以打开.</string>
+    <string name="notification_service_content_line2">单击打开。</string>
 </resources>
