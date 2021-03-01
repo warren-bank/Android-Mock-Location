@@ -104,8 +104,8 @@
     <string name="notification_service_ticker">模拟我的 GPS： 运行中</string>
     <string name="notification_service_content_line1">模拟我的 GPS</string>
     <!--
-    <string name="notification_service_content_line2">Click to open. Dismiss to stop.</string>
+    <string name="notification_service_content_line2">单击打开。撤销停止。</string>
     -->
-    <string name="notification_service_content_line2">点击打开。</string>
+    <string name="notification_service_content_line2">单击打开。</string>
 
 </resources>
