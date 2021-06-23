@@ -21,7 +21,7 @@ combination of:
 #### Notes
 
 * minimum supported version of Android:
-  * Android 1.0 (API level 1)
+  * Android 1.5 (API level 3)
 
 - - - -
 
