@@ -1,6 +1,9 @@
 # Node.js dev-dependencies
 node_modules/
 
+# debug output from Android string translator
+android-studio-project/Mock-my-GPS/src/withAllLanguageTranslations/res/debug.en.txt
+
 # Android generated
 bin
 gen

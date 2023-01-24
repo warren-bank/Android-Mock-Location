@@ -3,9 +3,10 @@
   "private": true,
   "license": "GPL-2.0",
   "devDependencies": {
-    "@warren-bank/translate-android-strings": "^1.7.3"
+    "@warren-bank/translate-android-strings": "^1.9.2"
   },
   "scripts": {
-    "translate": "node_modules/.bin/translate-android-strings -i \"en\" -f \"android-studio-project/Mock-my-GPS/src/main/res/values/strings.xml\" -d \"android-studio-project/Mock-my-GPS/src/main/res\" -m --na --nc --nw -b \"GPS\" -b \"\\(ms\\)\" -b \"lat/lon\""
+    "translate":       "translate-android-strings -i \"en\" -f \"android-studio-project/Mock-my-GPS/src/main/res/values/strings.xml\" -d \"android-studio-project/Mock-my-GPS/src/withAllLanguageTranslations/res\" -m --na --nc --nw -b \"(?:GPS|\\(ms\\)|lat/lon)\"",
+    "translate:debug": "npm run translate -- -o \"en\" --debug"
   }
 }

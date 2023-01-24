@@ -21,23 +21,39 @@ android {
         archivesBaseName += "-$versionName"
     }
 
-    lintOptions {
-        disable 'MissingTranslation'
-        abortOnError true
+    flavorDimensions "languageResources"
+
+    productFlavors {
+        withAllLanguageTranslations {
+            dimension "languageResources"
+        }
+        english {
+            dimension "languageResources"
+        }
     }
 
     buildTypes {
         release {
+            debuggable      false
+            jniDebuggable   false
+            minifyEnabled   true
             shrinkResources true
-            minifyEnabled true
             proguardFiles = [
                 "proguard-rules.txt",
                 getDefaultProguardFile('proguard-android.txt')
             ]
         }
         debug {
-            jniDebuggable = true
+            debuggable      true
+            jniDebuggable   true
+            minifyEnabled   false
+            shrinkResources false
         }
+    }
+
+    lintOptions {
+        disable 'MissingTranslation'
+        abortOnError true
     }
 }
 
