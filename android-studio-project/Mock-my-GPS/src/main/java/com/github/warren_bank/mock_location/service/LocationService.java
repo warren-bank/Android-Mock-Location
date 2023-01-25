@@ -114,10 +114,22 @@ public class LocationService extends Service {
     }
 
     private Notification getNotification() {
-        Notification notification  = (Build.VERSION.SDK_INT >= 26)
-            ? (new Notification.Builder(/* context= */ LocationService.this, /* channelId= */ getNotificationChannelId())).build()
-            :  new Notification()
-        ;
+        Notification notification;
+
+        if (Build.VERSION.SDK_INT >= 26) {
+            Notification.Builder builder = new Notification.Builder(/* context= */ LocationService.this, /* channelId= */ getNotificationChannelId());
+
+            if (Build.VERSION.SDK_INT >= 31) {
+                builder.setContentTitle(getString(R.string.notification_service_content_line1));
+                builder.setContentText (getString(R.string.notification_service_content_line2));
+                builder.setForegroundServiceBehavior(Notification.FOREGROUND_SERVICE_IMMEDIATE);
+            }
+
+            notification = builder.build();
+        }
+        else {
+            notification = new Notification();
+        }
 
         notification.when          = System.currentTimeMillis();
         notification.flags         = 0;
@@ -143,7 +155,13 @@ public class LocationService extends Service {
         contentView.setImageViewResource(R.id.notification_icon, R.drawable.launcher);
         contentView.setTextViewText(R.id.notification_text_line1, getString(R.string.notification_service_content_line1));
         contentView.setTextViewText(R.id.notification_text_line2, getString(R.string.notification_service_content_line2));
-        notification.contentView   = contentView;
+
+        if (Build.VERSION.SDK_INT < 31)
+            notification.contentView = contentView;
+        if (Build.VERSION.SDK_INT >= 16)
+            notification.bigContentView = contentView;
+        if (Build.VERSION.SDK_INT >= 21)
+            notification.headsUpContentView = contentView;
 
         return notification;
     }
@@ -158,13 +176,21 @@ public class LocationService extends Service {
         ;
         intent.putExtra(getString(R.string.MainActivity_extra_current_tab_tag), current_tab_tag);
 
-        return PendingIntent.getActivity(LocationService.this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+        int flags = PendingIntent.FLAG_UPDATE_CURRENT;
+        if (Build.VERSION.SDK_INT >= 23)
+            flags |= PendingIntent.FLAG_IMMUTABLE;
+
+        return PendingIntent.getActivity(LocationService.this, 0, intent, flags);
     }
 
     private PendingIntent getPendingIntent_StopService() {
         Intent intent = doStop(LocationService.this, false);
 
-        return PendingIntent.getService(LocationService.this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+        int flags = PendingIntent.FLAG_UPDATE_CURRENT;
+        if (Build.VERSION.SDK_INT >= 23)
+            flags |= PendingIntent.FLAG_IMMUTABLE;
+
+        return PendingIntent.getService(LocationService.this, 0, intent, flags);
     }
 
     // -------------------------------------------------------------------------

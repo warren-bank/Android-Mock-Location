@@ -6,10 +6,13 @@ import com.github.warren_bank.mock_location.data_model.LocPoint;
 import com.github.warren_bank.mock_location.data_model.SharedPrefs;
 import com.github.warren_bank.mock_location.service.LocationService;
 
+import android.Manifest;
 import android.app.ActivityGroup;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -54,6 +57,7 @@ public class MainActivity extends ActivityGroup {
         }
 
         showToast(intent);
+        requestPermissions();
     }
 
     private String getCurrentTabTag(Intent intent) {
@@ -66,6 +70,14 @@ public class MainActivity extends ActivityGroup {
             return;
 
         Toast.makeText(MainActivity.this, text, Toast.LENGTH_LONG).show();
+    }
+
+    private void requestPermissions() {
+        if (Build.VERSION.SDK_INT >= 33) {
+            if (checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+                requestPermissions(new String[]{Manifest.permission.POST_NOTIFICATIONS}, 0);
+            }
+        }
     }
 
     @Override

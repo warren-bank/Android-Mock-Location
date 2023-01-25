@@ -15,21 +15,26 @@
     <!-- required for "LocationService" on API 28+ -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
+    <!-- required to display notification for foreground service on API 33+ -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
     <application
-        android:allowBackup="false"
+        android:label="@string/app_name"
         android:icon="@drawable/launcher"
         android:theme="@style/app_theme"
-        android:label="@string/app_name">
+        android:allowBackup="false">
 
         <service
             android:name=".service.LocationService"
+            android:foregroundServiceType="dataSync|location"
             android:exported="false" />
 
         <activity
             android:name=".ui.MainActivity"
+            android:label="@string/app_name"
             android:configChanges="colorMode|density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
             android:launchMode="standard"
-            android:label="@string/app_name">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -39,28 +44,33 @@
         <activity
             android:name=".ui.FixedPositionActivity"
             android:configChanges="colorMode|density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
-            android:launchMode="standard" />
+            android:launchMode="standard"
+            android:exported="false" />
 
         <activity
             android:name=".ui.TripSimulationActivity"
             android:configChanges="colorMode|density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
-            android:launchMode="standard" />
+            android:launchMode="standard"
+            android:exported="false" />
 
         <activity
             android:name=".ui.BookmarksActivity"
             android:configChanges="colorMode|density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
-            android:launchMode="standard" />
+            android:launchMode="standard"
+            android:exported="false" />
 
         <activity
             android:name=".ui.PreferencesActivity"
             android:configChanges="colorMode|density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
-            android:launchMode="standard" />
+            android:launchMode="standard"
+            android:exported="false" />
 
         <!-- copied from https://github.com/osmandapp/Osmand/blob/2.0.0/OsmAnd/AndroidManifest.xml -->
         <activity
             android:name=".ui.GeoIntentActivity"
             android:configChanges="colorMode|density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
-            android:launchMode="standard">
+            android:launchMode="standard"
+            android:exported="true">
 
             <intent-filter>
                 <data android:scheme="osmand.geo" />
