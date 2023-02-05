@@ -5,11 +5,13 @@ package com.github.warren_bank.mock_location.service.looper;
 
 import android.content.Context;
 import android.location.LocationManager;
+import android.os.Build;
 
 public class MockLocationProviderManager {
 
     private static MockLocationProvider mockNetwork = null;
     private static MockLocationProvider mockGps     = null;
+    private static MockLocationProvider mockFused   = null;
 
     /**
      * Initialize instances of 'MockLocationProvider'.
@@ -17,6 +19,10 @@ public class MockLocationProviderManager {
     protected static void startMockingLocation(Context context) {
         startMockingLocationNetwork(context);
         startMockingLocationGps(context);
+
+        if (Build.VERSION.SDK_INT >= 31) {
+            startMockingLocationFused(context);
+        }
     }
 
     private static void startMockingLocationNetwork(Context context) {
@@ -38,6 +44,17 @@ public class MockLocationProviderManager {
         }
         catch (SecurityException e) {
             stopMockingLocationGps();
+        }
+    }
+
+    protected static void startMockingLocationFused(Context context) {
+        stopMockingLocationFused();
+
+        try {
+            mockFused = new MockLocationProvider(LocationManager.FUSED_PROVIDER, context);
+        }
+        catch (SecurityException e) {
+            stopMockingLocationFused();
         }
     }
 
@@ -65,6 +82,15 @@ public class MockLocationProviderManager {
              // stopMockingLocationGps();
             }
         }
+
+        if (mockFused != null) {
+            try {
+                mockFused.pushLocation(lat, lon);
+            }
+            catch (Exception e) {
+             // stopMockingLocationFused();
+            }
+        }
     }
 
     /**
@@ -73,6 +99,7 @@ public class MockLocationProviderManager {
     protected static void stopMockingLocation() {
         stopMockingLocationNetwork();
         stopMockingLocationGps();
+        stopMockingLocationFused();
     }
 
     private static void stopMockingLocationNetwork() {
@@ -92,6 +119,16 @@ public class MockLocationProviderManager {
             }
             catch(Exception e) {}
             mockGps = null;
+        }
+    }
+
+    private static void stopMockingLocationFused() {
+        if (mockFused != null) {
+            try {
+                mockFused.shutdown();
+            }
+            catch(Exception e) {}
+            mockFused = null;
         }
     }
 }
