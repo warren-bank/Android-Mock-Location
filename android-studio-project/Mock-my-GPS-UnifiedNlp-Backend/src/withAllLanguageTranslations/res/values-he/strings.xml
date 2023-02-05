@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">עריק GPS UnifiedNlp מעבר לאחור</string>
+    <string name="locationservice_permission_label">עריק GPS UnifiedNlp שירות מיקום</string>
+    <string name="locationservice_permission_description">הרשאת רמת חתימה, דרוש עבור מוק GPS כדי לספק עדכוני מיקום שלו UnifiedNlp מעבר לאחור.</string>
+    <string name="backendservice_summary">\"משה\" GPS" כספק מיקום backend בזמן שהשירות שלו פעיל.</string>
+    <string name="pref_settings_title">הגדרות</string>
+    <string name="pref_timeadvance_title">התקדמות זמן (ms).</string>
+    <string name="pref_timeadvance_summary">מספר אלפיות השנייה שנוספו לחותמת הזמן של כל עדכוני המיקום. ערך מספיק גדול אמור להבטיח שכל ספקי הרקע האחרים לא יילקחו בחשבון בעת הלעג פעיל.:</string>
+</resources>

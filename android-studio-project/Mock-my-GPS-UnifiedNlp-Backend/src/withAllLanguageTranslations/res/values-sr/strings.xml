@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Исмевај моју GPS UnifiedNlp Позадина</string>
+    <string name="locationservice_permission_label">Исмевај моју GPS UnifiedNlp Услуга локације</string>
+    <string name="locationservice_permission_description">Дозвола за одобрење нивоа потписа, потребна за Мок GPS да обезбеди ажурирања локације у свом UnifiedNlp Позадина.</string>
+    <string name="backendservice_summary">Користи \" Мок GPS" као споредни добављач локације док је његова услуга активна.</string>
+    <string name="pref_settings_title">Поставке</string>
+    <string name="pref_timeadvance_title">Време унапред (ms).</string>
+    <string name="pref_timeadvance_summary">Број милисекунди додатих на временске ознаке свих ажурирања локације. Довољно велика вредност би требало да осигура да сви остали провајдери буду игнорисани док се ругају.:</string>
+</resources>

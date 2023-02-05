@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mock ... GPS UnifiedNlp Háttér</string>
+    <string name="locationservice_permission_label">Mock ... GPS UnifiedNlp Hely szolgáltatás</string>
+    <string name="locationservice_permission_description">Aláírás szintű engedély, Mock-hoz GPS A hely frissítéseinek biztosításához UnifiedNlp Háttér.</string>
+    <string name="backendservice_summary">Uses \" Mock my GPS" Háttérhely szolgáltatóként, miközben a szolgáltatás aktív.</string>
+    <string name="pref_settings_title">Beállítások</string>
+    <string name="pref_timeadvance_title">Időelőleg (ms).</string>
+    <string name="pref_timeadvance_summary">Az összes helyfrissítés időpecsétjének ezredmásodperceinek száma. Egy elég nagy értéknek biztosítania kell, hogy az összes többi háttérszolgáltató figyelmen kívül marad, miközben a gúnyolódás aktív:</string>
+</resources>

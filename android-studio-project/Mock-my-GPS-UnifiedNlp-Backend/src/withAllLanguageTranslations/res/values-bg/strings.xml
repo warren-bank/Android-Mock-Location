@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">-Да. GPS UnifiedNlp Ядро:</string>
+    <string name="locationservice_permission_label">-Да. GPS UnifiedNlp Услуга за местоположение</string>
+    <string name="locationservice_permission_description">Разрешение на ниво подпис, необходимо за Mock my GPS да предоставя актуализации на разположение на неговите UnifiedNlp Ядро:.</string>
+    <string name="backendservice_summary">Използва \" Mock моя GPS" като доставчик на локационно разположение, докато неговата услуга е активна.</string>
+    <string name="pref_settings_title">Настройки:</string>
+    <string name="pref_timeadvance_title">Време: (ms).</string>
+    <string name="pref_timeadvance_summary">Брой милисекунди, добавени към времеви индикатор на всички обновявания на местоположение. Достатъчно голяма стойност трябва да гарантира, че всички други доставчици на backend са игнорирани, докато присмиването е активно:</string>
+</resources>

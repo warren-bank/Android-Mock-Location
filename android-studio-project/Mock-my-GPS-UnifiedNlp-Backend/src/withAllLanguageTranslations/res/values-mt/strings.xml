@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mock tiegħi GPS UnifiedNlp Backend</string>
+    <string name="locationservice_permission_label">Mock tiegħi GPS UnifiedNlp Servizz tal-lokazzjoni</string>
+    <string name="locationservice_permission_description">Firma Permess Livell, meħtieġa għall Mock tiegħi GPS biex tipprovdi aġġornamenti tal-post lil UnifiedNlp Backend.</string>
+    <string name="backendservice_summary">Użi \" Mock tiegħi GPS" bħala fornitur tal-post backend waqt li s-servizz tiegħu huwa attiv.</string>
+    <string name="pref_settings_title">Settings</string>
+    <string name="pref_timeadvance_title">Ħin Advance (ms).</string>
+    <string name="pref_timeadvance_summary">Numru ta \'millisekondi miżjuda mal-kronogramma tal-aġġornamenti ta\' lokazzjoni kollha. Valur kbir biżżejjed għandu jiżgura li l-fornituri l-oħra kollha backend huma injorati filwaqt li mocking huwa attiv:</string>
+</resources>

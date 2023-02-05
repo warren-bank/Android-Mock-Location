@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ffug GPS UnifiedNlp Ochr Gefn</string>
+    <string name="locationservice_permission_label">Ffug GPS UnifiedNlp Gwasanaeth Lleoliad</string>
+    <string name="locationservice_permission_description">Caniatâd lefel llofnod, sy\'n ofynnol ar gyfer Mock i GPS i ddarparu diweddariadau lleoliad i\'w lleoliad UnifiedNlp Ochr Gefn.</string>
+    <string name="backendservice_summary">Defnyddio \" Mock my GPS" fel darparwr lleoliad ochr gefn tra bod ei wasanaeth yn weithredol.</string>
+    <string name="pref_settings_title">Gosodiadau</string>
+    <string name="pref_timeadvance_title">Amser Ymlaen (ms).</string>
+    <string name="pref_timeadvance_summary">Nifer o eiliadau wedi eu hychwanegu at stamp amser pob diweddariad lleoliad. Dylai gwerth digon mawr sicrhau bod pob darparwr ochr gefn arall yn cael eu hanwybyddu wrth i mocio fod yn weithredol:</string>
+</resources>

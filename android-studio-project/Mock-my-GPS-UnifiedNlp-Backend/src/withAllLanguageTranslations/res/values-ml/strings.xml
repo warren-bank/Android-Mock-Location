@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">എന്റെ GPS UnifiedNlp ബാക്കെന്ഡ്</string>
+    <string name="locationservice_permission_label">എന്റെ GPS UnifiedNlp സ്ഥലം സേവനം</string>
+    <string name="locationservice_permission_description">സിഗ്നേച്ചര് ലെവല് അനുവാദം, മിക്ക് വേണ്ടി ആവശ്യമുണ്ടു് GPS സ്ഥാനത്തുള്ള വിവരങ്ങള് നല്കുവാന് UnifiedNlp ബാക്കെന്ഡ്.</string>
+    <string name="backendservice_summary">♪ ♪ GPS" ഇതിന്റെ സേവനം സജീവമായിരിക്കുമ്പോള് ബാക്കെന്ഡ് ചെയ്യുന്ന സ്ഥലം.</string>
+    <string name="pref_settings_title">സജ്ജീകരണങ്ങള്</string>
+    <string name="pref_timeadvance_title">ടൈം അഡ്വാന്സ് (ms).</string>
+    <string name="pref_timeadvance_summary">എല്ലാ സ്ഥാനത്തുളളും സമയത്തു് കൂട്ടിച്ചേരുന്ന മില്ലിസെക്കന്റിന്റെ എണ്ണം. വലുതുമായ മൂല്ല്യം ഉറപ്പാക്കണമെങ്കിലും മറ്റ് ബാക്കെന്ഡ് പ്രദര്ശനങ്ങള് അവഗണിക്കപ്പെടുന്നു. മോസ്ക്കിംഗ് സജീവമായിരിക്കുമ്പോള്:</string>
+</resources>

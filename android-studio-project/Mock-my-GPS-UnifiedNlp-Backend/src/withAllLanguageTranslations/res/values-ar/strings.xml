@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">جورب بلدي GPS UnifiedNlp Backend</string>
+    <string name="locationservice_permission_label">جورب بلدي GPS UnifiedNlp خدمة المكان</string>
+    <string name="locationservice_permission_description">تصريح مستوى التوقيع ، مطلوب لجورب Mock الخاص بي GPS لاتاحة تعديلات المكان لها UnifiedNlp Backend.</string>
+    <string name="backendservice_summary">يستخدم \"مول بلدي\" GPS" كجهة اتاحة للمكان الخلفي أثناء تشغيل الخدمة الخاصة به.</string>
+    <string name="pref_settings_title">المحددات</string>
+    <string name="pref_timeadvance_title">وقت التقدم (ms).</string>
+    <string name="pref_timeadvance_summary">عدد الملي ثانية التي يتم اضافتها الى خاتم الوقت لكل تعديلات الموقع. يجب أن تضمن قيمة كبيرة بما فيه الكفاية أن يتم تجاهل كل جهات اتاحة الخلفية الأخرى أثناء تشغيل عملية التخزين:</string>
+</resources>

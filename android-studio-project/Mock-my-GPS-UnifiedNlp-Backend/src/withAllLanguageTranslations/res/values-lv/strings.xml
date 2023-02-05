@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Izsmiet manu GPS UnifiedNlp Aizmugure</string>
+    <string name="locationservice_permission_label">Izsmiet manu GPS UnifiedNlp Atrašanās vieta</string>
+    <string name="locationservice_permission_description">Paraksta līmeņa atļauja, nepieciešama Mock manu GPS , lai nodrošinātu atrašanās vietas atjauninājumus tās UnifiedNlp Aizmugure.</string>
+    <string name="backendservice_summary">Izmanto \" Mock my GPS" kā backend atrašanās vietas sniedzējs, kamēr tās pakalpojums ir aktīvs.</string>
+    <string name="pref_settings_title">Iestatījumi</string>
+    <string name="pref_timeadvance_title">Laiks iepriekš (ms).</string>
+    <string name="pref_timeadvance_summary">Milisekundes skaits pievienots laika zīmogu visu atrašanās vietu atjauninājumiem. Pietiekami liela vērtība, lai nodrošinātu, ka visi pārējie aizmugure sniedzēji tiek ignorēti, kamēr mocking ir aktīvs:</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_settings_title">
+        <EditTextPreference
+            android:key="@string/pref_timeadvance_key"
+            android:title="@string/pref_timeadvance_title"
+            android:dialogTitle="@string/pref_timeadvance_summary"
+            android:summary="@string/pref_timeadvance_summary"
+            android:inputType="number"
+            android:defaultValue="@string/pref_timeadvance_default" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

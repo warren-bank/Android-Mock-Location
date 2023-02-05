@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mock my GPS UnifiedNlp Retour arrière</string>
+    <string name="locationservice_permission_label">Mock my GPS UnifiedNlp Service de localisation</string>
+    <string name="locationservice_permission_description">Signature du niveau de signature, requise pour le Mock my GPS Pour fournir des mises à jour d\'emplacement à ses UnifiedNlp Retour arrière.</string>
+    <string name="backendservice_summary">Utilise \"Mock my\" GPS" En tant que fournisseur d\'emplacement dorsal alors que son service est actif.</string>
+    <string name="pref_settings_title">Paramètres</string>
+    <string name="pref_timeadvance_title">Avance de temps (ms).</string>
+    <string name="pref_timeadvance_summary">Nombre de millisecondes ajoutées à l\'horodatage de toutes les mises à jour d\'emplacement. Une valeur suffisamment grande doit s\'assurer que tous les autres fournisseurs de backend sont ignorés lors du moqueur actif.:</string>
+</resources>

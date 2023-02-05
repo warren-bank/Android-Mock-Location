@@ -18,11 +18,6 @@ combination of:
 * [FakeTraveler](https://github.com/mcastillof/FakeTraveler)
 * [FakeGPS](https://github.com/xiangtailiang/FakeGPS)
 
-#### Notes
-
-* minimum supported version of Android:
-  * Android 1.5 (API level 3)
-
 - - - -
 
 #### Comparison of features in existing apps
@@ -106,6 +101,34 @@ __other enhancements__:
   - ability to enable/disable "joystick"
   - ability to configure the increment value added to lat/lon values each time a "joystick" button is pressed
   - ability to continue to mock the destination after a trip simulation completes
+
+- - - -
+
+#### Comparison of [release](https://github.com/warren-bank/Android-Mock-Location/releases) APK variations
+
+* `Mock-my-GPS` vs. `Mock-my-GPS-UnifiedNlp-Backend`
+  - `Mock-my-GPS`
+    * installation is required
+    * minimum supported version of Android: 1.5 (Cupcake, API 3)
+    * standalone application
+  - `Mock-my-GPS-UnifiedNlp-Backend`
+    * installation is optional
+    * minimum supported version of Android: 2.3 (Gingerbread, API 9)
+    * backend plugin for [UnifiedNlp](https://github.com/microg/UnifiedNlp), which is:
+      - typically installed as a component of [microG](https://microg.org/)
+      - intended for used on de-Googled Android ROMs
+      - a drop-in replacement for Google Location Services (GLS)
+    * behavior:
+      - while `Mock-my-GPS` is running, `Mock-my-GPS-UnifiedNlp-Backend` provides mocked location data to `UnifiedNlp`
+      - by default, the timestamp for mocked location data updates is advanced by 45 seconds
+        * this causes `UnifiedNlp` to prioritize the mocked location data, and to effectively ignore location data updates provided by all other backend plugins
+    * for more info, refer to:
+      - [XDA forum](https://forum.xda-developers.com/t/app-unifiednlp-floss-wi-fi-and-cell-tower-based-geolocation.2991544/)
+* `english` vs. `withAllLanguageTranslations`
+  - `english`
+    * does not include translated string resources for any other languages
+  - `withAllLanguageTranslations`
+    * does include translated string resources for all supported languages
 
 - - - -
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spot met mijn GPS UnifiedNlp Backend</string>
+    <string name="locationservice_permission_label">Spot met mijn GPS UnifiedNlp Locatieservice</string>
+    <string name="locationservice_permission_description">Machtiging voor handtekeningniveau, vereist voor Mock my GPS om locatie-updates aan te bieden UnifiedNlp Backend.</string>
+    <string name="backendservice_summary">Gebruikt \" Mock my GPS" als backend locatie provider terwijl de service actief is.</string>
+    <string name="pref_settings_title">Instellingen</string>
+    <string name="pref_timeadvance_title">Tijd vooraf (ms).</string>
+    <string name="pref_timeadvance_summary">Het aantal milliseconden dat wordt toegevoegd aan de tijdsaanduiding van alle locatie-updates. Een groot genoeg waarde moet ervoor zorgen dat alle andere backend providers worden genegeerd terwijl spotter actief is:</string>
+</resources>

@@ -1,9 +1,17 @@
 project.ext {
-    releaseVersionCode = Integer.parseInt("002011003", 10)  //Integer.MAX_VALUE == 2147483647
-    releaseVersion     = '002.01.10-03API'
-    minSdkVersion      = 3
-    targetSdkVersion   = 33
-    compileSdkVersion  = 33
-    buildToolsVersion  = '33.0.1'
-    javaVersion        = JavaVersion.VERSION_1_8
+    targetSdkVersion  = 33
+    compileSdkVersion = 33
+    buildToolsVersion = '33.0.1'
+    javaVersion       = JavaVersion.VERSION_1_8
+
+    base_releaseVersionCode = Integer.parseInt("002020000", 10)  //Integer.MAX_VALUE == 2147483647
+    base_releaseVersion     = '002.02.00'
+
+    app_minSdkVersion       = 3
+    app_releaseVersionCode  = project.ext.base_releaseVersionCode + project.ext.app_minSdkVersion
+    app_releaseVersion      = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.app_minSdkVersion)
+
+    nlp_minSdkVersion       = 9
+    nlp_releaseVersionCode  = project.ext.base_releaseVersionCode + project.ext.nlp_minSdkVersion
+    nlp_releaseVersion      = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.nlp_minSdkVersion)
 }

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mock என் GPS UnifiedNlp பின்னணி</string>
+    <string name="locationservice_permission_label">Mock என் GPS UnifiedNlp இடம் சேவை</string>
+    <string name="locationservice_permission_description">கையெழுத்து நிலை அனுமதி, Mock என் தேவைப்படுகிறது GPS இடம் புதுப்பிக்கவும் UnifiedNlp பின்னணி.</string>
+    <string name="backendservice_summary">Uses \" Mock my GPS" ஒரு பின்னணி இடம் வழங்குபவராக, அதன் சேவை செயலில் உள்ளது.</string>
+    <string name="pref_settings_title">அமைப்புகள்</string>
+    <string name="pref_timeadvance_title">நேர முன்னேற்றம் (ms).</string>
+    <string name="pref_timeadvance_summary">அனைத்து இடங்களும் புதுப்பிக்கப்பட்ட நேர நிலைக்கு சேர்க்கப்பட்ட மில்லி விகிதங்களின் எண்ணிக்கை. ஒரு பெரிய அளவு மதிப்பை அனைத்து பிற பின்னணி வழங்குநர்கள் சரியாக செயல்படும்போது புறக்கணிக்கப்பட்டிருக்கும்.:</string>
+</resources>

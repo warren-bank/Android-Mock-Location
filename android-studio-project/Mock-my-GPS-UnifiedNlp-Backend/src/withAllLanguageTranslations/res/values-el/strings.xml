@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mock μου GPS UnifiedNlp Πίσω!</string>
+    <string name="locationservice_permission_label">Mock μου GPS UnifiedNlp Υπηρεσία τοποθεσίας</string>
+    <string name="locationservice_permission_description">Έγκριση επιπέδου Υπογραφή, που απαιτείται για Mock μου GPS για την παροχή ενημερώσεων τοποθεσίας σε: UnifiedNlp Πίσω!.</string>
+    <string name="backendservice_summary">Χρήσεις \" Mock μου GPS" ως παροχέας υποστηρικτής θέσης, ενώ η υπηρεσία είναι ενεργή.</string>
+    <string name="pref_settings_title">Ρυθμίσεις:</string>
+    <string name="pref_timeadvance_title">Προκαταβολή χρόνου (ms).</string>
+    <string name="pref_timeadvance_summary">Αριθμός χιλιοστών του δευτερολέπτου που προστέθηκαν στο αποτύπωμα χρόνου όλων των ενημερώσεων θέσης. Μια αρκετά μεγάλη τιμή πρέπει να εξασφαλίζει ότι όλοι οι άλλοι παροχείς υποστήριξης αγνοούνται ενώ η mocking είναι ενεργή:</string>
+</resources>

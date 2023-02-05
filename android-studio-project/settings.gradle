@@ -1,1 +1,5 @@
 include ':Mock-my-GPS'
+include ':Mock-my-GPS-UnifiedNlp-Backend'
+include ':Mock-my-GPS-UnifiedNlp-Backend-artifacts'
+
+project(':Mock-my-GPS-UnifiedNlp-Backend-artifacts').projectDir = new File(rootDir, 'libs/Mock-my-GPS-UnifiedNlp-Backend-artifacts')

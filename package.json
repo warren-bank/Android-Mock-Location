@@ -6,7 +6,12 @@
     "@warren-bank/translate-android-strings": "^1.9.2"
   },
   "scripts": {
-    "translate":       "translate-android-strings -i \"en\" -f \"android-studio-project/Mock-my-GPS/src/main/res/values/strings.xml\" -d \"android-studio-project/Mock-my-GPS/src/withAllLanguageTranslations/res\" -m --na --nc --nw -b \"(?:GPS|\\(ms\\)|lat/lon)\"",
-    "translate:debug": "npm run translate -- -o \"en\" --debug"
+    "translate:app":       "translate-android-strings -i \"en\" -f \"android-studio-project/Mock-my-GPS/src/main/res/values/strings.xml\" -d \"android-studio-project/Mock-my-GPS/src/withAllLanguageTranslations/res\" -m --na --nc --nw -b \"(?:GPS|\\(ms\\)|lat/lon)\"",
+    "translate:app:debug": "npm run translate:app -- -o \"en\" --debug",
+
+    "translate:nlp":       "translate-android-strings -i \"en\" -f \"android-studio-project/Mock-my-GPS-UnifiedNlp-Backend/src/main/res/values/strings.xml\" -d \"android-studio-project/Mock-my-GPS-UnifiedNlp-Backend/src/withAllLanguageTranslations/res\" -m --na --nc --nw -b \"(?:GPS|\\(ms\\)|UnifiedNlp)\"",
+    "translate:nlp:debug": "npm run translate:nlp -- -o \"en\" --debug",
+
+    "translate":           "npm run translate:app && npm run translate:nlp"
   }
 }

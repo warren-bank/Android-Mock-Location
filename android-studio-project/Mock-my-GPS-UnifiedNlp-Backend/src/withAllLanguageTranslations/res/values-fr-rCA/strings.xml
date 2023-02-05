@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Factice mon GPS UnifiedNlp Backend</string>
+    <string name="locationservice_permission_label">Factice mon GPS UnifiedNlp Service de localisation</string>
+    <string name="locationservice_permission_description">Autorisation au niveau de la signature requise pour Mock my GPS pour fournir les mises à jour de l\'emplacement UnifiedNlp Backend.</string>
+    <string name="backendservice_summary">Utilise \" Mock my GPS" en tant que fournisseur d\'emplacement dorsal pendant que son service est actif.</string>
+    <string name="pref_settings_title">Paramètres</string>
+    <string name="pref_timeadvance_title">Avance de temps (ms).</string>
+    <string name="pref_timeadvance_summary">Nombre de millisecondes ajoutées à l\'horodatage de toutes les mises à jour d\'emplacement. Une valeur suffisamment élevée doit garantir que tous les autres fournisseurs d\'arrière-plan sont ignorés pendant que moqueur est actif:</string>
+</resources>

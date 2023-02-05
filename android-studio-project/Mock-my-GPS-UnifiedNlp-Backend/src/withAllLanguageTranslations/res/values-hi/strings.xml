@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">मेरी नकल करें GPS UnifiedNlp बैकएण्ड</string>
+    <string name="locationservice_permission_label">मेरी नकल करें GPS UnifiedNlp स्थान सेवा</string>
+    <string name="locationservice_permission_description">मास्क के लिए आवश्यक हस्ताक्षर स्तर की अनुमति, मेरे GPS इसके लिए स्थान अद्यतन प्रदान करने के लिए UnifiedNlp बैकएण्ड.</string>
+    <string name="backendservice_summary">उपयोग करता है \" Mck मेरे GPS" के रूप में एक बैकेंड स्थान प्रदाता के रूप में जब इसकी सेवा सक्रिय.</string>
+    <string name="pref_settings_title">विन्यास</string>
+    <string name="pref_timeadvance_title">समय अग्रिम (ms).</string>
+    <string name="pref_timeadvance_summary">सभी स्थान अद्यतन के टाइमस्टैंप में जोड़ा जा रहा मिलीसेकेंड की संख्या. एक बड़ा पर्याप्त मूल्य सुनिश्चित करना चाहिए कि सभी अन्य बैकेंड प्रदाताओं को सक्रिय होने पर अनदेखा कर रहे हैं:</string>
+</resources>

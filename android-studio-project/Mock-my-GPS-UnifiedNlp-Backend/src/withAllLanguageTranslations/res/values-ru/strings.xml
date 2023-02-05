@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Поиздеваться GPS UnifiedNlp Базовая</string>
+    <string name="locationservice_permission_label">Поиздеваться GPS UnifiedNlp Служба расположения</string>
+    <string name="locationservice_permission_description">Разрешение уровня подписи, необходимое для Mock my GPS для предоставления обновлений расположения UnifiedNlp Базовая.</string>
+    <string name="backendservice_summary">Использует \" Mock my GPS" как внутренний поставщик расположения, в то время как его служба активна.</string>
+    <string name="pref_settings_title">Параметры</string>
+    <string name="pref_timeadvance_title">Время вперед (ms).</string>
+    <string name="pref_timeadvance_summary">Число миллисекунд, добавленных к отметке времени всех обновлений положения. Достаточно большое значение должно гарантировать, что все остальные провайдеры не будут проигнорированы, пока активен:</string>
+</resources>

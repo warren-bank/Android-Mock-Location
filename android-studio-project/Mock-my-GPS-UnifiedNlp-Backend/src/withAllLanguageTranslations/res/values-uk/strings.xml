@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Смій мій GPS UnifiedNlp Сервер</string>
+    <string name="locationservice_permission_label">Смій мій GPS UnifiedNlp Служба розташування</string>
+    <string name="locationservice_permission_description">Дозвіл на рівень підпису, потрібний для Mock my GPS щоб надати оновлення location UnifiedNlp Сервер.</string>
+    <string name="backendservice_summary">Використовує \" Mock my GPS" у якості постачальника послуг сервера, у той час як його служба активна.</string>
+    <string name="pref_settings_title">ПараметриName</string>
+    <string name="pref_timeadvance_title">Час Advance (ms).</string>
+    <string name="pref_timeadvance_summary">Кількість мілісекунд, доданих до часу всіх оновлень на місці розташування. Достатньо велике значення має гарантувати, що всі інші постачальники серверів буде проігноровано під час активної програми.:</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mock saya GPS UnifiedNlp Bahagian belakang</string>
+    <string name="locationservice_permission_label">Mock saya GPS UnifiedNlp Perkhidmatan Lokasi</string>
+    <string name="locationservice_permission_description">Tandatangan tahap tandatangan, diperlukan untuk Mock GPS untuk menyediakan kemaskini lokasi ke UnifiedNlp Bahagian belakang.</string>
+    <string name="backendservice_summary">Gunakan \" Mock my ♪ GPS" sebagai penyedia lokasi bahagian belakang semasa perkhidmatannya aktif.</string>
+    <string name="pref_settings_title">Tetapan</string>
+    <string name="pref_timeadvance_title">Tambahan Masa (ms).</string>
+    <string name="pref_timeadvance_summary">Bilangan milisaat ditambah pada setem masa bagi semua kemaskini lokasi. Nilai yang cukup besar perlu memastikan bahawa semua penyedia bahagian belakang yang lain diabaikan semasa dikerat secara aktif:</string>
+</resources>

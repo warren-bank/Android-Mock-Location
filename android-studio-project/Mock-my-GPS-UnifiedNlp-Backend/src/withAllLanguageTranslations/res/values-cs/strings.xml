@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mick můj GPS UnifiedNlp Podpůrná vrstva</string>
+    <string name="locationservice_permission_label">Mick můj GPS UnifiedNlp Služba lokality</string>
+    <string name="locationservice_permission_description">Oprávnění na úrovni podpisu, vyžadováno pro Mock my GPS poskytnutí aktualizací umístění jeho UnifiedNlp Podpůrná vrstva.</string>
+    <string name="backendservice_summary">Používá \" Mock my GPS" jako poskytovatel back-endového systému, zatímco je jeho služba aktivní.</string>
+    <string name="pref_settings_title">NastaveníComment</string>
+    <string name="pref_timeadvance_title">Čas zálohy (ms).</string>
+    <string name="pref_timeadvance_summary">Počet milisekund přidaných do časového razítka všech aktualizací umístění. Velký počet by měl zajistit, aby všichni ostatní poskytovatelé back-endových systémů byli ignorováni při aktivním režimu.:</string>
+</resources>

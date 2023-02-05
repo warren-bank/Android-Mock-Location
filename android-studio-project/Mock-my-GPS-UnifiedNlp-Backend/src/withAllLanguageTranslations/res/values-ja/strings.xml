@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">モック・ミー GPS UnifiedNlp バックエンド</string>
+    <string name="locationservice_permission_label">モック・ミー GPS UnifiedNlp ロケーション・サービス</string>
+    <string name="locationservice_permission_description">シグニチャー・レベルの許可( Mock my に必要 ) GPS ロケーションの更新情報を UnifiedNlp バックエンド.</string>
+    <string name="backendservice_summary">「 Mock my 」を使用 GPS" サービスがアクティブのときにバックエンド・ロケーション・プロバイダーとして.</string>
+    <string name="pref_settings_title">設定</string>
+    <string name="pref_timeadvance_title">タイムアドバンス (ms).</string>
+    <string name="pref_timeadvance_summary">すべてのロケーション更新のタイム・スタンプに追加されたミリ秒数。 十分な大きさの値を指定すると、他のすべてのバックエンド・プロバイダーが無視され、モックがアクティブであることを確認:</string>
+</resources>

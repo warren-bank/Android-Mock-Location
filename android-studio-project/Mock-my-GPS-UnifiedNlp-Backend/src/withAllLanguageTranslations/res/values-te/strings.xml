@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mock నా GPS UnifiedNlp బ్యాక్ఎండ్</string>
+    <string name="locationservice_permission_label">Mock నా GPS UnifiedNlp స్థానపు సేవComment</string>
+    <string name="locationservice_permission_description">సంతకం స్థాయి అనుమతి, నా కొరకు అవసరము GPS స్థానాన్ని అందిస్తుందిName UnifiedNlp బ్యాక్ఎండ్.</string>
+    <string name="backendservice_summary">ఉదయం \" Mock my GPS" బ్యాకెండ్ స్థాపిత ప్రొవైడర్ గా దాని సేవ క్రియాశీలంగా ఉన్నప్పుడు.</string>
+    <string name="pref_settings_title">అమరిక</string>
+    <string name="pref_timeadvance_title">సమయ అడ్వాన్సు (ms).</string>
+    <string name="pref_timeadvance_summary">అన్ని స్థావరాల యొక్క సమయంలోనే జతచేయబడిన మిల్లీసెకండ్ల సంఖ్య. Mocking క్రియాశీలంగా ఉన్నప్పుడు అన్ని ఇతర బ్యాకెండ్ ప్రొవైడర్లు నమోదు చేయబడిందని ఒక పెద్ద విలువలా నిర్వచించాలి:</string>
+</resources>

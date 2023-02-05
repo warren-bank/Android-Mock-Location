@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Norčuj se GPS UnifiedNlp Hrbtenca</string>
+    <string name="locationservice_permission_label">Norčuj se GPS UnifiedNlp Storitev lokacije</string>
+    <string name="locationservice_permission_description">Dovoljenje za raven podpisa, potrebno za Mock my GPS za zagotavljanje posodobitev lokacij za svoje UnifiedNlp Hrbtenca.</string>
+    <string name="backendservice_summary">Uporablja \" Mock my GPS" kot ponudnik lokacije v ozadju, medtem ko je njegova storitev aktivna.</string>
+    <string name="pref_settings_title">Nastavitve</string>
+    <string name="pref_timeadvance_title">Čas Vnaprej (ms).</string>
+    <string name="pref_timeadvance_summary">Število milisekund, ki so bile dodane v časovni žig vseh posodobitev lokacije. Dovolj velika vrednost mora zagotoviti, da so vsi drugi ponudniki ozavjev v času, ko je mokanje aktiven, prezrti:</string>
+</resources>

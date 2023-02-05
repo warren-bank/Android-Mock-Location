@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Mock my GPS UnifiedNlp Backend</string>
+
+    <string name="locationservice_permission_label">Mock my GPS UnifiedNlp Location Service</string>
+    <string name="locationservice_permission_description">Signature Level permission, required for Mock my GPS to provide location updates to its UnifiedNlp Backend.</string>
+
+    <string name="backendservice_summary">Uses "Mock my GPS" as a backend location provider while its service is active.</string>
+
+    <!-- ================= -->
+    <!-- Settings strings. -->
+    <!-- ================= -->
+
+    <string name="pref_settings_title">Settings</string>
+
+    <string translatable="false" name="pref_timeadvance_key">pref_timeadvance</string>
+    <string name="pref_timeadvance_title">Time Advance (ms).</string>
+    <string name="pref_timeadvance_summary">Number of milliseconds added to timestamp of all location updates. A large enough value should ensure that all other backend providers are ignored while mocking is active:</string>
+    <string translatable="false" name="pref_timeadvance_default">45000</string>
+
+</resources>

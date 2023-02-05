@@ -13,10 +13,10 @@ android {
     defaultConfig {
         targetSdkVersion project.ext.targetSdkVersion
 
-        applicationId "com.github.warren_bank.mock_location"
-        minSdkVersion project.ext.app_minSdkVersion
-        versionCode   project.ext.app_releaseVersionCode
-        versionName   project.ext.app_releaseVersion
+        applicationId "com.github.warren_bank.mock_location.service.microg_nlp_backend"
+        minSdkVersion project.ext.nlp_minSdkVersion
+        versionCode   project.ext.nlp_releaseVersionCode
+        versionName   project.ext.nlp_releaseVersion
 
         archivesBaseName += "-$versionName"
     }
@@ -60,5 +60,5 @@ android {
 dependencies {
     implementation project(':Mock-my-GPS-UnifiedNlp-Backend-artifacts')
 
-    implementation 'com.google.code.gson:gson:'    + '2.8.5'    // (235 KB) https://mvnrepository.com/artifact/com.google.code.gson/gson
+    implementation 'org.microg.nlp:api:' + '2.0-alpha10'    // (53 KB) https://mvnrepository.com/artifact/org.microg.nlp/api
 }

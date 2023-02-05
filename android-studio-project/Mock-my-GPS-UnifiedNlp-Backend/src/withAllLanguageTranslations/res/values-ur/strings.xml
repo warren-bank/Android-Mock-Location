@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">میاک میری GPS UnifiedNlp بیک وقت</string>
+    <string name="locationservice_permission_label">میاک میری GPS UnifiedNlp لوکیشن سروس</string>
+    <string name="locationservice_permission_description">سگنیچر لیول کی اجازت, Mock میرے لئے ضروری GPS مقام اپ ڈیٹس فراہم کرنے کے لئے اس کی UnifiedNlp بیک وقت.</string>
+    <string name="backendservice_summary">Uses \" چٹائی میرے GPS" بطور بیک وقت محل وقوع فراہم کرنے والے ادارے جبکہ اس کی سروس فعال ہے..</string>
+    <string name="pref_settings_title">سیٹنگز</string>
+    <string name="pref_timeadvance_title">ٹائم ایڈوانس (ms).</string>
+    <string name="pref_timeadvance_summary">تمام جگہ اپ ڈیٹس کے ٹائم اسٹامپ میں ملی ملی سیکنڈز کی تعداد شامل ہے. ایک بڑی کافی قدر اس بات کو یقینی بنانا چاہئے کہ دیگر تمام backend فراہم کنندگان کو نظر انداز کیا جاتا ہے جبکہ mocking فعال ہے:</string>
+</resources>

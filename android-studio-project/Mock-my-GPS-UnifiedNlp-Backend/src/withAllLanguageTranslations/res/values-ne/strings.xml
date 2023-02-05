@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mock मेरो GPS UnifiedNlp ब्याकइन्ड</string>
+    <string name="locationservice_permission_label">Mock मेरो GPS UnifiedNlp स्थान सेवा</string>
+    <string name="locationservice_permission_description">हस्ताक्षर स्तर अनुमति, मेरो लागि आवश्यक GPS यसका लागि स्थान अद्यावधिक उपलब्ध गराउनका लागि UnifiedNlp ब्याकइन्ड.</string>
+    <string name="backendservice_summary">Uses \" Mock my GPS" यसको सेवा सक्रिय हुँदा ब्याकइन्ड स्थान प्रदायकको रूपमा.</string>
+    <string name="pref_settings_title">सेटिङ</string>
+    <string name="pref_timeadvance_title">समय एडभान्स (ms).</string>
+    <string name="pref_timeadvance_summary">सबै स्थान अद्यावधिकको टाइमस्ट्याम्प थप्ने मिलिसेकेन्डको सङ्ख्या. ठूलो पर्याप्त मान सुनिश्चित गर्नुपर्दछ कि अन्य सबै ब्याकइन्ड प्रदायकहरूलाई मोकिंग गर्दा उपेक्षा गरिन्छ:</string>
+</resources>

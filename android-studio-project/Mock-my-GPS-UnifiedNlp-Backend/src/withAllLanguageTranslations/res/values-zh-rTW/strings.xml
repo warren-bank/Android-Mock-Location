@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">模擬我的 GPS UnifiedNlp 後端</string>
+    <string name="locationservice_permission_label">模擬我的 GPS UnifiedNlp 位置服務</string>
+    <string name="locationservice_permission_description">「模擬」我需要的「簽章層次」許可權 GPS 以提供位置更新項目 UnifiedNlp 後端.</string>
+    <string name="backendservice_summary">使用 \"Maock my GPS" 作為後端位置提供者，而其服務為作用中.</string>
+    <string name="pref_settings_title">設定</string>
+    <string name="pref_timeadvance_title">時間提前 (ms).</string>
+    <string name="pref_timeadvance_summary">已新增至所有位置更新項目時間戳記的毫秒數。 足夠大的值應確保在嘲諷為作用中時，所有其他後端提供者都被忽略:</string>
+</resources>

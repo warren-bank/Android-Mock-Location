@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mock my GPS UnifiedNlp Programinė sąsaja</string>
+    <string name="locationservice_permission_label">Mock my GPS UnifiedNlp Vieta Paslauga</string>
+    <string name="locationservice_permission_description">Parašo lygis leidimas, reikalingas Mock mano GPS teikti vietos atnaujinimus savo UnifiedNlp Programinė sąsaja.</string>
+    <string name="backendservice_summary">Naudoja \" Mock mano GPS" kaip backend vietos paslaugų teikėjas, o jo paslauga yra aktyvus.</string>
+    <string name="pref_settings_title">Nustatymai</string>
+    <string name="pref_timeadvance_title">Laikas iš anksto (ms).</string>
+    <string name="pref_timeadvance_summary">Milisekundžių skaičius, pridėtas prie visų vietų, kuriose yra visų vietų, laiko žymos. Pakankamai didelė reikšmė turėtų užtikrinti, kad visi kiti posistemės teikėjai būtų ignoruojami, o mocking yra aktyvus:</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mock my GPS UnifiedNlp Backend</string>
+    <string name="locationservice_permission_label">Mock my GPS UnifiedNlp Služba umiestnenia</string>
+    <string name="locationservice_permission_description">Oprávnenie na úrovni podpisu, povinné pre Mock my GPS na poskytnutie aktualizácií umiestnenia pre jeho UnifiedNlp Backend.</string>
+    <string name="backendservice_summary">Používa \" Mock my GPS" ako poskytovateľ koncového umiestnenia, kým je jeho služba aktívna.</string>
+    <string name="pref_settings_title">Nastavenia</string>
+    <string name="pref_timeadvance_title">Časový posun (ms).</string>
+    <string name="pref_timeadvance_summary">Počet milisekúnd pridaných do časovej značky všetkých aktualizácií umiestnenia. Dostatočne veľká hodnota by mala zabezpečiť, že všetci ostatní koncoví poskytovatelia sa ignorujú, kým je mocný aktívny článok:</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bate joc GPS UnifiedNlp Backend</string>
+    <string name="locationservice_permission_label">Bate joc GPS UnifiedNlp Serviciul de localizare</string>
+    <string name="locationservice_permission_description">Semnătura de nivel, necesare pentru Mock meu GPS pentru a oferi actualizări de locație la UnifiedNlp Backend.</string>
+    <string name="backendservice_summary">Folosește \" Mock my GPS" ca furnizor de locație backend în timp ce serviciul său este activ.</string>
+    <string name="pref_settings_title">Setări</string>
+    <string name="pref_timeadvance_title">Avans de timp (ms).</string>
+    <string name="pref_timeadvance_summary">Numărul de milisecunde adăugate la timestamp de toate actualizările de locație. O valoare suficient de mare ar trebui să se asigure că toți ceilalți furnizori de backend sunt ignorate în timp ce batjocoritor este activ:</string>
+</resources>

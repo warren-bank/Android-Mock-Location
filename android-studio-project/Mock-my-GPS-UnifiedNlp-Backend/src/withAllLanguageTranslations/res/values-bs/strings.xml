@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rugaj se GPS UnifiedNlp Pozadina</string>
+    <string name="locationservice_permission_label">Rugaj se GPS UnifiedNlp Servisi lokacije</string>
+    <string name="locationservice_permission_description">Odobrenje razine potpisa, potrebno za Mock moj GPS da bi se osigurala njegova lokacija UnifiedNlp Pozadina.</string>
+    <string name="backendservice_summary">Koristi \"Mock my\" GPS" kao davatelj pozadinske lokacije dok je njegova usluga aktivna.</string>
+    <string name="pref_settings_title">Postavke</string>
+    <string name="pref_timeadvance_title">Vrijeme unaprijed (ms).</string>
+    <string name="pref_timeadvance_summary">Broj milisekundi koji se dodaju u vremensku oznaku svih ažuriranja lokacije. Dovoljno velika vrijednost bi trebala osigurati da se svi ostali pozadinski pružatelji usluga ignoriraju dok se ruga aktivira.:</string>
+</resources>

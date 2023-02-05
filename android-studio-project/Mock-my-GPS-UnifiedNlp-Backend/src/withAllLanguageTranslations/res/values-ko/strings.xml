@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">내가 하고 있는 GPS UnifiedNlp 백엔드</string>
+    <string name="locationservice_permission_label">내가 하고 있는 GPS UnifiedNlp 위치 서비스</string>
+    <string name="locationservice_permission_description">서명 레벨 권한, Mock에 필요한 권한 GPS 위치 업데이트를 제공하기 위해 UnifiedNlp 백엔드.</string>
+    <string name="backendservice_summary">\"Mock my\" 를 사용합니다. GPS" 서비스가 활성화되어 있는 동안 백엔드 위치 제공자로.</string>
+    <string name="pref_settings_title">설정</string>
+    <string name="pref_timeadvance_title">시간 어드밴스 (ms).</string>
+    <string name="pref_timeadvance_summary">모든 위치 업데이트의 시간소인에 추가된 시간 (밀리초) 입니다. 다른 모든 백엔드 제공자가 무시되는 동안 모든 다른 백엔드 제공자가 무시되도록 해야 합니다.:</string>
+</resources>

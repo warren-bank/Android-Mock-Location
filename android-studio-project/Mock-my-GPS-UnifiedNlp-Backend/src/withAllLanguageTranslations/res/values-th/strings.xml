@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">หม่อน GPS UnifiedNlp แบ็คเอนด์</string>
+    <string name="locationservice_permission_label">หม่อน GPS UnifiedNlp เซอร์วิสตำแหน่ง</string>
+    <string name="locationservice_permission_description">สิทธิ์ระดับลายเซ็นที่จำเป็นสำหรับล้อเลียนฉัน GPS เพื่อจัดเตรียมการอัพเดตตำแหน่งให้กับตำแหน่ง UnifiedNlp แบ็คเอนด์.</string>
+    <string name="backendservice_summary">ใช้ \"จำลอง my GPS" เป็นผู้ให้บริการตำแหน่งเบื้องหลังขณะที่เซอร์วิสแอ็คทีฟ.</string>
+    <string name="pref_settings_title">การตั้งค่า</string>
+    <string name="pref_timeadvance_title">เงินเบิกล่วงหน้า (ms).</string>
+    <string name="pref_timeadvance_summary">จำนวนมิลลิวินาทีที่เพิ่มเข้ากับเวลาประทับของการอัพเดตตำแหน่งทั้งหมด ค่าที่มากพอที่จะทำให้แน่ใจว่าผู้ให้บริการเบื้องหลังอื่นทั้งหมดจะถูกข้ามขณะที่การทำซ้ำแอ็คทีฟ:</string>
+</resources>

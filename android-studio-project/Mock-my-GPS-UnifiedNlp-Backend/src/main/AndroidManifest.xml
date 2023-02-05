@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.github.warren_bank.mock_location.service.microg_nlp_backend">
+
+    <permission
+        android:name="com.github.warren_bank.mock_location.service.microg_nlp_backend.LocationService.BIND"
+        android:label="@string/locationservice_permission_label"
+        android:description="@string/locationservice_permission_description"
+        android:protectionLevel="signature" />
+
+    <uses-permission
+        android:name="com.github.warren_bank.mock_location.service.microg_nlp_backend.LocationService.BIND" />
+
+    <application
+        android:label="@string/app_name"
+        android:icon="@drawable/launcher">
+
+        <service
+            android:name=".BackendService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.github.warren_bank.mock_location.service.microg_nlp_backend.BackendService.BIND" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.microg.nlp.LOCATION_BACKEND" />
+            </intent-filter>
+            <meta-data
+                android:name="org.microg.nlp.BACKEND_SUMMARY"
+                android:value="@string/backendservice_summary" />
+            <meta-data
+                android:name="org.microg.nlp.BACKEND_SETTINGS_ACTIVITY"
+                android:value="com.github.warren_bank.mock_location.service.microg_nlp_backend.SettingsActivity" />
+        </service>
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true" />
+
+        <service
+            android:name=".LocationService"
+            android:permission="com.github.warren_bank.mock_location.service.microg_nlp_backend.LocationService.BIND"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.github.warren_bank.mock_location.service.microg_nlp_backend.LocationService.BIND" />
+            </intent-filter>
+        </service>
+
+    </application>
+</manifest>

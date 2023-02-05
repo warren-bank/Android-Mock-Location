@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ejek saja GPS UnifiedNlp Ujung Belakang</string>
+    <string name="locationservice_permission_label">Ejek saja GPS UnifiedNlp Layanan Lokasi</string>
+    <string name="locationservice_permission_description">Izin Tingkat Tanda Tangan, diperlukan untuk Mock GPS untuk memberikan pembaruan lokasi kepada Anda UnifiedNlp Ujung Belakang.</string>
+    <string name="backendservice_summary">Gunakan \" Mock my GPS" sebagai penyedia lokasi backend sementara layanannya aktif.</string>
+    <string name="pref_settings_title">Pengaturan</string>
+    <string name="pref_timeadvance_title">Waktu-waktu (ms).</string>
+    <string name="pref_timeadvance_summary">Jumlah milidetik ditambahkan pada timestamp dari semua pembaruan lokasi. Nilai yang cukup besar harus memastikan bahwa semua penyedia backend lain diabaikan sambil mengejek aktif.:</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mock my GPS UnifiedNlp පසුපසිනි</string>
+    <string name="locationservice_permission_label">Mock my GPS UnifiedNlp පිහිටුම සේවාව</string>
+    <string name="locationservice_permission_description">සංඥා මට්ටම අවසරයක්, Mock සඳහා අවශ්ය GPS වෙත යාවත්කාල කිරීම් ලබාදීමේ දී එහි UnifiedNlp පසුපසිනි.</string>
+    <string name="backendservice_summary">Uses \" Mock my GPS" එහි සේවය ක්රියාත්මකවන අතර පසුකාලීන ස්ථාන සපයන්නෙක් ලෙස.</string>
+    <string name="pref_settings_title">සැකසුම්</string>
+    <string name="pref_timeadvance_title">වේලාව ඉදිරියට (ms).</string>
+    <string name="pref_timeadvance_summary">සියළු පිහිටුම යාවත්කාල කිරීමේ කාලසටහනට එකතු කල මිලිතත්පර ගණන විශාල ප්රමාණයක අගය තහවුරු කළ යුතු අතර අනෙක් සියලු පසුබෑම් සපයන්නන් නොසලකා හැරිය හැකි අතර mocking ක්රියාත්මකයි:</string>
+</resources>

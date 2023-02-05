@@ -3,6 +3,8 @@ package com.github.warren_bank.mock_location.service.looper;
 // copied from:
 //   https://github.com/mcastillof/FakeTraveler/blob/v1.6/app/src/main/java/cl/coders/faketraveler/MainActivity.java
 
+import com.github.warren_bank.mock_location.service.microg_nlp_backend.UnifiedNlpManager;
+
 import android.content.Context;
 import android.location.LocationManager;
 import android.os.Build;
@@ -12,6 +14,7 @@ public class MockLocationProviderManager {
     private static MockLocationProvider mockNetwork = null;
     private static MockLocationProvider mockGps     = null;
     private static MockLocationProvider mockFused   = null;
+    private static UnifiedNlpManager    nlpManager  = null;
 
     /**
      * Initialize instances of 'MockLocationProvider'.
@@ -23,6 +26,8 @@ public class MockLocationProviderManager {
         if (Build.VERSION.SDK_INT >= 31) {
             startMockingLocationFused(context);
         }
+
+        nlpManager = new UnifiedNlpManager(context);
     }
 
     private static void startMockingLocationNetwork(Context context) {
@@ -36,7 +41,7 @@ public class MockLocationProviderManager {
         }
     }
 
-    protected static void startMockingLocationGps(Context context) {
+    private static void startMockingLocationGps(Context context) {
         stopMockingLocationGps();
 
         try {
@@ -47,7 +52,7 @@ public class MockLocationProviderManager {
         }
     }
 
-    protected static void startMockingLocationFused(Context context) {
+    private static void startMockingLocationFused(Context context) {
         stopMockingLocationFused();
 
         try {
@@ -91,6 +96,10 @@ public class MockLocationProviderManager {
              // stopMockingLocationFused();
             }
         }
+
+        if (nlpManager != null) {
+            nlpManager.update(lat, lon);
+        }
     }
 
     /**
@@ -100,6 +109,8 @@ public class MockLocationProviderManager {
         stopMockingLocationNetwork();
         stopMockingLocationGps();
         stopMockingLocationFused();
+
+        nlpManager = null;
     }
 
     private static void stopMockingLocationNetwork() {
