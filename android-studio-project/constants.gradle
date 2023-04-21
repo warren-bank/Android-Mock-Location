@@ -4,8 +4,8 @@ project.ext {
     buildToolsVersion = '33.0.1'
     javaVersion       = JavaVersion.VERSION_1_8
 
-    base_releaseVersionCode     = Integer.parseInt("002030000", 10)  //Integer.MAX_VALUE == 2147483647
-    base_releaseVersion         = '002.03.00'
+    base_releaseVersionCode     = Integer.parseInt("002030100", 10)  //Integer.MAX_VALUE == 2147483647
+    base_releaseVersion         = '002.03.01'
 
     app_aosp_minSdkVersion      = 3
     app_aosp_releaseVersionCode = project.ext.base_releaseVersionCode + project.ext.app_aosp_minSdkVersion
