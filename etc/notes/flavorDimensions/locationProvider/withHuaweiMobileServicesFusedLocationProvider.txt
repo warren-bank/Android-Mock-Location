@@ -1,0 +1,39 @@
+HuaweiMobileServices:
+=====================
+
+https://developer.huawei.com/consumer/en/hms/
+https://developer.huawei.com/consumer/en/hms/huawei-locationkit
+
+https://developer.huawei.com/consumer/en/doc/development/Tools-Guides/appendix-0000001050061063
+  > implementation 'com.huawei.hms:base:6.0.1.302'
+  > implementation 'com.huawei.hms:location:6.0.0.302'
+
+https://developer.huawei.com/consumer/en/doc/development/hmscore-common-References/base-overview-0000001050442749
+  includes classes: 'HuaweiApiAvailability'
+
+https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/location-description-0000001088559417
+  includes classes: 'LocationServices', 'FusedLocationProviderClient'
+
+----------------------------------------
+
+https://developer.huawei.com/consumer/en/doc/development/hmscore-common-References/huaweiapiavailability-0000001050121134
+  class: 'HuaweiApiAvailability'
+https://developer.huawei.com/consumer/en/doc/development/hmscore-common-References/huaweiapiavailability-0000001050121134#section9492524178
+  method: isHuaweiMobileServicesAvailable(Context context)
+
+https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/locationservice-0000001050746175
+  class: 'LocationServices'
+https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/locationservice-0000001050746175#section10168735183219
+  method: getFusedLocationProviderClient(Context context)
+
+https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/fusedlocationproviderclient-0000001050746169
+  class: 'FusedLocationProviderClient'
+https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/fusedlocationproviderclient-0000001050746169#section1333112213152
+  method: setMockMode(boolean isMockMode)
+https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/fusedlocationproviderclient-0000001050746169#section888218474112
+  method: setMockLocation(Location mockLocation)
+
+----------------------------------------
+
+https://github.com/huaweicodelabs/LocationKit
+https://github.com/huaweicodelabs/LocationKit/blob/master/java/app/build.gradle#L64

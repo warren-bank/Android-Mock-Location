@@ -4,14 +4,22 @@ project.ext {
     buildToolsVersion = '33.0.1'
     javaVersion       = JavaVersion.VERSION_1_8
 
-    base_releaseVersionCode = Integer.parseInt("002020100", 10)  //Integer.MAX_VALUE == 2147483647
-    base_releaseVersion     = '002.02.01'
+    base_releaseVersionCode     = Integer.parseInt("002030000", 10)  //Integer.MAX_VALUE == 2147483647
+    base_releaseVersion         = '002.03.00'
 
-    app_minSdkVersion       = 3
-    app_releaseVersionCode  = project.ext.base_releaseVersionCode + project.ext.app_minSdkVersion
-    app_releaseVersion      = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.app_minSdkVersion)
+    app_aosp_minSdkVersion      = 3
+    app_aosp_releaseVersionCode = project.ext.base_releaseVersionCode + project.ext.app_aosp_minSdkVersion
+    app_aosp_releaseVersion     = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.app_aosp_minSdkVersion)
 
-    nlp_minSdkVersion       = 9
-    nlp_releaseVersionCode  = project.ext.base_releaseVersionCode + project.ext.nlp_minSdkVersion
-    nlp_releaseVersion      = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.nlp_minSdkVersion)
+    app_gms_minSdkVersion       = 19
+    app_gms_releaseVersionCode  = project.ext.base_releaseVersionCode + project.ext.app_gms_minSdkVersion
+    app_gms_releaseVersion      = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.app_gms_minSdkVersion)
+
+    app_hms_minSdkVersion       = 19
+    app_hms_releaseVersionCode  = project.ext.base_releaseVersionCode + project.ext.app_hms_minSdkVersion
+    app_hms_releaseVersion      = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.app_hms_minSdkVersion)
+
+    nlp_minSdkVersion           = 9
+    nlp_releaseVersionCode      = project.ext.base_releaseVersionCode + project.ext.nlp_minSdkVersion
+    nlp_releaseVersion          = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.nlp_minSdkVersion)
 }

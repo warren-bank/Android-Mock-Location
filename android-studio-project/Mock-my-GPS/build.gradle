@@ -11,17 +11,18 @@ android {
     }
 
     defaultConfig {
+        applicationId "com.github.warren_bank.mock_location"
+
         targetSdkVersion project.ext.targetSdkVersion
 
-        applicationId "com.github.warren_bank.mock_location"
-        minSdkVersion project.ext.app_minSdkVersion
-        versionCode   project.ext.app_releaseVersionCode
-        versionName   project.ext.app_releaseVersion
-
-        archivesBaseName += "-$versionName"
+        applicationVariants.all { variant ->
+            variant.outputs.all {
+                outputFileName = "${archivesBaseName}-${variant.versionName}-${variant.productFlavors[0].name}-${variant.productFlavors[1].name}-${variant.buildType.name}.apk"
+            }
+        }
     }
 
-    flavorDimensions "languageResources"
+    flavorDimensions "languageResources", "locationProvider"
 
     productFlavors {
         withAllLanguageTranslations {
@@ -29,6 +30,35 @@ android {
         }
         english {
             dimension "languageResources"
+        }
+        withAospLocationProviders {
+            dimension "locationProvider"
+
+            minSdkVersion project.ext.app_aosp_minSdkVersion
+            versionCode   project.ext.app_aosp_releaseVersionCode
+            versionName   project.ext.app_aosp_releaseVersion
+        }
+        withGooglePlayServicesFusedLocationProvider {
+            dimension "locationProvider"
+
+            minSdkVersion project.ext.app_gms_minSdkVersion
+            versionCode   project.ext.app_gms_releaseVersionCode
+            versionName   project.ext.app_gms_releaseVersion
+
+            repositories {
+                maven { url 'https://maven.google.com' }
+            }
+        }
+        withHuaweiMobileServicesFusedLocationProvider {
+            dimension "locationProvider"
+
+            minSdkVersion project.ext.app_hms_minSdkVersion
+            versionCode   project.ext.app_hms_releaseVersionCode
+            versionName   project.ext.app_hms_releaseVersion
+
+            repositories {
+                maven { url 'https://developer.huawei.com/repo/' }
+            }
         }
     }
 
@@ -60,5 +90,11 @@ android {
 dependencies {
     implementation project(':Mock-my-GPS-UnifiedNlp-Backend-artifacts')
 
-    implementation 'com.google.code.gson:gson:'    + '2.8.5'    // (235 KB) https://mvnrepository.com/artifact/com.google.code.gson/gson
+    implementation 'com.google.code.gson:gson:'    + '2.8.5'                                                                    // (235 KB) https://mvnrepository.com/artifact/com.google.code.gson/gson
+
+    withGooglePlayServicesFusedLocationProviderImplementation 'com.google.android.gms:play-services-base:'        + '18.2.0'    // (567 KB) https://mvnrepository.com/artifact/com.google.android.gms/play-services-base?repo=google
+    withGooglePlayServicesFusedLocationProviderImplementation 'com.google.android.gms:play-services-location:'    + '21.0.1'    // (232 KB) https://mvnrepository.com/artifact/com.google.android.gms/play-services-location?repo=google
+
+    withHuaweiMobileServicesFusedLocationProviderImplementation 'com.huawei.hms:base:'        + '6.0.1.302'
+    withHuaweiMobileServicesFusedLocationProviderImplementation 'com.huawei.hms:location:'    + '6.0.0.302'
 }

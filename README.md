@@ -4,12 +4,12 @@ Android app that mocks the GPS and Network location providers.
 
 #### Screenshots
 
-![Mock-my-GPS](./screenshots/1-mainactivity-tab1-fixed-position.png)
-![Mock-my-GPS](./screenshots/2-mainactivity-tab2-trip-simulation.png)
-![Mock-my-GPS](./screenshots/3-preferences.png)
-![Mock-my-GPS](./screenshots/4-bookmarks-add-dialog.png)
-![Mock-my-GPS](./screenshots/5-bookmarks-list.png)
-![Mock-my-GPS](./screenshots/6-bookmarks-open.png)
+![Mock-my-GPS](./etc/screenshots/1-mainactivity-tab1-fixed-position.png)
+![Mock-my-GPS](./etc/screenshots/2-mainactivity-tab2-trip-simulation.png)
+![Mock-my-GPS](./etc/screenshots/3-preferences.png)
+![Mock-my-GPS](./etc/screenshots/4-bookmarks-add-dialog.png)
+![Mock-my-GPS](./etc/screenshots/5-bookmarks-list.png)
+![Mock-my-GPS](./etc/screenshots/6-bookmarks-open.png)
 
 #### Summary
 
@@ -129,6 +129,28 @@ __other enhancements__:
     * does not include translated string resources for any other languages
   - `withAllLanguageTranslations`
     * does include translated string resources for all supported languages
+* `withAospLocationProviders` vs. `withGooglePlayServicesFusedLocationProvider` vs. `withHuaweiMobileServicesFusedLocationProvider`
+  - `withAospLocationProviders`
+    * supplies mock location data to the following _Android Open Source Project_ (AOSP) location providers:
+      - `LocationManager.GPS_PROVIDER`
+      - `LocationManager.NETWORK_PROVIDER`
+      - `LocationManager.FUSED_PROVIDER`
+  - `withGooglePlayServicesFusedLocationProvider`
+    * supplies mock location data to the following _Android Open Source Project_ (AOSP) location providers:
+      - `LocationManager.GPS_PROVIDER`
+      - `LocationManager.NETWORK_PROVIDER`
+      - `LocationManager.FUSED_PROVIDER`
+    * supplies mock location data to the following _Google Play Services_ location providers:
+      - `FusedLocationProviderClient` in the _Google Location Services_ (GLS)
+    * requires that _Google Play Services_ is installed, enabled, and sufficiently recent
+  - `withHuaweiMobileServicesFusedLocationProvider`
+    * supplies mock location data to the following _Android Open Source Project_ (AOSP) location providers:
+      - `LocationManager.GPS_PROVIDER`
+      - `LocationManager.NETWORK_PROVIDER`
+      - `LocationManager.FUSED_PROVIDER`
+    * supplies mock location data to the following _Huawei Mobile Services_ (HMS) location providers:
+      - `FusedLocationProviderClient` in the _HMS Core Location Kit_
+    * requires that _Huawei Mobile Services_ (HMS) is installed, enabled, and sufficiently recent
 
 - - - -
 

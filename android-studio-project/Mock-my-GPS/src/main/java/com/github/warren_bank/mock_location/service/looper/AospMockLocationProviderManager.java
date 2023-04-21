@@ -1,6 +1,6 @@
 package com.github.warren_bank.mock_location.service.looper;
 
-// copied from:
+// based on:
 //   https://github.com/mcastillof/FakeTraveler/blob/v1.6/app/src/main/java/cl/coders/faketraveler/MainActivity.java
 
 import com.github.warren_bank.mock_location.service.microg_nlp_backend.UnifiedNlpManager;
@@ -9,7 +9,7 @@ import android.content.Context;
 import android.location.LocationManager;
 import android.os.Build;
 
-public class MockLocationProviderManager {
+public class AospMockLocationProviderManager {
 
     private static MockLocationProvider mockNetwork = null;
     private static MockLocationProvider mockGps     = null;
@@ -69,7 +69,7 @@ public class MockLocationProviderManager {
      * @param lat latitude
      * @param lon longitude
      */
-    static void exec(double lat, double lon) {
+    protected static void exec(double lat, double lon) {
         if (mockNetwork != null) {
             try {
                 mockNetwork.pushLocation(lat, lon);

@@ -1,0 +1,37 @@
+GooglePlayServices:
+===================
+
+https://developers.google.com/android/guides/setup
+https://developers.google.com/android/guides/setup#list-dependencies
+
+https://developers.google.com/android/reference/com/google/android/gms/common/package-summary
+  includes classes: 'GoogleApiAvailability'
+  > implementation 'com.google.android.gms:play-services-base:18.2.0'
+
+https://developers.google.com/android/reference/com/google/android/gms/location/package-summary
+  includes classes: 'LocationServices', 'FusedLocationProviderClient'
+  > implementation 'com.google.android.gms:play-services-location:21.0.1'
+
+----------------------------------------
+
+https://developers.google.com/android/reference/com/google/android/gms/common/GoogleApiAvailability
+  class: 'GoogleApiAvailability'
+https://developers.google.com/android/reference/com/google/android/gms/common/GoogleApiAvailability#isGooglePlayServicesAvailable(android.content.Context)
+  method: isGooglePlayServicesAvailable(android.content.Context)
+
+https://developers.google.com/android/reference/com/google/android/gms/location/LocationServices
+  class: 'LocationServices'
+https://developers.google.com/android/reference/com/google/android/gms/location/LocationServices#getFusedLocationProviderClient(android.content.Context)
+  method: getFusedLocationProviderClient(android.content.Context)
+
+https://developers.google.com/android/reference/com/google/android/gms/location/FusedLocationProviderClient
+  class: 'FusedLocationProviderClient'
+https://developers.google.com/android/reference/com/google/android/gms/location/FusedLocationProviderClient#setMockMode(boolean)
+  method: setMockMode(boolean)
+https://developers.google.com/android/reference/com/google/android/gms/location/FusedLocationProviderClient#setMockLocation(android.location.Location)
+  method: setMockLocation(android.location.Location)
+
+----------------------------------------
+
+https://github.com/dimitardanailov/FusedLocationProviderClient
+https://github.com/dimitardanailov/FusedLocationProviderClient/blob/master/app/build.gradle#L27

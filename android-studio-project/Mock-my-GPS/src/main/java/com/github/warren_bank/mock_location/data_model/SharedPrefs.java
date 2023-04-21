@@ -276,7 +276,7 @@ public final class SharedPrefs {
 
     public static int getTimeInterval(SharedPreferences sharedPreferences, Context context) {
         int pref_key_id = R.string.pref_time_interval;
-        int defValue = 1000;
+        int defValue = 100;
         return getInt(sharedPreferences, context, pref_key_id, defValue);
     }
 

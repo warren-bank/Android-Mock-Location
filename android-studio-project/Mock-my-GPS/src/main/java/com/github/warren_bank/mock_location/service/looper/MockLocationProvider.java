@@ -60,14 +60,30 @@ public class MockLocationProvider {
      * @return Void
      */
     public void pushLocation(double lat, double lon) {
-        LocationManager lm = (LocationManager) ctx.getSystemService(Context.LOCATION_SERVICE);
+        LocationManager lm    = (LocationManager) ctx.getSystemService(Context.LOCATION_SERVICE);
+        Location mockLocation = MockLocationProvider.getLocation(providerName, lat, lon);
 
+        lm.setTestProviderLocation(providerName, mockLocation);
+    }
+
+    protected static Location getLocation(double lat, double lon) {
+        return MockLocationProvider.getLocation(/* providerName= */ null, lat, lon);
+    }
+
+    protected static Location getLocation(double lat, double lon, int advanceTimeMillis) {
+        return MockLocationProvider.getLocation(/* providerName= */ null, lat, lon, advanceTimeMillis);
+    }
+
+    protected static Location getLocation(String providerName, double lat, double lon) {
+        return MockLocationProvider.getLocation(providerName, lat, lon, /* advanceTimeMillis= */ 0);
+    }
+
+    protected static Location getLocation(String providerName, double lat, double lon, int advanceTimeMillis) {
         Location mockLocation = new Location(providerName);
         mockLocation.setLatitude(lat);
         mockLocation.setLongitude(lon);
         mockLocation.setAltitude(3F);
-        mockLocation.setTime(System.currentTimeMillis());
-        //mockLocation.setAccuracy(16F);
+        mockLocation.setTime(System.currentTimeMillis() + advanceTimeMillis);
         mockLocation.setSpeed(0.01F);
         mockLocation.setBearing(1F);
         mockLocation.setAccuracy(3F);
@@ -83,7 +99,7 @@ public class MockLocationProvider {
         if (Build.VERSION.SDK_INT >= 17) {
             mockLocation.setElapsedRealtimeNanos(SystemClock.elapsedRealtimeNanos());
         }
-        lm.setTestProviderLocation(providerName, mockLocation);
+        return mockLocation;
     }
 
     /**

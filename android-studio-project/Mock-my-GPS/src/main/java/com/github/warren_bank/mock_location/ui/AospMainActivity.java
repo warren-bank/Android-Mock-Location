@@ -23,7 +23,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import java.util.ArrayList;
 
-public class MainActivity extends ActivityGroup {
+public class AospMainActivity extends ActivityGroup {
     private TabHost tabHost;
 
     // ---------------------------------------------------------------------------------------------
@@ -69,10 +69,10 @@ public class MainActivity extends ActivityGroup {
         if (text == null)
             return;
 
-        Toast.makeText(MainActivity.this, text, Toast.LENGTH_LONG).show();
+        Toast.makeText(AospMainActivity.this, text, Toast.LENGTH_LONG).show();
     }
 
-    private void requestPermissions() {
+    protected void requestPermissions() {
         if (Build.VERSION.SDK_INT >= 33) {
             if (checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
                 requestPermissions(new String[]{Manifest.permission.POST_NOTIFICATIONS}, 0);
@@ -123,33 +123,33 @@ public class MainActivity extends ActivityGroup {
     }
 
     private void startPreferences() {
-        Intent intent = new Intent(MainActivity.this, PreferencesActivity.class);
+        Intent intent = new Intent(AospMainActivity.this, PreferencesActivity.class);
         startActivity(intent);
     }
 
     private void startBookmarks() {
-        Intent intent = new Intent(MainActivity.this, BookmarksActivity.class);
+        Intent intent = new Intent(AospMainActivity.this, BookmarksActivity.class);
         startActivity(intent);
     }
 
     private void startSaveBookmark(LocPoint point) {
         String title = getExistingBookmark(point);
         if (title != null) {
-            Toast.makeText(MainActivity.this, getString(R.string.error_bookmarkitem_exists, title), Toast.LENGTH_SHORT).show();
+            Toast.makeText(AospMainActivity.this, getString(R.string.error_bookmarkitem_exists, title), Toast.LENGTH_SHORT).show();
             return;
         }
 
         double lat = point.getLatitude();
         double lon = point.getLongitude();
 
-        Intent intent = new Intent(MainActivity.this, BookmarksActivity.class);
+        Intent intent = new Intent(AospMainActivity.this, BookmarksActivity.class);
         intent.putExtra(getString(R.string.BookmarksActivity_extra_add_lat), lat);
         intent.putExtra(getString(R.string.BookmarksActivity_extra_add_lon), lon);
         startActivity(intent);
     }
 
     private String getExistingBookmark(LocPoint point) {
-        ArrayList<BookmarkItem> arrayList = SharedPrefs.getBookmarkItems(MainActivity.this);
+        ArrayList<BookmarkItem> arrayList = SharedPrefs.getBookmarkItems(AospMainActivity.this);
         int index = BookmarkItem.indexOf(arrayList, point.getLatitude(), point.getLongitude());
 
         return (index == -1) ? null : arrayList.get(index).title;
@@ -185,7 +185,7 @@ public class MainActivity extends ActivityGroup {
         }
 
         if ((origin == null) && (destination == null)) {
-            Toast.makeText(MainActivity.this, getString(R.string.error_missing_required_value), Toast.LENGTH_SHORT).show();
+            Toast.makeText(AospMainActivity.this, getString(R.string.error_missing_required_value), Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -216,7 +216,7 @@ public class MainActivity extends ActivityGroup {
     }
 
     private void saveBookmarkItemTab2(LocPoint origin, LocPoint destination) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(AospMainActivity.this);
         builder.setTitle(R.string.save_bookmark_menu_title);
         builder.setItems(R.array.save_bookmark_menu_options, new DialogInterface.OnClickListener() {
             @Override
