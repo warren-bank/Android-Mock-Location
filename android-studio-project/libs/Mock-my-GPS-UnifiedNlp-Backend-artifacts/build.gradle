@@ -1,0 +1,42 @@
+apply from: '../../constants.gradle'
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion project.ext.compileSdkVersion
+    buildToolsVersion project.ext.buildToolsVersion
+
+    compileOptions {
+        sourceCompatibility project.ext.javaVersion
+        targetCompatibility project.ext.javaVersion
+    }
+
+    defaultConfig {
+        targetSdkVersion project.ext.targetSdkVersion
+        minSdkVersion    Math.min(project.ext.app_aosp_minSdkVersion, project.ext.nlp_minSdkVersion)
+    }
+
+    buildTypes {
+        release {
+            debuggable      false
+            jniDebuggable   false
+            minifyEnabled   true
+            proguardFiles = [
+                "proguard-rules.txt",
+                getDefaultProguardFile('proguard-android.txt')
+            ]
+        }
+        debug {
+            debuggable      true
+            jniDebuggable   true
+            minifyEnabled   false
+        }
+    }
+
+    lintOptions {
+        disable 'MissingTranslation'
+        abortOnError true
+    }
+}
+
+dependencies {
+}
