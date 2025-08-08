@@ -1,0 +1,1 @@
+mock the GPS and Network location providers
