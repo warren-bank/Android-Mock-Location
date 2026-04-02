@@ -1,5 +1,5 @@
 project.ext {
-    targetSdkVersion  = 33
+    targetSdkVersion  = 35
     compileSdkVersion = 35
     buildToolsVersion = '35.0.0'
     javaVersion       = JavaVersion.VERSION_1_8
