@@ -45,3 +45,57 @@
 }
 
 ##---------------End: proguard configuration for Gson  ----------
+
+##---------------Begin: proguard configuration for Huawei (HMS)  ----------
+-dontwarn android.telephony.HwTelephonyManager
+-dontwarn com.huawei.android.os.BuildEx$VERSION
+-dontwarn com.huawei.android.telephony.ServiceStateEx
+-dontwarn com.huawei.appgallery.log.LogAdaptor
+-dontwarn com.huawei.hianalytics.process.HiAnalyticsConfig$Builder
+-dontwarn com.huawei.hianalytics.process.HiAnalyticsConfig
+-dontwarn com.huawei.hianalytics.process.HiAnalyticsInstance$Builder
+-dontwarn com.huawei.hianalytics.process.HiAnalyticsInstance
+-dontwarn com.huawei.hianalytics.process.HiAnalyticsManager
+-dontwarn com.huawei.hianalytics.util.HiAnalyticTools
+-dontwarn com.huawei.hianalytics.v2.HiAnalytics
+-dontwarn com.huawei.hms.config.Server
+-dontwarn com.huawei.hms.framework.network.restclient.dnkeeper.DNKeeperManager
+-dontwarn com.huawei.hms.framework.network.restclient.dnkeeper.RequestHost
+-dontwarn com.huawei.hms.framework.network.restclient.hwhttp.ClientConfiguration
+-dontwarn com.huawei.hms.framework.network.restclient.hwhttp.dns.DnsResult
+-dontwarn com.huawei.hms.framework.qoes.HmsQoEApiManager
+-dontwarn com.huawei.hms.hquic.HQUICManager$HQUICInitCallback
+-dontwarn com.huawei.hms.hquic.HQUICManager
+-dontwarn com.huawei.hms.network.AdvanceNetworkKitProvider
+-dontwarn com.huawei.hms.network.api.advance.AdvanceNetworkKit
+-dontwarn com.huawei.hms.support.api.entity.tss.GetCertificationKeyRequ
+-dontwarn com.huawei.hms.support.api.entity.tss.GetCertifiedCredentialRequ
+-dontwarn com.huawei.hms.tss.innersdk.TssInnerAPI
+-dontwarn com.huawei.hms.tss.innersdk.TssInnerCallback
+-dontwarn com.huawei.libcore.io.ExternalStorageFile
+-dontwarn com.huawei.libcore.io.ExternalStorageFileInputStream
+-dontwarn com.huawei.libcore.io.ExternalStorageFileOutputStream
+-dontwarn com.huawei.libcore.io.ExternalStorageRandomAccessFile
+-dontwarn net.sqlcipher.database.SQLiteOpenHelper
+-dontwarn org.bouncycastle.crypto.BlockCipher
+-dontwarn org.bouncycastle.crypto.engines.AESEngine
+-dontwarn org.bouncycastle.crypto.prng.SP800SecureRandom
+-dontwarn org.bouncycastle.crypto.prng.SP800SecureRandomBuilder
+-dontwarn org.chromium.net.CronetEngine
+-dontwarn org.chromium.net.ExperimentalCronetEngine$Builder
+-dontwarn org.chromium.net.ExperimentalCronetEngine
+-dontwarn org.chromium.net.ExperimentalUrlRequest$Builder
+-dontwarn org.chromium.net.ExperimentalUrlRequest
+-dontwarn org.chromium.net.NetworkException
+-dontwarn org.chromium.net.RequestFinishedInfo$Listener
+-dontwarn org.chromium.net.UploadDataProvider
+-dontwarn org.chromium.net.UrlRequest$Builder
+-dontwarn org.chromium.net.UrlRequest$Callback
+-dontwarn org.chromium.net.UrlRequest
+-dontwarn org.chromium.net.UrlResponseInfo
+-dontwarn org.conscrypt.Conscrypt$ProviderBuilder
+-dontwarn org.conscrypt.Conscrypt
+-dontwarn rx.Scheduler
+-dontwarn rx.schedulers.Schedulers
+
+##---------------End: proguard configuration for Huawei (HMS)  ----------
