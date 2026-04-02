@@ -57,15 +57,18 @@ public class LocationThread extends HandlerThread {
     Runnable mUpdateLocation = new Runnable() {
         @Override
         public void run() {
-            if (mLocationThreadManager != null) {
-                LocPoint locPoint = mLocationThreadManager.getUpdateLocPoint();
-                if (locPoint != null) {
-                    MockLocationProviderManager.exec(locPoint.getLatitude(), locPoint.getLongitude());
+            try {
+                if (mLocationThreadManager != null) {
+                    LocPoint locPoint = mLocationThreadManager.getUpdateLocPoint();
+                    if (locPoint != null) {
+                        MockLocationProviderManager.exec(locPoint.getLatitude(), locPoint.getLongitude());
+                    }
                 }
-                if (mLocationThreadManager.shouldContinue()) {
+                if ((mLocationThreadManager != null) && mLocationThreadManager.shouldContinue()) {
                     mHandler.postDelayed(mUpdateLocation, mTimeInterval);
                 }
             }
+            catch(Exception e) {}
         }
     };
 
