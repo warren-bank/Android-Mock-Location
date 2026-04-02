@@ -1,12 +1,13 @@
 project.ext {
     targetSdkVersion  = 33
-    compileSdkVersion = 33
-    buildToolsVersion = '33.0.1'
+    compileSdkVersion = 35
+    buildToolsVersion = '35.0.0'
     javaVersion       = JavaVersion.VERSION_1_8
 
     base_releaseVersionCode     = Integer.parseInt("002040100", 10)  //Integer.MAX_VALUE == 2147483647
     base_releaseVersion         = '002.04.01'
 
+    app_applicationId           = 'com.github.warren_bank.mock_location'
     app_aosp_minSdkVersion      = 3
     app_aosp_releaseVersionCode = project.ext.base_releaseVersionCode + project.ext.app_aosp_minSdkVersion
     app_aosp_releaseVersion     = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.app_aosp_minSdkVersion)
@@ -19,10 +20,12 @@ project.ext {
     app_hms_releaseVersionCode  = project.ext.base_releaseVersionCode + project.ext.app_hms_minSdkVersion
     app_hms_releaseVersion      = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.app_hms_minSdkVersion)
 
+    nlp_applicationId           = 'com.github.warren_bank.mock_location.service.microg_nlp_backend'
     nlp_minSdkVersion           = 9
     nlp_releaseVersionCode      = project.ext.base_releaseVersionCode + project.ext.nlp_minSdkVersion
     nlp_releaseVersion          = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.nlp_minSdkVersion)
 
+    shh_applicationId           = 'com.github.warren_bank.mock_location.silently'
     shh_minSdkVersion           = 1
     shh_releaseVersionCode      = project.ext.base_releaseVersionCode + project.ext.shh_minSdkVersion
     shh_releaseVersion          = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.shh_minSdkVersion)

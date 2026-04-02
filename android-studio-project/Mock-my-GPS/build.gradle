@@ -2,6 +2,8 @@ apply from: '../constants.gradle'
 apply plugin: 'com.android.application'
 
 android {
+    namespace project.ext.app_applicationId
+
     compileSdkVersion project.ext.compileSdkVersion
     buildToolsVersion project.ext.buildToolsVersion
 
@@ -11,8 +13,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.github.warren_bank.mock_location"
-
+        applicationId    project.ext.app_applicationId
         targetSdkVersion project.ext.targetSdkVersion
 
         applicationVariants.all { variant ->
@@ -60,6 +61,11 @@ android {
                 maven { url 'https://developer.huawei.com/repo/' }
             }
         }
+    }
+
+    buildFeatures {
+        aidl        = false
+        buildConfig = false
     }
 
     buildTypes {

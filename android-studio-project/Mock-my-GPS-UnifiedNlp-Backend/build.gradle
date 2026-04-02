@@ -2,6 +2,8 @@ apply from: '../constants.gradle'
 apply plugin: 'com.android.application'
 
 android {
+    namespace project.ext.nlp_applicationId
+
     compileSdkVersion project.ext.compileSdkVersion
     buildToolsVersion project.ext.buildToolsVersion
 
@@ -11,10 +13,10 @@ android {
     }
 
     defaultConfig {
+        minSdkVersion    project.ext.nlp_minSdkVersion
         targetSdkVersion project.ext.targetSdkVersion
 
-        applicationId "com.github.warren_bank.mock_location.service.microg_nlp_backend"
-        minSdkVersion project.ext.nlp_minSdkVersion
+        applicationId project.ext.nlp_applicationId
         versionCode   project.ext.nlp_releaseVersionCode
         versionName   project.ext.nlp_releaseVersion
 
@@ -30,6 +32,11 @@ android {
         english {
             dimension "languageResources"
         }
+    }
+
+    buildFeatures {
+        aidl        = false
+        buildConfig = false
     }
 
     buildTypes {

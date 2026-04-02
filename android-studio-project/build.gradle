@@ -1,19 +1,23 @@
 buildscript {
     repositories {
         google()
-        mavenCentral()
         jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.3.1'    // https://mvnrepository.com/artifact/com.android.tools.build/gradle?repo=google
+        classpath 'com.android.tools.build:gradle:8.7.2'                         // https://mvnrepository.com/artifact/com.android.tools.build/gradle?repo=google
+                                                                                 // https://developer.android.com/build/releases/gradle-plugin#updating-gradle
+                                                                                 // https://developer.android.com/build/releases/gradle-plugin#api-level-support
     }
 }
 
 allprojects {
     repositories {
         google()
-        mavenCentral()
         jcenter()
     }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
 }

@@ -2,6 +2,8 @@ apply from: '../../constants.gradle'
 apply plugin: 'com.android.library'
 
 android {
+    namespace project.ext.nlp_applicationId + ".artifacts"
+
     compileSdkVersion project.ext.compileSdkVersion
     buildToolsVersion project.ext.buildToolsVersion
 
@@ -13,6 +15,11 @@ android {
     defaultConfig {
         targetSdkVersion project.ext.targetSdkVersion
         minSdkVersion    Math.min(project.ext.app_aosp_minSdkVersion, project.ext.nlp_minSdkVersion)
+    }
+
+    buildFeatures {
+        aidl        = true
+        buildConfig = false
     }
 
     buildTypes {
