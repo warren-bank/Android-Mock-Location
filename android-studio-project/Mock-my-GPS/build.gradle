@@ -101,7 +101,7 @@ android {
 dependencies {
     implementation project(':Mock-my-GPS-UnifiedNlp-Backend-artifacts')
 
-    implementation 'com.google.code.gson:gson:'    + '2.8.5'                                                                    // (235 KB) https://mvnrepository.com/artifact/com.google.code.gson/gson
+    implementation 'com.google.code.gson:gson:'    + '2.8.6'                                                                    // (235 KB) https://mvnrepository.com/artifact/com.google.code.gson/gson
 
     withGooglePlayServicesFusedLocationProviderImplementation 'com.google.android.gms:play-services-base:'        + '18.2.0'    // (567 KB) https://mvnrepository.com/artifact/com.google.android.gms/play-services-base?repo=google
     withGooglePlayServicesFusedLocationProviderImplementation 'com.google.android.gms:play-services-location:'    + '21.0.1'    // (232 KB) https://mvnrepository.com/artifact/com.google.android.gms/play-services-location?repo=google
