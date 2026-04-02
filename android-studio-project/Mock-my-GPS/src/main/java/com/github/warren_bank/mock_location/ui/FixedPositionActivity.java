@@ -41,6 +41,8 @@ public class FixedPositionActivity extends RuntimePermissionsActivity {
 
         input_fixed_position.addTextChangedListener(new TextWatcher() {
             public void afterTextChanged(Editable s) {
+                label_fixed_position.setVisibility(View.GONE);
+
                 if (!LocationService.isStarted()) return;
 
                 try {

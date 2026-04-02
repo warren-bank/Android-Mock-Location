@@ -50,6 +50,8 @@ public class TripSimulationActivity extends Activity {
 
         input_trip_origin.addTextChangedListener(new TextWatcher() {
             public void afterTextChanged(Editable s) {
+                label_trip_origin.setVisibility(View.GONE);
+
                 if (!LocationService.isStarted()) return;
 
                 try {
@@ -75,6 +77,8 @@ public class TripSimulationActivity extends Activity {
 
         input_trip_destination.addTextChangedListener(new TextWatcher() {
             public void afterTextChanged(Editable s) {
+                label_trip_destination.setVisibility(View.GONE);
+
                 if (!LocationService.isStarted()) return;
 
                 try {
