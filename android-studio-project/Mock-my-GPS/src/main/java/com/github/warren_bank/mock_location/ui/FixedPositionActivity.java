@@ -37,8 +37,6 @@ public class FixedPositionActivity extends RuntimePermissionsActivity {
         button_toggle_state  = (Button)   findViewById(R.id.button_toggle_state);
         button_update        = (Button)   findViewById(R.id.button_update);
 
-        reset();
-
         input_fixed_position.addTextChangedListener(new TextWatcher() {
             public void afterTextChanged(Editable s) {
                 label_fixed_position.setVisibility(View.GONE);
@@ -93,6 +91,12 @@ public class FixedPositionActivity extends RuntimePermissionsActivity {
                 catch(Exception e) {}
             }
         });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        reset();
     }
 
     private void reset() {

@@ -46,8 +46,6 @@ public class TripSimulationActivity extends Activity {
         button_toggle_state    = (Button)   findViewById(R.id.button_toggle_state);
         button_update          = (Button)   findViewById(R.id.button_update);
 
-        reset();
-
         input_trip_origin.addTextChangedListener(new TextWatcher() {
             public void afterTextChanged(Editable s) {
                 label_trip_origin.setVisibility(View.GONE);
@@ -157,6 +155,12 @@ public class TripSimulationActivity extends Activity {
                 catch(Exception e) {}
             }
         });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        reset();
     }
 
     private void reset() {
