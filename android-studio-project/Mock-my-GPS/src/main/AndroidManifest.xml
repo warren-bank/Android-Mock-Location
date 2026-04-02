@@ -19,6 +19,12 @@
     <!-- required for "LocationService" on API 28+ -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
+    <!-- required for FGS w/ foregroundServiceType="dataSync" on API 34+ -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+
+    <!-- required for FGS w/ foregroundServiceType="location" on API 34+ -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+
     <!-- required to display notification for foreground service on API 33+ -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
