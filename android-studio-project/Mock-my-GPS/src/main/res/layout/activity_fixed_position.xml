@@ -23,6 +23,13 @@
             android:text="@string/FixedPositionActivity_field_1"
             style="@style/input_label_textview" />
 
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/label_fixed_position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
         <EditText
             android:id="@+id/input_fixed_position"
             android:layout_width="match_parent"

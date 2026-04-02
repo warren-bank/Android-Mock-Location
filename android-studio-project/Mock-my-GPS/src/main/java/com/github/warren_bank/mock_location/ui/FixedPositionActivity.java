@@ -1,6 +1,7 @@
 package com.github.warren_bank.mock_location.ui;
 
 import com.github.warren_bank.mock_location.R;
+import com.github.warren_bank.mock_location.data_model.BookmarkItem;
 import com.github.warren_bank.mock_location.data_model.LocPoint;
 import com.github.warren_bank.mock_location.data_model.SharedPrefs;
 import com.github.warren_bank.mock_location.security_model.RuntimePermissions;
@@ -19,6 +20,7 @@ import android.widget.Toast;
 public class FixedPositionActivity extends RuntimePermissionsActivity {
     private LocPoint originalLoc;
 
+    private TextView label_fixed_position;
     private TextView input_fixed_position;
     private Button   button_toggle_state;
     private Button   button_update;
@@ -30,6 +32,7 @@ public class FixedPositionActivity extends RuntimePermissionsActivity {
 
         originalLoc = SharedPrefs.getTripOrigin(FixedPositionActivity.this);
 
+        label_fixed_position = (TextView) findViewById(R.id.label_fixed_position);
         input_fixed_position = (TextView) findViewById(R.id.input_fixed_position);
         button_toggle_state  = (Button)   findViewById(R.id.button_toggle_state);
         button_update        = (Button)   findViewById(R.id.button_update);
@@ -92,6 +95,12 @@ public class FixedPositionActivity extends RuntimePermissionsActivity {
 
     private void reset() {
         input_fixed_position.setText(originalLoc.toString());
+
+        BookmarkItem bmItem = SharedPrefs.getBookmarkItem(FixedPositionActivity.this, originalLoc);
+        if (bmItem != null) {
+            label_fixed_position.setText(bmItem.title);
+            label_fixed_position.setVisibility(View.VISIBLE);
+        }
 
         if (LocationService.isStarted())
             button_toggle_state.setText(R.string.label_button_stop);

@@ -1,6 +1,7 @@
 package com.github.warren_bank.mock_location.ui;
 
 import com.github.warren_bank.mock_location.R;
+import com.github.warren_bank.mock_location.data_model.BookmarkItem;
 import com.github.warren_bank.mock_location.data_model.LocPoint;
 import com.github.warren_bank.mock_location.data_model.SharedPrefs;
 import com.github.warren_bank.mock_location.service.LocationService;
@@ -18,7 +19,9 @@ public class TripSimulationActivity extends Activity {
     private LocPoint originalLocDestination;
     private int originalTripDuration;
 
+    private TextView label_trip_origin;
     private TextView input_trip_origin;
+    private TextView label_trip_destination;
     private TextView input_trip_destination;
     private TextView input_trip_duration;
     private Button   button_toggle_state;
@@ -35,7 +38,9 @@ public class TripSimulationActivity extends Activity {
         originalLocDestination = SharedPrefs.getTripDestination(TripSimulationActivity.this);
         originalTripDuration   = SharedPrefs.getTripDuration(TripSimulationActivity.this);
 
+        label_trip_origin      = (TextView) findViewById(R.id.label_trip_origin);
         input_trip_origin      = (TextView) findViewById(R.id.input_trip_origin);
+        label_trip_destination = (TextView) findViewById(R.id.label_trip_destination);
         input_trip_destination = (TextView) findViewById(R.id.input_trip_destination);
         input_trip_duration    = (TextView) findViewById(R.id.input_trip_duration);
         button_toggle_state    = (Button)   findViewById(R.id.button_toggle_state);
@@ -154,6 +159,18 @@ public class TripSimulationActivity extends Activity {
         input_trip_origin.setText(originalLocOrigin.toString());
         input_trip_destination.setText(originalLocDestination.toString());
         input_trip_duration.setText(Integer.toString(originalTripDuration, 10));
+
+        BookmarkItem bmItem;
+        bmItem = SharedPrefs.getBookmarkItem(TripSimulationActivity.this, originalLocOrigin);
+        if (bmItem != null) {
+            label_trip_origin.setText(bmItem.title);
+            label_trip_origin.setVisibility(View.VISIBLE);
+        }
+        bmItem = SharedPrefs.getBookmarkItem(TripSimulationActivity.this, originalLocDestination);
+        if (bmItem != null) {
+            label_trip_destination.setText(bmItem.title);
+            label_trip_destination.setVisibility(View.VISIBLE);
+        }
 
         if (LocationService.isStarted())
             button_toggle_state.setText(R.string.label_button_stop);

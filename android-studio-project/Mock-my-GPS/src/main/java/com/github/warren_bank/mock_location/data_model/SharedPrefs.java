@@ -255,6 +255,24 @@ public final class SharedPrefs {
         ;
     }
 
+    // --------------------------------------------------------------------------------------------- getBookmarkItem()
+
+    public static BookmarkItem getBookmarkItem(Context context, LocPoint needle) {
+        SharedPreferences sharedPreferences = getSharedPreferences(context);
+        return getBookmarkItem(sharedPreferences, context, needle);
+    }
+
+    public static BookmarkItem getBookmarkItem(SharedPreferences sharedPreferences, Context context, LocPoint needle) {
+        ArrayList<BookmarkItem> haystack = getBookmarkItems(sharedPreferences, context);
+        for (BookmarkItem bmItem : haystack) {
+            LocPoint bmPoint = bmItem.toPoint();
+            if (needle.equals(bmPoint)) {
+                return bmItem;
+            }
+        }
+        return null;
+    }
+
     // --------------------------------------------------------------------------------------------- putTimeInterval()
 
     public static boolean putTimeInterval(Context context, int value) {
