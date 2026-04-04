@@ -5,6 +5,8 @@ import com.github.warren_bank.mock_location.data_model.BookmarkItem;
 import com.github.warren_bank.mock_location.data_model.LocPoint;
 import com.github.warren_bank.mock_location.data_model.SharedPrefs;
 import com.github.warren_bank.mock_location.service.LocationService;
+import com.github.warren_bank.mock_location.ui.interfaces.RuntimePermissionsListener;
+import com.github.warren_bank.mock_location.ui.interfaces.RuntimePermissionsRequester;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -14,7 +16,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class TripSimulationActivity extends Activity {
+public class TripSimulationActivity extends Activity implements RuntimePermissionsListener {
     private LocPoint originalLocOrigin;
     private LocPoint originalLocDestination;
     private int originalTripDuration;
@@ -132,12 +134,11 @@ public class TripSimulationActivity extends Activity {
                     if (LocationService.isStarted()) {
                         LocationService.doStop(TripSimulationActivity.this, true);
                         button_toggle_state.setText(R.string.label_button_start);
+                        button_update.setVisibility(View.GONE);
                     }
                     else {
-                        doStart();
-                        button_toggle_state.setText(R.string.label_button_stop);
+                        requestPermissions();
                     }
-                    button_update.setVisibility(View.GONE);
                 }
                 catch(Exception e) {}
             }
@@ -148,9 +149,11 @@ public class TripSimulationActivity extends Activity {
             public void onClick(View v) {
                 try {
                     if (LocationService.isStarted()) {
-                        doStart();
+                        requestPermissions();
                     }
-                    button_update.setVisibility(View.GONE);
+                    else {
+                        button_update.setVisibility(View.GONE);
+                    }
                 }
                 catch(Exception e) {}
             }
@@ -195,7 +198,20 @@ public class TripSimulationActivity extends Activity {
         }
     }
 
-    private void doStart() {
+    // =============================================================================================
+    // interface invocation: RuntimePermissionsRequester
+    // =============================================================================================
+
+    private void requestPermissions() {
+        RuntimePermissionsRequester requester = (RuntimePermissionsRequester) getParent();
+        requester.requestRuntimePermissions();
+    }
+
+    // =============================================================================================
+    // interface implementation: RuntimePermissionsListener
+    // =============================================================================================
+
+    public void doStart() {
         String trip_origin              = input_trip_origin.getText().toString();
         LocPoint modifiedLocOrigin      = new LocPoint(trip_origin);
 
@@ -228,5 +244,8 @@ public class TripSimulationActivity extends Activity {
         originalLocDestination = modifiedLocDestination;
         originalTripDuration   = modifiedTripDuration;
         diff_fields = 0;
+
+        button_toggle_state.setText(R.string.label_button_stop);
+        button_update.setVisibility(View.GONE);
     }
 }

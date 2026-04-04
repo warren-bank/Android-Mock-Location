@@ -4,7 +4,10 @@ import com.github.warren_bank.mock_location.R;
 import com.github.warren_bank.mock_location.data_model.BookmarkItem;
 import com.github.warren_bank.mock_location.data_model.LocPoint;
 import com.github.warren_bank.mock_location.data_model.SharedPrefs;
+import com.github.warren_bank.mock_location.security_model.RuntimePermissions;
 import com.github.warren_bank.mock_location.service.LocationService;
+import com.github.warren_bank.mock_location.ui.interfaces.RuntimePermissionsListener;
+import com.github.warren_bank.mock_location.ui.interfaces.RuntimePermissionsRequester;
 
 import android.Manifest;
 import android.app.ActivityGroup;
@@ -14,6 +17,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -23,12 +27,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 import java.util.ArrayList;
 
-public class AospMainActivity extends ActivityGroup {
+public class AospMainActivity extends ActivityGroup implements RuntimePermissionsRequester, RuntimePermissions.RuntimePermissionsListener {
     private TabHost tabHost;
 
-    // ---------------------------------------------------------------------------------------------
+    // =============================================================================================
     // Lifecycle Events:
-    // ---------------------------------------------------------------------------------------------
+    // =============================================================================================
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,9 +94,9 @@ public class AospMainActivity extends ActivityGroup {
             finish();
     }
 
-    // ---------------------------------------------------------------------------------------------
+    // =============================================================================================
     // ActionBar:
-    // ---------------------------------------------------------------------------------------------
+    // =============================================================================================
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -239,5 +243,41 @@ public class AospMainActivity extends ActivityGroup {
             }
         });
         builder.show();
+    }
+
+    // =============================================================================================
+    // Runtime Permissions
+    // =============================================================================================
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        RuntimePermissions.onRequestPermissionsResult(/* activity */ AospMainActivity.this, /* listener */ AospMainActivity.this, requestCode, permissions, grantResults);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        RuntimePermissions.onActivityResult(/* activity */ AospMainActivity.this, /* listener */ AospMainActivity.this, requestCode, resultCode, data);
+    }
+
+    // =============================================================================================
+    // interface implementation: RuntimePermissionsRequester
+    // =============================================================================================
+
+    public void requestRuntimePermissions() {
+        RuntimePermissions.requestPermissions(/* activity */ AospMainActivity.this, /* listener */ AospMainActivity.this);
+    }
+
+    // =============================================================================================
+    // interface implementation: RuntimePermissions.RuntimePermissionsListener
+    // =============================================================================================
+
+    public void onPermissionsGranted() {
+        RuntimePermissionsListener listener = (RuntimePermissionsListener) getCurrentActivity();
+        listener.doStart();
+    }
+
+    public void onPermissionsDenied(String[] permissions) {
+        String text = "The following list contains required permissions that are not yet granted:\n  " + TextUtils.join("\n  ", permissions);
+        Toast.makeText(AospMainActivity.this, text, Toast.LENGTH_LONG).show();
     }
 }
