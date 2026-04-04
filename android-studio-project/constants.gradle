@@ -4,8 +4,8 @@ project.ext {
     buildToolsVersion = '35.0.0'
     javaVersion       = JavaVersion.VERSION_1_8
 
-    base_releaseVersionCode     = Integer.parseInt("002040200", 10)  //Integer.MAX_VALUE == 2147483647
-    base_releaseVersion         = '002.04.02'
+    base_releaseVersionCode     = Integer.parseInt("002040300", 10)  //Integer.MAX_VALUE == 2147483647
+    base_releaseVersion         = '002.04.03'
 
     app_applicationId           = 'com.github.warren_bank.mock_location'
     app_aosp_minSdkVersion      = 3
