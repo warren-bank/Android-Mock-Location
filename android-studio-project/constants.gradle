@@ -8,7 +8,7 @@ project.ext {
     base_releaseVersion         = '002.04.03'
 
     app_applicationId           = 'com.github.warren_bank.mock_location'
-    app_aosp_minSdkVersion      = 3
+    app_aosp_minSdkVersion      = 4
     app_aosp_releaseVersionCode = project.ext.base_releaseVersionCode + project.ext.app_aosp_minSdkVersion
     app_aosp_releaseVersion     = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.app_aosp_minSdkVersion)
 

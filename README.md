@@ -109,7 +109,7 @@ __other enhancements__:
 * `Mock-my-GPS` vs. `Mock-my-GPS-UnifiedNlp-Backend` vs. `Mock-Silently`
   - `Mock-my-GPS`
     * installation is required
-    * minimum supported version of Android: 1.5 (Cupcake, API 3)
+    * minimum supported version of Android: 1.6 (Donut, API 4)
     * standalone application
   - `Mock-my-GPS-UnifiedNlp-Backend`
     * installation is optional
