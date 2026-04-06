@@ -4,7 +4,7 @@ apply plugin: 'com.android.application'
 android {
     namespace project.ext.app_applicationId
 
-    compileSdkVersion project.ext.compileSdkVersion
+    compileSdk project.ext.compileSdk
     buildToolsVersion project.ext.buildToolsVersion
 
     compileOptions {
@@ -14,7 +14,7 @@ android {
 
     defaultConfig {
         applicationId    project.ext.app_applicationId
-        targetSdkVersion project.ext.targetSdkVersion
+        targetSdk project.ext.targetSdk
 
         applicationVariants.all { variant ->
             variant.outputs.all { output ->
@@ -22,16 +22,16 @@ android {
 
                 if (variantName.contains("withaosplocationproviders")) {
                     if (variantName.contains("withbackuprestoresaf")) {
-                        output.versionCodeOverride = project.ext.app_aosp_withSAF_releaseVersionCode
-                        output.versionNameOverride = project.ext.app_aosp_withSAF_releaseVersion
+                        output.versionCodeOverride = project.ext.app_aosp_withSAF_versionCode
+                        output.versionNameOverride = project.ext.app_aosp_withSAF_versionName
                     }
                     else if (variantName.contains("withbackuprestorefilechooser")) {
-                        output.versionCodeOverride = project.ext.app_aosp_withFileChooser_releaseVersionCode
-                        output.versionNameOverride = project.ext.app_aosp_withFileChooser_releaseVersion
+                        output.versionCodeOverride = project.ext.app_aosp_withFileChooser_versionCode
+                        output.versionNameOverride = project.ext.app_aosp_withFileChooser_versionName
                     }
                     else {
-                        output.versionCodeOverride = project.ext.app_aosp_releaseVersionCode
-                        output.versionNameOverride = project.ext.app_aosp_releaseVersion
+                        output.versionCodeOverride = project.ext.app_aosp_versionCode
+                        output.versionNameOverride = project.ext.app_aosp_versionName
                     }
                 }
 
@@ -55,9 +55,9 @@ android {
         withGooglePlayServicesFusedLocationProvider {
             dimension "locationProvider"
 
-            minSdkVersion project.ext.app_gms_minSdkVersion
-            versionCode   project.ext.app_gms_releaseVersionCode
-            versionName   project.ext.app_gms_releaseVersion
+            minSdk project.ext.app_gms_minSdk
+            versionCode   project.ext.app_gms_versionCode
+            versionName   project.ext.app_gms_versionName
 
             repositories {
                 maven { url 'https://maven.google.com' }
@@ -66,9 +66,9 @@ android {
         withHuaweiMobileServicesFusedLocationProvider {
             dimension "locationProvider"
 
-            minSdkVersion project.ext.app_hms_minSdkVersion
-            versionCode   project.ext.app_hms_releaseVersionCode
-            versionName   project.ext.app_hms_releaseVersion
+            minSdk project.ext.app_hms_minSdk
+            versionCode   project.ext.app_hms_versionCode
+            versionName   project.ext.app_hms_versionName
 
             repositories {
                 maven { url 'https://developer.huawei.com/repo/' }
@@ -132,17 +132,17 @@ androidComponents {
 
         if (variantName.contains("withaosplocationproviders")) {
             if (variantName.contains("withbackuprestoresaf")) {
-                variant.minSdk = project.ext.app_aosp_withSAF_minSdkVersion
+                variant.minSdk = project.ext.app_aosp_withSAF_minSdk
             }
             else if (variantName.contains("withbackuprestorefilechooser")) {
-                variant.minSdk = project.ext.app_aosp_withFileChooser_minSdkVersion
+                variant.minSdk = project.ext.app_aosp_withFileChooser_minSdk
             }
             else {
-                variant.minSdk = project.ext.app_aosp_minSdkVersion
+                variant.minSdk = project.ext.app_aosp_minSdk
             }
         }
         else {
-            if (variantName.contains("withbackuprestorefilechooser")) {
+            if (!variantName.contains("withbackuprestoresaf")) {
                 variant.enable = false
             }
         }

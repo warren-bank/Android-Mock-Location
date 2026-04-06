@@ -4,7 +4,7 @@ apply plugin: 'com.android.library'
 android {
   namespace "lib.folderpicker"
 
-  compileSdkVersion project.ext.compileSdkVersion
+  compileSdk project.ext.compileSdk
   buildToolsVersion project.ext.buildToolsVersion
 
   compileOptions {
@@ -13,8 +13,8 @@ android {
   }
 
   defaultConfig {
-    minSdkVersion    9
-    targetSdkVersion project.ext.targetSdkVersion
+    minSdk    9
+    targetSdk project.ext.targetSdk
   }
 
   lintOptions {

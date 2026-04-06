@@ -4,7 +4,7 @@ apply plugin: 'com.android.library'
 android {
     namespace project.ext.nlp_applicationId + ".artifacts"
 
-    compileSdkVersion project.ext.compileSdkVersion
+    compileSdk project.ext.compileSdk
     buildToolsVersion project.ext.buildToolsVersion
 
     compileOptions {
@@ -13,8 +13,8 @@ android {
     }
 
     defaultConfig {
-        targetSdkVersion project.ext.targetSdkVersion
-        minSdkVersion    Math.min(project.ext.app_aosp_minSdkVersion, project.ext.nlp_minSdkVersion)
+        targetSdk project.ext.targetSdk
+        minSdk    Math.min(project.ext.app_aosp_minSdk, project.ext.nlp_minSdk)
     }
 
     buildFeatures {

@@ -4,7 +4,7 @@ apply plugin: 'com.android.application'
 android {
     namespace project.ext.shh_applicationId
 
-    compileSdkVersion project.ext.compileSdkVersion
+    compileSdk project.ext.compileSdk
     buildToolsVersion project.ext.buildToolsVersion
 
     compileOptions {
@@ -13,12 +13,12 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion    project.ext.shh_minSdkVersion
-        targetSdkVersion project.ext.targetSdkVersion
+        minSdk    project.ext.shh_minSdk
+        targetSdk project.ext.targetSdk
 
         applicationId project.ext.shh_applicationId
-        versionCode   project.ext.shh_releaseVersionCode
-        versionName   project.ext.shh_releaseVersion
+        versionCode   project.ext.shh_versionCode
+        versionName   project.ext.shh_versionName
 
         archivesBaseName += "-$versionName"
     }

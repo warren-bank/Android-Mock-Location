@@ -1,40 +1,41 @@
 project.ext {
-    targetSdkVersion  = 35
-    compileSdkVersion = 35
+    targetSdk  = 35
+    compileSdk = 35
+
     buildToolsVersion = '35.0.0'
     javaVersion       = JavaVersion.VERSION_1_8
 
-    base_releaseVersionCode                     = Integer.parseInt("002040400", 10)  //Integer.MAX_VALUE == 2147483647
-    base_releaseVersion                         = '002.04.04'
+    base_versionCode                     = Integer.parseInt("002040400", 10)  //Integer.MAX_VALUE == 2147483647
+    base_versionName                     = '002.04.04'
 
-    app_applicationId                           = 'com.github.warren_bank.mock_location'
-    app_aosp_minSdkVersion                      = 4
-    app_aosp_releaseVersionCode                 = project.ext.base_releaseVersionCode + project.ext.app_aosp_minSdkVersion
-    app_aosp_releaseVersion                     = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.app_aosp_minSdkVersion)
+    app_applicationId                    = 'com.github.warren_bank.mock_location'
+    app_aosp_minSdk                      = 4
+    app_aosp_versionCode                 = project.ext.base_versionCode + project.ext.app_aosp_minSdk
+    app_aosp_versionName                 = String.format("%s-%02dAPI", project.ext.base_versionName, project.ext.app_aosp_minSdk)
 
-    app_aosp_withFileChooser_minSdkVersion      = 9
-    app_aosp_withFileChooser_releaseVersionCode = project.ext.base_releaseVersionCode + project.ext.app_aosp_withFileChooser_minSdkVersion
-    app_aosp_withFileChooser_releaseVersion     = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.app_aosp_withFileChooser_minSdkVersion)
+    app_aosp_withFileChooser_minSdk      = 9
+    app_aosp_withFileChooser_versionCode = project.ext.base_versionCode + project.ext.app_aosp_withFileChooser_minSdk
+    app_aosp_withFileChooser_versionName = String.format("%s-%02dAPI", project.ext.base_versionName, project.ext.app_aosp_withFileChooser_minSdk)
 
-    app_aosp_withSAF_minSdkVersion              = 19
-    app_aosp_withSAF_releaseVersionCode         = project.ext.base_releaseVersionCode + project.ext.app_aosp_withSAF_minSdkVersion
-    app_aosp_withSAF_releaseVersion             = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.app_aosp_withSAF_minSdkVersion)
+    app_aosp_withSAF_minSdk              = 19
+    app_aosp_withSAF_versionCode         = project.ext.base_versionCode + project.ext.app_aosp_withSAF_minSdk
+    app_aosp_withSAF_versionName         = String.format("%s-%02dAPI", project.ext.base_versionName, project.ext.app_aosp_withSAF_minSdk)
 
-    app_gms_minSdkVersion                       = 19
-    app_gms_releaseVersionCode                  = project.ext.base_releaseVersionCode + project.ext.app_gms_minSdkVersion
-    app_gms_releaseVersion                      = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.app_gms_minSdkVersion)
+    app_gms_minSdk                       = 19
+    app_gms_versionCode                  = project.ext.base_versionCode + project.ext.app_gms_minSdk
+    app_gms_versionName                  = String.format("%s-%02dAPI", project.ext.base_versionName, project.ext.app_gms_minSdk)
 
-    app_hms_minSdkVersion                       = 19
-    app_hms_releaseVersionCode                  = project.ext.base_releaseVersionCode + project.ext.app_hms_minSdkVersion
-    app_hms_releaseVersion                      = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.app_hms_minSdkVersion)
+    app_hms_minSdk                       = 19
+    app_hms_versionCode                  = project.ext.base_versionCode + project.ext.app_hms_minSdk
+    app_hms_versionName                  = String.format("%s-%02dAPI", project.ext.base_versionName, project.ext.app_hms_minSdk)
 
-    nlp_applicationId                           = 'com.github.warren_bank.mock_location.service.microg_nlp_backend'
-    nlp_minSdkVersion                           = 9
-    nlp_releaseVersionCode                      = project.ext.base_releaseVersionCode + project.ext.nlp_minSdkVersion
-    nlp_releaseVersion                          = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.nlp_minSdkVersion)
+    nlp_applicationId                    = 'com.github.warren_bank.mock_location.service.microg_nlp_backend'
+    nlp_minSdk                           = 9
+    nlp_versionCode                      = project.ext.base_versionCode + project.ext.nlp_minSdk
+    nlp_versionName                      = String.format("%s-%02dAPI", project.ext.base_versionName, project.ext.nlp_minSdk)
 
-    shh_applicationId                           = 'com.github.warren_bank.mock_location.silently'
-    shh_minSdkVersion                           = 1
-    shh_releaseVersionCode                      = project.ext.base_releaseVersionCode + project.ext.shh_minSdkVersion
-    shh_releaseVersion                          = String.format("%s-%02dAPI", project.ext.base_releaseVersion, project.ext.shh_minSdkVersion)
+    shh_applicationId                    = 'com.github.warren_bank.mock_location.silently'
+    shh_minSdk                           = 1
+    shh_versionCode                      = project.ext.base_versionCode + project.ext.shh_minSdk
+    shh_versionName                      = String.format("%s-%02dAPI", project.ext.base_versionName, project.ext.shh_minSdk)
 }
