@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Thuis</string>
+    <string name="up">Omhoog</string>
+    <string name="neww">Nieuw</string>
+    <string name="select">Selecteren</string>
+    <string name="cancel">Annuleren</string>
+    <string name="title">Map selecteren</string>
+    <string name="location">Locatie</string>
+    <string name="enter_folder_name">Mapnaam invoeren</string>
+    <string name="edit_location">Locatie bewerken</string>
+    <string name="create">Maken</string>
+    <string name="ok">OK</string>
+    <string name="select_file">U moet een bestand selecteren</string>
+    <string name="select_empty_folder">U moet een lege map selecteren</string>
+    <string name="no_access_to_storage">Machtiging voor toegang tot opslag is niet opgegeven</string>
+    <string name="location_mask">Locatie: %s</string>
+    <string name="error_string_mask">Fout: %s</string>
+    <string name="select_empty_dir">Selecteer een lege directory</string>
+    <string name="is_not_dir">Dit is geen map</string>
+    <string name="dir_is_not_exist">Directory bestaat niet</string>
+    <string name="dir_read_permission_denied">Kan niet lezen van map</string>
+    <string name="dir_write_permission_denied">Schrijven naar map is niet mogelijk</string>
+    <string name="new_file_name_does_not_pass_filter">Indeling van nieuwe bestandsnaam is onjuist</string>
+    <string name="new_file_name_already_exists">Nieuwe bestandsnaam bestaat al</string>
+    <string name="press_back_button_again_to_exit">Druk opnieuw op \'Terug\' om te annuleren</string>
+    <string name="press_up_button_again_to_exit">Druk opnieuw op \'Omhoog\' om te annuleren</string>
+</resources>

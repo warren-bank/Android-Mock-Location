@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Домой</string>
+    <string name="up">Вверх</string>
+    <string name="neww">Новый</string>
+    <string name="select">Выбрать</string>
+    <string name="cancel">Отмена</string>
+    <string name="title">Выбрать папку</string>
+    <string name="location">Расположение</string>
+    <string name="enter_folder_name">Введите имя папки</string>
+    <string name="edit_location">Изменить расположение</string>
+    <string name="create">Создать</string>
+    <string name="ok">OK</string>
+    <string name="select_file">Необходимо выбрать файл</string>
+    <string name="select_empty_folder">Необходимо выбрать пустую папку</string>
+    <string name="no_access_to_storage">Не задано разрешение на доступ к памяти</string>
+    <string name="location_mask">Расположение: %s</string>
+    <string name="error_string_mask">Ошибка: %s</string>
+    <string name="select_empty_dir">Выберите пустой каталог</string>
+    <string name="is_not_dir">Это не каталог</string>
+    <string name="dir_is_not_exist">Каталог не существует</string>
+    <string name="dir_read_permission_denied">Не удается прочитать из каталога</string>
+    <string name="dir_write_permission_denied">Не удалось записать в каталог</string>
+    <string name="new_file_name_does_not_pass_filter">Неправильный формат имени нового файла</string>
+    <string name="new_file_name_already_exists">Новое имя файла уже существует</string>
+    <string name="press_back_button_again_to_exit">Нажмите кнопку \'Назад\' для отмены</string>
+    <string name="press_up_button_again_to_exit">Нажмите кнопку \'Вверх\' для отмены</string>
+</resources>

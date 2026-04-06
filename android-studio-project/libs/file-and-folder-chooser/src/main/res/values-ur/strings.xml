@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">گھر</string>
+    <string name="up">اپ</string>
+    <string name="neww">نیا</string>
+    <string name="select">منتخب کريں</string>
+    <string name="cancel">منسوخ</string>
+    <string name="title">فولڈر منتخب کريں</string>
+    <string name="location">ستھانکرن</string>
+    <string name="enter_folder_name">فولڈر نام درج کریں</string>
+    <string name="edit_location">تصیح مقام</string>
+    <string name="create">بنائیں</string>
+    <string name="ok">اودے</string>
+    <string name="select_file">آپ کو ایک فائل منتخب کرنی ہے</string>
+    <string name="select_empty_folder">آپ کو ایک خالی فولڈر منتخب کرنا ہوگا</string>
+    <string name="no_access_to_storage">سٹوریج تک رسائی کی اجازت نہیں دی گئی</string>
+    <string name="location_mask">ستھانکرن: %s</string>
+    <string name="error_string_mask">غلطي: %s</string>
+    <string name="select_empty_dir">ایک خالی ڈائریکٹری منتخب کریں</string>
+    <string name="is_not_dir">یہ کوئی ڈائریکٹری نہیں ہے</string>
+    <string name="dir_is_not_exist">ڈائرکٹری موجود نہیں ہے</string>
+    <string name="dir_read_permission_denied">ڈائریکٹری سے نہیں پڑھیں</string>
+    <string name="dir_write_permission_denied">ڈائریکٹری کو نہیں لکھتے</string>
+    <string name="new_file_name_does_not_pass_filter">نئے فائل نام کی فارمیٹ درست نہیں</string>
+    <string name="new_file_name_already_exists">نیا فائل نام پہلے سے موجود</string>
+    <string name="press_back_button_again_to_exit">منسوخ کرنے کے لئے دوبارہ پریس \' واپس \'</string>
+    <string name="press_up_button_again_to_exit">پریس \'اپ\' پھر منسوخ کرنے کے لئے</string>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Domovská stránka</string>
+    <string name="up">Nahoru</string>
+    <string name="neww">Novinka</string>
+    <string name="select">Vyberte</string>
+    <string name="cancel">Storno</string>
+    <string name="title">Vyberte složku</string>
+    <string name="location">Umístění</string>
+    <string name="enter_folder_name">Zadejte název složky</string>
+    <string name="edit_location">Upravit umístění</string>
+    <string name="create">Vytvořit</string>
+    <string name="ok">OK.</string>
+    <string name="select_file">Musíte vybrat soubor</string>
+    <string name="select_empty_folder">Musíte vybrat prázdnou složku</string>
+    <string name="no_access_to_storage">Oprávnění pro přístup k úložišti není uděleno</string>
+    <string name="location_mask">Umístění: %s</string>
+    <string name="error_string_mask">Chyba: %s</string>
+    <string name="select_empty_dir">Vyberte prázdný adresář</string>
+    <string name="is_not_dir">Toto není adresář</string>
+    <string name="dir_is_not_exist">Adresář neexistuje</string>
+    <string name="dir_read_permission_denied">Nelze číst z adresáře</string>
+    <string name="dir_write_permission_denied">Do adresáře nelze zapisovat</string>
+    <string name="new_file_name_does_not_pass_filter">Formát nového názvu souboru není správný</string>
+    <string name="new_file_name_already_exists">Nový název souboru již existuje</string>
+    <string name="press_back_button_again_to_exit">Stiskněte tlačítko \'Zpět\' pro zrušení</string>
+    <string name="press_up_button_again_to_exit">Opětovným stiskem tlačítka \'Nahoru\' zrušíte</string>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">வீடு</string>
+    <string name="up">QShortName</string>
+    <string name="neww">புதிய</string>
+    <string name="select">தேர்ந்தெடு</string>
+    <string name="cancel">ரத்து செய்</string>
+    <string name="title">அடைவை தேர்ந்தெடு</string>
+    <string name="location">இடம்</string>
+    <string name="enter_folder_name">அடைவு பெயரை உள்ளிடு</string>
+    <string name="edit_location">இடத்தை திருத்து</string>
+    <string name="create">உருவாக்கு</string>
+    <string name="ok">ஓக்</string>
+    <string name="select_file">நீங்கள் ஒரு கோப்பை தேர்ந்தெடுக்க வேண்டும்</string>
+    <string name="select_empty_folder">ஒரு வெற்று அடைவை தேர்ந்தெடுக்க வேண்டும்</string>
+    <string name="no_access_to_storage">சேமிப்பு அணுகல் அனுமதி வழங்கப்படவில்லை</string>
+    <string name="location_mask">இடம்: %s</string>
+    <string name="error_string_mask">பிழை: %s</string>
+    <string name="select_empty_dir">வெற்று அடைவை தேர்ந்தெடு</string>
+    <string name="is_not_dir">இது அடைவு இல்லை</string>
+    <string name="dir_is_not_exist">அடைவு இல்லை</string>
+    <string name="dir_read_permission_denied">அடைவில் இருந்து படிக்க இயலவில்லை</string>
+    <string name="dir_write_permission_denied">அடைவுக்கு எழுத இயலாது</string>
+    <string name="new_file_name_does_not_pass_filter">புதிய கோப்பு பெயர்களின் வடிவம் சரியாக இல்லை</string>
+    <string name="new_file_name_already_exists">புதிய கோப்பு பெயர் ஏற்கனவே உள்ளது</string>
+    <string name="press_back_button_again_to_exit">மீண்டும் ரத்து செய்ய \'பின்\' அழுத்தவும்</string>
+    <string name="press_up_button_again_to_exit">ரத்து செய்ய \'மேல்\' அழுத்தவும்</string>
+</resources>

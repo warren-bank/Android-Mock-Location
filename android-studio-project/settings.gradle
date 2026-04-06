@@ -1,6 +1,8 @@
+include ':file-and-folder-chooser'
 include ':Mock-my-GPS'
 include ':Mock-my-GPS-UnifiedNlp-Backend'
 include ':Mock-my-GPS-UnifiedNlp-Backend-artifacts'
 include ':Mock-Silently'
 
+project(':file-and-folder-chooser'                 ).projectDir = new File(rootDir, 'libs/file-and-folder-chooser')
 project(':Mock-my-GPS-UnifiedNlp-Backend-artifacts').projectDir = new File(rootDir, 'libs/Mock-my-GPS-UnifiedNlp-Backend-artifacts')

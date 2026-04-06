@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">ഹോം</string>
+    <string name="up">മുകളില്</string>
+    <string name="neww">പുതിയ</string>
+    <string name="select">തെരഞ്ഞെടുക്കുക</string>
+    <string name="cancel">റദ്ദാക്കുക</string>
+    <string name="title">ഫോള്ഡര് തെരഞ്ഞെടുക്കുക</string>
+    <string name="location">സ്ഥാനം</string>
+    <string name="enter_folder_name">ഫോള്ഡര് പേരു് നല്കുക</string>
+    <string name="edit_location">സ്ഥാനം ചിട്ടപ്പെടുത്തുക</string>
+    <string name="create">സൃഷ്ടിക്കുക</string>
+    <string name="ok">ശരി</string>
+    <string name="select_file">ഒരു ഫയല് തെരഞ്ഞെടുക്കേണ്ടതുണ്ട്</string>
+    <string name="select_empty_folder">ഒരു ഒഴിവായ ഫോള്ഡര് തെരഞ്ഞെടുക്കേണ്ടതുണ്ട്</string>
+    <string name="no_access_to_storage">സ്റ്റോറേജ് പ്രവേശന അനുവാദം നല്കിയിട്ടില്ല</string>
+    <string name="location_mask">സ്ഥാനം: %s</string>
+    <string name="error_string_mask">പിശക്: %s</string>
+    <string name="select_empty_dir">ഒരു ഒഴിവായ ഡയറക്ടറി തെരഞ്ഞെടുക്കുക</string>
+    <string name="is_not_dir">ഇതൊരു ഡയറക്ടറി അല്ല</string>
+    <string name="dir_is_not_exist">ഡയറക്ടറി നിലവിലില്ല</string>
+    <string name="dir_read_permission_denied">ഡയറക്ടറിയില് നിന്നും വായിക്കുവാന് സാധ്യമല്ല</string>
+    <string name="dir_write_permission_denied">ഡയറക്ടറിയിലേക്ക് എഴുതുവാന് സാധ്യമല്ല</string>
+    <string name="new_file_name_does_not_pass_filter">പുതിയ ഫയലിന്റെ ഫോര്മാറ്റ് ശരിയല്ല</string>
+    <string name="new_file_name_already_exists">പുതിയ ഫയല് നാമം നിലവിലുണ്ടു്</string>
+    <string name="press_back_button_again_to_exit">റദ്ദാക്കാന് \'തിരികെ\' അമര്ത്തുക</string>
+    <string name="press_up_button_again_to_exit">റദ്ദാക്കാന് വീണ്ടും \'മുകളില്\' അമര്ത്തുക</string>
+</resources>

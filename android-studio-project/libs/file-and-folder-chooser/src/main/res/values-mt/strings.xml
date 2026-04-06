@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Home Newsbook</string>
+    <string name="up">Sa</string>
+    <string name="neww">Ġodda</string>
+    <string name="select">Agħżel</string>
+    <string name="cancel">Tħassir</string>
+    <string name="title">Agħżel folder</string>
+    <string name="location">Post</string>
+    <string name="enter_folder_name">Daħħal isem folder</string>
+    <string name="edit_location">Editja post</string>
+    <string name="create">Oħloq</string>
+    <string name="ok">K</string>
+    <string name="select_file">Inti għandek tagħżel fajl</string>
+    <string name="select_empty_folder">Inti għandek tagħżel folder vojta.</string>
+    <string name="no_access_to_storage">Permess ta \' aċċess għall-ħżin mhux mogħti</string>
+    <string name="location_mask">Post: %s</string>
+    <string name="error_string_mask">Żball: %s</string>
+    <string name="select_empty_dir">Agħżel direttorju vojt</string>
+    <string name="is_not_dir">Dan mhuwiex direttorju</string>
+    <string name="dir_is_not_exist">Direttorju ma jeżistix</string>
+    <string name="dir_read_permission_denied">Ma tistax taqra minn direttorju</string>
+    <string name="dir_write_permission_denied">Ma jistgħux jiktbu għal direttorju</string>
+    <string name="new_file_name_does_not_pass_filter">Format ta \' isem fajl ġdid mhuwiex korrett</string>
+    <string name="new_file_name_already_exists">Isem fajl ġdid diġà jeżisti</string>
+    <string name="press_back_button_again_to_exit">Agħfas \'Lura\' mill-ġdid biex tikkanċella</string>
+    <string name="press_up_button_again_to_exit">Agħfas \'Sa\' mill-ġdid biex tikkanċella</string>
+</resources>

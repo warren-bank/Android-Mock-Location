@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name" translatable="false">Folder Picker</string>
+    <string name="home">Home</string>
+    <string name="up">Up</string>
+    <string name="neww">New</string>
+    <string name="select">Select</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">Select folder</string>
+    <string name="location">Location</string>
+    <string name="enter_folder_name">Enter folder name</string>
+    <string name="edit_location">Edit location</string>
+    <string name="create">Create</string>
+    <string name="ok">Ok</string>
+    <string name="select_file">You have to select a file</string>
+    <string name="select_empty_folder">You have to select an empty folder</string>
+    <string name="no_access_to_storage">Storage access permission not given</string>
+    <string name="location_mask">Location: %s</string>
+    <string name="error_string_mask">Error: %s</string>
+    <string name="select_empty_dir">Select an empty directory</string>
+    <string name="is_not_dir">This is not a directory</string>
+    <string name="dir_is_not_exist">Directory does not exist</string>
+    <string name="dir_read_permission_denied">Cannot read from directory</string>
+    <string name="dir_write_permission_denied">Cannot write to directory</string>
+    <string name="new_file_name_does_not_pass_filter">Format of new file name is not correct</string>
+    <string name="new_file_name_already_exists">New file name already exists</string>
+    <string name="press_back_button_again_to_exit">Press \'Back\' again to cancel</string>
+    <string name="press_up_button_again_to_exit">Press \'Up\' again to cancel</string>
+</resources>

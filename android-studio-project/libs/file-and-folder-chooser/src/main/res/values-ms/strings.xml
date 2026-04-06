@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Home</string>
+    <string name="up">Atas</string>
+    <string name="neww">&amp; Baru</string>
+    <string name="select">Pilih</string>
+    <string name="cancel">Batal</string>
+    <string name="title">Pilih folder</string>
+    <string name="location">Lokasi</string>
+    <string name="enter_folder_name">Masukkan nama folder</string>
+    <string name="edit_location">Sunting lokasi</string>
+    <string name="create">Cipta</string>
+    <string name="ok">Ok.</string>
+    <string name="select_file">Anda perlu memilih fail</string>
+    <string name="select_empty_folder">Anda perlu pilih folder kosong</string>
+    <string name="no_access_to_storage">Keizinan capaian storan tidak diberi</string>
+    <string name="location_mask">Lokasi: %s</string>
+    <string name="error_string_mask">Ralat: %s</string>
+    <string name="select_empty_dir">Pilih direktori kosong</string>
+    <string name="is_not_dir">Ini bukan direktori</string>
+    <string name="dir_is_not_exist">Direktori tidak wujud</string>
+    <string name="dir_read_permission_denied">Tidak dapat baca dari direktori</string>
+    <string name="dir_write_permission_denied">Tidak dapat tulis ke direktori</string>
+    <string name="new_file_name_does_not_pass_filter">Format nama fail baru tidak betul</string>
+    <string name="new_file_name_already_exists">Nama fail baru sudah wujud</string>
+    <string name="press_back_button_again_to_exit">Tekan \'Undur\' lagi untuk dibatalkan</string>
+    <string name="press_up_button_again_to_exit">Tekan \'Atas\' lagi untuk batal</string>
+</resources>

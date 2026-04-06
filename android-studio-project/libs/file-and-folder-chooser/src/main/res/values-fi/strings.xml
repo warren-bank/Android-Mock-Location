@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Koti</string>
+    <string name="up">Ylös</string>
+    <string name="neww">Uusi</string>
+    <string name="select">Valitse</string>
+    <string name="cancel">Peruuta</string>
+    <string name="title">Valitse kansio</string>
+    <string name="location">Sijainti</string>
+    <string name="enter_folder_name">Anna kansion nimi</string>
+    <string name="edit_location">Muokkaa sijaintia</string>
+    <string name="create">Luo</string>
+    <string name="ok">Ok</string>
+    <string name="select_file">Sinun on valittava tiedosto</string>
+    <string name="select_empty_folder">Sinun on valittava tyhjä kansio</string>
+    <string name="no_access_to_storage">Varastointilupa ei ole annettu</string>
+    <string name="location_mask">Sijainti: %s</string>
+    <string name="error_string_mask">Virhe: %s</string>
+    <string name="select_empty_dir">Valitse tyhjä hakemisto</string>
+    <string name="is_not_dir">Tämä ei ole hakemisto</string>
+    <string name="dir_is_not_exist">Hakemistoa ei ole</string>
+    <string name="dir_read_permission_denied">Hakemistosta ei voi lukea</string>
+    <string name="dir_write_permission_denied">Hakemiston kirjoitus ei onnistu</string>
+    <string name="new_file_name_does_not_pass_filter">Uuden tiedoston nimen muoto ei ole oikea</string>
+    <string name="new_file_name_already_exists">Uusi tiedoston nimi on jo käytössä</string>
+    <string name="press_back_button_again_to_exit">Voit peruuttaa peruutuksen uudelleen</string>
+    <string name="press_up_button_again_to_exit">Paina \"ylös\" uudelleen</string>
+</resources>

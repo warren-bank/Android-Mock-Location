@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Namų ūkio</string>
+    <string name="up">Aukštyn</string>
+    <string name="neww">Naujas</string>
+    <string name="select">Pasirinkti</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="title">Pasirinkti aplanką</string>
+    <string name="location">Buvimo vieta</string>
+    <string name="enter_folder_name">Įveskite aplanko pavadinimą</string>
+    <string name="edit_location">Redaguoti vietą</string>
+    <string name="create">Sukurti</string>
+    <string name="ok">Gerai.</string>
+    <string name="select_file">Jūs turite pasirinkti failą</string>
+    <string name="select_empty_folder">Jūs turite pasirinkti tuščią aplanką</string>
+    <string name="no_access_to_storage">Leidimo į sandėlį leidimas nesuteiktas</string>
+    <string name="location_mask">Buvimo vieta: %s</string>
+    <string name="error_string_mask">Klaida: %s</string>
+    <string name="select_empty_dir">Pasirinkite tuščią aplanką</string>
+    <string name="is_not_dir">Tai nėra katalogas</string>
+    <string name="dir_is_not_exist">Aplankas neegzistuoja</string>
+    <string name="dir_read_permission_denied">Nepavyko perskaityti iš aplanko</string>
+    <string name="dir_write_permission_denied">Nepavyko įrašyti į aplanką</string>
+    <string name="new_file_name_does_not_pass_filter">Naujo failo pavadinimo formatas nėra teisingas</string>
+    <string name="new_file_name_already_exists">Naujas failo pavadinimas jau egzistuoja</string>
+    <string name="press_back_button_again_to_exit">Paspauskite \"Atgal\" vėl atšaukti</string>
+    <string name="press_up_button_again_to_exit">Paspauskite \"Aukštyn\" vėl atšaukti</string>
+</resources>

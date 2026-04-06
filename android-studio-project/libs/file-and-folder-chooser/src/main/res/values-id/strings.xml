@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Rumah</string>
+    <string name="up">Atas</string>
+    <string name="neww">Baru</string>
+    <string name="select">Pilih</string>
+    <string name="cancel">Batalkan</string>
+    <string name="title">Pilih folder</string>
+    <string name="location">Lokasi</string>
+    <string name="enter_folder_name">Masukkan nama folder</string>
+    <string name="edit_location">Sunting lokasi</string>
+    <string name="create">Buat</string>
+    <string name="ok">Ok.</string>
+    <string name="select_file">Anda harus memilih sebuah berkas</string>
+    <string name="select_empty_folder">Anda harus memilih folder yang kosong</string>
+    <string name="no_access_to_storage">Izin akses penyimpanan tidak diberikan</string>
+    <string name="location_mask">Lokasi: %s</string>
+    <string name="error_string_mask">Galat: %s</string>
+    <string name="select_empty_dir">Pilih direktori kosong</string>
+    <string name="is_not_dir">Ini bukan sebuah direktori</string>
+    <string name="dir_is_not_exist">Direktori tidak ada</string>
+    <string name="dir_read_permission_denied">Tidak dapat membaca dari direktori</string>
+    <string name="dir_write_permission_denied">Tidak dapat menulis ke direktori</string>
+    <string name="new_file_name_does_not_pass_filter">Format nama berkas baru tidak benar</string>
+    <string name="new_file_name_already_exists">Nama berkas baru sudah ada</string>
+    <string name="press_back_button_again_to_exit">Tekan \'Kembali\' lagi untuk membatalkan</string>
+    <string name="press_up_button_again_to_exit">Tekan \'Atas\' lagi untuk membatalkan</string>
+</resources>

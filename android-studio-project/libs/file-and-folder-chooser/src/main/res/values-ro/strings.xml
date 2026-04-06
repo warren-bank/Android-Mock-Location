@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Acasă</string>
+    <string name="up">Sus</string>
+    <string name="neww">Nou</string>
+    <string name="select">Selectare</string>
+    <string name="cancel">Anulare</string>
+    <string name="title">Selectare folder</string>
+    <string name="location">Locaţie</string>
+    <string name="enter_folder_name">Introducere nume folder</string>
+    <string name="edit_location">Editare locaţie</string>
+    <string name="create">Creare</string>
+    <string name="ok">Ok</string>
+    <string name="select_file">Trebuie să selectaţi un fişier</string>
+    <string name="select_empty_folder">Trebuie să selectaţi un folder gol</string>
+    <string name="no_access_to_storage">Permisiunea de acces pentru stocare nu este dată</string>
+    <string name="location_mask">Locaţie: %s</string>
+    <string name="error_string_mask">Eroare: %s</string>
+    <string name="select_empty_dir">Selectaţi un director gol</string>
+    <string name="is_not_dir">Acesta nu este un director</string>
+    <string name="dir_is_not_exist">Directorul nu există</string>
+    <string name="dir_read_permission_denied">Nu se poate citi din director</string>
+    <string name="dir_write_permission_denied">Nu se poate scrie în director</string>
+    <string name="new_file_name_does_not_pass_filter">Formatul noului nume de fişier nu este corect</string>
+    <string name="new_file_name_already_exists">Numele de fişier nou există deja</string>
+    <string name="press_back_button_again_to_exit">Apăsaţi \'Înapoi\' din nou pentru a anula</string>
+    <string name="press_up_button_again_to_exit">Apăsaţi \'Sus\' din nou pentru a anula</string>
+</resources>

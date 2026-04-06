@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Kod kuće</string>
+    <string name="up">Gore</string>
+    <string name="neww">Novi</string>
+    <string name="select">Izaberi</string>
+    <string name="cancel">Otkaži</string>
+    <string name="title">Izaberite direktorij</string>
+    <string name="location">Lokacija</string>
+    <string name="enter_folder_name">Unesite naziv direktorija</string>
+    <string name="edit_location">Uredi lokaciju</string>
+    <string name="create">Kreiraj</string>
+    <string name="ok">U redu</string>
+    <string name="select_file">Morate odabrati datoteku</string>
+    <string name="select_empty_folder">Morate odabrati prazan direktorij</string>
+    <string name="no_access_to_storage">Dozvola za pristup memoriji nije dana</string>
+    <string name="location_mask">Lokacija: %s</string>
+    <string name="error_string_mask">Greška: %s</string>
+    <string name="select_empty_dir">Izaberite prazan direktorij</string>
+    <string name="is_not_dir">Ovo nije direktorij.</string>
+    <string name="dir_is_not_exist">Direktorij ne postoji</string>
+    <string name="dir_read_permission_denied">Ne može se čitati iz direktorija</string>
+    <string name="dir_write_permission_denied">Ne mogu pisati u direktorij</string>
+    <string name="new_file_name_does_not_pass_filter">Format novog imena datoteke nije ispravan</string>
+    <string name="new_file_name_already_exists">Ime nove datoteke već postoji</string>
+    <string name="press_back_button_again_to_exit">Pritisnite \'Natrag\' za opoziv</string>
+    <string name="press_up_button_again_to_exit">Pritisnite \'Gore\' ponovno za opoziv</string>
+</resources>

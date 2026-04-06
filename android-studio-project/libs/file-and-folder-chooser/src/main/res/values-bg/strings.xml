@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Вкъщи.</string>
+    <string name="up">Нагоре!</string>
+    <string name="neww">Нови!</string>
+    <string name="select">Избор:</string>
+    <string name="cancel">Отмяна\?</string>
+    <string name="title">Избор на папка</string>
+    <string name="location">Местоположение:</string>
+    <string name="enter_folder_name">Въведете име на папка</string>
+    <string name="edit_location">Редактиране на местоположение</string>
+    <string name="create">Създаване:</string>
+    <string name="ok">Добре.</string>
+    <string name="select_file">Трябва да изберете файл</string>
+    <string name="select_empty_folder">Трябва да изберете празна папка</string>
+    <string name="no_access_to_storage">Не е дадено разрешение за достъп за съхранение</string>
+    <string name="location_mask">Местоположение:: %s</string>
+    <string name="error_string_mask">Грешка:: %s</string>
+    <string name="select_empty_dir">Изберете празна директория</string>
+    <string name="is_not_dir">Това не е директория.</string>
+    <string name="dir_is_not_exist">Директорията не съществува</string>
+    <string name="dir_read_permission_denied">Не може да се прочете директория</string>
+    <string name="dir_write_permission_denied">Не може да записва в директория</string>
+    <string name="new_file_name_does_not_pass_filter">Форматът на новото име на файл не е правилен</string>
+    <string name="new_file_name_already_exists">Вече съществува ново име на файл</string>
+    <string name="press_back_button_again_to_exit">Натиснете \'Назад\' отново, за да откажете</string>
+    <string name="press_up_button_again_to_exit">Натиснете \'нагоре\' отново, за да откажете</string>
+</resources>

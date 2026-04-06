@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Mājas</string>
+    <string name="up">Augšup</string>
+    <string name="neww">Jauns</string>
+    <string name="select">Izvēlēties</string>
+    <string name="cancel">Atcelt</string>
+    <string name="title">Izvēlēties mapi</string>
+    <string name="location">Atrašanās vieta</string>
+    <string name="enter_folder_name">Ievadiet mapes nosaukumu</string>
+    <string name="edit_location">Rediģēt vietu</string>
+    <string name="create">Izveidot</string>
+    <string name="ok">Ok</string>
+    <string name="select_file">Jums ir izvēlēties failu</string>
+    <string name="select_empty_folder">Jums ir izvēlēties tukšu mapi</string>
+    <string name="no_access_to_storage">Uzglabāšanas piekļuves atļauja nav dota</string>
+    <string name="location_mask">Atrašanās vieta: %s</string>
+    <string name="error_string_mask">Kļūda: %s</string>
+    <string name="select_empty_dir">Izvēlieties tukšu mapi</string>
+    <string name="is_not_dir">Šī nav mape</string>
+    <string name="dir_is_not_exist">Direktorija neeksistē</string>
+    <string name="dir_read_permission_denied">Nevar nolasīt no direktorijas</string>
+    <string name="dir_write_permission_denied">Neizdevās ierakstīt direktorijā</string>
+    <string name="new_file_name_does_not_pass_filter">Jauna faila nosaukuma formāts nav pareizs</string>
+    <string name="new_file_name_already_exists">Jauns faila nosaukums jau eksistē</string>
+    <string name="press_back_button_again_to_exit">Nospiediet \'Atpakaļ\' atkal atcelt</string>
+    <string name="press_up_button_again_to_exit">Nospiediet \'Augšup\' atkal, lai atceltu</string>
+</resources>

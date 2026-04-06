@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Domov</string>
+    <string name="up">Hore</string>
+    <string name="neww">Nový</string>
+    <string name="select">Vybrať</string>
+    <string name="cancel">Zrušiť</string>
+    <string name="title">Vybrať zložku</string>
+    <string name="location">Umiestnenie</string>
+    <string name="enter_folder_name">Zadajte názov zložky</string>
+    <string name="edit_location">Upraviť umiestnenie</string>
+    <string name="create">Vytvoriť</string>
+    <string name="ok">Dobre.</string>
+    <string name="select_file">Musíte vybrať súbor</string>
+    <string name="select_empty_folder">Musíte vybrať prázdnu zložku</string>
+    <string name="no_access_to_storage">Prístupové oprávnenie na úložný priestor nebolo dané</string>
+    <string name="location_mask">Umiestnenie: %s</string>
+    <string name="error_string_mask">Chyba: %s</string>
+    <string name="select_empty_dir">Vyberte prázdny adresár</string>
+    <string name="is_not_dir">Toto nie je adresár</string>
+    <string name="dir_is_not_exist">Adresár neexistuje</string>
+    <string name="dir_read_permission_denied">Nie je možné čítať z adresára</string>
+    <string name="dir_write_permission_denied">Nie je možné zapisovať do adresára</string>
+    <string name="new_file_name_does_not_pass_filter">Formát nového názvu súboru nie je správny</string>
+    <string name="new_file_name_already_exists">Nový názov súboru už existuje</string>
+    <string name="press_back_button_again_to_exit">Ak chcete zrušiť operáciu, znova stlačte \'Späť\'</string>
+    <string name="press_up_button_again_to_exit">Ak chcete zrušiť operáciu, stlačte kláves \'Hore\'</string>
+</resources>

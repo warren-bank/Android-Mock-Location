@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">হোম</string>
+    <string name="up">উপরে</string>
+    <string name="neww">নতুন</string>
+    <string name="select">নির্বাচন করুন</string>
+    <string name="cancel">বাতিল করো</string>
+    <string name="title">ফোল্ডার নির্বাচন করুন</string>
+    <string name="location">অবস্থান</string>
+    <string name="enter_folder_name">ফোল্ডারের নাম লিখুন</string>
+    <string name="edit_location">অবস্থান সম্পাদন করো</string>
+    <string name="create">তৈরি করো</string>
+    <string name="ok">Ok</string>
+    <string name="select_file">আপনি একটি ফাইল নির্বাচন করতে হবে</string>
+    <string name="select_empty_folder">একটি ফাঁকা ফোল্ডার নির্বাচন করতে হবে</string>
+    <string name="no_access_to_storage">স্টোরেজ অ্যাক্সেস অনুমতিটি দেয়া যায়না</string>
+    <string name="location_mask">অবস্থান: %s</string>
+    <string name="error_string_mask">ত্রুটি: %s</string>
+    <string name="select_empty_dir">একটি ফাঁকা ডিরেক্টরি নির্বাচন করুন</string>
+    <string name="is_not_dir">এটি একটি ডিরেক্টরি নয়</string>
+    <string name="dir_is_not_exist">ডিরেক্টরি নেই</string>
+    <string name="dir_read_permission_denied">ডিরেক্টরি থেকে পড়া যাচ্ছে না</string>
+    <string name="dir_write_permission_denied">ডিরেক্টরিতে লিখতে ব্যর্থ</string>
+    <string name="new_file_name_does_not_pass_filter">নতুন ফাইলের নামের বিন্যাস সঠিক নয়</string>
+    <string name="new_file_name_already_exists">নতুন ফাইলের নাম ইতিমধ্যেই বিদ্যমান</string>
+    <string name="press_back_button_again_to_exit">বাতিল করার জন্য \'ব্যাক\' চাপুন</string>
+    <string name="press_up_button_again_to_exit">বাতিল করতে \'আপ\' প্রেস করা হবে</string>
+</resources>

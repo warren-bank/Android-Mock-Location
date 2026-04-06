@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Hjem</string>
+    <string name="up">Op.</string>
+    <string name="neww">Ny</string>
+    <string name="select">Vælg</string>
+    <string name="cancel">Annullér</string>
+    <string name="title">Vælg folder</string>
+    <string name="location">Beliggenhed</string>
+    <string name="enter_folder_name">Angiv foldernavn</string>
+    <string name="edit_location">Redigér placering</string>
+    <string name="create">Opret</string>
+    <string name="ok">Okay, okay.</string>
+    <string name="select_file">Du er nødt til at vælge en fil</string>
+    <string name="select_empty_folder">Du er nødt til at vælge en tom folder</string>
+    <string name="no_access_to_storage">Adgang til lageradgang er ikke givet</string>
+    <string name="location_mask">Beliggenhed: %s</string>
+    <string name="error_string_mask">Fejl: %s</string>
+    <string name="select_empty_dir">Vælg et tomt bibliotek</string>
+    <string name="is_not_dir">Dette er ikke et bibliotek</string>
+    <string name="dir_is_not_exist">Biblioteket findes ikke</string>
+    <string name="dir_read_permission_denied">Kan ikke læse fra adressekartotek</string>
+    <string name="dir_write_permission_denied">Kan ikke skrive til bibliotek</string>
+    <string name="new_file_name_does_not_pass_filter">Formatet på nyt filnavn er ikke korrekt</string>
+    <string name="new_file_name_already_exists">Der findes allerede et nyt filnavn</string>
+    <string name="press_back_button_again_to_exit">Tryk på \'Tilbage\' igen for at annullere</string>
+    <string name="press_up_button_again_to_exit">Tryk på \'Op.\' igen for at annullere</string>
+</resources>

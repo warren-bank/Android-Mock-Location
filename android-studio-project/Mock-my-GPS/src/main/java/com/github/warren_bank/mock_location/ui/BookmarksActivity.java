@@ -1,5 +1,6 @@
 package com.github.warren_bank.mock_location.ui;
 
+import com.github.warren_bank.mock_location.BuildConfig;
 import com.github.warren_bank.mock_location.R;
 import com.github.warren_bank.mock_location.data_model.BookmarkItem;
 import com.github.warren_bank.mock_location.data_model.LocPoint;
@@ -99,6 +100,16 @@ public class BookmarksActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getActionBar().setDisplayShowHomeEnabled(false);
         getMenuInflater().inflate(R.menu.activity_bookmarks, menu);
+
+        // conditionally enable backup and restore menu items
+        MenuItem item;
+
+        item = menu.findItem(R.id.menu_backup_file);
+        item.setVisible(BuildConfig.ENABLE_BACKUP_RESTORE);
+
+        item = menu.findItem(R.id.menu_restore_file);
+        item.setVisible(BuildConfig.ENABLE_BACKUP_RESTORE);
+
         return true;
     }
 
@@ -107,6 +118,14 @@ public class BookmarksActivity extends Activity {
         switch(menuItem.getItemId()) {
             case R.id.menu_add_bookmarkitem: {
                 showAddDialog();
+                return true;
+            }
+            case R.id.menu_backup_file: {
+                Toast.makeText(BookmarksActivity.this, "TODO: Backup", Toast.LENGTH_SHORT).show();
+                return true;
+            }
+            case R.id.menu_restore_file: {
+                Toast.makeText(BookmarksActivity.this, "TODO: Restore", Toast.LENGTH_SHORT).show();
                 return true;
             }
             default: {

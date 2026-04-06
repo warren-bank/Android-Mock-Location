@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="up">أعلى</string>
+    <string name="neww">جديدة</string>
+    <string name="select">اختيار</string>
+    <string name="cancel">الغاء</string>
+    <string name="title">تحديد حافظة</string>
+    <string name="location">الموقع</string>
+    <string name="enter_folder_name">أدخل اسم الحافظة</string>
+    <string name="edit_location">تحرير مكان</string>
+    <string name="create">تكوين</string>
+    <string name="ok">طيب</string>
+    <string name="select_file">يجب أن تقوم بتحديد ملف</string>
+    <string name="select_empty_folder">يجب أن تقوم بتحديد حافظة خالية</string>
+    <string name="no_access_to_storage">لم يتم منح تصريح تخزين</string>
+    <string name="location_mask">الموقع: %s</string>
+    <string name="error_string_mask">خطأ: %s</string>
+    <string name="select_empty_dir">حدد دليل خالي</string>
+    <string name="is_not_dir">هذا ليس دليل</string>
+    <string name="dir_is_not_exist">الدليل غير موجود</string>
+    <string name="dir_read_permission_denied">لا يمكن القراءة من الدليل</string>
+    <string name="dir_write_permission_denied">لا يمكن الكتابة في الدليل</string>
+    <string name="new_file_name_does_not_pass_filter">نسق اسم الملف الجديد غير صحيح</string>
+    <string name="new_file_name_already_exists">اسم الملف الجديد موجود بالفعل</string>
+    <string name="press_back_button_again_to_exit">اضغط \'سابق\' مرة أخرى للالغاء</string>
+    <string name="press_up_button_again_to_exit">اضغط على \"أعلى\" مرة أخرى للإلغاء</string>
+</resources>

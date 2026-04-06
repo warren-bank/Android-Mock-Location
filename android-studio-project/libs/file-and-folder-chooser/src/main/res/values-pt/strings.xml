@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Home</string>
+    <string name="up">Para cima</string>
+    <string name="neww">Novo</string>
+    <string name="select">Selecionar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="title">Selecionar pasta</string>
+    <string name="location">Local</string>
+    <string name="enter_folder_name">Inserir nome da pasta</string>
+    <string name="edit_location">Local de edição</string>
+    <string name="create">Criar</string>
+    <string name="ok">Ok</string>
+    <string name="select_file">Você tem que selecionar um arquivo</string>
+    <string name="select_empty_folder">Você tem que selecionar uma pasta vazia</string>
+    <string name="no_access_to_storage">Permissão de acesso ao armazenamento não dada</string>
+    <string name="location_mask">Local: %s</string>
+    <string name="error_string_mask">Erro: %s</string>
+    <string name="select_empty_dir">Selecione um diretório vazio</string>
+    <string name="is_not_dir">Este não é um diretório</string>
+    <string name="dir_is_not_exist">Diretório não existe</string>
+    <string name="dir_read_permission_denied">Não é possível ler do diretório</string>
+    <string name="dir_write_permission_denied">Não é possível gravar no diretório</string>
+    <string name="new_file_name_does_not_pass_filter">Formato do novo nome do arquivo não está correto</string>
+    <string name="new_file_name_already_exists">Novo nome do arquivo já existe</string>
+    <string name="press_back_button_again_to_exit">Pressione \'Voltar\' novamente para cancelar</string>
+    <string name="press_up_button_again_to_exit">Pressione \'Para cima\' novamente para cancelar</string>
+</resources>

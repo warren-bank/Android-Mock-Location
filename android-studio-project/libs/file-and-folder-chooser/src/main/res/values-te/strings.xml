@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">హోమ్</string>
+    <string name="up">QShortcut</string>
+    <string name="neww">కొత్త</string>
+    <string name="select">ఎంచుకోండి</string>
+    <string name="cancel">రద్దు</string>
+    <string name="title">ફોલ્ડర్ను యెంపికచేయుము</string>
+    <string name="location">స్థానము</string>
+    <string name="enter_folder_name">ఫోల్డర్ పేరును ప్రవేశపెట్టుము</string>
+    <string name="edit_location">స్థానము సరికూర్చు</string>
+    <string name="create">సృష్టించు</string>
+    <string name="ok">Ok</string>
+    <string name="select_file">మీరు ఒక ఫైలు యెంపికచేయాలి</string>
+    <string name="select_empty_folder">మీరు ఖాళీ ఫోల్డర్ యెంపికచేయాలి</string>
+    <string name="no_access_to_storage">સંગ્રહ అనుమతి అనుమతి ఇవ్వలేదు</string>
+    <string name="location_mask">స్థానము: %s</string>
+    <string name="error_string_mask">దోషము: %s</string>
+    <string name="select_empty_dir">ఖాళీ డైరెక్టరీ యెంపికచేయుము</string>
+    <string name="is_not_dir">ఇది డైరెక్టరీ కాదు</string>
+    <string name="dir_is_not_exist">డైరెక్టరీ లేదు</string>
+    <string name="dir_read_permission_denied">డైరెక్టరీ నుండి చదువుకోలేరు</string>
+    <string name="dir_write_permission_denied">డైరెక్టరీకు వ్రాయలేము</string>
+    <string name="new_file_name_does_not_pass_filter">కొత్త ఫైల్ పేరు యొక్క ఫార్మాట్ సరికాదు</string>
+    <string name="new_file_name_already_exists">కొత్త ఫైల్ పేరు ఇప్పటికే వుంది</string>
+    <string name="press_back_button_again_to_exit">రద్దు చేయడానికి మళ్ళీ \'బ్యాక్\' ప్రెస్</string>
+    <string name="press_up_button_again_to_exit">రద్దు చేయడానికి మళ్ళీ \'పైప్\' ప్రెస్</string>
+</resources>

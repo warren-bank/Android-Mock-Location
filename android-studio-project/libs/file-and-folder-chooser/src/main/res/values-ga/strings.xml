@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Baile</string>
+    <string name="up">Suas</string>
+    <string name="neww">Nua</string>
+    <string name="select">Roghnaigh</string>
+    <string name="cancel">Cealaigh</string>
+    <string name="title">Roghnaigh fillteán</string>
+    <string name="location">Suíomh</string>
+    <string name="enter_folder_name">Iontráil ainm an fhillteáin</string>
+    <string name="edit_location">Cuir &amp; Eagar</string>
+    <string name="create">Cruthaigh</string>
+    <string name="ok">Ok</string>
+    <string name="select_file">Tá tú chun comhad a roghnú</string>
+    <string name="select_empty_folder">Ní mór duit fillteán folamh a roghnú</string>
+    <string name="no_access_to_storage">Cead rochtana a stóráil gan cead a fháil</string>
+    <string name="location_mask">Suíomh: %s</string>
+    <string name="error_string_mask">Earráid: %s</string>
+    <string name="select_empty_dir">Roghnaigh comhadlann folamh</string>
+    <string name="is_not_dir">Ní comhadlann é seo</string>
+    <string name="dir_is_not_exist">Níl an chomhadlann ann</string>
+    <string name="dir_read_permission_denied">Ní féidir an comhad a léamh</string>
+    <string name="dir_write_permission_denied">Ní féidir scríobh a scríobh</string>
+    <string name="new_file_name_does_not_pass_filter">Ní féidir an t-ainm comhaid nua a cheartú</string>
+    <string name="new_file_name_already_exists">Tá ainm nua an chomhaid ann cheana</string>
+    <string name="press_back_button_again_to_exit">Brúigh \'Ar ais\' arís chun é a chealú</string>
+    <string name="press_up_button_again_to_exit">Brúigh \'Suas\' arís chun é a chealú</string>
+</resources>

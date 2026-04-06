@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Accueil</string>
+    <string name="up">Haut</string>
+    <string name="neww">Nouveau</string>
+    <string name="select">Sélectionner</string>
+    <string name="cancel">Annuler</string>
+    <string name="title">Sélectionner un dossier</string>
+    <string name="location">Emplacement</string>
+    <string name="enter_folder_name">Entrer le nom du dossier</string>
+    <string name="edit_location">Editer l\'emplacement</string>
+    <string name="create">Créer</string>
+    <string name="ok">Ok</string>
+    <string name="select_file">Vous devez sélectionner un fichier</string>
+    <string name="select_empty_folder">Vous devez sélectionner un dossier vide</string>
+    <string name="no_access_to_storage">Droit d\'accès au stockage non indiqué</string>
+    <string name="location_mask">Emplacement: %s</string>
+    <string name="error_string_mask">Erreur: %s</string>
+    <string name="select_empty_dir">Sélectionner un répertoire vide</string>
+    <string name="is_not_dir">Il ne s\'agit pas d\'un répertoire</string>
+    <string name="dir_is_not_exist">Le répertoire n\'existe pas</string>
+    <string name="dir_read_permission_denied">Lecture impossible à partir du répertoire</string>
+    <string name="dir_write_permission_denied">Impossible d\'écrire dans le répertoire</string>
+    <string name="new_file_name_does_not_pass_filter">Le format du nouveau nom de fichier n\'est pas correct</string>
+    <string name="new_file_name_already_exists">Le nouveau nom de fichier existe déjà</string>
+    <string name="press_back_button_again_to_exit">Appuyez à nouveau sur \'Retour\' pour annuler</string>
+    <string name="press_up_button_again_to_exit">Appuyez à nouveau sur \'Haut\' pour annuler</string>
+</resources>

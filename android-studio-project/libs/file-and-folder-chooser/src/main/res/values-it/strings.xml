@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Home</string>
+    <string name="up">Su</string>
+    <string name="neww">Nuovo</string>
+    <string name="select">Seleziona</string>
+    <string name="cancel">Annulla</string>
+    <string name="title">Seleziona cartella</string>
+    <string name="location">Ubicazione</string>
+    <string name="enter_folder_name">Inserire nome cartella</string>
+    <string name="edit_location">Modifica posizione</string>
+    <string name="create">Crea</string>
+    <string name="ok">Ok</string>
+    <string name="select_file">Devi selezionare un file</string>
+    <string name="select_empty_folder">Devi selezionare una cartella vuota</string>
+    <string name="no_access_to_storage">Permesso di accesso alla memoria non fornito</string>
+    <string name="location_mask">Ubicazione: %s</string>
+    <string name="error_string_mask">Errore: %s</string>
+    <string name="select_empty_dir">Selezionare una directory vuota</string>
+    <string name="is_not_dir">Questa non è una directory</string>
+    <string name="dir_is_not_exist">La directory non esiste</string>
+    <string name="dir_read_permission_denied">Impossibile leggere dalla directory</string>
+    <string name="dir_write_permission_denied">Impossibile scrivere alla directory</string>
+    <string name="new_file_name_does_not_pass_filter">Il formato del nuovo nome del file non è corretto</string>
+    <string name="new_file_name_already_exists">Nuovo nome file già esistente</string>
+    <string name="press_back_button_again_to_exit">Premi \'Indietro\' di nuovo per annullare</string>
+    <string name="press_up_button_again_to_exit">Premere di nuovo \'Su\' per annullare</string>
+</resources>

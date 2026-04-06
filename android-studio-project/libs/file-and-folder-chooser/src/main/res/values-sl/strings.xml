@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Domača stran</string>
+    <string name="up">Navzgor</string>
+    <string name="neww">Novo</string>
+    <string name="select">Izberi</string>
+    <string name="cancel">Preklici</string>
+    <string name="title">Izberi mapo</string>
+    <string name="location">Lokacija</string>
+    <string name="enter_folder_name">Vnesite ime mape</string>
+    <string name="edit_location">Uredi lokacijo</string>
+    <string name="create">Ustvari</string>
+    <string name="ok">Prav.</string>
+    <string name="select_file">Izbrati morate datoteko</string>
+    <string name="select_empty_folder">Izbrati morate prazno mapo.</string>
+    <string name="no_access_to_storage">Dovoljenje za dostop do pomnilnika ni dano</string>
+    <string name="location_mask">Lokacija: %s</string>
+    <string name="error_string_mask">Napaka: %s</string>
+    <string name="select_empty_dir">Izberite prazen imenik</string>
+    <string name="is_not_dir">To ni imenik</string>
+    <string name="dir_is_not_exist">Imenik ne obstaja</string>
+    <string name="dir_read_permission_denied">Ni moč brati iz imenika</string>
+    <string name="dir_write_permission_denied">Ni moč pisati v imenik</string>
+    <string name="new_file_name_does_not_pass_filter">Format novega imena datoteke ni pravilen</string>
+    <string name="new_file_name_already_exists">Novo ime datoteke že obstaja</string>
+    <string name="press_back_button_again_to_exit">Za preklic pritisnite \'Nazaj\'.</string>
+    <string name="press_up_button_again_to_exit">Za preklic pritisnite \'Navzgor\'.</string>
+</resources>

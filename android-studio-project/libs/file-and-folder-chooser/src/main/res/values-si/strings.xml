@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">නිවස</string>
+    <string name="up">QShortName</string>
+    <string name="neww">නව</string>
+    <string name="select">තෝරන්න</string>
+    <string name="cancel">අවලංගු කරන්න</string>
+    <string name="title">බහලුම තෝරන්න</string>
+    <string name="location">පිහිටුම</string>
+    <string name="enter_folder_name">බහලුම් නාමය ඇතුළත් කරන්න</string>
+    <string name="edit_location">පිහිටීම සකසන්න</string>
+    <string name="create">නිර්මාණය කරන්න</string>
+    <string name="ok">Ok</string>
+    <string name="select_file">ඔබට ගොනුවක් තෝරාගන්න</string>
+    <string name="select_empty_folder">ඔබට හිස් බහාලුමක් තෝරාගන්න</string>
+    <string name="no_access_to_storage">ගබඩා ප්රවේශ අවසර ලබා නොදීම</string>
+    <string name="location_mask">පිහිටුම: %s</string>
+    <string name="error_string_mask">දෝෂය: %s</string>
+    <string name="select_empty_dir">හිස් ඩිරෙක්ටරිය තෝරන්න</string>
+    <string name="is_not_dir">මෙය ඩිරෙක්ටරියක් නොවේ</string>
+    <string name="dir_is_not_exist">බහලුම නොපවතී</string>
+    <string name="dir_read_permission_denied">ඩිරෙක්ටරියේ සිට කියවිය නොහැක</string>
+    <string name="dir_write_permission_denied">ඩිරෙක්ටරියට ලියන්න බෑ</string>
+    <string name="new_file_name_does_not_pass_filter">නව ගොනු නාමයේ සංයුතිය නිවැරදි නොවේ</string>
+    <string name="new_file_name_already_exists">නව ගොනු නාමය දැනටමත් පවතී</string>
+    <string name="press_back_button_again_to_exit">නැවත අවලංගු කරන්න \'ආපසු\' ඔබන්න</string>
+    <string name="press_up_button_again_to_exit">\'ඉහළට\' නැවතත් අවලංගු කරන්න</string>
+</resources>

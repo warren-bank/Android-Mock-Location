@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Jedan dom.</string>
+    <string name="up">Jedan.</string>
+    <string name="neww">Jedan novi.</string>
+    <string name="select">-Izaberi.</string>
+    <string name="cancel">Otkaži.</string>
+    <string name="title">Izaberi mapu.</string>
+    <string name="location">Jedna lokacija.</string>
+    <string name="enter_folder_name">Unesite naziv direktorija.</string>
+    <string name="edit_location">Uredi lokaciju</string>
+    <string name="create">Jedan</string>
+    <string name="ok">Dobro.</string>
+    <string name="select_file">Moraš da izabereš datoteku.</string>
+    <string name="select_empty_folder">Moraš da izabereš praznu mapu.</string>
+    <string name="no_access_to_storage">Nisam dobio dozvolu za pristup.</string>
+    <string name="location_mask">Jedna lokacija.: %s</string>
+    <string name="error_string_mask">Jedna greška.: %s</string>
+    <string name="select_empty_dir">Izaberite prazan direktorij.</string>
+    <string name="is_not_dir">Ovo nije direktorij.</string>
+    <string name="dir_is_not_exist">Jedan direktorij ne postoji.</string>
+    <string name="dir_read_permission_denied">Ne može se čitati iz direktorija.</string>
+    <string name="dir_write_permission_denied">Ne mogu da pišem u imenik.</string>
+    <string name="new_file_name_does_not_pass_filter">Jedan format novog imena datoteke nije ispravan.</string>
+    <string name="new_file_name_already_exists">Ime nove datoteke već postoji.</string>
+    <string name="press_back_button_again_to_exit">Pritisni \"Povratak\" da otkaže</string>
+    <string name="press_up_button_again_to_exit">Pritisni još jednom da otkažeš.</string>
+</resources>

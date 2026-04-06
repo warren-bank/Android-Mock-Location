@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">गृह</string>
+    <string name="up">माथि</string>
+    <string name="neww">नयाँ</string>
+    <string name="select">चयन गर्नुहोस्</string>
+    <string name="cancel">रद्द गर्नुहोस्</string>
+    <string name="title">फोल्डर चयन गर्नुहोस्</string>
+    <string name="location">स्थान</string>
+    <string name="enter_folder_name">फोल्डर नाम प्रविष्ट गर्नुहोस्</string>
+    <string name="edit_location">स्थान सम्पादन गर्नुहोस्</string>
+    <string name="create">सिर्जना गर्नुहोस्</string>
+    <string name="ok">ओक</string>
+    <string name="select_file">तपाईँले फाइल चयन गर्नुपर्नेछ</string>
+    <string name="select_empty_folder">तपाईँले खाली फोल्डर चयन गर्नुपर्नेछ</string>
+    <string name="no_access_to_storage">भण्डारण पहुँच अनुमति दिइएको छैन</string>
+    <string name="location_mask">स्थान: %s</string>
+    <string name="error_string_mask">त्रुटि: %s</string>
+    <string name="select_empty_dir">एउटा खाली डाइरेक्टरी चयन गर्नुहोस्</string>
+    <string name="is_not_dir">यो डाइरेक्टरी होइन</string>
+    <string name="dir_is_not_exist">डाइरेक्टरी अवस्थित छैन</string>
+    <string name="dir_read_permission_denied">डाइरेक्टरी बाट पढ्न सकिँदैन</string>
+    <string name="dir_write_permission_denied">डाइरेक्टरीमा लेख्न सकिँदैन</string>
+    <string name="new_file_name_does_not_pass_filter">नयाँ फाइल नामको ढाँचा ठीक छैन</string>
+    <string name="new_file_name_already_exists">नयाँ फाइल नाम पहिल्यै अवस्थित छ</string>
+    <string name="press_back_button_again_to_exit">रद्द गर्न \'पछाडि\' थिच्नुहोस्</string>
+    <string name="press_up_button_again_to_exit">रद्द गर्न \'माथि\' थिच्नुहोस्</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  package="lib.folderpicker">
+
+  <!-- file access permissions: Android 1 to 10 -->
+  <!-- note: Android 10 requires "requestLegacyExternalStorage" -->
+  <uses-permission android:maxSdkVersion="29" android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+  <!-- file access permissions: Android 11+ -->
+  <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage" />
+
+  <application
+    android:requestLegacyExternalStorage="true">
+
+    <activity
+      android:name=".FolderPicker"
+      android:exported="true" />
+
+  </application>
+</manifest>

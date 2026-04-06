@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Cartref</string>
+    <string name="up">I fyny</string>
+    <string name="neww">Newydd</string>
+    <string name="select">Dewis</string>
+    <string name="cancel">Diddymu</string>
+    <string name="title">Dewis plygell</string>
+    <string name="location">Lleoliad</string>
+    <string name="enter_folder_name">Rhowch enw plygell</string>
+    <string name="edit_location">Golygu lleoliad</string>
+    <string name="create">Creu</string>
+    <string name="ok">Iawn</string>
+    <string name="select_file">Rhaid i chi ddewis ffeil</string>
+    <string name="select_empty_folder">Rhaid i chi ddewis plygell wag</string>
+    <string name="no_access_to_storage">Ni roddwyd caniatâd mynediad storio</string>
+    <string name="location_mask">Lleoliad: %s</string>
+    <string name="error_string_mask">Gwall: %s</string>
+    <string name="select_empty_dir">Dewis cyfeiriadur gwag</string>
+    <string name="is_not_dir">Nid cyfeiriadur yw hwn</string>
+    <string name="dir_is_not_exist">Nid yw\'r cyfeiriadur yn bodoli</string>
+    <string name="dir_read_permission_denied">Methu darllen o\'r cyfeiriadur</string>
+    <string name="dir_write_permission_denied">Methu ysgrifennu at y cyfeiriadur</string>
+    <string name="new_file_name_does_not_pass_filter">Nid yw fformat enw ffeil newydd yn gywir</string>
+    <string name="new_file_name_already_exists">Mae enw ffeil newydd yn bodoli eisoes</string>
+    <string name="press_back_button_again_to_exit">Gwasgwch \'Nôl\' eto i ddiddymu</string>
+    <string name="press_up_button_again_to_exit">Gwasgwch \'I fyny\' eto i ddiddymu</string>
+</resources>

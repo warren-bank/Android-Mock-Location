@@ -6,4 +6,14 @@
         android:icon="@drawable/menu_add_bookmarkitem"
         android:title="@string/BookmarksActivity_actionbar_item_1"
         android:showAsAction="always" />
+    <item
+        android:id="@+id/menu_backup_file"
+        android:title="@string/BookmarksActivity_actionbar_item_2"
+        android:showAsAction="never"
+        android:visible="false" />
+    <item
+        android:id="@+id/menu_restore_file"
+        android:title="@string/BookmarksActivity_actionbar_item_3"
+        android:showAsAction="never"
+        android:visible="false" />
 </menu>

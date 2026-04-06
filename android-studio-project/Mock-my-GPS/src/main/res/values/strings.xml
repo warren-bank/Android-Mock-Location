@@ -59,6 +59,8 @@
 
     <!-- actionbar -->
     <string name="BookmarksActivity_actionbar_item_1">Add</string>
+    <string name="BookmarksActivity_actionbar_item_2">Backup</string>
+    <string name="BookmarksActivity_actionbar_item_3">Restore</string>
 
     <string name="open_bookmark_menu_title">Use Bookmark For:</string>
     <string name="open_bookmark_option_1">@string/geo_intent_option_1</string>

@@ -17,13 +17,30 @@ android {
         targetSdkVersion project.ext.targetSdkVersion
 
         applicationVariants.all { variant ->
-            variant.outputs.all {
-                outputFileName = "${archivesBaseName}-${variant.versionName}-${variant.productFlavors[0].name}-${variant.productFlavors[1].name}-${variant.buildType.name}.apk"
+            variant.outputs.all { output ->
+                def variantName = variant.name.toLowerCase()
+
+                if (variantName.contains("withaosplocationproviders")) {
+                    if (variantName.contains("withbackuprestoresaf")) {
+                        output.versionCodeOverride = project.ext.app_aosp_withSAF_releaseVersionCode
+                        output.versionNameOverride = project.ext.app_aosp_withSAF_releaseVersion
+                    }
+                    else if (variantName.contains("withbackuprestorefilechooser")) {
+                        output.versionCodeOverride = project.ext.app_aosp_withFileChooser_releaseVersionCode
+                        output.versionNameOverride = project.ext.app_aosp_withFileChooser_releaseVersion
+                    }
+                    else {
+                        output.versionCodeOverride = project.ext.app_aosp_releaseVersionCode
+                        output.versionNameOverride = project.ext.app_aosp_releaseVersion
+                    }
+                }
+
+                outputFileName = "${archivesBaseName}-${variant.versionName}-${variant.productFlavors[0].name}-${variant.productFlavors[1].name}-${variant.productFlavors[2].name}-${variant.buildType.name}.apk"
             }
         }
     }
 
-    flavorDimensions "languageResources", "locationProvider"
+    flavorDimensions "languageResources", "locationProvider", "fileImport"
 
     productFlavors {
         withAllLanguageTranslations {
@@ -34,10 +51,6 @@ android {
         }
         withAospLocationProviders {
             dimension "locationProvider"
-
-            minSdkVersion project.ext.app_aosp_minSdkVersion
-            versionCode   project.ext.app_aosp_releaseVersionCode
-            versionName   project.ext.app_aosp_releaseVersion
         }
         withGooglePlayServicesFusedLocationProvider {
             dimension "locationProvider"
@@ -61,11 +74,26 @@ android {
                 maven { url 'https://developer.huawei.com/repo/' }
             }
         }
+        noBackupRestore {
+            dimension "fileImport"
+
+            buildConfigField "boolean", "ENABLE_BACKUP_RESTORE", "false"
+        }
+        withBackupRestoreFileChooser {
+            dimension "fileImport"
+
+            buildConfigField "boolean", "ENABLE_BACKUP_RESTORE", "true"
+        }
+        withBackupRestoreSAF {
+            dimension "fileImport"
+
+            buildConfigField "boolean", "ENABLE_BACKUP_RESTORE", "true"
+        }
     }
 
     buildFeatures {
         aidl        = false
-        buildConfig = false
+        buildConfig = true
     }
 
     buildTypes {
@@ -98,6 +126,40 @@ android {
     }
 }
 
+androidComponents {
+    beforeVariants(selector().all()) { variant ->
+        def variantName = variant.name.toLowerCase()
+
+        if (variantName.contains("withaosplocationproviders")) {
+            if (variantName.contains("withbackuprestoresaf")) {
+                variant.minSdk = project.ext.app_aosp_withSAF_minSdkVersion
+            }
+            else if (variantName.contains("withbackuprestorefilechooser")) {
+                variant.minSdk = project.ext.app_aosp_withFileChooser_minSdkVersion
+            }
+            else {
+                variant.minSdk = project.ext.app_aosp_minSdkVersion
+            }
+        }
+        else {
+            if (variantName.contains("withbackuprestorefilechooser")) {
+                variant.enable = false
+            }
+        }
+
+        if (variant.buildType == "release") {
+            if (variantName.contains("english")) {
+                variant.enable = false
+            }
+        }
+        else if (variant.buildType == "debug") {
+            if (variantName.contains("withalllanguagetranslations")) {
+                variant.enable = false
+            }
+        }
+    }
+}
+
 dependencies {
     implementation project(':Mock-my-GPS-UnifiedNlp-Backend-artifacts')
 
@@ -108,4 +170,6 @@ dependencies {
 
     withHuaweiMobileServicesFusedLocationProviderImplementation 'com.huawei.hms:base:'        + '6.0.1.302'                     // (248 KB) https://mvnrepository.com/artifact/com.huawei.hms/base
     withHuaweiMobileServicesFusedLocationProviderImplementation 'com.huawei.hms:location:'    + '6.0.0.302'                     // ( 93 KB) https://mvnrepository.com/artifact/com.huawei.hms/location
+
+    withBackupRestoreFileChooserImplementation project(':file-and-folder-chooser')                                              //          https://github.com/warren-bank/Android-libraries/tree/fork/kashifo/android-folder-picker-library/material-design
 }
