@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_title">@string/BookmarksActivity_actionbar_item_2</string>
+  <string name="app_folderpicker_json_export_filepath_description">Select directory to save file</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Select new file name for JSON data</string>
+
+  <string name="app_folderpicker_json_import_filepath_title">@string/BookmarksActivity_actionbar_item_3</string>
+  <string name="app_folderpicker_json_import_filepath_description">Select file containing previously exported JSON data</string>
+</resources>

@@ -5,12 +5,14 @@ import com.github.warren_bank.mock_location.R;
 import com.github.warren_bank.mock_location.data_model.BookmarkItem;
 import com.github.warren_bank.mock_location.data_model.LocPoint;
 import com.github.warren_bank.mock_location.data_model.SharedPrefs;
+import com.github.warren_bank.mock_location.util.BackupRestoreMgr;
 
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -25,6 +27,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class BookmarksActivity extends Activity {
+    private BackupRestoreMgr            backupRestoreMgr;
     private ListView                    listView;
     private ArrayList<BookmarkItem>     listItems;
     private ArrayAdapter<BookmarkItem>  listAdapter;
@@ -46,6 +49,8 @@ public class BookmarksActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bookmarks);
+
+        backupRestoreMgr = new BackupRestoreMgr();
 
         listView    = (ListView) findViewById(R.id.listview);
         listItems   = SharedPrefs.getBookmarkItems(BookmarksActivity.this);
@@ -84,12 +89,21 @@ public class BookmarksActivity extends Activity {
         showAddDialog(lat, lon);
     }
 
-    @Override
-    protected void onPause() {
-        super.onPause();
+    // ---------------------------------------------------------------------------------------------
+    // Backup & Restore:
+    // ---------------------------------------------------------------------------------------------
 
-        if (!isFinishing())
-            finish();
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        backupRestoreMgr.onActivityResult(requestCode, resultCode, data);
+    }
+
+    public void refreshListView() {
+        listItems.clear();
+        listItems.addAll(
+          SharedPrefs.getBookmarkItems(BookmarksActivity.this)
+        );
+        listAdapter.notifyDataSetChanged();
     }
 
     // ---------------------------------------------------------------------------------------------
@@ -98,7 +112,10 @@ public class BookmarksActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getActionBar().setDisplayShowHomeEnabled(false);
+        if (Build.VERSION.SDK_INT >= 11) {
+            getActionBar().setDisplayShowHomeEnabled(false);
+        }
+
         getMenuInflater().inflate(R.menu.activity_bookmarks, menu);
 
         // conditionally enable backup and restore menu items
@@ -121,11 +138,20 @@ public class BookmarksActivity extends Activity {
                 return true;
             }
             case R.id.menu_backup_file: {
-                Toast.makeText(BookmarksActivity.this, "TODO: Backup", Toast.LENGTH_SHORT).show();
+                backupRestoreMgr.doBackup(BookmarksActivity.this, new BackupRestoreMgr.ResultListener() {
+                  public void onResult(boolean success) {
+                  }
+                });
                 return true;
             }
             case R.id.menu_restore_file: {
-                Toast.makeText(BookmarksActivity.this, "TODO: Restore", Toast.LENGTH_SHORT).show();
+                backupRestoreMgr.doRestore(BookmarksActivity.this, new BackupRestoreMgr.ResultListener() {
+                  public void onResult(boolean success) {
+                    if (success) {
+                      BookmarksActivity.this.refreshListView();
+                    }
+                  }
+                });
                 return true;
             }
             default: {
@@ -268,7 +294,7 @@ public class BookmarksActivity extends Activity {
                 final boolean same_title    = isAdd ? false : new_title.equals(listItem.title);
                 final boolean same_location = isAdd ? false : new_location.equals(listItem.toPoint().toString());
 
-                if (new_title.equals("") || new_location.equals("")) {
+                if (new_title.isEmpty() || new_location.isEmpty()) {
                     Toast.makeText(BookmarksActivity.this, getString(R.string.error_missing_required_value), Toast.LENGTH_SHORT).show();
                     return;
                 }

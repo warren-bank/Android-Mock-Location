@@ -158,12 +158,4 @@ public class PreferencesActivity extends Activity {
     private void showError(String text) {
         Toast.makeText(PreferencesActivity.this, text, Toast.LENGTH_SHORT).show();
     }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-
-        if (!isFinishing())
-            finish();
-    }
 }

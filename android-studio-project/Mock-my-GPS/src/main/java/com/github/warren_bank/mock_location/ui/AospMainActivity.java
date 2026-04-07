@@ -84,23 +84,16 @@ public class AospMainActivity extends ActivityGroup implements RuntimePermission
         }
     }
 
-    @Override
-    protected void onPause() {
-        super.onPause();
-
-        boolean is_started = LocationService.isStarted();
-
-        if (is_started && !isFinishing())
-            finish();
-    }
-
     // =============================================================================================
     // ActionBar:
     // =============================================================================================
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getActionBar().setDisplayShowHomeEnabled(false);
+        if (Build.VERSION.SDK_INT >= 11) {
+            getActionBar().setDisplayShowHomeEnabled(false);
+        }
+
         getMenuInflater().inflate(R.menu.activity_main, menu);
         return true;
     }
