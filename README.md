@@ -139,17 +139,21 @@ __other enhancements__:
       - while using 3rd-party software to share locations with `Mock-my-GPS` through implicit geo-Intents, make this the default app to handle implicit geo-Intents
       - when done, revoke this Android setting to re-enable the Activity chooser
 * `english` vs. `withAllLanguageTranslations`
+  - alternative variations of: `Mock-my-GPS`, `Mock-my-GPS-UnifiedNlp-Backend`, `Mock-Silently`
   - `english`
     * does not include translated string resources for any other languages
   - `withAllLanguageTranslations`
     * does include translated string resources for all supported languages
 * `withAospLocationProviders` vs. `withGooglePlayServicesFusedLocationProvider` vs. `withHuaweiMobileServicesFusedLocationProvider`
+  - alternative variations of: `Mock-my-GPS`
   - `withAospLocationProviders`
+    * minimum supported version of Android: 1.6 (Donut, API 4)
     * supplies mock location data to the following _Android Open Source Project_ (AOSP) location providers:
       - `LocationManager.GPS_PROVIDER`
       - `LocationManager.NETWORK_PROVIDER`
       - `LocationManager.FUSED_PROVIDER`
   - `withGooglePlayServicesFusedLocationProvider`
+    * minimum supported version of Android: 4.4 (KitKat, API 19)
     * supplies mock location data to the following _Android Open Source Project_ (AOSP) location providers:
       - `LocationManager.GPS_PROVIDER`
       - `LocationManager.NETWORK_PROVIDER`
@@ -158,6 +162,7 @@ __other enhancements__:
       - `FusedLocationProviderClient` in the _Google Location Services_ (GLS)
     * requires that _Google Play Services_ is installed, enabled, and sufficiently recent
   - `withHuaweiMobileServicesFusedLocationProvider`
+    * minimum supported version of Android: 4.4 (KitKat, API 19)
     * supplies mock location data to the following _Android Open Source Project_ (AOSP) location providers:
       - `LocationManager.GPS_PROVIDER`
       - `LocationManager.NETWORK_PROVIDER`
@@ -165,6 +170,27 @@ __other enhancements__:
     * supplies mock location data to the following _Huawei Mobile Services_ (HMS) location providers:
       - `FusedLocationProviderClient` in the _HMS Core Location Kit_
     * requires that _Huawei Mobile Services_ (HMS) is installed, enabled, and sufficiently recent
+* `noBackupRestore` vs. `withBackupRestoreFileChooser` vs. `withBackupRestoreSAF`
+  - alternative variations of: `Mock-my-GPS`
+  - `noBackupRestore`
+    * alternative variation of: `withAospLocationProviders`
+    * minimum supported version of Android: 1.6 (Donut, API 4)
+    * does not include `Backup` or `Restore` menu items when viewing the list of bookmarks
+  - `withBackupRestoreFileChooser`
+    * alternative variation of: `withAospLocationProviders`
+    * minimum supported version of Android: 2.3 (Gingerbread, API 9)
+    * does include `Backup` and `Restore` menu items when viewing the list of bookmarks
+    * does require the additional permissions:
+      - versions of Android &lt;= 10 (API 29)
+        * `WRITE_EXTERNAL_STORAGE`
+      - versions of Android &gt;= 11 (API 30)
+        * `MANAGE_EXTERNAL_STORAGE`
+  - `withBackupRestoreSAF`
+    * alternative variation of: `withAospLocationProviders`
+    * default variation of: `withGooglePlayServicesFusedLocationProvider`, `withHuaweiMobileServicesFusedLocationProvider`
+    * minimum supported version of Android: 4.4 (KitKat, API 19)
+    * does include `Backup` and `Restore` menu items when viewing the list of bookmarks
+    * does not require any additional permissions
 
 - - - -
 
