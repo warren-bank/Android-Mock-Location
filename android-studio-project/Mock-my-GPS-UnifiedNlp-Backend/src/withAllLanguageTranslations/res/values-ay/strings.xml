@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nayar k\'umiña GPS UnifiedNlp Qhipäxa</string>
+    <string name="locationservice_permission_label">Nayar k\'umiña GPS UnifiedNlp Uñjawi Luraña</string>
+    <string name="locationservice_permission_description">Chimpu pata iyaw saña, Mock my ukatak wakisiwa GPS Jupan uñjawipar machaq yatiyäwinaka churañataki UnifiedNlp Qhipäxa.</string>
+    <string name="backendservice_summary">Kuna lurañataki "Nayar k\'umiña GPS" Mä qhipa chiqawja churirjama, irnaqäwipax sarantaskipan.</string>
+    <string name="pref_settings_title">Wakichäwinaka</string>
+    <string name="pref_timeadvance_title">Pacha Nayrar Sartawi (ms).</string>
+    <string name="pref_timeadvance_summary">Taqi chiqaw yatiyäwinakan pacha chimpupar yapxatata milisegundonakan jakhuwapa. Mä jach\'a valor ukax wakisiwa, ukhamat yaqha taqi qhipa irnaqirinakax jan uñjatäñapataki, k\'ari irnaqäwix sarantaskipan.:</string>
+</resources>

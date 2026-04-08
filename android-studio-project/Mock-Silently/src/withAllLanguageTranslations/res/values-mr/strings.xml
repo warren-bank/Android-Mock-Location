@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">मूकपणे अनुकरण करा</string>
+    <string name="pref_settings_title">सेटिंग्ज</string>
+    <string name="pref_purpose_array_names_1">स्थिर स्थान</string>
+    <string name="pref_purpose_array_names_2">प्रवासाचे ठिकाण</string>
+    <string name="pref_purpose_title">उद्देश</string>
+    <string name="pref_purpose_summary">उद्देश निवडा..</string>
+    <string name="pref_force_start_title">जबर्जस्ती सुरू करा</string>
+    <string name="pref_force_start_summary_on" >मौनपणे मॉकिंग सेवा सुरू करा.</string>
+    <string name="pref_force_start_summary_off">मॉकिंग सेवा मॅन्युअली सुरू करण्यासाठी अॅप उघडा.</string>
+    <string name="pref_trip_duration_seconds_title">प्रवासाचा कालावधी (सेकंद)).</string>
+    <string name="pref_trip_duration_seconds_summary">गंतव्यस्थळी पोहोचण्यापूर्वी ट्रिप सिम्युलेशन चालवण्यासाठी लागणारे सेकंदांची संख्या:</string>
+</resources>

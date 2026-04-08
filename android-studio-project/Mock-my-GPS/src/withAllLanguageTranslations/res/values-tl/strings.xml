@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Latitud, Longitud">
+  <!ENTITY fixed_position "Nakafiksing posisyon">
+  <!ENTITY trip           "Biyahe">
+  <!ENTITY origin         "Pinagmulan">
+  <!ENTITY destination    "Puntahan">
+]>
+<resources>
+    <string name="app_name">Gagayahin ko ang aking GPS</string>
+    <string name="geo_intent_menu_title">Gamitin ang Geo-Intent para sa:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Bagong Tandaan</string>
+    <string name="MainActivity_actionbar_item_1">I-save ang bookmark</string>
+    <string name="MainActivity_actionbar_item_2">Mga Tandaan</string>
+    <string name="MainActivity_actionbar_item_3">Mga Kagustuhan</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Simulasyon</string>
+    <string name="save_bookmark_menu_title">Lokasyon para I-save:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Lokasyon:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Tagal:\n<small>(segundo)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Magdagdag</string>
+    <string name="BookmarksActivity_actionbar_item_2">Reserba</string>
+    <string name="BookmarksActivity_actionbar_item_3">Ibalik</string>
+    <string name="open_bookmark_menu_title">Gamitin ang Bookmark Para:</string>
+    <string name="edit_bookmark_field_1">Pamagat:</string>
+    <string name="edit_bookmark_field_2">Lokasyon:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Pangkalahatan</string>
+    <string name="PreferencesActivity_field_1">Oras (ms) sa pagitan ng bawat pag-update:</string>
+    <string name="PreferencesActivity_field_2">Bilang ng beses ng pekeng lokasyon:\n<small>(0 = magpatuloy hanggang sa tahasang mapigilan)</small></string>
+    <string name="PreferencesActivity_field_3">Ipakita ang joystick:</string>
+    <string name="PreferencesActivity_field_4">Joystick lat/lon dagdag:</string>
+    <string name="PreferencesActivity_field_5">Panatilihin ang destinasyon bilang nakapirming posisyon.:</string>
+    <string name="label_button_start">Simulan</string>
+    <string name="label_button_stop">Tumigil</string>
+    <string name="label_button_update">Pinakabagong impormasyon</string>
+    <string name="label_button_cancel">I-kansela</string>
+    <string name="label_button_delete">BURAHIN</string>
+    <string name="label_button_save">I-save</string>
+    <string name="error_geo_intent">Hindi ma-parse ang geo intent \'%s\'.</string>
+    <string name="error_number_format">Hindi ma-parse ang numero \'%s\'.</string>
+    <string name="error_location_format">Hindi ma-parse ang lokasyon \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Nauu na ang bookmark. \'%s\'.</string>
+    <string name="error_missing_required_value">Maling: Kulang ang Kinakailangang Halaga</string>
+    <string name="error_add_bookmarkitem">Maling: Hindi maidagdag ang bagong bookmark</string>
+    <string name="notification_service_ticker">Gagayahin ko ang aking GPS: tumatakbo</string>
+    <string name="notification_service_content_line1">Gagayahin ko ang aking GPS</string>
+    <!--
+    <string name="notification_service_content_line2">I-click para buksan. I-dismiss para itigil..</string>
+    -->
+    <string name="notification_service_content_line2">I-click para buksan.</string>
+</resources>

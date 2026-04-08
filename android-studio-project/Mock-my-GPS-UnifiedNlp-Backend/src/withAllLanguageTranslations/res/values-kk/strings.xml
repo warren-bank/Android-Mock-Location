@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Мені мазақ ет GPS UnifiedNlp Бэкенд</string>
+    <string name="locationservice_permission_label">Мені мазақ ет GPS UnifiedNlp Орналасу қызметі</string>
+    <string name="locationservice_permission_description">Signature Level рұқсаты, Mock my үшін қажет GPS өзінің орналасқан жері туралы жаңартуларды беру үшін UnifiedNlp Бэкенд.</string>
+    <string name="backendservice_summary">Қолданылуы "Мені мазақ ет GPS" Оның қызметі белсенді болған кезде бэкенд орналасу провайдері ретінде.</string>
+    <string name="pref_settings_title">Параметрлер</string>
+    <string name="pref_timeadvance_title">Уақыт алға жылжуы (ms).</string>
+    <string name="pref_timeadvance_summary">Барлық орналасу жаңартуларының уақыт белгісіне қосылатын миллисекундтар саны. Жетерліктей үлкен мән мокинг белсенді болған кезде басқа барлық артқы жоспар провайдерлері еленбей қалуын қамтамасыз етуі тиіс.:</string>
+</resources>

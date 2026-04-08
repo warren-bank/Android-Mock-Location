@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simular en silenci</string>
+    <string name="pref_settings_title">Configuració</string>
+    <string name="pref_purpose_array_names_1">Posició fixa</string>
+    <string name="pref_purpose_array_names_2">Destinació del viatge</string>
+    <string name="pref_purpose_title">Propòsit</string>
+    <string name="pref_purpose_summary">tria propòsit..</string>
+    <string name="pref_force_start_title">Arranquada forçada</string>
+    <string name="pref_force_start_summary_on" >Inicieu silenciosament el servei de burla..</string>
+    <string name="pref_force_start_summary_off">Obre l\'aplicació per iniciar manualment el servei de simulació..</string>
+    <string name="pref_trip_duration_seconds_title">Durada del viatge (segons)).</string>
+    <string name="pref_trip_duration_seconds_summary">Nombre de segons que triga una simulació de viatge a executar-se abans d\'arribar a la destinació:</string>
+</resources>

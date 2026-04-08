@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Пасмеяцца з майго GPS UnifiedNlp Бэкенд</string>
+    <string name="locationservice_permission_label">Пасмеяцца з майго GPS UnifiedNlp Служба размяшчэння</string>
+    <string name="locationservice_permission_description">Дазвол узроўню Signature, неабходны для Mock my GPS прадастаўляць абнаўленні пра месцазнаходжанне сваім UnifiedNlp Бэкенд.</string>
+    <string name="backendservice_summary">Прымяненне "Пасмеяцца з майго GPS" як пастаўшчык месцазнаходжання ў бэкэндзе, пакуль яго сэрвіс актыўны.</string>
+    <string name="pref_settings_title">Налады</string>
+    <string name="pref_timeadvance_title">Папярэдні час (ms).</string>
+    <string name="pref_timeadvance_summary">Колькасць мілісекунд, якія дадаюцца да штампа часу ўсіх абнаўленняў геалакацыі. Дастаткова вялікае значэнне павінна забяспечыць ігнараванне ўсіх іншых пастаўшчыкоў бэкенда, пакуль актыўна макетаванне.:</string>
+</resources>

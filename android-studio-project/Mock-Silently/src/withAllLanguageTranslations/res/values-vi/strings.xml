@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Nhạo báng.</string>
-    <string name="pref_settings_title">Thiết lập</string>
-    <string name="pref_purpose_array_names_1">Vị trí sửa</string>
-    <string name="pref_purpose_array_names_2">Đích chuyến đi</string>
+    <string name="app_name">Học thuộc lòng một cách thầm lặng</string>
+    <string name="pref_settings_title">Cài đặt</string>
+    <string name="pref_purpose_array_names_1">Vị trí cố định</string>
+    <string name="pref_purpose_array_names_2">Điểm đến của chuyến đi</string>
     <string name="pref_purpose_title">Mục đích</string>
     <string name="pref_purpose_summary">chọn mục đích..</string>
-    <string name="pref_force_start_title">Bắt đầu</string>
-    <string name="pref_force_start_summary_on" >Hãy bắt đầu dịch vụ chế nhạo.</string>
-    <string name="pref_force_start_summary_off">Mở ứng dụng để bắt đầu dịch vụ mocking thủ công.</string>
-    <string name="pref_trip_duration_seconds_title">Thời gian chuyến đi (giây).</string>
-    <string name="pref_trip_duration_seconds_summary">Số giây để mô phỏng chuyến đi chạy trước khi đến đích:</string>
+    <string name="pref_force_start_title">Khởi động bắt buộc</string>
+    <string name="pref_force_start_summary_on" >Khởi động dịch vụ mô phỏng một cách im lặng.</string>
+    <string name="pref_force_start_summary_off">Mở ứng dụng để khởi động dịch vụ mô phỏng theo cách thủ công.</string>
+    <string name="pref_trip_duration_seconds_title">Thời gian chuyến đi (giây)).</string>
+    <string name="pref_trip_duration_seconds_summary">Số giây cần thiết để mô phỏng hành trình chạy trước khi đến đích:</string>
 </resources>

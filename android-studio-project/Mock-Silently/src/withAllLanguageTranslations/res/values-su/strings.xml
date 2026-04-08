@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mock sacara sepi</string>
+    <string name="pref_settings_title">Setélan</string>
+    <string name="pref_purpose_array_names_1">Posisi Tetap</string>
+    <string name="pref_purpose_array_names_2">Tujuan lalampahan</string>
+    <string name="pref_purpose_title">Tujuan</string>
+    <string name="pref_purpose_summary">milih tujuan..</string>
+    <string name="pref_force_start_title">Mimitian maksa</string>
+    <string name="pref_force_start_summary_on" >Mimitian layanan mocking sacara meneng.</string>
+    <string name="pref_force_start_summary_off">Buka aplikasi pikeun ngamimitian layanan mocking sacara manual.</string>
+    <string name="pref_trip_duration_seconds_title">Lila lalampahan (detik)).</string>
+    <string name="pref_trip_duration_seconds_summary">Jumlah detik pikeun simulasi perjalanan dijalankeun saméméh nepi ka tujuan:</string>
+</resources>

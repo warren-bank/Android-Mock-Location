@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Imitar o meu GPS UnifiedNlp Backend</string>
+    <string name="locationservice_permission_label">Imitar o meu GPS UnifiedNlp Servizo de localización</string>
+    <string name="locationservice_permission_description">Permiso de nivel de sinatura, requirido para simular o meu GPS para proporcionar actualizacións de localización ao seu UnifiedNlp Backend.</string>
+    <string name="backendservice_summary">Uso "Imitar o meu GPS" como provedor de localización backend mentres o seu servizo está activo.</string>
+    <string name="pref_settings_title">Configuración</string>
+    <string name="pref_timeadvance_title">Avance no tempo (ms).</string>
+    <string name="pref_timeadvance_summary">Número de milisegundos engadidos ao timestamp de todas as actualizacións de localización. Un valor suficientemente grande debería garantir que todos os demais provedores de backend sexan ignorados mentres a simulación está activa.:</string>
+</resources>

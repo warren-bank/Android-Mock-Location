@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nire txantxa egin GPS UnifiedNlp Atzealdea</string>
+    <string name="locationservice_permission_label">Nire txantxa egin GPS UnifiedNlp Kokapen Zerbitzua</string>
+    <string name="locationservice_permission_description">Sinadura-mailako baimena, Mock my-rako beharrezkoa GPS bere kokapen eguneratzeak emateko UnifiedNlp Atzealdea.</string>
+    <string name="backendservice_summary">Erabilerak "Nire txantxa egin GPS" atzealdeko kokapen-hornitzaile gisa, bere zerbitzua aktibo dagoen bitartean.</string>
+    <string name="pref_settings_title">Ezarpenak</string>
+    <string name="pref_timeadvance_title">Denboraren aurrerapena (ms).</string>
+    <string name="pref_timeadvance_summary">Lokalizazio-eguneratze guztien denbora-markari gehitzen zaizkion milisegunduen kopurua. Nahikoa balio handiak bermatuko du mocking aktibo dagoen bitartean atzeko bulego-hornitzaile guztiak baztertuko direla.:</string>
+</resources>

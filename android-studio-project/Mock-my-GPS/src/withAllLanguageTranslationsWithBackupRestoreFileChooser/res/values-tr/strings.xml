@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Dosyayı kaydetmek için bir klasör seçin</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Şu dosya için yeni bir ad seçin JSON veriler</string>
+  <string name="app_folderpicker_json_import_filepath_description">Daha önce dışa aktarılmış dosyayı seçin JSON veriler</string>
+</resources>

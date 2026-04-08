@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Roghnaigh eolaire chun an comhad a shábháil</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Roghnaigh ainm comhaid nua do JSON sonraí</string>
+  <string name="app_folderpicker_json_import_filepath_description">Roghnaigh an comhad ina bhfuil an méid a onnmhairíodh roimhe seo. JSON sonraí</string>
+</resources>

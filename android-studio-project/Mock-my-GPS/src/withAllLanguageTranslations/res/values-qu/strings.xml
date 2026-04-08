@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Sayay, Suni">
+  <!ENTITY fixed_position "Sayasqa Tiyay">
+  <!ENTITY trip           "Puriy">
+  <!ENTITY origin         "Paqarinan">
+  <!ENTITY destination    "Chayana">
+]>
+<resources>
+    <string name="app_name">Asipayayniyta GPS</string>
+    <string name="geo_intent_menu_title">Geo-Intent nisqata servichikuy kaykunapaq:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Musuq Unancha</string>
+    <string name="MainActivity_actionbar_item_1">Unanchata waqaychay</string>
+    <string name="MainActivity_actionbar_item_2">Unanchakuna</string>
+    <string name="MainActivity_actionbar_item_3">Akllaykuna</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Yachapayay</string>
+    <string name="save_bookmark_menu_title">Waqaychanapaq tiyay:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Maypi:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Unaynin:\n<small>(iskun)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Yapay</string>
+    <string name="BookmarksActivity_actionbar_item_2">Wakichiy</string>
+    <string name="BookmarksActivity_actionbar_item_3">Kutichiy</string>
+    <string name="open_bookmark_menu_title">Unanchata llamk\'achiy:</string>
+    <string name="edit_bookmark_field_1">Umancha:</string>
+    <string name="edit_bookmark_field_2">Maypi:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Sapsi</string>
+    <string name="PreferencesActivity_field_1">Pacha (ms) Sapa musuqyachiy chawpipi:</string>
+    <string name="PreferencesActivity_field_2">Maypi kasqanta asipayana yupay:\n<small>(0 = sut\'ita hark\'asqa kanankama qatipay)</small></string>
+    <string name="PreferencesActivity_field_3">Joystickta rikuchiy:</string>
+    <string name="PreferencesActivity_field_4">Kusikuy wanku lat/lon Yapay:</string>
+    <string name="PreferencesActivity_field_5">Chayana k\'itita mana kuyuriq k\'itita hina hap\'iy:</string>
+    <string name="label_button_start">Qallariy</string>
+    <string name="label_button_stop">Sayay</string>
+    <string name="label_button_update">Musuqyachiy</string>
+    <string name="label_button_cancel">Qichuy</string>
+    <string name="label_button_delete">Pichay</string>
+    <string name="label_button_save">Waqaychay</string>
+    <string name="error_geo_intent">Manam atikunchu geo munayta t\'aqwiyta. \'%s\'.</string>
+    <string name="error_number_format">Yupayta mana t\'aqwiriyta atirqachu \'%s\'.</string>
+    <string name="error_location_format">Mana atikunchu tiyasqata t\'aqwiyta \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Unanchaqa ñam kachkan. \'%s\'.</string>
+    <string name="error_missing_required_value">Pantay: Mañasqa Chanin Chinkasqa</string>
+    <string name="error_add_bookmarkitem">Pantay: Manam atikunchu musuq unancha yapayta.</string>
+    <string name="notification_service_ticker">Asipayayniyta GPS: Phaway</string>
+    <string name="notification_service_content_line1">Asipayayniyta GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Kichanapaq ñit\'iy. Sayachinapaq qichuy..</string>
+    -->
+    <string name="notification_service_content_line2">Kichanapaq ñit\'iy.</string>
+</resources>

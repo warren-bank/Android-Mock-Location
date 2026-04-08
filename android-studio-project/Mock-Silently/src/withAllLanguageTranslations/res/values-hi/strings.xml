@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">चुपचाप नकली</string>
-    <string name="pref_settings_title">विन्यास</string>
+    <string name="app_name">चुपचाप नकल करो</string>
+    <string name="pref_settings_title">सेटिंग्स</string>
     <string name="pref_purpose_array_names_1">स्थिर स्थिति</string>
-    <string name="pref_purpose_array_names_2">भ्रमण गंतव्य</string>
+    <string name="pref_purpose_array_names_2">यात्रा का गंतव्य</string>
     <string name="pref_purpose_title">उद्देश्य</string>
-    <string name="pref_purpose_summary">प्रयोजन..</string>
-    <string name="pref_force_start_title">फोर्स प्रारंभ</string>
-    <string name="pref_force_start_summary_on" >चुपचाप एक मजाक की सेवा शुरू करो.</string>
-    <string name="pref_force_start_summary_off">एप्लिकेशन को मैन्युअल रूप से आरंभ करने के लिए खोलें..</string>
-    <string name="pref_trip_duration_seconds_title">यात्रा अवधि (सेकंड).</string>
-    <string name="pref_trip_duration_seconds_summary">गंतव्य तक पहुँचने से पहले एक यात्रा अनुकार के लिए सेकेंड की संख्या:</string>
+    <string name="pref_purpose_summary">उद्देश्य चुनें..</string>
+    <string name="pref_force_start_title">जबर्दस्ती शुरू करें</string>
+    <string name="pref_force_start_summary_on" >मौन रूप से मॉकिंग सेवा शुरू करें.</string>
+    <string name="pref_force_start_summary_off">मॉकिंग सेवा को मैन्युअल रूप से शुरू करने के लिए ऐप खोलें।.</string>
+    <string name="pref_trip_duration_seconds_title">यात्रा की अवधि (सेकंड)).</string>
+    <string name="pref_trip_duration_seconds_summary">गंतव्य तक पहुँचने से पहले ट्रिप सिमुलेशन को चलने में लगने वाले सेकंडों की संख्या:</string>
 </resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Selectați directorul în care doriți să salvați fișierul</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Alegeți un nou nume de fișier pentru JSON date</string>
+  <string name="app_folderpicker_json_import_filepath_description">Selectați fișierul care conține datele exportate anterior JSON date</string>
+</resources>

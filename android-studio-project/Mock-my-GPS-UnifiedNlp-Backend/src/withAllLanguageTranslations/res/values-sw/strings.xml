@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nipe mfano wangu GPS UnifiedNlp Sehemu ya nyuma</string>
+    <string name="locationservice_permission_label">Nipe mfano wangu GPS UnifiedNlp Huduma ya Mahali</string>
+    <string name="locationservice_permission_description">Idhini ya Kiwango cha Saini, inahitajika kwa Kuiga yangu GPS kutoa masasisho ya eneo kwa yake UnifiedNlp Sehemu ya nyuma.</string>
+    <string name="backendservice_summary">Matumizi "Nipe mfano wangu GPS" kama mtoa huduma wa eneo la nyuma wakati huduma yake iko hai.</string>
+    <string name="pref_settings_title">Mipangilio</string>
+    <string name="pref_timeadvance_title">Malipo ya mapema (ms).</string>
+    <string name="pref_timeadvance_summary">Idadi ya milisekunde zinazoongezwa kwenye timestamp ya masasisho yote ya eneo. Thamani kubwa ya kutosha inapaswa kuhakikisha kuwa watoa huduma wengine wote wa nyuma hawatazingatiwa wakati uigaji unaendelea.:</string>
+</resources>

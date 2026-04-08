@@ -91,6 +91,17 @@ android {
         }
     }
 
+    // Build Variant Limitation:
+    // If you are using 3+ dimensions, Gradle doesn't support overriding with a subset of the flavors.
+    // You may need to create all combinations, or use a custom script to define specific directories.
+    sourceSets.all { sourceSet ->
+        def flavorName = sourceSet.name.toLowerCase()
+
+        if (flavorName.contains("withalllanguagetranslations") && flavorName.contains("withbackuprestorefilechooser")) {
+            sourceSet.res.srcDirs += ["src/withAllLanguageTranslationsWithBackupRestoreFileChooser/res"]
+        }
+    }
+
     buildFeatures {
         aidl        = false
         buildConfig = true

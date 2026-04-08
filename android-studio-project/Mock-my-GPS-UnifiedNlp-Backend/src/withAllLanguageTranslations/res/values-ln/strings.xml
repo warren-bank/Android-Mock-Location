@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kosɛka ngai GPS UnifiedNlp Nsima ya mosala</string>
+    <string name="locationservice_permission_label">Kosɛka ngai GPS UnifiedNlp Mosala ya esika</string>
+    <string name="locationservice_permission_description">Ndanga ya Niveau Signature, esengeli mpo na Mock my GPS kopesa ba mises à jour ya esika na yango UnifiedNlp Nsima ya mosala.</string>
+    <string name="backendservice_summary">Ndenge ya kosalela "Kosɛka ngai GPS" lokola mopesi ya esika ya sima ntango mosala na yango ezali kosala.</string>
+    <string name="pref_settings_title">Bongiseli</string>
+    <string name="pref_timeadvance_title">Kolekisa ntango (ms).</string>
+    <string name="pref_timeadvance_summary">Motango ya ba millisecond oyo ebakisami na timestamp ya ba mises à jour nionso ya esika. Motuya oyo eleki monene ekondimisa ete bapesimibeko mosusu nionso ya backend batalelama te ntango mocking ezali kosala.:</string>
+</resources>

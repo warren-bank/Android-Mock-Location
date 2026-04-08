@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Valitse kansio, johon tiedosto tallennetaan</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Valitse uusi tiedostonimi JSON tiedot</string>
+  <string name="app_folderpicker_json_import_filepath_description">Valitse tiedosto, joka sisältää aiemmin viedyt tiedot JSON tiedot</string>
+</resources>

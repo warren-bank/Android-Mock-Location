@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE resources [
-  <!ENTITY lat_lon        "Ģeogrāfiskais Platums, garums">
-  <!ENTITY fixed_position "Fiksēta Pozīcija">
+  <!ENTITY lat_lon        "Ģeogrāfiskais platums, ģeogrāfiskais garums">
+  <!ENTITY fixed_position "Fiksēta pozīcija">
   <!ENTITY trip           "Ceļojums">
-  <!ENTITY origin         "Izcelsmes valsts">
+  <!ENTITY origin         "Izcelsme">
   <!ENTITY destination    "Galamērķis">
 ]>
 <resources>
-    <string name="app_name">Izsmiet manu GPS</string>
-    <string name="geo_intent_menu_title">Lietot Geo-Intelts:</string>
+    <string name="app_name">Izsmiet mani GPS</string>
+    <string name="geo_intent_menu_title">Izmantojiet „Geo-Intent“:</string>
     <string name="geo_intent_option_1">&fixed_position;</string>
     <string name="geo_intent_option_2">&trip; - &origin;</string>
     <string name="geo_intent_option_3">&trip; - &destination;</string>
     <string name="geo_intent_option_4">Jauna grāmatzīme</string>
     <string name="MainActivity_actionbar_item_1">Saglabāt grāmatzīmi</string>
     <string name="MainActivity_actionbar_item_2">Grāmatzīmes</string>
-    <string name="MainActivity_actionbar_item_3">Preferences</string>
+    <string name="MainActivity_actionbar_item_3">Iestatījumi</string>
     <string name="MainActivity_tab_1_label">&fixed_position;</string>
     <string name="MainActivity_tab_2_label">&trip; Simulācija</string>
-    <string name="save_bookmark_menu_title">Atrašanās vieta, kur saglabāt:</string>
+    <string name="save_bookmark_menu_title">Saglabājamo saglabāšana:</string>
     <string name="save_bookmark_option_1">&origin;</string>
     <string name="save_bookmark_option_2">&destination;</string>
     <string name="FixedPositionActivity_field_1">Atrašanās vieta:\n<small>(&lat_lon;)</small></string>
@@ -26,31 +26,33 @@
     <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_3">Ilgums:\n<small>(sekundes)</small></string>
     <string name="BookmarksActivity_actionbar_item_1">Pievienot</string>
-    <string name="open_bookmark_menu_title">Lietot grāmatzīmi:</string>
+    <string name="BookmarksActivity_actionbar_item_2">Datu dublējums</string>
+    <string name="BookmarksActivity_actionbar_item_3">Atjaunot</string>
+    <string name="open_bookmark_menu_title">Izmanto grāmatzīmi, lai:</string>
     <string name="edit_bookmark_field_1">Nosaukums:</string>
     <string name="edit_bookmark_field_2">Atrašanās vieta:\n<small>(&lat_lon;)</small></string>
-    <string name="PreferencesActivity_heading_1">Vispārīgi noteikumi</string>
+    <string name="PreferencesActivity_heading_1">Vispārīgi</string>
     <string name="PreferencesActivity_field_1">Laiks (ms) starp katru atjauninājumu:</string>
-    <string name="PreferencesActivity_field_2">Reižu skaits līdz zeķu atrašanās vietai:\n<small>(0 = turpinās līdz skaidri pārtraucam)</small></string>
-    <string name="PreferencesActivity_field_3">Rādīt kursorsviru:</string>
-    <string name="PreferencesActivity_field_4">Joystick lat/lon Palielinājums:</string>
-    <string name="PreferencesActivity_field_5">Turēt galamērķi kā fiksētu pozīciju:</string>
-    <string name="label_button_start">START</string>
+    <string name="PreferencesActivity_field_2">Reizes, cik bieži simulēt atrašanās vietu:\n<small>(0 = turpināt, līdz tiek skaidri apturēts)</small></string>
+    <string name="PreferencesActivity_field_3">Rādīt vadības sviru:</string>
+    <string name="PreferencesActivity_field_4">Džojstiks lat/lon pieaugums:</string>
+    <string name="PreferencesActivity_field_5">Saglabāt galamērķi kā fiksētu pozīciju:</string>
+    <string name="label_button_start">SĀKT</string>
     <string name="label_button_stop">STOP</string>
-    <string name="label_button_update">UPDATE</string>
+    <string name="label_button_update">AKTUALIZĀCIJA</string>
     <string name="label_button_cancel">ATCELT</string>
-    <string name="label_button_delete">DZĒST</string>
-    <string name="label_button_save">SAVE</string>
-    <string name="error_geo_intent">Neizdevās parsēt geo nodomu \'%s\'.</string>
-    <string name="error_number_format">Nevar parsēt numuru \'%s\'.</string>
-    <string name="error_location_format">Neizdevās parsēt atrašanās vietu \'%s\'.</string>
-    <string name="error_bookmarkitem_exists">Grāmatzīme jau eksistē \'%s\'.</string>
-    <string name="error_missing_required_value">Kļūda: Trūkstošās Vajadzīgās Vērtības</string>
-    <string name="error_add_bookmarkitem">Kļūda: Nevar pievienot jaunu grāmatzīmi</string>
-    <string name="notification_service_ticker">Izsmiet manu GPS: , kas</string>
-    <string name="notification_service_content_line1">Izsmiet manu GPS</string>
+    <string name="label_button_delete">IZSVĪTROT</string>
+    <string name="label_button_save">SAGLABĀT</string>
+    <string name="error_geo_intent">Neizdevās analizēt ģeogrāfisko nolūku \'%s\'.</string>
+    <string name="error_number_format">Neizdevās analizēt skaitli \'%s\'.</string>
+    <string name="error_location_format">Neizdevās analizēt atrašanās vietu \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Grāmatzīme jau pastāv \'%s\'.</string>
+    <string name="error_missing_required_value">Kļūda: trūkst obligātās vērtības</string>
+    <string name="error_add_bookmarkitem">Kļūda: neizdevās pievienot jaunu grāmatzīmi</string>
+    <string name="notification_service_ticker">Izsmiet mani GPS: skriešana</string>
+    <string name="notification_service_content_line1">Izsmiet mani GPS</string>
     <!--
-    <string name="notification_service_content_line2">Noklikšķiniet uz atvērt. Noraidīt, lai apturētu.</string>
+    <string name="notification_service_content_line2">Noklikšķiniet, lai atvērtu. Noklikšķiniet, lai aizvērtu.</string>
     -->
-    <string name="notification_service_content_line2">Nospiediet, lai atvērtu.</string>
+    <string name="notification_service_content_line2">Noklikšķiniet, lai atvērtu.</string>
 </resources>

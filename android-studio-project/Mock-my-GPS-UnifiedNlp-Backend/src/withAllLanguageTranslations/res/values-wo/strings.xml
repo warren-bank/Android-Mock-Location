@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mock sama GPS UnifiedNlp Ginnaaw bi</string>
+    <string name="locationservice_permission_label">Mock sama GPS UnifiedNlp Sàrwisub Barab</string>
+    <string name="locationservice_permission_description">Sañ-sañu Niveau buñu siñeel, lañu laaj ngir Mock my GPS Ngir joxe ay yeesal ci barabam UnifiedNlp Ginnaaw bi.</string>
+    <string name="backendservice_summary">Jëfandikoo "Mock sama GPS" Niki joxekaayu bërëb bu nekk ci ginnaaw, fekk liggéeyam di dox..</string>
+    <string name="pref_settings_title">Tànneef yi</string>
+    <string name="pref_timeadvance_title">Jàllug waxtu (ms).</string>
+    <string name="pref_timeadvance_summary">Limu milisegond yi ñu yokk ci timestamp bu yeesal gu nekk ci barab bi. Benn tolluwaay bu mag bu doy war na tax ba yeneen furnisëer yépp ñu jàppale leenul, ci biir jamono ju mocking di dox.:</string>
+</resources>

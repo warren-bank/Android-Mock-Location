@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Səssizcə imitasiya et</string>
+    <string name="pref_settings_title">Tənzimləmələr</string>
+    <string name="pref_purpose_array_names_1">Sabit mövqe</string>
+    <string name="pref_purpose_array_names_2">Səyahət istiqaməti</string>
+    <string name="pref_purpose_title">Məqsəd</string>
+    <string name="pref_purpose_summary">Məqsəd seçin..</string>
+    <string name="pref_force_start_title">Məcburi işə salma</string>
+    <string name="pref_force_start_summary_on" >Səssizcə lağ edən xidməti işə salın.</string>
+    <string name="pref_force_start_summary_off">Mockinq xidmətini əl ilə işə salmaq üçün tətbiqi açın..</string>
+    <string name="pref_trip_duration_seconds_title">Səyahət müddəti (saniyələr)).</string>
+    <string name="pref_trip_duration_seconds_summary">Məqsəd nöqtəsinə çatana qədər səyahət simulyasiyasının işləmə müddəti (saniyələrlə):</string>
+</resources>

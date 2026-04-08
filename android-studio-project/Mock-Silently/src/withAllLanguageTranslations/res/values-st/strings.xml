@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tshwantsha ka kgutso</string>
+    <string name="pref_settings_title">Litlhophiso</string>
+    <string name="pref_purpose_array_names_1">Boemo bo tsitsitseng</string>
+    <string name="pref_purpose_array_names_2">Sebaka sa leeto</string>
+    <string name="pref_purpose_title">Morero</string>
+    <string name="pref_purpose_summary">Kgetha sepheo..</string>
+    <string name="pref_force_start_title">Qala ka likhoka</string>
+    <string name="pref_force_start_summary_on" >Qala tshebeletso ya ho etsa motlae ka kgutso..</string>
+    <string name="pref_force_start_summary_off">Bula app ho qala tshebeletso ya ho etsa mohlala ka letsoho..</string>
+    <string name="pref_trip_duration_seconds_title">Nako ea leeto (metsotsoana)).</string>
+    <string name="pref_trip_duration_seconds_summary">Palo ea metsotsoana eo khakanyo ea leeto e e nkang pele e fihla moo e eang teng:</string>
+</resources>

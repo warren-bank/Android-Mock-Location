@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">زما ټوکې وکړئ GPS UnifiedNlp شاتنۍ برخه</string>
+    <string name="locationservice_permission_label">زما ټوکې وکړئ GPS UnifiedNlp د موقعیت خدمت</string>
+    <string name="locationservice_permission_description">د لاسلیک کچې اجازه، چې د ماک مای لپاره اړینه ده GPS د خپل ... لپاره د موقعیت تازه معلومات چمتو کول UnifiedNlp شاتنۍ برخه.</string>
+    <string name="backendservice_summary">کارونې "زما ټوکې وکړئ GPS" د شالید موقعیت چمتو کوونکي په توګه، په داسې حال کې چې د هغې خدمت فعال وي.</string>
+    <string name="pref_settings_title">تنظیمات</string>
+    <string name="pref_timeadvance_title">وخت پرمخ تلل (ms).</string>
+    <string name="pref_timeadvance_summary">د ټولو موقعیت تازه کولو د ټایم سټمپ سره د اضافه کېدونکو ملی ثانیو شمېر. یو کافي لوی ارزښت باید دا ډاډمنه کړي چې د ماکینګ فعال اوسېدو پرمهال ټول نور بیک انډ چمتو کونکي له پامه وغورځول شي.:</string>
+</resources>

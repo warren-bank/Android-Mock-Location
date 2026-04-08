@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mock SildiName</string>
+    <string name="app_name">Déan magadh go ciúin</string>
     <string name="pref_settings_title">Socruithe</string>
-    <string name="pref_purpose_array_names_1">Ionad Seasta</string>
-    <string name="pref_purpose_array_names_2">Sprioc Trip</string>
+    <string name="pref_purpose_array_names_1">Suíomh Seasta</string>
+    <string name="pref_purpose_array_names_2">Ceann Scríbe an Turais</string>
     <string name="pref_purpose_title">Cuspóir</string>
-    <string name="pref_purpose_summary">roghnaigh an cuspóir..</string>
-    <string name="pref_force_start_title">Tús Curtha</string>
-    <string name="pref_force_start_summary_on" >Tosaigh tús na seirbhíse mocking a thosú.</string>
-    <string name="pref_force_start_summary_off">Oscail an app chun tús a chur de láimh an tseirbhís mocking.</string>
-    <string name="pref_trip_duration_seconds_title">Fad Trip (soicindí)).</string>
-    <string name="pref_trip_duration_seconds_summary">Líon na soicindí le haghaidh an simulation trip a reáchtáil roimh an ceann scríbe:</string>
+    <string name="pref_purpose_summary">roghnaigh cuspóir..</string>
+    <string name="pref_force_start_title">Tosaigh le Fórsa</string>
+    <string name="pref_force_start_summary_on" >Cuir tús go ciúin leis an tseirbhís magaidh..</string>
+    <string name="pref_force_start_summary_off">Oscail an aip chun an tseirbhís magaidh a thosú de láimh..</string>
+    <string name="pref_trip_duration_seconds_title">Fad an turais (soicind)).</string>
+    <string name="pref_trip_duration_seconds_summary">Líon na soicind a thógfaidh sé ar insamhalta turais rith sula sroichtear an ceann scríbe:</string>
 </resources>

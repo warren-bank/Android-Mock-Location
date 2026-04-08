@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Bate joc de Silent</string>
+    <string name="app_name">Râde în tăcere</string>
     <string name="pref_settings_title">Setări</string>
-    <string name="pref_purpose_array_names_1">Poziție fixă</string>
-    <string name="pref_purpose_array_names_2">Destinație de călătorie</string>
+    <string name="pref_purpose_array_names_1">Post fix</string>
+    <string name="pref_purpose_array_names_2">Destinația călătoriei</string>
     <string name="pref_purpose_title">Scop</string>
-    <string name="pref_purpose_summary">alege scopul..</string>
-    <string name="pref_force_start_title">Forța de pornire</string>
-    <string name="pref_force_start_summary_on" >Începe în tăcere serviciul batjocoritor.</string>
-    <string name="pref_force_start_summary_off">Deschideți aplicația pentru a începe manual serviciul de batjocorire.</string>
-    <string name="pref_trip_duration_seconds_title">Durata călătoriei (secunde).</string>
-    <string name="pref_trip_duration_seconds_summary">Numărul de secunde pentru o simulare de călătorie pentru a rula înainte de a ajunge la destinație:</string>
+    <string name="pref_purpose_summary">alegeți scopul..</string>
+    <string name="pref_force_start_title">Pornire forțată</string>
+    <string name="pref_force_start_summary_on" >Pornește în tăcere serviciul de simulare.</string>
+    <string name="pref_force_start_summary_off">Deschide aplicația pentru a porni manual serviciul de simulare.</string>
+    <string name="pref_trip_duration_seconds_title">Durata călătoriei (secunde)).</string>
+    <string name="pref_trip_duration_seconds_summary">Numărul de secunde necesare pentru derularea unei simulări de călătorie până la atingerea destinației:</string>
 </resources>

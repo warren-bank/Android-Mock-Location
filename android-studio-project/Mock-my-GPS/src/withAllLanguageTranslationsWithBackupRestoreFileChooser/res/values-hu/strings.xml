@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Válassza ki a fájl mentési helyét</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Válasszon új fájlnevet a JSON adatok</string>
+  <string name="app_folderpicker_json_import_filepath_description">Válassza ki a korábban exportált fájlt JSON adatok</string>
+</resources>

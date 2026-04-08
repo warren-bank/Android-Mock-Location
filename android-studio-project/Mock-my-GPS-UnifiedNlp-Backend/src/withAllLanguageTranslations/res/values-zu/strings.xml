@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hlekisa ngami GPS UnifiedNlp Ingxenye yangemuva</string>
+    <string name="locationservice_permission_label">Hlekisa ngami GPS UnifiedNlp Inkonzo Yendawo</string>
+    <string name="locationservice_permission_description">Imvume ye-Signature Level, edingekayo ku-Mock my GPS ukuhlinzeka ngemibuyekezo yendawo kuyo UnifiedNlp Ingxenye yangemuva.</string>
+    <string name="backendservice_summary">Izindlela zokusetshenziswa "Hlekisa ngami GPS" njengomhlinzeki wendawo we-backend ngenkathi isevisi yayo isebenza.</string>
+    <string name="pref_settings_title">Izilungiselelo</string>
+    <string name="pref_timeadvance_title">Isikhathi esiphambili (ms).</string>
+    <string name="pref_timeadvance_summary">Inani lamamilisekhondi elengezwe ku-timestamp kuzo zonke izibuyekezo zendawo. Inani elikhulu ngokwanele kumele liqinisekise ukuthi bonke abanye abahlinzeki be-backend bayashiywa ngaphandle ngenkathi i-mocking isebenza.:</string>
+</resources>

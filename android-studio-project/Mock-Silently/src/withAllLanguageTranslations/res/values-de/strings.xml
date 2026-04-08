@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mock Unbeaufsichtigt</string>
+    <string name="app_name">Stumm spotten</string>
     <string name="pref_settings_title">Einstellungen</string>
     <string name="pref_purpose_array_names_1">Feste Position</string>
     <string name="pref_purpose_array_names_2">Reiseziel</string>
     <string name="pref_purpose_title">Zweck</string>
     <string name="pref_purpose_summary">Zweck auswählen..</string>
     <string name="pref_force_start_title">Start erzwingen</string>
-    <string name="pref_force_start_summary_on" >Den Mocking-Service unbeaufsichtigt starten.</string>
-    <string name="pref_force_start_summary_off">Öffnen Sie die App, um den Mocking-Service manuell zu starten.</string>
-    <string name="pref_trip_duration_seconds_title">Ausreisedauer (Sekunden)).</string>
-    <string name="pref_trip_duration_seconds_summary">Anzahl der Sekunden für eine Fahrsimulation, die ausgeführt werden soll, bevor das Ziel erreicht wird.:</string>
+    <string name="pref_force_start_summary_on" >Den Mocking-Dienst im Hintergrund starten.</string>
+    <string name="pref_force_start_summary_off">Öffne die App, um den Mocking-Dienst manuell zu starten.</string>
+    <string name="pref_trip_duration_seconds_title">Reisedauer (Sekunden)).</string>
+    <string name="pref_trip_duration_seconds_summary">Anzahl der Sekunden, die eine Fahrsimulation laufen muss, bevor das Ziel erreicht wird:</string>
 </resources>

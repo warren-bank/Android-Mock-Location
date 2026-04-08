@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Тихо ругај</string>
-    <string name="pref_settings_title">Поставке</string>
+    <string name="app_name">Смисли ћутећи</string>
+    <string name="pref_settings_title">Подешавања</string>
     <string name="pref_purpose_array_names_1">Фиксна позиција</string>
-    <string name="pref_purpose_array_names_2">Одредиште путовања</string>
+    <string name="pref_purpose_array_names_2">Дестинација путовања</string>
     <string name="pref_purpose_title">Сврха</string>
-    <string name="pref_purpose_summary">изаберите сврху..</string>
-    <string name="pref_force_start_title">Покрените силу</string>
-    <string name="pref_force_start_summary_on" >Тихо започните услужни сервис.</string>
-    <string name="pref_force_start_summary_off">Отвори апликацију да ручно покренеш услугу ругања.</string>
-    <string name="pref_trip_duration_seconds_title">Трајање путовања (секунде).</string>
-    <string name="pref_trip_duration_seconds_summary">Број секунди за симулацију пута за покретање пре него што стигнемо до одредишта:</string>
+    <string name="pref_purpose_summary">изабери сврху..</string>
+    <string name="pref_force_start_title">Принудно покретање</string>
+    <string name="pref_force_start_summary_on" >Тихо покрените сервис за исмејавање..</string>
+    <string name="pref_force_start_summary_off">Отвори апликацију да бисте ручно покренули сервис за мокинг..</string>
+    <string name="pref_trip_duration_seconds_title">Трајање путовања (секунде)).</string>
+    <string name="pref_trip_duration_seconds_summary">Број секунди за извршавање симулације путовања пре стизања на одредиште:</string>
 </resources>

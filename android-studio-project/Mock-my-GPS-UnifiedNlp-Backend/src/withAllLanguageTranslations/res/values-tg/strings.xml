@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Маро масхара кун GPS UnifiedNlp Пасзамин</string>
+    <string name="locationservice_permission_label">Маро масхара кун GPS UnifiedNlp Хидмати макон</string>
+    <string name="locationservice_permission_description">Иҷозати сатҳи Signature, ки барои Mock my зарур аст GPS барои пешниҳоди навсозиҳои макон ба он UnifiedNlp Пасзамин.</string>
+    <string name="backendservice_summary">Истифодаҳо "Маро масхара кун GPS" ҳамчун провайдери макони пасинавард ҳангоми фаъол будани хидматаш.</string>
+    <string name="pref_settings_title">Танзимот</string>
+    <string name="pref_timeadvance_title">Пешрафти вақт (ms).</string>
+    <string name="pref_timeadvance_summary">Шумораи миллисекундҳое, ки ба тамғаи вақти ҳамаи навсозии макон илова мешаванд. Арзиши кофӣ калон бояд кафолат диҳад, ки ҳангоми фаъол будани мокинг ҳамаи провайдерҳои дигари бекенд нодида гирифта шаванд.:</string>
+</resources>

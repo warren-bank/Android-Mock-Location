@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Bophara, Bolelele">
+  <!ENTITY fixed_position "Boemo bo tsitsitseng">
+  <!ENTITY trip           "Leeto">
+  <!ENTITY origin         "Tšimoloho">
+  <!ENTITY destination    "Sebaka sa ho ea">
+]>
+<resources>
+    <string name="app_name">Tshwantsha ya ka GPS</string>
+    <string name="geo_intent_menu_title">Sebelisa Geo-Intent Bakeng sa:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Letšoao le lecha</string>
+    <string name="MainActivity_actionbar_item_1">Boloka Letšoao la leqephe</string>
+    <string name="MainActivity_actionbar_item_2">Matšoao a maqephe</string>
+    <string name="MainActivity_actionbar_item_3">Likhetho</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Tekanyetso</string>
+    <string name="save_bookmark_menu_title">Sebaka sa ho boloka:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Sebaka:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Nako:\n<small>(metsotswana)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Eketsa</string>
+    <string name="BookmarksActivity_actionbar_item_2">Bohatelli</string>
+    <string name="BookmarksActivity_actionbar_item_3">Tsosolosa</string>
+    <string name="open_bookmark_menu_title">Sebelisa Letšoao bakeng sa:</string>
+    <string name="edit_bookmark_field_1">Sehlooho:</string>
+    <string name="edit_bookmark_field_2">Sebaka:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Kakaretso</string>
+    <string name="PreferencesActivity_field_1">Nako (ms) pakeng tsa ntjhafatso e \'ngoe le e \'ngoe:</string>
+    <string name="PreferencesActivity_field_2">Palo ea makhetlo a ho qhekella sebaka:\n<small>(0 = tswela pele ho fihlela o emisiwa ka ho hlaka)</small></string>
+    <string name="PreferencesActivity_field_3">Bontsha joystick:</string>
+    <string name="PreferencesActivity_field_4">Thupa ea thabo lat/lon Keketso:</string>
+    <string name="PreferencesActivity_field_5">Tšoara sebaka sa ho ea e le sebaka se tsitsitseng:</string>
+    <string name="label_button_start">QALA</string>
+    <string name="label_button_stop">Ema</string>
+    <string name="label_button_update">Nchafatso</string>
+    <string name="label_button_cancel">Hlakola</string>
+    <string name="label_button_delete">Hlakola</string>
+    <string name="label_button_save">Boloka</string>
+    <string name="error_geo_intent">Ho sitiloe ho sekaseka morero oa geo \'%s\'.</string>
+    <string name="error_number_format">Ho hlolehile ho sekaseka nomoro \'%s\'.</string>
+    <string name="error_location_format">Ho sitiloe ho hlahloba sebaka \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Letšoao la leqephe le se le le teng \'%s\'.</string>
+    <string name="error_missing_required_value">Phoso: Boleng bo hlokehang bo haella</string>
+    <string name="error_add_bookmarkitem">Phoso: Ho sitiloe ho eketsa lets\'oao le lecha la leqephe</string>
+    <string name="notification_service_ticker">Tshwantsha ya ka GPS: Ho matha</string>
+    <string name="notification_service_content_line1">Tshwantsha ya ka GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Tobetsa ho bula. Hlakola ho emisa.</string>
+    -->
+    <string name="notification_service_content_line2">Tobetsa ho bula.</string>
+</resources>

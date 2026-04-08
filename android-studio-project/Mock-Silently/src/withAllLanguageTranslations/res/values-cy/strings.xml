@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Ffug Silog</string>
+    <string name="app_name">Ymddwyn yn Ddirmygus yn Ddistaw</string>
     <string name="pref_settings_title">Gosodiadau</string>
     <string name="pref_purpose_array_names_1">Safle Sefydlog</string>
-    <string name="pref_purpose_array_names_2">Cyrchfan</string>
+    <string name="pref_purpose_array_names_2">Cyrchfan y daith</string>
     <string name="pref_purpose_title">Pwrpas</string>
     <string name="pref_purpose_summary">dewis pwrpas..</string>
-    <string name="pref_force_start_title">Gorfodi Cychwyn</string>
-    <string name="pref_force_start_summary_on" >Cychwyn y gwasanaeth mocio yn dawel.</string>
-    <string name="pref_force_start_summary_off">Agor yr ap i gychwyn y gwasanaeth mocio â llaw.</string>
-    <string name="pref_trip_duration_seconds_title">Hydred (eiliadau)).</string>
-    <string name="pref_trip_duration_seconds_summary">Nifer o eiliadau ar gyfer taith i redeg cyn cyrraedd y gyrchfan:</string>
+    <string name="pref_force_start_title">Cychwyn gorfodol</string>
+    <string name="pref_force_start_summary_on" >Cychwynnwch y gwasanaeth gwatwar yn ddistaw.</string>
+    <string name="pref_force_start_summary_off">Agorwch yr ap i ddechrau\'r gwasanaeth ffugio â llaw..</string>
+    <string name="pref_trip_duration_seconds_title">Hyd y daith (eiliadau)).</string>
+    <string name="pref_trip_duration_seconds_summary">Nifer yr eiliadau y bydd efelychiad taith yn eu cymryd i redeg cyn cyrraedd y gyrchfan:</string>
 </resources>

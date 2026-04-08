@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">ఫైల్‌ను సేవ్ చేయడానికి డైరెక్టరీని ఎంచుకోండి</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">కొత్త ఫైల్ పేరును ఎంచుకోండి JSON డేటా</string>
+  <string name="app_folderpicker_json_import_filepath_description">గతంలో ఎగుమతి చేసిన ఫైల్‌ను ఎంచుకోండి JSON డేటా</string>
+</resources>

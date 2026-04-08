@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Відшукатись</string>
-    <string name="pref_settings_title">ПараметриName</string>
-    <string name="pref_purpose_array_names_1">Фіксована позиція</string>
-    <string name="pref_purpose_array_names_2">Призначення поїздки</string>
+    <string name="app_name">Тихо глузувати</string>
+    <string name="pref_settings_title">Налаштування</string>
+    <string name="pref_purpose_array_names_1">Постійна посада</string>
+    <string name="pref_purpose_array_names_2">Пункт призначення подорожі</string>
     <string name="pref_purpose_title">Мета</string>
-    <string name="pref_purpose_summary">обрати мету..</string>
-    <string name="pref_force_start_title">Примусове початку</string>
-    <string name="pref_force_start_summary_on" >Без повідомлень запустити службу насміхання.</string>
-    <string name="pref_force_start_summary_off">Відкрити додаток, щоб вручну запустити службу насміхання.</string>
-    <string name="pref_trip_duration_seconds_title">Тривалість поїздки (у секундах).</string>
-    <string name="pref_trip_duration_seconds_summary">Кількість секунд для симуляції поїздки перед досягненням призначення:</string>
+    <string name="pref_purpose_summary">виберіть мету..</string>
+    <string name="pref_force_start_title">Примусовий запуск</string>
+    <string name="pref_force_start_summary_on" >Тихо запустити сервіс імітації.</string>
+    <string name="pref_force_start_summary_off">Відкрийте додаток, щоб вручну запустити службу імітації.</string>
+    <string name="pref_trip_duration_seconds_title">Тривалість поїздки (секунди)).</string>
+    <string name="pref_trip_duration_seconds_summary">Кількість секунд, протягом яких триває моделювання поїздки до прибуття до пункту призначення:</string>
 </resources>

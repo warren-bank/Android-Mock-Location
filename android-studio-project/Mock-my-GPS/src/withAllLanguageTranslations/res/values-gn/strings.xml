@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Pekue, Pukukue">
+  <!ENTITY fixed_position "Tenda oñemohendapyréva">
+  <!ENTITY trip           "Guata">
+  <!ENTITY origin         "Moõguipa ou">
+  <!ENTITY destination    "Tahaha">
+]>
+<resources>
+    <string name="app_name">Eñembohory che rehe GPS</string>
+    <string name="geo_intent_menu_title">Eipuru Geo-Intent-pe g̃uarã:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Moñe\'ẽrã pyahu</string>
+    <string name="MainActivity_actionbar_item_1">Eñongatu techaukaha</string>
+    <string name="MainActivity_actionbar_item_2">Moñe\'ẽrã</string>
+    <string name="MainActivity_actionbar_item_3">Jeporavorã</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Ñoha\'ãnga</string>
+    <string name="save_bookmark_menu_title">Tenda oñeñongatu hag̃ua:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Tenda:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Hi\'are:\n<small>(segundo)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Moĩve</string>
+    <string name="BookmarksActivity_actionbar_item_2">Ñongatupy</string>
+    <string name="BookmarksActivity_actionbar_item_3">Moingove jey</string>
+    <string name="open_bookmark_menu_title">Eipuru techaukaha...rã:</string>
+    <string name="edit_bookmark_field_1">Téra:</string>
+    <string name="edit_bookmark_field_2">Tenda:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Opaichagua</string>
+    <string name="PreferencesActivity_field_1">Ára (ms) peteĩteĩ ñembopyahupápe:</string>
+    <string name="PreferencesActivity_field_2">Mboy jeypa oñembohorávo tenda:\n<small>(0 = oho tenondeve ojejoko porã meve)</small></string>
+    <string name="PreferencesActivity_field_3">Ehechauka joystick:</string>
+    <string name="PreferencesActivity_field_4">Mbojehapeha lat/lon Jupi:</string>
+    <string name="PreferencesActivity_field_5">Eñongatu tenda oguahẽha peteĩ tenda oñembo\'ýva ramo:</string>
+    <string name="label_button_start">Ñepyrũ</string>
+    <string name="label_button_stop">Epyta</string>
+    <string name="label_button_update">Ñembopyahu</string>
+    <string name="label_button_cancel">Ñembogue</string>
+    <string name="label_button_delete">Eipe\'a</string>
+    <string name="label_button_save">Ñongatu</string>
+    <string name="error_geo_intent">Ndaikatúi oñehesa\'ỹijo tembipota geo. \'%s\'.</string>
+    <string name="error_number_format">Ndaikatúi oñembohasa papapy \'%s\'.</string>
+    <string name="error_location_format">Ndaikatúi oñehesa\'ỹijo tenda \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Oĩma techaukaha. \'%s\'.</string>
+    <string name="error_missing_required_value">Javy: Ofaltan pe valor oñeikotevẽva</string>
+    <string name="error_add_bookmarkitem">Javy: Ndaikatúi oñemoĩ techaukaha pyahu</string>
+    <string name="notification_service_ticker">Eñembohory che rehe GPS: Oñanihápe</string>
+    <string name="notification_service_content_line1">Eñembohory che rehe GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Ejopy eipe\'a hag̃ua. Emombo remombyta hag̃ua.</string>
+    -->
+    <string name="notification_service_content_line2">Ejopy eipe\'a hag̃ua.</string>
+</resources>

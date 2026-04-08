@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Burlarse silenciosamente</string>
+    <string name="app_name">Burlarse en silencio</string>
     <string name="pref_settings_title">Configuración</string>
-    <string name="pref_purpose_array_names_1">Posición fija</string>
+    <string name="pref_purpose_array_names_1">Puesto fijo</string>
     <string name="pref_purpose_array_names_2">Destino del viaje</string>
-    <string name="pref_purpose_title">Objeto:</string>
-    <string name="pref_purpose_summary">escoja propósito..</string>
-    <string name="pref_force_start_title">Forzar inicio</string>
-    <string name="pref_force_start_summary_on" >Iniciar silenciosamente el servicio de burla.</string>
-    <string name="pref_force_start_summary_off">Abra la aplicación para iniciar manualmente el servicio de burla.</string>
-    <string name="pref_trip_duration_seconds_title">Duración del viaje (segundos).</string>
-    <string name="pref_trip_duration_seconds_summary">Número de segundos para que se ejecute una simulación de viaje antes de llegar al destino:</string>
+    <string name="pref_purpose_title">Objetivo</string>
+    <string name="pref_purpose_summary">selecciona un propósito..</string>
+    <string name="pref_force_start_title">Inicio forzado</string>
+    <string name="pref_force_start_summary_on" >Iniciar el servicio de simulación de forma silenciosa.</string>
+    <string name="pref_force_start_summary_off">Abre la aplicación para iniciar manualmente el servicio de simulación.</string>
+    <string name="pref_trip_duration_seconds_title">Duración del viaje (segundos)).</string>
+    <string name="pref_trip_duration_seconds_summary">Número de segundos que debe durar la simulación de un trayecto antes de llegar al destino:</string>
 </resources>

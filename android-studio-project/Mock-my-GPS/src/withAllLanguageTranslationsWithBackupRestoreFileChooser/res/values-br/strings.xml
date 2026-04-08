@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Dibabit ur c\'havlec\'h da enrollañ ar restr</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Dibabit un anv restr nevez evit JSON roadoù</string>
+  <string name="app_folderpicker_json_import_filepath_description">Diuzit ar restr a zo enni an ezporzhiadennoù kent. JSON roadoù</string>
+</resources>

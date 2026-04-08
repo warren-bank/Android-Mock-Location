@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Whakakata mā te noho puku</string>
+    <string name="pref_settings_title">Tautuhinga</string>
+    <string name="pref_purpose_array_names_1">Tūranga tūturu</string>
+    <string name="pref_purpose_array_names_2">Te wāhi haerenga</string>
+    <string name="pref_purpose_title">Te take</string>
+    <string name="pref_purpose_summary">Tīpako kaupapa..</string>
+    <string name="pref_force_start_title">Tīmatanga mā te kaha</string>
+    <string name="pref_force_start_summary_on" >Tīmatahia huna te ratonga whakamātautau.</string>
+    <string name="pref_force_start_summary_off">Whakatuwherahia te taupānga kia tīmata ā-ringa i te ratonga whakamātautau..</string>
+    <string name="pref_trip_duration_seconds_title">Te roa o te haerenga (hekona)).</string>
+    <string name="pref_trip_duration_seconds_summary">Te maha o ngā hēkona hei whakahaere i te whakamātautau haerenga kia tae ki te ūnga:</string>
+</resources>

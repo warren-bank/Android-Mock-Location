@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Amukt\'ata k\'añaskuña</string>
+    <string name="pref_settings_title">Wakichäwinaka</string>
+    <string name="pref_purpose_array_names_1">Sayt\'ata chiqaw</string>
+    <string name="pref_purpose_array_names_2">Sarnaqäwi Puriniña</string>
+    <string name="pref_purpose_title">Kunatakis</string>
+    <string name="pref_purpose_summary">Amta ajlliña..</string>
+    <string name="pref_force_start_title">Ch\'amampi qalltayaña</string>
+    <string name="pref_force_start_summary_on" >Amukt\'ata k\'añaskuña irnaqäwi qalltayaña.</string>
+    <string name="pref_force_start_summary_off">Yant\'äwi irnaqäwi amparamp qalltayañatakixa, aplicación jist\'araña..</string>
+    <string name="pref_trip_duration_seconds_title">Sarnaqäwi pacha (segundos)).</string>
+    <string name="pref_trip_duration_seconds_summary">Purïwi chiqaru puriñkama, mä saräwi uñacht\'äwi sarnaqañapataki segundonakan jakhüpa.:</string>
+</resources>

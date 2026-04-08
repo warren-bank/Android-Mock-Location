@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">میاک میری GPS UnifiedNlp بیک وقت</string>
-    <string name="locationservice_permission_label">میاک میری GPS UnifiedNlp لوکیشن سروس</string>
-    <string name="locationservice_permission_description">سگنیچر لیول کی اجازت, Mock میرے لئے ضروری GPS مقام اپ ڈیٹس فراہم کرنے کے لئے اس کی UnifiedNlp بیک وقت.</string>
-    <string name="backendservice_summary">Uses \" چٹائی میرے GPS" بطور بیک وقت محل وقوع فراہم کرنے والے ادارے جبکہ اس کی سروس فعال ہے..</string>
-    <string name="pref_settings_title">سیٹنگز</string>
-    <string name="pref_timeadvance_title">ٹائم ایڈوانس (ms).</string>
-    <string name="pref_timeadvance_summary">تمام جگہ اپ ڈیٹس کے ٹائم اسٹامپ میں ملی ملی سیکنڈز کی تعداد شامل ہے. ایک بڑی کافی قدر اس بات کو یقینی بنانا چاہئے کہ دیگر تمام backend فراہم کنندگان کو نظر انداز کیا جاتا ہے جبکہ mocking فعال ہے:</string>
+    <string name="app_name">میری نقل اڑاؤ GPS UnifiedNlp بیک اینڈ</string>
+    <string name="locationservice_permission_label">میری نقل اڑاؤ GPS UnifiedNlp مقام کی خدمت</string>
+    <string name="locationservice_permission_description">سگنیچر لیول کی اجازت، Mock my کے لیے ضروری GPS اپنے کو مقام کی تازہ کاری فراہم کرنے کے لیے UnifiedNlp بیک اینڈ.</string>
+    <string name="backendservice_summary">استعمالات "میری نقل اڑاؤ GPS" جب اس کی سروس فعال ہو تو بطور بیک اینڈ لوکیشن فراہم کنندہ.</string>
+    <string name="pref_settings_title">ترتیبات</string>
+    <string name="pref_timeadvance_title">وقت کی پیشگی ادائیگی (ms).</string>
+    <string name="pref_timeadvance_summary">تمام لوکیشن اپ ڈیٹس کے ٹائم اسٹیمپ میں شامل کیے جانے والے ملی سیکنڈز کی تعداد۔ ایک مناسب حد سے زیادہ قدر یقینی بنائے گی کہ جب موکنگ فعال ہو تو دیگر تمام بیک اینڈ فراہم کنندگان کو نظر انداز کیا جائے۔:</string>
 </resources>

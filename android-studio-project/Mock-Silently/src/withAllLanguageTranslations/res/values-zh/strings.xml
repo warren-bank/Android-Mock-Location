@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">静默模拟</string>
+    <string name="app_name">默默嘲讽</string>
     <string name="pref_settings_title">设置</string>
-    <string name="pref_purpose_array_names_1">固定位置</string>
+    <string name="pref_purpose_array_names_1">固定职位</string>
     <string name="pref_purpose_array_names_2">旅行目的地</string>
     <string name="pref_purpose_title">目的</string>
-    <string name="pref_purpose_summary">选择目的..</string>
+    <string name="pref_purpose_summary">选择用途..</string>
     <string name="pref_force_start_title">强制启动</string>
-    <string name="pref_force_start_summary_on" >静默启动计时服务.</string>
-    <string name="pref_force_start_summary_off">打开应用程序以手动启动计时服务.</string>
-    <string name="pref_trip_duration_seconds_title">行程持续时间 (秒 )).</string>
-    <string name="pref_trip_duration_seconds_summary">到达目标之前要运行的旅程模拟的秒数:</string>
+    <string name="pref_force_start_summary_on" >静默启动模拟服务.</string>
+    <string name="pref_force_start_summary_off">打开应用程序，手动启动模拟服务.</string>
+    <string name="pref_trip_duration_seconds_title">行程时长（秒）).</string>
+    <string name="pref_trip_duration_seconds_summary">行程模拟运行至到达目的地所需的秒数:</string>
 </resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">پوشهٔ ذخیرهٔ فایل را انتخاب کنید</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">نام فایل جدید را انتخاب کنید برای JSON داده‌ها</string>
+  <string name="app_folderpicker_json_import_filepath_description">فایل حاوی خروجی قبلی را انتخاب کنید JSON داده‌ها</string>
+</resources>

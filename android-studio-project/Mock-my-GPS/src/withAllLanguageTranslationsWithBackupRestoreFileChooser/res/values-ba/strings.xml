@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Файлды һаҡлау өсөн директорияны һайлағыҙ</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Яңы файл исемен һайлағыҙ JSON мәғлүмәт</string>
+  <string name="app_folderpicker_json_import_filepath_description">Элек экспортланған файлды һайлағыҙ JSON мәғлүмәт</string>
+</resources>

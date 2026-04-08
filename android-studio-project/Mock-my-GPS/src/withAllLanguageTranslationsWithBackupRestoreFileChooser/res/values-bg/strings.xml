@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Изберете папка, в която да запишете файла</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Изберете ново име на файла за JSON данни</string>
+  <string name="app_folderpicker_json_import_filepath_description">Изберете файл, съдържащ предварително експортирани JSON данни</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yenza umzekelo ngokuzolileyo</string>
+    <string name="pref_settings_title">Iisetingi</string>
+    <string name="pref_purpose_array_names_1">Isikhundla Esimiselweyo</string>
+    <string name="pref_purpose_array_names_2">Indawo yohambo</string>
+    <string name="pref_purpose_title">Injongo</string>
+    <string name="pref_purpose_summary">Khetha injongo..</string>
+    <string name="pref_force_start_title">Ukuqalisa ngenkani</string>
+    <string name="pref_force_start_summary_on" >Qalisa ngokuthe cwaka inkonzo yokuhlekisa..</string>
+    <string name="pref_force_start_summary_off">Vula i-app ukuze uqalise ngesandla inkonzo yokulinganisa..</string>
+    <string name="pref_trip_duration_seconds_title">Ubude bohambo (imizuzwana)).</string>
+    <string name="pref_trip_duration_seconds_summary">Inani lemizuzwana elifunekayo ukuze isilinganiso sohambo siqhube phambi kokuba sifike kwindawo ekuyiwa kuyo.:</string>
+</resources>

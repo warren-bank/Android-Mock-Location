@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">جورب بصمت</string>
-    <string name="pref_settings_title">المحددات</string>
-    <string name="pref_purpose_array_names_1">موضع ثابت</string>
-    <string name="pref_purpose_array_names_2">الوجهة المستهدفة للرحلة</string>
+    <string name="app_name">السخرية الصامتة</string>
+    <string name="pref_settings_title">الإعدادات</string>
+    <string name="pref_purpose_array_names_1">وظيفة ثابتة</string>
+    <string name="pref_purpose_array_names_2">وجهة الرحلة</string>
     <string name="pref_purpose_title">الغرض</string>
-    <string name="pref_purpose_summary">اختيار الغرض..</string>
-    <string name="pref_force_start_title">بدء اجباري</string>
-    <string name="pref_force_start_summary_on" >بدء خدمة السخرية بصمت.</string>
-    <string name="pref_force_start_summary_off">قم بفتح التطبيق لبدء خدمة السخرية يدويا.</string>
-    <string name="pref_trip_duration_seconds_title">مدة الرحلة (ثواني).</string>
-    <string name="pref_trip_duration_seconds_summary">عدد الثواني لمحاكاة الرحلة ليتم تشغيلها قبل الوصول الى الوجهة المستهدفة:</string>
+    <string name="pref_purpose_summary">اختر الغرض..</string>
+    <string name="pref_force_start_title">التشغيل القسري</string>
+    <string name="pref_force_start_summary_on" >بدء خدمة المحاكاة بصمت.</string>
+    <string name="pref_force_start_summary_off">افتح التطبيق لبدء تشغيل خدمة المحاكاة يدويًّا.</string>
+    <string name="pref_trip_duration_seconds_title">مدة الرحلة (بالثواني)).</string>
+    <string name="pref_trip_duration_seconds_summary">عدد الثواني التي تستغرقها محاكاة الرحلة قبل الوصول إلى الوجهة:</string>
 </resources>

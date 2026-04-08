@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mock my GPS UnifiedNlp Zaplecze</string>
-    <string name="locationservice_permission_label">Mock my GPS UnifiedNlp Usługa lokalizacji</string>
-    <string name="locationservice_permission_description">Uprawnienia na poziomie podpisu, wymagane w przypadku Mock GPS w celu udostępnienia aktualizacji lokalizacji UnifiedNlp Zaplecze.</string>
-    <string name="backendservice_summary">Używa \" Mock my GPS" jako dostawca położenia zaplecza, gdy jego usługa jest aktywna.</string>
+    <string name="app_name">Wyśmiewaj mnie GPS UnifiedNlp Zaplecze</string>
+    <string name="locationservice_permission_label">Wyśmiewaj mnie GPS UnifiedNlp Usługi lokalizacyjne</string>
+    <string name="locationservice_permission_description">Uprawnienie na poziomie podpisu, wymagane dla funkcji Mock my GPS w celu przekazywania aktualnych informacji o lokalizacji swoim UnifiedNlp Zaplecze.</string>
+    <string name="backendservice_summary">Zastosowania "Wyśmiewaj mnie GPS" jako dostawca lokalizacji zaplecza, gdy jego usługa jest aktywna.</string>
     <string name="pref_settings_title">Ustawienia</string>
-    <string name="pref_timeadvance_title">Czas wyprzedzenia (ms).</string>
-    <string name="pref_timeadvance_summary">Liczba milisekund dodanych do znacznika czasu wszystkich aktualizacji lokalizacji. Duża wartość powinna mieć pewność, że wszystkie inne dostawcy zaplecza zostaną zignorowane podczas wykonywania operacji mokasowania.:</string>
+    <string name="pref_timeadvance_title">Przyspieszenie czasu (ms).</string>
+    <string name="pref_timeadvance_summary">Liczba milisekund dodawana do sygnatury czasowej wszystkich aktualizacji lokalizacji. Odpowiednio duża wartość powinna zapewnić, że wszyscy inni dostawcy zaplecza będą ignorowani w czasie, gdy funkcja symulacji jest aktywna:</string>
 </resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mənimlə lağ et GPS UnifiedNlp Arxa uç</string>
+    <string name="locationservice_permission_label">Mənimlə lağ et GPS UnifiedNlp Məkan Xidməti</string>
+    <string name="locationservice_permission_description">Signature Level icazəsi, Mock my üçün tələb olunur GPS özünə yer yeniləmələri təmin etmək üçün UnifiedNlp Arxa uç.</string>
+    <string name="backendservice_summary">İstifadə üsulları "Mənimlə lağ et GPS" xidməti aktiv olduğu müddətdə arxa plan yer təminatçısı kimi.</string>
+    <string name="pref_settings_title">Tənzimləmələr</string>
+    <string name="pref_timeadvance_title">Vaxt qabaqcılığı (ms).</string>
+    <string name="pref_timeadvance_summary">Bütün yer yeniləmələrinin zaman damğasına əlavə olunan millisaniyə sayı. Yeterincə böyük dəyər mocking aktiv olduğu müddətdə digər bütün arxa plan təminatçılarının nəzərə alınmamasını təmin etməlidir.:</string>
+</resources>

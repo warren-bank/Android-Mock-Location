@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Менин макетимди GPS UnifiedNlp Арткы жагы</string>
+    <string name="locationservice_permission_label">Менин макетимди GPS UnifiedNlp Жайгашкан жер кызматы</string>
+    <string name="locationservice_permission_description">Signature Level уруксаты, Mock my үчүн талап кылынат GPS өзүнүн жайгашкан жери боюнча жаңыртууларды берүү үчүн UnifiedNlp Арткы жагы.</string>
+    <string name="backendservice_summary">Колдонуулар "Менин макетимди GPS" анын кызматы активдүү болуп турганда арткы план жайгашкан жерди берүүчү катары.</string>
+    <string name="pref_settings_title">Жөндөөлөр</string>
+    <string name="pref_timeadvance_title">Убакыт алдыга жылдыруу (ms).</string>
+    <string name="pref_timeadvance_summary">Бардык жайгашуу жаңыртууларынын убакыт штамбына кошулган миллисекунддардын саны. Жетиштүү чоң маани мокинг активдүү болуп турганда башка бардык арткы пландагы провайдерлер эске алынбай калышын камсыздайт.:</string>
+</resources>

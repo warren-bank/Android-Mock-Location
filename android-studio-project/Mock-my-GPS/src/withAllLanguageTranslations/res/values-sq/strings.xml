@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Gjerësia gjeografike, Gjatësia gjeografike">
+  <!ENTITY fixed_position "Pozicion i fikse">
+  <!ENTITY trip           "Udhëtim">
+  <!ENTITY origin         "Origjina">
+  <!ENTITY destination    "Destinacioni">
+]>
+<resources>
+    <string name="app_name">Të imitoj mua GPS</string>
+    <string name="geo_intent_menu_title">Përdorni Geo-Intent Për:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Shënim i ri</string>
+    <string name="MainActivity_actionbar_item_1">Ruaj shënimin</string>
+    <string name="MainActivity_actionbar_item_2">Shënime</string>
+    <string name="MainActivity_actionbar_item_3">Pëlqimet</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Simulim</string>
+    <string name="save_bookmark_menu_title">Vendndodhja për të ruajtur:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Vendndodhja:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Kohëzgjatje:\n<small>(sekonda)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Shto</string>
+    <string name="BookmarksActivity_actionbar_item_2">Rikuperim</string>
+    <string name="BookmarksActivity_actionbar_item_3">Rikthe</string>
+    <string name="open_bookmark_menu_title">Përdor shënim faqeje për:</string>
+    <string name="edit_bookmark_field_1">Titulli:</string>
+    <string name="edit_bookmark_field_2">Vendndodhja:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Përgjithësisht</string>
+    <string name="PreferencesActivity_field_1">Koha (ms) ndërmjet çdo përditësimi:</string>
+    <string name="PreferencesActivity_field_2">Numri i herëve për të simuluar vendndodhjen:\n<small>(0 = vazhdo derisa të ndalesh shprehimisht)</small></string>
+    <string name="PreferencesActivity_field_3">Shfaq joystickun:</string>
+    <string name="PreferencesActivity_field_4">Levë kontrolli lat/lon rritje:</string>
+    <string name="PreferencesActivity_field_5">Mbaj destinacionin si pozicion të fikse:</string>
+    <string name="label_button_start">FILLO</string>
+    <string name="label_button_stop">Ndalo</string>
+    <string name="label_button_update">Përditësim</string>
+    <string name="label_button_cancel">ANULO</string>
+    <string name="label_button_delete">Fshij</string>
+    <string name="label_button_save">Ruaj</string>
+    <string name="error_geo_intent">Nuk mund të analizohet qëllimi gjeografik \'%s\'.</string>
+    <string name="error_number_format">Nuk mund të analizojë numrin \'%s\'.</string>
+    <string name="error_location_format">Nuk mund të analizojë vendndodhjen \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Shënimi tashmë ekziston \'%s\'.</string>
+    <string name="error_missing_required_value">Gabim: Vlerë e kërkuar e munguar</string>
+    <string name="error_add_bookmarkitem">Gabim: Nuk mund të shtohet shënim i ri</string>
+    <string name="notification_service_ticker">Të imitoj mua GPS: vrapim</string>
+    <string name="notification_service_content_line1">Të imitoj mua GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Kliko për të hapur. Hiq për të ndaluar.</string>
+    -->
+    <string name="notification_service_content_line2">Kliko për të hapur.</string>
+</resources>

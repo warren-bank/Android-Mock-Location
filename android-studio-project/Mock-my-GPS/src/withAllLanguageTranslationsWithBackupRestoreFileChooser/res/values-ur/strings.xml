@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">فائل محفوظ کرنے کے لیے ڈائریکٹری منتخب کریں۔</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">نئی فائل کا نام منتخب کریں۔ JSON ڈیٹا</string>
+  <string name="app_folderpicker_json_import_filepath_description">وہ فائل منتخب کریں جس میں پہلے برآمد شدہ شامل ہوں۔ JSON ڈیٹا</string>
+</resources>

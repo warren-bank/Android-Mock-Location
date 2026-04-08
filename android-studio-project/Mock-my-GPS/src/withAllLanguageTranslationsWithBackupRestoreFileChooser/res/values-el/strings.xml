@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Επιλέξτε φάκελο για την αποθήκευση του αρχείου</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Επιλέξτε νέο όνομα αρχείου για JSON δεδομένα</string>
+  <string name="app_folderpicker_json_import_filepath_description">Επιλέξτε το αρχείο που περιέχει τα στοιχεία που εξήχθησαν προηγουμένως JSON δεδομένα</string>
+</resources>

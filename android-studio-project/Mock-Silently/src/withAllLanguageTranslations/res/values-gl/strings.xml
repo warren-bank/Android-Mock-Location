@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simular en silencio</string>
+    <string name="pref_settings_title">Configuración</string>
+    <string name="pref_purpose_array_names_1">Posición fixa</string>
+    <string name="pref_purpose_array_names_2">Destino da viaxe</string>
+    <string name="pref_purpose_title">Propósito</string>
+    <string name="pref_purpose_summary">escoller propósito..</string>
+    <string name="pref_force_start_title">Arranque forzado</string>
+    <string name="pref_force_start_summary_on" >Iniciar silenciosamente o servizo de burla.</string>
+    <string name="pref_force_start_summary_off">Abre a aplicación para iniciar manualmente o servizo de mocking..</string>
+    <string name="pref_trip_duration_seconds_title">Duración da viaxe (segundos)).</string>
+    <string name="pref_trip_duration_seconds_summary">Número de segundos que leva unha simulación de viaxe ata chegar ao destino:</string>
+</resources>

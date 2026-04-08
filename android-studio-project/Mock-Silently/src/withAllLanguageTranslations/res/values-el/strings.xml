@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mock Σιωπηλά</string>
-    <string name="pref_settings_title">Ρυθμίσεις:</string>
+    <string name="app_name">Σιωπηλή παρωδία</string>
+    <string name="pref_settings_title">Ρυθμίσεις</string>
     <string name="pref_purpose_array_names_1">Σταθερή θέση</string>
-    <string name="pref_purpose_array_names_2">Προορισμός ταξιδιού:</string>
-    <string name="pref_purpose_title">Αντικείμενο:</string>
-    <string name="pref_purpose_summary">\' Επιλογή σκοπού..</string>
-    <string name="pref_force_start_title">Έναρξη ισχύος:</string>
-    <string name="pref_force_start_summary_on" >Σιωπή εκκίνηση της υπηρεσίας mocking.</string>
-    <string name="pref_force_start_summary_off">Άνοιγμα της εφαρμογής για μη αυτόματη εκκίνηση της υπηρεσίας mocking.</string>
-    <string name="pref_trip_duration_seconds_title">Διάρκεια ταξιδιού (δευτερόλεπτα).</string>
-    <string name="pref_trip_duration_seconds_summary">Αριθμός δευτερολέπτων για μια προσομοίωση ταξιδιού πριν την επίτευξη του προορισμού:</string>
+    <string name="pref_purpose_array_names_2">Προορισμός ταξιδιού</string>
+    <string name="pref_purpose_title">Σκοπός</string>
+    <string name="pref_purpose_summary">επιλέξτε σκοπό..</string>
+    <string name="pref_force_start_title">Εκκίνηση με βία</string>
+    <string name="pref_force_start_summary_on" >Εκκίνηση της δοκιμαστικής υπηρεσίας χωρίς ειδοποίηση.</string>
+    <string name="pref_force_start_summary_off">Άνοιξε την εφαρμογή για να ξεκινήσεις χειροκίνητα την υπηρεσία προσομοίωσης.</string>
+    <string name="pref_trip_duration_seconds_title">Διάρκεια ταξιδιού (δευτερόλεπτα)).</string>
+    <string name="pref_trip_duration_seconds_summary">Αριθμός δευτερολέπτων που πρέπει να διαρκέσει η προσομοίωση μιας διαδρομής πριν φτάσει στον προορισμό:</string>
 </resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Zaɓi babban fayil don ajiye fayil ɗin</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Zaɓi sabon sunan fayil don JSON Bayanan</string>
+  <string name="app_folderpicker_json_import_filepath_description">Zaɓi fayil ɗin da ke ɗauke da abin da aka fitar da shi a baya. JSON Bayanan</string>
+</resources>

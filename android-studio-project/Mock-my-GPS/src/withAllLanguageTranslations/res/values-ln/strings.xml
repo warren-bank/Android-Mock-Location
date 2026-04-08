@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Bonene, Bolei">
+  <!ENTITY fixed_position "Position ya kokangama">
+  <!ENTITY trip           "Mobembo">
+  <!ENTITY origin         "Ebandeli">
+  <!ENTITY destination    "Esika ya kokende">
+]>
+<resources>
+    <string name="app_name">Kosɛka ngai GPS</string>
+    <string name="geo_intent_menu_title">Salela Geo-Intent mpo na:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Elembo ya sika</string>
+    <string name="MainActivity_actionbar_item_1">Bomba elembo</string>
+    <string name="MainActivity_actionbar_item_2">Bilembo ya lokasa</string>
+    <string name="MainActivity_actionbar_item_3">Maponi</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Komekola</string>
+    <string name="save_bookmark_menu_title">Esika ya kobomba:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Esika:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Molayi:\n<small>(ba segɔnde)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Bakisa</string>
+    <string name="BookmarksActivity_actionbar_item_2">Bobateli</string>
+    <string name="BookmarksActivity_actionbar_item_3">Zongisa</string>
+    <string name="open_bookmark_menu_title">Salela elembo mpo na:</string>
+    <string name="edit_bookmark_field_1">Motó ya likambo:</string>
+    <string name="edit_bookmark_field_2">Esika:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Monene</string>
+    <string name="PreferencesActivity_field_1">Ntango (ms) Kati na kati ya mise à jour moko na moko:</string>
+    <string name="PreferencesActivity_field_2">Motango ya mbala ya kosɛka esika:\n<small>(0 = koba kino bakopekisa yo polele)</small></string>
+    <string name="PreferencesActivity_field_3">Lakisa joystick:</string>
+    <string name="PreferencesActivity_field_4">Bâton de commande lat/lon Kobakisa:</string>
+    <string name="PreferencesActivity_field_5">Kanga esika ya kokende lokola esika ya kotɛlɛma.:</string>
+    <string name="label_button_start">Banda</string>
+    <string name="label_button_stop">Tɛlɛmá</string>
+    <string name="label_button_update">Sango ya sika</string>
+    <string name="label_button_cancel">Boma</string>
+    <string name="label_button_delete">Longola</string>
+    <string name="label_button_save">Bomba</string>
+    <string name="error_geo_intent">Tokoki te kososola mokano ya géographique. \'%s\'.</string>
+    <string name="error_number_format">Bakokí te koparser motángo \'%s\'.</string>
+    <string name="error_location_format">Tokoki te kotánga esika \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Elembo ya bokebi ezali déjà. \'%s\'.</string>
+    <string name="error_missing_required_value">Libunga: Motuya oyo esengeli ezangi</string>
+    <string name="error_add_bookmarkitem">Libunga: Bakokaki te kobakisa elembo ya sika</string>
+    <string name="notification_service_ticker">Kosɛka ngai GPS: kokima</string>
+    <string name="notification_service_content_line1">Kosɛka ngai GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Fina mpo na kofungola. Bwaka mpo na kotɛlɛmisa.</string>
+    -->
+    <string name="notification_service_content_line2">Finá mpo na kofungola.</string>
+</resources>

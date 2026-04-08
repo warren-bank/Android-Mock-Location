@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Լայնություն, Երկայնություն">
+  <!ENTITY fixed_position "Փոխադրելի դիրք">
+  <!ENTITY trip           "Ճամփորդություն">
+  <!ENTITY origin         "Արմատ">
+  <!ENTITY destination    "Նպատակակետ">
+]>
+<resources>
+    <string name="app_name">Ծաղրիր իմ GPS</string>
+    <string name="geo_intent_menu_title">Օգտագործեք Geo-Intent-ը:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Նոր նշան</string>
+    <string name="MainActivity_actionbar_item_1">Պահպանել նշանը</string>
+    <string name="MainActivity_actionbar_item_2">Ծանոթագրություններ</string>
+    <string name="MainActivity_actionbar_item_3">Նախասիրություններ</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Սիմուլյացիա</string>
+    <string name="save_bookmark_menu_title">Պահպանման վայր:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Տեղանք:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Տևողություն:\n<small>(վայրկյաններ)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Ավելացնել</string>
+    <string name="BookmarksActivity_actionbar_item_2">Պահուստավորում</string>
+    <string name="BookmarksActivity_actionbar_item_3">Վերականգնել</string>
+    <string name="open_bookmark_menu_title">Օգտագործեք Bookmark For:</string>
+    <string name="edit_bookmark_field_1">Անվանում:</string>
+    <string name="edit_bookmark_field_2">Տեղանք:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Ընդհանուր</string>
+    <string name="PreferencesActivity_field_1">Ժամանակ (ms) յուրաքանչյուր թարմացման միջև:</string>
+    <string name="PreferencesActivity_field_2">Տեղանքի կեղծման անգամների քանակը:\n<small>(0 = շարունակել մինչև հստակ դադարեցումը)</small></string>
+    <string name="PreferencesActivity_field_3">Ցուցադրել ջոյսթիկը:</string>
+    <string name="PreferencesActivity_field_4">Ջոյսթիկ lat/lon աճեցնել:</string>
+    <string name="PreferencesActivity_field_5">Նպատակակետը պահել որպես հաստատուն դիրք:</string>
+    <string name="label_button_start">Սկսել</string>
+    <string name="label_button_stop">Դադարեցնել</string>
+    <string name="label_button_update">Թարմացում</string>
+    <string name="label_button_cancel">Չեղարկել</string>
+    <string name="label_button_delete">ջնջել</string>
+    <string name="label_button_save">Պահպանել</string>
+    <string name="error_geo_intent">Չհաջողվեց վերլուծել geo մտադրությունը \'%s\'.</string>
+    <string name="error_number_format">Չհաջողվեց վերլուծել թիվը \'%s\'.</string>
+    <string name="error_location_format">Չհաջողվեց վերծել գտնվելու վայրը \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Նշումն արդեն գոյություն ունի \'%s\'.</string>
+    <string name="error_missing_required_value">Սխալ՝ պարտադիր արժեքը բացակայում է</string>
+    <string name="error_add_bookmarkitem">Սխալ՝ նոր նշմանջան չի ավելացվել</string>
+    <string name="notification_service_ticker">Ծաղրիր իմ GPS: վազք</string>
+    <string name="notification_service_content_line1">Ծաղրիր իմ GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Սեղմեք բացելու համար։ Սեղմեք չեղարկելու համար։.</string>
+    -->
+    <string name="notification_service_content_line2">Սեղմեք բացելու համար.</string>
+</resources>

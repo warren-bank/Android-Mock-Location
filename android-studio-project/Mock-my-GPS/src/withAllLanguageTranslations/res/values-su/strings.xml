@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Lintang, Bujur">
+  <!ENTITY fixed_position "Posisi Tetap">
+  <!ENTITY trip           "Lalampahan">
+  <!ENTITY origin         "Asal">
+  <!ENTITY destination    "Tujuan">
+]>
+<resources>
+    <string name="app_name">Mock kuring GPS</string>
+    <string name="geo_intent_menu_title">Paké Geo-Intent pikeun:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Tanda kaca anyar</string>
+    <string name="MainActivity_actionbar_item_1">Simpen Tanda Buku</string>
+    <string name="MainActivity_actionbar_item_2">Tanda kaca</string>
+    <string name="MainActivity_actionbar_item_3">Karésépan</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Simulasi</string>
+    <string name="save_bookmark_menu_title">Lokasi pikeun nyimpen:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Lokasi:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Lila:\n<small>(detik)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Tambahkeun</string>
+    <string name="BookmarksActivity_actionbar_item_2">Cadangan</string>
+    <string name="BookmarksActivity_actionbar_item_3">Malihkeun</string>
+    <string name="open_bookmark_menu_title">Paké Tanda Halaman Pikeun:</string>
+    <string name="edit_bookmark_field_1">Judul:</string>
+    <string name="edit_bookmark_field_2">Lokasi:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Umumna</string>
+    <string name="PreferencesActivity_field_1">Waktos (ms) antara unggal apdet:</string>
+    <string name="PreferencesActivity_field_2">Jumlah kali pikeun nyonto lokasi:\n<small>(0 = teras nepi ka dieureunkeun sacara eksplisit)</small></string>
+    <string name="PreferencesActivity_field_3">Témbongkeun joystick:</string>
+    <string name="PreferencesActivity_field_4">Tongkat kontrol lat/lon panambahan:</string>
+    <string name="PreferencesActivity_field_5">Jaga tujuan salaku posisi tetep:</string>
+    <string name="label_button_start">Mimitian</string>
+    <string name="label_button_stop">Eureun</string>
+    <string name="label_button_update">Pembaruan</string>
+    <string name="label_button_cancel">Batalkeun</string>
+    <string name="label_button_delete">Hapus</string>
+    <string name="label_button_save">Simpen</string>
+    <string name="error_geo_intent">Teu tiasa nganalisis niat geo \'%s\'.</string>
+    <string name="error_number_format">Teu tiasa nganalisis angka \'%s\'.</string>
+    <string name="error_location_format">Teu tiasa nganalisis lokasi \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Tanda buku geus aya \'%s\'.</string>
+    <string name="error_missing_required_value">Kasalahan: Nilai wajib leungit</string>
+    <string name="error_add_bookmarkitem">Kasalahan: Henteu tiasa nambahkeun bookmark anyar</string>
+    <string name="notification_service_ticker">Mock kuring GPS: ngajalankeun</string>
+    <string name="notification_service_content_line1">Mock kuring GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Klik pikeun muka. Batalkeun pikeun ngeureunkeun..</string>
+    -->
+    <string name="notification_service_content_line2">Klik pikeun muka.</string>
+</resources>

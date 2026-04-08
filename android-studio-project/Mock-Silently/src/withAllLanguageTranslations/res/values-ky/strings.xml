@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Үнсүз тамаша кылуу</string>
+    <string name="pref_settings_title">Жөндөөлөр</string>
+    <string name="pref_purpose_array_names_1">Туруктуу абал</string>
+    <string name="pref_purpose_array_names_2">Сапардын багыты</string>
+    <string name="pref_purpose_title">Максат</string>
+    <string name="pref_purpose_summary">Максатты танда..</string>
+    <string name="pref_force_start_title">Максатка багытталган баштоо</string>
+    <string name="pref_force_start_summary_on" >Жым эле макеталоо кызматын иштетип баштаңыз.</string>
+    <string name="pref_force_start_summary_off">Мокинг кызматынын ишин кол менен баштоо үчүн тиркемени ачыңыз..</string>
+    <string name="pref_trip_duration_seconds_title">Сапардын узактыгы (секундда)).</string>
+    <string name="pref_trip_duration_seconds_summary">Белгиленген жерге жеткенге чейин сапарды симуляциялоо үчүн кеткен секунддардын саны:</string>
+</resources>

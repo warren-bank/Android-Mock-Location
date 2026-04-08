@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">মৌনভাৱে অনুকৰণ</string>
+    <string name="pref_settings_title">ছেটিংছ</string>
+    <string name="pref_purpose_array_names_1">স্থায়ী পদ</string>
+    <string name="pref_purpose_array_names_2">ভ্ৰমণৰ গন্তব্যস্থান</string>
+    <string name="pref_purpose_title">উদ্দেশ্য</string>
+    <string name="pref_purpose_summary">উদ্দেশ্য বাছনি কৰক..</string>
+    <string name="pref_force_start_title">জবৰদস্তি আৰম্ভ</string>
+    <string name="pref_force_start_summary_on" >মৌনভাৱে মকিং সেৱা আৰম্ভ কৰক.</string>
+    <string name="pref_force_start_summary_off">মকিং সেৱা হাতেৰে আৰম্ভ কৰিবলৈ এপটো খোলক।.</string>
+    <string name="pref_trip_duration_seconds_title">ভ্ৰমণৰ সময় (ছেকেণ্ড)).</string>
+    <string name="pref_trip_duration_seconds_summary">গন্তব্যত উপনীত হোৱাৰ আগতে ট্ৰিপ ছিমুলেচন চলিবলৈ লগা ছেকেণ্ডৰ সংখ্যা:</string>
+</resources>

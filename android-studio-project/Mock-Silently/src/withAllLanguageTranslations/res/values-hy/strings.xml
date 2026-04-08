@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Լուռ ծաղրել</string>
+    <string name="pref_settings_title">Կարգավորումներ</string>
+    <string name="pref_purpose_array_names_1">Փոխադրելի դիրք</string>
+    <string name="pref_purpose_array_names_2">Ճամփորդության նպատակակետ</string>
+    <string name="pref_purpose_title">Նպատակ</string>
+    <string name="pref_purpose_summary">Ընտրեք նպատակ..</string>
+    <string name="pref_force_start_title">Ուժային մեկնարկ</string>
+    <string name="pref_force_start_summary_on" >Լուռ սկսեք ծաղրական ծառայությունը.</string>
+    <string name="pref_force_start_summary_off">Բացեք հավելվածը՝ մոկինգի ծառայությունը ձեռքով սկսելու համար։.</string>
+    <string name="pref_trip_duration_seconds_title">Ճամփորդության տևողությունը (վայրկյաններ)).</string>
+    <string name="pref_trip_duration_seconds_summary">Նպատակակետին հասնելուց առաջ ճանապարհորդության սիմուլյացիան իրականացնելու համար պահանջվող վայրկյանների քանակը:</string>
+</resources>

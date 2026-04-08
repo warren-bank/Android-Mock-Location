@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hlela ngokuthula</string>
+    <string name="pref_settings_title">Izilungiselelo</string>
+    <string name="pref_purpose_array_names_1">Isikhundla Esizinzile</string>
+    <string name="pref_purpose_array_names_2">Indawo yoHambo</string>
+    <string name="pref_purpose_title">Inhloso</string>
+    <string name="pref_purpose_summary">khetha inhloso..</string>
+    <string name="pref_force_start_title">Ukuqalisa ngenkani</string>
+    <string name="pref_force_start_summary_on" >Qala ngokuthula insizakalo yokulingisa.</string>
+    <string name="pref_force_start_summary_off">Vula uhlelo lokusebenza ukuze uqalise ngesandla insizakalo yokulingisa..</string>
+    <string name="pref_trip_duration_seconds_title">Isikhathi sohambo (imizuzwana)).</string>
+    <string name="pref_trip_duration_seconds_summary">Inani lemizuzwana okudingeka ukuze isilinganiso sohambo siqhube ngaphambi kokufika endaweni oya kuyo:</string>
+</resources>

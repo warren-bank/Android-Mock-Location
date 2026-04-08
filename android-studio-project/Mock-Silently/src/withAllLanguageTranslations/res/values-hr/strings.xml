@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Rugaj se Silovito</string>
+    <string name="app_name">Mock tiho</string>
     <string name="pref_settings_title">Postavke</string>
-    <string name="pref_purpose_array_names_1">Fiksni položaj</string>
-    <string name="pref_purpose_array_names_2">Odredište Putovanja</string>
+    <string name="pref_purpose_array_names_1">Fiksna pozicija</string>
+    <string name="pref_purpose_array_names_2">Odredište putovanja</string>
     <string name="pref_purpose_title">Svrha</string>
-    <string name="pref_purpose_summary">izbor svrhe..</string>
-    <string name="pref_force_start_title">Forsii početak</string>
-    <string name="pref_force_start_summary_on" >Tiho pokrenite rucking servis.</string>
-    <string name="pref_force_start_summary_off">Otvorite aplikaciju da biste ručno pokrenuli ručnu uslugu.</string>
-    <string name="pref_trip_duration_seconds_title">Trajanje Putovanja (sekunde).</string>
-    <string name="pref_trip_duration_seconds_summary">Broj sekundi za simulaciju putovanja prije dolaska na odredište:</string>
+    <string name="pref_purpose_summary">odaberi svrhu..</string>
+    <string name="pref_force_start_title">Prisilni start</string>
+    <string name="pref_force_start_summary_on" >Tiho pokrenite uslugu ismijavanja.</string>
+    <string name="pref_force_start_summary_off">Otvorite aplikaciju kako biste ručno pokrenuli servis za mocking..</string>
+    <string name="pref_trip_duration_seconds_title">Trajanje putovanja (sekunde)).</string>
+    <string name="pref_trip_duration_seconds_summary">Broj sekundi potrebnih za izvođenje simulacije putovanja prije dolaska na odredište:</string>
 </resources>

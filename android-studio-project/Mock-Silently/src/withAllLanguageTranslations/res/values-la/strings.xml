@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Imitare tacite</string>
+    <string name="pref_settings_title">Configurationes</string>
+    <string name="pref_purpose_array_names_1">Positio Fixa</string>
+    <string name="pref_purpose_array_names_2">Locus Itineris</string>
+    <string name="pref_purpose_title">Propositum</string>
+    <string name="pref_purpose_summary">Elige propositum..</string>
+    <string name="pref_force_start_title">Coacta Initiatio</string>
+    <string name="pref_force_start_summary_on" >Tacite incipe ludibrium..</string>
+    <string name="pref_force_start_summary_off">Aperi applicationem ut servitium simulatum manu incipias..</string>
+    <string name="pref_trip_duration_seconds_title">Duratio Itineris (secunda)).</string>
+    <string name="pref_trip_duration_seconds_summary">Numerus secundorum quibus simulatio itineris perficienda est antequam ad metam perveniatur.:</string>
+</resources>

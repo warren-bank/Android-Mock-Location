@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mõnita mu GPS UnifiedNlp Taustaprogramm</string>
-    <string name="locationservice_permission_label">Mõnita mu GPS UnifiedNlp Asukohateenus</string>
-    <string name="locationservice_permission_description">Signature Level luba, nõutav Mock minu GPS /. UnifiedNlp Taustaprogramm.</string>
-    <string name="backendservice_summary">Kasutab \" Mock my GPS" Taustaprogrammi asukoha pakkuja, kui selle teenus on aktiivne.</string>
-    <string name="pref_settings_title">Seadistused</string>
-    <string name="pref_timeadvance_title">Aeg (ms).</string>
-    <string name="pref_timeadvance_summary">Kõigi asukohavärskenduste ajatempliga lisatud millisekundite arv. Piisavalt suur väärtus peaks tagama, et kõik teised taustaprogrammi pakkujad ignoreeritakse pilkumise ajal.:</string>
+    <string name="app_name">Naerata minu üle GPS UnifiedNlp tagapõhi</string>
+    <string name="locationservice_permission_label">Naerata minu üle GPS UnifiedNlp Asukohateenus</string>
+    <string name="locationservice_permission_description">„Signature Level“ õigus, mis on vajalik funktsiooni „Mock my“ kasutamiseks GPS et edastada oma UnifiedNlp tagapõhi.</string>
+    <string name="backendservice_summary">Kasutusalad "Naerata minu üle GPS" tagapõhja asukoha pakkujana, kui teenus on aktiivne.</string>
+    <string name="pref_settings_title">Seaded</string>
+    <string name="pref_timeadvance_title">Aja edasiliikumine (ms).</string>
+    <string name="pref_timeadvance_summary">Kõigi asukoha värskenduste ajamärgile lisatav millisekundite arv. Piisavalt suur väärtus peaks tagama, et kõik teised tagapõhja-teenusepakkujad jäetakse ignoreeritud, kui simulatsioon on aktiivne:</string>
 </resources>

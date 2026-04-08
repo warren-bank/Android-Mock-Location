@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mock Silent</string>
+    <string name="app_name">Lad som om i stilhed</string>
     <string name="pref_settings_title">Indstillinger</string>
-    <string name="pref_purpose_array_names_1">Fast placering</string>
-    <string name="pref_purpose_array_names_2">Trip-destination</string>
+    <string name="pref_purpose_array_names_1">Fast stilling</string>
+    <string name="pref_purpose_array_names_2">Rejsemål</string>
     <string name="pref_purpose_title">Formål</string>
-    <string name="pref_purpose_summary">vælg formål..</string>
-    <string name="pref_force_start_title">Kraftstart</string>
-    <string name="pref_force_start_summary_on" >Start med at starte mocking servicen.</string>
-    <string name="pref_force_start_summary_off">Åbn appen for at starte mocking-servicen manuelt.</string>
-    <string name="pref_trip_duration_seconds_title">Varighed af trip (sekunder).</string>
-    <string name="pref_trip_duration_seconds_summary">Antal sekunder for en tur-simulering, der skal udføres, før du når destinationen:</string>
+    <string name="pref_purpose_summary">Vælg formål..</string>
+    <string name="pref_force_start_title">Tving start</string>
+    <string name="pref_force_start_summary_on" >Start simuleringstjenesten uden at give besked.</string>
+    <string name="pref_force_start_summary_off">Åbn appen for manuelt at starte simuleringstjenesten.</string>
+    <string name="pref_trip_duration_seconds_title">Rejsetid (sekunder)).</string>
+    <string name="pref_trip_duration_seconds_summary">Antal sekunder, en rutesimulering skal køre, før destinationen nås:</string>
 </resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">माझ्यावर मजाक करा GPS UnifiedNlp बॅकएंड</string>
+    <string name="locationservice_permission_label">माझ्यावर मजाक करा GPS UnifiedNlp स्थान सेवा</string>
+    <string name="locationservice_permission_description">मॉक मायसाठी आवश्यक असलेली सिग्नेचर लेव्हल परवानगी GPS त्याच्या स्थान अद्यतनांची माहिती देण्यासाठी UnifiedNlp बॅकएंड.</string>
+    <string name="backendservice_summary">वापर "माझ्यावर मजाक करा GPS" त्याची सेवा सक्रिय असताना बॅकएंड स्थान प्रदात्याप्रमाणे.</string>
+    <string name="pref_settings_title">सेटिंग्ज</string>
+    <string name="pref_timeadvance_title">वेळ आगाऊ (ms).</string>
+    <string name="pref_timeadvance_summary">सर्व स्थान अद्यतनांच्या टाइमस्टँपमध्ये जोडल्या जाणाऱ्या मिलीसेकंदांची संख्या. पुरेशी मोठी मूल्ये असतील तर मॉकिंग सक्रिय असताना इतर सर्व बॅकएंड प्रदात्यांना दुर्लक्षित केले जाईल.:</string>
+</resources>

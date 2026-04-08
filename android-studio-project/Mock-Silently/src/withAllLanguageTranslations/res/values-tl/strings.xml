@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Magkunwari nang Tahimik</string>
+    <string name="pref_settings_title">Mga setting</string>
+    <string name="pref_purpose_array_names_1">Nakafiksing posisyon</string>
+    <string name="pref_purpose_array_names_2">Puntahan ng Biyahe</string>
+    <string name="pref_purpose_title">Layunin</string>
+    <string name="pref_purpose_summary">pumili ng layunin..</string>
+    <string name="pref_force_start_title">Piliting simulan</string>
+    <string name="pref_force_start_summary_on" >Tahimik na simulan ang serbisyo ng mocking..</string>
+    <string name="pref_force_start_summary_off">Buksan ang app upang mano-manong simulan ang serbisyo ng mocking..</string>
+    <string name="pref_trip_duration_seconds_title">Tagal ng Biyahe (segundo)).</string>
+    <string name="pref_trip_duration_seconds_summary">Bilang ng segundo para tumakbo ang simulasyon ng biyahe bago makarating sa destinasyon:</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Vælg mappe, hvor filen skal gemmes</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Vælg et nyt filnavn til JSON data</string>
+  <string name="app_folderpicker_json_import_filepath_description">Vælg den fil, der indeholder den tidligere eksporterede JSON data</string>
+</resources>

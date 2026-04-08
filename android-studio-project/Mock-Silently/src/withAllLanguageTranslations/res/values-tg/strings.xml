@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Бе садо тақлид кунед</string>
+    <string name="pref_settings_title">Танзимот</string>
+    <string name="pref_purpose_array_names_1">Мавқеи доимӣ</string>
+    <string name="pref_purpose_array_names_2">Мақсади сафар</string>
+    <string name="pref_purpose_title">Мақсад</string>
+    <string name="pref_purpose_summary">Мақсадро интихоб кунед..</string>
+    <string name="pref_force_start_title">Оғози маҷбурӣ</string>
+    <string name="pref_force_start_summary_on" >Бе садо хидмати мазҳариро оғоз кунед.</string>
+    <string name="pref_force_start_summary_off">Барномаро кушоед, то хидмати мокингро дастӣ оғоз кунед..</string>
+    <string name="pref_trip_duration_seconds_title">Мӯҳлати сафар (сонияҳо)).</string>
+    <string name="pref_trip_duration_seconds_summary">Шумораи сонияҳо барои иҷрои симулятсияи сафар то расидан ба макон:</string>
+</resources>

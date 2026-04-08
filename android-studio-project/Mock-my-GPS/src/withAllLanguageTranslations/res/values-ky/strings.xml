@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Туурасы, Узундугу">
+  <!ENTITY fixed_position "Туруктуу абал">
+  <!ENTITY trip           "Сапар">
+  <!ENTITY origin         "Башталышы">
+  <!ENTITY destination    "Бара турган жер">
+]>
+<resources>
+    <string name="app_name">Менин макетимди GPS</string>
+    <string name="geo_intent_menu_title">Geo-Intentти колдонуңуз:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Жаңы белги</string>
+    <string name="MainActivity_actionbar_item_1">Белгини сактоо</string>
+    <string name="MainActivity_actionbar_item_2">Белгилөөлөр</string>
+    <string name="MainActivity_actionbar_item_3">Артыкчылыктар</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Симуляция</string>
+    <string name="save_bookmark_menu_title">Сактоо үчүн жайгашкан жер:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Жайгашуусу:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Узактыгы:\n<small>(секунддар)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Кошуу</string>
+    <string name="BookmarksActivity_actionbar_item_2">Колдоо</string>
+    <string name="BookmarksActivity_actionbar_item_3">Калпына келтирүү</string>
+    <string name="open_bookmark_menu_title">Белги үчүн колдонуңуз:</string>
+    <string name="edit_bookmark_field_1">Аты:</string>
+    <string name="edit_bookmark_field_2">Жайгашуусу:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Жалпы</string>
+    <string name="PreferencesActivity_field_1">Убакыт (ms) ар бир жаңыртуунун ортосунда:</string>
+    <string name="PreferencesActivity_field_2">Ордун жалган көрсөтүүнүн жолу:\n<small>(0 = ачык токтотулганга чейин улантуу)</small></string>
+    <string name="PreferencesActivity_field_3">Жойстикти көрсөтүү:</string>
+    <string name="PreferencesActivity_field_4">Джойстик lat/lon өсүү, көбөйүү:</string>
+    <string name="PreferencesActivity_field_5">Бара турган жерди бекем орду катары карма:</string>
+    <string name="label_button_start">Баштоо</string>
+    <string name="label_button_stop">Токто</string>
+    <string name="label_button_update">Жаңыртуу</string>
+    <string name="label_button_cancel">Жоюу</string>
+    <string name="label_button_delete">Өчүрүү</string>
+    <string name="label_button_save">Сактоо</string>
+    <string name="error_geo_intent">Гео ниетти талдай алган жок \'%s\'.</string>
+    <string name="error_number_format">Санды талдай алган жок \'%s\'.</string>
+    <string name="error_location_format">Жайгашкан жерди талдай алган жок \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Белгилейчи буга чейин эле бар \'%s\'.</string>
+    <string name="error_missing_required_value">Каттоо: Милдеттүү мааниси жок</string>
+    <string name="error_add_bookmarkitem">Каттоо: Жаңы белгини кошо алган жок</string>
+    <string name="notification_service_ticker">Менин макетимди GPS: Жүгүрүү</string>
+    <string name="notification_service_content_line1">Менин макетимди GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Ачуу үчүн чыкылдатыңыз. Токтотуу үчүн четке какыңыз..</string>
+    -->
+    <string name="notification_service_content_line2">Ачуу үчүн чыкылдатыңыз.</string>
+</resources>

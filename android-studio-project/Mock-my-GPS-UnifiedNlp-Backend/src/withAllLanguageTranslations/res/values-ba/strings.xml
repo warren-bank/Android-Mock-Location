@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Минеке итеп көл GPS UnifiedNlp Артҡы яҡ</string>
+    <string name="locationservice_permission_label">Минеке итеп көл GPS UnifiedNlp Урын хеҙмәте</string>
+    <string name="locationservice_permission_description">Signature Level рөхсәте, Mock my өсөн талап ителә GPS үҙенең урын буйынса яңыртыуҙарҙы тәьмин итеү өсөн UnifiedNlp Артҡы яҡ.</string>
+    <string name="backendservice_summary">Ҡулланыуҙары "Минеке итеп көл GPS" Уның хеҙмәте актив булған ваҡытта артҡы план урын тәьмин итеүсе булараҡ.</string>
+    <string name="pref_settings_title">Көйләүҙәр</string>
+    <string name="pref_timeadvance_title">Ваҡыт алдан барыуы (ms).</string>
+    <string name="pref_timeadvance_summary">Барлыҡ урын яңыртыуҙарының ваҡыт штамбына өҫтәлә торған миллисекундтар һаны. Етерлек ҙур ҡиммәт mocking актив булған ваҡытта башҡа бөтә бэкенд-провайдерҙарҙы иғтибарға алмауын тәьмин итергә тейеш.:</string>
+</resources>

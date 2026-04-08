@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kosɛka na kimya</string>
+    <string name="pref_settings_title">Bongiseli</string>
+    <string name="pref_purpose_array_names_1">Position ya kokangama</string>
+    <string name="pref_purpose_array_names_2">Esika ya mobembo</string>
+    <string name="pref_purpose_title">Ntina</string>
+    <string name="pref_purpose_summary">Pona ntina..</string>
+    <string name="pref_force_start_title">Kobanda na makasi</string>
+    <string name="pref_force_start_summary_on" >Banda na kimya service ya komeka..</string>
+    <string name="pref_force_start_summary_off">Fungola application mpo na kobanda na maboko service ya mocking..</string>
+    <string name="pref_trip_duration_seconds_title">Molayi ya mobembo (ba segɔnde)).</string>
+    <string name="pref_trip_duration_seconds_summary">Motango ya ba segonde mpo simulation ya mobembo esala liboso ya kokoma na esika ya kokende.:</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Zgjidhni dosjen për të ruajtur skedarin</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Zgjidhni një emër të ri për skedarin JSON të dhëna</string>
+  <string name="app_folderpicker_json_import_filepath_description">Zgjidhni skedarin që përmban të eksportuarit më parë JSON të dhëna</string>
+</resources>

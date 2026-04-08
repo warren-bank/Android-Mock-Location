@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">اختر المجلد الذي تريد حفظ الملف فيه</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">اختر اسمًا جديدًا لملف JSON البيانات</string>
+  <string name="app_folderpicker_json_import_filepath_description">اختر الملف الذي يحتوي على البيانات التي تم تصديرها مسبقًا JSON البيانات</string>
+</resources>

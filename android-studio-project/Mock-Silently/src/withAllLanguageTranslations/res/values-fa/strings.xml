@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ماکت به‌صورت بی‌صدا</string>
+    <string name="pref_settings_title">تنظیمات</string>
+    <string name="pref_purpose_array_names_1">موقعیت ثابت</string>
+    <string name="pref_purpose_array_names_2">مقصد سفر</string>
+    <string name="pref_purpose_title">هدف</string>
+    <string name="pref_purpose_summary">هدف را انتخاب کنید..</string>
+    <string name="pref_force_start_title">شروع اجباری</string>
+    <string name="pref_force_start_summary_on" >به صورت بی‌صدا سرویس Mocking را راه‌اندازی کنید.</string>
+    <string name="pref_force_start_summary_off">اپلیکیشن را باز کنید تا سرویس ماکینگ را به‌صورت دستی راه‌اندازی کنید..</string>
+    <string name="pref_trip_duration_seconds_title">مدت سفر (ثانیه‌ها)).</string>
+    <string name="pref_trip_duration_seconds_summary">تعداد ثانیه‌ها برای اجرای شبیه‌سازی سفر تا رسیدن به مقصد:</string>
+</resources>

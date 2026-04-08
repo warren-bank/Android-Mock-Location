@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Moc meum GPS UnifiedNlp Apparatus posterior</string>
+    <string name="locationservice_permission_label">Moc meum GPS UnifiedNlp Ministerium Loci</string>
+    <string name="locationservice_permission_description">Permissus Gradus Signaturae, ad Mock my necessarius. GPS ut loci renuntiationes eius UnifiedNlp Apparatus posterior.</string>
+    <string name="backendservice_summary">Usus "Moc meum GPS" ut praebitor loci posticius dum eius ministerium activum est.</string>
+    <string name="pref_settings_title">Configurationes</string>
+    <string name="pref_timeadvance_title">Tempus Praemissum (ms).</string>
+    <string name="pref_timeadvance_summary">Numerus millisecundorum ad notam temporis omnium renovationum loci addendorum. Valorem satis magnum curare debet ut omnes alii praebitores postici neglegantur dum simulatio activa est.:</string>
+</resources>

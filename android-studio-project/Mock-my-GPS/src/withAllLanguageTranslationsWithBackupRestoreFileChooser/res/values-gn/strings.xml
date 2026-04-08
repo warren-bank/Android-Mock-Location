@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Eiporavo karpéta eñongatu hag̃ua pe vore</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Eiporavo téra pyahu vore\'rãme guarã JSON marandu</string>
+  <string name="app_folderpicker_json_import_filepath_description">Eiporavo pe vore oguerekóva umi oñembohasava\'ekue ymave. JSON marandu</string>
+</resources>

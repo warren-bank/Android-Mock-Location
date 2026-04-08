@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Тынып көл</string>
+    <string name="pref_settings_title">Көйләүҙәр</string>
+    <string name="pref_purpose_array_names_1">Төҙәтелгән позиция</string>
+    <string name="pref_purpose_array_names_2">Сәфәр маҡсаты</string>
+    <string name="pref_purpose_title">Мәҡсәт</string>
+    <string name="pref_purpose_summary">Максатты һайла..</string>
+    <string name="pref_force_start_title">Мәжбүрләп башлау</string>
+    <string name="pref_force_start_summary_on" >Тыныс ҡына макировкалау хеҙмәтен эшләтеп ебәрегеҙ.</string>
+    <string name="pref_force_start_summary_off">Мокинг хеҙмәтен ҡулдан эшләтеп ебәреү өсөн ҡушымтаны асығыҙ..</string>
+    <string name="pref_trip_duration_seconds_title">Сәфәр ваҡыты (секундтар)).</string>
+    <string name="pref_trip_duration_seconds_summary">Мәҡсәткә барып етеүгә тиклем сәйәхәт симуляцияһын эшләтеү өсөн секундтар һаны:</string>
+</resources>

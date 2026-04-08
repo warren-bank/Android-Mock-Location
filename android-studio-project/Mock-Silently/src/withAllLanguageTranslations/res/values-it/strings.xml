@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mock Silente</string>
+    <string name="app_name">Prendi in giro in silenzio</string>
     <string name="pref_settings_title">Impostazioni</string>
     <string name="pref_purpose_array_names_1">Posizione fissa</string>
-    <string name="pref_purpose_array_names_2">Destinazione Viaggio</string>
-    <string name="pref_purpose_title">Finalità</string>
-    <string name="pref_purpose_summary">scegliere scopo..</string>
-    <string name="pref_force_start_title">Inizio della forza</string>
-    <string name="pref_force_start_summary_on" >Avvia silenziosamente il servizio di mocking.</string>
-    <string name="pref_force_start_summary_off">Aprire l\'app per avviare manualmente il servizio di mocking.</string>
-    <string name="pref_trip_duration_seconds_title">Durata Viaggio (secondi).</string>
-    <string name="pref_trip_duration_seconds_summary">Numero di secondi per una simulazione di viaggio da eseguire prima di raggiungere la destinazione:</string>
+    <string name="pref_purpose_array_names_2">Destinazione del viaggio</string>
+    <string name="pref_purpose_title">Scopo</string>
+    <string name="pref_purpose_summary">scegli lo scopo..</string>
+    <string name="pref_force_start_title">Avvio forzato</string>
+    <string name="pref_force_start_summary_on" >Avvia il servizio di simulazione in modo silenzioso.</string>
+    <string name="pref_force_start_summary_off">Apri l\'app per avviare manualmente il servizio di simulazione.</string>
+    <string name="pref_trip_duration_seconds_title">Durata del viaggio (secondi)).</string>
+    <string name="pref_trip_duration_seconds_summary">Numero di secondi di esecuzione della simulazione di un viaggio prima di raggiungere la destinazione:</string>
 </resources>

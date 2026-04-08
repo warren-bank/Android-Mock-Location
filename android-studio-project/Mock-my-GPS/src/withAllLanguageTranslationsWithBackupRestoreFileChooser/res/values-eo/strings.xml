@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Elektu dosierujon por konservi dosieron</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Elektu novan dosiernomon por JSON datumoj</string>
+  <string name="app_folderpicker_json_import_filepath_description">Elektu dosieron enhavantan antaŭe eksportitan. JSON datumoj</string>
+</resources>

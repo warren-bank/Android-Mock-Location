@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">קלײַבט אויס אַ פֿאַפּקע צו אָפּהיטן די טעקע</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">קלײַבט אויס אַ נײַעם טעקע־נאָמען פֿאַר JSON דאַטן</string>
+  <string name="app_folderpicker_json_import_filepath_description">קלײַבט אויס די טעקע וואָס אַנטהאַלט די פֿריִערדיקע עקספּאָרטירטע JSON דאַטן</string>
+</resources>

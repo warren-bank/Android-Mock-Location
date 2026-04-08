@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kpọọ ihe m n\'ọchị GPS UnifiedNlp Akụkụ azụ</string>
+    <string name="locationservice_permission_label">Kpọọ ihe m n\'ọchị GPS UnifiedNlp Ọrụ Ọnọdụ</string>
+    <string name="locationservice_permission_description">Ikike ọkwa akara, a chọrọ maka ịgba egwu Mock my GPS iji nye mmelite ebe ọ nọ nye ya UnifiedNlp Akụkụ azụ.</string>
+    <string name="backendservice_summary">Ojiji "Kpọọ ihe m n\'ọchị GPS" dị ka onye na-enye ebe ndabere mgbe ọrụ ya na-aga n\'ihu.</string>
+    <string name="pref_settings_title">Ntọala</string>
+    <string name="pref_timeadvance_title">Oge gara n\'ihu (ms).</string>
+    <string name="pref_timeadvance_summary">Ọnụọgụ millisekọnd ka e gbakwunyere na akara oge nke mmelite ebe niile. Ọnụọgụ zuru oke ga-eme ka a ghara ịtụle ndị na-enye ọrụ azụ ndị ọzọ mgbe a na-eme mocking.:</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ծաղրիր իմ GPS UnifiedNlp Հետնամաս</string>
+    <string name="locationservice_permission_label">Ծաղրիր իմ GPS UnifiedNlp Տեղորոշման ծառայություն</string>
+    <string name="locationservice_permission_description">Signature Level թույլտվություն, որը պահանջվում է Mock my-ի համար GPS իր գտնվելու վայրի թարմացումները տրամադրելու համար UnifiedNlp Հետնամաս.</string>
+    <string name="backendservice_summary">Օգտագործումներ "Ծաղրիր իմ GPS" որպես բեքենդի գտնվելու վայրի մատակարար, երբ դրա ծառայությունը ակտիվ է.</string>
+    <string name="pref_settings_title">Կարգավորումներ</string>
+    <string name="pref_timeadvance_title">Ժամանակի կանխավճարում (ms).</string>
+    <string name="pref_timeadvance_summary">Բոլոր տեղանքի թարմացումների ժամանակագրական դրոշմանիշին ավելացվող միլիվայրկյանների քանակը։ Բավականաչափ մեծ արժեքը պետք է ապահովի, որ մյուս բոլոր բեքենդ մատակարարները անտեսվեն, երբ մոքինգը ակտիվ է։:</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Ledred, Hedred">
+  <!ENTITY fixed_position "Post fiks">
+  <!ENTITY trip           "Beaj">
+  <!ENTITY origin         "Orin">
+  <!ENTITY destination    "Pal">
+]>
+<resources>
+    <string name="app_name">Fentit ma GPS</string>
+    <string name="geo_intent_menu_title">Implijit Geo-Intent evit:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Merker nevez</string>
+    <string name="MainActivity_actionbar_item_1">Enrollañ ar merker</string>
+    <string name="MainActivity_actionbar_item_2">Merkoù-pajenn</string>
+    <string name="MainActivity_actionbar_item_3">Penndibaboù</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Eilañ</string>
+    <string name="save_bookmark_menu_title">Lec\'h da enrollañ:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Lec\'hiadur:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Pad:\n<small>(Eilennoù)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Ouzhpennañ</string>
+    <string name="BookmarksActivity_actionbar_item_2">Eilskrid</string>
+    <string name="BookmarksActivity_actionbar_item_3">Adsevel</string>
+    <string name="open_bookmark_menu_title">Implijout ur merker pajenn evit:</string>
+    <string name="edit_bookmark_field_1">Titl:</string>
+    <string name="edit_bookmark_field_2">Lec\'hiadur:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Hollek</string>
+    <string name="PreferencesActivity_field_1">Amzer (ms) etre pep hizivadur:</string>
+    <string name="PreferencesActivity_field_2">Niver a wechoù da flemmerezhiñ al lec\'h:\n<small>(0 = kenderc\'hel betek bezañ paouezet ez-resis)</small></string>
+    <string name="PreferencesActivity_field_3">Diskouez ar joystick:</string>
+    <string name="PreferencesActivity_field_4">Bazh-stur lat/lon Kresk:</string>
+    <string name="PreferencesActivity_field_5">Dalc\'h ar pal evel ur savlec\'h fiks:</string>
+    <string name="label_button_start">Kregiñ</string>
+    <string name="label_button_stop">Chom a-sav</string>
+    <string name="label_button_update">Hizivadur</string>
+    <string name="label_button_cancel">Diverkañ</string>
+    <string name="label_button_delete">Dilemel</string>
+    <string name="label_button_save">Enrollañ</string>
+    <string name="error_geo_intent">N\'eus ket bet tu da zisplegañ ar mennad douaroniel. \'%s\'.</string>
+    <string name="error_number_format">N\'haller ket dielfennañ an niverenn \'%s\'.</string>
+    <string name="error_location_format">N\'haller ket dielfennañ al lec\'h \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Ur merker zo dija \'%s\'.</string>
+    <string name="error_missing_required_value">Fazi : Tizh an talvoud ret</string>
+    <string name="error_add_bookmarkitem">Fazi : N\'haller ket ouzhpennañ ur merker nevez.</string>
+    <string name="notification_service_ticker">Fentit ma GPS: redek</string>
+    <string name="notification_service_content_line1">Fentit ma GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Klikit evit digeriñ. Klikit evit paouez..</string>
+    -->
+    <string name="notification_service_content_line2">Klikit evit digeriñ.</string>
+</resources>

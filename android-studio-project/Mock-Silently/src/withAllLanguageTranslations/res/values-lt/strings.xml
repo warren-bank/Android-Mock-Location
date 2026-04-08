@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mock Silently</string>
+    <string name="app_name">Tyliai pasijuok</string>
     <string name="pref_settings_title">Nustatymai</string>
-    <string name="pref_purpose_array_names_1">Fiksuota Pozicija</string>
-    <string name="pref_purpose_array_names_2">Reiso paskirties vieta</string>
-    <string name="pref_purpose_title">2 straipsnis</string>
-    <string name="pref_purpose_summary">Pasirinkite paskirtį..</string>
-    <string name="pref_force_start_title">Jėgos pradžia</string>
-    <string name="pref_force_start_summary_on" >Tyliai pradėti mocking paslaugą.</string>
-    <string name="pref_force_start_summary_off">Atverti programėlę rankiniu būdu pradėti mocking paslaugą.</string>
-    <string name="pref_trip_duration_seconds_title">Reiso trukmė (sekundės)).</string>
-    <string name="pref_trip_duration_seconds_summary">Kelių sekundžių, kai imitavimas atliekamas prieš pasiekiant paskirties vietą, skaičius:</string>
+    <string name="pref_purpose_array_names_1">Nuolatinė darbo vieta</string>
+    <string name="pref_purpose_array_names_2">Kelionės tikslas</string>
+    <string name="pref_purpose_title">Tikslas</string>
+    <string name="pref_purpose_summary">pasirinkite paskirtį..</string>
+    <string name="pref_force_start_title">Priverstinis paleidimas</string>
+    <string name="pref_force_start_summary_on" >Tyliai paleiskite imitavimo paslaugą.</string>
+    <string name="pref_force_start_summary_off">Atidarykite programėlę, kad rankiniu būdu paleistumėte imitavimo paslaugą.</string>
+    <string name="pref_trip_duration_seconds_title">Kelionės trukmė (sekundės)).</string>
+    <string name="pref_trip_duration_seconds_summary">Sekundžių skaičius, per kurį turi vykti kelionės modeliavimas iki pasiekimo kelionės tikslo:</string>
 </resources>

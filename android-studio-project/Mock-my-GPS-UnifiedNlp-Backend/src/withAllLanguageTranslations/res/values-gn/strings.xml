@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Eñembohory che rehe GPS UnifiedNlp Tembiporu ryepypegua</string>
+    <string name="locationservice_permission_label">Eñembohory che rehe GPS UnifiedNlp Tenda Sãmbyhy</string>
+    <string name="locationservice_permission_description">Permiso Nivel Signature, oñeikotevẽva Mock my-pe g̃uarã GPS ome\'ẽ hag̃ua marandu pyahu ijyvy rehegua UnifiedNlp Tembiporu ryepypegua.</string>
+    <string name="backendservice_summary">Mba\'épa ojeporu hag̃ua "Eñembohory che rehe GPS" Tenda myakãhara tapykueguáramo, hembiapo oikove aja.</string>
+    <string name="pref_settings_title">Mbohekorã</string>
+    <string name="pref_timeadvance_title">Ára tenonderã (ms).</string>
+    <string name="pref_timeadvance_summary">Milisegundo papapy oñemoĩva opaite tenda ñembopyahupy arapapahápe. Peteĩ valor tuicháva oñangarekóta ani hag̃ua ojeipuru umi ambue proveedor backend-pegua, oñembosarái aja.:</string>
+</resources>

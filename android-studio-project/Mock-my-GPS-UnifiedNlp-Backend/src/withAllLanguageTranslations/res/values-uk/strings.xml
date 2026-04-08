@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Смій мій GPS UnifiedNlp Сервер</string>
-    <string name="locationservice_permission_label">Смій мій GPS UnifiedNlp Служба розташування</string>
-    <string name="locationservice_permission_description">Дозвіл на рівень підпису, потрібний для Mock my GPS щоб надати оновлення location UnifiedNlp Сервер.</string>
-    <string name="backendservice_summary">Використовує \" Mock my GPS" у якості постачальника послуг сервера, у той час як його служба активна.</string>
-    <string name="pref_settings_title">ПараметриName</string>
-    <string name="pref_timeadvance_title">Час Advance (ms).</string>
-    <string name="pref_timeadvance_summary">Кількість мілісекунд, доданих до часу всіх оновлень на місці розташування. Достатньо велике значення має гарантувати, що всі інші постачальники серверів буде проігноровано під час активної програми.:</string>
+    <string name="app_name">Насміхайся з мене GPS UnifiedNlp Серверна частина</string>
+    <string name="locationservice_permission_label">Насміхайся з мене GPS UnifiedNlp Служба визначення місцезнаходження</string>
+    <string name="locationservice_permission_description">Дозвіл рівня «Підпис», необхідний для Mock my GPS щоб надавати оновлення про місцезнаходження своїм UnifiedNlp Серверна частина.</string>
+    <string name="backendservice_summary">Використання "Насміхайся з мене GPS" як постачальник даних про місцезнаходження на серверній стороні, поки його служба активна.</string>
+    <string name="pref_settings_title">Налаштування</string>
+    <string name="pref_timeadvance_title">Перехід у майбутнє (ms).</string>
+    <string name="pref_timeadvance_summary">Кількість мілісекунд, що додається до часової мітки всіх оновлень місцезнаходження. Достатньо велике значення має гарантувати, що всі інші серверні провайдери ігноруватимуться, поки активна імітація:</string>
 </resources>

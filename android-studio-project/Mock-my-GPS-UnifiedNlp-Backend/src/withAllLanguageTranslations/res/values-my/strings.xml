@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ငါ့ကို မော့ခ် GPS UnifiedNlp နောက်ခံစနစ်</string>
+    <string name="locationservice_permission_label">ငါ့ကို မော့ခ် GPS UnifiedNlp တည်နေရာဝန်ဆောင်မှု</string>
+    <string name="locationservice_permission_description">Signature Level ခွင့်ပြုချက်သည် Mock my အတွက် လိုအပ်ပါသည်။ GPS ၎င်း၏ တည်နေရာအပ်ဒိတ်များကို ပံ့ပိုးပေးရန် UnifiedNlp နောက်ခံစနစ်.</string>
+    <string name="backendservice_summary">အသုံးပြုမှုများ "ငါ့ကို မော့ခ် GPS" ၎င်း၏ဝန်ဆောင်မှု လည်ပတ်နေစဉ် နောက်ခံ တည်နေရာ ပံ့ပိုးပေးသူအဖြစ်.</string>
+    <string name="pref_settings_title">ဆက်တင်များ</string>
+    <string name="pref_timeadvance_title">အချိန်ကြိုတင်ပေးပို့ခြင်း (ms).</string>
+    <string name="pref_timeadvance_summary">တည်နေရာအပ်ဒိတ်အားလုံး၏ အချိန်တံဆိပ် (timestamp) သို့ ထည့်သွင်းမည့် မီလီစက္ကန့်အရေအတွက်။ mocking လုပ်ဆောင်နေစဉ်အတွင်း အခြား backend ပံ့ပိုးသူများအားလုံးကို မထည့်သွင်းစဉ်းစားနိုင်ရန် လုံလောက်သော တန်ဖိုးတစ်ခုထားရှိသင့်သည်။:</string>
+</resources>

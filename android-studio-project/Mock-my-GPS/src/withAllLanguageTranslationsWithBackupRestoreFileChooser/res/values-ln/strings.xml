@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Pona dosié mpo na kobomba fisyé</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Pona kombo ya sika ya fisyé. JSON bansango</string>
+  <string name="app_folderpicker_json_import_filepath_description">Pona fisyɛ oyo ezali na biloko oyo ebimisamaki liboso. JSON bansango</string>
+</resources>

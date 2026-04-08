@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Парадирај тивко</string>
+    <string name="pref_settings_title">Поставки</string>
+    <string name="pref_purpose_array_names_1">Фиксна позиција</string>
+    <string name="pref_purpose_array_names_2">Дестинација на патувањето</string>
+    <string name="pref_purpose_title">Намена</string>
+    <string name="pref_purpose_summary">избери цел..</string>
+    <string name="pref_force_start_title">Принусно стартување</string>
+    <string name="pref_force_start_summary_on" >Тивко започнете ја сервисот за исмејување.</string>
+    <string name="pref_force_start_summary_off">Отворете ја апликацијата за рачно да го стартувате сервисот за мокирање..</string>
+    <string name="pref_trip_duration_seconds_title">Времетраење на патувањето (секунди)).</string>
+    <string name="pref_trip_duration_seconds_summary">Број на секунди за извршување на симулацијата на патувањето пред да се стигне до дестинацијата:</string>
+</resources>

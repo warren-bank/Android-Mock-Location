@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Imitar en silencio</string>
+    <string name="pref_settings_title">Aconfiguracions</string>
+    <string name="pref_purpose_array_names_1">Posición fixa</string>
+    <string name="pref_purpose_array_names_2">Destín d\'o viache</string>
+    <string name="pref_purpose_title">Propósito</string>
+    <string name="pref_purpose_summary">trigar proposito..</string>
+    <string name="pref_force_start_title">Arranque forzau</string>
+    <string name="pref_force_start_summary_on" >Encetar silenciosament o servicio de burla..</string>
+    <string name="pref_force_start_summary_off">Ubra l\'aplicación pa encetar manualment o servicio de simulación..</string>
+    <string name="pref_trip_duration_seconds_title">Durada d\'o viache (segundos)).</string>
+    <string name="pref_trip_duration_seconds_summary">Numero de segundos que tarda una simulación de viache en arribar a la destinación.:</string>
+</resources>

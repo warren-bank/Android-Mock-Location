@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mock mo GPS UnifiedNlp Inneall:</string>
-    <string name="locationservice_permission_label">Mock mo GPS UnifiedNlp Seirbhís Suímh</string>
-    <string name="locationservice_permission_description">Síniú Leibhéal Síniú, ag teastáil le haghaidh Mock mo GPS a chur ar fáil nuashonruithe ar an suíomh UnifiedNlp Inneall:.</string>
-    <string name="backendservice_summary">Úsáidí \" Mock mo GPS" mar inneall suíomh backend cé go bhfuil a sheirbhís gníomhach.</string>
+    <string name="app_name">Déan magadh fúm GPS UnifiedNlp Cúlchóras</string>
+    <string name="locationservice_permission_label">Déan magadh fúm GPS UnifiedNlp Seirbhís Suímh</string>
+    <string name="locationservice_permission_description">Ceadú Leibhéal Síniú, riachtanach do Aithris mo GPS nuashonruithe suímh a sholáthar dá UnifiedNlp Cúlchóras.</string>
+    <string name="backendservice_summary">Úsáidí "Déan magadh fúm GPS" mar sholáthraí suímh chúl-eagair fad is atá a sheirbhís gníomhach.</string>
     <string name="pref_settings_title">Socruithe</string>
-    <string name="pref_timeadvance_title">Réamhairleacan Ama (ms).</string>
-    <string name="pref_timeadvance_summary">Líon na milleasoicindí a chuirtear le uainemp ar gach dáta suímh suíomh. Ba chóir go leor luach go leor ba chóir a chinntiú go bhfuil gach soláthraithe eile ar a dtugtar neamhaird le linn go bhfuil mocking gníomhach:</string>
+    <string name="pref_timeadvance_title">Réamhíocaíocht ama (ms).</string>
+    <string name="pref_timeadvance_summary">Líon na milleasoicindí a chuirtear le stampa ama gach nuashonraithe suímh. Ba cheart do luach mór go leor a chinntiú go ndéantar neamhaird de gach soláthraí cúlra eile fad is a bhíonn an bréag-shamhaltú gníomhach.:</string>
 </resources>

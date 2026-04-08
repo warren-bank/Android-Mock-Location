@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "অক্ষাংশ, দ্রাঘিমাংশ">
+  <!ENTITY fixed_position "স্থায়ী পদ">
+  <!ENTITY trip           "ভ্ৰমণ">
+  <!ENTITY origin         "উৎপত্তি">
+  <!ENTITY destination    "গন্তব্যস্থান">
+]>
+<resources>
+    <string name="app_name">মোৰ ওপৰত উপহাস কৰা GPS</string>
+    <string name="geo_intent_menu_title">জিঅ\'-ইন্টেণ্ট ব্যৱহাৰ কৰক:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">নতুন বুকমাৰ্ক</string>
+    <string name="MainActivity_actionbar_item_1">বুকমাৰ্ক সংৰক্ষণ কৰক</string>
+    <string name="MainActivity_actionbar_item_2">বুকমাৰ্কসমূহ</string>
+    <string name="MainActivity_actionbar_item_3">পছন্দসমূহ</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; অনুকৰণ</string>
+    <string name="save_bookmark_menu_title">সংৰক্ষণ কৰিবলগীয়া স্থান:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">অৱস্থান:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">অবধি:\n<small>(ছেকেণ্ড)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">যোগ কৰক</string>
+    <string name="BookmarksActivity_actionbar_item_2">বেকআপ</string>
+    <string name="BookmarksActivity_actionbar_item_3">পুনৰুদ্ধাৰ</string>
+    <string name="open_bookmark_menu_title">বুকমাৰ্ক ব্যৱহাৰ কৰক:</string>
+    <string name="edit_bookmark_field_1">শিৰোনাম:</string>
+    <string name="edit_bookmark_field_2">অৱস্থান:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">সাধাৰণ</string>
+    <string name="PreferencesActivity_field_1">সময় (ms) প্ৰতিটো আপডেটৰ মাজত:</string>
+    <string name="PreferencesActivity_field_2">অৱস্থান নকল কৰাৰ সংখ্যা:\n<small>(০ = স্পষ্টভাৱে বন্ধ নকৰালৈকে অব্যাহত ৰাখক)</small></string>
+    <string name="PreferencesActivity_field_3">জয়ষ্টিক দেখুৱাওক:</string>
+    <string name="PreferencesActivity_field_4">জয়ষ্টিক lat/lon বৃদ্ধি:</string>
+    <string name="PreferencesActivity_field_5">গন্তব্যস্থানক স্থিৰ অৱস্থান হিচাপে ধৰি ৰাখক:</string>
+    <string name="label_button_start">আৰম্ভ কৰক</string>
+    <string name="label_button_stop">ৰ\'ব</string>
+    <string name="label_button_update">আপডেট</string>
+    <string name="label_button_cancel">বাতিল কৰক</string>
+    <string name="label_button_delete">মচি পেলাওক</string>
+    <string name="label_button_save">সংৰক্ষণ কৰক</string>
+    <string name="error_geo_intent">জিঅ\' উদ্দেশ্য বিশ্লেষণ কৰিব নোৱাৰিল \'%s\'.</string>
+    <string name="error_number_format">সংখ্যাটো বিশ্লেষণ কৰিব পৰা নগ\'ল \'%s\'.</string>
+    <string name="error_location_format">অৱস্থান বিশ্লেষণ কৰিব পৰা নগ\'ল \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">বুকমাৰ্ক ইতিমধ্যে আছে \'%s\'.</string>
+    <string name="error_missing_required_value">ত্ৰুটি: প্ৰয়োজনীয় মান অনুপস্থিত</string>
+    <string name="error_add_bookmarkitem">ত্ৰুটি: নতুন বুকমাৰ্ক যোগ কৰিব পৰা নগ\'ল</string>
+    <string name="notification_service_ticker">মোৰ ওপৰত উপহাস কৰা GPS: দৌৰি</string>
+    <string name="notification_service_content_line1">মোৰ ওপৰত উপহাস কৰা GPS</string>
+    <!--
+    <string name="notification_service_content_line2">খুলিবলৈ ক্লিক কৰক। বন্ধ কৰিবলৈ বাতিল কৰক.</string>
+    -->
+    <string name="notification_service_content_line2">খুলিবলৈ ক্লিক কৰক.</string>
+</resources>

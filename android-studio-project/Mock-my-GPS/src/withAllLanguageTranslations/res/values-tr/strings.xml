@@ -2,55 +2,57 @@
 <!DOCTYPE resources [
   <!ENTITY lat_lon        "Enlem, Boylam">
   <!ENTITY fixed_position "Sabit Konum">
-  <!ENTITY trip           "Seyahat">
-  <!ENTITY origin         "Çıkış Noktası">
+  <!ENTITY trip           "Gezi">
+  <!ENTITY origin         "Kaynak">
   <!ENTITY destination    "Hedef">
 ]>
 <resources>
-    <string name="app_name">Benimle alay et GPS</string>
-    <string name="geo_intent_menu_title">Kullanım İçin Geo-Intent Kullan:</string>
+    <string name="app_name">Benimle dalga geç GPS</string>
+    <string name="geo_intent_menu_title">Geo-Intent\'i şu amaçlarla kullanın:</string>
     <string name="geo_intent_option_1">&fixed_position;</string>
     <string name="geo_intent_option_2">&trip; - &origin;</string>
     <string name="geo_intent_option_3">&trip; - &destination;</string>
     <string name="geo_intent_option_4">Yeni Yer İşareti</string>
-    <string name="MainActivity_actionbar_item_1">Yer İmi</string>
-    <string name="MainActivity_actionbar_item_2">Yer İşaretleri</string>
+    <string name="MainActivity_actionbar_item_1">Yer imine ekle</string>
+    <string name="MainActivity_actionbar_item_2">Yer imleri</string>
     <string name="MainActivity_actionbar_item_3">Tercihler</string>
     <string name="MainActivity_tab_1_label">&fixed_position;</string>
-    <string name="MainActivity_tab_2_label">&trip; Benzetim</string>
+    <string name="MainActivity_tab_2_label">&trip; Simülasyon</string>
     <string name="save_bookmark_menu_title">Kaydedilecek Konum:</string>
     <string name="save_bookmark_option_1">&origin;</string>
     <string name="save_bookmark_option_2">&destination;</string>
-    <string name="FixedPositionActivity_field_1">Yer:\n<small>(&lat_lon;)</small></string>
+    <string name="FixedPositionActivity_field_1">Konum:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_3">Süre:\n<small>(saniye)</small></string>
     <string name="BookmarksActivity_actionbar_item_1">Ekle</string>
-    <string name="open_bookmark_menu_title">Yer Işaretini Kullan:</string>
-    <string name="edit_bookmark_field_1">Unvan:</string>
-    <string name="edit_bookmark_field_2">Yer:\n<small>(&lat_lon;)</small></string>
+    <string name="BookmarksActivity_actionbar_item_2">Yedekleme</string>
+    <string name="BookmarksActivity_actionbar_item_3">Geri yükle</string>
+    <string name="open_bookmark_menu_title">Yer imini şunun için kullan:</string>
+    <string name="edit_bookmark_field_1">Başlık:</string>
+    <string name="edit_bookmark_field_2">Konum:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Genel</string>
-    <string name="PreferencesActivity_field_1">Saat (ms) her güncelleme arasında:</string>
-    <string name="PreferencesActivity_field_2">İkame konularının kaç kez:\n<small>(0 = belirtik olarak durduruluncaya kadar devam et)</small></string>
-    <string name="PreferencesActivity_field_3">Koşu çubuğunu göster:</string>
-    <string name="PreferencesActivity_field_4">Joystick lat/lon artır:</string>
-    <string name="PreferencesActivity_field_5">Hedefi sabit konum olarak tut:</string>
-    <string name="label_button_start">BAŞLA</string>
-    <string name="label_button_stop">DURDUR</string>
-    <string name="label_button_update">GÜNCELLE</string>
-    <string name="label_button_cancel">CANCEL</string>
+    <string name="PreferencesActivity_field_1">Zaman (ms) her güncelleme arasında:</string>
+    <string name="PreferencesActivity_field_2">Konumun simüle edileceği sayı:\n<small>(0 = açıkça durdurulana kadar devam et)</small></string>
+    <string name="PreferencesActivity_field_3">Joystick\'i göster:</string>
+    <string name="PreferencesActivity_field_4">Joystick lat/lon artış:</string>
+    <string name="PreferencesActivity_field_5">Hedefi sabit konumda tut:</string>
+    <string name="label_button_start">BAŞLAT</string>
+    <string name="label_button_stop">DUR</string>
+    <string name="label_button_update">GÜNCELLEME</string>
+    <string name="label_button_cancel">İPTAL ET</string>
     <string name="label_button_delete">SİL</string>
-    <string name="label_button_save">SAKLA</string>
-    <string name="error_geo_intent">Geo amacı ayrıştırılamadı \'%s\'.</string>
-    <string name="error_number_format">Sayı ayrıştırılamadı \'%s\'.</string>
-    <string name="error_location_format">Yer ayrıştırılamadı \'%s\'.</string>
-    <string name="error_bookmarkitem_exists">Yer işareti zaten var \'%s\'.</string>
-    <string name="error_missing_required_value">Hata: Gerekli Değer Eksik</string>
+    <string name="label_button_save">KAYDET</string>
+    <string name="error_geo_intent">Coğrafi niyet ayrıştırılamadı \'%s\'.</string>
+    <string name="error_number_format">Sayı çözümlenemedi \'%s\'.</string>
+    <string name="error_location_format">Konum ayrıştırılamadı \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Yer imi zaten mevcut \'%s\'.</string>
+    <string name="error_missing_required_value">Hata: Gerekli değer eksik</string>
     <string name="error_add_bookmarkitem">Hata: Yeni yer imi eklenemedi</string>
-    <string name="notification_service_ticker">Benimle alay et GPS: çalışıyor</string>
-    <string name="notification_service_content_line1">Benimle alay et GPS</string>
+    <string name="notification_service_ticker">Benimle dalga geç GPS: koşmak</string>
+    <string name="notification_service_content_line1">Benimle dalga geç GPS</string>
     <!--
-    <string name="notification_service_content_line2">Açmak için tıklatın. Durdurmak için serbest bırakın.</string>
+    <string name="notification_service_content_line2">Tıklayarak açın. Kapatmak için burayı tıklayın.</string>
     -->
-    <string name="notification_service_content_line2">Açmak için tıklatın.</string>
+    <string name="notification_service_content_line2">Tıklayarak açın.</string>
 </resources>

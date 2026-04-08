@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mock tyst</string>
+    <string name="app_name">Tyst hån</string>
     <string name="pref_settings_title">Inställningar</string>
-    <string name="pref_purpose_array_names_1">Fast position</string>
-    <string name="pref_purpose_array_names_2">Trip Destination</string>
-    <string name="pref_purpose_title">Ändamål</string>
-    <string name="pref_purpose_summary">välj ändamål..</string>
+    <string name="pref_purpose_array_names_1">Fast tjänst</string>
+    <string name="pref_purpose_array_names_2">Resmål</string>
+    <string name="pref_purpose_title">Syfte</string>
+    <string name="pref_purpose_summary">välj syfte..</string>
     <string name="pref_force_start_title">Tvinga start</string>
-    <string name="pref_force_start_summary_on" >Starta mockningstjänsten, tyst.</string>
-    <string name="pref_force_start_summary_off">Öppna appen för att starta mockningstjänsten manuellt.</string>
-    <string name="pref_trip_duration_seconds_title">Trip-tid (sekunder).</string>
-    <string name="pref_trip_duration_seconds_summary">Antal sekunder för en tripp-simulering som ska köras innan den når destinationen:</string>
+    <string name="pref_force_start_summary_on" >Starta simuleringstjänsten utan att visa något meddelande.</string>
+    <string name="pref_force_start_summary_off">Öppna appen för att manuellt starta simuleringstjänsten.</string>
+    <string name="pref_trip_duration_seconds_title">Resans längd (sekunder)).</string>
+    <string name="pref_trip_duration_seconds_summary">Antal sekunder som en resesimulering ska pågå innan destinationen nås:</string>
 </resources>

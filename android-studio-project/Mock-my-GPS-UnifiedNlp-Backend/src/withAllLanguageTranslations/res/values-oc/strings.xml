@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Imitar mon GPS UnifiedNlp Enrè</string>
+    <string name="locationservice_permission_label">Imitar mon GPS UnifiedNlp Servici de localizacion</string>
+    <string name="locationservice_permission_description">Permission de nivèl de signatura, requerida per imitar mon GPS per fornir d\'actualizacions de localizacion a son UnifiedNlp Enrè.</string>
+    <string name="backendservice_summary">Usatges "Imitar mon GPS" coma un fornidor de localizacion en backend mentre son servici es actiu.</string>
+    <string name="pref_settings_title">Paramètres</string>
+    <string name="pref_timeadvance_title">Avançament del temps (ms).</string>
+    <string name="pref_timeadvance_summary">Nombre de millisegondas apondudas al timestamp de totas las actualizacions de localizacion. Una valor pro granda deurà assegurar que totes los autres provesidors de backend sián ignorats pendent que lo mocking es actiu.:</string>
+</resources>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">मोक चुपचाप</string>
-    <string name="pref_settings_title">सेटिङ</string>
+    <string name="app_name">मौन रूपमा नक्कल गर्नुहोस्</string>
+    <string name="pref_settings_title">सेटिङहरू</string>
     <string name="pref_purpose_array_names_1">स्थिर स्थिति</string>
-    <string name="pref_purpose_array_names_2">ट्रिप गन्तव्य</string>
+    <string name="pref_purpose_array_names_2">यात्रा गन्तव्य</string>
     <string name="pref_purpose_title">उद्देश्य</string>
-    <string name="pref_purpose_summary">उद्देश्य छनौट गर्नुहोस्..</string>
-    <string name="pref_force_start_title">बल सुरु गर्नुहोस्</string>
-    <string name="pref_force_start_summary_on" >चुपचाप सुरु गरेर मोकिङ सेवा सुरु.</string>
-    <string name="pref_force_start_summary_off">Mocking सेवा म्यानुअल सुरु गर्न एप खोल्नुहोस्.</string>
-    <string name="pref_trip_duration_seconds_title">ट्रिप अवधि (सेकेन्ड).</string>
-    <string name="pref_trip_duration_seconds_summary">गन्तव्यमा पुग्नुअघि चलाउनका लागि यात्रा नक्कल गर्ने सेकेन्डको सङ्ख्या:</string>
+    <string name="pref_purpose_summary">उद्देश्य छान्नुहोस्..</string>
+    <string name="pref_force_start_title">जबर्जस्ती सुरु गर्नुहोस्</string>
+    <string name="pref_force_start_summary_on" >मौन रूपमा मक सेवा सुरु गर्नुहोस्.</string>
+    <string name="pref_force_start_summary_off">म्याकिङ सेवा म्यानुअल रूपमा सुरु गर्न एप खोल्नुहोस्।.</string>
+    <string name="pref_trip_duration_seconds_title">यात्रा अवधि (सेकेन्ड)).</string>
+    <string name="pref_trip_duration_seconds_summary">गन्तव्यमा पुग्नु अघि यात्रा सिमुलेशन चल्न लाग्ने सेकेन्डहरूको संख्या:</string>
 </resources>

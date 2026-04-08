@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">ഫയൽ സേവ് ചെയ്യാനുള്ള ഡയറക്ടറി തിരഞ്ഞെടുക്കുക</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">പുതിയ ഫയൽ നാമം തിരഞ്ഞെടുക്കുക JSON വിവരങ്ങൾ</string>
+  <string name="app_folderpicker_json_import_filepath_description">മുൻപ് എക്സ്പോർട്ട് ചെയ്ത ഫയൽ തിരഞ്ഞെടുക്കുക JSON വിവരങ്ങൾ</string>
+</resources>

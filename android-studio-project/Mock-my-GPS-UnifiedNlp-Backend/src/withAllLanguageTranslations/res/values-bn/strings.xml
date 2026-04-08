@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mock my GPS UnifiedNlp ব্যাকএন্ড</string>
-    <string name="locationservice_permission_label">Mock my GPS UnifiedNlp অবস্থান সার্ভিস</string>
-    <string name="locationservice_permission_description">স্বাক্ষর স্তরের অনুমতি, মাকের জন্য আবশ্যক GPS এর জন্য অবস্থান হালনাগাদ করার জন্য UnifiedNlp ব্যাকএন্ড.</string>
-    <string name="backendservice_summary">Uses \" Mock my GPS" একটি ব্যাকএন্ড অবস্থান সরবরাহকারী হিসাবে যখন এর সার্ভিস সক্রিয়.</string>
+    <string name="app_name">আমার মক করো GPS UnifiedNlp ব্যাকএন্ড</string>
+    <string name="locationservice_permission_label">আমার মক করো GPS UnifiedNlp অবস্থান সেবা</string>
+    <string name="locationservice_permission_description">Signature Level অনুমতি, Mock my-এর জন্য প্রয়োজনীয়। GPS তার অবস্থানের আপডেট প্রদান করতে UnifiedNlp ব্যাকএন্ড.</string>
+    <string name="backendservice_summary">ব্যবহার "আমার মক করো GPS" এর সেবা সক্রিয় থাকা অবস্থায় একটি ব্যাকএন্ড অবস্থান প্রদানকারী হিসেবে.</string>
     <string name="pref_settings_title">সেটিংস</string>
-    <string name="pref_timeadvance_title">টাইম অ্যাডভান্স (ms).</string>
-    <string name="pref_timeadvance_summary">সকল স্থানের আপডেটের টাইম স্ট্যাম্প যোগ করা মিলিসেকেন্ডের সংখ্যা. একটি বড় মানের মান নিশ্চিত করা উচিত যে অন্য সব ব্যাকএন্ড প্রোভাইডারকে উপেক্ষা করা হবে যখন মকিং সক্রিয়:</string>
+    <string name="pref_timeadvance_title">সময় অগ্রিম (ms).</string>
+    <string name="pref_timeadvance_summary">সমস্ত লোকেশন আপডেটের টাইমস্ট্যাম্পে যোগ করা মিলিসেকেন্ডের সংখ্যা। যথেষ্ট বড় মান মকিং সক্রিয় থাকা অবস্থায় অন্যান্য সব ব্যাকএন্ড প্রদানকারীকে উপেক্ষা করার নিশ্চয়তা দেবে।:</string>
 </resources>

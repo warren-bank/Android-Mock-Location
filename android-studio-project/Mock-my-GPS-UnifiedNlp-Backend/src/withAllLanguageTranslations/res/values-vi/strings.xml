@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Chế nhạo tôi GPS UnifiedNlp Backend</string>
-    <string name="locationservice_permission_label">Chế nhạo tôi GPS UnifiedNlp Dịch vụ loc</string>
-    <string name="locationservice_permission_description">Quyền cấp chư ̃ ký, được yêu cầu cho Mck tôi GPS để cung cấp cập nhật vị trí cho nó UnifiedNlp Backend.</string>
-    <string name="backendservice_summary">Sử dụng \" Mock my GPS" như một nhà cung cấp địa điểm sau khi dịch vụ đang hoạt động.</string>
-    <string name="pref_settings_title">Thiết lập</string>
-    <string name="pref_timeadvance_title">Tạm ứng trước (ms).</string>
-    <string name="pref_timeadvance_summary">Số mili giây được thêm vào dấu thời gian của tất cả các cập nhật vị trí. Giá trị đủ lớn nên đảm bảo tất cả các nhà cung cấp khác bị bỏ qua trong khi mocking hoạt động:</string>
+    <string name="app_name">Chế giễu tôi GPS UnifiedNlp Hệ thống phía máy chủ</string>
+    <string name="locationservice_permission_label">Chế giễu tôi GPS UnifiedNlp Dịch vụ định vị</string>
+    <string name="locationservice_permission_description">Quyền truy cập cấp Signature, bắt buộc đối với Mock my GPS để cung cấp thông tin cập nhật về vị trí cho UnifiedNlp Hệ thống phía máy chủ.</string>
+    <string name="backendservice_summary">Công dụng "Chế giễu tôi GPS" với tư cách là nhà cung cấp vị trí phía máy chủ trong khi dịch vụ của nó đang hoạt động.</string>
+    <string name="pref_settings_title">Cài đặt</string>
+    <string name="pref_timeadvance_title">Chuyển nhanh (ms).</string>
+    <string name="pref_timeadvance_summary">Số mili giây được cộng vào dấu thời gian của tất cả các bản cập nhật vị trí. Một giá trị đủ lớn sẽ đảm bảo rằng tất cả các nhà cung cấp nền tảng khác sẽ bị bỏ qua trong khi tính năng mô phỏng đang hoạt động:</string>
 </resources>

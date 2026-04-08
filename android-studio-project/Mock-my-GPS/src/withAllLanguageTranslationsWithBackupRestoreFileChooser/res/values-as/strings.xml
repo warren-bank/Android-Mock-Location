@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">ফাইল সংৰক্ষণ কৰিবলৈ ডাইৰেক্টৰী বাছনি কৰক</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">ৰ বাবে নতুন ফাইলৰ নাম বাছনি কৰক JSON তথ্য</string>
+  <string name="app_folderpicker_json_import_filepath_description">পূৰ্বতে ৰপ্তানি কৰা ফাইলটো বাছনি কৰক JSON তথ্য</string>
+</resources>

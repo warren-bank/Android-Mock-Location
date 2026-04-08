@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tiru meneng-menengan</string>
+    <string name="pref_settings_title">Setelan</string>
+    <string name="pref_purpose_array_names_1">Posisi Tetap</string>
+    <string name="pref_purpose_array_names_2">Tujuan lelungan</string>
+    <string name="pref_purpose_title">Tujuan</string>
+    <string name="pref_purpose_summary">pilih tujuan..</string>
+    <string name="pref_force_start_title">Paksaan Miwiti</string>
+    <string name="pref_force_start_summary_on" >Miwiti layanan mocking kanthi meneng.</string>
+    <string name="pref_force_start_summary_off">Bukak aplikasi kanggo miwiti layanan mocking kanthi manual..</string>
+    <string name="pref_trip_duration_seconds_title">Lama lelungan (detik)).</string>
+    <string name="pref_trip_duration_seconds_summary">Jumlah detik kanggo simulasi lelungan mlaku sadurunge tekan tujuan:</string>
+</resources>

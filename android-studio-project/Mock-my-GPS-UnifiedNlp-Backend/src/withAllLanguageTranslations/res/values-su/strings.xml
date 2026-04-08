@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mock kuring GPS UnifiedNlp Bagian tukang</string>
+    <string name="locationservice_permission_label">Mock kuring GPS UnifiedNlp Layanan Lokasi</string>
+    <string name="locationservice_permission_description">Idin Tingkat Signature, diperlukeun pikeun Mock my GPS pikeun nyayogikeun apdet lokasi ka éta UnifiedNlp Bagian tukang.</string>
+    <string name="backendservice_summary">Pamakean "Mock kuring GPS" salaku panyadia lokasi backend nalika layananna aktip.</string>
+    <string name="pref_settings_title">Setélan</string>
+    <string name="pref_timeadvance_title">Waktos Maju (ms).</string>
+    <string name="pref_timeadvance_summary">Jumlah milidetik anu ditambahkeun kana cap waktos sadaya apdet lokasi. Nilai anu cukup gedé kedah ngajamin yén sadaya panyadia backend séjén diabaikan nalika mocking aktip.:</string>
+</resources>

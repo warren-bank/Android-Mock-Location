@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tiruanku GPS UnifiedNlp Bagian mburi</string>
+    <string name="locationservice_permission_label">Tiruanku GPS UnifiedNlp Layanan Lokasi</string>
+    <string name="locationservice_permission_description">Ijin Tingkat Signature, dibutuhake kanggo Mock my GPS kanggo nyedhiyakake apdet lokasi kanggo UnifiedNlp Bagian mburi.</string>
+    <string name="backendservice_summary">Panganggone "Tiruanku GPS" minangka panyedhiya lokasi backend nalika layanane aktif.</string>
+    <string name="pref_settings_title">Setelan</string>
+    <string name="pref_timeadvance_title">Wektu Maju (ms).</string>
+    <string name="pref_timeadvance_summary">Jumlah milidetik sing ditambahake menyang cap wektu saka kabar panganyaran lokasi kabeh. Nilai sing cukup gedhe bakal njamin yen kabeh panyedhiya backend liyane diabaikan nalika mocking aktif.:</string>
+</resources>

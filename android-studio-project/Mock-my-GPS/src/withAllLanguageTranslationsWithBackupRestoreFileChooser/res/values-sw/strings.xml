@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Chagua saraka ya kuhifadhi faili</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Chagua jina jipya la faili kwa JSON tathmini</string>
+  <string name="app_folderpicker_json_import_filepath_description">Chagua faili inayojumuisha yaliyopelekwa nje hapo awali. JSON tathmini</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yi tsokana ga nawa GPS UnifiedNlp Bangaren baya</string>
+    <string name="locationservice_permission_label">Yi tsokana ga nawa GPS UnifiedNlp Sabis na Wurin</string>
+    <string name="locationservice_permission_description">Izinin Matakin Alama, ana buƙata don kwaikwayon nawa GPS don samar da sabuntawar wuri ga nasa UnifiedNlp Bangaren baya.</string>
+    <string name="backendservice_summary">Amfani "Yi tsokana ga nawa GPS" a matsayin mai samar da wurin bayan gida yayin da aikinsa ke aiki.</string>
+    <string name="pref_settings_title">Saituna</string>
+    <string name="pref_timeadvance_title">Gabatar da lokaci (ms).</string>
+    <string name="pref_timeadvance_summary">Adadin millisekondi da aka ƙara wa timestamp na duk sabuntawar wuri. Kimar da ta isa girma za ta tabbatar an yi watsi da duk sauran masu samar da bayanai na baya yayin da ake yin kwaikwayo.:</string>
+</resources>

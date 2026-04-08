@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">파일을 저장할 디렉터리를 선택하세요</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">다음에 대한 새 파일 이름을 선택하세요 JSON 데이터</string>
+  <string name="app_folderpicker_json_import_filepath_description">이전에 내보낸 파일이 포함된 파일을 선택하세요 JSON 데이터</string>
+</resources>

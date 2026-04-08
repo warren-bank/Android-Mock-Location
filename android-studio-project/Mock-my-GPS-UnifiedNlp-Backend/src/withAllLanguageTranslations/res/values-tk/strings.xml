@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meniň maketimi masgara et GPS UnifiedNlp Arka tarap</string>
+    <string name="locationservice_permission_label">Meniň maketimi masgara et GPS UnifiedNlp Orun hyzmaty</string>
+    <string name="locationservice_permission_description">Signature Level rugsady, Mock my üçin zerurdyr GPS Özüne ýerleşiş baradaky täzelikleri bermek üçin UnifiedNlp Arka tarap.</string>
+    <string name="backendservice_summary">Ulanylyşy "Meniň maketimi masgara et GPS" Onuň hyzmaty işjeň bolan mahaly arka plan ýer üpjün edijisi hökmünde.</string>
+    <string name="pref_settings_title">Täze sazlamalar</string>
+    <string name="pref_timeadvance_title">Wagt öňe (ms).</string>
+    <string name="pref_timeadvance_summary">Ähli ýerleşiş täzelenmeleriniň wagt möhürine goşulan millisekundlaryň sany. Ýeterlik uly gymmat mocking işjeň bolan mahaly beýleki ähli arka plan üpjün edijileriniň nazara alynmazlygyny üpjün etmeli.:</string>
+</resources>

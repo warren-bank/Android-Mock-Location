@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">फाइल जतन करण्यासाठी निर्देशिका निवडा</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">नवीन फाइल नाव निवडा JSON डेटा</string>
+  <string name="app_folderpicker_json_import_filepath_description">पूर्वी निर्यात केलेल्या फाइलची निवड करा JSON डेटा</string>
+</resources>

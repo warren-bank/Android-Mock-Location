@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Hlawula dayirektori yo hlayisa fayili</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Hlawula vito rintshwa ra fayili JSON Vuxokoxoko</string>
+  <string name="app_folderpicker_json_import_filepath_description">Hlawula fayili leyi nga ni leswi rhumeriweke khale. JSON Vuxokoxoko</string>
+</resources>

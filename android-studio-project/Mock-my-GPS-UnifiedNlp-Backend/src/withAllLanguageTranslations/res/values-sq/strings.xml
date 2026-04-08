@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Të imitoj mua GPS UnifiedNlp Pjesa e pasme</string>
+    <string name="locationservice_permission_label">Të imitoj mua GPS UnifiedNlp Shërbimi i vendndodhjes</string>
+    <string name="locationservice_permission_description">Leja e nivelit Signature, e nevojshme për Mock my GPS të ofrojë përditësime të vendndodhjes për të sajën UnifiedNlp Pjesa e pasme.</string>
+    <string name="backendservice_summary">Përdorimet "Të imitoj mua GPS" si ofrues vendndodhjeje në sfond ndërkohë që shërbimi i tij është aktiv.</string>
+    <string name="pref_settings_title">Cilat janë cilësimet\?</string>
+    <string name="pref_timeadvance_title">Avancimi i kohës (ms).</string>
+    <string name="pref_timeadvance_summary">Numri i milisekondave të shtuar në vulën kohore të të gjitha përditësimeve të vendndodhjes. Një vlerë mjaft e madhe duhet të sigurojë që të gjithë ofruesit e tjerë të backend-it të injorohen ndërsa simulimi është aktiv.:</string>
+</resources>

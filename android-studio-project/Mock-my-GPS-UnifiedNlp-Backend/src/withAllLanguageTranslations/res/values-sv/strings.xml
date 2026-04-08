@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Håna mig GPS UnifiedNlp Backend</string>
-    <string name="locationservice_permission_label">Håna mig GPS UnifiedNlp Platstjänst</string>
-    <string name="locationservice_permission_description">Behörigheten för signaturnivå krävs för Mock-min GPS för att tillhandahålla platsuppdateringar till dess UnifiedNlp Backend.</string>
-    <string name="backendservice_summary">Använder \" Mock my GPS" som platsleverantör för backend medan dess tjänst är aktiv.</string>
+    <string name="app_name">Gör narr av mig GPS UnifiedNlp Backend</string>
+    <string name="locationservice_permission_label">Gör narr av mig GPS UnifiedNlp Platsinformation</string>
+    <string name="locationservice_permission_description">Behörighet på signaturnivå, krävs för Mock my GPS för att tillhandahålla platsuppdateringar till sina UnifiedNlp Backend.</string>
+    <string name="backendservice_summary">Användningsområden "Gör narr av mig GPS" som leverantör av backend-platser medan tjänsten är aktiv.</string>
     <string name="pref_settings_title">Inställningar</string>
-    <string name="pref_timeadvance_title">Tidsförskottering (ms).</string>
-    <string name="pref_timeadvance_summary">Antal millisekunder som lagts till i tidsstämpeln för alla platsuppdateringar. Ett tillräckligt stort värde bör se till att alla andra backend-leverantörer ignoreras medan mockning är aktiv:</string>
+    <string name="pref_timeadvance_title">Tidsförskjutning (ms).</string>
+    <string name="pref_timeadvance_summary">Antal millisekunder som läggs till tidsstämpeln för alla positionsuppdateringar. Ett tillräckligt stort värde bör säkerställa att alla andra backend-leverantörer ignoreras medan simuleringen är aktiv:</string>
 </resources>

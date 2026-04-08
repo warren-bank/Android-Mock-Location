@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Vyberte priečinok, do ktorého chcete súbor uložiť</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Zvoľte nový názov súboru pre JSON údaje</string>
+  <string name="app_folderpicker_json_import_filepath_description">Vyberte súbor obsahujúci predtým exportované údaje JSON údaje</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gagayahin ko ang aking GPS UnifiedNlp Likuran</string>
+    <string name="locationservice_permission_label">Gagayahin ko ang aking GPS UnifiedNlp Serbisyo ng Lokasyon</string>
+    <string name="locationservice_permission_description">Permiso sa Antas ng Lagda, kinakailangan para sa Mock my GPS upang magbigay ng mga pag-update sa lokasyon nito UnifiedNlp Likuran.</string>
+    <string name="backendservice_summary">Mga gamit "Gagayahin ko ang aking GPS" bilang tagapagbigay ng lokasyon sa backend habang aktibo ang serbisyo nito.</string>
+    <string name="pref_settings_title">Mga setting</string>
+    <string name="pref_timeadvance_title">Paunang Oras (ms).</string>
+    <string name="pref_timeadvance_summary">Bilang ng millisecond na idinadagdag sa timestamp ng lahat ng pag-update ng lokasyon. Ang sapat na malaking halaga ay dapat masiguro na hindi papansinin ang lahat ng iba pang backend provider habang aktibo ang mocking.:</string>
+</resources>

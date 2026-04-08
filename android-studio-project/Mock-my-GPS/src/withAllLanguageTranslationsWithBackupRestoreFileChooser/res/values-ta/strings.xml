@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">கோப்பைச் சேமிக்க கோப்பகத்தைத் தேர்ந்தெடுக்கவும்</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">புதிய கோப்புப் பெயரைத் தேர்ந்தெடுக்கவும் JSON தரவு</string>
+  <string name="app_folderpicker_json_import_filepath_description">முன்பு ஏற்றுமதி செய்யப்பட்ட கோப்பைத் தேர்ந்தெடுக்கவும் JSON தரவு</string>
+</resources>

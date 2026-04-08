@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mock Silently</string>
+    <string name="app_name">Se moquer en silence</string>
     <string name="pref_settings_title">Paramètres</string>
-    <string name="pref_purpose_array_names_1">Position fixe</string>
-    <string name="pref_purpose_array_names_2">Destination du voyage</string>
-    <string name="pref_purpose_title">Objet</string>
-    <string name="pref_purpose_summary">Choisir l\'objet..</string>
-    <string name="pref_force_start_title">Forcer le démarrage</string>
-    <string name="pref_force_start_summary_on" >Démarrer le service de cumul en mode silencieux.</string>
-    <string name="pref_force_start_summary_off">Ouvrir l\'application pour démarrer manuellement le service de cumul.</string>
-    <string name="pref_trip_duration_seconds_title">Durée du trajet (secondes).</string>
-    <string name="pref_trip_duration_seconds_summary">Nombre de secondes d\'exécution d\'une simulation de voyage avant d\'atteindre la destination:</string>
+    <string name="pref_purpose_array_names_1">Poste fixe</string>
+    <string name="pref_purpose_array_names_2">Destination de voyage</string>
+    <string name="pref_purpose_title">Objectif</string>
+    <string name="pref_purpose_summary">choisissez un objectif..</string>
+    <string name="pref_force_start_title">Démarrage forcé</string>
+    <string name="pref_force_start_summary_on" >Lancer le service de simulation en arrière-plan.</string>
+    <string name="pref_force_start_summary_off">Ouvrez l\'application pour lancer manuellement le service de simulation.</string>
+    <string name="pref_trip_duration_seconds_title">Durée du trajet (en secondes)).</string>
+    <string name="pref_trip_duration_seconds_summary">Nombre de secondes pendant lesquelles une simulation de trajet doit s\'exécuter avant d\'atteindre la destination:</string>
 </resources>

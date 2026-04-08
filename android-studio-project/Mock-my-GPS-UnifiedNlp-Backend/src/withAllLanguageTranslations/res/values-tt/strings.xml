@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Минемне мактан GPS UnifiedNlp Арткы як</string>
+    <string name="locationservice_permission_label">Минемне мактан GPS UnifiedNlp Урнашу хезмәте</string>
+    <string name="locationservice_permission_description">Signature Level рөхсәте, Mock my өчен кирәк GPS үзенең урнашу урыны турында яңартуларны тәэмин итү өчен UnifiedNlp Арткы як.</string>
+    <string name="backendservice_summary">Кулланулар "Минемне мактан GPS" Аның хезмәте актив булган вакытта арткы план урнашу провайдеры буларак.</string>
+    <string name="pref_settings_title">Көйләүләр</string>
+    <string name="pref_timeadvance_title">Вакыт алдан килү (ms).</string>
+    <string name="pref_timeadvance_summary">Барлык урнашу яңартуларының вакыт штамбына өстәлә торган миллисекундлар саны.  Җитәрлек зур кыйммәт mocking актив булганда башка барлык арткы пландагы тәэмин итүчеләрне игътибарга алмауны тәэмин итәргә тиеш.:</string>
+</resources>

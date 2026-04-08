@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Elige directorium ad documentum servandum.</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Elige novum nomen documenti. JSON Dati</string>
+  <string name="app_folderpicker_json_import_filepath_description">Elige documentum quod exportatum est antea. JSON Dati</string>
+</resources>

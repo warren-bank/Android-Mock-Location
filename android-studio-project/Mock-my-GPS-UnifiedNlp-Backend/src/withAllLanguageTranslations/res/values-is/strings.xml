@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gerðu grín að mér GPS UnifiedNlp Bakhlið</string>
+    <string name="locationservice_permission_label">Gerðu grín að mér GPS UnifiedNlp Staðsetningarþjónusta</string>
+    <string name="locationservice_permission_description">Undirritunarstigs leyfi, krafist fyrir Mock my GPS að veita staðsetningauppfærslur fyrir sitt UnifiedNlp Bakhlið.</string>
+    <string name="backendservice_summary">Notkun "Gerðu grín að mér GPS" sem bakenda staðsetningaveitandi á meðan þjónustan er virk.</string>
+    <string name="pref_settings_title">Stillingar</string>
+    <string name="pref_timeadvance_title">Tímalán (ms).</string>
+    <string name="pref_timeadvance_summary">Fjöldi millisekúnda sem bætast við tímastimpil allra staðsetningauppfærslna. Nóg stórt gildi ætti að tryggja að allir aðrir bakendaþjónustuveitendur séu hunsaðir á meðan hermun er virk.:</string>
+</resources>

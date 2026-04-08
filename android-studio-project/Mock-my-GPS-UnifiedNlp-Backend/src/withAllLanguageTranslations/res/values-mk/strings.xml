@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Парадирај моја GPS UnifiedNlp Заден дел</string>
+    <string name="locationservice_permission_label">Парадирај моја GPS UnifiedNlp Услуга за локација</string>
+    <string name="locationservice_permission_description">Дозвола на ниво на потпис, потребна за Mock my GPS да обезбеди ажурирања за локацијата на своите UnifiedNlp Заден дел.</string>
+    <string name="backendservice_summary">Употреби "Парадирај моја GPS" како провајдер на локација во заднина додека неговата услуга е активна.</string>
+    <string name="pref_settings_title">Поставки</string>
+    <string name="pref_timeadvance_title">Временско предвреме (ms).</string>
+    <string name="pref_timeadvance_summary">Број на милисекунди додадени на временскиот печат на сите ажурирања на локацијата. Доволно голема вредност треба да обезбеди игнорирање на сите други бекенд-провајдери додека е активна симулацијата.:</string>
+</resources>

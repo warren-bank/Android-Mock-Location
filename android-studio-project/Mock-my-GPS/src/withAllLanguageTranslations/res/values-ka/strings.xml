@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "გეოგრაფიული კოორდინატები">
+  <!ENTITY fixed_position "ფიქსირებული პოზიცია">
+  <!ENTITY trip           "მოგზაურობა">
+  <!ENTITY origin         "წარმოშობა">
+  <!ENTITY destination    "მიმართულება">
+]>
+<resources>
+    <string name="app_name">გამეცინე GPS</string>
+    <string name="geo_intent_menu_title">გამოიყენეთ Geo-Intent:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">ახალი სანიშნე</string>
+    <string name="MainActivity_actionbar_item_1">ნიშნულის შენახვა</string>
+    <string name="MainActivity_actionbar_item_2">სანიშნეები</string>
+    <string name="MainActivity_actionbar_item_3">პრეფერენციები</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; სიმულაცია</string>
+    <string name="save_bookmark_menu_title">ადგილმდებარეობა დასაზოგად:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">ადგილმდებარეობა:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">ხანგრძლივობა:\n<small>(წამები)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">დამატება</string>
+    <string name="BookmarksActivity_actionbar_item_2">სარეზერვო ასლი</string>
+    <string name="BookmarksActivity_actionbar_item_3">აღდგენა</string>
+    <string name="open_bookmark_menu_title">გამოიყენეთ სანიშნი:</string>
+    <string name="edit_bookmark_field_1">სათაური:</string>
+    <string name="edit_bookmark_field_2">ადგილმდებარეობა:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">ზოგადი</string>
+    <string name="PreferencesActivity_field_1">დრო (ms) თითოეული განახლების შუალედში:</string>
+    <string name="PreferencesActivity_field_2">ადგილმდებარეობის გაყალბების რაოდენობა:\n<small>(0 = გაგრძელება, სანამ პირდაპირ არ შეჩერდება)</small></string>
+    <string name="PreferencesActivity_field_3">ჯოისტიკის ჩვენება:</string>
+    <string name="PreferencesActivity_field_4">ჯოისტიკი lat/lon ზრდა:</string>
+    <string name="PreferencesActivity_field_5">მიზანი დაფიქსირებული პოზიციად დატოვეთ:</string>
+    <string name="label_button_start">დასაწყისი</string>
+    <string name="label_button_stop">შეჩერდი</string>
+    <string name="label_button_update">განახლება</string>
+    <string name="label_button_cancel">გაუქმება</string>
+    <string name="label_button_delete">წაშლა</string>
+    <string name="label_button_save">შენახვა</string>
+    <string name="error_geo_intent">გეო ინტენციის დაპარსება ვერ მოხერხდა \'%s\'.</string>
+    <string name="error_number_format">რიცხვის გაფორმება შეუძლებელია \'%s\'.</string>
+    <string name="error_location_format">ადგილმდებარეობის დაპარსება ვერ მოხერხდა \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">ნიშნული უკვე არსებობს \'%s\'.</string>
+    <string name="error_missing_required_value">შეცდომა: სავალდებულო მნიშვნელობის არარსებობა</string>
+    <string name="error_add_bookmarkitem">შეცდომა: ახალი სანიშნის დამატება ვერ მოხერხდა</string>
+    <string name="notification_service_ticker">გამეცინე GPS: რბენა</string>
+    <string name="notification_service_content_line1">გამეცინე GPS</string>
+    <!--
+    <string name="notification_service_content_line2">დაწკაპუნეთ გასახსნელად. შეჩერებისთვის უგულებელყავით.</string>
+    -->
+    <string name="notification_service_content_line2">დააწკაპუნეთ გასახსნელად.</string>
+</resources>

@@ -1,56 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE resources [
-  <!ENTITY lat_lon        "Zemepisná šírka, dĺžka">
-  <!ENTITY fixed_position "Pevná pozícia">
-  <!ENTITY trip           "Služobný">
+  <!ENTITY lat_lon        "Zemepisná šírka, zemepisná dĺžka">
+  <!ENTITY fixed_position "Stála pozícia">
+  <!ENTITY trip           "Výlet">
   <!ENTITY origin         "Pôvod">
   <!ENTITY destination    "Cieľ">
 ]>
 <resources>
-    <string name="app_name">Mock my GPS</string>
-    <string name="geo_intent_menu_title">Použiť Geo-Intent pre:</string>
+    <string name="app_name">Vysmievaj sa mi GPS</string>
+    <string name="geo_intent_menu_title">Použite funkciu Geo-Intent na:</string>
     <string name="geo_intent_option_1">&fixed_position;</string>
     <string name="geo_intent_option_2">&trip; - &origin;</string>
     <string name="geo_intent_option_3">&trip; - &destination;</string>
     <string name="geo_intent_option_4">Nová záložka</string>
-    <string name="MainActivity_actionbar_item_1">Uložiť záložku</string>
+    <string name="MainActivity_actionbar_item_1">Uložiť do záložiek</string>
     <string name="MainActivity_actionbar_item_2">Záložky</string>
-    <string name="MainActivity_actionbar_item_3">Preferencie</string>
+    <string name="MainActivity_actionbar_item_3">Nastavenia</string>
     <string name="MainActivity_tab_1_label">&fixed_position;</string>
     <string name="MainActivity_tab_2_label">&trip; Simulácia</string>
-    <string name="save_bookmark_menu_title">Umiestnenie na uloženie:</string>
+    <string name="save_bookmark_menu_title">Miesto na uloženie:</string>
     <string name="save_bookmark_option_1">&origin;</string>
     <string name="save_bookmark_option_2">&destination;</string>
-    <string name="FixedPositionActivity_field_1">Umiestnenie:\n<small>(&lat_lon;)</small></string>
+    <string name="FixedPositionActivity_field_1">Poloha:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
-    <string name="TripSimulationActivity_field_3">Trvanie:\n<small>(sek.)</small></string>
+    <string name="TripSimulationActivity_field_3">Trvanie:\n<small>(sekúnd)</small></string>
     <string name="BookmarksActivity_actionbar_item_1">Pridať</string>
+    <string name="BookmarksActivity_actionbar_item_2">Zálohovanie</string>
+    <string name="BookmarksActivity_actionbar_item_3">Obnoviť</string>
     <string name="open_bookmark_menu_title">Použiť záložku pre:</string>
-    <string name="edit_bookmark_field_1">Nadpis:</string>
-    <string name="edit_bookmark_field_2">Umiestnenie:\n<small>(&lat_lon;)</small></string>
-    <string name="PreferencesActivity_heading_1">Všeobecné</string>
-    <string name="PreferencesActivity_field_1">Čas (ms) medzi každou aktualizáciou:</string>
-    <string name="PreferencesActivity_field_2">Počet koľkokrát sa má umiestnenie mock:\n<small>(0 = pokračovať, kým sa explicitne nezastaví)</small></string>
+    <string name="edit_bookmark_field_1">Názov:</string>
+    <string name="edit_bookmark_field_2">Poloha:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Všeobecné informácie</string>
+    <string name="PreferencesActivity_field_1">Čas (ms) medzi jednotlivými aktualizáciami:</string>
+    <string name="PreferencesActivity_field_2">Počet simulácií polohy:\n<small>(0 = pokračovať, kým sa proces výslovne nezastaví)</small></string>
     <string name="PreferencesActivity_field_3">Zobraziť joystick:</string>
     <string name="PreferencesActivity_field_4">Joystick lat/lon prírastok:</string>
-    <string name="PreferencesActivity_field_5">Umiestniť cieľ ako pevnú pozíciu:</string>
-    <string name="label_button_start">ZAČIATOK</string>
-    <string name="label_button_stop">ZASTAVIŤ</string>
-    <string name="label_button_update">Aktualizácia</string>
+    <string name="PreferencesActivity_field_5">Udržať cieľovú polohu ako pevnú pozíciu:</string>
+    <string name="label_button_start">ŠTART</string>
+    <string name="label_button_stop">STOP</string>
+    <string name="label_button_update">AKTUALIZÁCIA</string>
     <string name="label_button_cancel">ZRUŠIŤ</string>
     <string name="label_button_delete">VYMAZAŤ</string>
-    <string name="label_button_save">SAVE</string>
-    <string name="error_geo_intent">Nebolo možné analyzovať zámer geo \'%s\'.</string>
-    <string name="error_number_format">Nepodarilo sa analyzovať číslo \'%s\'.</string>
-    <string name="error_location_format">Nebolo možné analyzovať umiestnenie \'%s\'.</string>
+    <string name="label_button_save">ULOŽIŤ</string>
+    <string name="error_geo_intent">Nepodarilo sa analyzovať geografický zámer \'%s\'.</string>
+    <string name="error_number_format">Číslo sa nepodarilo analyzovať \'%s\'.</string>
+    <string name="error_location_format">Nepodarilo sa analyzovať polohu \'%s\'.</string>
     <string name="error_bookmarkitem_exists">Záložka už existuje \'%s\'.</string>
-    <string name="error_missing_required_value">Chyba: Chýba vyžadovaná hodnota</string>
-    <string name="error_add_bookmarkitem">Chyba: Nebolo možné pridať novú záložku</string>
-    <string name="notification_service_ticker">Mock my GPS: spustenie</string>
-    <string name="notification_service_content_line1">Mock my GPS</string>
+    <string name="error_missing_required_value">Chyba: Chýba povinná hodnota</string>
+    <string name="error_add_bookmarkitem">Chyba: Nepodarilo sa pridať novú záložku</string>
+    <string name="notification_service_ticker">Vysmievaj sa mi GPS: beh</string>
+    <string name="notification_service_content_line1">Vysmievaj sa mi GPS</string>
     <!--
-    <string name="notification_service_content_line2">Kliknite, ak chcete otvoriť. Zrušiť zastavenie.</string>
+    <string name="notification_service_content_line2">Kliknutím otvoríte. Zavretím zastavíte.</string>
     -->
-    <string name="notification_service_content_line2">Kliknutím otvoríte.</string>
+    <string name="notification_service_content_line2">Kliknite pre otvorenie.</string>
 </resources>

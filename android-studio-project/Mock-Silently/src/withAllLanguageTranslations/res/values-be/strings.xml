@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Маўкліва высмеяць</string>
+    <string name="pref_settings_title">Налады</string>
+    <string name="pref_purpose_array_names_1">Фіксаваная пазіцыя</string>
+    <string name="pref_purpose_array_names_2">Месца падарожжа</string>
+    <string name="pref_purpose_title">Мэта</string>
+    <string name="pref_purpose_summary">Выберыце мэту..</string>
+    <string name="pref_force_start_title">Прымусовае завядзенне</string>
+    <string name="pref_force_start_summary_on" >Ціха запусціць сэрвіс макіравання.</string>
+    <string name="pref_force_start_summary_off">Адкрыйце дадатак, каб уручную запусціць сэрвіс макетавання..</string>
+    <string name="pref_trip_duration_seconds_title">Працягласць падарожжа (секунды)).</string>
+    <string name="pref_trip_duration_seconds_summary">Колькасць секунд, неабходных для правядзення сімуляцыі паездкі да дасягнення прызначэння:</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Se moquer en silenci</string>
+    <string name="pref_settings_title">Paramètres</string>
+    <string name="pref_purpose_array_names_1">Posicion fixa</string>
+    <string name="pref_purpose_array_names_2">Destination del viatge</string>
+    <string name="pref_purpose_title">Objectiu</string>
+    <string name="pref_purpose_summary">Causir un objectiu..</string>
+    <string name="pref_force_start_title">Forçar lo demaratge</string>
+    <string name="pref_force_start_summary_on" >Aviamatz en silenci lo servici de burla..</string>
+    <string name="pref_force_start_summary_off">Dobris l\'aplicacion per aviar manualament lo servici de mocking..</string>
+    <string name="pref_trip_duration_seconds_title">Durada del viatge (segondas)).</string>
+    <string name="pref_trip_duration_seconds_summary">Nombre de segondas per far córrer una simulacion de viatge abans d\'aténher la destinacion:</string>
+</resources>

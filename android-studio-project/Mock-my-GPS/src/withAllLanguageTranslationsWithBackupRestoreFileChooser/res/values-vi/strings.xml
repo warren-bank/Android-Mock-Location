@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Chọn thư mục để lưu tệp</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Chọn tên tệp mới cho JSON dữ liệu</string>
+  <string name="app_folderpicker_json_import_filepath_description">Chọn tệp chứa dữ liệu đã xuất trước đó JSON dữ liệu</string>
+</resources>

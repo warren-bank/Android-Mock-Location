@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yimbelele yam GPS UnifiedNlp Inxalenye engabonakaliyo</string>
+    <string name="locationservice_permission_label">Yimbelele yam GPS UnifiedNlp Inkonzo Yendawo</string>
+    <string name="locationservice_permission_description">Imvume yeSigaba seSignature, efunekayo kwiMock my GPS ukunikezela ngeentsibiyelo zendawo kwi- UnifiedNlp Inxalenye engabonakaliyo.</string>
+    <string name="backendservice_summary">Iindlela zokusetyenziswa "Yimbelele yam GPS" njengomnikezeli weendawo we-backend ngelixa inkonzo yawo isebenza.</string>
+    <string name="pref_settings_title">Iisetingi</string>
+    <string name="pref_timeadvance_title">Ukwandulela kwexesha (ms).</string>
+    <string name="pref_timeadvance_summary">Inani leemilisekhondi ezongezwe kwisitampu sexesha sazo zonke iihlaziyo zendawo. Ixabiso elaneleyo elikhulu kufuneka liqinisekise ukuba bonke abanye ababoneleli be-backend bayahoywa ngelixa i-mocking isebenza.:</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">په چوپتیا کې تمسخر</string>
+    <string name="pref_settings_title">تنظیمات</string>
+    <string name="pref_purpose_array_names_1">ثابت موقعیت</string>
+    <string name="pref_purpose_array_names_2">د سفر ځای</string>
+    <string name="pref_purpose_title">مقصد</string>
+    <string name="pref_purpose_summary">موخه وټاکئ..</string>
+    <string name="pref_force_start_title">جبري پیل</string>
+    <string name="pref_force_start_summary_on" >په خاموشۍ سره د ماکینګ خدمت پیل کړئ.</string>
+    <string name="pref_force_start_summary_off">د ماکینګ خدمت په لاسي ډول پیل کولو لپاره اپلیکیشن خلاص کړئ..</string>
+    <string name="pref_trip_duration_seconds_title">د سفر موده (ثانیې)).</string>
+    <string name="pref_trip_duration_seconds_summary">مقصد ته له رسېدو مخکې د سفر د انډول جوړونې د چلېدو لپاره د ثانیو شمېر:</string>
+</resources>

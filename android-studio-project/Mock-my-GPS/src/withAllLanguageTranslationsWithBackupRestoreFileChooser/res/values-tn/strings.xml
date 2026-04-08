@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Tlhopha polokelo go boloka faele</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Tlhopha leina le lesha la faele JSON datha</string>
+  <string name="app_folderpicker_json_import_filepath_description">Tlhopha faele e e nang le tse di rometsweng pele. JSON datha</string>
+</resources>

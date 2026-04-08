@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Dihiris</string>
+    <string name="app_name">Mock secara senyap</string>
     <string name="pref_settings_title">Tetapan</string>
-    <string name="pref_purpose_array_names_1">Kedudukan Tetap</string>
-    <string name="pref_purpose_array_names_2">Destinasi Perjalanan</string>
+    <string name="pref_purpose_array_names_1">Posisi Tetap</string>
+    <string name="pref_purpose_array_names_2">Tujuan Perjalanan</string>
     <string name="pref_purpose_title">Tujuan</string>
     <string name="pref_purpose_summary">pilih tujuan..</string>
-    <string name="pref_force_start_title">Paksa Mula</string>
-    <string name="pref_force_start_summary_on" >Mulakan perkhidmatan penmodan-semula.</string>
-    <string name="pref_force_start_summary_off">Buka aplikasi untuk mulakan secara manual bagi perkhidmatan bermocking secara manual.</string>
-    <string name="pref_trip_duration_seconds_title">Tempoh Perjalanan (saat).</string>
-    <string name="pref_trip_duration_seconds_summary">Bilangan saat untuk simulasi perjalanan untuk dijalankan sebelum mencapai destinasi:</string>
+    <string name="pref_force_start_title">Mulakan Paksa</string>
+    <string name="pref_force_start_summary_on" >Mulakan perkhidmatan mocking secara senyap.</string>
+    <string name="pref_force_start_summary_off">Buka aplikasi untuk memulakan perkhidmatan mock secara manual..</string>
+    <string name="pref_trip_duration_seconds_title">Tempoh perjalanan (saat)).</string>
+    <string name="pref_trip_duration_seconds_summary">Bilangan saat untuk simulasi perjalanan dijalankan sebelum tiba di destinasi:</string>
 </resources>

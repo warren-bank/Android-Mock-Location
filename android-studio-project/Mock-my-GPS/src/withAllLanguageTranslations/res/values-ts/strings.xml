@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Bophamelo, Vulehi">
+  <!ENTITY fixed_position "Xiyimo lexi nga cinciwiki">
+  <!ENTITY trip           "Riendzo">
+  <!ENTITY origin         "Masungulo">
+  <!ENTITY destination    "Ndhawu leyi yaka eka yona">
+]>
+<resources>
+    <string name="app_name">Tshaha ya mina GPS</string>
+    <string name="geo_intent_menu_title">Tirhisa Geo-Intent eka:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Xitshwayo lexintshwa</string>
+    <string name="MainActivity_actionbar_item_1">Hlayisa Xikombiso</string>
+    <string name="MainActivity_actionbar_item_2">Switshwayo</string>
+    <string name="MainActivity_actionbar_item_3">Leswi rhandziwaka</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Ku tekelela</string>
+    <string name="save_bookmark_menu_title">Ndhawu yo hlayisa:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Ndhawu:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Nkarhi:\n<small>(Timitiki)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Engetela</string>
+    <string name="BookmarksActivity_actionbar_item_2">Nkavelo</string>
+    <string name="BookmarksActivity_actionbar_item_3">Vuyisela</string>
+    <string name="open_bookmark_menu_title">Tirhisa Ximaki xa Buku eka:</string>
+    <string name="edit_bookmark_field_1">Nhlokomhaka:</string>
+    <string name="edit_bookmark_field_2">Ndhawu:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Hinkwaswo</string>
+    <string name="PreferencesActivity_field_1">Nkarhi (ms) exikarhi ka ku pfuxeta kun\'wana na kun\'wana:</string>
+    <string name="PreferencesActivity_field_2">Ntsengo wa minkarhi yo teka ndhawu:\n<small>(0 = ya emahlweni ku fikela loko u yimisiwa hi ku kongoma)</small></string>
+    <string name="PreferencesActivity_field_3">Kombisa joystick:</string>
+    <string name="PreferencesActivity_field_4">Joyistiki lat/lon Ku engetela:</string>
+    <string name="PreferencesActivity_field_5">Hlayisa xikongomelo xi ri ndhawu leyi nga cinciwiki:</string>
+    <string name="label_button_start">Sungula</string>
+    <string name="label_button_stop">Yima</string>
+    <string name="label_button_update">Xiviko lexintshwa</string>
+    <string name="label_button_cancel">Herisa</string>
+    <string name="label_button_delete">Susa</string>
+    <string name="label_button_save">Hlayisa</string>
+    <string name="error_geo_intent">A swi kotekanga ku hlahluva xikongomelo xa geo \'%s\'.</string>
+    <string name="error_number_format">A swi kotekanga ku hlahluva nomboro \'%s\'.</string>
+    <string name="error_location_format">A swi koteki ku hlahluva ndhawu \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Xikombiso xa tluka se xi kona \'%s\'.</string>
+    <string name="error_missing_required_value">Xihoxo: Ku pfumaleka ka nkoka lowu lavekaka</string>
+    <string name="error_add_bookmarkitem">Xihoxo: A swi kotekanga ku engetela bookmark leyintshwa</string>
+    <string name="notification_service_ticker">Tshaha ya mina GPS: ku tsutsuma</string>
+    <string name="notification_service_content_line1">Tshaha ya mina GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Tlhoma ku pfula. Susa ku yimisa.</string>
+    -->
+    <string name="notification_service_content_line2">Tlhoma ku pfula.</string>
+</resources>

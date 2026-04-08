@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">เลือกไดเรกทอรีเพื่อบันทึกไฟล์</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">เลือกชื่อไฟล์ใหม่สำหรับ JSON ข้อมูล</string>
+  <string name="app_folderpicker_json_import_filepath_description">เลือกไฟล์ที่มีข้อมูลที่ส่งออกไว้ก่อนหน้านี้ JSON ข้อมูล</string>
+</resources>

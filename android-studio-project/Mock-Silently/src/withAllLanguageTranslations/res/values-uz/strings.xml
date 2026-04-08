@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jim jim kul</string>
+    <string name="pref_settings_title">Sozlamalar</string>
+    <string name="pref_purpose_array_names_1">Belgilangan pozitsiya</string>
+    <string name="pref_purpose_array_names_2">Sayohat manzili</string>
+    <string name="pref_purpose_title">Maqsad</string>
+    <string name="pref_purpose_summary">Maqsadni tanlang..</string>
+    <string name="pref_force_start_title">Majburiy boshlash</string>
+    <string name="pref_force_start_summary_on" >Jimjitlik bilan masxara qilish xizmatini ishga tushiring.</string>
+    <string name="pref_force_start_summary_off">Ilovani oching va mocking xizmatini qo\'lda ishga tushiring.</string>
+    <string name="pref_trip_duration_seconds_title">Sayohat davomiyligi (soniyalarda)).</string>
+    <string name="pref_trip_duration_seconds_summary">Manzilga yetib borishdan oldin sayohat simulyatsiyasini bajarish uchun ketadigan soniyalar:</string>
+</resources>

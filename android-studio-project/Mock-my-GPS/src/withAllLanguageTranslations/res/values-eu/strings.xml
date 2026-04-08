@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Latitudea, Longitudea">
+  <!ENTITY fixed_position "Posizio finkoa">
+  <!ENTITY trip           "Bidaia">
+  <!ENTITY origin         "Jatorria">
+  <!ENTITY destination    "Helburu-tokia">
+]>
+<resources>
+    <string name="app_name">Nire txantxa egin GPS</string>
+    <string name="geo_intent_menu_title">Erabili Geo-Intent honetarako:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Markatzaile berria</string>
+    <string name="MainActivity_actionbar_item_1">Gorde markatzailea</string>
+    <string name="MainActivity_actionbar_item_2">Markatzaileak</string>
+    <string name="MainActivity_actionbar_item_3">Aukerak</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Simulazioa</string>
+    <string name="save_bookmark_menu_title">Gordea kokalekua:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Kokapena:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Iraupena:\n<small>(segundoak)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Gehitu</string>
+    <string name="BookmarksActivity_actionbar_item_2">Backup</string>
+    <string name="BookmarksActivity_actionbar_item_3">Berreskuratu</string>
+    <string name="open_bookmark_menu_title">Erabili liburu-marka honetarako:</string>
+    <string name="edit_bookmark_field_1">Izenburua:</string>
+    <string name="edit_bookmark_field_2">Kokapena:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Orokorra</string>
+    <string name="PreferencesActivity_field_1">Denbora (ms) eguneratze bakoitzaren artean:</string>
+    <string name="PreferencesActivity_field_2">Lokalizazio faltsua zenbat aldiz egin:\n<small>(0 = esplizituki gelditu arte jarraitu)</small></string>
+    <string name="PreferencesActivity_field_3">Erakutsi joystick-a:</string>
+    <string name="PreferencesActivity_field_4">Palanka lat/lon igoera:</string>
+    <string name="PreferencesActivity_field_5">Helburua posizio finko gisa mantendu:</string>
+    <string name="label_button_start">Hasi</string>
+    <string name="label_button_stop">Gelditu</string>
+    <string name="label_button_update">Eguneratzea</string>
+    <string name="label_button_cancel">Ezeztatu</string>
+    <string name="label_button_delete">Ezabatu</string>
+    <string name="label_button_save">Gorde</string>
+    <string name="error_geo_intent">Geo asmoa ezin izan da parsea egin \'%s\'.</string>
+    <string name="error_number_format">Ezin zen zenbakia parsea egin \'%s\'.</string>
+    <string name="error_location_format">Ezin izan da kokapena parsea egin \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Markatzailea dagoeneko existitzen da \'%s\'.</string>
+    <string name="error_missing_required_value">Akatsa: Beharrezko balioa falta da</string>
+    <string name="error_add_bookmarkitem">Errorea: ezin izan da markatzaile berri bat gehitu</string>
+    <string name="notification_service_ticker">Nire txantxa egin GPS: lasterka</string>
+    <string name="notification_service_content_line1">Nire txantxa egin GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Irekitzeko klik egin. Ezin egiteko baztertu..</string>
+    -->
+    <string name="notification_service_content_line2">Egin klik irekitzeko.</string>
+</resources>

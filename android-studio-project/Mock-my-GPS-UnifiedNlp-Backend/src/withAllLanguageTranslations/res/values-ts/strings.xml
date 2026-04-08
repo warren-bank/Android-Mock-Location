@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tshaha ya mina GPS UnifiedNlp Endzhaku</string>
+    <string name="locationservice_permission_label">Tshaha ya mina GPS UnifiedNlp Vukorhokeri bya Vundhawu</string>
+    <string name="locationservice_permission_description">Mpfumelelo wa Signature Level, lowu lavekaka eka Mock my GPS ku nyika swiviko swa ndhawu eka swa yona UnifiedNlp Endzhaku.</string>
+    <string name="backendservice_summary">Matirhiselo "Tshaha ya mina GPS" Tanihi muhakeri wa ndhawu ya le ndzhaku loko vukorhokeri bya yona byi tirha.</string>
+    <string name="pref_settings_title">Swilunghiselo</string>
+    <string name="pref_timeadvance_title">Nkarhi lowu yaka emahlweni (ms).</string>
+    <string name="pref_timeadvance_summary">Ntsengo wa timilisekoni lowu engeteriwaka eka timestamp ya swiviko hinkwaswo swa ndhawu. Ntsengo lowu ringaneke wu fanele ku tiyisisa leswaku vaphakeri van\'wana hinkwavo va le ndzhaku a va tekeriwi enhlokweni loko ku endliwa vukanganyisi.:</string>
+</resources>

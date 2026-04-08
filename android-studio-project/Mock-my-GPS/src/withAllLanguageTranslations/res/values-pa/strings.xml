@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "ਅਕਸ਼ਾਂਸ਼, ਦ੍ਰਿਸ਼ਾਂਸ਼">
+  <!ENTITY fixed_position "ਸਥਿਰ ਅਹੁਦਾ">
+  <!ENTITY trip           "ਯਾਤਰਾ">
+  <!ENTITY origin         "ਮੂਲ">
+  <!ENTITY destination    "ਮੰਜ਼ਿਲ">
+]>
+<resources>
+    <string name="app_name">ਮੇਰੇ ਦਾ ਮਜ਼ਾਕ ਉਡਾਓ GPS</string>
+    <string name="geo_intent_menu_title">ਜੀਓ-ਇੰਟੈਂਟ ਦੀ ਵਰਤੋਂ ਲਈ:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">ਨਵਾਂ ਬੁੱਕਮਾਰਕ</string>
+    <string name="MainActivity_actionbar_item_1">ਬੁੱਕਮਾਰਕ ਸੁਰੱਖਿਅਤ ਕਰੋ</string>
+    <string name="MainActivity_actionbar_item_2">ਬੁੱਕਮਾਰਕ</string>
+    <string name="MainActivity_actionbar_item_3">ਤਰਜੀਹਾਂ</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; ਨਕਲ</string>
+    <string name="save_bookmark_menu_title">ਬਚਾਉਣ ਲਈ ਸਥਾਨ:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">ਸਥਾਨ:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">ਅਵਧੀ:\n<small>(ਸੈਕਿੰਡ)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">ਜੋੜੋ</string>
+    <string name="BookmarksActivity_actionbar_item_2">ਬੈਕਅੱਪ</string>
+    <string name="BookmarksActivity_actionbar_item_3">ਬਹਾਲ ਕਰੋ</string>
+    <string name="open_bookmark_menu_title">ਇਸ ਲਈ ਬੁੱਕਮਾਰਕ ਵਰਤੋ:</string>
+    <string name="edit_bookmark_field_1">ਸਿਰਲੇਖ:</string>
+    <string name="edit_bookmark_field_2">ਸਥਾਨ:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">ਆਮ</string>
+    <string name="PreferencesActivity_field_1">ਸਮਾਂ (ms) ਹਰ ਅੱਪਡੇਟ ਦੇ ਵਿਚਕਾਰ:</string>
+    <string name="PreferencesActivity_field_2">ਲੋਕੇਸ਼ਨ ਮਾਕ ਕਰਨ ਦੀ ਗਿਣਤੀ:\n<small>(0 = ਜਦ ਤੱਕ ਸਪੱਸ਼ਟ ਤੌਰ \'ਤੇ ਰੋਕਿਆ ਨਾ ਜਾਵੇ, ਉਦੋਂ ਤੱਕ ਜਾਰੀ ਰੱਖੋ)</small></string>
+    <string name="PreferencesActivity_field_3">ਜੌਇਸਟਿਕ ਦਿਖਾਓ:</string>
+    <string name="PreferencesActivity_field_4">ਜੋਇਸਟਿਕ lat/lon ਵਿਵਾਧਾਰ:</string>
+    <string name="PreferencesActivity_field_5">ਮੰਜ਼ਿਲ ਨੂੰ ਇੱਕ ਨਿਸ਼ਚਿਤ ਸਥਿਤੀ ਵਜੋਂ ਰੱਖੋ:</string>
+    <string name="label_button_start">ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="label_button_stop">ਰੁਕੋ</string>
+    <string name="label_button_update">ਅੱਪਡੇਟ</string>
+    <string name="label_button_cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="label_button_delete">ਮਿਟਾਓ</string>
+    <string name="label_button_save">ਬਚਾਓ</string>
+    <string name="error_geo_intent">ਜੀਓ ਇਰਾਦੇ ਨੂੰ ਪਾਰਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ। \'%s\'.</string>
+    <string name="error_number_format">ਨੰਬਰ ਨੂੰ ਪਾਰਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ \'%s\'.</string>
+    <string name="error_location_format">ਸਥਾਨ ਨੂੰ ਪਾਰਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">ਬੁੱਕਮਾਰਕ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ \'%s\'.</string>
+    <string name="error_missing_required_value">ਗਲਤੀ: ਲੋੜੀਂਦੀ ਕੀਮਤ ਗਾਇਬ ਹੈ</string>
+    <string name="error_add_bookmarkitem">ਗਲਤੀ: ਨਵਾਂ ਬੁੱਕਮਾਰਕ ਨਹੀਂ ਜੋੜਿਆ ਜਾ ਸਕਿਆ।</string>
+    <string name="notification_service_ticker">ਮੇਰੇ ਦਾ ਮਜ਼ਾਕ ਉਡਾਓ GPS: ਦੌੜਨਾ</string>
+    <string name="notification_service_content_line1">ਮੇਰੇ ਦਾ ਮਜ਼ਾਕ ਉਡਾਓ GPS</string>
+    <!--
+    <string name="notification_service_content_line2">ਖੋਲ੍ਹਣ ਲਈ ਕਲਿੱਕ ਕਰੋ। ਰੋਕਣ ਲਈ ਰੱਦ ਕਰੋ।.</string>
+    -->
+    <string name="notification_service_content_line2">ਖੋਲ੍ਹਣ ਲਈ ਕਲਿੱਕ ਕਰੋ.</string>
+</resources>

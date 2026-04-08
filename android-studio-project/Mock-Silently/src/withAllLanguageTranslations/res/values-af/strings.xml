@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Imiteer stil</string>
+    <string name="pref_settings_title">Instellings</string>
+    <string name="pref_purpose_array_names_1">Vaste posisie</string>
+    <string name="pref_purpose_array_names_2">Reisbestemming</string>
+    <string name="pref_purpose_title">Doel</string>
+    <string name="pref_purpose_summary">Kies doel..</string>
+    <string name="pref_force_start_title">Dwangsstart</string>
+    <string name="pref_force_start_summary_on" >Begin geruisloos die spotdiens.</string>
+    <string name="pref_force_start_summary_off">Maak die app oop om die mocking-diens handmatig te begin..</string>
+    <string name="pref_trip_duration_seconds_title">Reistyd (sekondes)).</string>
+    <string name="pref_trip_duration_seconds_summary">Aantal sekondes wat \'n reissimulering neem om te loop voordat dit die bestemming bereik:</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">ファイルを保存するフォルダを選択してください</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">新しいファイル名を選択してください JSON データ</string>
+  <string name="app_folderpicker_json_import_filepath_description">以前にエクスポートしたファイルを選択してください JSON データ</string>
+</resources>

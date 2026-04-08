@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ਚੁੱਪਚਾਪ ਨਕਲ ਕਰੋ</string>
+    <string name="pref_settings_title">ਸੈਟਿੰਗਾਂ</string>
+    <string name="pref_purpose_array_names_1">ਸਥਿਰ ਅਹੁਦਾ</string>
+    <string name="pref_purpose_array_names_2">ਯਾਤਰਾ ਦਾ ਮੰਜ਼ਿਲ</string>
+    <string name="pref_purpose_title">ਉਦੇਸ਼</string>
+    <string name="pref_purpose_summary">ਉਦੇਸ਼ ਚੁਣੋ..</string>
+    <string name="pref_force_start_title">ਜਬਰਦਸਤੀ ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="pref_force_start_summary_on" >ਚੁੱਪਚਾਪ ਮੌਕਿੰਗ ਸੇਵਾ ਸ਼ੁਰੂ ਕਰੋ.</string>
+    <string name="pref_force_start_summary_off">ਮੌਕਿੰਗ ਸੇਵਾ ਨੂੰ ਹੱਥੋਂ ਚਾਲੂ ਕਰਨ ਲਈ ਐਪ ਖੋਲ੍ਹੋ।.</string>
+    <string name="pref_trip_duration_seconds_title">ਯਾਤਰਾ ਦੀ ਮਿਆਦ (ਸੈਕਿੰਡ)).</string>
+    <string name="pref_trip_duration_seconds_summary">ਮੰਜ਼ਿਲ ਤੱਕ ਪਹੁੰਚਣ ਤੋਂ ਪਹਿਲਾਂ ਯਾਤਰਾ ਸਿਮੂਲੇਸ਼ਨ ਚੱਲਣ ਲਈ ਲੱਗਣ ਵਾਲੇ ਸਕਿੰਟਾਂ ਦੀ ਗਿਣਤੀ:</string>
+</resources>

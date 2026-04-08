@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Үнсіз мазақ ету</string>
+    <string name="pref_settings_title">Параметрлер</string>
+    <string name="pref_purpose_array_names_1">Тұрақты позиция</string>
+    <string name="pref_purpose_array_names_2">Сапар бағыты</string>
+    <string name="pref_purpose_title">Мақсаты</string>
+    <string name="pref_purpose_summary">мақсатты таңдаңыз..</string>
+    <string name="pref_force_start_title">Мәжбүрлеп іске қосу</string>
+    <string name="pref_force_start_summary_on" >Макерлік қызметті үнсіз іске қосыңыз.</string>
+    <string name="pref_force_start_summary_off">Моукинг қызметін қолмен іске қосу үшін қосымшаны ашыңыз..</string>
+    <string name="pref_trip_duration_seconds_title">Сапар ұзақтығы (секунд)).</string>
+    <string name="pref_trip_duration_seconds_summary">Мекенжайға жеткенге дейінгі сапарды модельдеуге кететін секундтар саны:</string>
+</resources>

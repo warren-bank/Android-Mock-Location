@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Dewiswch gyfeiriadur i arbed y ffeil</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Dewiswch enw ffeil newydd ar gyfer JSON data</string>
+  <string name="app_folderpicker_json_import_filepath_description">Dewiswch y ffeil sy\'n cynnwys yr hyn a allforwyd yn flaenorol. JSON data</string>
+</resources>

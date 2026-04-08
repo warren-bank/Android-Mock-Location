@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tshameka ka tidimalo</string>
+    <string name="pref_settings_title">Ditlhophiso</string>
+    <string name="pref_purpose_array_names_1">Maemo a sa fetogeng</string>
+    <string name="pref_purpose_array_names_2">Lefelo la loeto</string>
+    <string name="pref_purpose_title">Maikaelelo</string>
+    <string name="pref_purpose_summary">Tlhopha maikaelelo..</string>
+    <string name="pref_force_start_title">Simolola ka kgaratlho</string>
+    <string name="pref_force_start_summary_on" >Simolola tirelo ya go sotla ka tidimalo.</string>
+    <string name="pref_force_start_summary_off">Bula app go simolola tirelo ya go etsa ka diatla..</string>
+    <string name="pref_trip_duration_seconds_title">Boleele jwa loeto (metsotswana)).</string>
+    <string name="pref_trip_duration_seconds_summary">Palo ya metsotswana e e tlhokegang gore tekanyetso ya loeto e bereke pele e fitlha kwa mafelong a bofelo.:</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hermdu þögullega</string>
+    <string name="pref_settings_title">Stillingar</string>
+    <string name="pref_purpose_array_names_1">Föst staða</string>
+    <string name="pref_purpose_array_names_2">Áfangastaður ferðar</string>
+    <string name="pref_purpose_title">Tilgangur</string>
+    <string name="pref_purpose_summary">Veldu tilgang..</string>
+    <string name="pref_force_start_title">Neyðarstart</string>
+    <string name="pref_force_start_summary_on" >Ræstu þögullega spottþjónustuna.</string>
+    <string name="pref_force_start_summary_off">Opnaðu forritið til að hefja gervivinnsluþjónustuna handvirkt..</string>
+    <string name="pref_trip_duration_seconds_title">Ferðatími (sekúndur)).</string>
+    <string name="pref_trip_duration_seconds_summary">Fjöldi sekúndna sem ferðulíkan tekur að keyra þar til það nær áfangastaðnum:</string>
+</resources>

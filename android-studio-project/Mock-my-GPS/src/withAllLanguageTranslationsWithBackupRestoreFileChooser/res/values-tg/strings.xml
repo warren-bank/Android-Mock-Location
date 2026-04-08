@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Директорияро барои захира кардани файл интихоб кунед</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Барои номи нави файл номи нав интихоб кунед JSON маълумот</string>
+  <string name="app_folderpicker_json_import_filepath_description">Файлеро, ки қаблан содир шуда буд, интихоб кунед. JSON маълумот</string>
+</resources>

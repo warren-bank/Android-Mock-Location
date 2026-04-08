@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kopjo heshtur</string>
+    <string name="pref_settings_title">Cilat janë cilësimet\?</string>
+    <string name="pref_purpose_array_names_1">Pozicion i fiksuar</string>
+    <string name="pref_purpose_array_names_2">Destinacioni i udhëtimit</string>
+    <string name="pref_purpose_title">Qëllimi</string>
+    <string name="pref_purpose_summary">Zgjidh qëllimin..</string>
+    <string name="pref_force_start_title">Fillim me forcë</string>
+    <string name="pref_force_start_summary_on" >Filloni heshtur shërbimin e talljes.</string>
+    <string name="pref_force_start_summary_off">Hapni aplikacionin për të nisur manualisht shërbimin e simulimit..</string>
+    <string name="pref_trip_duration_seconds_title">Koha e udhëtimit (sekonda)).</string>
+    <string name="pref_trip_duration_seconds_summary">Numri i sekondave që duhet që simulimi i udhëtimit të funksionojë para se të arrijë në destinacion:</string>
+</resources>

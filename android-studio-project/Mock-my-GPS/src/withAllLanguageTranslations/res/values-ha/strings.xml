@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Faɗi, Tsayi">
+  <!ENTITY fixed_position "Matsayi Mai Dorewa">
+  <!ENTITY trip           "Tafiya">
+  <!ENTITY origin         "Asali">
+  <!ENTITY destination    "Manzila">
+]>
+<resources>
+    <string name="app_name">Yi tsokana ga nawa GPS</string>
+    <string name="geo_intent_menu_title">Yi amfani da Geo-Intent don:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Sabuwar alamar shafi</string>
+    <string name="MainActivity_actionbar_item_1">Ajiye alamar shafi</string>
+    <string name="MainActivity_actionbar_item_2">Alamomin shafi</string>
+    <string name="MainActivity_actionbar_item_3">Zaɓuɓɓuka</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Kwafi</string>
+    <string name="save_bookmark_menu_title">Wuri don adanawa:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Wuri:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Tsawon lokaci:\n<small>(daƙiƙoƙi)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Ƙara</string>
+    <string name="BookmarksActivity_actionbar_item_2">Ajiyar bayanai</string>
+    <string name="BookmarksActivity_actionbar_item_3">Dawo da</string>
+    <string name="open_bookmark_menu_title">Yi amfani da alamar shafi don:</string>
+    <string name="edit_bookmark_field_1">Take:</string>
+    <string name="edit_bookmark_field_2">Wuri:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Gabaɗaya</string>
+    <string name="PreferencesActivity_field_1">Lokaci (ms) tsakanin kowace sabuntawa:</string>
+    <string name="PreferencesActivity_field_2">Adadin lokuta na yin kwaikwayon wuri:\n<small>(0 = ci gaba har sai an dakatar da shi a fili)</small></string>
+    <string name="PreferencesActivity_field_3">Nuna joystick:</string>
+    <string name="PreferencesActivity_field_4">Sanda mai nishaɗi lat/lon ƙaruwa:</string>
+    <string name="PreferencesActivity_field_5">Riƙe manufa a matsayin matsayi mai ɗorewa:</string>
+    <string name="label_button_start">Fara</string>
+    <string name="label_button_stop">Dakata</string>
+    <string name="label_button_update">Sabuntawa</string>
+    <string name="label_button_cancel">Soke</string>
+    <string name="label_button_delete">Goge</string>
+    <string name="label_button_save">Ajiye</string>
+    <string name="error_geo_intent">Ba a iya fassara niyyar geo \'%s\'.</string>
+    <string name="error_number_format">Ba a iya fassara lambar \'%s\'.</string>
+    <string name="error_location_format">Ba a iya fassara wurin \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">An riga an sami alamar shafi \'%s\'.</string>
+    <string name="error_missing_required_value">Kuskure: Babu Kimar da ake buƙata</string>
+    <string name="error_add_bookmarkitem">Kuskure: Ba a iya ƙara sabon alamar shafi</string>
+    <string name="notification_service_ticker">Yi tsokana ga nawa GPS: guduwa</string>
+    <string name="notification_service_content_line1">Yi tsokana ga nawa GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Danna don buɗewa. Cire don dakatarwa..</string>
+    -->
+    <string name="notification_service_content_line2">Danna don buɗewa.</string>
+</resources>

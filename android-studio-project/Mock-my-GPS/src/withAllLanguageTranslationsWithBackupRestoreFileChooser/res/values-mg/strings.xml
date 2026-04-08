@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Safidio ny lahatahiry hitahirizana ny rakitra</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Safidio ny anaran\'ny rakitra vaovao ho an\'ny JSON angona</string>
+  <string name="app_folderpicker_json_import_filepath_description">Safidio ny rakitra misy ireo efa naondrana teo aloha. JSON angona</string>
+</resources>

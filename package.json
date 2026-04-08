@@ -3,18 +3,20 @@
   "private": true,
   "license": "GPL-2.0",
   "devDependencies": {
-    "@warren-bank/translate-android-strings": "^1.9.2"
+    "@warren-bank/translate-android-strings": "^3.0.1"
   },
   "scripts": {
-    "translate:app":       "translate-android-strings -i \"en\" -f \"android-studio-project/Mock-my-GPS/src/main/res/values/strings.xml\" -d \"android-studio-project/Mock-my-GPS/src/withAllLanguageTranslations/res\" -m --na --nc --nw -b \"(?:GPS|\\(ms\\)|lat/lon)\"",
-    "translate:app:debug": "npm run translate:app -- -o \"en\" --debug",
+    "translate:app":             "translate-android-strings -s \"deepl\" -i \"en\" -f \"android-studio-project/Mock-my-GPS/src/main/res/values/strings.xml\" -d \"android-studio-project/Mock-my-GPS/src/withAllLanguageTranslations/res\" -m --na --nc --nw --nr -b \"(?:GPS|\\(ms\\)|lat/lon)\"",
+    "translate:app:filechooser": "translate-android-strings -s \"deepl\" -i \"en\" -f \"android-studio-project/Mock-my-GPS/src/withBackupRestoreFileChooser/res/values/strings.xml\" -d \"android-studio-project/Mock-my-GPS/src/withAllLanguageTranslationsWithBackupRestoreFileChooser/res\" -m --na --nc --nw --nr -b \"(?:JSON)\"",
+    "translate:nlp":             "translate-android-strings -s \"deepl\" -i \"en\" -f \"android-studio-project/Mock-my-GPS-UnifiedNlp-Backend/src/main/res/values/strings.xml\" -d \"android-studio-project/Mock-my-GPS-UnifiedNlp-Backend/src/withAllLanguageTranslations/res\" -m --na --nc --nw --nr -b \"(?:GPS|\\(ms\\)|UnifiedNlp|[\\x22]+)\"",
+    "translate:shh":             "translate-android-strings -s \"deepl\" -i \"en\" -f \"android-studio-project/Mock-Silently/src/main/res/values/strings.xml\" -d \"android-studio-project/Mock-Silently/src/withAllLanguageTranslations/res\" -m --na --nc --nw --nr",
 
-    "translate:nlp":       "translate-android-strings -i \"en\" -f \"android-studio-project/Mock-my-GPS-UnifiedNlp-Backend/src/main/res/values/strings.xml\" -d \"android-studio-project/Mock-my-GPS-UnifiedNlp-Backend/src/withAllLanguageTranslations/res\" -m --na --nc --nw -b \"(?:GPS|\\(ms\\)|UnifiedNlp)\"",
-    "translate:nlp:debug": "npm run translate:nlp -- -o \"en\" --debug",
+    "translate:debug:app":             "npm run translate:app             -- -o \"en\" --debug",
+    "translate:debug:app:filechooser": "npm run translate:app:filechooser -- -o \"en\" --debug",
+    "translate:debug:nlp":             "npm run translate:nlp             -- -o \"en\" --debug",
+    "translate:debug:shh":             "npm run translate:shh             -- -o \"en\" --debug",
 
-    "translate:shh":       "translate-android-strings -i \"en\" -f \"android-studio-project/Mock-Silently/src/main/res/values/strings.xml\" -d \"android-studio-project/Mock-Silently/src/withAllLanguageTranslations/res\" -m --na --nc --nw",
-    "translate:shh:debug": "npm run translate:shh -- -o \"en\" --debug",
-
-    "translate":           "npm run translate:app && npm run translate:nlp && npm run translate:shh"
+    "translate:all":       "npm run translate:app && npm run translate:app:filechooser && npm run translate:nlp && npm run translate:shh",
+    "translate:debug:all": "npm run translate:debug:app && npm run translate:debug:app:filechooser && npm run translate:debug:nlp && npm run translate:debug:shh"
   }
 }

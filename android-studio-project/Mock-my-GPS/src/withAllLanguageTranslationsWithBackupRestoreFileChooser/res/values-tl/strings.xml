@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Piliin ang direktoryo kung saan isisave ang file.</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Pumili ng bagong pangalan ng file para sa JSON datos</string>
+  <string name="app_folderpicker_json_import_filepath_description">Piliin ang file na naglalaman ng naunang na-export. JSON datos</string>
+</resources>

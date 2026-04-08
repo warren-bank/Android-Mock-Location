@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mee ka ọ dị ka ị na-asịrị nwayọ</string>
+    <string name="pref_settings_title">Ntọala</string>
+    <string name="pref_purpose_array_names_1">Ọnọdụ kwụsịrị</string>
+    <string name="pref_purpose_array_names_2">Ebe njem</string>
+    <string name="pref_purpose_title">Ebumnuche</string>
+    <string name="pref_purpose_summary">Họrọ ebumnuche..</string>
+    <string name="pref_force_start_title">Mbido ike</string>
+    <string name="pref_force_start_summary_on" >Malite ọrụ ịkpa ọchị nwayọọ..</string>
+    <string name="pref_force_start_summary_off">Mepee ngwa ahụ iji malite ọrụ ịmepụta nzaghachi n\'aka gị..</string>
+    <string name="pref_trip_duration_seconds_title">Oge njem (sekọnd)).</string>
+    <string name="pref_trip_duration_seconds_summary">Ọnụọgụ sekọnd ka nnwale njem ga-ewe tupu ọ rute ebe a na-aga:</string>
+</resources>

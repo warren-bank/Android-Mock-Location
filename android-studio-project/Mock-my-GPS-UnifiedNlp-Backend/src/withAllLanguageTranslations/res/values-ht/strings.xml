@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fè blag sou mwen GPS UnifiedNlp Aryè</string>
+    <string name="locationservice_permission_label">Fè blag sou mwen GPS UnifiedNlp Sèvis Kote</string>
+    <string name="locationservice_permission_description">Pèmisyon Nivo Siyati, obligatwa pou Mock my GPS pou bay mizajou sou kote li ye a UnifiedNlp Aryè.</string>
+    <string name="backendservice_summary">Itilizasyon "Fè blag sou mwen GPS" kòm yon founisè kote backend pandan sèvis li aktif.</string>
+    <string name="pref_settings_title">Aranjman</string>
+    <string name="pref_timeadvance_title">Avans tan (ms).</string>
+    <string name="pref_timeadvance_summary">Nimewo milisegonn ki ajoute nan timestamp tout mizajou lokalizasyon yo. Yon valè ki ase gwo ta dwe asire ke tout lòt founisè dèyè yo inyore pandan moke a aktif.:</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Минийг дуурай GPS UnifiedNlp Арын тал</string>
+    <string name="locationservice_permission_label">Минийг дуурай GPS UnifiedNlp Байршил тогтоох үйлчилгээ</string>
+    <string name="locationservice_permission_description">Signature Level зөвшөөрөл, Mock my-д шаардлагатай GPS түүний байршлын шинэчлэлтүүдийг өгөх UnifiedNlp Арын тал.</string>
+    <string name="backendservice_summary">Ашиглалт "Минийг дуурай GPS" Үйлчилгээ нь идэвхтэй байх үед арын байршил хангагчаар.</string>
+    <string name="pref_settings_title">Тохиргоо</string>
+    <string name="pref_timeadvance_title">Цаг урьдчилан (ms).</string>
+    <string name="pref_timeadvance_summary">Байршлын бүх шинэчлэлтүүдийн timestamp-д нэмэгдэх миллисекундын тоо. Хангалттай их утга нь mocking идэвхтэй байх үед бусад бүх backend үйлчилгээ үзүүлэгчдийг үл тоомсорлох нөхцөлийг хангана.:</string>
+</resources>

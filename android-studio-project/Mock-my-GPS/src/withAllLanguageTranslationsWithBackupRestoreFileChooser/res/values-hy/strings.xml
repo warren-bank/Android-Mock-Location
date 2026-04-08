@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Ընտրեք թղթապանակ ֆայլը պահպանելու համար</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Ընտրեք նոր ֆայլի անուն JSON տվյալներ</string>
+  <string name="app_folderpicker_json_import_filepath_description">Ընտրեք նախկինում արտահանված ֆայլը JSON տվյալներ</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "ברייט, לאַנג">
+  <!ENTITY fixed_position "פֿיקסירטע פּאָזיציע">
+  <!ENTITY trip           "רײַזע">
+  <!ENTITY origin         "מקור">
+  <!ENTITY destination    "ציל">
+]>
+<resources>
+    <string name="app_name">מאַכן שפּאָט פֿון מײַן GPS</string>
+    <string name="geo_intent_menu_title">ניצט געאָ-אינטענט פֿאַר:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">נײַער בוקמאַרק</string>
+    <string name="MainActivity_actionbar_item_1">שפּאָרן בוקמאַרק</string>
+    <string name="MainActivity_actionbar_item_2">סימניות</string>
+    <string name="MainActivity_actionbar_item_3">העדפות</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; סימולאַציע</string>
+    <string name="save_bookmark_menu_title">אָרט צו שפּאָרן:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">אָרט:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">דויער:\n<small>(סעקונדעס)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">צוגעבן</string>
+    <string name="BookmarksActivity_actionbar_item_2">רעזערוו</string>
+    <string name="BookmarksActivity_actionbar_item_3">צוריקשטעלן</string>
+    <string name="open_bookmark_menu_title">ניצט אַ בוקמאַרק פֿאַר:</string>
+    <string name="edit_bookmark_field_1">טיטל:</string>
+    <string name="edit_bookmark_field_2">אָרט:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">אַלגעמיין</string>
+    <string name="PreferencesActivity_field_1">צײַט (ms) צווישן יעדן דערהײַנטיקונג:</string>
+    <string name="PreferencesActivity_field_2">צאָל מאָל צו מאָקן אָרט:\n<small>(0 = פאָרזעצן ביז מען שטעלט עס אויף אויסדריקלעך)</small></string>
+    <string name="PreferencesActivity_field_3">ווײַזן דזשויסטיק:</string>
+    <string name="PreferencesActivity_field_4">פֿריידשטעק lat/lon צוגאָב:</string>
+    <string name="PreferencesActivity_field_5">האַלטן דעם ציל־אָרט ווי אַ פֿיקסירטע פּאָזיציע:</string>
+    <string name="label_button_start">אָנהייב</string>
+    <string name="label_button_stop">האַלט</string>
+    <string name="label_button_update">דערהײַנטיקונג</string>
+    <string name="label_button_cancel">אָפּזאָגן</string>
+    <string name="label_button_delete">מעקן</string>
+    <string name="label_button_save">אויפֿהיטן</string>
+    <string name="error_geo_intent">קען נישט פּאַרסירן דעם געאָ־אינטענט \'%s\'.</string>
+    <string name="error_number_format">קען נישט פּאַרסירן די נומער \'%s\'.</string>
+    <string name="error_location_format">קען נישט פּאַרסירן אָרט \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">בוकमארק איז שוין עקזיסטירנדיק \'%s\'.</string>
+    <string name="error_missing_required_value">פֿעלער: פֿעלט דער נויטיקער ווערט</string>
+    <string name="error_add_bookmarkitem">פֿעלער: ניט געקענט צוגעבן אַ נײַעם בוקמאַרק</string>
+    <string name="notification_service_ticker">מאַכן שפּאָט פֿון מײַן GPS: לויפֿן</string>
+    <string name="notification_service_content_line1">מאַכן שפּאָט פֿון מײַן GPS</string>
+    <!--
+    <string name="notification_service_content_line2">קליקן צו עפֿענען. אָפּװײַזן צו אָפּשטעלן..</string>
+    -->
+    <string name="notification_service_content_line2">קליקט צו עפֿענען.</string>
+</resources>

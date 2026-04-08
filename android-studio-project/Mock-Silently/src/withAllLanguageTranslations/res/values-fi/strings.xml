@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mock hiljaa</string>
+    <string name="app_name">Pilkkaa hiljaa</string>
     <string name="pref_settings_title">Asetukset</string>
-    <string name="pref_purpose_array_names_1">Kiinteä asema</string>
-    <string name="pref_purpose_array_names_2">Trip-määräpaikka</string>
+    <string name="pref_purpose_array_names_1">Kiinteä työpaikka</string>
+    <string name="pref_purpose_array_names_2">Matkakohde</string>
     <string name="pref_purpose_title">Tarkoitus</string>
-    <string name="pref_purpose_summary">Valitse tarkoitus..</string>
-    <string name="pref_force_start_title">Voima alku</string>
-    <string name="pref_force_start_summary_on" >Aloittakaa leikkuupalvelu hiljaa.</string>
-    <string name="pref_force_start_summary_off">Avaa sovellus ja aloita mokkapalvelu manuaalisesti..</string>
-    <string name="pref_trip_duration_seconds_title">Trip-kesto (sekuntia)).</string>
-    <string name="pref_trip_duration_seconds_summary">Matkan simuloinnin sekunteina aika, joka on ajossa ennen kohteen saapumista:</string>
+    <string name="pref_purpose_summary">valitse käyttötarkoitus..</string>
+    <string name="pref_force_start_title">Pakota käynnistys</string>
+    <string name="pref_force_start_summary_on" >Käynnistä simulaatiopalvelu hiljaisesti.</string>
+    <string name="pref_force_start_summary_off">Avaa sovellus ja käynnistä simulointipalvelu manuaalisesti.</string>
+    <string name="pref_trip_duration_seconds_title">Matkan kesto (sekuntia)).</string>
+    <string name="pref_trip_duration_seconds_summary">Sekuntien määrä, jonka ajan matkasimulaatio kestää ennen määränpäähän saapumista:</string>
 </resources>

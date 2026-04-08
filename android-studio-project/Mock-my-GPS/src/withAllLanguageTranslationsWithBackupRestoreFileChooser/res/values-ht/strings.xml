@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Chwazi dosye pou sove fichye a</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Chwazi yon nouvo non fichye pou JSON done</string>
+  <string name="app_folderpicker_json_import_filepath_description">Chwazi fichye ki genyen sa ki te deja ekspòte yo. JSON done</string>
+</resources>

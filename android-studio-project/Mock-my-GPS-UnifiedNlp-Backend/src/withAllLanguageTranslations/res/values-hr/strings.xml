@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Ismija moje GPS UnifiedNlp Pozadina</string>
-    <string name="locationservice_permission_label">Ismija moje GPS UnifiedNlp Usluga lokacije</string>
-    <string name="locationservice_permission_description">Dozvola razine potpisa, potrebna za Mock moj GPS za davanje ažuriranja lokacije za svoje UnifiedNlp Pozadina.</string>
-    <string name="backendservice_summary">Koristi \" Mock my GPS" kao pružatelj usluge pozadin.pozadin.dok je njegova usluga aktivna.</string>
+    <string name="app_name">Ismijavaj se meni GPS UnifiedNlp Zadnji sloj</string>
+    <string name="locationservice_permission_label">Ismijavaj se meni GPS UnifiedNlp Lokacijska usluga</string>
+    <string name="locationservice_permission_description">Dozvola razine potpisa, potrebna za Mock my GPS pružiti ažuriranja lokacije za svoje UnifiedNlp Zadnji sloj.</string>
+    <string name="backendservice_summary">Upotrebe "Ismijavaj se meni GPS" kao pružatelj pozadinske lokacije dok je njegova usluga aktivna.</string>
     <string name="pref_settings_title">Postavke</string>
-    <string name="pref_timeadvance_title">Vrijeme Unaprijed (ms).</string>
-    <string name="pref_timeadvance_summary">Broj milisekundi dodanih u vremensku oznaku svih ažuriranja lokacije. Dovoljno velika vrijednost treba osigurati da su svi drugi pružatelji pozadinači ignorirani dok je aktivirano ruganje.:</string>
+    <string name="pref_timeadvance_title">Vremenski avans (ms).</string>
+    <string name="pref_timeadvance_summary">Broj milisekundi koji se dodaje žigu vremena svih ažuriranja lokacije. Dovoljno velika vrijednost trebala bi osigurati da se svi ostali pozadinski pružatelji usluga zanemare dok je mocking aktivan.:</string>
 </resources>

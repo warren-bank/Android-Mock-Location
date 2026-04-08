@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zombar em silêncio</string>
+    <string name="pref_settings_title">Configurações</string>
+    <string name="pref_purpose_array_names_1">Cargo fixo</string>
+    <string name="pref_purpose_array_names_2">Destino da viagem</string>
+    <string name="pref_purpose_title">Objetivo</string>
+    <string name="pref_purpose_summary">escolha o objetivo..</string>
+    <string name="pref_force_start_title">Iniciar à força</string>
+    <string name="pref_force_start_summary_on" >Inicie o serviço de simulação silenciosamente.</string>
+    <string name="pref_force_start_summary_off">Abra o aplicativo para iniciar manualmente o serviço de simulação.</string>
+    <string name="pref_trip_duration_seconds_title">Duração da viagem (segundos)).</string>
+    <string name="pref_trip_duration_seconds_summary">Número de segundos que a simulação de uma viagem deve durar antes de chegar ao destino:</string>
+</resources>

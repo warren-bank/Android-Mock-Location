@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">सञ्चयितुं निर्देशिकां चयनयतु।</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">नवीनस्य फाइलनामस्य चयनं कुर्वीत। JSON दत्तांशः</string>
+  <string name="app_folderpicker_json_import_filepath_description">पूर्वमेव निर्यातितं संलग्नं दत्तपत्रं चयनयतु। JSON दत्तांशः</string>
+</resources>

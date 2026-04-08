@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Изберете директориум за зачувување на датотеката</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Изберете ново име на датотека за JSON податоци</string>
+  <string name="app_folderpicker_json_import_filepath_description">Изберете датотека што содржи претходно извезени JSON податоци</string>
+</resources>

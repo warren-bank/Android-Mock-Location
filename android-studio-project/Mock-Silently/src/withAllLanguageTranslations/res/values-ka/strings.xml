@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ივარჯიშეთ დუმილში</string>
+    <string name="pref_settings_title">პარამეტრები</string>
+    <string name="pref_purpose_array_names_1">ფიქსირებული პოზიცია</string>
+    <string name="pref_purpose_array_names_2">გამგზავრების ადგილი</string>
+    <string name="pref_purpose_title">მიზანი</string>
+    <string name="pref_purpose_summary">აირჩიეთ მიზანი..</string>
+    <string name="pref_force_start_title">ძალდატანებით ჩართვა</string>
+    <string name="pref_force_start_summary_on" >უხმოდ გაუშვით მოსინჯვის სერვისი.</string>
+    <string name="pref_force_start_summary_off">გახსენით აპლიკაცია მოქინგ სერვისის ხელით დასაწყებად..</string>
+    <string name="pref_trip_duration_seconds_title">მოგზაურობის ხანგრძლივობა (წამები)).</string>
+    <string name="pref_trip_duration_seconds_summary">მიზანამდე მიღწევამდე მოგზაურობის სიმულაციის ჩასატარებლად საჭირო წამების რაოდენობა:</string>
+</resources>

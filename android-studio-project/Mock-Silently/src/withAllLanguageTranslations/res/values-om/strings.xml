@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kolfi callisaa</string>
+    <string name="pref_settings_title">Qindaa\'inoota</string>
+    <string name="pref_purpose_array_names_1">Iddoo dhaabbataa</string>
+    <string name="pref_purpose_array_names_2">Bakka Imalaa</string>
+    <string name="pref_purpose_title">Kaayyoo</string>
+    <string name="pref_purpose_summary">Kaayyoo filadhu..</string>
+    <string name="pref_force_start_title">Dirqisiisee Jalqabsiisuu</string>
+    <string name="pref_force_start_summary_on" >Callisaan tajaajila qoosaa jalqabi.</string>
+    <string name="pref_force_start_summary_off">Tajaajila fakkeessaa harkaan jalqabsiisuuf appii banaa..</string>
+    <string name="pref_trip_duration_seconds_title">Turuu Imalaa (sekondiiwwan)).</string>
+    <string name="pref_trip_duration_seconds_summary">Lakkoofsa sekondiiwwanii simuleeshiniin imalaa iddoo gahuu isaa dura itti fudhatu:</string>
+</resources>

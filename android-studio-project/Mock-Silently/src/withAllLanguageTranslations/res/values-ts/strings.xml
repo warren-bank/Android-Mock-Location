@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tshaha hi ku miyela</string>
+    <string name="pref_settings_title">Swilunghiselo</string>
+    <string name="pref_purpose_array_names_1">Xiyimo lexi nga cinciwiki</string>
+    <string name="pref_purpose_array_names_2">Ndhawu ya riendzo</string>
+    <string name="pref_purpose_title">Xikongomelo</string>
+    <string name="pref_purpose_summary">Hlawula xikongomelo..</string>
+    <string name="pref_force_start_title">Ku sungula hi xiviri</string>
+    <string name="pref_force_start_summary_on" >Sungula vukorhokeri byo hlekula hi ku miyela..</string>
+    <string name="pref_force_start_summary_off">Pfula app leswaku u sungula vukorhokeri byo ringeta hi voko..</string>
+    <string name="pref_trip_duration_seconds_title">Nkarhi wa riendzo (tisekoni)).</string>
+    <string name="pref_trip_duration_seconds_summary">Nhlayo ya tisekene leti simulasini ya riendzo yi ti tekaka ku tirha ku fikela laha ku yaka kona:</string>
+</resources>

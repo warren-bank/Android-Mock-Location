@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tshwantsha ya ka GPS UnifiedNlp Karolo e ka morao</string>
+    <string name="locationservice_permission_label">Tshwantsha ya ka GPS UnifiedNlp Tshebeletso ya Sebaka</string>
+    <string name="locationservice_permission_description">Tumello ea Boemo ba Saini, e hlokahalang bakeng sa ho etsisa ea ka GPS ho fana ka lintlafatso tsa sebaka ho tsa eona UnifiedNlp Karolo e ka morao.</string>
+    <string name="backendservice_summary">Tšebeliso "Tshwantsha ya ka GPS" e le mofani oa sebaka sa morao-rao ha tšebeletso ea eona e sebetsa.</string>
+    <string name="pref_settings_title">Litlhophiso</string>
+    <string name="pref_timeadvance_title">Nako e tlang pele (ms).</string>
+    <string name="pref_timeadvance_summary">Palo ea li-millisecond tse eketsoang lets\'oao la nako la lintlafatso tsohle tsa sebaka. Boleng bo lekaneng bo lokela ho netefatsa hore bafani ba bang kaofela ba tšehetso ba hlokomolohuoa ha ho etsoa boiketsiso.:</string>
+</resources>

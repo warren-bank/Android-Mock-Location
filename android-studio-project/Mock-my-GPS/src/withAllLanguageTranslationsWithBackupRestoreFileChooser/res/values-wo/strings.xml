@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Tànnal dosiye bi ngir denc fise bi</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Tànnal turu dosiye bu bees ngir JSON Xibaar yi</string>
+  <string name="app_folderpicker_json_import_filepath_description">Tànnal dosiye bi am li nga génne woon ba pare. JSON Xibaar yi</string>
+</resources>

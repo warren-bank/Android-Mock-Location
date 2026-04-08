@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Виберіть папку для збереження файлу</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Виберіть нову назву файлу для JSON дані</string>
+  <string name="app_folderpicker_json_import_filepath_description">Виберіть файл, що містить раніше експортовані дані JSON дані</string>
+</resources>

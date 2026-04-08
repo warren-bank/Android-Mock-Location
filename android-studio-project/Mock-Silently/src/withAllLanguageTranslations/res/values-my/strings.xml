@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">တိတ်ဆိတ်စွာ မော့ခ်လုပ်ပါ</string>
+    <string name="pref_settings_title">ဆက်တင်များ</string>
+    <string name="pref_purpose_array_names_1">တည်ငြိမ်ထားသော အနေအထား</string>
+    <string name="pref_purpose_array_names_2">ခရီးသွားရာနေရာ</string>
+    <string name="pref_purpose_title">ရည်ရွယ်ချက်</string>
+    <string name="pref_purpose_summary">ရည်ရွယ်ချက်ကိုရွေးပါ..</string>
+    <string name="pref_force_start_title">အင်အားဖြင့် စတင်ခြင်း</string>
+    <string name="pref_force_start_summary_on" >မော်ကင်းဝန်ဆောင်မှုကို တိတ်ဆိတ်စွာ စတင်ပါ။.</string>
+    <string name="pref_force_start_summary_off">အက်ပ်ကို ဖွင့်ပြီး mocking ဝန်ဆောင်မှုကို လက်ဖြင့် စတင်ပါ။.</string>
+    <string name="pref_trip_duration_seconds_title">ခရီးကြာမြင့်ချိန် (စက္ကန့်)).</string>
+    <string name="pref_trip_duration_seconds_summary">ခရီးစဉ်အတုလုပ်ခြင်းသည် ရောက်မည့်နေရာသို့ ရောက်ရှိရန် လိုအပ်သည့် စက္ကန့်အရေအတွက်:</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tshameka ka me GPS UnifiedNlp Karolo ya kwa morago</string>
+    <string name="locationservice_permission_label">Tshameka ka me GPS UnifiedNlp Tirelo ya Lefelo</string>
+    <string name="locationservice_permission_description">Tetla ya Signature Level, e e tlhokegang go etsa ya me GPS go aba dintšhwafatso tsa lefelo go tsa yone UnifiedNlp Karolo ya kwa morago.</string>
+    <string name="backendservice_summary">Tiriso "Tshameka ka me GPS" jaaka mofedi wa lefelo la kwa morago fa tirelo ya yone e le mo tirisong.</string>
+    <string name="pref_settings_title">Ditlhophiso</string>
+    <string name="pref_timeadvance_title">Pele ga nako (ms).</string>
+    <string name="pref_timeadvance_summary">Palo ya di-millisecond tse di okeditsweng mo letshwaong la nako la dintšhwafatso tsotlhe tsa lefelo. Boleng jo bo lekaneng go lekane bo tshwanetse go netefatsa gore batlamedi ba bangwe botlhe ba backend ba itlhokomolosiwa fa go etsisa go ntse go dira.:</string>
+</resources>

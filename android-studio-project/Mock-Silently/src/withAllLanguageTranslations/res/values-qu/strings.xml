@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Upallalla asikuy</string>
+    <string name="pref_settings_title">Allichaykuna</string>
+    <string name="pref_purpose_array_names_1">Sayasqa Tiyay</string>
+    <string name="pref_purpose_array_names_2">Viaje Riyna Llaqta</string>
+    <string name="pref_purpose_title">Imapaq kasqan</string>
+    <string name="pref_purpose_summary">Munayninta akllay..</string>
+    <string name="pref_force_start_title">Kallpawan qallarichiy</string>
+    <string name="pref_force_start_summary_on" >Upallalla q\'aqchakuq servisiyuta qallarichiy.</string>
+    <string name="pref_force_start_summary_off">Aplicacionta kichay, simulacion serviciota makillawan qallarichinapaq..</string>
+    <string name="pref_trip_duration_seconds_title">Puriy unaynin (segundokunapi)).</string>
+    <string name="pref_trip_duration_seconds_summary">Chayana llaqtaman chayanankama, puriy rikch\'anachiypa purinan segundo yupay.:</string>
+</resources>

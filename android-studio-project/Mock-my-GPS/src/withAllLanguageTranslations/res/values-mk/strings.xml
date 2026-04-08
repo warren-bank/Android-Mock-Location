@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Ширина, Должина">
+  <!ENTITY fixed_position "Фиксна позиција">
+  <!ENTITY trip           "Патување">
+  <!ENTITY origin         "Потекло">
+  <!ENTITY destination    "Дестинација">
+]>
+<resources>
+    <string name="app_name">Парадирај моја GPS</string>
+    <string name="geo_intent_menu_title">Користете Geo-Intent за:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Нова обележувачка</string>
+    <string name="MainActivity_actionbar_item_1">Зачувај обележувач</string>
+    <string name="MainActivity_actionbar_item_2">Обележувачи</string>
+    <string name="MainActivity_actionbar_item_3">Претпочитања</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Симулација</string>
+    <string name="save_bookmark_menu_title">Локација за зачувување:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Локација:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Времетраење:\n<small>(секунди)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Додај</string>
+    <string name="BookmarksActivity_actionbar_item_2">Резервна копија</string>
+    <string name="BookmarksActivity_actionbar_item_3">Обнови</string>
+    <string name="open_bookmark_menu_title">Користете ознака за:</string>
+    <string name="edit_bookmark_field_1">Наслов:</string>
+    <string name="edit_bookmark_field_2">Локација:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Општо</string>
+    <string name="PreferencesActivity_field_1">Време (ms) меѓу секое ажурирање:</string>
+    <string name="PreferencesActivity_field_2">Број на пати за лажирање на локација:\n<small>(0 = продолжи додека не се запре експлицитно)</small></string>
+    <string name="PreferencesActivity_field_3">Прикажи џојстик:</string>
+    <string name="PreferencesActivity_field_4">Џојстик lat/lon зголемување:</string>
+    <string name="PreferencesActivity_field_5">Држете ја дестинацијата како фиксна позиција:</string>
+    <string name="label_button_start">ПОЧНИ</string>
+    <string name="label_button_stop">СТОП</string>
+    <string name="label_button_update">АЖУРИРАЊЕ</string>
+    <string name="label_button_cancel">ОТКАЖИ</string>
+    <string name="label_button_delete">ИЗБРИШИ</string>
+    <string name="label_button_save">Зачувај</string>
+    <string name="error_geo_intent">Не можеше да се анализира геолокациската намера. \'%s\'.</string>
+    <string name="error_number_format">Не можеше да се парсира бројот \'%s\'.</string>
+    <string name="error_location_format">Не може да се анализира локацијата \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Обележувачот веќе постои \'%s\'.</string>
+    <string name="error_missing_required_value">Грешка: Фали вредност што се бара</string>
+    <string name="error_add_bookmarkitem">Грешка: Не може да се додаде нова обележувачка</string>
+    <string name="notification_service_ticker">Парадирај моја GPS: трчање</string>
+    <string name="notification_service_content_line1">Парадирај моја GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Кликнете за отворање. Отфрлете за да запрете.</string>
+    -->
+    <string name="notification_service_content_line2">Кликнете за да отворите.</string>
+</resources>

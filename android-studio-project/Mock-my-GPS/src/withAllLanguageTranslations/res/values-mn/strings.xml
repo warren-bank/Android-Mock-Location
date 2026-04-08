@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Өргөрөг, Уртраг">
+  <!ENTITY fixed_position "Тогтмол байрлал">
+  <!ENTITY trip           "Аялал">
+  <!ENTITY origin         "Гарал">
+  <!ENTITY destination    "Очих газар">
+]>
+<resources>
+    <string name="app_name">Минийг дуурай GPS</string>
+    <string name="geo_intent_menu_title">Geo-Intent-ийг ашиглах:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Шинэ тэмдэглэгээ</string>
+    <string name="MainActivity_actionbar_item_1">Тэмдэглэгээг хадгалах</string>
+    <string name="MainActivity_actionbar_item_2">Тэмдэглэгээнүүд</string>
+    <string name="MainActivity_actionbar_item_3">Тохиргоо</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Симуляци</string>
+    <string name="save_bookmark_menu_title">Хадгалах байршил:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Байршил:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Үргэлжлэх хугацаа:\n<small>(секундүүд)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Нэмэх</string>
+    <string name="BookmarksActivity_actionbar_item_2">Нөөцлөлт</string>
+    <string name="BookmarksActivity_actionbar_item_3">Сэргээх</string>
+    <string name="open_bookmark_menu_title">Тэмдэглэгээг ашиглах:</string>
+    <string name="edit_bookmark_field_1">Гарчиг:</string>
+    <string name="edit_bookmark_field_2">Байршил:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Ерөнхий</string>
+    <string name="PreferencesActivity_field_1">Цаг (ms) Шинэчлэлт бүрийн хооронд:</string>
+    <string name="PreferencesActivity_field_2">Байршлыг дуураймал тоо удаа:\n<small>(0 = ил тод зогсоогдох хүртэл үргэлжлүүлэх)</small></string>
+    <string name="PreferencesActivity_field_3">Жойстикийг харуулах:</string>
+    <string name="PreferencesActivity_field_4">Жойстик lat/lon нэмэгдэл:</string>
+    <string name="PreferencesActivity_field_5">Зорьж буй цэгийг тогтмол байрлал гэж тогтоох:</string>
+    <string name="label_button_start">Эхлэх</string>
+    <string name="label_button_stop">ЗОГС</string>
+    <string name="label_button_update">Шинэчлэлт</string>
+    <string name="label_button_cancel">ХҮРТЭЭХГҮЙ</string>
+    <string name="label_button_delete">Устгах</string>
+    <string name="label_button_save">Хэмнэ</string>
+    <string name="error_geo_intent">Гео зорилгыг задлан шинжлэх боломжгүй боллоо \'%s\'.</string>
+    <string name="error_number_format">Тоог задлаж чадаагүй \'%s\'.</string>
+    <string name="error_location_format">Байршлыг задлаж чадаагүй \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Дамжуулагч аль хэдийнэ оршиж байна \'%s\'.</string>
+    <string name="error_missing_required_value">Алдаа: Шаардлагатай утга дутагдаж байна</string>
+    <string name="error_add_bookmarkitem">Алдаа: Шинэ тэмдэглэгээ нэмж чадсангүй</string>
+    <string name="notification_service_ticker">Минийг дуурай GPS: гүйнэ</string>
+    <string name="notification_service_content_line1">Минийг дуурай GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Нээхийн тулд дарна уу. Зогсоохын тулд хасна уу..</string>
+    -->
+    <string name="notification_service_content_line2">Нээхийн тулд дарна уу.</string>
+</resources>

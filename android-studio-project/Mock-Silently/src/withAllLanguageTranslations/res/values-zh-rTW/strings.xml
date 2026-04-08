@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">模擬無聲自動</string>
+    <string name="app_name">默默嘲諷</string>
     <string name="pref_settings_title">設定</string>
-    <string name="pref_purpose_array_names_1">固定位置</string>
-    <string name="pref_purpose_array_names_2">行程目的地</string>
+    <string name="pref_purpose_array_names_1">固定職位</string>
+    <string name="pref_purpose_array_names_2">旅遊目的地</string>
     <string name="pref_purpose_title">目的</string>
-    <string name="pref_purpose_summary">選目..</string>
+    <string name="pref_purpose_summary">選擇目的..</string>
     <string name="pref_force_start_title">強制啟動</string>
-    <string name="pref_force_start_summary_on" >輕輕地開始嘲笑服務.</string>
-    <string name="pref_force_start_summary_off">開啟應用程式以手動啟動嘲笑服務.</string>
-    <string name="pref_trip_duration_seconds_title">行程持續時間（秒）).</string>
-    <string name="pref_trip_duration_seconds_summary">在到達目的地之前，要執行的行程模擬的秒數:</string>
+    <string name="pref_force_start_summary_on" >靜默地啟動模擬服務.</string>
+    <string name="pref_force_start_summary_off">開啟應用程式以手動啟動模擬服務.</string>
+    <string name="pref_trip_duration_seconds_title">行程時間（秒）).</string>
+    <string name="pref_trip_duration_seconds_summary">行程模擬在抵達目的地前需運行的秒數:</string>
 </resources>

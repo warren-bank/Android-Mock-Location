@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Seleccioneu la carpeta per desar el fitxer</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Seleccioneu un nom de fitxer nou per a JSON dades</string>
+  <string name="app_folderpicker_json_import_filepath_description">Seleccioneu el fitxer que conté l\'exportació anterior. JSON dades</string>
+</resources>

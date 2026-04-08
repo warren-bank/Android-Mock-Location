@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">מאַכן שפּאָט פֿון מײַן GPS UnifiedNlp הינטערגרונט</string>
+    <string name="locationservice_permission_label">מאַכן שפּאָט פֿון מײַן GPS UnifiedNlp אָרט־דינסט</string>
+    <string name="locationservice_permission_description">סיגנאַטור־לעוועל דערלויבעניש, נייטיק פֿאַר מאָק מײַ GPS צו צושטעלן אָרט־דערהייַנטיקונגען צו אירע UnifiedNlp הינטערגרונט.</string>
+    <string name="backendservice_summary">ניצולים "מאַכן שפּאָט פֿון מײַן GPS" ווי אַ הינטערגרונט־אָרט־צושטעלער בשעת זײַן דינסט איז אַקטיוו.</string>
+    <string name="pref_settings_title">איינשטעלונגען</string>
+    <string name="pref_timeadvance_title">צײַט־פֿאָרויסגאַנג (ms).</string>
+    <string name="pref_timeadvance_summary">צאָל מיליסעקונדעס צוגעגעבן צום צײַטשטעמפּל פֿון אַלע אָרט־אַפּדייטס. אַ גענוג גרויסער ווערט זאָל פֿאַרזיכערן אַז אַלע אַנדערע באַק־ענד־פּראָוויידערס ווערן איגנאָרירט בשעת מאָקינג איז אַקטיוו.:</string>
+</resources>

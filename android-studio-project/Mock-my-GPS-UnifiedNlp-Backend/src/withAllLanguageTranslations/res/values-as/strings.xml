@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">মোৰ ওপৰত উপহাস কৰা GPS UnifiedNlp বেকএণ্ড</string>
+    <string name="locationservice_permission_label">মোৰ ওপৰত উপহাস কৰা GPS UnifiedNlp অৱস্থান সেৱা</string>
+    <string name="locationservice_permission_description">চহী স্তৰৰ অনুমতি, মোক্ক মাইৰ বাবে প্ৰয়োজনীয় GPS ইয়াৰ অৱস্থানৰ আপডেট প্ৰদান কৰিবলৈ UnifiedNlp বেকএণ্ড.</string>
+    <string name="backendservice_summary">ব্যৱহাৰ "মোৰ ওপৰত উপহাস কৰা GPS" ইয়াৰ সেৱা সক্ৰিয় থকা অৱস্থাত এটা বেকএণ্ড অৱস্থান প্ৰদানকাৰী হিচাপে.</string>
+    <string name="pref_settings_title">ছেটিংছ</string>
+    <string name="pref_timeadvance_title">সময় আগতীয়া (ms).</string>
+    <string name="pref_timeadvance_summary">সকলো লোকেচন আপডেটৰ টাইমষ্টাম্পত যোগ কৰা মিলিছেকেণ্ডৰ সংখ্যা। এটা যথেষ্ট ডাঙৰ মান থাকিলে মকিং সক্ৰিয় হৈ থকাৰ সময়ত আন সকলো বেকএণ্ড প্ৰদানকাৰীক উপেক্ষা কৰাটো নিশ্চিত হ\'ব।:</string>
+</resources>

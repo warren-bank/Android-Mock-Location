@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Latitud, Longitud">
+  <!ENTITY fixed_position "Posicion fixa">
+  <!ENTITY trip           "Viatge">
+  <!ENTITY origin         "Origin">
+  <!ENTITY destination    "Destination">
+]>
+<resources>
+    <string name="app_name">Imitar mon GPS</string>
+    <string name="geo_intent_menu_title">Utilizatz Geo-Intent per:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Nòva marca-pagina</string>
+    <string name="MainActivity_actionbar_item_1">Enregistrar lo marcador</string>
+    <string name="MainActivity_actionbar_item_2">Marcapàginas</string>
+    <string name="MainActivity_actionbar_item_3">Preferéncias</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Simulacion</string>
+    <string name="save_bookmark_menu_title">Localizacion per salvar:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Localizacion:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Durada:\n<small>(segondas)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Apondre</string>
+    <string name="BookmarksActivity_actionbar_item_2">Còpia de seguretat</string>
+    <string name="BookmarksActivity_actionbar_item_3">Restaurar</string>
+    <string name="open_bookmark_menu_title">Utilizar un marcapagina per:</string>
+    <string name="edit_bookmark_field_1">Títol:</string>
+    <string name="edit_bookmark_field_2">Localizacion:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">General</string>
+    <string name="PreferencesActivity_field_1">Temps (ms) entre cada mesa a jorn:</string>
+    <string name="PreferencesActivity_field_2">Nombre de còps per se moquer de la localizacion:\n<small>(0 = contunhar fins a l\'arrest explicit)</small></string>
+    <string name="PreferencesActivity_field_3">Mostrar lo joystick:</string>
+    <string name="PreferencesActivity_field_4">Maneta lat/lon augment:</string>
+    <string name="PreferencesActivity_field_5">Tèn la destinacion coma posicion fixa:</string>
+    <string name="label_button_start">Començar</string>
+    <string name="label_button_stop">Arrèsta</string>
+    <string name="label_button_update">Mesa a jorn</string>
+    <string name="label_button_cancel">Anullar</string>
+    <string name="label_button_delete">Suprimir</string>
+    <string name="label_button_save">Enregistrar</string>
+    <string name="error_geo_intent">Se podèt pas analisar l\'intencion geo. \'%s\'.</string>
+    <string name="error_number_format">Se pòt pas analisar lo nombre \'%s\'.</string>
+    <string name="error_location_format">Se pòt pas analisar la localizacion \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Un marcador existís ja. \'%s\'.</string>
+    <string name="error_missing_required_value">Error: Valor obligatòria mancanta</string>
+    <string name="error_add_bookmarkitem">Error: Se pòt pas apondre un novèl marcapagina.</string>
+    <string name="notification_service_ticker">Imitar mon GPS: corrent</string>
+    <string name="notification_service_content_line1">Imitar mon GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Clicatz per dobrir. Desbotatz per arrestar..</string>
+    -->
+    <string name="notification_service_content_line2">Clicatz per dobrir.</string>
+</resources>

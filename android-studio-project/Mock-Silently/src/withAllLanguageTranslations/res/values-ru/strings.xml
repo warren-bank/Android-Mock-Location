@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Инсценировать в</string>
-    <string name="pref_settings_title">Параметры</string>
-    <string name="pref_purpose_array_names_1">Фиксированная позиция</string>
-    <string name="pref_purpose_array_names_2">Назначение поездки</string>
-    <string name="pref_purpose_title">Назначение</string>
-    <string name="pref_purpose_summary">выбрать назначение..</string>
-    <string name="pref_force_start_title">Принудительное начало</string>
-    <string name="pref_force_start_summary_on" >Запуск службы наложения в режиме без вывода сообщений.</string>
-    <string name="pref_force_start_summary_off">Откройте приложение, чтобы вручную запустить службу наложения.</string>
-    <string name="pref_trip_duration_seconds_title">Продолжительность поездки (в секундах).</string>
-    <string name="pref_trip_duration_seconds_summary">Время (в секундах), в течение которого имитация рейса выполняется до достижения целевого объекта:</string>
+    <string name="app_name">Тихо посмеяться</string>
+    <string name="pref_settings_title">Настройки</string>
+    <string name="pref_purpose_array_names_1">Постоянная должность</string>
+    <string name="pref_purpose_array_names_2">Направление путешествия</string>
+    <string name="pref_purpose_title">Цель</string>
+    <string name="pref_purpose_summary">выберите цель..</string>
+    <string name="pref_force_start_title">Принудительный запуск</string>
+    <string name="pref_force_start_summary_on" >Запустить службу имитации в фоновом режиме.</string>
+    <string name="pref_force_start_summary_off">Откройте приложение, чтобы вручную запустить службу имитации.</string>
+    <string name="pref_trip_duration_seconds_title">Продолжительность поездки (секунды)).</string>
+    <string name="pref_trip_duration_seconds_summary">Количество секунд, в течение которых будет выполняться симуляция поездки до достижения пункта назначения:</string>
 </resources>

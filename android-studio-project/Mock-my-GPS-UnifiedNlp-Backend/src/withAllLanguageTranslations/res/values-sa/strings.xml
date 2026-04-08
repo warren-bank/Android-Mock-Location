@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">मम उपहासय GPS UnifiedNlp पृष्ठान्तः</string>
+    <string name="locationservice_permission_label">मम उपहासय GPS UnifiedNlp स्थानसेवा</string>
+    <string name="locationservice_permission_description">हस्ताक्षर-स्तर-अनुमति, मॉक् माय् कृते आवश्यकम्। GPS तस्य स्थानसूचनाः प्रदातुम् UnifiedNlp पृष्ठान्तः.</string>
+    <string name="backendservice_summary">उपयोगाः "मम उपहासय GPS" यदा तस्य सेवा सक्रियम् अस्ति तदा पृष्ठभूमि-स्थानप्रदातारूपेण.</string>
+    <string name="pref_settings_title">विन्यासाः</string>
+    <string name="pref_timeadvance_title">कालपूर्वगमनम् (ms).</string>
+    <string name="pref_timeadvance_summary">सर्वेषु स्थान-अद्यतनानां समयचिह्ने योजितः मिलीसेकण्डानां सङ्ख्या। पर्याप्तं महत् मानं यदा मॉकिंग् सक्रियः भवति तदा अन्ये सर्वे पृष्ठभूमि-प्रदातारः उपेक्ष्यन्ते इति सुनिश्चितुम् अर्हति।:</string>
+</resources>

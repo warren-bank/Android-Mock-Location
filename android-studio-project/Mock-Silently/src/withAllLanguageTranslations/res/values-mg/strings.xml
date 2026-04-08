@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Manao tsikera am-pangina</string>
+    <string name="pref_settings_title">Fikirana</string>
+    <string name="pref_purpose_array_names_1">Toerana raikitra</string>
+    <string name="pref_purpose_array_names_2">Tanjona amin\'ny dia</string>
+    <string name="pref_purpose_title">Tanjona</string>
+    <string name="pref_purpose_summary">Misafidiana tanjona..</string>
+    <string name="pref_force_start_title">Fanombohana an-keriny</string>
+    <string name="pref_force_start_summary_on" >Ampandehano mangina ny serivisy fanesoana.</string>
+    <string name="pref_force_start_summary_off">Sokafy ny fampiharana mba hanombohana tanana ny serivisy mocking..</string>
+    <string name="pref_trip_duration_seconds_title">Faharetan\'ny dia (segondra)).</string>
+    <string name="pref_trip_duration_seconds_summary">Isan\'ny segondra ilaina mba hihazakazahan\'ny fanahafana ny dia alohan\'ny hahatongavana any amin\'ny toerana aleha.:</string>
+</resources>

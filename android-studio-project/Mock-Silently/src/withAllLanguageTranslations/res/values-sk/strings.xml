@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mock Tichý</string>
+    <string name="app_name">Ticho sa posmievať</string>
     <string name="pref_settings_title">Nastavenia</string>
-    <string name="pref_purpose_array_names_1">Pevná pozícia</string>
+    <string name="pref_purpose_array_names_1">Stála pozícia</string>
     <string name="pref_purpose_array_names_2">Cieľ cesty</string>
     <string name="pref_purpose_title">Účel</string>
     <string name="pref_purpose_summary">vyberte účel..</string>
-    <string name="pref_force_start_title">Vynúti spustenie</string>
-    <string name="pref_force_start_summary_on" >Potichu začať vysmievané služby.</string>
-    <string name="pref_force_start_summary_off">Otvorte appku, aby ste manuálne spustili výukové služby.</string>
-    <string name="pref_trip_duration_seconds_title">Trvanie služobnej cesty (sekundy).</string>
-    <string name="pref_trip_duration_seconds_summary">Počet sekúnd na spustenie simulácie cesty pred dosiahitím cieľa:</string>
+    <string name="pref_force_start_title">Vynútiť spustenie</string>
+    <string name="pref_force_start_summary_on" >Ticho spustiť simulovanú službu.</string>
+    <string name="pref_force_start_summary_off">Otvorte aplikáciu a ručne spustite simulovanú službu.</string>
+    <string name="pref_trip_duration_seconds_title">Dĺžka cesty (sekúnd)).</string>
+    <string name="pref_trip_duration_seconds_summary">Počet sekúnd, počas ktorých má simulácia cesty prebiehať pred dosiahnutím cieľa:</string>
 </resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">मूकं अनुकरणम्</string>
+    <string name="pref_settings_title">विन्यासाः</string>
+    <string name="pref_purpose_array_names_1">स्थिरस्थितिः</string>
+    <string name="pref_purpose_array_names_2">यात्रागन्तव्यम्</string>
+    <string name="pref_purpose_title">उद्देश्यम्</string>
+    <string name="pref_purpose_summary">उद्देश्यं चिनु..</string>
+    <string name="pref_force_start_title">बलारम्भः</string>
+    <string name="pref_force_start_summary_on" >मौनतया उपहाससेवां आरभ।.</string>
+    <string name="pref_force_start_summary_off">मॉकिङ् सेवां हस्तेन आरभयितुम् अनुप्रयोगं उद्घाटय।.</string>
+    <string name="pref_trip_duration_seconds_title">यात्राकालः (सेकण्डेषु)).</string>
+    <string name="pref_trip_duration_seconds_summary">गन्तव्यं प्राप्तुं पूर्वं यात्रा-अनुकरणस्य सञ्चालनार्थं क्षणसङ्ख्या:</string>
+</resources>

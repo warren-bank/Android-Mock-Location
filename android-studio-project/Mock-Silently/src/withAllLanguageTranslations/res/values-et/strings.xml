@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Irvita vaikselt</string>
-    <string name="pref_settings_title">Seadistused</string>
-    <string name="pref_purpose_array_names_1">Fikseeritud asend</string>
+    <string name="app_name">Vaikne pilkamine</string>
+    <string name="pref_settings_title">Seaded</string>
+    <string name="pref_purpose_array_names_1">Püsiv ametikoht</string>
     <string name="pref_purpose_array_names_2">Reisi sihtkoht</string>
     <string name="pref_purpose_title">Eesmärk</string>
-    <string name="pref_purpose_summary">Vali otstarve..</string>
-    <string name="pref_force_start_title">Jõu algus</string>
-    <string name="pref_force_start_summary_on" >Vaikselt käivita pilkamisteenus.</string>
-    <string name="pref_force_start_summary_off">Rakenduse avamine käsitsi käivitatava teenuse käivitamisega.</string>
+    <string name="pref_purpose_summary">vali eesmärk..</string>
+    <string name="pref_force_start_title">Käivita jõuga</string>
+    <string name="pref_force_start_summary_on" >Käivita simuleerimisteenus vaikselt.</string>
+    <string name="pref_force_start_summary_off">Ava rakendus, et käivitada simulatsiooniteenus käsitsi.</string>
     <string name="pref_trip_duration_seconds_title">Reisi kestus (sekundites)).</string>
-    <string name="pref_trip_duration_seconds_summary">Sekundite arv reisi simuleerimiseks enne sihtkohta jõudmist:</string>
+    <string name="pref_trip_duration_seconds_summary">Sekundite arv, mille jooksul sõidu simulatsioon kestab enne sihtkohta jõudmist:</string>
 </resources>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">મારી નાખો GPS UnifiedNlp બેકએન્ડ</string>
-    <string name="locationservice_permission_label">મારી નાખો GPS UnifiedNlp સ્થાન સેવા</string>
-    <string name="locationservice_permission_description">હસ્તાક્ષર સ્તર પરવાનગી, મારું મારો માટે જરૂરી GPS તેની માટે સ્થાન સુધારાઓ પૂરુ પાડવા માટે UnifiedNlp બેકએન્ડ.</string>
-    <string name="backendservice_summary">Uses \" Mock my GPS" બેકઍન્ડ સ્થાન પૂરક તરીકે જ્યારે તેની સેવા સક્રિય હોય.</string>
-    <string name="pref_settings_title">સુયોજનો</string>
-    <string name="pref_timeadvance_title">સમય એડવાન્સ (ms).</string>
-    <string name="pref_timeadvance_summary">બધા સ્થાન સુધારાઓની ટાઇમસ્ટેમ્પમાં ઉમેરાયેલ મિલિસેકન્ડની સંખ્યા. મોટી પૂરતી કિંમત એ ખાતરી કરવી જોઇએ કે બધા અન્ય બેકઍન્ડ પૂરો પાડવાને અવગણાય છે જ્યારે મોકેકિંગ સક્રિય હોય:</string>
+    <string name="app_name">મારી નકલ કરો GPS UnifiedNlp પાછળનું ભાગ</string>
+    <string name="locationservice_permission_label">મારી નકલ કરો GPS UnifiedNlp સ્થાન સેવા</string>
+    <string name="locationservice_permission_description">સિગ્નેચર લેવલ પરવાનગી, Mock my માટે જરૂરી GPS તેની માટે સ્થાન અપડેટ્સ પ્રદાન કરવા UnifiedNlp પાછળનું ભાગ.</string>
+    <string name="backendservice_summary">ઉપયોગો "મારી નકલ કરો GPS" તેની સેવા સક્રિય હોય ત્યારે બેકએન્ડ લોકેશન પ્રદાતા તરીકે.</string>
+    <string name="pref_settings_title">સેટિંગ્સ</string>
+    <string name="pref_timeadvance_title">સમય આગળ (ms).</string>
+    <string name="pref_timeadvance_summary">બધા લોકેશન અપડેટ્સના ટાઈમસ્ટેમ્પમાં ઉમેરાતા મિલીસેકન્ડ્સની સંખ્યા. પૂરતું મોટું મૂલ્ય હોવાથી, જ્યારે મોકિંગ સક્રિય હોય ત્યારે અન્ય તમામ બેકએન્ડ પ્રદાતાઓ અવગણવામાં આવશે.:</string>
 </resources>

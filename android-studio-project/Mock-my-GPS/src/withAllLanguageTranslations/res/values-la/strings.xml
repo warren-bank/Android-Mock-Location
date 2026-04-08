@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Latitudo, Longitudo">
+  <!ENTITY fixed_position "Positio Fixa">
+  <!ENTITY trip           "Iter">
+  <!ENTITY origin         "Origo">
+  <!ENTITY destination    "Locus destinatus">
+]>
+<resources>
+    <string name="app_name">Moc meum GPS</string>
+    <string name="geo_intent_menu_title">Utere Geo-Intent ad:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Novum Signum</string>
+    <string name="MainActivity_actionbar_item_1">Serva signum paginae</string>
+    <string name="MainActivity_actionbar_item_2">Signa Librorum</string>
+    <string name="MainActivity_actionbar_item_3">Praedilectiones</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Simulatio</string>
+    <string name="save_bookmark_menu_title">Locus ad Servandum:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Locus:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Duratio:\n<small>(secunda)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Adde</string>
+    <string name="BookmarksActivity_actionbar_item_2">Subsidium</string>
+    <string name="BookmarksActivity_actionbar_item_3">Restitue</string>
+    <string name="open_bookmark_menu_title">Utere Signo Libri Ad:</string>
+    <string name="edit_bookmark_field_1">Titulus:</string>
+    <string name="edit_bookmark_field_2">Locus:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Universalis</string>
+    <string name="PreferencesActivity_field_1">Tempus (ms) inter unamqueque renovationem:</string>
+    <string name="PreferencesActivity_field_2">Numerus viciorum loci ludicri:\n<small>(0 = perge donec explicite sistaris)</small></string>
+    <string name="PreferencesActivity_field_3">Monstrā vectem:</string>
+    <string name="PreferencesActivity_field_4">Vectis laetus lat/lon augmentum:</string>
+    <string name="PreferencesActivity_field_5">Tenendum est metam ut locum fixum.:</string>
+    <string name="label_button_start">Inceptum</string>
+    <string name="label_button_stop">Statte</string>
+    <string name="label_button_update">Renovatio</string>
+    <string name="label_button_cancel">SUSPENDERE</string>
+    <string name="label_button_delete">Dele</string>
+    <string name="label_button_save">Serva</string>
+    <string name="error_geo_intent">Intentio geographica resolvi non potuit. \'%s\'.</string>
+    <string name="error_number_format">Numerus resolvi non potuit. \'%s\'.</string>
+    <string name="error_location_format">Locus interpretari non potuit. \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Signum iam exstat. \'%s\'.</string>
+    <string name="error_missing_required_value">Error: Valore Requisito Deest</string>
+    <string name="error_add_bookmarkitem">Error: Nova nota paginae addi non potuit.</string>
+    <string name="notification_service_ticker">Moc meum GPS: currens</string>
+    <string name="notification_service_content_line1">Moc meum GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Preme ut aperias. Recusa ut sistas..</string>
+    -->
+    <string name="notification_service_content_line2">Preme ut aperias.</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Чимээгүйгээр дуурай</string>
+    <string name="pref_settings_title">Тохиргоо</string>
+    <string name="pref_purpose_array_names_1">Тогтмол байрлал</string>
+    <string name="pref_purpose_array_names_2">Аяллын очих газар</string>
+    <string name="pref_purpose_title">Зорилго</string>
+    <string name="pref_purpose_summary">зорилго сонго..</string>
+    <string name="pref_force_start_title">Албадан эхлүүлэх</string>
+    <string name="pref_force_start_summary_on" >Дуугүйгээр мэйкинг үйлчилгээг эхлүүлнэ.</string>
+    <string name="pref_force_start_summary_off">Мок үйлчилгээг гараар эхлүүлэхийн тулд аппликейшнийг нээнэ үү..</string>
+    <string name="pref_trip_duration_seconds_title">Аяллын хугацаа (секунд)).</string>
+    <string name="pref_trip_duration_seconds_summary">Зорьсон газартаа хүрэхээс өмнө аяллын симуляцийг ажиллуулахад зарцуулагдах секундын тоо:</string>
+</resources>

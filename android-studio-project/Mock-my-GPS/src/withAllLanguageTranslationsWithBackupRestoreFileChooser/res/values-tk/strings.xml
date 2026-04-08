@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Faýly ýatda saklamak üçin bukjany saýlaň</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Täze faýl adyny saýlaň JSON Maglumatlar</string>
+  <string name="app_folderpicker_json_import_filepath_description">Öň eksport edilen faýly saýlaň JSON Maglumatlar</string>
+</resources>

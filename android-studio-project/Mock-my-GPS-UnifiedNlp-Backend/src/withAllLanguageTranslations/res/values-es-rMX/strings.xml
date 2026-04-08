@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Búrlate de mi GPS UnifiedNlp Backend</string>
+    <string name="locationservice_permission_label">Búrlate de mi GPS UnifiedNlp Servicio de localización</string>
+    <string name="locationservice_permission_description">Permiso de nivel de firma, necesario para Mock my GPS para proporcionar actualizaciones de ubicación a sus UnifiedNlp Backend.</string>
+    <string name="backendservice_summary">Usos "Búrlate de mi GPS" como proveedor de ubicaciones de fondo mientras su servicio esté activo.</string>
+    <string name="pref_settings_title">Configuración</string>
+    <string name="pref_timeadvance_title">Avance de hora (ms).</string>
+    <string name="pref_timeadvance_summary">Número de milisegundos que se añaden a la marca de tiempo de todas las actualizaciones de ubicación. Un valor lo suficientemente grande debería garantizar que se ignoren todos los demás proveedores de backend mientras la simulación esté activa:</string>
+</resources>

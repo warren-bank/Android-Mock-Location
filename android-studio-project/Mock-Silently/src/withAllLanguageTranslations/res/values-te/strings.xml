@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">నిరంతరంగా మ్యాక్</string>
-    <string name="pref_settings_title">అమరిక</string>
-    <string name="pref_purpose_array_names_1">నిర్దిష్ట స్థానము</string>
-    <string name="pref_purpose_array_names_2">ట్రిప్ డెస్పిన్షన్</string>
-    <string name="pref_purpose_title">పురస్కారాలు</string>
-    <string name="pref_purpose_summary">ప్రయోజనం..</string>
-    <string name="pref_force_start_title">ఫోర్స్ ప్రారంభం</string>
-    <string name="pref_force_start_summary_on" >నిరంతరం మొకటి సేవ ప్రారంభిస్తోంది.</string>
-    <string name="pref_force_start_summary_off">మోకింగ్ సర్వీసును మాన్యువల్గా ప్రారంభించుటకు ఆప్ను తెరువుము.</string>
-    <string name="pref_trip_duration_seconds_title">త్రిప్లేషన్ (సెకనులు).</string>
-    <string name="pref_trip_duration_seconds_summary">ట్రిప్ సిమ్యులేషన్ కోసం సెకనుల సంఖ్య గమ్యం చేరుటకు ముందు నడుపుటకు:</string>
+    <string name="app_name">నిశ్శబ్దంగా అనుకరించు</string>
+    <string name="pref_settings_title">సెట్టింగ్‌లు</string>
+    <string name="pref_purpose_array_names_1">స్థిరమైన స్థానం</string>
+    <string name="pref_purpose_array_names_2">ప్రయాణ గమ్యస్థానం</string>
+    <string name="pref_purpose_title">ఉద్దేశ్యం</string>
+    <string name="pref_purpose_summary">ఉద్దేశ్యాన్ని ఎంచుకోండి..</string>
+    <string name="pref_force_start_title">బలవంతంగా ప్రారంభించు</string>
+    <string name="pref_force_start_summary_on" >మౌనంగా మాకింగ్ సర్వీస్‌ను ప్రారంభించండి.</string>
+    <string name="pref_force_start_summary_off">మాకింగ్ సర్వీస్‌ను మాన్యువల్‌గా ప్రారంభించడానికి యాప్‌ను తెరవండి.</string>
+    <string name="pref_trip_duration_seconds_title">ప్రయాణ వ్యవధి (సెకన్లలో)).</string>
+    <string name="pref_trip_duration_seconds_summary">గమ్యస్థానానికి చేరుకోవడానికి ముందు ట్రిప్ సిమ్యులేషన్ నడవడానికి పట్టే సెకన్ల సంఖ్య:</string>
 </resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Pilih direktori untuk menyimpan fail</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Pilih nama fail baru untuk JSON data</string>
+  <string name="app_folderpicker_json_import_filepath_description">Pilih fail yang mengandungi eksport terdahulu. JSON data</string>
+</resources>

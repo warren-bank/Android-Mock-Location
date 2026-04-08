@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Akapachan chiqapa, Aka pacha sayt\'apa">
+  <!ENTITY fixed_position "Sayt\'ata chiqaw">
+  <!ENTITY trip           "Sarnaqäwi">
+  <!ENTITY origin         "Qallta">
+  <!ENTITY destination    "Saraqañawja">
+]>
+<resources>
+    <string name="app_name">Nayar k\'umiña GPS</string>
+    <string name="geo_intent_menu_title">Geo-Intent apnaqaña:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Machaqa chimpu</string>
+    <string name="MainActivity_actionbar_item_1">Chimpu imaña</string>
+    <string name="MainActivity_actionbar_item_2">Uñt\'ayatanaka</string>
+    <string name="MainActivity_actionbar_item_3">Munatanaka</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Uñtasiyawi</string>
+    <string name="save_bookmark_menu_title">Imañataki chiqawja:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Kawki:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Pacha:\n<small>(segundos)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Yapaña</string>
+    <string name="BookmarksActivity_actionbar_item_2">Imata</string>
+    <string name="BookmarksActivity_actionbar_item_3">Kutiyayaña</string>
+    <string name="open_bookmark_menu_title">Qillqa chimpu apnaqaña:</string>
+    <string name="edit_bookmark_field_1">Suti:</string>
+    <string name="edit_bookmark_field_2">Kawki:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Taqpachani</string>
+    <string name="PreferencesActivity_field_1">Pacha (ms) Sapa machaqaptäwi taypin:</string>
+    <string name="PreferencesActivity_field_2">Qawqha kuti chiqawsa k\'añaskakiña:\n<small>(0 = qhananchata sayt\'ayatañkama sarantaskakiña)</small></string>
+    <string name="PreferencesActivity_field_3">Joystick uñacht\'ayaña:</string>
+    <string name="PreferencesActivity_field_4">Kusisiñ k\'aspi lat/lon Jilxattäwi:</string>
+    <string name="PreferencesActivity_field_5">Purïwi chiqax sayt\'ata chiqjam katxaruña:</string>
+    <string name="label_button_start">Qalltaña</string>
+    <string name="label_button_stop">Sayt\'am</string>
+    <string name="label_button_update">Machaqaptäwi</string>
+    <string name="label_button_cancel">Q\'al t\'unjaña</string>
+    <string name="label_button_delete">Pichaña</string>
+    <string name="label_button_save">Imaña</string>
+    <string name="error_geo_intent">Geo amtawix janiw amuyt\'ayäti \'%s\'.</string>
+    <string name="error_number_format">Jakhuwix janiw liyt\'atäkiti \'%s\'.</string>
+    <string name="error_location_format">Janiw chiqawj uñakipañjamäkiti \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Imanawi ukax utjxiwa \'%s\'.</string>
+    <string name="error_missing_required_value">Pantjasiwi: Mayit chimpu chhaqhata</string>
+    <string name="error_add_bookmarkitem">Pantjasiwi: Machaq chimpu janiw yapxatañjamäkänti</string>
+    <string name="notification_service_ticker">Nayar k\'umiña GPS: T\'ijuña</string>
+    <string name="notification_service_content_line1">Nayar k\'umiña GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Justarañatak ch\'iqt\'aña. Sayt\'añatak apaqaña..</string>
+    -->
+    <string name="notification_service_content_line2">Justarañataki ch\'iqt\'aña.</string>
+</resources>

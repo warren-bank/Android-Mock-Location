@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Bespot Silently</string>
+    <string name="app_name">Stil spotten</string>
     <string name="pref_settings_title">Instellingen</string>
-    <string name="pref_purpose_array_names_1">Vaste positie</string>
+    <string name="pref_purpose_array_names_1">Vaste functie</string>
     <string name="pref_purpose_array_names_2">Reisbestemming</string>
     <string name="pref_purpose_title">Doel</string>
-    <string name="pref_purpose_summary">functie kiezen..</string>
-    <string name="pref_force_start_title">Starten forceren</string>
-    <string name="pref_force_start_summary_on" >De spotservice automatisch starten.</string>
-    <string name="pref_force_start_summary_off">Open de app om de spotservice handmatig te starten.</string>
-    <string name="pref_trip_duration_seconds_title">Duur van de reis (seconden).</string>
-    <string name="pref_trip_duration_seconds_summary">Aantal seconden voor een reissimulatie die moet worden uitgevoerd voordat de bestemming wordt bereikt:</string>
+    <string name="pref_purpose_summary">kies een doel..</string>
+    <string name="pref_force_start_title">Geforceerd starten</string>
+    <string name="pref_force_start_summary_on" >Start de testdienst stil.</string>
+    <string name="pref_force_start_summary_off">Open de app om de mocking-service handmatig te starten.</string>
+    <string name="pref_trip_duration_seconds_title">Duur van de reis (seconden)).</string>
+    <string name="pref_trip_duration_seconds_summary">Aantal seconden dat een rit-simulatie moet duren voordat de bestemming wordt bereikt:</string>
 </resources>

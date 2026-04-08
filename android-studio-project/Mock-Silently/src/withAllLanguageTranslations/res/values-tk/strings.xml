@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sesiz gülmek</string>
+    <string name="pref_settings_title">Täze sazlamalar</string>
+    <string name="pref_purpose_array_names_1">Berkitilen pozisiýa</string>
+    <string name="pref_purpose_array_names_2">Syýahat maksady</string>
+    <string name="pref_purpose_title">Maksady</string>
+    <string name="pref_purpose_summary">Maksady saýlaň..</string>
+    <string name="pref_force_start_title">Məcburi işe girizme</string>
+    <string name="pref_force_start_summary_on" >Sesizçe mocking hyzmatyny işe giriziň.</string>
+    <string name="pref_force_start_summary_off">Mocking hyzmatyny el bilen başlatmak üçin programmasyny açyň..</string>
+    <string name="pref_trip_duration_seconds_title">Syýahat dowamlylygy (sekundlarda)).</string>
+    <string name="pref_trip_duration_seconds_summary">Syýahat simulýasiýasynyň bellenen nokada ýetmezden ozal işlemegi üçin sekuntlaryň sany:</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">ဖိုင်သိမ်းရန် ဖိုလ်ဒါကို ရွေးပါ။</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">အသစ်ဖိုင်နာမည်ကိုရွေးပါ JSON ဒေတာ</string>
+  <string name="app_folderpicker_json_import_filepath_description">ယခင်က ထုတ်ပို့ထားသော ဖိုင်ကို ရွေးပါ။ JSON ဒေတာ</string>
+</resources>

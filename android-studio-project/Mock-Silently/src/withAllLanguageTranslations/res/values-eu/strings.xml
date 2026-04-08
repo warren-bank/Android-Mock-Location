@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ikasgaiak isilean simulatu</string>
+    <string name="pref_settings_title">Ezarpenak</string>
+    <string name="pref_purpose_array_names_1">Posizio finkoa</string>
+    <string name="pref_purpose_array_names_2">Bidaiaren helmuga</string>
+    <string name="pref_purpose_title">Helburua</string>
+    <string name="pref_purpose_summary">Helburua hautatu..</string>
+    <string name="pref_force_start_title">Indarrez hasi</string>
+    <string name="pref_force_start_summary_on" >Isilean hasi mocking zerbitzua.</string>
+    <string name="pref_force_start_summary_off">Ireki aplikazioa mocking zerbitzua eskuz abiarazteko..</string>
+    <string name="pref_trip_duration_seconds_title">Bidaia iraupena (segundotan)).</string>
+    <string name="pref_trip_duration_seconds_summary">Bidaia-simulazioa helmugara iritsi aurretik exekutatzeko behar diren segundo kopurua:</string>
+</resources>

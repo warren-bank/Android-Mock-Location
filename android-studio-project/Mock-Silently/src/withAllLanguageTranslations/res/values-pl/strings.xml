@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mock w trybie cichym</string>
+    <string name="app_name">Ciche naśladowanie</string>
     <string name="pref_settings_title">Ustawienia</string>
-    <string name="pref_purpose_array_names_1">Pozycja stała</string>
-    <string name="pref_purpose_array_names_2">Miejsce docelowe podróży</string>
+    <string name="pref_purpose_array_names_1">Stała pozycja</string>
+    <string name="pref_purpose_array_names_2">Miejsce podróży</string>
     <string name="pref_purpose_title">Cel</string>
-    <string name="pref_purpose_summary">wybierz przeznaczenie..</string>
+    <string name="pref_purpose_summary">wybierz cel..</string>
     <string name="pref_force_start_title">Wymuś uruchomienie</string>
-    <string name="pref_force_start_summary_on" >Uruchom usługę cichą w trybie cichym.</string>
-    <string name="pref_force_start_summary_off">Otwórz aplikację, aby ręcznie uruchomić usługę mocowania.</string>
-    <string name="pref_trip_duration_seconds_title">Czas trwania podróży (s).</string>
-    <string name="pref_trip_duration_seconds_summary">Liczba sekund dla symulacji wyjazdu, która ma zostać uruchomiona przed dotarciem do miejsca docelowego:</string>
+    <string name="pref_force_start_summary_on" >Uruchom usługę testową w tle.</string>
+    <string name="pref_force_start_summary_off">Otwórz aplikację, aby ręcznie uruchomić usługę symulacyjną.</string>
+    <string name="pref_trip_duration_seconds_title">Czas trwania podróży (w sekundach)).</string>
+    <string name="pref_trip_duration_seconds_summary">Liczba sekund, przez które symulacja podróży ma trwać przed dotarciem do celu:</string>
 </resources>

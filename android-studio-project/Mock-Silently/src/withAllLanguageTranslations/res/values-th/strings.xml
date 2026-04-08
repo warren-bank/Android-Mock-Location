@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">จำลองแบบไม่โต้ตอบ</string>
+    <string name="app_name">ล้อเลียนอย่างเงียบๆ</string>
     <string name="pref_settings_title">การตั้งค่า</string>
     <string name="pref_purpose_array_names_1">ตำแหน่งคงที่</string>
-    <string name="pref_purpose_array_names_2">ปลายทางการเดินทาง</string>
+    <string name="pref_purpose_array_names_2">จุดหมายปลายทางของการเดินทาง</string>
     <string name="pref_purpose_title">วัตถุประสงค์</string>
-    <string name="pref_purpose_summary">เลือกวัตถุประสงค์..</string>
-    <string name="pref_force_start_title">บังคับให้เริ่มต้น</string>
-    <string name="pref_force_start_summary_on" >ค่อยๆเริ่มการบริการเย้ย.</string>
-    <string name="pref_force_start_summary_off">เปิดแอ็พเพื่อเริ่มต้นเซอร์วิสที่เย้ยหยันด้วยตนเอง.</string>
-    <string name="pref_trip_duration_seconds_title">ช่วงเวลาการเดินทาง (วินาที).</string>
-    <string name="pref_trip_duration_seconds_summary">จำนวนวินาทีสำหรับการจำลองการเดินทางเพื่อรันก่อนถึงปลายทาง:</string>
+    <string name="pref_purpose_summary">เลือกจุดมุ่งหมาย..</string>
+    <string name="pref_force_start_title">การเริ่มต้นแบบบังคับ</string>
+    <string name="pref_force_start_summary_on" >เริ่มบริการล้อเลียนอย่างเงียบๆ.</string>
+    <string name="pref_force_start_summary_off">เปิดแอปเพื่อเริ่มบริการจำลองด้วยตนเอง.</string>
+    <string name="pref_trip_duration_seconds_title">ระยะเวลาการเดินทาง (วินาที)).</string>
+    <string name="pref_trip_duration_seconds_summary">จำนวนวินาทีสำหรับการจำลองการเดินทางก่อนถึงจุดหมาย:</string>
 </resources>

@@ -1,56 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE resources [
-  <!ENTITY lat_lon        "Domhanleithead, Longdude">
-  <!ENTITY fixed_position "Ionad Seasta">
-  <!ENTITY trip           "Trip">
-  <!ENTITY origin         "Tionscnamh">
+  <!ENTITY lat_lon        "Leithead, Fadlíne">
+  <!ENTITY fixed_position "Suíomh Seasta">
+  <!ENTITY trip           "Turas">
+  <!ENTITY origin         "Bunús">
   <!ENTITY destination    "Ceann scríbe">
 ]>
 <resources>
-    <string name="app_name">Mock mo GPS</string>
-    <string name="geo_intent_menu_title">Úsáid Geo-Intent Do:</string>
+    <string name="app_name">Déan magadh fúm GPS</string>
+    <string name="geo_intent_menu_title">Bain úsáid as Geo-Intent le haghaidh:</string>
     <string name="geo_intent_option_1">&fixed_position;</string>
     <string name="geo_intent_option_2">&trip; - &origin;</string>
     <string name="geo_intent_option_3">&trip; - &destination;</string>
-    <string name="geo_intent_option_4">Leabharmharc Nua</string>
-    <string name="MainActivity_actionbar_item_1">Sábháil Leabharmharc</string>
+    <string name="geo_intent_option_4">Leabharmharc nua</string>
+    <string name="MainActivity_actionbar_item_1">Sábháil leabharmharc</string>
     <string name="MainActivity_actionbar_item_2">Leabharmharcanna</string>
-    <string name="MainActivity_actionbar_item_3">Sainroghanna</string>
+    <string name="MainActivity_actionbar_item_3">Tosaíochtaí</string>
     <string name="MainActivity_tab_1_label">&fixed_position;</string>
-    <string name="MainActivity_tab_2_label">&trip; SimamName</string>
+    <string name="MainActivity_tab_2_label">&trip; Aithris</string>
     <string name="save_bookmark_menu_title">Suíomh le Sábháil:</string>
     <string name="save_bookmark_option_1">&origin;</string>
     <string name="save_bookmark_option_2">&destination;</string>
     <string name="FixedPositionActivity_field_1">Suíomh:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
-    <string name="TripSimulationActivity_field_3">Fad:\n<small>(soicind)</small></string>
-    <string name="BookmarksActivity_actionbar_item_1">Cuir Leis</string>
-    <string name="open_bookmark_menu_title">Úsáid an Leabharmharc Do:</string>
+    <string name="TripSimulationActivity_field_3">Fad:\n<small>(soicindí)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Cuir leis</string>
+    <string name="BookmarksActivity_actionbar_item_2">Cúltaca</string>
+    <string name="BookmarksActivity_actionbar_item_3">Athchuir</string>
+    <string name="open_bookmark_menu_title">Úsáid le haghaidh marc leathanaigh:</string>
     <string name="edit_bookmark_field_1">Teideal:</string>
     <string name="edit_bookmark_field_2">Suíomh:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Ginearálta</string>
-    <string name="PreferencesActivity_field_1">Am (ms) idir gach nuashonrú:</string>
-    <string name="PreferencesActivity_field_2">Líon na n-amanna le suíomh mstoc:\n<small>(0 = leanúint ar aghaidh go dtí go bhfuil stop go sainráite)</small></string>
-    <string name="PreferencesActivity_field_3">Taispeáin joystick:</string>
-    <string name="PreferencesActivity_field_4">Joystick lat/lon incriam:</string>
-    <string name="PreferencesActivity_field_5">Comhrá ceann scríbe mar phost seasta:</string>
-    <string name="label_button_start">TOSAIGH</string>
-    <string name="label_button_stop">STOP</string>
-    <string name="label_button_update">NUASHONRAIGH</string>
-    <string name="label_button_cancel">CEALAITHE</string>
-    <string name="label_button_delete">SCRIOS</string>
-    <string name="label_button_save">SAT</string>
-    <string name="error_geo_intent">Níorbh fhéidir geo intinne a pharsáil \'%s\'.</string>
+    <string name="PreferencesActivity_field_1">Am (ms) idir gach nuashonraithe:</string>
+    <string name="PreferencesActivity_field_2">Líon na n-amanna chun suíomh a mhaíomh:\n<small>(0 = lean ar aghaidh go dtí go stopfar go sonrach)</small></string>
+    <string name="PreferencesActivity_field_3">Taispeáin an luamhán rialaithe:</string>
+    <string name="PreferencesActivity_field_4">Sláiste aoibhnis lat/lon Méadú:</string>
+    <string name="PreferencesActivity_field_5">Coinnigh an ceann scríbe mar shuíomh seasta:</string>
+    <string name="label_button_start">Tosaigh</string>
+    <string name="label_button_stop">STAD</string>
+    <string name="label_button_update">Nuashonrú</string>
+    <string name="label_button_cancel">Cealaigh</string>
+    <string name="label_button_delete">Scrios</string>
+    <string name="label_button_save">Sábháil</string>
+    <string name="error_geo_intent">Níorbh fhéidir rún geo a anailísiú \'%s\'.</string>
     <string name="error_number_format">Níorbh fhéidir an uimhir a pharsáil \'%s\'.</string>
-    <string name="error_location_format">Níorbh fhéidir an suíomh a pharsáil \'%s\'.</string>
-    <string name="error_bookmarkitem_exists">Tá leabharmharc ann cheana \'%s\'.</string>
-    <string name="error_missing_required_value">Earráid: Luach is gá</string>
+    <string name="error_location_format">Níorbh fhéidir an suíomh a anailísiú \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Tá an leabharmharc ann cheana féin. \'%s\'.</string>
+    <string name="error_missing_required_value">Earráid: Luach Riachtanach in easnamh</string>
     <string name="error_add_bookmarkitem">Earráid: Níorbh fhéidir leabharmharc nua a chur leis</string>
-    <string name="notification_service_ticker">Mock mo GPS: á rith</string>
-    <string name="notification_service_content_line1">Mock mo GPS</string>
+    <string name="notification_service_ticker">Déan magadh fúm GPS: ag rith</string>
+    <string name="notification_service_content_line1">Déan magadh fúm GPS</string>
     <!--
-    <string name="notification_service_content_line2">Cliceáil chun oscailte. Díbhe chun stop a chur.</string>
+    <string name="notification_service_content_line2">Cliceáil le hoscailt. Díliostáil le stopadh.</string>
     -->
-    <string name="notification_service_content_line2">Cliceáil chun é a oscailt.</string>
+    <string name="notification_service_content_line2">Cliceáil le hoscailt.</string>
 </resources>

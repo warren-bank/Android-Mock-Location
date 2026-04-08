@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">モック・サイレント</string>
+    <string name="app_name">静かに嘲笑する</string>
     <string name="pref_settings_title">設定</string>
     <string name="pref_purpose_array_names_1">固定位置</string>
-    <string name="pref_purpose_array_names_2">トリップの宛先</string>
+    <string name="pref_purpose_array_names_2">旅行先</string>
     <string name="pref_purpose_title">目的</string>
-    <string name="pref_purpose_summary">目的を選ぶ..</string>
-    <string name="pref_force_start_title">強制開始</string>
-    <string name="pref_force_start_summary_on" >モッキング・サービスをサイレントに開始する.</string>
-    <string name="pref_force_start_summary_off">手動でモッキング・サービスを開始するには、アプリを開きます.</string>
-    <string name="pref_trip_duration_seconds_title">トリップ期間 (秒 )).</string>
-    <string name="pref_trip_duration_seconds_summary">移動のシミュレーションが宛先に到達するまでに実行する秒数:</string>
+    <string name="pref_purpose_summary">目的を選択してください..</string>
+    <string name="pref_force_start_title">強制起動</string>
+    <string name="pref_force_start_summary_on" >モックサービスを静かに起動する.</string>
+    <string name="pref_force_start_summary_off">アプリを開いて、モックサービスを手動で開始してください.</string>
+    <string name="pref_trip_duration_seconds_title">旅行時間（秒）).</string>
+    <string name="pref_trip_duration_seconds_summary">目的地に到達するまで、走行シミュレーションを実行する秒数:</string>
 </resources>

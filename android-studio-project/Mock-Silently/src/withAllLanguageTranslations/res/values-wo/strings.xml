@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rëblu ci sutura</string>
+    <string name="pref_settings_title">Tànneef yi</string>
+    <string name="pref_purpose_array_names_1">Taxawaay bu sax</string>
+    <string name="pref_purpose_array_names_2">Fu tukki bi jëm</string>
+    <string name="pref_purpose_title">Li tax</string>
+    <string name="pref_purpose_summary">Tànnal jubluwaay..</string>
+    <string name="pref_force_start_title">Door gu doole</string>
+    <string name="pref_force_start_summary_on" >Tàmbali ci sutura servis bu ñuy roy bi..</string>
+    <string name="pref_force_start_summary_off">Ubbi aplikasion bi ngir tàmbali sa bopp servis mocking bi..</string>
+    <string name="pref_trip_duration_seconds_title">Yàgg-yàggu tukki bi (ci ay segond)).</string>
+    <string name="pref_trip_duration_seconds_summary">Limu segóond yi simulasiyoŋu tukki bi di yàgg balaa mu àgg ca bërëb ba.:</string>
+</resources>

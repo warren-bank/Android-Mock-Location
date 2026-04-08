@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yi kwaikwayo cikin shiru</string>
+    <string name="pref_settings_title">Saituna</string>
+    <string name="pref_purpose_array_names_1">Matsayi Mai Dorewa</string>
+    <string name="pref_purpose_array_names_2">Makon tafiya</string>
+    <string name="pref_purpose_title">Manufa</string>
+    <string name="pref_purpose_summary">Zaɓi manufa..</string>
+    <string name="pref_force_start_title">Fara da karfi</string>
+    <string name="pref_force_start_summary_on" >A hankali a fara sabis na kwaikwayo.</string>
+    <string name="pref_force_start_summary_off">Buɗe manhajar don fara sabis na kwaikwayo da hannu..</string>
+    <string name="pref_trip_duration_seconds_title">Tsawon tafiya (sekondi)).</string>
+    <string name="pref_trip_duration_seconds_summary">Adadin daƙiƙoƙi da ake buƙata don gudanar da kwaikwayon tafiya kafin isa wurin da ake nufi:</string>
+</resources>

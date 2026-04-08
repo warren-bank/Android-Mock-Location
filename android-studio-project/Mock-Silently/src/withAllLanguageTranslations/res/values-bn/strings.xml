@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">নীরব মোক</string>
+    <string name="app_name">নীরবে অনুকরণ করুন</string>
     <string name="pref_settings_title">সেটিংস</string>
-    <string name="pref_purpose_array_names_1">স্থায়ীভাবে অবস্থান</string>
-    <string name="pref_purpose_array_names_2">ট্রিপ গন্তব্য</string>
+    <string name="pref_purpose_array_names_1">স্থায়ী অবস্থান</string>
+    <string name="pref_purpose_array_names_2">ভ্রমণের গন্তব্য</string>
     <string name="pref_purpose_title">উদ্দেশ্য</string>
-    <string name="pref_purpose_summary">উদ্দেশ্য বেছে নিন..</string>
-    <string name="pref_force_start_title">ফোর্স আরম্ভ</string>
-    <string name="pref_force_start_summary_on" >নীলভাবে মোকাবেলার সার্ভিস শুরু.</string>
-    <string name="pref_force_start_summary_off">এই অ্যাপ্লিকেশান খুলে আস্তে আস্তে মকিং সার্ভিস চালু করা.</string>
-    <string name="pref_trip_duration_seconds_title">Trip Duration (সেকেন্ড).</string>
-    <string name="pref_trip_duration_seconds_summary">গন্তব্যে পৌঁছানোর আগে চালানোর জন্য একটি ট্রিপ সিমুলেশনের জন্য সেকেন্ডের সংখ্যা:</string>
+    <string name="pref_purpose_summary">উদ্দেশ্য নির্বাচন করুন..</string>
+    <string name="pref_force_start_title">জবরদস্তি শুরু</string>
+    <string name="pref_force_start_summary_on" >নীরবে মকিং সার্ভিস শুরু করুন.</string>
+    <string name="pref_force_start_summary_off">মকিং সার্ভিসটি ম্যানুয়ালি শুরু করতে অ্যাপটি খুলুন।.</string>
+    <string name="pref_trip_duration_seconds_title">ভ্রমণের সময়কাল (সেকেন্ড)).</string>
+    <string name="pref_trip_duration_seconds_summary">গন্তব্যে পৌঁছানোর আগে ট্রিপ সিমুলেশন চালানোর জন্য সেকেন্ডের সংখ্যা:</string>
 </resources>

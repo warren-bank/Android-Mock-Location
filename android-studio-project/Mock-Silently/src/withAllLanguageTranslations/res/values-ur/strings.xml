@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">موک سلو</string>
-    <string name="pref_settings_title">سیٹنگز</string>
-    <string name="pref_purpose_array_names_1">فکسڈ پوجیشن</string>
-    <string name="pref_purpose_array_names_2">ترپ Destination</string>
-    <string name="pref_purpose_title">Purpose</string>
-    <string name="pref_purpose_summary">ادیشیہ چنیں..</string>
-    <string name="pref_force_start_title">فورس شروع</string>
-    <string name="pref_force_start_summary_on" >سلیبس سروس شروع کرتی ہے..</string>
-    <string name="pref_force_start_summary_off">ایپ کو دستی طور پر کھولنے کے لئے ایپ کو کھولنے کے لئے.</string>
-    <string name="pref_trip_duration_seconds_title">ترپ دورانیہ (سیکنڈ)).</string>
-    <string name="pref_trip_duration_seconds_summary">ایک سفر نقلی کے لئے سیکنڈ کی تعداد منزل تک پہنچنے سے پہلے چلانے کے لئے:</string>
+    <string name="app_name">خاموشی سے نقل کرنا</string>
+    <string name="pref_settings_title">ترتیبات</string>
+    <string name="pref_purpose_array_names_1">مقررہ پوزیشن</string>
+    <string name="pref_purpose_array_names_2">سفر کا مقام</string>
+    <string name="pref_purpose_title">مقصد</string>
+    <string name="pref_purpose_summary">مقصد منتخب کریں..</string>
+    <string name="pref_force_start_title">جبراً شروع کریں</string>
+    <string name="pref_force_start_summary_on" >خاموشی سے ماکنگ سروس شروع کریں.</string>
+    <string name="pref_force_start_summary_off">ایپ کھولیں تاکہ آپ دستی طور پر ماکنگ سروس شروع کر سکیں۔.</string>
+    <string name="pref_trip_duration_seconds_title">سفر کا دورانیہ (سیکنڈز)).</string>
+    <string name="pref_trip_duration_seconds_summary">مقصد تک پہنچنے سے پہلے ٹرپ سمولیشن کے چلنے کے سیکنڈز کی تعداد:</string>
 </resources>

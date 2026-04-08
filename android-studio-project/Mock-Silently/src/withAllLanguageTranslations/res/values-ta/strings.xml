@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">சிலை மோக்</string>
+    <string name="app_name">மௌனமாகப் பகடி செய்</string>
     <string name="pref_settings_title">அமைப்புகள்</string>
     <string name="pref_purpose_array_names_1">நிலையான நிலை</string>
-    <string name="pref_purpose_array_names_2">டிரிப் புள்ளிவிவரம்</string>
-    <string name="pref_purpose_title">முனையம்</string>
-    <string name="pref_purpose_summary">தேர்வு செய்..</string>
-    <string name="pref_force_start_title">ஆரம்பம்</string>
-    <string name="pref_force_start_summary_on" >மின்சார சேவை ஆரம்பிக்கிறது..</string>
-    <string name="pref_force_start_summary_off">மின்னஞ்சல் சேவையை கைமுறையாக ஆரம்பிப்பதற்கு பயன்பாடு.</string>
-    <string name="pref_trip_duration_seconds_title">முக்கோணம் (நொடிகள்).</string>
-    <string name="pref_trip_duration_seconds_summary">செல்லுபடியாகும் ஒரு பயணம் அடைவுக்கு முன் செல்லும் வினாடியின் எண்ணிக்கை:</string>
+    <string name="pref_purpose_array_names_2">பயண இலக்கு</string>
+    <string name="pref_purpose_title">நோக்கம்</string>
+    <string name="pref_purpose_summary">நோக்கத்தைத் தேர்ந்தெடுக்கவும்..</string>
+    <string name="pref_force_start_title">வலுக்கட்டாயமாகத் தொடங்குதல்</string>
+    <string name="pref_force_start_summary_on" >மௌனமாகப் பகடி சேவையைத் தொடங்குங்கள்.</string>
+    <string name="pref_force_start_summary_off">மோக்கிங் சேவையை கைமுறையாகத் தொடங்க செயலியைத் திறக்கவும்..</string>
+    <string name="pref_trip_duration_seconds_title">பயண நேரம் (வினாடிகள்)).</string>
+    <string name="pref_trip_duration_seconds_summary">இலக்கை அடையும் முன் பயண உருவகப்படுத்துதல் இயங்குவதற்குத் தேவைப்படும் வினாடிகளின் எண்ணிக்கை:</string>
 </resources>

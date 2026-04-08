@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">നിശബ്ദമായി മാക്ക്</string>
-    <string name="pref_settings_title">സജ്ജീകരണങ്ങള്</string>
+    <string name="app_name">നിശ്ശബ്ദമായി അനുകരിക്കുക</string>
+    <string name="pref_settings_title">ക്രമീകരണങ്ങൾ</string>
     <string name="pref_purpose_array_names_1">സ്ഥിരമായ സ്ഥാനം</string>
-    <string name="pref_purpose_array_names_2">ട്രിപ് ലക്ഷ്യസ്ഥാനം</string>
-    <string name="pref_purpose_title">പുരോഹിതം</string>
-    <string name="pref_purpose_summary">തെരഞ്ഞെടുക്കുക..</string>
-    <string name="pref_force_start_title">ശൃംഖല തുടങ്ങുക</string>
-    <string name="pref_force_start_summary_on" >നിശബ്ദമായി മോസ്ക്കിംഗ് സേവനം ആരംഭിക്കുന്നു.</string>
-    <string name="pref_force_start_summary_off">മോസ്ക്കിംഗ് സേവനം ആരംഭിക്കുവാനുള്ള ആപ്പ് തുറക്കുക.</string>
-    <string name="pref_trip_duration_seconds_title">ട്രിപ് ഡുറേഷന് (സെക്കന്ഡുകള്).</string>
-    <string name="pref_trip_duration_seconds_summary">ലക്ഷ്യത്തിലെത്തുന്നതിനുമുമ്പ് ഓടുന്നതിനായി ഒരു യാത്ര സിമുലേഷനുള്ള സെക്കന്റിന്റെ എണ്ണം:</string>
+    <string name="pref_purpose_array_names_2">യാത്രാ ലക്ഷ്യസ്ഥാനം</string>
+    <string name="pref_purpose_title">ഉദ്ദേശ്യം</string>
+    <string name="pref_purpose_summary">ഉദ്ദേശ്യം തിരഞ്ഞെടുക്കുക..</string>
+    <string name="pref_force_start_title">ബലമായി തുടങ്ങുക</string>
+    <string name="pref_force_start_summary_on" >മോക്കിംഗ് സേവനം നിശ്ശബ്ദമായി ആരംഭിക്കുക.</string>
+    <string name="pref_force_start_summary_off">മാക്കിംഗ് സേവനം നേരിട്ട് ആരംഭിക്കുന്നതിന് ആപ്പ് തുറക്കുക.</string>
+    <string name="pref_trip_duration_seconds_title">യാത്രാ സമയം (സെക്കൻഡുകൾ)).</string>
+    <string name="pref_trip_duration_seconds_summary">ലക്ഷ്യസ്ഥാനത്ത് എത്തുന്നതിന് മുൻപ് ഒരു ട്രിപ്പ് സിമുലേഷൻ പ്രവർത്തിക്കാൻ എടുക്കുന്ന സെക്കൻഡുകളുടെ എണ്ണം:</string>
 </resources>

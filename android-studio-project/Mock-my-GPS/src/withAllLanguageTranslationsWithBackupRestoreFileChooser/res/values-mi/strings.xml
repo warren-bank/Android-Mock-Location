@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Tīpakohia te kōpaki hei penapena i te kōnae</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Tīpakohia he ingoa kōnae hou mō JSON Raraunga</string>
+  <string name="app_folderpicker_json_import_filepath_description">Tīpakohia te kōnae e whai ana i ngā raraunga i kaweake i mua. JSON Raraunga</string>
+</resources>

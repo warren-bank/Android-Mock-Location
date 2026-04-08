@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Файлыг хадгалах директорийг сонгоно уу</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Шинэ файлын нэрийг сонгоно уу JSON мэдээлэл</string>
+  <string name="app_folderpicker_json_import_filepath_description">Өмнө нь экспортлогдсон файлыг сонгоно уу JSON мэдээлэл</string>
+</resources>

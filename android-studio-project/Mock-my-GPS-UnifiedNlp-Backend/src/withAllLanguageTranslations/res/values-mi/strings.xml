@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Whakakatakata i taku GPS UnifiedNlp Wāhanga o muri</string>
+    <string name="locationservice_permission_label">Whakakatakata i taku GPS UnifiedNlp Ratonga Wāhi</string>
+    <string name="locationservice_permission_description">Te whakaaetanga taumata hainatanga, e hiahiatia ana mō te Mock my GPS kia tuku whakahou mō ngā wāhi ki tōna UnifiedNlp Wāhanga o muri.</string>
+    <string name="backendservice_summary">Ngā whakamahinga "Whakakatakata i taku GPS" hei kaiwhakarato wāhi papamuri i te wā e kaha ana tana ratonga.</string>
+    <string name="pref_settings_title">Tautuhinga</string>
+    <string name="pref_timeadvance_title">Te Whakamua o te Wā (ms).</string>
+    <string name="pref_timeadvance_summary">Te maha o ngā milisekona kua tāpirihia ki te tohu wā o ngā whakahōutanga tūnga katoa. Mā tētahi uara nui e whakarite kia kore e aro atu ki ērā atu kaiwhakarato papamuri i te wā e whakahohe ana te whakamātau ā-tārua.:</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meni masxara qil GPS UnifiedNlp Orqa tomon</string>
+    <string name="locationservice_permission_label">Meni masxara qil GPS UnifiedNlp Joylashuv xizmati</string>
+    <string name="locationservice_permission_description">Signature Level ruxsati, Mock my uchun talab qilinadi GPS o\'zining joylashuv bo\'yicha yangilanishlarini taqdim etish uchun UnifiedNlp Orqa tomon.</string>
+    <string name="backendservice_summary">Foydalanishlari "Meni masxara qil GPS" xizmati faol bo\'lgan paytda orqa fonda joylashuv provayderi sifatida.</string>
+    <string name="pref_settings_title">Sozlamalar</string>
+    <string name="pref_timeadvance_title">Vaqt oldinga (ms).</string>
+    <string name="pref_timeadvance_summary">Barcha joylashuv yangilanishlarining timestampiga qo\'shiladigan millisekundalar soni. Yetarlicha katta qiymat mocking faol bo\'lgan paytda boshqa barcha orqa fondagi provayderlar e\'tiborsiz qoldirilishini ta\'minlaydi.:</string>
+</resources>

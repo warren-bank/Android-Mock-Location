@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Imita el meu GPS UnifiedNlp Servei de fons</string>
+    <string name="locationservice_permission_label">Imita el meu GPS UnifiedNlp Servei de localització</string>
+    <string name="locationservice_permission_description">Permís de nivell de signatura, requerit per a simular el meu GPS per proporcionar actualitzacions de localització al seu UnifiedNlp Servei de fons.</string>
+    <string name="backendservice_summary">Usos "Imita el meu GPS" com a proveïdor de localització de backend mentre el seu servei està actiu.</string>
+    <string name="pref_settings_title">Configuració</string>
+    <string name="pref_timeadvance_title">Avanç de temps (ms).</string>
+    <string name="pref_timeadvance_summary">Nombre de mil·lisegons afegits a l\'hora de registre de totes les actualitzacions de localització. Un valor prou gran hauria de garantir que tots els altres proveïdors de backend siguin ignorats mentre la simulació està activa.:</string>
+</resources>

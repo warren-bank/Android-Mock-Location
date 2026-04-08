@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spott stëll</string>
+    <string name="pref_settings_title">Astellungen</string>
+    <string name="pref_purpose_array_names_1">Fixer Positioun</string>
+    <string name="pref_purpose_array_names_2">Reesdestinatioun</string>
+    <string name="pref_purpose_title">Zil</string>
+    <string name="pref_purpose_summary">e Zweck auswielen..</string>
+    <string name="pref_force_start_title">Zwangsaarbecht</string>
+    <string name="pref_force_start_summary_on" >Startt roueg de Mocking-Service..</string>
+    <string name="pref_force_start_summary_off">Maacht d\'App op, fir de Mocking-Service manuell ze starten..</string>
+    <string name="pref_trip_duration_seconds_title">Reisedauer (Sekonnen)).</string>
+    <string name="pref_trip_duration_seconds_summary">Zuel vun de Sekonnen, déi eng Reesimulatioun brauch, bis se d\'Destinatioun erreecht.:</string>
+</resources>

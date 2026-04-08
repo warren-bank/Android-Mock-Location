@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Benimle alay et GPS UnifiedNlp Arka uç</string>
-    <string name="locationservice_permission_label">Benimle alay et GPS UnifiedNlp Konum Hizmeti</string>
-    <string name="locationservice_permission_description">Signature Level permission, Mock my GPS yer güncellemelerini sağlamak için UnifiedNlp Arka uç.</string>
-    <string name="backendservice_summary">\"Mock my\" GPS" hizmeti etkin iken arka uç konum sağlayıcısı olarak.</string>
+    <string name="app_name">Benimle dalga geç GPS UnifiedNlp Arka uç</string>
+    <string name="locationservice_permission_label">Benimle dalga geç GPS UnifiedNlp Konum Hizmeti</string>
+    <string name="locationservice_permission_description">Mock my için gerekli olan İmza Düzeyi izni GPS kullanıcılarına konum güncellemeleri sağlamak için UnifiedNlp Arka uç.</string>
+    <string name="backendservice_summary">Kullanım alanları "Benimle dalga geç GPS" hizmeti aktifken arka uç konum sağlayıcısı olarak.</string>
     <string name="pref_settings_title">Ayarlar</string>
-    <string name="pref_timeadvance_title">Süre İlerletme (ms).</string>
-    <string name="pref_timeadvance_summary">Tüm konum güncelleştirmelerinin zaman damgasına eklenen milisaniye sayısı. Büyük bir değer, biçme etkin durumdayken diğer tüm arka uç sağlayıcıların yok sayılmasını sağlamalıdır:</string>
+    <string name="pref_timeadvance_title">Zaman İlerletme (ms).</string>
+    <string name="pref_timeadvance_summary">Tüm konum güncellemelerinin zaman damgasına eklenen milisaniye sayısı. Yeterince büyük bir değer, simülasyon etkinken diğer tüm arka uç sağlayıcılarının göz ardı edilmesini sağlamalıdır:</string>
 </resources>

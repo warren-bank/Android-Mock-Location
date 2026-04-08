@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ñembohorýke kirirĩháme</string>
+    <string name="pref_settings_title">Mbohekorã</string>
+    <string name="pref_purpose_array_names_1">Tenda oñemohendapyréva</string>
+    <string name="pref_purpose_array_names_2">Jehaha renda</string>
+    <string name="pref_purpose_title">Mba\'erãpa</string>
+    <string name="pref_purpose_summary">Eiporavo tembiaporã..</string>
+    <string name="pref_force_start_title">Ñepyrũ mbaretépe</string>
+    <string name="pref_force_start_summary_on" >Eñepyrũ kirirĩháme pe tembiapo ñembohorýva.</string>
+    <string name="pref_force_start_summary_off">Eipe\'a pe app emoñepyrũ hag̃ua nde po rupive pe servicio de prueba..</string>
+    <string name="pref_trip_duration_seconds_title">Guataha pukukue (segundokuéra)).</string>
+    <string name="pref_trip_duration_seconds_summary">Segúndo papapy oikotevẽva peteĩ guata ñembojojápe oñemboguata hag̃ua og̃uahẽ mboyve tendápe.:</string>
+</resources>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Nemocně ztlumit</string>
-    <string name="pref_settings_title">NastaveníComment</string>
+    <string name="app_name">Tichá parodie</string>
+    <string name="pref_settings_title">Nastavení</string>
     <string name="pref_purpose_array_names_1">Pevná pozice</string>
     <string name="pref_purpose_array_names_2">Cíl cesty</string>
     <string name="pref_purpose_title">Účel</string>
-    <string name="pref_purpose_summary">zvolit účel..</string>
+    <string name="pref_purpose_summary">vyberte účel..</string>
     <string name="pref_force_start_title">Vynutit spuštění</string>
-    <string name="pref_force_start_summary_on" >Bezobslužně spustit směšný servis.</string>
-    <string name="pref_force_start_summary_off">Otevřít aplikaci k ručnímu spuštění služby pohybování.</string>
-    <string name="pref_trip_duration_seconds_title">Doba trvání cesty (sekundy).</string>
-    <string name="pref_trip_duration_seconds_summary">Počet sekund, než se má simulace cesty spustit před dosažením cíle:</string>
+    <string name="pref_force_start_summary_on" >Tichý start simulační služby.</string>
+    <string name="pref_force_start_summary_off">Otevřete aplikaci a ručně spusťte simulovanou službu.</string>
+    <string name="pref_trip_duration_seconds_title">Délka cesty (vteřiny)).</string>
+    <string name="pref_trip_duration_seconds_summary">Počet sekund, po který má simulace cesty trvat, než se dosáhne cíle:</string>
 </resources>

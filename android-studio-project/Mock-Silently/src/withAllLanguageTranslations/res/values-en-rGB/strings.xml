@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mock Silently</string>
+    <string name="pref_settings_title">Settings</string>
+    <string name="pref_purpose_array_names_1">Fixed Position</string>
+    <string name="pref_purpose_array_names_2">Trip Destination</string>
+    <string name="pref_purpose_title">Purpose</string>
+    <string name="pref_purpose_summary">choose purpose..</string>
+    <string name="pref_force_start_title">Force Start</string>
+    <string name="pref_force_start_summary_on" >Silently start the mocking service.</string>
+    <string name="pref_force_start_summary_off">Open the app to manually start the mocking service.</string>
+    <string name="pref_trip_duration_seconds_title">Trip Duration (seconds).</string>
+    <string name="pref_trip_duration_seconds_summary">Number of seconds for a trip simulation to run before reaching the destination:</string>
+</resources>

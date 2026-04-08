@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Ogologo obosara, ogologo ogologo">
+  <!ENTITY fixed_position "Ọnọdụ kwụsịrị">
+  <!ENTITY trip           "Njem">
+  <!ENTITY origin         "Mmalite">
+  <!ENTITY destination    "Ebe a na-aga">
+]>
+<resources>
+    <string name="app_name">Kpọọ ihe m n\'ọchị GPS</string>
+    <string name="geo_intent_menu_title">Jiri Geo-Intent maka:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Akara peeji ọhụrụ</string>
+    <string name="MainActivity_actionbar_item_1">Chekwaa akara ibe</string>
+    <string name="MainActivity_actionbar_item_2">Akara peeji</string>
+    <string name="MainActivity_actionbar_item_3">Nhọrọ</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Nnwale</string>
+    <string name="save_bookmark_menu_title">Ebe ị ga-echekwa:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Ebe:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Oge:\n<small>(sekọndu)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Tinye</string>
+    <string name="BookmarksActivity_actionbar_item_2">Nkwado ndabere</string>
+    <string name="BookmarksActivity_actionbar_item_3">weghachite</string>
+    <string name="open_bookmark_menu_title">Jiri akara ibe maka:</string>
+    <string name="edit_bookmark_field_1">Aha:</string>
+    <string name="edit_bookmark_field_2">Ebe:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Ozi izugbe</string>
+    <string name="PreferencesActivity_field_1">Oge (ms) n\'etiti mmelite ọ bụla:</string>
+    <string name="PreferencesActivity_field_2">Ọnụọgụ ugboro iji gbanwee ọnọdụ:\n<small>(0 = gaa n\'ihu ruo mgbe a kwụsịrị ya kpọmkwem)</small></string>
+    <string name="PreferencesActivity_field_3">Gosi joystick:</string>
+    <string name="PreferencesActivity_field_4">Ọdụ aka ọṅụ lat/lon ịbawanye:</string>
+    <string name="PreferencesActivity_field_5">Jide ebe a ga-aga ka ọ bụrụ ọnọdụ kwụ ọtọ:</string>
+    <string name="label_button_start">Bido</string>
+    <string name="label_button_stop">Kwụsị</string>
+    <string name="label_button_update">MELITE</string>
+    <string name="label_button_cancel">Kwụsị</string>
+    <string name="label_button_delete">Hichapụ</string>
+    <string name="label_button_save">Chekwaa</string>
+    <string name="error_geo_intent">Enweghị ike ịkọwa ebumnuche geo \'%s\'.</string>
+    <string name="error_number_format">Enweghị ike ịkọwa ọnụọgụ \'%s\'.</string>
+    <string name="error_location_format">Enweghị ike ịkọwa ọnọdụ \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Akara peeji adịlarị \'%s\'.</string>
+    <string name="error_missing_required_value">Mmejọ: Ọnụọgụ a chọrọ adịghị</string>
+    <string name="error_add_bookmarkitem">Mmejọ: Enweghị ike itinye akara ibe ọhụrụ</string>
+    <string name="notification_service_ticker">Kpọọ ihe m n\'ọchị GPS: na-agba ọsọ</string>
+    <string name="notification_service_content_line1">Kpọọ ihe m n\'ọchị GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Pịa ka ị mepee. Kpochapụ ka ị kwụsị..</string>
+    -->
+    <string name="notification_service_content_line2">Pịa ka ị mepee.</string>
+</resources>

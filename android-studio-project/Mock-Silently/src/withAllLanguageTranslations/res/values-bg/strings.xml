@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Тихо, тихо!</string>
-    <string name="pref_settings_title">Настройки:</string>
-    <string name="pref_purpose_array_names_1">1).</string>
-    <string name="pref_purpose_array_names_2">Дестинация No:</string>
-    <string name="pref_purpose_title">Цел:</string>
-    <string name="pref_purpose_summary">да избере цел..</string>
-    <string name="pref_force_start_title">Старт!</string>
-    <string name="pref_force_start_summary_on" >Тихо начало на подигравки..</string>
-    <string name="pref_force_start_summary_off">Отворете приложението, за да стартирате ръчно подиграващата услуга.</string>
-    <string name="pref_trip_duration_seconds_title">Продължителност на пътуването (секунди).</string>
-    <string name="pref_trip_duration_seconds_summary">Брой секунди за симулация на пътуване, за да се изпълни преди достигане на местоназначението:</string>
+    <string name="app_name">Тихо се подигравай</string>
+    <string name="pref_settings_title">Настройки</string>
+    <string name="pref_purpose_array_names_1">Постоянна длъжност</string>
+    <string name="pref_purpose_array_names_2">Дестинация за пътуване</string>
+    <string name="pref_purpose_title">Цел</string>
+    <string name="pref_purpose_summary">изберете цел..</string>
+    <string name="pref_force_start_title">Принудително стартиране</string>
+    <string name="pref_force_start_summary_on" >Стартирайте услугата за симулиране без предупреждение.</string>
+    <string name="pref_force_start_summary_off">Отворете приложението, за да стартирате ръчно услугата за симулиране.</string>
+    <string name="pref_trip_duration_seconds_title">Продължителност на пътуването (секунди)).</string>
+    <string name="pref_trip_duration_seconds_summary">Брой секунди, през които симулацията на пътуването трябва да продължи, преди да бъде достигната дестинацията:</string>
 </resources>

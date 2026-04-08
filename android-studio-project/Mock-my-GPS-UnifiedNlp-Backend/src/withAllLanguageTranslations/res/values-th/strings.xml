@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">หม่อน GPS UnifiedNlp แบ็คเอนด์</string>
-    <string name="locationservice_permission_label">หม่อน GPS UnifiedNlp เซอร์วิสตำแหน่ง</string>
-    <string name="locationservice_permission_description">สิทธิ์ระดับลายเซ็นที่จำเป็นสำหรับล้อเลียนฉัน GPS เพื่อจัดเตรียมการอัพเดตตำแหน่งให้กับตำแหน่ง UnifiedNlp แบ็คเอนด์.</string>
-    <string name="backendservice_summary">ใช้ \"จำลอง my GPS" เป็นผู้ให้บริการตำแหน่งเบื้องหลังขณะที่เซอร์วิสแอ็คทีฟ.</string>
+    <string name="app_name">ล้อเลียนของฉัน GPS UnifiedNlp แบ็กเอนด์</string>
+    <string name="locationservice_permission_label">ล้อเลียนของฉัน GPS UnifiedNlp บริการตำแหน่งที่ตั้ง</string>
+    <string name="locationservice_permission_description">สิทธิ์ระดับลายเซ็น จำเป็นต้องใช้สำหรับ Mock my GPS เพื่อให้ข้อมูลอัปเดตตำแหน่งแก่ UnifiedNlp แบ็กเอนด์.</string>
+    <string name="backendservice_summary">การใช้งาน "ล้อเลียนของฉัน GPS" ในฐานะผู้ให้บริการตำแหน่งที่อยู่สำหรับระบบหลังบ้านในขณะที่บริการของพวกเขากำลังใช้งานอยู่.</string>
     <string name="pref_settings_title">การตั้งค่า</string>
-    <string name="pref_timeadvance_title">เงินเบิกล่วงหน้า (ms).</string>
-    <string name="pref_timeadvance_summary">จำนวนมิลลิวินาทีที่เพิ่มเข้ากับเวลาประทับของการอัพเดตตำแหน่งทั้งหมด ค่าที่มากพอที่จะทำให้แน่ใจว่าผู้ให้บริการเบื้องหลังอื่นทั้งหมดจะถูกข้ามขณะที่การทำซ้ำแอ็คทีฟ:</string>
+    <string name="pref_timeadvance_title">การจ่ายเงินล่วงหน้า (ms).</string>
+    <string name="pref_timeadvance_summary">จำนวนมิลลิวินาทีที่เพิ่มเข้าไปในเวลาประทับของการอัปเดตตำแหน่งทั้งหมด ค่าที่มากพอควรจะทำให้ผู้ให้บริการแบ็กเอนด์อื่น ๆ ถูกเพิกเฉยในขณะที่การจำลองกำลังทำงานอยู่:</string>
 </resources>

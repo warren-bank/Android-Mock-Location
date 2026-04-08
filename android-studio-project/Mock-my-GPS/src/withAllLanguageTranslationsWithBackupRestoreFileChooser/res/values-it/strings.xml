@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Seleziona la cartella in cui salvare il file</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Scegli un nuovo nome per il file JSON dati</string>
+  <string name="app_folderpicker_json_import_filepath_description">Seleziona il file contenente i dati esportati in precedenza JSON dati</string>
+</resources>

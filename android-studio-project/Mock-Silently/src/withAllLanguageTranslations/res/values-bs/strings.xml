@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Tiho se rugaj,</string>
+    <string name="app_name">Parodiraj tiho</string>
     <string name="pref_settings_title">Postavke</string>
-    <string name="pref_purpose_array_names_1">Fiksni položaj</string>
+    <string name="pref_purpose_array_names_1">Fiksna pozicija</string>
     <string name="pref_purpose_array_names_2">Odredište putovanja</string>
     <string name="pref_purpose_title">Svrha</string>
-    <string name="pref_purpose_summary">izbor svrhe..</string>
-    <string name="pref_force_start_title">Forsiranje pokretanja</string>
-    <string name="pref_force_start_summary_on" >Tiho zapocni rugati servis.</string>
-    <string name="pref_force_start_summary_off">Otvorite aplikaciju da biste ručno pokrenuli rugu.</string>
-    <string name="pref_trip_duration_seconds_title">Trajanje putovanja (sekunde).</string>
-    <string name="pref_trip_duration_seconds_summary">Broj sekundi za simulaciju putovanja koja će se pokrenuti prije dolaska na odredište:</string>
+    <string name="pref_purpose_summary">izaberi svrhu..</string>
+    <string name="pref_force_start_title">Prisilno pokretanje</string>
+    <string name="pref_force_start_summary_on" >Tiho pokrenite servis za ismijavanje.</string>
+    <string name="pref_force_start_summary_off">Otvorite aplikaciju da ručno pokrenete servis za mockovanje..</string>
+    <string name="pref_trip_duration_seconds_title">Trajanje putovanja (sekunde)).</string>
+    <string name="pref_trip_duration_seconds_summary">Broj sekundi potrebnih za izvođenje simulacije putovanja prije dolaska na odredište:</string>
 </resources>

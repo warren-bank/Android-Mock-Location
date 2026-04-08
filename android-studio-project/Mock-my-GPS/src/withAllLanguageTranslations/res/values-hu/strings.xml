@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE resources [
   <!ENTITY lat_lon        "Szélesség, hosszúság">
-  <!ENTITY fixed_position "Rögzített pozíció">
-  <!ENTITY trip           "Trip">
+  <!ENTITY fixed_position "Állandó pozíció">
+  <!ENTITY trip           "Utazás">
   <!ENTITY origin         "Eredet">
-  <!ENTITY destination    "Cél">
+  <!ENTITY destination    "Úti cél">
 ]>
 <resources>
-    <string name="app_name">Mock ... GPS</string>
-    <string name="geo_intent_menu_title">Geo-Intent használata:</string>
+    <string name="app_name">Gúnyolódj rajtam GPS</string>
+    <string name="geo_intent_menu_title">Használja a Geo-Intent szolgáltatást a következőkre:</string>
     <string name="geo_intent_option_1">&fixed_position;</string>
     <string name="geo_intent_option_2">&trip; - &origin;</string>
     <string name="geo_intent_option_3">&trip; - &destination;</string>
@@ -18,39 +18,41 @@
     <string name="MainActivity_actionbar_item_3">Beállítások</string>
     <string name="MainActivity_tab_1_label">&fixed_position;</string>
     <string name="MainActivity_tab_2_label">&trip; Szimuláció</string>
-    <string name="save_bookmark_menu_title">Mentés helye:</string>
+    <string name="save_bookmark_menu_title">Mentési hely:</string>
     <string name="save_bookmark_option_1">&origin;</string>
     <string name="save_bookmark_option_2">&destination;</string>
-    <string name="FixedPositionActivity_field_1">Hely:\n<small>(&lat_lon;)</small></string>
+    <string name="FixedPositionActivity_field_1">Helyszín:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
     <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
-    <string name="TripSimulationActivity_field_3">Időtartam:\n<small>(Másodperc)</small></string>
+    <string name="TripSimulationActivity_field_3">Időtartam:\n<small>(másodpercek)</small></string>
     <string name="BookmarksActivity_actionbar_item_1">Hozzáadás</string>
-    <string name="open_bookmark_menu_title">Könyvjelző használata:</string>
+    <string name="BookmarksActivity_actionbar_item_2">Biztonsági mentés</string>
+    <string name="BookmarksActivity_actionbar_item_3">Visszaállítás</string>
+    <string name="open_bookmark_menu_title">Könyvjelző hozzáadása:</string>
     <string name="edit_bookmark_field_1">Cím:</string>
-    <string name="edit_bookmark_field_2">Hely:\n<small>(&lat_lon;)</small></string>
+    <string name="edit_bookmark_field_2">Helyszín:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Általános</string>
-    <string name="PreferencesActivity_field_1">Idő (ms) Minden frissítés között:</string>
-    <string name="PreferencesActivity_field_2">A modellkedés helyének száma:\n<small>(0 = kifejezett leállított)</small></string>
-    <string name="PreferencesActivity_field_3">Mörömbot megjelenítése:</string>
-    <string name="PreferencesActivity_field_4">Joystick lat/lon Növekmény:</string>
-    <string name="PreferencesActivity_field_5">Tartóhely rögzített pozícióként:</string>
+    <string name="PreferencesActivity_field_1">Idő (ms) az egyes frissítések között:</string>
+    <string name="PreferencesActivity_field_2">A helyszín szimulálásának gyakorisága:\n<small>(0 = folytatás, amíg kifejezetten le nem állítják)</small></string>
+    <string name="PreferencesActivity_field_3">Joystick megjelenítése:</string>
+    <string name="PreferencesActivity_field_4">Joystick lat/lon növekmény:</string>
+    <string name="PreferencesActivity_field_5">A célpontot rögzített pozícióban tartani:</string>
     <string name="label_button_start">INDÍTÁS</string>
-    <string name="label_button_stop">ÁLLJ</string>
+    <string name="label_button_stop">Állj!</string>
     <string name="label_button_update">FRISSÍTÉS</string>
-    <string name="label_button_cancel">MÉGSE</string>
+    <string name="label_button_cancel">MEGSZÜNTETÉS</string>
     <string name="label_button_delete">TÖRLÉS</string>
     <string name="label_button_save">MENTÉS</string>
-    <string name="error_geo_intent">A geo szándék nem értelmezhető \'%s\'.</string>
-    <string name="error_number_format">A szám nem értelmezhető \'%s\'.</string>
-    <string name="error_location_format">A hely nem értelmezhető \'%s\'.</string>
+    <string name="error_geo_intent">A földrajzi szándék értelmezése nem sikerült \'%s\'.</string>
+    <string name="error_number_format">A szám értelmezése nem sikerült \'%s\'.</string>
+    <string name="error_location_format">A helyszínt nem sikerült feldolgozni \'%s\'.</string>
     <string name="error_bookmarkitem_exists">A könyvjelző már létezik \'%s\'.</string>
-    <string name="error_missing_required_value">Hiba: Hiányzó kötelező érték</string>
-    <string name="error_add_bookmarkitem">Hiba: Új könyvjelző nem adható hozzá</string>
-    <string name="notification_service_ticker">Mock ... GPS: Futás</string>
-    <string name="notification_service_content_line1">Mock ... GPS</string>
+    <string name="error_missing_required_value">Hiba: Hiányzik egy kötelező érték</string>
+    <string name="error_add_bookmarkitem">Hiba: Nem sikerült hozzáadni az új könyvjelzőt</string>
+    <string name="notification_service_ticker">Gúnyolódj rajtam GPS: futás</string>
+    <string name="notification_service_content_line1">Gúnyolódj rajtam GPS</string>
     <!--
-    <string name="notification_service_content_line2">Kattintson ide a megnyitásához. Leállítás megszüntetése.</string>
+    <string name="notification_service_content_line2">Kattintson a megnyitáshoz. A bezáráshoz kattintson a „Bezárás” gombra..</string>
     -->
-    <string name="notification_service_content_line2">Kattintson a megnyitásához.</string>
+    <string name="notification_service_content_line2">Kattintson a megnyitáshoz.</string>
 </resources>

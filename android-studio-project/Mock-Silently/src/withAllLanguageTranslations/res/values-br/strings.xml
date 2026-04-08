@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fentañ didrouz</string>
+    <string name="pref_settings_title">Arventennoù</string>
+    <string name="pref_purpose_array_names_1">Post fiks</string>
+    <string name="pref_purpose_array_names_2">Pal ar veaj</string>
+    <string name="pref_purpose_title">Pal</string>
+    <string name="pref_purpose_summary">Dibabit pal..</string>
+    <string name="pref_force_start_title">Loc\'hañ dre nerzh</string>
+    <string name="pref_force_start_summary_on" >Lañsañ didrouz ar servij goapaat.</string>
+    <string name="pref_force_start_summary_off">Digorit an arload evit loc\'hañ dre zorn ar servij mockañ..</string>
+    <string name="pref_trip_duration_seconds_title">Padelezh ar veaj (eilennoù)).</string>
+    <string name="pref_trip_duration_seconds_summary">Niver a eilennadoù evit ma\'z afe ur simuladenn beaj en-dro a-raok tizhout an termen.:</string>
+</resources>

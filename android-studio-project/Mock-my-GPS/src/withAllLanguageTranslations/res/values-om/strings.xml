@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "Fageenya bal\'inaa, Fageenya dheerinnaa">
+  <!ENTITY fixed_position "Iddoo dhaabbataa">
+  <!ENTITY trip           "Imala">
+  <!ENTITY origin         "Madda">
+  <!ENTITY destination    "Iddoo Garaa">
+]>
+<resources>
+    <string name="app_name">Na qoosaa GPS</string>
+    <string name="geo_intent_menu_title">Kaartaa-Yaadaaf Fayyadami:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">Asxa Haaraa</string>
+    <string name="MainActivity_actionbar_item_1">Asxa Qabsiisi</string>
+    <string name="MainActivity_actionbar_item_2">Calaqqeeftuuwwan</string>
+    <string name="MainActivity_actionbar_item_3">Filannoowwan</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; Fakkeessuu</string>
+    <string name="save_bookmark_menu_title">Iddoo Itti Waraabamu:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">Iddoo:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">Tartiiba yeroo:\n<small>(sekondiiwwan)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">Dabali</string>
+    <string name="BookmarksActivity_actionbar_item_2">Gara duubaatti deebi\'i</string>
+    <string name="BookmarksActivity_actionbar_item_3">Deebisi</string>
+    <string name="open_bookmark_menu_title">Ashaaraaf fayyadami:</string>
+    <string name="edit_bookmark_field_1">Mata duree:</string>
+    <string name="edit_bookmark_field_2">Iddoo:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">Waliigalaa</string>
+    <string name="PreferencesActivity_field_1">Yeroo (ms) Gidduu haaromsa hundaatti:</string>
+    <string name="PreferencesActivity_field_2">Lakkoofsa yeroo iddoo itti qoosu:\n<small>(0 = hanga ifatti dhaabamutti itti fufi)</small></string>
+    <string name="PreferencesActivity_field_3">Jooyistiki agarsiisi:</string>
+    <string name="PreferencesActivity_field_4">Qabannoo gammachuu lat/lon Dabali:</string>
+    <string name="PreferencesActivity_field_5">Iddoo gahuu akka iddoo dhaabbataatti qabadhu:</string>
+    <string name="label_button_start">Jalqabi</string>
+    <string name="label_button_stop">Dhaabbadhu</string>
+    <string name="label_button_update">Haaromsa</string>
+    <string name="label_button_cancel">Haqi</string>
+    <string name="label_button_delete">Haqi</string>
+    <string name="label_button_save">Kuusi</string>
+    <string name="error_geo_intent">Ajaja teessuma lafaa hiikuun hin danda\'amne \'%s\'.</string>
+    <string name="error_number_format">Lakkoofsa hiikuun hin danda\'amne \'%s\'.</string>
+    <string name="error_location_format">Iddoo hiikuun hin danda\'amne \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">Asxaan duruu ni jira \'%s\'.</string>
+    <string name="error_missing_required_value">Dogoggora: Gatii Barbaachisuu Dhabame</string>
+    <string name="error_add_bookmarkitem">Dogoggora: Mallattoo fuula haaraa dabaluun hin danda\'amne</string>
+    <string name="notification_service_ticker">Na qoosaa GPS: Fiigicha</string>
+    <string name="notification_service_content_line1">Na qoosaa GPS</string>
+    <!--
+    <string name="notification_service_content_line2">Banuuf cuqaasi. Joo\'uuf dhiisi..</string>
+    -->
+    <string name="notification_service_content_line2">Baniif cuqaasi.</string>
+</resources>

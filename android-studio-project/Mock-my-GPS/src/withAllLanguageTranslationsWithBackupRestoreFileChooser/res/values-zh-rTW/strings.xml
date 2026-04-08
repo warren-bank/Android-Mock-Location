@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">請選擇要儲存檔案的目錄</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">請為以下檔案選擇新名稱： JSON 資料</string>
+  <string name="app_folderpicker_json_import_filepath_description">選擇包含先前已匯出內容的檔案 JSON 資料</string>
+</resources>

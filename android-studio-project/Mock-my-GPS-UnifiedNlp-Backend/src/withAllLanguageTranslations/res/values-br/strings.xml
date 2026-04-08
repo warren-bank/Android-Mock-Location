@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fentit ma GPS UnifiedNlp A-dreñv</string>
+    <string name="locationservice_permission_label">Fentit ma GPS UnifiedNlp Servij Lec\'hiañ</string>
+    <string name="locationservice_permission_description">Aotre Live Sinadur, rekis evit Drevezañ ma GPS da bourchas hizivadennoù lec\'hiadur d\'e UnifiedNlp A-dreñv.</string>
+    <string name="backendservice_summary">Implijoù "Fentit ma GPS" evel ur pourvezer lec\'hiadur a-dreñv pa vez e servij oberiant.</string>
+    <string name="pref_settings_title">Arventennoù</string>
+    <string name="pref_timeadvance_title">Araokadenn an amzer (ms).</string>
+    <string name="pref_timeadvance_summary">An niver a vilisekondennoù ouzhpennet da stamp-amzer an holl hizivadurioù lec\'hiadur. Un talvoud bras a-walc\'h a zlefe suraat e vo lezet a-gostez an holl bourvezerien backend all e-keit ha ma vo oberiant ar farserezh.:</string>
+</resources>

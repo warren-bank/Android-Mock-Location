@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Manaova vazivazy momba ny ahy GPS UnifiedNlp Lakile</string>
+    <string name="locationservice_permission_label">Manaova vazivazy momba ny ahy GPS UnifiedNlp Serivisy Toerana</string>
+    <string name="locationservice_permission_description">Fahazoan-dàlana Signature Level, ilaina ho an\'ny Mock my GPS hanome fanavaozam-baovao momba ny toerana ho an\'ny azy UnifiedNlp Lakile.</string>
+    <string name="backendservice_summary">Fampiasana "Manaova vazivazy momba ny ahy GPS" ho mpanome toerana aoriana raha mandeha ny serivisy-ny.</string>
+    <string name="pref_settings_title">Fikirana</string>
+    <string name="pref_timeadvance_title">Fandrosoan\'ny fotoana (ms).</string>
+    <string name="pref_timeadvance_summary">Isan\'ny milisegondra ampiana amin\'ny marika fotoana amin\'ny fanavaozana toerana rehetra. Ny sanda lehibe ampy dia tokony hiantoka fa tsy ho raisina ireo mpamatsy backend hafa rehetra raha mbola mandeha ny mocking.:</string>
+</resources>

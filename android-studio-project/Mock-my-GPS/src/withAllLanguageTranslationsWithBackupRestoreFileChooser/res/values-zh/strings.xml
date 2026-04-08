@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">选择保存文件的目录</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">为...选择新文件名 JSON 数据</string>
+  <string name="app_folderpicker_json_import_filepath_description">选择包含先前导出内容的文件 JSON 数据</string>
+</resources>

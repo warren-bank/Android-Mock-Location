@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fanya mfano kimya</string>
+    <string name="pref_settings_title">Mipangilio</string>
+    <string name="pref_purpose_array_names_1">Nafasi ya kudumu</string>
+    <string name="pref_purpose_array_names_2">Mwisho wa safari</string>
+    <string name="pref_purpose_title">Lengo</string>
+    <string name="pref_purpose_summary">chagua kusudi..</string>
+    <string name="pref_force_start_title">Anzisha kwa nguvu</string>
+    <string name="pref_force_start_summary_on" >Anza kimya kimya huduma ya utani..</string>
+    <string name="pref_force_start_summary_off">Fungua programu ili kuanzisha huduma ya mocking kwa mkono..</string>
+    <string name="pref_trip_duration_seconds_title">Muda wa safari (sekunde)).</string>
+    <string name="pref_trip_duration_seconds_summary">Idadi ya sekunde kwa simulizi ya safari kufanya kazi kabla ya kufika kwenye eneo la mwisho:</string>
+</resources>

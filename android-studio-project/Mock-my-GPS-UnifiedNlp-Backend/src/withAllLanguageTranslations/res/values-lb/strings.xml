@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spott mäi GPS UnifiedNlp Hannergrond</string>
+    <string name="locationservice_permission_label">Spott mäi GPS UnifiedNlp Standuertservice</string>
+    <string name="locationservice_permission_description">Signature-Niveau-Erlaabnis, erfuerderlech fir Mock my GPS fir seng Standuertaktualisatiounen ze liwweren UnifiedNlp Hannergrond.</string>
+    <string name="backendservice_summary">Benotzungen "Spott mäi GPS" als Hannergrond-Standuertliwwerant, während säi Service aktiv ass.</string>
+    <string name="pref_settings_title">Astellungen</string>
+    <string name="pref_timeadvance_title">Zäitviraus (ms).</string>
+    <string name="pref_timeadvance_summary">Zuel vun Millisekonnen, déi zum Timestamp vun allen Standortaktualisatiounen derbäigesat ginn. E genuch grousse Wäert sollt garantéieren, datt all aner Backend-Provider ignoréiert ginn, während d\'Mocking aktiv ass.:</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Izvēlieties direktoriju, kurā saglabāt failu</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Izvēlieties jaunu faila nosaukumu JSON dati</string>
+  <string name="app_folderpicker_json_import_filepath_description">Izvēlieties failu, kurā ir iepriekš eksportētie dati JSON dati</string>
+</resources>

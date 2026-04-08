@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Mock mun GPS UnifiedNlp Backend</string>
-    <string name="locationservice_permission_label">Mock mun GPS UnifiedNlp Sijaintipalvelu</string>
-    <string name="locationservice_permission_description">Allekirjoitustason lupa, pakollinen Mock - GPS Tarjota sijaintipäivityksiä sen UnifiedNlp Backend.</string>
-    <string name="backendservice_summary">Uses \" Mock minun GPS" Backend-sijainnin toimittajana, kun sen palvelu on käytössä.</string>
+    <string name="app_name">Pilkkaa minua GPS UnifiedNlp taustajärjestelmä</string>
+    <string name="locationservice_permission_label">Pilkkaa minua GPS UnifiedNlp Paikannuspalvelu</string>
+    <string name="locationservice_permission_description">Signature Level -käyttöoikeus, vaaditaan Mock my -sovellukselle GPS tarjoamaan sijaintitietoja asiakkailleen UnifiedNlp taustajärjestelmä.</string>
+    <string name="backendservice_summary">Käyttötarkoitukset "Pilkkaa minua GPS" taustapalveluntarjoajana palvelun ollessa aktiivisena.</string>
     <string name="pref_settings_title">Asetukset</string>
-    <string name="pref_timeadvance_title">Aika Advance (ms).</string>
-    <string name="pref_timeadvance_summary">Kaikkien sijaintipäivitysten aikaleima on lisätty millisekunteina. Riittävän suuren arvon pitäisi varmistaa, että kaikki muut backend-palvelun tarjoajat jätetään huomiotta samalla kun pilkkaaminen on aktiivista:</string>
+    <string name="pref_timeadvance_title">Aikasiirto (ms).</string>
+    <string name="pref_timeadvance_summary">Kaikkien sijaintipäivitysten aikaleimaan lisättävä millisekuntien määrä. Riittävän suuri arvo varmistaa, että kaikkia muita taustapalveluntarjoajia ohitetaan, kun simulointi on käytössä:</string>
 </resources>

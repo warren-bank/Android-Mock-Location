@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Asipayayniyta GPS UnifiedNlp Qhipa Lado</string>
+    <string name="locationservice_permission_label">Asipayayniyta GPS UnifiedNlp Maypi Kay Yanapay</string>
+    <string name="locationservice_permission_description">Sapaq Patapa saqillaynin, Mock my nisqapaq mañakusqa. GPS Paypa kaqninman maypi kasqanmanta musuq willakuykunata qunapaq UnifiedNlp Qhipa Lado.</string>
+    <string name="backendservice_summary">Imapaqchus "Asipayayniyta GPS" Qhipa tiyay quq hina, llamk\'aynin kawsachkaptin.</string>
+    <string name="pref_settings_title">Allichaykuna</string>
+    <string name="pref_timeadvance_title">Pacha Ñawpaqman (ms).</string>
+    <string name="pref_timeadvance_summary">Tukuy maypi kasqan musuqyachiykunap pachachimpunman yapasqa millisegundokuna yupay. Huk allin hatun chaninqa qhawarinan tiyan tukuy wak qhipa kaq qaraqkuna mana qhawarisqa kanankuta, llulla llamk\'achiy kawsachkaptin.:</string>
+</resources>

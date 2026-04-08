@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">از من تقلید کن GPS UnifiedNlp پشت‌پایه</string>
+    <string name="locationservice_permission_label">از من تقلید کن GPS UnifiedNlp سرویس مکان</string>
+    <string name="locationservice_permission_description">اجازه سطح امضا، مورد نیاز برای Mock my GPS برای ارائه به‌روزرسانی‌های موقعیت مکانی به آن UnifiedNlp پشت‌پایه.</string>
+    <string name="backendservice_summary">کاربردها "از من تقلید کن GPS" به‌عنوان ارائه‌دهندهٔ موقعیت مکانی بک‌اند در حالی که سرویس آن فعال است.</string>
+    <string name="pref_settings_title">تنظیمات</string>
+    <string name="pref_timeadvance_title">پیش‌پرداخت زمانی (ms).</string>
+    <string name="pref_timeadvance_summary">تعداد میلی‌ثانیه‌هایی که به زمان‌مهر تمام به‌روزرسانی‌های موقعیت اضافه می‌شود. یک مقدار به‌اندازهٔ کافی بزرگ باید تضمین کند که سایر ارائه‌دهندگان بک‌اند در حین فعال بودن ماکینگ نادیده گرفته شوند.:</string>
+</resources>

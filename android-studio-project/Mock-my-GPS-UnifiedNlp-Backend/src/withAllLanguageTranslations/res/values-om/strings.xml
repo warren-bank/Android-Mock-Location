@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Na qoosaa GPS UnifiedNlp Gama duubaa</string>
+    <string name="locationservice_permission_label">Na qoosaa GPS UnifiedNlp Tajaajila Iddoo</string>
+    <string name="locationservice_permission_description">Hayyama Sadarkaa Mallattoo, kan Mock my\'f barbaachisu GPS bakka isaa irratti odeeffannoo haaromsaa kennuuf UnifiedNlp Gama duubaa.</string>
+    <string name="backendservice_summary">Fayyadamoota "Na qoosaa GPS" akka dhiyeessaa iddoo duub-duubaa tajaajilli isaa yeroo hojjetutti.</string>
+    <string name="pref_settings_title">Qindaa\'inoota</string>
+    <string name="pref_timeadvance_title">Yeroo Dursuu (ms).</string>
+    <string name="pref_timeadvance_summary">Lakkoofsa miliisekoondii mallattoo yeroo haaromsa iddoo hunda irratti dabalamu. Gatiin gahaa ta\'e, yeroo mookiingiin hojjechaa jirutti dhiyeessitoonni beekendii kaan hundi akka dagataman mirkaneessuu qaba.:</string>
+</resources>

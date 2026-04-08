@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Parodiu mian GPS UnifiedNlp Malantaŭa sistemo</string>
+    <string name="locationservice_permission_label">Parodiu mian GPS UnifiedNlp Lokservo</string>
+    <string name="locationservice_permission_description">Permeso de Signatura Nivelo, postulata por Mock my GPS por provizi lokajn ĝisdatigojn al siaj UnifiedNlp Malantaŭa sistemo.</string>
+    <string name="backendservice_summary">Uzoj "Parodiu mian GPS" kiel malantaŭa lokoprovizanto dum ĝia servo estas aktiva.</string>
+    <string name="pref_settings_title">Agordoj</string>
+    <string name="pref_timeadvance_title">Tempa antaŭenigo (ms).</string>
+    <string name="pref_timeadvance_summary">Nombro da milisekundoj aldonitaj al la tempostampo de ĉiuj lokaj ĝisdatigoj. Sufiĉe granda valoro devus certigi, ke ĉiuj aliaj malantaŭaj provizantoj estas ignorataj dum simulado estas aktiva.:</string>
+</resources>

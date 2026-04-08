@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bespot my GPS UnifiedNlp Agterkant</string>
+    <string name="locationservice_permission_label">Bespot my GPS UnifiedNlp Posisiediens</string>
+    <string name="locationservice_permission_description">Handtekeningvlaktoestemming, vereis vir naboots my GPS om ligging-opdaterings aan sy UnifiedNlp Agterkant.</string>
+    <string name="backendservice_summary">Gebruik "Bespot my GPS" as \'n agtergrond-liggingverskaffer terwyl sy diens aktief is.</string>
+    <string name="pref_settings_title">Instellings</string>
+    <string name="pref_timeadvance_title">Tydsvoorskot (ms).</string>
+    <string name="pref_timeadvance_summary">Aantal millisekondes wat by die tydstempel van alle liggingopdaterings gevoeg word. \'n Groot genoeg waarde behoort te verseker dat alle ander agterkantverskaffers geïgnoreer word terwyl nabootsing aktief is.:</string>
+</resources>

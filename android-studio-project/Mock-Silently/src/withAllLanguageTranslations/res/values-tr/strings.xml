@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Sessiz Bir şekilde Eşle</string>
+    <string name="app_name">Sessizce alay et</string>
     <string name="pref_settings_title">Ayarlar</string>
     <string name="pref_purpose_array_names_1">Sabit Konum</string>
     <string name="pref_purpose_array_names_2">Seyahat Hedefi</string>
     <string name="pref_purpose_title">Amaç</string>
     <string name="pref_purpose_summary">amaç seçin..</string>
-    <string name="pref_force_start_title">Başlangıç Kuvveti</string>
-    <string name="pref_force_start_summary_on" >Mocking hizmetini sessiz bir şekilde başlat.</string>
-    <string name="pref_force_start_summary_off">Mocking hizmetini el ile başlatmak için uygulamayı açın.</string>
-    <string name="pref_trip_duration_seconds_title">Seyahat Süresi (saniye).</string>
-    <string name="pref_trip_duration_seconds_summary">Bir seyahat benzetiminin hedefe ulaşmadan önce çalıştırılacağı saniye sayısı:</string>
+    <string name="pref_force_start_title">Zorla Başlat</string>
+    <string name="pref_force_start_summary_on" >Simülasyon hizmetini sessizce başlat.</string>
+    <string name="pref_force_start_summary_off">Uygulamayı açarak simülasyon hizmetini manuel olarak başlatın.</string>
+    <string name="pref_trip_duration_seconds_title">Seyahat Süresi (saniye)).</string>
+    <string name="pref_trip_duration_seconds_summary">Hedefe ulaşılana kadar bir yolculuk simülasyonunun çalışması için gereken saniye sayısı:</string>
 </resources>

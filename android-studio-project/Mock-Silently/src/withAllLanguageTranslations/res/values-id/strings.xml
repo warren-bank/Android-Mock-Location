@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Dasar Mengejek</string>
+    <string name="app_name">Meniru dalam Hening</string>
     <string name="pref_settings_title">Pengaturan</string>
     <string name="pref_purpose_array_names_1">Posisi Tetap</string>
     <string name="pref_purpose_array_names_2">Tujuan Perjalanan</string>
     <string name="pref_purpose_title">Tujuan</string>
     <string name="pref_purpose_summary">pilih tujuan..</string>
-    <string name="pref_force_start_title">Gaya Mulai</string>
-    <string name="pref_force_start_summary_on" >Diam-diam memulai layanan mengejek.</string>
-    <string name="pref_force_start_summary_off">Buka aplikasi untuk memulai layanan yang mengejek secara manual.</string>
-    <string name="pref_trip_duration_seconds_title">Durasi Perjalanan (detik)).</string>
-    <string name="pref_trip_duration_seconds_summary">Jumlah detik untuk simulasi perjalanan yang akan dijalankan sebelum mencapai tujuan:</string>
+    <string name="pref_force_start_title">Mulai Paksa</string>
+    <string name="pref_force_start_summary_on" >Jalankan layanan simulasi secara diam-diam.</string>
+    <string name="pref_force_start_summary_off">Buka aplikasi untuk menjalankan layanan simulasi secara manual.</string>
+    <string name="pref_trip_duration_seconds_title">Lama Perjalanan (detik)).</string>
+    <string name="pref_trip_duration_seconds_summary">Jumlah detik yang diperlukan untuk menjalankan simulasi perjalanan hingga mencapai tujuan:</string>
 </resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Galmee kuusuuf galmee filadhu</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Maqaa faayilii haaraa filadhu JSON Odeeffannoo</string>
+  <string name="app_folderpicker_json_import_filepath_description">Faayilii duraan ergaa\'e filadhu. JSON Odeeffannoo</string>
+</resources>

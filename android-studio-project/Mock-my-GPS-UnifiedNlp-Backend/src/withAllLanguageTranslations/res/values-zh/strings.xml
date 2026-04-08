@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">嘲笑我 GPS UnifiedNlp 后端</string>
-    <string name="locationservice_permission_label">嘲笑我 GPS UnifiedNlp 位置服务</string>
-    <string name="locationservice_permission_description">签名级别许可权， Mock my 需要 GPS 为其提供位置更新 UnifiedNlp 后端.</string>
-    <string name="backendservice_summary">使用 \"Mock my GPS" 当其服务处于活动状态时作为后端位置提供程序.</string>
+    <string name="locationservice_permission_label">嘲笑我 GPS UnifiedNlp 定位服务</string>
+    <string name="locationservice_permission_description">“Signature Level”权限，这是使用“Mock my”所必需的 GPS 向其提供位置更新 UnifiedNlp 后端.</string>
+    <string name="backendservice_summary">用途 "嘲笑我 GPS" 在其服务处于活动状态时，作为后端位置提供商.</string>
     <string name="pref_settings_title">设置</string>
-    <string name="pref_timeadvance_title">时间提前 (ms).</string>
-    <string name="pref_timeadvance_summary">添加至所有位置更新的时间戳记的毫秒数。 足够大的值应确保在计时处于活动状态时忽略所有其他后端提供程序:</string>
+    <string name="pref_timeadvance_title">时间快进 (ms).</string>
+    <string name="pref_timeadvance_summary">添加到所有位置更新时间戳中的毫秒数。足够大的数值可确保在模拟功能启用期间忽略所有其他后端提供商:</string>
 </resources>

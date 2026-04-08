@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Parodi silente</string>
+    <string name="pref_settings_title">Agordoj</string>
+    <string name="pref_purpose_array_names_1">Fiksa pozicio</string>
+    <string name="pref_purpose_array_names_2">Vojaĝcelo</string>
+    <string name="pref_purpose_title">Celo</string>
+    <string name="pref_purpose_summary">Elektu celon...</string>
+    <string name="pref_force_start_title">Deviga ekŝalto</string>
+    <string name="pref_force_start_summary_on" >Silente lanĉu la mokan servon..</string>
+    <string name="pref_force_start_summary_off">Malfermu la aplikaĵon por permane starti la mokan servon..</string>
+    <string name="pref_trip_duration_seconds_title">Vojaĝodaŭro (sekundoj)).</string>
+    <string name="pref_trip_duration_seconds_summary">Nombro da sekundoj por ke vojaĝsimulado funkciu antaŭ ol atingi la celon:</string>
+</resources>

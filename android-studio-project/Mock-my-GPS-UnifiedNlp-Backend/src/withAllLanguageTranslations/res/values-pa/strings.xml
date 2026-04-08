@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ਮੇਰੇ ਦਾ ਮਜ਼ਾਕ ਉਡਾਓ GPS UnifiedNlp ਬੈਕਐਂਡ</string>
+    <string name="locationservice_permission_label">ਮੇਰੇ ਦਾ ਮਜ਼ਾਕ ਉਡਾਓ GPS UnifiedNlp ਸਥਾਨ ਸੇਵਾ</string>
+    <string name="locationservice_permission_description">ਸਿਗਨੇਚਰ ਲੈਵਲ ਦੀ ਆਗਿਆ, ਮੌਕ ਮਾਈ ਲਈ ਲਾਜ਼ਮੀ ਹੈ। GPS ਇਸਦੇ ਲਈ ਸਥਾਨ ਅਪਡੇਟ ਪ੍ਰਦਾਨ ਕਰਨ UnifiedNlp ਬੈਕਐਂਡ.</string>
+    <string name="backendservice_summary">ਵਰਤੋਂ "ਮੇਰੇ ਦਾ ਮਜ਼ਾਕ ਉਡਾਓ GPS" ਜਦੋਂ ਇਸਦੀ ਸੇਵਾ ਚਾਲੂ ਹੋਵੇ, ਇੱਕ ਬੈਕਐਂਡ ਸਥਾਨ ਪ੍ਰਦਾਤਾ ਵਜੋਂ.</string>
+    <string name="pref_settings_title">ਸੈਟਿੰਗਾਂ</string>
+    <string name="pref_timeadvance_title">ਸਮਾਂ ਅੱਗੇ (ms).</string>
+    <string name="pref_timeadvance_summary">ਸਾਰੇ ਲੋਕੇਸ਼ਨ ਅਪਡੇਟਾਂ ਦੇ ਟਾਈਮਸਟੈਂਪ ਵਿੱਚ ਜੋੜੇ ਜਾਣ ਵਾਲੇ ਮਿਲੀਸੈਕਿੰਡਾਂ ਦੀ ਗਿਣਤੀ। ਇੱਕ ਕਾਫੀ ਵੱਡੀ ਵੈਲਿਊ ਇਹ ਯਕੀਨੀ ਬਣਾਏਗੀ ਕਿ ਮੌਕਿੰਗ ਚਾਲੂ ਹੋਣ ਦੌਰਾਨ ਹੋਰ ਸਾਰੇ ਬੈਕਐਂਡ ਪ੍ਰਦਾਤਾਵਾਂ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕੀਤਾ ਜਾਵੇ।:</string>
+</resources>

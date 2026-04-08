@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_folderpicker_json_export_filepath_description">Khetha ifolda yokugcina ifayile</string>
+  <string name="app_folderpicker_json_export_filepath_newfile_prompt">Khetha igama elitsha lefayile JSON idatha</string>
+  <string name="app_folderpicker_json_import_filepath_description">Khetha ifayile enezinto ezithe zathunyelwa ngaphambili. JSON idatha</string>
+</resources>

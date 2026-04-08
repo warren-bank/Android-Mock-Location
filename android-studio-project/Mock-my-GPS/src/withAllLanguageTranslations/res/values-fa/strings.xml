@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+  <!ENTITY lat_lon        "عرض جغرافیایی، طول جغرافیایی">
+  <!ENTITY fixed_position "موقعیت ثابت">
+  <!ENTITY trip           "سفر">
+  <!ENTITY origin         "منشأ">
+  <!ENTITY destination    "مقصد">
+]>
+<resources>
+    <string name="app_name">از من تقلید کن GPS</string>
+    <string name="geo_intent_menu_title">از Geo-Intent برای:</string>
+    <string name="geo_intent_option_1">&fixed_position;</string>
+    <string name="geo_intent_option_2">&trip; - &origin;</string>
+    <string name="geo_intent_option_3">&trip; - &destination;</string>
+    <string name="geo_intent_option_4">نشانک جدید</string>
+    <string name="MainActivity_actionbar_item_1">ذخیره نشانک</string>
+    <string name="MainActivity_actionbar_item_2">نشانک‌ها</string>
+    <string name="MainActivity_actionbar_item_3">ترجیحات</string>
+    <string name="MainActivity_tab_1_label">&fixed_position;</string>
+    <string name="MainActivity_tab_2_label">&trip; شبیه‌سازی</string>
+    <string name="save_bookmark_menu_title">محل ذخیره:</string>
+    <string name="save_bookmark_option_1">&origin;</string>
+    <string name="save_bookmark_option_2">&destination;</string>
+    <string name="FixedPositionActivity_field_1">مکان:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_1">&origin;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_2">&destination;:\n<small>(&lat_lon;)</small></string>
+    <string name="TripSimulationActivity_field_3">مدت زمان:\n<small>(ثانیه‌ها)</small></string>
+    <string name="BookmarksActivity_actionbar_item_1">افزودن</string>
+    <string name="BookmarksActivity_actionbar_item_2">نسخهٔ پشتیبان</string>
+    <string name="BookmarksActivity_actionbar_item_3">بازیابی</string>
+    <string name="open_bookmark_menu_title">برای نشانک استفاده کنید:</string>
+    <string name="edit_bookmark_field_1">عنوان:</string>
+    <string name="edit_bookmark_field_2">مکان:\n<small>(&lat_lon;)</small></string>
+    <string name="PreferencesActivity_heading_1">عمومی</string>
+    <string name="PreferencesActivity_field_1">زمان (ms) بین هر به‌روزرسانی:</string>
+    <string name="PreferencesActivity_field_2">تعداد دفعات ارسال موقعیت جعلی:\n<small>(۰ = تا زمانی که به صراحت متوقف نشود ادامه دهد)</small></string>
+    <string name="PreferencesActivity_field_3">نمایش جوی‌استیک:</string>
+    <string name="PreferencesActivity_field_4">جای‌استیک lat/lon افزایش:</string>
+    <string name="PreferencesActivity_field_5">مقصد را به‌عنوان موقعیت ثابت نگه دارید:</string>
+    <string name="label_button_start">شروع</string>
+    <string name="label_button_stop">ایست</string>
+    <string name="label_button_update">به‌روزرسانی</string>
+    <string name="label_button_cancel">لغو</string>
+    <string name="label_button_delete">حذف</string>
+    <string name="label_button_save">ذخیره</string>
+    <string name="error_geo_intent">قادر به تجزیه نیت جغرافیایی نبود \'%s\'.</string>
+    <string name="error_number_format">شماره را نمی‌توان تجزیه کرد \'%s\'.</string>
+    <string name="error_location_format">مکان را نمی‌توان تجزیه کرد \'%s\'.</string>
+    <string name="error_bookmarkitem_exists">نشانک از قبل وجود دارد \'%s\'.</string>
+    <string name="error_missing_required_value">خطا: مقدار الزامی وجود ندارد</string>
+    <string name="error_add_bookmarkitem">خطا: امکان افزودن نشانک جدید وجود ندارد</string>
+    <string name="notification_service_ticker">از من تقلید کن GPS: دویدن</string>
+    <string name="notification_service_content_line1">از من تقلید کن GPS</string>
+    <!--
+    <string name="notification_service_content_line2">برای باز کردن کلیک کنید. برای توقف لغو کنید..</string>
+    -->
+    <string name="notification_service_content_line2">برای باز کردن کلیک کنید.</string>
+</resources>

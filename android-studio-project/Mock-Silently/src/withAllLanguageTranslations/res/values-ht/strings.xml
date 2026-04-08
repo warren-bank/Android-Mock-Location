@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fè parodi an silans</string>
+    <string name="pref_settings_title">Aranjman</string>
+    <string name="pref_purpose_array_names_1">Pozisyon fiks</string>
+    <string name="pref_purpose_array_names_2">Destinasyon Vwayaj</string>
+    <string name="pref_purpose_title">Objektif</string>
+    <string name="pref_purpose_summary">Chwazi objektif..</string>
+    <string name="pref_force_start_title">Kòmanse fòse</string>
+    <string name="pref_force_start_summary_on" >Kòmanse sèvis imitasyon an an silans..</string>
+    <string name="pref_force_start_summary_off">Ouvri aplikasyon an pou kòmanse sèvis mocking lan manyèlman..</string>
+    <string name="pref_trip_duration_seconds_title">Dire vwayaj la (segonn)).</string>
+    <string name="pref_trip_duration_seconds_summary">Kantite segonn yon simulasyon vwayaj pran pou l kouri anvan li rive nan destinasyon an.:</string>
+</resources>
