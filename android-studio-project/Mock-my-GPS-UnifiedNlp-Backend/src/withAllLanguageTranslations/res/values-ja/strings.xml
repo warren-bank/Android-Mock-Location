@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">私をからかう GPS UnifiedNlp バックエンド</string>
-    <string name="locationservice_permission_label">私をからかう GPS UnifiedNlp 位置情報サービス</string>
-    <string name="locationservice_permission_description">「Signature Level」の権限。Mock my を使用するにはこれが必要です。 GPS その UnifiedNlp バックエンド.</string>
-    <string name="backendservice_summary">用途 "私をからかう GPS" そのサービスが稼働している間は、バックエンドのロケーションプロバイダーとして.</string>
+    <string name="app_name">Mock my GPS UnifiedNlp Backend</string>
+    <string name="locationservice_permission_label">Mock my GPS UnifiedNlp 位置情報サービス</string>
+    <string name="locationservice_permission_description">「Signature Level」の権限。Mock my GPS UnifiedNlp Backendを使用するにはこれが必要です。</string>
+    <string name="backendservice_summary">サービスが実行されている間、Mock my GPSを位置情報プロバイダのバックエンドとして使用します。</string>
     <string name="pref_settings_title">設定</string>
     <string name="pref_timeadvance_title">時間の進み (ms).</string>
     <string name="pref_timeadvance_summary">すべての位置情報更新のタイムスタンプに追加されるミリ秒数。十分に大きな値を設定することで、モックが有効な間は他のすべてのバックエンドプロバイダーが無視されるようになります:</string>
