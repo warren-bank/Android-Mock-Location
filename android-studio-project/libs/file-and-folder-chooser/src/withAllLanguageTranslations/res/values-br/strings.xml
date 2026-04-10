@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Degemer</string>
+    <string name="up">War-grec\'h</string>
+    <string name="neww">Nevez</string>
+    <string name="select">Diuzit</string>
+    <string name="cancel">Diverkañ</string>
+    <string name="title">Diuzit ar folez</string>
+    <string name="location">Lec\'hiadur</string>
+    <string name="enter_folder_name">Roit anv ar follen</string>
+    <string name="edit_location">Kemmañ al lec\'h</string>
+    <string name="create">Krouiñ</string>
+    <string name="ok">Mat eo</string>
+    <string name="select_file">Ret eo deoc\'h dibab ur restr.</string>
+    <string name="select_empty_folder">Ret eo deoc\'h dibab ur follenell goullo.</string>
+    <string name="no_access_to_storage">An aotre da vont d\'ar stok n\'eo ket bet roet</string>
+    <string name="location_mask">Lec\'hiadur: %s</string>
+    <string name="error_string_mask">Fazi: %s</string>
+    <string name="select_empty_dir">Diuzit ur c\'havlec\'h goullo</string>
+    <string name="is_not_dir">N\'eo ket ur rollad</string>
+    <string name="dir_is_not_exist">N\'eus ket eus ar rollad</string>
+    <string name="dir_read_permission_denied">N\'haller ket lenn diwar ar rollad</string>
+    <string name="dir_write_permission_denied">N\'haller ket skrivañ d\'ar c\'havlec\'h</string>
+    <string name="new_file_name_does_not_pass_filter">N\'eo ket reizh furmad anv ar restr nevez.</string>
+    <string name="new_file_name_already_exists">Anv ar restr nevez a zo dija</string>
+    <string name="press_back_button_again_to_exit">Kelaouiñ \'Distro\' Adc\'hwitañ adarre</string>
+    <string name="press_up_button_again_to_exit">Kelaouiñ \'War-grec\'h\' Adc\'hwitañ adarre</string>
+</resources>

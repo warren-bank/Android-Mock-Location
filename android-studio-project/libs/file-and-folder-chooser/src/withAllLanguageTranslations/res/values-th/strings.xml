@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">หน้าแรก</string>
+    <string name="up">ขึ้น</string>
+    <string name="neww">ใหม่</string>
+    <string name="select">เลือก</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="title">เลือกโฟลเดอร์</string>
+    <string name="location">สถานที่</string>
+    <string name="enter_folder_name">ป้อนชื่อโฟลเดอร์</string>
+    <string name="edit_location">แก้ไขตำแหน่ง</string>
+    <string name="create">สร้าง</string>
+    <string name="ok">โอเค</string>
+    <string name="select_file">คุณต้องเลือกไฟล์</string>
+    <string name="select_empty_folder">คุณต้องเลือกโฟลเดอร์ที่ว่างเปล่า</string>
+    <string name="no_access_to_storage">ไม่ได้รับอนุญาตให้เข้าถึงพื้นที่จัดเก็บ</string>
+    <string name="location_mask">สถานที่: %s</string>
+    <string name="error_string_mask">ข้อผิดพลาด: %s</string>
+    <string name="select_empty_dir">เลือกไดเรกทอรีว่าง</string>
+    <string name="is_not_dir">นี่ไม่ใช่ไดเรกทอรี</string>
+    <string name="dir_is_not_exist">ไดเรกทอรีไม่มีอยู่</string>
+    <string name="dir_read_permission_denied">ไม่สามารถอ่านจากไดเรกทอรี</string>
+    <string name="dir_write_permission_denied">ไม่สามารถเขียนลงในไดเรกทอรีได้</string>
+    <string name="new_file_name_does_not_pass_filter">รูปแบบของชื่อไฟล์ใหม่ไม่ถูกต้อง</string>
+    <string name="new_file_name_already_exists">ไฟล์ชื่อใหม่มีอยู่แล้ว</string>
+    <string name="press_back_button_again_to_exit">สื่อมวลชน \'กลับ\' อีกครั้งเพื่อยกเลิก</string>
+    <string name="press_up_button_again_to_exit">สื่อมวลชน \'ขึ้น\' อีกครั้งเพื่อยกเลิก</string>
+</resources>

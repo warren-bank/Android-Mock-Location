@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Ndako</string>
+    <string name="up">Likolo</string>
+    <string name="neww">Ya sika</string>
+    <string name="select">Pona</string>
+    <string name="cancel">Kanga</string>
+    <string name="title">Pona dosié</string>
+    <string name="location">Esika</string>
+    <string name="enter_folder_name">Kɔtisa nkombo ya dosié</string>
+    <string name="edit_location">Bongola esika</string>
+    <string name="create">Bokela</string>
+    <string name="ok">Malamu</string>
+    <string name="select_file">Osengeli kopona fisyé.</string>
+    <string name="select_empty_folder">Osengeli kopona dosié ya mpamba.</string>
+    <string name="no_access_to_storage">Ndingisa ya kokɔta na esika ya kobomba epesami te.</string>
+    <string name="location_mask">Esika: %s</string>
+    <string name="error_string_mask">Libunga: %s</string>
+    <string name="select_empty_dir">Pona dosié ya mpamba</string>
+    <string name="is_not_dir">Oyo ezali liste ya ba adresi te.</string>
+    <string name="dir_is_not_exist">Répertoire ezali te</string>
+    <string name="dir_read_permission_denied">Ekoki kotanga te na répertoire</string>
+    <string name="dir_write_permission_denied">Bakoki te kokoma na répertoire.</string>
+    <string name="new_file_name_does_not_pass_filter">Format ya kombo ya fisyé ya sika ezali malamu te.</string>
+    <string name="new_file_name_already_exists">Nkombo ya fisyé ya sika ezali déjà.</string>
+    <string name="press_back_button_again_to_exit">Bapanzi sango \'Zonga nsima\' Lisusu mpo na koboya</string>
+    <string name="press_up_button_again_to_exit">Bapanzi sango \'Likolo\' Lisusu mpo na koboya</string>
+</resources>

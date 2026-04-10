@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Ana səhifə</string>
+    <string name="up">Yuxarı</string>
+    <string name="neww">Yeni</string>
+    <string name="select">Seçin</string>
+    <string name="cancel">Ləğv et</string>
+    <string name="title">Qovluğu seçin</string>
+    <string name="location">Məkan</string>
+    <string name="enter_folder_name">Qovluq adını daxil edin</string>
+    <string name="edit_location">Məkanı redaktə et</string>
+    <string name="create">Yaradın</string>
+    <string name="ok">Yaxşı</string>
+    <string name="select_file">Siz bir fayl seçməlisiniz</string>
+    <string name="select_empty_folder">Boş qovluq seçməlisiniz</string>
+    <string name="no_access_to_storage">Saxlamağa giriş icazəsi verilməyib</string>
+    <string name="location_mask">Məkan: %s</string>
+    <string name="error_string_mask">Səhv: %s</string>
+    <string name="select_empty_dir">Boş bir qovluq seçin</string>
+    <string name="is_not_dir">Bu kataloq deyil</string>
+    <string name="dir_is_not_exist">Kataloq mövcud deyil</string>
+    <string name="dir_read_permission_denied">Direktoriyadan oxumaq mümkün deyil</string>
+    <string name="dir_write_permission_denied">Direktoriyaya yazı yazıla bilmir</string>
+    <string name="new_file_name_does_not_pass_filter">Yeni fayl adının formatı düzgün deyil</string>
+    <string name="new_file_name_already_exists">Yeni fayl adı artıq mövcuddur</string>
+    <string name="press_back_button_again_to_exit">Mətbuat \'Əvvəlki\' yenidən ləğv etmək</string>
+    <string name="press_up_button_again_to_exit">Mətbuat \'Yuxarı\' yenidən ləğv etmək</string>
+</resources>

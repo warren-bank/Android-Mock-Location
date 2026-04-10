@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Akèy</string>
+    <string name="up">Anwo</string>
+    <string name="neww">Nouvo</string>
+    <string name="select">Chwazi</string>
+    <string name="cancel">Anile</string>
+    <string name="title">Chwazi dosye</string>
+    <string name="location">Kote</string>
+    <string name="enter_folder_name">Antre non dosye a</string>
+    <string name="edit_location">Modifye kote</string>
+    <string name="create">Kreye</string>
+    <string name="ok">Oke</string>
+    <string name="select_file">Ou dwe chwazi yon fichye.</string>
+    <string name="select_empty_folder">Ou dwe chwazi yon dosye vid.</string>
+    <string name="no_access_to_storage">Pèmisyon aksè pou depo a pa bay</string>
+    <string name="location_mask">Kote: %s</string>
+    <string name="error_string_mask">Erè: %s</string>
+    <string name="select_empty_dir">Chwazi yon repètwa vid</string>
+    <string name="is_not_dir">Sa a pa yon annuè</string>
+    <string name="dir_is_not_exist">Repertwa a pa egziste</string>
+    <string name="dir_read_permission_denied">Pa ka li nan repètwa a</string>
+    <string name="dir_write_permission_denied">Pa ka ekri nan repètwa a</string>
+    <string name="new_file_name_does_not_pass_filter">Fòma nouvo non fichye a pa kòrèk</string>
+    <string name="new_file_name_already_exists">Non nouvo fichye a egziste deja</string>
+    <string name="press_back_button_again_to_exit">Lapwès \'Retounen\' ankò pou anile</string>
+    <string name="press_up_button_again_to_exit">Lapwès \'Anwo\' ankò pou anile</string>
+</resources>

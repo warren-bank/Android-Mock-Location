@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Почетна</string>
+    <string name="up">Горе</string>
+    <string name="neww">Ново</string>
+    <string name="select">Изабери</string>
+    <string name="cancel">Откажи</string>
+    <string name="title">Изаберите фасциклу</string>
+    <string name="location">Локација</string>
+    <string name="enter_folder_name">Унесите име фасцикле</string>
+    <string name="edit_location">Уреди локацију</string>
+    <string name="create">Креирај</string>
+    <string name="ok">У реду</string>
+    <string name="select_file">Морате да изаберете датотеку.</string>
+    <string name="select_empty_folder">Морате да изаберете празан фасцикл.</string>
+    <string name="no_access_to_storage">Није дата дозвола за приступ складишту</string>
+    <string name="location_mask">Локација: %s</string>
+    <string name="error_string_mask">Грешка: %s</string>
+    <string name="select_empty_dir">Изаберите празан директоријум</string>
+    <string name="is_not_dir">Ово није директоријум</string>
+    <string name="dir_is_not_exist">Директоријум не постоји</string>
+    <string name="dir_read_permission_denied">Не може да се чита из директоријума</string>
+    <string name="dir_write_permission_denied">Не може се писати у директоријум</string>
+    <string name="new_file_name_does_not_pass_filter">Формат новог имена датотеке није исправан</string>
+    <string name="new_file_name_already_exists">Нови назив датотеке већ постоји</string>
+    <string name="press_back_button_again_to_exit">Прес \'Назад\' опет да откаже</string>
+    <string name="press_up_button_again_to_exit">Прес \'Горе\' опет да откаже</string>
+</resources>

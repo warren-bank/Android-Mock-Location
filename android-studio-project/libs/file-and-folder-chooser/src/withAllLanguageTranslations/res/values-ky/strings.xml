@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Үй</string>
+    <string name="up">Жогору</string>
+    <string name="neww">Жаңы</string>
+    <string name="select">Тандоо</string>
+    <string name="cancel">Жокко чыгаруу</string>
+    <string name="title">Папканы тандаңыз</string>
+    <string name="location">Жайгашуусу</string>
+    <string name="enter_folder_name">Папканын атын киргизиңиз</string>
+    <string name="edit_location">Жайгашкан жерди өзгөртүү</string>
+    <string name="create">Жаратуу</string>
+    <string name="ok">Жарайт</string>
+    <string name="select_file">Сиз файлды тандашыңыз керек</string>
+    <string name="select_empty_folder">Сиз бош папканы тандашыңыз керек</string>
+    <string name="no_access_to_storage">Сактоого кирүү уруксаты берилген жок</string>
+    <string name="location_mask">Жайгашуусу: %s</string>
+    <string name="error_string_mask">Каттоо катасы: %s</string>
+    <string name="select_empty_dir">Бош папканы тандаңыз</string>
+    <string name="is_not_dir">Бул каталог эмес</string>
+    <string name="dir_is_not_exist">Директория жок</string>
+    <string name="dir_read_permission_denied">Директориядан окуу мүмкүн эмес</string>
+    <string name="dir_write_permission_denied">Директорияга жаза албайт</string>
+    <string name="new_file_name_does_not_pass_filter">Жаңы файлдын атынын форматы туура эмес</string>
+    <string name="new_file_name_already_exists">Жаңы файлдын аты буга чейин эле бар</string>
+    <string name="press_back_button_again_to_exit">Басып чыгаруу \'Кайра\' кайра жокко чыгаруу</string>
+    <string name="press_up_button_again_to_exit">Басып чыгаруу \'Жогору\' кайра жокко чыгаруу</string>
+</resources>

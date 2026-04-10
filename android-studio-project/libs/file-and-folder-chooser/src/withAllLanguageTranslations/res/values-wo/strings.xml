@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Kër</string>
+    <string name="up">Yéeg</string>
+    <string name="neww">Bees</string>
+    <string name="select">Tànnal</string>
+    <string name="cancel">Dindi</string>
+    <string name="title">Tànnal dosye bi</string>
+    <string name="location">Barab</string>
+    <string name="enter_folder_name">Duggalal turu dosiye bi</string>
+    <string name="edit_location">Soppi barab bi</string>
+    <string name="create">Sàkk</string>
+    <string name="ok">Waaw</string>
+    <string name="select_file">War nga tànn benn fisiye.</string>
+    <string name="select_empty_folder">War nga tànn benn dosiye bu neen.</string>
+    <string name="no_access_to_storage">Sañ-sañu jot ci dencukaay bi joxewuñu ko.</string>
+    <string name="location_mask">Barab: %s</string>
+    <string name="error_string_mask">Njuumte: %s</string>
+    <string name="select_empty_dir">Tànnal benn dosiye bu neen</string>
+    <string name="is_not_dir">Lii du ab annuwaar</string>
+    <string name="dir_is_not_exist">Dàll bi amul</string>
+    <string name="dir_read_permission_denied">Mënul jàng ci dosiye bi</string>
+    <string name="dir_write_permission_denied">Mënul bind ci dosiye bi</string>
+    <string name="new_file_name_does_not_pass_filter">Formatu turu fisiye bu bees bi baaxul.</string>
+    <string name="new_file_name_already_exists">Turu fisiye bu bees bi am na ba pare.</string>
+    <string name="press_back_button_again_to_exit">Bësal \'Dellu ginnaaw\' Delloowaat ngir dindi</string>
+    <string name="press_up_button_again_to_exit">Bësal \'Yéeg\' Delloowaat ngir dindi</string>
+</resources>

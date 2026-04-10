@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">کور</string>
+    <string name="up">پورته</string>
+    <string name="neww">نوی</string>
+    <string name="select">غوره کړئ</string>
+    <string name="cancel">لغوه کول</string>
+    <string name="title">فولډر غوره کړئ</string>
+    <string name="location">موقعیت</string>
+    <string name="enter_folder_name">د فولډر نوم ولیکئ</string>
+    <string name="edit_location">موقعیت سم کړئ</string>
+    <string name="create">جوړ کړئ</string>
+    <string name="ok">سمه ده</string>
+    <string name="select_file">تاسو باید یو فایل انتخاب کړئ</string>
+    <string name="select_empty_folder">تاسو باید یو خالي فولډر وټاکئ</string>
+    <string name="no_access_to_storage">د ذخیرې د لاسرسي اجازه نه ده ورکړل شوې</string>
+    <string name="location_mask">موقعیت: %s</string>
+    <string name="error_string_mask">تېروتنه: %s</string>
+    <string name="select_empty_dir">یو خالي ډایرکټوري وټاکئ</string>
+    <string name="is_not_dir">دا یو لارښود نه دی</string>
+    <string name="dir_is_not_exist">دایرکټري شتون نلري</string>
+    <string name="dir_read_permission_denied">له ډایرکټرۍ څخه لوستل نه شي</string>
+    <string name="dir_write_permission_denied">ډایرکټرۍ ته لیکل نه شي</string>
+    <string name="new_file_name_does_not_pass_filter">د نوې فایل نوم بڼه سمه نه ده</string>
+    <string name="new_file_name_already_exists">د فایل نوی نوم لا دمخه شتون لري</string>
+    <string name="press_back_button_again_to_exit">مطبوعات \'شاته\' بیا لغوه کول</string>
+    <string name="press_up_button_again_to_exit">مطبوعات \'پورته\' بیا لغوه کول</string>
+</resources>

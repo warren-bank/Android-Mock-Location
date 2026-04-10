@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">गृहपृष्ठ</string>
+    <string name="up">माथि</string>
+    <string name="neww">नयाँ</string>
+    <string name="select">छान्नुहोस्</string>
+    <string name="cancel">रद्द गर्नुहोस्</string>
+    <string name="title">फोल्डर छान्नुहोस्</string>
+    <string name="location">स्थान</string>
+    <string name="enter_folder_name">फोल्डरको नाम प्रविष्ट गर्नुहोस्</string>
+    <string name="edit_location">स्थान सम्पादन गर्नुहोस्</string>
+    <string name="create">सिर्जना गर्नुहोस्</string>
+    <string name="ok">ठीक छ</string>
+    <string name="select_file">तपाईंले एउटा फाइल चयन गर्नुपर्छ।</string>
+    <string name="select_empty_folder">तपाईंले खाली फोल्डर चयन गर्नुपर्छ।</string>
+    <string name="no_access_to_storage">भण्डारण पहुँच अनुमति दिइएको छैन</string>
+    <string name="location_mask">स्थान: %s</string>
+    <string name="error_string_mask">त्रुटि: %s</string>
+    <string name="select_empty_dir">खाली फोल्डर छान्नुहोस्</string>
+    <string name="is_not_dir">यो निर्देशिका होइन।</string>
+    <string name="dir_is_not_exist">निर्देशिका अस्तित्वमा छैन</string>
+    <string name="dir_read_permission_denied">डाइरेक्टरीबाट पढ्न सकिएन</string>
+    <string name="dir_write_permission_denied">डाइरेक्टरीमा लेख्न सकिँदैन</string>
+    <string name="new_file_name_does_not_pass_filter">नयाँ फाइल नामको ढाँचा सही छैन।</string>
+    <string name="new_file_name_already_exists">नयाँ फाइल नाम पहिले नै अवस्थित छ</string>
+    <string name="press_back_button_again_to_exit">प्रेस \'पछाडि\' फेरि रद्द गर्न</string>
+    <string name="press_up_button_again_to_exit">प्रेस \'माथि\' फेरि रद्द गर्न</string>
+</resources>

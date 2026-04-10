@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Ụlọ</string>
+    <string name="up">Elu</string>
+    <string name="neww">Ọhụrụ</string>
+    <string name="select">Họrọ</string>
+    <string name="cancel">Kwụsị</string>
+    <string name="title">Họrọ akpa faịlụ</string>
+    <string name="location">Ebe</string>
+    <string name="enter_folder_name">Tinye aha folda</string>
+    <string name="edit_location">Dezie ebe</string>
+    <string name="create">Mepụta</string>
+    <string name="ok">Ọ dị mma</string>
+    <string name="select_file">Ị ga-ahọrọ faịlụ.</string>
+    <string name="select_empty_folder">Ị ga-ahọrọ folda efu.</string>
+    <string name="no_access_to_storage">E nyereghị ikike ịnweta nchekwa</string>
+    <string name="location_mask">Ebe: %s</string>
+    <string name="error_string_mask">Mmejọ: %s</string>
+    <string name="select_empty_dir">Họrọ nchekwa efu</string>
+    <string name="is_not_dir">Nke a abụghị ndekọ aha</string>
+    <string name="dir_is_not_exist">Ndepụta ahụ adịghị adị</string>
+    <string name="dir_read_permission_denied">Enweghị ike ịgụ faịlụ dị na nchekwa</string>
+    <string name="dir_write_permission_denied">Enweghị ike ide na nchekwa</string>
+    <string name="new_file_name_does_not_pass_filter">Usoro aha faịlụ ọhụrụ adịghị ziri ezi</string>
+    <string name="new_file_name_already_exists">Aha faịlụ ọhụrụ ahụ adịlarị</string>
+    <string name="press_back_button_again_to_exit">Pịa \'Laghachi\' ọzọ iji kagbuo</string>
+    <string name="press_up_button_again_to_exit">Pịa \'Elu\' ọzọ iji kagbuo</string>
+</resources>

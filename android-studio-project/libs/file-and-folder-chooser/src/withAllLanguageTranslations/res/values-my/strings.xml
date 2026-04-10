@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">အိမ်</string>
+    <string name="up">အပေါ်</string>
+    <string name="neww">အသစ်</string>
+    <string name="select">ရွေးချယ်ပါ</string>
+    <string name="cancel">ဖျက်ရန်</string>
+    <string name="title">ဖိုလ်ဒါကိုရွေးပါ</string>
+    <string name="location">တည်နေရာ</string>
+    <string name="enter_folder_name">ဖိုလ်ဒါအမည် ထည့်ပါ</string>
+    <string name="edit_location">တည်နေရာကို တည်းဖြတ်ပါ</string>
+    <string name="create">ဖန်တီးပါ</string>
+    <string name="ok">အိုကေ</string>
+    <string name="select_file">သင်သည် ဖိုင်တစ်ခုကို ရွေးချယ်ရမည်။</string>
+    <string name="select_empty_folder">သင်သည် ဗလာ ဖိုလ်ဒါတစ်ခုကို ရွေးချယ်ရမည်။</string>
+    <string name="no_access_to_storage">သိုလှောင်မှု ဝင်ရောက်ခွင့် မပေးထားပါ။</string>
+    <string name="location_mask">တည်နေရာ: %s</string>
+    <string name="error_string_mask">အမှား: %s</string>
+    <string name="select_empty_dir">ဗလာ ဖိုလ်ဒါတစ်ခုကို ရွေးပါ။</string>
+    <string name="is_not_dir">ဤသည် ဖိုလ်ဒါစာရင်းမဟုတ်ပါ။</string>
+    <string name="dir_is_not_exist">စာရင်းမတွေ့ပါ။</string>
+    <string name="dir_read_permission_denied">ဖိုလ်ဒါမှ ဖတ်၍ မရပါ။</string>
+    <string name="dir_write_permission_denied">ဖိုလ်ဒါသို့ မရေးနိုင်ပါ။</string>
+    <string name="new_file_name_does_not_pass_filter">ဖိုင်နာမည်အသစ်၏ ဖော်မတ် မှန်ကန်မှုမရှိပါ။</string>
+    <string name="new_file_name_already_exists">ဖိုင်အသစ်အမည်သည် ရှိပြီးသားဖြစ်သည်။</string>
+    <string name="press_back_button_again_to_exit">ဖိအား \'ပြန်\' ထပ်မံ ဖျက်ရန်</string>
+    <string name="press_up_button_again_to_exit">ဖိအား \'အပေါ်\' ထပ်မံ ဖျက်ရန်</string>
+</resources>

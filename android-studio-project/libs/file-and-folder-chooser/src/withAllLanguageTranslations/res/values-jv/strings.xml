@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Omah</string>
+    <string name="up">Munggah</string>
+    <string name="neww">Anyar</string>
+    <string name="select">Pilih</string>
+    <string name="cancel">Batal</string>
+    <string name="title">Pilih folder</string>
+    <string name="location">Panggonan</string>
+    <string name="enter_folder_name">Lebokna jeneng folder</string>
+    <string name="edit_location">Sunting lokasi</string>
+    <string name="create">Gawé</string>
+    <string name="ok">Oke</string>
+    <string name="select_file">Sampeyan kudu milih file</string>
+    <string name="select_empty_folder">Sampeyan kudu milih folder kosong</string>
+    <string name="no_access_to_storage">Ijin akses panyimpenan ora diwenehake</string>
+    <string name="location_mask">Panggonan: %s</string>
+    <string name="error_string_mask">Kesalahan: %s</string>
+    <string name="select_empty_dir">Pilih direktori kosong</string>
+    <string name="is_not_dir">Iki dudu direktori</string>
+    <string name="dir_is_not_exist">Direktori ora ana</string>
+    <string name="dir_read_permission_denied">Ora bisa maca saka direktori</string>
+    <string name="dir_write_permission_denied">Ora bisa nulis menyang direktori</string>
+    <string name="new_file_name_does_not_pass_filter">Format jeneng file anyar ora bener</string>
+    <string name="new_file_name_already_exists">Jeneng file anyar wis ana</string>
+    <string name="press_back_button_again_to_exit">Pers \'Mbalèk\' maneh kanggo mbatalake</string>
+    <string name="press_up_button_again_to_exit">Pers \'Munggah\' maneh kanggo mbatalake</string>
+</resources>

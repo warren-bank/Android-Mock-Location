@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="up">أعلى</string>
+    <string name="neww">جديد</string>
+    <string name="select">اختر</string>
+    <string name="cancel">إلغاء</string>
+    <string name="title">اختر مجلدًا</string>
+    <string name="location">الموقع</string>
+    <string name="enter_folder_name">أدخل اسم المجلد</string>
+    <string name="edit_location">تعديل الموقع</string>
+    <string name="create">إنشاء</string>
+    <string name="ok">حسناً</string>
+    <string name="select_file">يجب عليك اختيار ملف</string>
+    <string name="select_empty_folder">يجب عليك تحديد مجلد فارغ</string>
+    <string name="no_access_to_storage">لم يتم منح إذن الوصول إلى وحدة التخزين</string>
+    <string name="location_mask">الموقع: %s</string>
+    <string name="error_string_mask">خطأ: %s</string>
+    <string name="select_empty_dir">اختر مجلدًا فارغًا</string>
+    <string name="is_not_dir">هذا ليس دليلاً</string>
+    <string name="dir_is_not_exist">الدليل غير موجود</string>
+    <string name="dir_read_permission_denied">يتعذر القراءة من الدليل</string>
+    <string name="dir_write_permission_denied">يتعذر الكتابة إلى الدليل</string>
+    <string name="new_file_name_does_not_pass_filter">تنسيق اسم الملف الجديد غير صحيح</string>
+    <string name="new_file_name_already_exists">اسم الملف الجديد موجود بالفعل</string>
+    <string name="press_back_button_again_to_exit">الصحافة \'العودة\' مرة أخرى لإلغاء</string>
+    <string name="press_up_button_again_to_exit">الصحافة \'أعلى\' مرة أخرى لإلغاء</string>
+</resources>

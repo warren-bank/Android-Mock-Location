@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Acuèlh</string>
+    <string name="up">Amont</string>
+    <string name="neww">Novèl</string>
+    <string name="select">Seleccionar</string>
+    <string name="cancel">Anullar</string>
+    <string name="title">Seleccionatz lo dorsièr</string>
+    <string name="location">Localizacion</string>
+    <string name="enter_folder_name">Metètz lo nom del dorsièr</string>
+    <string name="edit_location">Modificar l\'emplaçament</string>
+    <string name="create">Crear</string>
+    <string name="ok">D\'acòrdi</string>
+    <string name="select_file">Devètz seleccionar un fichièr.</string>
+    <string name="select_empty_folder">Cal que seleccionetz un dorsièr buit.</string>
+    <string name="no_access_to_storage">La permission d\'accès a l\'emmagazinatge es pas estada donada.</string>
+    <string name="location_mask">Localizacion: %s</string>
+    <string name="error_string_mask">Error: %s</string>
+    <string name="select_empty_dir">Seleccionatz un repertòri buit</string>
+    <string name="is_not_dir">Aquò es pas un repertòri</string>
+    <string name="dir_is_not_exist">Lo repertòri existís pas</string>
+    <string name="dir_read_permission_denied">Impossible de legir del repertòri</string>
+    <string name="dir_write_permission_denied">Impossible d\'escriure dins lo repertòri</string>
+    <string name="new_file_name_does_not_pass_filter">Lo format del nom de fichièr novèl es pas corrècte.</string>
+    <string name="new_file_name_already_exists">Lo nom de fichièr novèl existís ja.</string>
+    <string name="press_back_button_again_to_exit">Premsa \'Tornar\' ancara per anullar</string>
+    <string name="press_up_button_again_to_exit">Premsa \'Amont\' ancara per anullar</string>
+</resources>

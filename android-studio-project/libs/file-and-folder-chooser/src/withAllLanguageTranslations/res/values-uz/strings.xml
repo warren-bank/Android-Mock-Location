@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Bosh sahifa</string>
+    <string name="up">Yuqoriga</string>
+    <string name="neww">Yangi</string>
+    <string name="select">Tanlang</string>
+    <string name="cancel">Bekor qilish</string>
+    <string name="title">Papkni tanlang</string>
+    <string name="location">Joylashuv</string>
+    <string name="enter_folder_name">Papka nomini kiriting</string>
+    <string name="edit_location">Joylashuvni tahrirlash</string>
+    <string name="create">Yarat</string>
+    <string name="ok">Yaxshi</string>
+    <string name="select_file">Siz faylni tanlashingiz kerak.</string>
+    <string name="select_empty_folder">Siz bo\'sh papkani tanlashingiz kerak.</string>
+    <string name="no_access_to_storage">Saqlashga kirish ruxsati berilmadi</string>
+    <string name="location_mask">Joylashuv: %s</string>
+    <string name="error_string_mask">Xato: %s</string>
+    <string name="select_empty_dir">Bo\'sh papkani tanlang</string>
+    <string name="is_not_dir">Bu katalog emas</string>
+    <string name="dir_is_not_exist">Katalog mavjud emas</string>
+    <string name="dir_read_permission_denied">Katalogdan o\'qib bo\'lmaydi</string>
+    <string name="dir_write_permission_denied">Katalogga yozib bo\'lmaydi</string>
+    <string name="new_file_name_does_not_pass_filter">Yangi fayl nomining formati noto\'g\'ri</string>
+    <string name="new_file_name_already_exists">Yangi fayl nomi allaqachon mavjud</string>
+    <string name="press_back_button_again_to_exit">Matbuot \'Orqaga\' yana bekor qilish</string>
+    <string name="press_up_button_again_to_exit">Matbuot \'Yuqoriga\' yana bekor qilish</string>
+</resources>

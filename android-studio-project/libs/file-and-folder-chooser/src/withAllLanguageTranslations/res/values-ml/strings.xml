@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">ഹോം</string>
+    <string name="up">മുകളിലേക്ക്</string>
+    <string name="neww">പുതിയ</string>
+    <string name="select">തിരഞ്ഞെടുക്കുക</string>
+    <string name="cancel">റദ്ദാക്കുക</string>
+    <string name="title">ഫോൾഡർ തിരഞ്ഞെടുക്കുക</string>
+    <string name="location">സ്ഥലം</string>
+    <string name="enter_folder_name">ഫോൾഡറിന്റെ പേര് നൽകുക</string>
+    <string name="edit_location">സ്ഥലം തിരുത്തുക</string>
+    <string name="create">സൃഷ്ടിക്കുക</string>
+    <string name="ok">ശരി</string>
+    <string name="select_file">നിങ്ങൾ ഒരു ഫയൽ തിരഞ്ഞെടുക്കണം</string>
+    <string name="select_empty_folder">നിങ്ങൾ ഒരു ഒഴിഞ്ഞ ഫോൾഡർ തിരഞ്ഞെടുക്കേണ്ടതുണ്ട്</string>
+    <string name="no_access_to_storage">സംഭരണത്തിലേക്കുള്ള പ്രവേശനാനുമതി നൽകിയിട്ടില്ല</string>
+    <string name="location_mask">സ്ഥലം: %s</string>
+    <string name="error_string_mask">പിശക്: %s</string>
+    <string name="select_empty_dir">ഒരു ഒഴിഞ്ഞ ഡയറക്ടറി തിരഞ്ഞെടുക്കുക</string>
+    <string name="is_not_dir">ഇതൊരു ഡയറക്ടറിയല്ല</string>
+    <string name="dir_is_not_exist">ഡയറക്ടറി നിലവിലില്ല</string>
+    <string name="dir_read_permission_denied">ഡയറക്ടറിയിൽ നിന്ന് വായിക്കാൻ കഴിയില്ല</string>
+    <string name="dir_write_permission_denied">ഡയറക്ടറിയിലേക്ക് എഴുതാൻ കഴിയില്ല</string>
+    <string name="new_file_name_does_not_pass_filter">പുതിയ ഫയലിന്റെ പേരിന്റെ ഫോർമാറ്റ് ശരിയല്ല</string>
+    <string name="new_file_name_already_exists">പുതിയ ഫയൽ നാമം ഇതിനകം നിലവിലുണ്ട്</string>
+    <string name="press_back_button_again_to_exit">പത്രപ്രവർത്തകർ \'തിരികെ\' വീണ്ടും റദ്ദാക്കാൻ</string>
+    <string name="press_up_button_again_to_exit">പത്രപ്രവർത്തകർ \'മുകളിലേക്ക്\' വീണ്ടും റദ്ദാക്കാൻ</string>
+</resources>

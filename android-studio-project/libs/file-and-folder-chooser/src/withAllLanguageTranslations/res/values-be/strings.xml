@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Галоўная</string>
+    <string name="up">Уверх</string>
+    <string name="neww">Новы</string>
+    <string name="select">Выбраць</string>
+    <string name="cancel">Скасаваць</string>
+    <string name="title">Выберыце папку</string>
+    <string name="location">Месцазнаходжанне</string>
+    <string name="enter_folder_name">Увядзіце імя тэчкі</string>
+    <string name="edit_location">Змяніць месцазнаходжанне</string>
+    <string name="create">Стварыць</string>
+    <string name="ok">Добра</string>
+    <string name="select_file">Вы павінны выбраць файл</string>
+    <string name="select_empty_folder">Вы павінны выбраць пустую папку</string>
+    <string name="no_access_to_storage">Дазвол на доступ да сховішча не дадзены</string>
+    <string name="location_mask">Месцазнаходжанне: %s</string>
+    <string name="error_string_mask">Памылка: %s</string>
+    <string name="select_empty_dir">Выберыце пусты каталог</string>
+    <string name="is_not_dir">Гэта не каталог</string>
+    <string name="dir_is_not_exist">Спіса не існуе</string>
+    <string name="dir_read_permission_denied">Нельга прачытаць з каталога</string>
+    <string name="dir_write_permission_denied">Нельга запісаць у каталог</string>
+    <string name="new_file_name_does_not_pass_filter">Фармат назвы новага файла няправільны</string>
+    <string name="new_file_name_already_exists">Новая назва файла ўжо існуе</string>
+    <string name="press_back_button_again_to_exit">Прэса \'Назад\' зноў адмяніць</string>
+    <string name="press_up_button_again_to_exit">Прэса \'Уверх\' зноў адмяніць</string>
+</resources>

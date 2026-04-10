@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Fandraisana</string>
+    <string name="up">Miakatra</string>
+    <string name="neww">Vaovao</string>
+    <string name="select">Safidio</string>
+    <string name="cancel">Fanafoanana</string>
+    <string name="title">Safidio ny lahatahiry</string>
+    <string name="location">Toerana</string>
+    <string name="enter_folder_name">Ampidiro ny anaran\'ny lahatahiry</string>
+    <string name="edit_location">Hanitsy ny toerana</string>
+    <string name="create">Mamorona</string>
+    <string name="ok">Eny</string>
+    <string name="select_file">Tsy maintsy misafidy rakitra ianao.</string>
+    <string name="select_empty_folder">Tsy maintsy misafidy lahatahiry banga ianao.</string>
+    <string name="no_access_to_storage">Tsy nomena ny fahazoan-dàlana hiditra amin\'ny fitehirizana</string>
+    <string name="location_mask">Toerana: %s</string>
+    <string name="error_string_mask">Hadisoana: %s</string>
+    <string name="select_empty_dir">Safidio lahatahiry banga</string>
+    <string name="is_not_dir">Tsy lahatahiry ity.</string>
+    <string name="dir_is_not_exist">Tsy misy ny lahatahiry</string>
+    <string name="dir_read_permission_denied">Tsy azo vakiana ny lahatahiry</string>
+    <string name="dir_write_permission_denied">Tsy afaka manoratra ao amin\'ny lahatahiry</string>
+    <string name="new_file_name_does_not_pass_filter">Tsy marina ny endriky ny anaran\'ny rakitra vaovao.</string>
+    <string name="new_file_name_already_exists">Efa misy ilay anaran\'ny rakitra vaovao.</string>
+    <string name="press_back_button_again_to_exit">Mpanao gazety \'Miverina\' Hanafoana indray</string>
+    <string name="press_up_button_again_to_exit">Mpanao gazety \'Miakatra\' Hanafoana indray</string>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Nyumbani</string>
+    <string name="up">Juu</string>
+    <string name="neww">Mpya</string>
+    <string name="select">Chagua</string>
+    <string name="cancel">Futa</string>
+    <string name="title">Chagua folda</string>
+    <string name="location">Mahali</string>
+    <string name="enter_folder_name">Ingiza jina la folda</string>
+    <string name="edit_location">Hariri eneo</string>
+    <string name="create">Tengeneza</string>
+    <string name="ok">Sawa</string>
+    <string name="select_file">Lazima uchague faili</string>
+    <string name="select_empty_folder">Unapaswa kuchagua folda tupu</string>
+    <string name="no_access_to_storage">Ruhusa ya kufikia hifadhi haijatolewa</string>
+    <string name="location_mask">Mahali: %s</string>
+    <string name="error_string_mask">Hitilafu: %s</string>
+    <string name="select_empty_dir">Chagua saraka tupu</string>
+    <string name="is_not_dir">Hii si saraka</string>
+    <string name="dir_is_not_exist">Saraka haipo</string>
+    <string name="dir_read_permission_denied">Haiwezi kusoma kutoka kwenye saraka</string>
+    <string name="dir_write_permission_denied">Haiwezi kuandika kwenye saraka</string>
+    <string name="new_file_name_does_not_pass_filter">Muundo wa jina la faili jipya si sahihi</string>
+    <string name="new_file_name_already_exists">Jina jipya la faili tayari lipo</string>
+    <string name="press_back_button_again_to_exit">Waandishi wa habari \'Rudi nyuma\' tena kufuta</string>
+    <string name="press_up_button_again_to_exit">Waandishi wa habari \'Juu\' tena kufuta</string>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Главная</string>
+    <string name="up">Вверх</string>
+    <string name="neww">Новое</string>
+    <string name="select">Выбрать</string>
+    <string name="cancel">Отменить</string>
+    <string name="title">Выбрать папку</string>
+    <string name="location">Местоположение</string>
+    <string name="enter_folder_name">Введите название папки</string>
+    <string name="edit_location">Изменить местоположение</string>
+    <string name="create">Создать</string>
+    <string name="ok">Хорошо</string>
+    <string name="select_file">Вам нужно выбрать файл</string>
+    <string name="select_empty_folder">Необходимо выбрать пустую папку</string>
+    <string name="no_access_to_storage">Отсутствует право доступа к хранилищу</string>
+    <string name="location_mask">Местоположение: %s</string>
+    <string name="error_string_mask">Ошибка: %s</string>
+    <string name="select_empty_dir">Выберите пустой каталог</string>
+    <string name="is_not_dir">Это не каталог</string>
+    <string name="dir_is_not_exist">Каталог не существует</string>
+    <string name="dir_read_permission_denied">Не удаётся прочитать данные из каталога</string>
+    <string name="dir_write_permission_denied">Не удаётся записать в каталог</string>
+    <string name="new_file_name_does_not_pass_filter">Формат имени нового файла неверный</string>
+    <string name="new_file_name_already_exists">Имя нового файла уже существует</string>
+    <string name="press_back_button_again_to_exit">Пресса \'Назад\' еще раз, чтобы отменить</string>
+    <string name="press_up_button_again_to_exit">Пресса \'Вверх\' еще раз, чтобы отменить</string>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">गृहम्</string>
+    <string name="up">ऊर्ध्वम्</string>
+    <string name="neww">नव</string>
+    <string name="select">चयनय</string>
+    <string name="cancel">रद्दीकरणम्</string>
+    <string name="title">निर्देशिकां चयनय</string>
+    <string name="location">स्थानम्</string>
+    <string name="enter_folder_name">फोल्डरस्य नाम प्रविष्टयतु।</string>
+    <string name="edit_location">स्थानं सम्पादयतु</string>
+    <string name="create">सृज</string>
+    <string name="ok">सम्यक्</string>
+    <string name="select_file">त्वं एकं सञ्चिकाम् चयनं कर्तुम् आवश्यकम्।</string>
+    <string name="select_empty_folder">त्वम् रिक्तं फोल्डरम् चयनं कर्तुम् अर्हसि।</string>
+    <string name="no_access_to_storage">भण्डारणप्रवेशानुमतिः न प्रदत्ता</string>
+    <string name="location_mask">स्थानम्: %s</string>
+    <string name="error_string_mask">दोषः: %s</string>
+    <string name="select_empty_dir">रिक्तं निर्देशिकां चयनयतु।</string>
+    <string name="is_not_dir">एतत् निर्देशिका नास्ति।</string>
+    <string name="dir_is_not_exist">निर्देशिका नास्ति</string>
+    <string name="dir_read_permission_denied">निर्देशिकात् पठितुं न शक्यते</string>
+    <string name="dir_write_permission_denied">निर्देशिकायाम् लिखितुं न शक्यते।</string>
+    <string name="new_file_name_does_not_pass_filter">नवीनस्य सञ्चिकानामस्य रूपरचना न सम्यक् अस्ति।</string>
+    <string name="new_file_name_already_exists">नवीनं सञ्चिकानामं पूर्वमेव अस्ति।</string>
+    <string name="press_back_button_again_to_exit">पत्रकारवृन्दः \'पुनरागमनम्\' पुनः रद्दीकर्तुम्</string>
+    <string name="press_up_button_again_to_exit">पत्रकारवृन्दः \'ऊर्ध्वम्\' पुनः रद्दीकर्तुम्</string>
+</resources>

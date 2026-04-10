@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">முகப்பு</string>
+    <string name="up">மேலே</string>
+    <string name="neww">புதிய</string>
+    <string name="select">தேர்ந்தெடு</string>
+    <string name="cancel">ரத்து செய்</string>
+    <string name="title">கோப்புறையைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="location">இடம்</string>
+    <string name="enter_folder_name">கோப்புறை பெயரை உள்ளிடவும்</string>
+    <string name="edit_location">இடத்தைத் திருத்துக</string>
+    <string name="create">உருவாக்கு</string>
+    <string name="ok">சரி</string>
+    <string name="select_file">நீங்கள் ஒரு கோப்பைத் தேர்ந்தெடுக்க வேண்டும்</string>
+    <string name="select_empty_folder">நீங்கள் ஒரு காலியான கோப்புறையைத் தேர்ந்தெடுக்க வேண்டும்.</string>
+    <string name="no_access_to_storage">சேமிப்பு அணுகல் அனுமதி வழங்கப்படவில்லை</string>
+    <string name="location_mask">இடம்: %s</string>
+    <string name="error_string_mask">பிழை: %s</string>
+    <string name="select_empty_dir">ஒரு காலியான கோப்பகத்தைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="is_not_dir">இது ஒரு கோப்பகம் அல்ல</string>
+    <string name="dir_is_not_exist">செயல்பாட்டுப் பட்டியல் இல்லை</string>
+    <string name="dir_read_permission_denied">கோப்பகத்திலிருந்து படிக்க முடியாது</string>
+    <string name="dir_write_permission_denied">கோப்பகத்தில் எழுத முடியாது</string>
+    <string name="new_file_name_does_not_pass_filter">புதிய கோப்பின் பெயர் வடிவம் சரியாக இல்லை</string>
+    <string name="new_file_name_already_exists">புதிய கோப்புப் பெயர் ஏற்கனவே உள்ளது</string>
+    <string name="press_back_button_again_to_exit">பத்திரிகையாளர்கள் \'திரும்புக\' மீண்டும் ரத்து செய்ய</string>
+    <string name="press_up_button_again_to_exit">பத்திரிகையாளர்கள் \'மேலே\' மீண்டும் ரத்து செய்ய</string>
+</resources>

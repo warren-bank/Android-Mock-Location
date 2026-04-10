@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Heem</string>
+    <string name="up">Erop</string>
+    <string name="neww">Nei</string>
+    <string name="select">Auswielen</string>
+    <string name="cancel">Ofsoen</string>
+    <string name="title">Ordner auswielen</string>
+    <string name="location">Lokalitéit</string>
+    <string name="enter_folder_name">Gitt de Dossiernumm an</string>
+    <string name="edit_location">Standuert änneren</string>
+    <string name="create">Erstelle</string>
+    <string name="ok">Ok</string>
+    <string name="select_file">Dir musst eng Datei auswielen.</string>
+    <string name="select_empty_folder">Dir musst e leere Dossier auswielen.</string>
+    <string name="no_access_to_storage">Zougrëffspermissioun fir d\'Lagerung net ginn</string>
+    <string name="location_mask">Lokalitéit: %s</string>
+    <string name="error_string_mask">Feeler: %s</string>
+    <string name="select_empty_dir">Wielt e leere Dossier</string>
+    <string name="is_not_dir">Dëst ass kee Verzeechnes.</string>
+    <string name="dir_is_not_exist">Verzeechnes existéiert net</string>
+    <string name="dir_read_permission_denied">Kann net aus dem Verzeechnes liesen</string>
+    <string name="dir_write_permission_denied">Kann net an d\'Verzeechnes schreiwen</string>
+    <string name="new_file_name_does_not_pass_filter">Dat Format vum neie Dateinumm ass net korrekt.</string>
+    <string name="new_file_name_already_exists">De neie Datei-Numm existéiert schonn.</string>
+    <string name="press_back_button_again_to_exit">Presse \'Zréck\' erneit ofsoen</string>
+    <string name="press_up_button_again_to_exit">Presse \'Erop\' erneit ofsoen</string>
+</resources>

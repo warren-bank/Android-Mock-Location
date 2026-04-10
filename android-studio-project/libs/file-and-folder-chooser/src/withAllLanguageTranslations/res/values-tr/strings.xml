@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Ana Sayfa</string>
+    <string name="up">Yukarı</string>
+    <string name="neww">Yeni</string>
+    <string name="select">Seç</string>
+    <string name="cancel">İptal et</string>
+    <string name="title">Klasörü seç</string>
+    <string name="location">Konum</string>
+    <string name="enter_folder_name">Klasör adını girin</string>
+    <string name="edit_location">Konumu düzenle</string>
+    <string name="create">Oluştur</string>
+    <string name="ok">Tamam</string>
+    <string name="select_file">Bir dosya seçmeniz gerekiyor</string>
+    <string name="select_empty_folder">Boş bir klasör seçmeniz gerekiyor</string>
+    <string name="no_access_to_storage">Depolama erişim izni verilmedi</string>
+    <string name="location_mask">Konum: %s</string>
+    <string name="error_string_mask">Hata: %s</string>
+    <string name="select_empty_dir">Boş bir dizin seçin</string>
+    <string name="is_not_dir">Bu bir dizin değildir</string>
+    <string name="dir_is_not_exist">Dizin bulunmuyor</string>
+    <string name="dir_read_permission_denied">Dizinden okunamıyor</string>
+    <string name="dir_write_permission_denied">Dizine yazma işlemi yapılamıyor</string>
+    <string name="new_file_name_does_not_pass_filter">Yeni dosya adının biçimi doğru değil</string>
+    <string name="new_file_name_already_exists">Bu dosya adı zaten mevcut</string>
+    <string name="press_back_button_again_to_exit">Basın \'Geri\' tekrar iptal etmek için</string>
+    <string name="press_up_button_again_to_exit">Basın \'Yukarı\' tekrar iptal etmek için</string>
+</resources>

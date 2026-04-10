@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">היים</string>
+    <string name="up">אַרויף</string>
+    <string name="neww">נײַ</string>
+    <string name="select">אויסקלײַבן</string>
+    <string name="cancel">אָפּזאָגן</string>
+    <string name="title">אויסקלײַבן טעקע</string>
+    <string name="location">אָרט</string>
+    <string name="enter_folder_name">געבט אַרײַן דעם טעקע־נאָמען</string>
+    <string name="edit_location">עדיטירן אָרט</string>
+    <string name="create">שאַפֿן</string>
+    <string name="ok">אָקיי</string>
+    <string name="select_file">איר מוזט אויסקלײַבן אַ טעקע</string>
+    <string name="select_empty_folder">איר מוזט אויסקלײַבן אַ ליידיקן פֿאָלדער.</string>
+    <string name="no_access_to_storage">צוטריט־דערלויבעניש צו לאַגער איז נישט געגעבן</string>
+    <string name="location_mask">אָרט: %s</string>
+    <string name="error_string_mask">פֿעלער: %s</string>
+    <string name="select_empty_dir">קלײַבט אויס אַ ליידיקן דירעקטאָריום</string>
+    <string name="is_not_dir">דאָס איז נישט קיין דירעקטאָריע.</string>
+    <string name="dir_is_not_exist">דירעקטאָריע עקזיסטירט נישט</string>
+    <string name="dir_read_permission_denied">קען נישט לייענען פֿון דער דירעקטאָריע</string>
+    <string name="dir_write_permission_denied">מע קען נישט שרייבן צו דער דירעקטאָריע</string>
+    <string name="new_file_name_does_not_pass_filter">דער פֿאָרמאַט פֿון דעם נײַעם טעקע־נאָמען איז נישט ריכטיק</string>
+    <string name="new_file_name_already_exists">דער נײַער טעקע־נאָמען עקזיסטירט שוין.</string>
+    <string name="press_back_button_again_to_exit">דרוק \'צוריק\' ווידער אָפּזאָגן</string>
+    <string name="press_up_button_again_to_exit">דרוק \'אַרויף\' ווידער אָפּזאָגן</string>
+</resources>

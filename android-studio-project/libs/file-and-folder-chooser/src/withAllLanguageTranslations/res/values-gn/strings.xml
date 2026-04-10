@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Óga</string>
+    <string name="up">Yvate</string>
+    <string name="neww">Pyahu</string>
+    <string name="select">Eiporavo</string>
+    <string name="cancel">Mboje\'a</string>
+    <string name="title">Eiporavo karpéta</string>
+    <string name="location">Tenda</string>
+    <string name="enter_folder_name">Emoinge karpéta réra</string>
+    <string name="edit_location">Emyatyrõ tenda</string>
+    <string name="create">Japo</string>
+    <string name="ok">Iporã</string>
+    <string name="select_file">Reiporavova\'erã peteĩ vore.</string>
+    <string name="select_empty_folder">Reiporavova\'erã peteĩ karpéta nandi.</string>
+    <string name="no_access_to_storage">Ndoñeme\'ẽi jeike ñongatuhápe guarã</string>
+    <string name="location_mask">Tenda: %s</string>
+    <string name="error_string_mask">Javy: %s</string>
+    <string name="select_empty_dir">Eiporavo peteĩ karpéta nandi</string>
+    <string name="is_not_dir">Kóva ndaha\'éi peteĩ téra rysýi.</string>
+    <string name="dir_is_not_exist">Tysýi ndaipóri</string>
+    <string name="dir_read_permission_denied">Ndaikatúi oñemoñe\'ẽ pe karameg̃uágui</string>
+    <string name="dir_write_permission_denied">Ndaikatúi ojehai vorehápe</string>
+    <string name="new_file_name_does_not_pass_filter">Peteĩ marandurenda pyahu réra formato ndoikói hekópe.</string>
+    <string name="new_file_name_already_exists">Téra pyahu oĩma.</string>
+    <string name="press_back_button_again_to_exit">Moñe\'ẽrã \'Jevy\' jey oñembogue hag̃ua</string>
+    <string name="press_up_button_again_to_exit">Moñe\'ẽrã \'Yvate\' jey oñembogue hag̃ua</string>
+</resources>

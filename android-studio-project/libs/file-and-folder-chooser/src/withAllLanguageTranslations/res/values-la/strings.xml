@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Domus</string>
+    <string name="up">Sursum</string>
+    <string name="neww">Novum</string>
+    <string name="select">Elige</string>
+    <string name="cancel">Sine</string>
+    <string name="title">Thecam selige</string>
+    <string name="location">Locus</string>
+    <string name="enter_folder_name">Nomen plicae inscribe</string>
+    <string name="edit_location">Locus emenda</string>
+    <string name="create">Crea</string>
+    <string name="ok">Bene</string>
+    <string name="select_file">Documentum seligendum est.</string>
+    <string name="select_empty_folder">Calculum inane seligendum est.</string>
+    <string name="no_access_to_storage">Permissus aditus ad repositorium non datus</string>
+    <string name="location_mask">Locus: %s</string>
+    <string name="error_string_mask">Error: %s</string>
+    <string name="select_empty_dir">Elige directorium vacuum</string>
+    <string name="is_not_dir">Hic non est index.</string>
+    <string name="dir_is_not_exist">Directorium non exstat</string>
+    <string name="dir_read_permission_denied">Ex directorio legi non potest</string>
+    <string name="dir_write_permission_denied">In directorium scribere non licet.</string>
+    <string name="new_file_name_does_not_pass_filter">Forma novi nominis documenti non recta est.</string>
+    <string name="new_file_name_already_exists">Nomen novi documenti iam exstat.</string>
+    <string name="press_back_button_again_to_exit">Preme \'Redi\' iterum ad rescindendum</string>
+    <string name="press_up_button_again_to_exit">Preme \'Sursum\' iterum ad rescindendum</string>
+</resources>

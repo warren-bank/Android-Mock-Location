@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Početna</string>
+    <string name="up">Gore</string>
+    <string name="neww">Novo</string>
+    <string name="select">Odaberi</string>
+    <string name="cancel">Otkaži</string>
+    <string name="title">Odaberite mapu</string>
+    <string name="location">Lokacija</string>
+    <string name="enter_folder_name">Unesite ime mape</string>
+    <string name="edit_location">Uredi lokaciju</string>
+    <string name="create">Kreira</string>
+    <string name="ok">U redu</string>
+    <string name="select_file">Morate odabrati datoteku.</string>
+    <string name="select_empty_folder">Morate odabrati praznu mapu.</string>
+    <string name="no_access_to_storage">Nije dozvoljen pristup skladištu</string>
+    <string name="location_mask">Lokacija: %s</string>
+    <string name="error_string_mask">Greška: %s</string>
+    <string name="select_empty_dir">Odaberite prazan direktorij</string>
+    <string name="is_not_dir">Ovo nije direktorij</string>
+    <string name="dir_is_not_exist">Direktorij ne postoji</string>
+    <string name="dir_read_permission_denied">Ne može se čitati iz direktorija</string>
+    <string name="dir_write_permission_denied">Ne može se zapisati u direktorij</string>
+    <string name="new_file_name_does_not_pass_filter">Format novog naziva datoteke nije ispravan</string>
+    <string name="new_file_name_already_exists">Naziv nove datoteke već postoji</string>
+    <string name="press_back_button_again_to_exit">Mediji \'Nazad\' ponovo otkazati</string>
+    <string name="press_up_button_again_to_exit">Mediji \'Gore\' ponovo otkazati</string>
+</resources>

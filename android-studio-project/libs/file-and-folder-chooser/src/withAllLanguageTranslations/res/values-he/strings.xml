@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">דף הבית</string>
+    <string name="up">למעלה</string>
+    <string name="neww">חדש</string>
+    <string name="select">בחר</string>
+    <string name="cancel">ביטול</string>
+    <string name="title">בחר תיקייה</string>
+    <string name="location">מיקום</string>
+    <string name="enter_folder_name">הזן שם תיקייה</string>
+    <string name="edit_location">ערוך מיקום</string>
+    <string name="create">צור</string>
+    <string name="ok">בסדר</string>
+    <string name="select_file">עליך לבחור קובץ</string>
+    <string name="select_empty_folder">עליך לבחור תיקייה ריקה</string>
+    <string name="no_access_to_storage">לא ניתנה הרשאת גישה לאחסון</string>
+    <string name="location_mask">מיקום: %s</string>
+    <string name="error_string_mask">שגיאה: %s</string>
+    <string name="select_empty_dir">בחר תיקייה ריקה</string>
+    <string name="is_not_dir">זה לא מדריך</string>
+    <string name="dir_is_not_exist">הספרייה אינה קיימת</string>
+    <string name="dir_read_permission_denied">לא ניתן לקרוא מהספרייה</string>
+    <string name="dir_write_permission_denied">לא ניתן לכתוב לספרייה</string>
+    <string name="new_file_name_does_not_pass_filter">הפורמט של שם הקובץ החדש אינו נכון</string>
+    <string name="new_file_name_already_exists">שם הקובץ החדש כבר קיים</string>
+    <string name="press_back_button_again_to_exit">עיתונות \'חזרה\' שוב כדי לבטל</string>
+    <string name="press_up_button_again_to_exit">עיתונות \'למעלה\' שוב כדי לבטל</string>
+</resources>

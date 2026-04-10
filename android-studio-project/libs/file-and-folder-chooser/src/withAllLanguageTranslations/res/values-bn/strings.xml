@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">হোম</string>
+    <string name="up">উপর</string>
+    <string name="neww">নতুন</string>
+    <string name="select">নির্বাচন করুন</string>
+    <string name="cancel">বাতিল করুন</string>
+    <string name="title">ফোল্ডার নির্বাচন করুন</string>
+    <string name="location">অবস্থান</string>
+    <string name="enter_folder_name">ফোল্ডারের নাম লিখুন</string>
+    <string name="edit_location">অবস্থান সম্পাদনা করুন</string>
+    <string name="create">তৈরি করুন</string>
+    <string name="ok">ঠিক আছে</string>
+    <string name="select_file">আপনাকে একটি ফাইল নির্বাচন করতে হবে।</string>
+    <string name="select_empty_folder">আপনাকে একটি খালি ফোল্ডার নির্বাচন করতে হবে।</string>
+    <string name="no_access_to_storage">স্টোরেজ অ্যাক্সেসের অনুমতি দেওয়া হয়নি</string>
+    <string name="location_mask">অবস্থান: %s</string>
+    <string name="error_string_mask">ত্রুটি: %s</string>
+    <string name="select_empty_dir">একটি খালি ডিরেক্টরি নির্বাচন করুন</string>
+    <string name="is_not_dir">এটি কোনো ডিরেক্টরি নয়।</string>
+    <string name="dir_is_not_exist">ডিরেক্টরিটি নেই</string>
+    <string name="dir_read_permission_denied">ডিরেক্টরি থেকে পড়া যাচ্ছে না</string>
+    <string name="dir_write_permission_denied">ডিরেক্টরিতে লেখা যাচ্ছে না</string>
+    <string name="new_file_name_does_not_pass_filter">নতুন ফাইলের নামের ফরম্যাট সঠিক নয়।</string>
+    <string name="new_file_name_already_exists">নতুন ফাইলের নাম ইতিমধ্যেই বিদ্যমান।</string>
+    <string name="press_back_button_again_to_exit">চাপুন \'পিছনে\' আবার বাতিল করতে</string>
+    <string name="press_up_button_again_to_exit">চাপুন \'উপর\' আবার বাতিল করতে</string>
+</resources>

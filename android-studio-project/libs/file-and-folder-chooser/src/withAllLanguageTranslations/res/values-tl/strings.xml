@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Mula</string>
+    <string name="up">Pataas</string>
+    <string name="neww">Bago</string>
+    <string name="select">Piliin</string>
+    <string name="cancel">I-cancel</string>
+    <string name="title">Piliin ang folder</string>
+    <string name="location">Lokasyon</string>
+    <string name="enter_folder_name">Ipasok ang pangalan ng folder</string>
+    <string name="edit_location">I-edit ang lokasyon</string>
+    <string name="create">Lumikha</string>
+    <string name="ok">Sige</string>
+    <string name="select_file">Kailangan mong pumili ng isang file.</string>
+    <string name="select_empty_folder">Kailangan mong pumili ng isang bakanteng folder.</string>
+    <string name="no_access_to_storage">Hindi ibinigay ang pahintulot sa pag-access sa imbakan.</string>
+    <string name="location_mask">Lokasyon: %s</string>
+    <string name="error_string_mask">Maling: %s</string>
+    <string name="select_empty_dir">Pumili ng isang bakanteng direktoryo</string>
+    <string name="is_not_dir">Hindi ito direktoryo.</string>
+    <string name="dir_is_not_exist">Hindi umiiral ang direktoryo</string>
+    <string name="dir_read_permission_denied">Hindi mabasa mula sa direktoryo</string>
+    <string name="dir_write_permission_denied">Hindi makapagsulat sa direktoryo</string>
+    <string name="new_file_name_does_not_pass_filter">Hindi tama ang format ng bagong pangalan ng file.</string>
+    <string name="new_file_name_already_exists">Mayroon nang umiiral na bagong pangalan ng file.</string>
+    <string name="press_back_button_again_to_exit">Pindutin \'Bumalik\' muli para kanselahin</string>
+    <string name="press_up_button_again_to_exit">Pindutin \'Pataas\' muli para kanselahin</string>
+</resources>

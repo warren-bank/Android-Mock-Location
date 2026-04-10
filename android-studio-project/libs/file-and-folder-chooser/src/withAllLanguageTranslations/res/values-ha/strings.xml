@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Gida</string>
+    <string name="up"> sama</string>
+    <string name="neww">Sabuwa</string>
+    <string name="select">Zaɓa</string>
+    <string name="cancel">Soke</string>
+    <string name="title">Zaɓi babban fayil</string>
+    <string name="location">Wuri</string>
+    <string name="enter_folder_name">Saka sunan babban fayil</string>
+    <string name="edit_location">Gyara wuri</string>
+    <string name="create">Kirkira</string>
+    <string name="ok">Toh</string>
+    <string name="select_file">Dole ne ka zaɓi fayil.</string>
+    <string name="select_empty_folder">Dole ne ka zaɓi babban fayil ɗin da babu komai.</string>
+    <string name="no_access_to_storage">Ba a ba da izinin samun damar ajiya ba</string>
+    <string name="location_mask">Wuri: %s</string>
+    <string name="error_string_mask">Kuskure: %s</string>
+    <string name="select_empty_dir">Zaɓi babu komai a cikin kundin adireshi</string>
+    <string name="is_not_dir">Wannan ba kundin adireshi ba ne</string>
+    <string name="dir_is_not_exist">Ba a sami kundin ba</string>
+    <string name="dir_read_permission_denied">Ba za a iya karanta daga kundin adireshi ba</string>
+    <string name="dir_write_permission_denied">Ba za a iya rubuta zuwa ga kundin ba</string>
+    <string name="new_file_name_does_not_pass_filter">Tsarin sunan sabon fayil ba daidai ba ne</string>
+    <string name="new_file_name_already_exists">Sunan fayil ɗin sabo tuni yana nan</string>
+    <string name="press_back_button_again_to_exit">Matsa \'Komawa baya\' sake soke</string>
+    <string name="press_up_button_again_to_exit">Matsa \' sama\' sake soke</string>
+</resources>

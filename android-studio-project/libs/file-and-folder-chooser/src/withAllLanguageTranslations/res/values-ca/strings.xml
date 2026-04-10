@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Inici</string>
+    <string name="up">Amunt</string>
+    <string name="neww">Nou</string>
+    <string name="select">Seleccionar</string>
+    <string name="cancel">Cancel·la</string>
+    <string name="title">Selecciona la carpeta</string>
+    <string name="location">Ubicació</string>
+    <string name="enter_folder_name">Introduïu el nom de la carpeta</string>
+    <string name="edit_location">Edita la ubicació</string>
+    <string name="create">Crea</string>
+    <string name="ok">D\'acord</string>
+    <string name="select_file">Has de seleccionar un fitxer</string>
+    <string name="select_empty_folder">Has de seleccionar una carpeta buida</string>
+    <string name="no_access_to_storage">No s\'ha concedit el permís d\'accés a l\'emmagatzematge</string>
+    <string name="location_mask">Ubicació: %s</string>
+    <string name="error_string_mask">Error: %s</string>
+    <string name="select_empty_dir">Seleccioneu una carpeta buida</string>
+    <string name="is_not_dir">Això no és un directori</string>
+    <string name="dir_is_not_exist">El directori no existeix</string>
+    <string name="dir_read_permission_denied">No es pot llegir del directori</string>
+    <string name="dir_write_permission_denied">No es pot escriure al directori</string>
+    <string name="new_file_name_does_not_pass_filter">El format del nom de fitxer nou no és correcte</string>
+    <string name="new_file_name_already_exists">El nom de fitxer nou ja existeix</string>
+    <string name="press_back_button_again_to_exit">Premsa \'Enrere\' un altre cop per cancel·lar</string>
+    <string name="press_up_button_again_to_exit">Premsa \'Amunt\' un altre cop per cancel·lar</string>
+</resources>

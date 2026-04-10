@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Öý</string>
+    <string name="up">Ýokara</string>
+    <string name="neww">Täze</string>
+    <string name="select">Saýlaň</string>
+    <string name="cancel">Bygatlamak</string>
+    <string name="title">Klasory saýlaň</string>
+    <string name="location">Orun</string>
+    <string name="enter_folder_name">Klasoryň adyny giriziň</string>
+    <string name="edit_location">Orny üýtget</string>
+    <string name="create">Düşür</string>
+    <string name="ok">Oké</string>
+    <string name="select_file">Siz faýly saýlamaly.</string>
+    <string name="select_empty_folder">Siz boş bukjany saýlamaly.</string>
+    <string name="no_access_to_storage">Saklama elýeterçiligi üçin rugsat berilmändir</string>
+    <string name="location_mask">Orun: %s</string>
+    <string name="error_string_mask">Ýalňyşlyk: %s</string>
+    <string name="select_empty_dir">Boş bukjany saýlaň</string>
+    <string name="is_not_dir">Bu katalog däl.</string>
+    <string name="dir_is_not_exist">Katalog ýok</string>
+    <string name="dir_read_permission_denied">Direktoriýadan okap bolmaýar</string>
+    <string name="dir_write_permission_denied">Direktorýa ýazyp bolmaýar</string>
+    <string name="new_file_name_does_not_pass_filter">Täze faýl adynyň formaty dogry däl.</string>
+    <string name="new_file_name_already_exists">Täze faýl ady eýýäm bar</string>
+    <string name="press_back_button_again_to_exit">Metbugat \'Gaýdyp\' Ýene-de ýatyrmak üçin</string>
+    <string name="press_up_button_again_to_exit">Metbugat \'Ýokara\' Ýene-de ýatyrmak üçin</string>
+</resources>

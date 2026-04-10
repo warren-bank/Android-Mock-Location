@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Wasi</string>
+    <string name="up">Hawa</string>
+    <string name="neww">Musuq</string>
+    <string name="select">Akllay</string>
+    <string name="cancel">Qichuy</string>
+    <string name="title">Akllay p\'anqachata</string>
+    <string name="location">Maypi</string>
+    <string name="enter_folder_name">Qillqay p\'anqa sutita</string>
+    <string name="edit_location">Tiyayta t\'ikray</string>
+    <string name="create">Kamariy</string>
+    <string name="ok">Allinmi</string>
+    <string name="select_file">Huk willañiqita akllanayki tiyan.</string>
+    <string name="select_empty_folder">Huk ch\'usaq karpitata akllanayki tiyan.</string>
+    <string name="no_access_to_storage">Waqaychanaman yaykuy saqillayqa manam qusqachu</string>
+    <string name="location_mask">Maypi: %s</string>
+    <string name="error_string_mask">Pantay: %s</string>
+    <string name="select_empty_dir">Huk ch\'usaq karpetata akllay</string>
+    <string name="is_not_dir">Kayqa manam sutikuna qillqachu.</string>
+    <string name="dir_is_not_exist">Directorioqa manam kanchu</string>
+    <string name="dir_read_permission_denied">Directorio nisqamanta mana ñawiriyta atikunchu</string>
+    <string name="dir_write_permission_denied">Manam qillqayta atikunchu directorio nisqaman</string>
+    <string name="new_file_name_does_not_pass_filter">Musuq willañiqip sutinpa rikch\'ayninqa manam chaninñachu.</string>
+    <string name="new_file_name_already_exists">Musuq willañiqip sutinqa ñam kachkanña.</string>
+    <string name="press_back_button_again_to_exit">Ñit\'iy \'Kutiy\' Hukmanta qichunapaq</string>
+    <string name="press_up_button_again_to_exit">Ñit\'iy \'Hawa\' Hukmanta qichunapaq</string>
+</resources>

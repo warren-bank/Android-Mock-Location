@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Heim</string>
+    <string name="up">Upp</string>
+    <string name="neww">Nýtt</string>
+    <string name="select">Velja</string>
+    <string name="cancel">Hætta við</string>
+    <string name="title">Veldu möppu</string>
+    <string name="location">Staðsetning</string>
+    <string name="enter_folder_name">Sláðu inn möppu­nafnið</string>
+    <string name="edit_location">Breyta staðsetningu</string>
+    <string name="create">Búðu til</string>
+    <string name="ok">Allt í lagi</string>
+    <string name="select_file">Þú þarft að velja skrá.</string>
+    <string name="select_empty_folder">Þú þarft að velja tóman möppu</string>
+    <string name="no_access_to_storage">Aðgangur að geymslu er ekki leyfður</string>
+    <string name="location_mask">Staðsetning: %s</string>
+    <string name="error_string_mask">Villa: %s</string>
+    <string name="select_empty_dir">Veldu tóman möppu</string>
+    <string name="is_not_dir">Þetta er ekki skrá</string>
+    <string name="dir_is_not_exist">Skráarsafn er ekki til</string>
+    <string name="dir_read_permission_denied">Ekki hægt að lesa úr möppunni</string>
+    <string name="dir_write_permission_denied">Ekki er hægt að skrifa í möppuna</string>
+    <string name="new_file_name_does_not_pass_filter">Snið nýs skráarnafns er ekki rétt</string>
+    <string name="new_file_name_already_exists">Nýja skráarnafnið er þegar til.</string>
+    <string name="press_back_button_again_to_exit">Fjölmiðlar \'Aftur\' aftur til að hætta við</string>
+    <string name="press_up_button_again_to_exit">Fjölmiðlar \'Upp\' aftur til að hætta við</string>
+</resources>

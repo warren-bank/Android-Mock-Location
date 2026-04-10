@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Hem</string>
+    <string name="up">Upp</string>
+    <string name="neww">Nytt</string>
+    <string name="select">Välj</string>
+    <string name="cancel">Avbryt</string>
+    <string name="title">Välj mapp</string>
+    <string name="location">Plats</string>
+    <string name="enter_folder_name">Ange mappnamn</string>
+    <string name="edit_location">Redigera plats</string>
+    <string name="create">Skapa</string>
+    <string name="ok">Okej</string>
+    <string name="select_file">Du måste välja en fil</string>
+    <string name="select_empty_folder">Du måste välja en tom mapp</string>
+    <string name="no_access_to_storage">Behörighet för åtkomst till lagringsutrymmet saknas</string>
+    <string name="location_mask">Plats: %s</string>
+    <string name="error_string_mask">Fel: %s</string>
+    <string name="select_empty_dir">Välj en tom mapp</string>
+    <string name="is_not_dir">Detta är inte en katalog</string>
+    <string name="dir_is_not_exist">Mappen finns inte</string>
+    <string name="dir_read_permission_denied">Det går inte att läsa från katalogen</string>
+    <string name="dir_write_permission_denied">Det går inte att skriva till katalogen</string>
+    <string name="new_file_name_does_not_pass_filter">Formatet på det nya filnamnet är felaktigt</string>
+    <string name="new_file_name_already_exists">Det finns redan ett filnamn med samma namn</string>
+    <string name="press_back_button_again_to_exit">Press \'Tillbaka\' igen för att avbryta</string>
+    <string name="press_up_button_again_to_exit">Press \'Upp\' igen för att avbryta</string>
+</resources>

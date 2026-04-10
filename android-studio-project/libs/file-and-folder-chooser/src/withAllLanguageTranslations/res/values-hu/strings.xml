@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Főoldal</string>
+    <string name="up">Fel</string>
+    <string name="neww">Új</string>
+    <string name="select">Kiválasztás</string>
+    <string name="cancel">Mégse</string>
+    <string name="title">Mappa kiválasztása</string>
+    <string name="location">Helyszín</string>
+    <string name="enter_folder_name">Írja be a mappa nevét</string>
+    <string name="edit_location">Hely szerkesztése</string>
+    <string name="create">Létrehozás</string>
+    <string name="ok">Oké</string>
+    <string name="select_file">Ki kell választania egy fájlt</string>
+    <string name="select_empty_folder">Ki kell választania egy üres mappát</string>
+    <string name="no_access_to_storage">Nincs hozzáférési jogosultság a tárolóhoz</string>
+    <string name="location_mask">Helyszín: %s</string>
+    <string name="error_string_mask">Hiba: %s</string>
+    <string name="select_empty_dir">Válasszon ki egy üres mappát</string>
+    <string name="is_not_dir">Ez nem egy könyvtár</string>
+    <string name="dir_is_not_exist">A könyvtár nem létezik</string>
+    <string name="dir_read_permission_denied">Nem lehet olvasni a könyvtárból</string>
+    <string name="dir_write_permission_denied">Nem lehet írni a könyvtárba</string>
+    <string name="new_file_name_does_not_pass_filter">Az új fájlnév formátuma nem helyes</string>
+    <string name="new_file_name_already_exists">Az új fájlnév már létezik</string>
+    <string name="press_back_button_again_to_exit">Sajtó \'Vissza\' ismét törölni</string>
+    <string name="press_up_button_again_to_exit">Sajtó \'Fel\' ismét törölni</string>
+</resources>

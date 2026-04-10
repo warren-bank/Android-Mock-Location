@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">ઘર</string>
+    <string name="up">ઉપ</string>
+    <string name="neww">નવું</string>
+    <string name="select">પસંદ કરો</string>
+    <string name="cancel">રદ કરો</string>
+    <string name="title">ફોલ્ડર પસંદ કરો</string>
+    <string name="location">સ્થાન</string>
+    <string name="enter_folder_name">ફોલ્ડરનું નામ દાખલ કરો</string>
+    <string name="edit_location">સ્થાન સંપાદિત કરો</string>
+    <string name="create">બનાવો</string>
+    <string name="ok">ઓકે</string>
+    <string name="select_file">તમારે ફાઇલ પસંદ કરવી પડશે</string>
+    <string name="select_empty_folder">તમારે ખાલી ફોલ્ડર પસંદ કરવું પડશે.</string>
+    <string name="no_access_to_storage">સંગ્રહ ઍક્સેસની પરવાનગી આપવામાં આવી નથી</string>
+    <string name="location_mask">સ્થાન: %s</string>
+    <string name="error_string_mask">ત્રુટિ: %s</string>
+    <string name="select_empty_dir">એક ખાલી ડિરેક્ટરી પસંદ કરો</string>
+    <string name="is_not_dir">આ ડિરેક્ટરી નથી</string>
+    <string name="dir_is_not_exist">ડિરેક્ટરી અસ્તિત્વમાં નથી</string>
+    <string name="dir_read_permission_denied">ડિરેક્ટરીમાંથી વાંચી શકાતું નથી</string>
+    <string name="dir_write_permission_denied">ડિરેક્ટરીમાં લખી શકાતું નથી</string>
+    <string name="new_file_name_does_not_pass_filter">નવી ફાઇલ નામનું ફોર્મેટ યોગ્ય નથી</string>
+    <string name="new_file_name_already_exists">નવી ફાઇલનું નામ પહેલેથી જ અસ્તિત્વમાં છે</string>
+    <string name="press_back_button_again_to_exit">પ્રેસ \'પાછા\' ફરીથી રદ કરવા</string>
+    <string name="press_up_button_again_to_exit">પ્રેસ \'ઉપ\' ફરીથી રદ કરવા</string>
+</resources>

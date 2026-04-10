@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Gae</string>
+    <string name="up">Kwa godimo</string>
+    <string name="neww">Seshwa</string>
+    <string name="select">Tlhopha</string>
+    <string name="cancel">Kgaola</string>
+    <string name="title">Tlhopha foldara</string>
+    <string name="location">Lefelo</string>
+    <string name="enter_folder_name">Tsenya leina la foldara</string>
+    <string name="edit_location">Baakanya lefelo</string>
+    <string name="create">Tlhama</string>
+    <string name="ok">Go siame</string>
+    <string name="select_file">O tshwanetse go tlhopha faele.</string>
+    <string name="select_empty_folder">O tshwanetse go tlhopha foldara e e se nang sepe.</string>
+    <string name="no_access_to_storage">Tetla ya go tsena mo polokelong ga e a fiwa</string>
+    <string name="location_mask">Lefelo: %s</string>
+    <string name="error_string_mask">Phoso: %s</string>
+    <string name="select_empty_dir">Tlhopha polokelo e e se nang sepe</string>
+    <string name="is_not_dir">Seno ga se lenane.</string>
+    <string name="dir_is_not_exist">Lethathamo ga le yo</string>
+    <string name="dir_read_permission_denied">Ga go kgone go bala go tswa mo tšatšatšing</string>
+    <string name="dir_write_permission_denied">Ga go kgone go kwalela mo tšatšaleng</string>
+    <string name="new_file_name_does_not_pass_filter">Fomete ya leina le lesha la faele ga e a siama.</string>
+    <string name="new_file_name_already_exists">Leina le lesha la faele le setse le le teng</string>
+    <string name="press_back_button_again_to_exit">Bobegadikgang \'Boela kwa morago\' gape go phimola</string>
+    <string name="press_up_button_again_to_exit">Bobegadikgang \'Kwa godimo\' gape go phimola</string>
+</resources>

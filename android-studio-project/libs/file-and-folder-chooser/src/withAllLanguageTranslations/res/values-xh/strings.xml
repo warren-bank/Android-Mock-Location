@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Ikhaya</string>
+    <string name="up">Phezulu</string>
+    <string name="neww">Entsha</string>
+    <string name="select">Khetha</string>
+    <string name="cancel">Rhoxisa</string>
+    <string name="title">Khetha ifolda</string>
+    <string name="location">Indawo</string>
+    <string name="enter_folder_name">Faka igama lefolda</string>
+    <string name="edit_location">Hlela indawo</string>
+    <string name="create">Dala</string>
+    <string name="ok">Kulungile</string>
+    <string name="select_file">Kufuneka ukhethe ifayile.</string>
+    <string name="select_empty_folder">Kufuneka ukhethe ifolda engenanto.</string>
+    <string name="no_access_to_storage">Imvume yokufikelela kugcino ayinikwanga</string>
+    <string name="location_mask">Indawo: %s</string>
+    <string name="error_string_mask">Impazamo: %s</string>
+    <string name="select_empty_dir">Khetha ifolda engenanto</string>
+    <string name="is_not_dir">Le asiyoluhlu lwamafowuni.</string>
+    <string name="dir_is_not_exist">Idirekhtri ayikho</string>
+    <string name="dir_read_permission_denied">Akunakufundwa kwifolda</string>
+    <string name="dir_write_permission_denied">Akunakubhalwa kwifolda</string>
+    <string name="new_file_name_does_not_pass_filter">Ifomathi yegama lefayile elitsha ayichanekanga</string>
+    <string name="new_file_name_already_exists">Igama elitsha lefayile sele likhona</string>
+    <string name="press_back_button_again_to_exit">Ucinezelo \'Buyela emva\' kwakhona ukurhoxisa</string>
+    <string name="press_up_button_again_to_exit">Ucinezelo \'Phezulu\' kwakhona ukurhoxisa</string>
+</resources>

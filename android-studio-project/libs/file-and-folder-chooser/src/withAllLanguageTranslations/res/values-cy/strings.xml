@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Hafan</string>
+    <string name="up">I fyny</string>
+    <string name="neww">Newydd</string>
+    <string name="select">Dewis</string>
+    <string name="cancel">Canslo</string>
+    <string name="title">Dewiswch ffolder</string>
+    <string name="location">Lleoliad</string>
+    <string name="enter_folder_name">Rhowch enw\'r ffolder</string>
+    <string name="edit_location">Golygu lleoliad</string>
+    <string name="create">Creu</string>
+    <string name="ok">Iawn</string>
+    <string name="select_file">Rhaid i chi ddewis ffeil.</string>
+    <string name="select_empty_folder">Rhaid i chi ddewis ffolder gwag.</string>
+    <string name="no_access_to_storage">Ni roddwyd caniatâd i gael mynediad i\'r storfa</string>
+    <string name="location_mask">Lleoliad: %s</string>
+    <string name="error_string_mask">Gwall: %s</string>
+    <string name="select_empty_dir">Dewiswch gyfeiriadur gwag</string>
+    <string name="is_not_dir">Nid yw hwn yn gyfeirlyfr</string>
+    <string name="dir_is_not_exist">Nid yw\'r cyfeirlyfr yn bodoli</string>
+    <string name="dir_read_permission_denied">Methu darllen o\'r cyfeiriadur</string>
+    <string name="dir_write_permission_denied">Methu ysgrifennu i\'r cyfeiriadur</string>
+    <string name="new_file_name_does_not_pass_filter">Nid yw fformat enw ffeil newydd yn gywir</string>
+    <string name="new_file_name_already_exists">Mae enw\'r ffeil newydd eisoes yn bodoli</string>
+    <string name="press_back_button_again_to_exit">Gwasg \'Yn ôl\' e-toeddi i ganslo</string>
+    <string name="press_up_button_again_to_exit">Gwasg \'I fyny\' e-toeddi i ganslo</string>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Өй</string>
+    <string name="up">Юғары</string>
+    <string name="neww">Яңы</string>
+    <string name="select">Һайлау</string>
+    <string name="cancel">Бөтәһен дә бөтөрөү</string>
+    <string name="title">Папканы һайлағыҙ</string>
+    <string name="location">Урын</string>
+    <string name="enter_folder_name">Папка исемен индерегеҙ</string>
+    <string name="edit_location">Урынды үҙгәртергә</string>
+    <string name="create">Бүткөр</string>
+    <string name="ok">Ярай</string>
+    <string name="select_file">Һеҙгә файл һайларға кәрәк</string>
+    <string name="select_empty_folder">Һеҙ буш папканы һайларға тейешһегеҙ</string>
+    <string name="no_access_to_storage">Һаҡлауға инеү рөхсәте бирелмәгән</string>
+    <string name="location_mask">Урын: %s</string>
+    <string name="error_string_mask">Хата: %s</string>
+    <string name="select_empty_dir">Буш папканы һайлағыҙ</string>
+    <string name="is_not_dir">Был каталог түгел</string>
+    <string name="dir_is_not_exist">Директория юҡ</string>
+    <string name="dir_read_permission_denied">Директориянан уҡып булмай</string>
+    <string name="dir_write_permission_denied">Директорияға яҙып булмай</string>
+    <string name="new_file_name_does_not_pass_filter">Яңы файл исеменең форматы дөрөҫ түгел</string>
+    <string name="new_file_name_already_exists">Яңы файл исеме инде бар</string>
+    <string name="press_back_button_again_to_exit">Матбуғат \'Кире\' тағы ла бөтөрөү</string>
+    <string name="press_up_button_again_to_exit">Матбуғат \'Юғары\' тағы ла бөтөрөү</string>
+</resources>

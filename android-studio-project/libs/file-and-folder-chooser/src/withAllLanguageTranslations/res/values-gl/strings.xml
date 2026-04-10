@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Inicio</string>
+    <string name="up">Para arriba</string>
+    <string name="neww">Novo</string>
+    <string name="select">Seleccionar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="title">Seleccionar carpeta</string>
+    <string name="location">Localización</string>
+    <string name="enter_folder_name">Introduce o nome da carpeta</string>
+    <string name="edit_location">Editar localización</string>
+    <string name="create">Crear</string>
+    <string name="ok">Está ben</string>
+    <string name="select_file">Tes que seleccionar un ficheiro</string>
+    <string name="select_empty_folder">Tes que seleccionar unha carpeta baleira</string>
+    <string name="no_access_to_storage">Non se concedeu permiso de acceso ao almacenamento</string>
+    <string name="location_mask">Localización: %s</string>
+    <string name="error_string_mask">Erro: %s</string>
+    <string name="select_empty_dir">Seleccione unha carpeta baleira</string>
+    <string name="is_not_dir">Isto non é un directorio</string>
+    <string name="dir_is_not_exist">Directorio non existe</string>
+    <string name="dir_read_permission_denied">Non se pode ler do directorio</string>
+    <string name="dir_write_permission_denied">Non se pode escribir no directorio</string>
+    <string name="new_file_name_does_not_pass_filter">O formato do novo nome de ficheiro non é correcto</string>
+    <string name="new_file_name_already_exists">O nome do novo ficheiro xa existe</string>
+    <string name="press_back_button_again_to_exit">Prema \'Volver\' de novo para cancelar</string>
+    <string name="press_up_button_again_to_exit">Prema \'Para arriba\' de novo para cancelar</string>
+</resources>

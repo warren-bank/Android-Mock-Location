@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Pagrindinis puslapis</string>
+    <string name="up">Į viršų</string>
+    <string name="neww">Naujas</string>
+    <string name="select">Pasirinkite</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="title">Pasirinkite aplanką</string>
+    <string name="location">Vieta</string>
+    <string name="enter_folder_name">Įveskite aplanko pavadinimą</string>
+    <string name="edit_location">Redaguoti vietą</string>
+    <string name="create">Sukurti</string>
+    <string name="ok">Gerai</string>
+    <string name="select_file">Turite pasirinkti failą</string>
+    <string name="select_empty_folder">Turite pasirinkti tuščią aplanką</string>
+    <string name="no_access_to_storage">Nėra suteikta prieigos prie saugyklos teisė</string>
+    <string name="location_mask">Vieta: %s</string>
+    <string name="error_string_mask">Klaida: %s</string>
+    <string name="select_empty_dir">Pasirinkite tuščią katalogą</string>
+    <string name="is_not_dir">Tai nėra katalogas</string>
+    <string name="dir_is_not_exist">Katalogo nėra</string>
+    <string name="dir_read_permission_denied">Negaliu skaityti iš katalogo</string>
+    <string name="dir_write_permission_denied">Negaliu įrašyti į katalogą</string>
+    <string name="new_file_name_does_not_pass_filter">Naujo failo pavadinimo formatas yra neteisingas</string>
+    <string name="new_file_name_already_exists">Toks failo pavadinimas jau egzistuoja</string>
+    <string name="press_back_button_again_to_exit">Spauda \'Atgal\' dar kartą atšaukti</string>
+    <string name="press_up_button_again_to_exit">Spauda \'Į viršų\' dar kartą atšaukti</string>
+</resources>

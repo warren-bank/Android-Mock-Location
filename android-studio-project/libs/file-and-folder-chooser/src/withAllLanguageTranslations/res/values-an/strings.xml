@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Inicio</string>
+    <string name="up">Puyar</string>
+    <string name="neww">Nuevo</string>
+    <string name="select">Trigar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="title">Tría carpeta</string>
+    <string name="location">Localización</string>
+    <string name="enter_folder_name">Introducir o nombre d\'a carpeta</string>
+    <string name="edit_location">Editar ubicación</string>
+    <string name="create">Creyar</string>
+    <string name="ok">D\'alcuerdo</string>
+    <string name="select_file">Has de trigar un fichero.</string>
+    <string name="select_empty_folder">Has de trigar una carpeta vueda.</string>
+    <string name="no_access_to_storage">No s\'ha dau permiso d\'acceso a l\'almagazen</string>
+    <string name="location_mask">Localización: %s</string>
+    <string name="error_string_mask">Error: %s</string>
+    <string name="select_empty_dir">Tría una carpeta vueda</string>
+    <string name="is_not_dir">Isto no ye un directorio</string>
+    <string name="dir_is_not_exist">Directorio no existe</string>
+    <string name="dir_read_permission_denied">No se puede leyer d\'o directorio</string>
+    <string name="dir_write_permission_denied">No se puede escribir en o directorio</string>
+    <string name="new_file_name_does_not_pass_filter">O formato d\'o nuevo nombre de fichero no ye correcto.</string>
+    <string name="new_file_name_already_exists">O nuevo nombre de fichero ya existe</string>
+    <string name="press_back_button_again_to_exit">Premsa \'Tornar\' unatra vegada cancelar</string>
+    <string name="press_up_button_again_to_exit">Premsa \'Puyar\' unatra vegada cancelar</string>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Mana</string>
+    <string name="up">Gara olii</string>
+    <string name="neww">Haaraa</string>
+    <string name="select">Filadhu</string>
+    <string name="cancel">Haqi</string>
+    <string name="title">Galmee filadhu</string>
+    <string name="location">Iddoo</string>
+    <string name="enter_folder_name">Maqaa galmee galchi</string>
+    <string name="edit_location">Iddoo sirreessi</string>
+    <string name="create">Uumi</string>
+    <string name="ok">Tole</string>
+    <string name="select_file">Faayilii filachuu qabda.</string>
+    <string name="select_empty_folder">Galmee duwwaa filachuu qabda</string>
+    <string name="no_access_to_storage">Hayyamni kuusaa argachuuf hin kennamne</string>
+    <string name="location_mask">Iddoo: %s</string>
+    <string name="error_string_mask">Dogoggora: %s</string>
+    <string name="select_empty_dir">Galmee duwwaa filadhu</string>
+    <string name="is_not_dir">Kun galmee miti.</string>
+    <string name="dir_is_not_exist">Galmeen hin jiru</string>
+    <string name="dir_read_permission_denied">Galmee irraa dubbisuun hin danda\'amu</string>
+    <string name="dir_write_permission_denied">Galmee keessatti barreessuun hin danda\'amu</string>
+    <string name="new_file_name_does_not_pass_filter">Unkiin maqaa faayilii haaraa sirrii miti.</string>
+    <string name="new_file_name_already_exists">Maqaan faayilii haaraa duraanuu ni jira.</string>
+    <string name="press_back_button_again_to_exit">Miidiyaa \'Gara duubaatti\' Ammas haquuf</string>
+    <string name="press_up_button_again_to_exit">Miidiyaa \'Gara olii\' Ammas haquuf</string>
+</resources>

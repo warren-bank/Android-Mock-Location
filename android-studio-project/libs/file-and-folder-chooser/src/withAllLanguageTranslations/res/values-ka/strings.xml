@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">მთავარი</string>
+    <string name="up">ზევით</string>
+    <string name="neww">ახალი</string>
+    <string name="select">არჩევა</string>
+    <string name="cancel">გაუქმება</string>
+    <string name="title">ფაილების საქაღალდის არჩევა</string>
+    <string name="location">ადგილმდებარეობა</string>
+    <string name="enter_folder_name">შეიყვანეთ საქაღალდის სახელი</string>
+    <string name="edit_location">ადგილმდებარეობის რედაქტირება</string>
+    <string name="create">შექმენი</string>
+    <string name="ok">კარგი</string>
+    <string name="select_file">თქვენ უნდა აირჩიოთ ფაილი</string>
+    <string name="select_empty_folder">თქვენ უნდა აირჩიოთ ცარიელი საქაღალდე</string>
+    <string name="no_access_to_storage">მაგისტრატურაში წვდომის ნებართვა არ არის მინიჭებული</string>
+    <string name="location_mask">ადგილმდებარეობა: %s</string>
+    <string name="error_string_mask">შეცდომა: %s</string>
+    <string name="select_empty_dir">აირჩიეთ ცარიელი დირექტორია</string>
+    <string name="is_not_dir">ეს არ არის დირექტორია</string>
+    <string name="dir_is_not_exist">სარჩევი არ არსებობს</string>
+    <string name="dir_read_permission_denied">კატალოგის წაკითხვა შეუძლებელია</string>
+    <string name="dir_write_permission_denied">კატალოგში ჩაწერა შეუძლებელია</string>
+    <string name="new_file_name_does_not_pass_filter">ახალი ფაილის სახელის ფორმატი არასწორია</string>
+    <string name="new_file_name_already_exists">ახალი ფაილის სახელი უკვე არსებობს</string>
+    <string name="press_back_button_again_to_exit">პრესი \'უკან\' კვლავ გაუქმება</string>
+    <string name="press_up_button_again_to_exit">პრესი \'ზევით\' კვლავ გაუქმება</string>
+</resources>

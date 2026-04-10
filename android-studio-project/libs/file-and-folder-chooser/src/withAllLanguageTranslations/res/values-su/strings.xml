@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Imah</string>
+    <string name="up">Naék</string>
+    <string name="neww">Anyar</string>
+    <string name="select">Milih</string>
+    <string name="cancel">Batalkeun</string>
+    <string name="title">Pilih folder</string>
+    <string name="location">Lokasi</string>
+    <string name="enter_folder_name">Lebetkeun nami folder</string>
+    <string name="edit_location">Édit lokasi</string>
+    <string name="create">Jieun</string>
+    <string name="ok">Oke</string>
+    <string name="select_file">Anjeun kudu milih hiji payil.</string>
+    <string name="select_empty_folder">Anjeun kudu milih folder kosong</string>
+    <string name="no_access_to_storage">Idin aksés panyimpenan henteu dipasihan</string>
+    <string name="location_mask">Lokasi: %s</string>
+    <string name="error_string_mask">Kasalahan: %s</string>
+    <string name="select_empty_dir">Pilih diréktori kosong</string>
+    <string name="is_not_dir">Ieu sanés diréktori</string>
+    <string name="dir_is_not_exist">Diréktori henteu aya</string>
+    <string name="dir_read_permission_denied">Henteu tiasa maca tina diréktori</string>
+    <string name="dir_write_permission_denied">Henteu tiasa nyerat kana diréktori</string>
+    <string name="new_file_name_does_not_pass_filter">Format nami payil anyar henteu leres</string>
+    <string name="new_file_name_already_exists">Ngaran payil anyar geus aya</string>
+    <string name="press_back_button_again_to_exit">Pers \'Balik\' deui pikeun ngabatalkeun</string>
+    <string name="press_up_button_again_to_exit">Pers \'Naék\' deui pikeun ngabatalkeun</string>
+</resources>

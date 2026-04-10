@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Αρχική σελίδα</string>
+    <string name="up">Πάνω</string>
+    <string name="neww">Νέο</string>
+    <string name="select">Επιλογή</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="title">Επιλογή φακέλου</string>
+    <string name="location">Τοποθεσία</string>
+    <string name="enter_folder_name">Πληκτρολογήστε το όνομα του φακέλου</string>
+    <string name="edit_location">Επεξεργασία τοποθεσίας</string>
+    <string name="create">Δημιουργία</string>
+    <string name="ok">Εντάξει</string>
+    <string name="select_file">Πρέπει να επιλέξετε ένα αρχείο</string>
+    <string name="select_empty_folder">Πρέπει να επιλέξετε έναν κενό φάκελο</string>
+    <string name="no_access_to_storage">Δεν έχει δοθεί άδεια πρόσβασης στον χώρο αποθήκευσης</string>
+    <string name="location_mask">Τοποθεσία: %s</string>
+    <string name="error_string_mask">Σφάλμα: %s</string>
+    <string name="select_empty_dir">Επιλέξτε έναν κενό φάκελο</string>
+    <string name="is_not_dir">Αυτό δεν είναι κατάλογος</string>
+    <string name="dir_is_not_exist">Ο κατάλογος δεν υπάρχει</string>
+    <string name="dir_read_permission_denied">Δεν είναι δυνατή η ανάγνωση από τον κατάλογο</string>
+    <string name="dir_write_permission_denied">Δεν είναι δυνατή η εγγραφή στον κατάλογο</string>
+    <string name="new_file_name_does_not_pass_filter">Η μορφή του ονόματος του νέου αρχείου δεν είναι σωστή</string>
+    <string name="new_file_name_already_exists">Το όνομα του νέου αρχείου υπάρχει ήδη</string>
+    <string name="press_back_button_again_to_exit">Τύπος \'Πίσω\' ξανά για ακύρωση</string>
+    <string name="press_up_button_again_to_exit">Τύπος \'Πάνω\' ξανά για ακύρωση</string>
+</resources>

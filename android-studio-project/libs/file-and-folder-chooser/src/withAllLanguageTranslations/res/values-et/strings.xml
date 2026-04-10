@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Kodu</string>
+    <string name="up">Üles</string>
+    <string name="neww">Uus</string>
+    <string name="select">Vali</string>
+    <string name="cancel">Tühista</string>
+    <string name="title">Vali kaust</string>
+    <string name="location">Asukoht</string>
+    <string name="enter_folder_name">Sisesta kausta nimi</string>
+    <string name="edit_location">Muuda asukohta</string>
+    <string name="create">Loo</string>
+    <string name="ok">Olgu</string>
+    <string name="select_file">Peate valima faili</string>
+    <string name="select_empty_folder">Peate valima tühi kausta</string>
+    <string name="no_access_to_storage">Salvestusruumi juurdepääsuõigust pole antud</string>
+    <string name="location_mask">Asukoht: %s</string>
+    <string name="error_string_mask">Viga: %s</string>
+    <string name="select_empty_dir">Vali tühi kaust</string>
+    <string name="is_not_dir">See ei ole kataloog</string>
+    <string name="dir_is_not_exist">Kataloog puudub</string>
+    <string name="dir_read_permission_denied">Kataloogist ei saa lugeda</string>
+    <string name="dir_write_permission_denied">Kataloogi ei saa kirjutada</string>
+    <string name="new_file_name_does_not_pass_filter">Uue failinime formaat ei ole õige</string>
+    <string name="new_file_name_already_exists">Selline failinimi on juba olemas</string>
+    <string name="press_back_button_again_to_exit">Press \'Tagasi\' uuesti tühistada</string>
+    <string name="press_up_button_again_to_exit">Press \'Üles\' uuesti tühistada</string>
+</resources>

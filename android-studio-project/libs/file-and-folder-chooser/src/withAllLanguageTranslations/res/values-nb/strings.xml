@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Hjem</string>
+    <string name="up">Opp</string>
+    <string name="neww">Nytt</string>
+    <string name="select">Velg</string>
+    <string name="cancel">Avbryt</string>
+    <string name="title">Velg mappe</string>
+    <string name="location">Sted</string>
+    <string name="enter_folder_name">Skriv inn mappenavn</string>
+    <string name="edit_location">Rediger sted</string>
+    <string name="create">Opprett</string>
+    <string name="ok">Ok</string>
+    <string name="select_file">Du må velge en fil</string>
+    <string name="select_empty_folder">Du må velge en tom mappe</string>
+    <string name="no_access_to_storage">Tillatelse til lagringstilslag er ikke gitt</string>
+    <string name="location_mask">Sted: %s</string>
+    <string name="error_string_mask">Feil: %s</string>
+    <string name="select_empty_dir">Velg en tom mappe</string>
+    <string name="is_not_dir">Dette er ikke en katalog</string>
+    <string name="dir_is_not_exist">Mappen finnes ikke</string>
+    <string name="dir_read_permission_denied">Kan ikke lese fra katalogen</string>
+    <string name="dir_write_permission_denied">Kan ikke skrive til katalogen</string>
+    <string name="new_file_name_does_not_pass_filter">Formatet på det nye filnavnet er ikke riktig</string>
+    <string name="new_file_name_already_exists">Det finnes allerede et filnavn med samme navn</string>
+    <string name="press_back_button_again_to_exit">Press \'Tilbake\' igjen for å avbryte</string>
+    <string name="press_up_button_again_to_exit">Press \'Opp\' igjen for å avbryte</string>
+</resources>

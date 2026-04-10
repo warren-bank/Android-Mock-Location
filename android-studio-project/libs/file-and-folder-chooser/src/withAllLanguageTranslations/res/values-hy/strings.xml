@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Գլխավոր</string>
+    <string name="up">Վեր</string>
+    <string name="neww">Նոր</string>
+    <string name="select">Ընտրել</string>
+    <string name="cancel">Չեղարկել</string>
+    <string name="title">Ընտրեք թղթապանակը</string>
+    <string name="location">Տեղանք</string>
+    <string name="enter_folder_name">Մուտքագրեք թղթապանակի անունը</string>
+    <string name="edit_location">Խմբագրել գտնվելու վայրը</string>
+    <string name="create">Ստեղծել</string>
+    <string name="ok">Լավ</string>
+    <string name="select_file">Դուք պետք է ընտրեք ֆայլ։</string>
+    <string name="select_empty_folder">Դուք պետք է ընտրեք դատարկ թղթապանակ։</string>
+    <string name="no_access_to_storage">Պահեստի մուտքի թույլտվություն չի տրվել</string>
+    <string name="location_mask">Տեղանք: %s</string>
+    <string name="error_string_mask">Սխալ: %s</string>
+    <string name="select_empty_dir">Ընտրեք դատարկ թղթապանակ</string>
+    <string name="is_not_dir">Սա ցուցակ չէ</string>
+    <string name="dir_is_not_exist">Թղթապանակը գոյություն չունի</string>
+    <string name="dir_read_permission_denied">Ֆայլերի ցուցակից կարդալ չի հաջողվում</string>
+    <string name="dir_write_permission_denied">Ֆայլային համակարգի թղթապանակում գրել չի հաջողվում</string>
+    <string name="new_file_name_does_not_pass_filter">Նոր ֆայլի անվան ձևաչափը ճիշտ չէ</string>
+    <string name="new_file_name_already_exists">Նոր ֆայլի անունը արդեն գոյություն ունի</string>
+    <string name="press_back_button_again_to_exit">Մամուլ \'Վերադառնալ\' վերջին անգամ չեղարկելու համար</string>
+    <string name="press_up_button_again_to_exit">Մամուլ \'Վեր\' վերջին անգամ չեղարկելու համար</string>
+</resources>

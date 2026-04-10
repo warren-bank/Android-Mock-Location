@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Etxea</string>
+    <string name="up">Gora</string>
+    <string name="neww">berria</string>
+    <string name="select">Hautatu</string>
+    <string name="cancel">Ezeztatu</string>
+    <string name="title">Aukeratu karpeta</string>
+    <string name="location">Kokapena</string>
+    <string name="enter_folder_name">Sartu karpetaren izena</string>
+    <string name="edit_location">Kokapena editatu</string>
+    <string name="create">Sortu</string>
+    <string name="ok">Ados</string>
+    <string name="select_file">Fitxategi bat hautatu behar duzu.</string>
+    <string name="select_empty_folder">Hutsik dagoen karpeta bat hautatu behar duzu.</string>
+    <string name="no_access_to_storage">Biltegiratzeko sarbide baimena ez da eman</string>
+    <string name="location_mask">Kokapena: %s</string>
+    <string name="error_string_mask">Akatsa: %s</string>
+    <string name="select_empty_dir">Hautatu karpeta huts bat</string>
+    <string name="is_not_dir">Hau ez da direktorio bat</string>
+    <string name="dir_is_not_exist">Direktorioa ez dago</string>
+    <string name="dir_read_permission_denied">Direktorioan ezin da irakurri</string>
+    <string name="dir_write_permission_denied">Ezin da karpetara idatzi</string>
+    <string name="new_file_name_does_not_pass_filter">Fitxategi berriaren izenaren formatua ez dago zuzena.</string>
+    <string name="new_file_name_already_exists">Fitxategi-izen berri hori dagoeneko existitzen da</string>
+    <string name="press_back_button_again_to_exit">Prentsa \'Atzera\' berriro bertan behera uzteko</string>
+    <string name="press_up_button_again_to_exit">Prentsa \'Gora\' berriro bertan behera uzteko</string>
+</resources>

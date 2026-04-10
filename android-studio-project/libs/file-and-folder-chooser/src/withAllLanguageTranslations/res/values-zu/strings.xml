@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Ikhaya</string>
+    <string name="up">Phezulu</string>
+    <string name="neww">Entsha</string>
+    <string name="select">Khetha</string>
+    <string name="cancel">Khansela</string>
+    <string name="title">Khetha ifolda</string>
+    <string name="location">Indawo</string>
+    <string name="enter_folder_name">Faka igama lefolda</string>
+    <string name="edit_location">Hlela indawo</string>
+    <string name="create">Dala</string>
+    <string name="ok">Kulungile</string>
+    <string name="select_file">Kufanele ukhethe ifayela.</string>
+    <string name="select_empty_folder">Kufanele ukhethe ifolda engenalutho</string>
+    <string name="no_access_to_storage">Imvume yokufinyelela ekugcineni ayinikezwanga</string>
+    <string name="location_mask">Indawo: %s</string>
+    <string name="error_string_mask">Iphutha: %s</string>
+    <string name="select_empty_dir">Khetha ifolda engenalutho</string>
+    <string name="is_not_dir">Lokhu akuyona idirekhtri</string>
+    <string name="dir_is_not_exist">Idayirekthori ayikho</string>
+    <string name="dir_read_permission_denied">Akukwazi ukufunda kusuka kukhathalogi</string>
+    <string name="dir_write_permission_denied">Akunakubhala kudirekhtri</string>
+    <string name="new_file_name_does_not_pass_filter">Ifomethi yegama lefayela elisha ayilungile.</string>
+    <string name="new_file_name_already_exists">Igama lefayela elisha selikhona</string>
+    <string name="press_back_button_again_to_exit">Cindezela \'Buyela emuva\' phinda ukhansele</string>
+    <string name="press_up_button_again_to_exit">Cindezela \'Phezulu\' phinda ukhansele</string>
+</resources>

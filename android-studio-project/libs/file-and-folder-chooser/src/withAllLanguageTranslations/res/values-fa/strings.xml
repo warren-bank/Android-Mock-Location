@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">خانه</string>
+    <string name="up">بالا</string>
+    <string name="neww">جدید</string>
+    <string name="select">انتخاب</string>
+    <string name="cancel">لغو</string>
+    <string name="title">پوشه را انتخاب کنید</string>
+    <string name="location">مکان</string>
+    <string name="enter_folder_name">نام پوشه را وارد کنید</string>
+    <string name="edit_location">ویرایش مکان</string>
+    <string name="create">ایجاد</string>
+    <string name="ok">باشه</string>
+    <string name="select_file">شما باید یک فایل را انتخاب کنید.</string>
+    <string name="select_empty_folder">شما باید یک پوشهٔ خالی را انتخاب کنید.</string>
+    <string name="no_access_to_storage">اجازه دسترسی به ذخیره‌سازی داده نشده است</string>
+    <string name="location_mask">مکان: %s</string>
+    <string name="error_string_mask">خطا: %s</string>
+    <string name="select_empty_dir">یک پوشهٔ خالی را انتخاب کنید</string>
+    <string name="is_not_dir">این یک فهرست نیست</string>
+    <string name="dir_is_not_exist">پوشه وجود ندارد</string>
+    <string name="dir_read_permission_denied">خواندن از دایرکتوری امکان‌پذیر نیست</string>
+    <string name="dir_write_permission_denied">نمی‌توان در دایرکتوری نوشت.</string>
+    <string name="new_file_name_does_not_pass_filter">قالب نام فایل جدید صحیح نیست.</string>
+    <string name="new_file_name_already_exists">نام فایل جدید از قبل وجود دارد</string>
+    <string name="press_back_button_again_to_exit">رسانه \'بازگشت\' دوباره لغو کنید</string>
+    <string name="press_up_button_again_to_exit">رسانه \'بالا\' دوباره لغو کنید</string>
+</resources>

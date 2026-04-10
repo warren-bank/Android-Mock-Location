@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Басты бет</string>
+    <string name="up">Жоғары</string>
+    <string name="neww">Жаңа</string>
+    <string name="select">Таңдау</string>
+    <string name="cancel">Жою</string>
+    <string name="title">Папканы таңдаңыз</string>
+    <string name="location">Орналасуы</string>
+    <string name="enter_folder_name">Папканың атын енгізіңіз</string>
+    <string name="edit_location">Орналасу орнын өзгерту</string>
+    <string name="create">Жасау</string>
+    <string name="ok">Жарайды</string>
+    <string name="select_file">Сізге файлды таңдау қажет</string>
+    <string name="select_empty_folder">Сіз бос папканы таңдауыңыз керек</string>
+    <string name="no_access_to_storage">Сақтауға қол жеткізу рұқсаты берілмеді</string>
+    <string name="location_mask">Орналасуы: %s</string>
+    <string name="error_string_mask">Қате: %s</string>
+    <string name="select_empty_dir">Бос каталогты таңдаңыз</string>
+    <string name="is_not_dir">Бұл каталог емес</string>
+    <string name="dir_is_not_exist">Каталог жоқ</string>
+    <string name="dir_read_permission_denied">Директориядан оқу мүмкін емес</string>
+    <string name="dir_write_permission_denied">Директорияға жазу мүмкін емес</string>
+    <string name="new_file_name_does_not_pass_filter">Жаңа файл атауының форматы дұрыс емес</string>
+    <string name="new_file_name_already_exists">Жаңа файл атауы бұрыннан бар</string>
+    <string name="press_back_button_again_to_exit">Баспасөз \'Кері\' тағы да жою үшін</string>
+    <string name="press_up_button_again_to_exit">Баспасөз \'Жоғары\' тағы да жою үшін</string>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Uta</string>
+    <string name="up">Alayaru</string>
+    <string name="neww">Machaqa</string>
+    <string name="select">Ajlliña</string>
+    <string name="cancel">Q\'al chhaqtayaña</string>
+    <string name="title">Mä karpeta ajlliña</string>
+    <string name="location">Kawki</string>
+    <string name="enter_folder_name">Q\'ipi sutipa qillqt\'am</string>
+    <string name="edit_location">Uñstawi mayjt\'ayaña</string>
+    <string name="create">Uñstayaña</string>
+    <string name="ok">Walikiwa</string>
+    <string name="select_file">Mä qillqata ajlliñamawa.</string>
+    <string name="select_empty_folder">Mä ch\'usa karpita ajlliñamawa.</string>
+    <string name="no_access_to_storage">Imañawjar mantañatakix janiw iyaw sañax utjkiti</string>
+    <string name="location_mask">Kawki: %s</string>
+    <string name="error_string_mask">Pantjasiwi: %s</string>
+    <string name="select_empty_dir">Mä ch\'usa directorio ajllt\'am</string>
+    <string name="is_not_dir">Akax janiw mä directorio-kiti</string>
+    <string name="dir_is_not_exist">Thakhinakax janiw utjkiti</string>
+    <string name="dir_read_permission_denied">Directorio-t janiw ullasiñjamäkiti</string>
+    <string name="dir_write_permission_denied">Directorio-ru qillqañax janiw atiskiti</string>
+    <string name="new_file_name_does_not_pass_filter">Machaqa qillqatan sutipax janiw walikiti</string>
+    <string name="new_file_name_already_exists">Machaqa qillqata sutix utjxiwa.</string>
+    <string name="press_back_button_again_to_exit">Yatiyirinaka \'Kutiña\' wasitat q\'al t\'unjaña</string>
+    <string name="press_up_button_again_to_exit">Yatiyirinaka \'Alayaru\' wasitat q\'al t\'unjaña</string>
+</resources>

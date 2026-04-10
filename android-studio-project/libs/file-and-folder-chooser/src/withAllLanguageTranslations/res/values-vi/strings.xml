@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Trang chủ</string>
+    <string name="up">Lên</string>
+    <string name="neww">Mới</string>
+    <string name="select">Chọn</string>
+    <string name="cancel">Hủy</string>
+    <string name="title">Chọn thư mục</string>
+    <string name="location">Địa điểm</string>
+    <string name="enter_folder_name">Nhập tên thư mục</string>
+    <string name="edit_location">Chỉnh sửa vị trí</string>
+    <string name="create">Tạo</string>
+    <string name="ok">Được rồi</string>
+    <string name="select_file">Bạn phải chọn một tệp</string>
+    <string name="select_empty_folder">Bạn phải chọn một thư mục trống</string>
+    <string name="no_access_to_storage">Không được cấp quyền truy cập bộ nhớ</string>
+    <string name="location_mask">Địa điểm: %s</string>
+    <string name="error_string_mask">Lỗi: %s</string>
+    <string name="select_empty_dir">Chọn một thư mục trống</string>
+    <string name="is_not_dir">Đây không phải là một danh bạ</string>
+    <string name="dir_is_not_exist">Thư mục không tồn tại</string>
+    <string name="dir_read_permission_denied">Không thể đọc từ thư mục</string>
+    <string name="dir_write_permission_denied">Không thể ghi vào thư mục</string>
+    <string name="new_file_name_does_not_pass_filter">Định dạng tên tệp mới không đúng</string>
+    <string name="new_file_name_already_exists">Tên tệp mới đã tồn tại</string>
+    <string name="press_back_button_again_to_exit">Báo chí \'Quay lại\' một lần nữa để hủy</string>
+    <string name="press_up_button_again_to_exit">Báo chí \'Lên\' một lần nữa để hủy</string>
+</resources>

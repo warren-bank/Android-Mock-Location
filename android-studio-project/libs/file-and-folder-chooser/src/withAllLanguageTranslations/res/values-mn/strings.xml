@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Гэр</string>
+    <string name="up">Дээш</string>
+    <string name="neww">Шинэ</string>
+    <string name="select">Сонгох</string>
+    <string name="cancel">Хуцлах</string>
+    <string name="title">Фолдер сонгох</string>
+    <string name="location">Байршил</string>
+    <string name="enter_folder_name">Фолдерийн нэрийг оруулна уу</string>
+    <string name="edit_location">Байршлыг засах</string>
+    <string name="create">Бүтээх</string>
+    <string name="ok">За</string>
+    <string name="select_file">Та файл сонгох ёстой</string>
+    <string name="select_empty_folder">Та хоосон фолдер сонгох ёстой.</string>
+    <string name="no_access_to_storage">Хадгалах нэвтрэх зөвшөөрөл олгоогүй</string>
+    <string name="location_mask">Байршил: %s</string>
+    <string name="error_string_mask">Алдаа: %s</string>
+    <string name="select_empty_dir">Хоосон директорийг сонгоно уу</string>
+    <string name="is_not_dir">Энэ нь лавлах биш юм</string>
+    <string name="dir_is_not_exist">Сандаг байхгүй байна</string>
+    <string name="dir_read_permission_denied">Хавтаснаас уншиж чадахгүй байна</string>
+    <string name="dir_write_permission_denied">Хавтас руу бичиж чадахгүй байна</string>
+    <string name="new_file_name_does_not_pass_filter">Шинэ файлын нэрийн формат буруу байна</string>
+    <string name="new_file_name_already_exists">Шинэ файлын нэр аль хэдийнэ оршин байна</string>
+    <string name="press_back_button_again_to_exit">Хэвлэх \'Буцах\' дахин цуцлах</string>
+    <string name="press_up_button_again_to_exit">Хэвлэх \'Дээш\' дахин цуцлах</string>
+</resources>

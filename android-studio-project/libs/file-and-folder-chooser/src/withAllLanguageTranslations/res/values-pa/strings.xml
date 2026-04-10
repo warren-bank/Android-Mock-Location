@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">ਘਰ</string>
+    <string name="up">ਉੱਪਰ</string>
+    <string name="neww">ਨਵਾਂ</string>
+    <string name="select">ਚੁਣੋ</string>
+    <string name="cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="title">ਫੋਲਡਰ ਚੁਣੋ</string>
+    <string name="location">ਸਥਾਨ</string>
+    <string name="enter_folder_name">ਫੋਲਡਰ ਦਾ ਨਾਮ ਦਰਜ ਕਰੋ</string>
+    <string name="edit_location">ਸਥਾਨ ਸੰਪਾਦਿਤ ਕਰੋ</string>
+    <string name="create">ਬਣਾਓ</string>
+    <string name="ok">ਠੀਕ ਹੈ</string>
+    <string name="select_file">ਤੁਹਾਨੂੰ ਇੱਕ ਫਾਈਲ ਚੁਣਨੀ ਪਵੇਗੀ।</string>
+    <string name="select_empty_folder">ਤੁਹਾਨੂੰ ਇੱਕ ਖਾਲੀ ਫੋਲਡਰ ਚੁਣਨਾ ਪਵੇਗਾ।</string>
+    <string name="no_access_to_storage">ਸਟੋਰੇਜ ਪਹੁੰਚ ਦੀ ਆਗਿਆ ਨਹੀਂ ਦਿੱਤੀ ਗਈ</string>
+    <string name="location_mask">ਸਥਾਨ: %s</string>
+    <string name="error_string_mask">ਗਲਤੀ: %s</string>
+    <string name="select_empty_dir">ਇੱਕ ਖਾਲੀ ਡਾਇਰੈਕਟਰੀ ਚੁਣੋ</string>
+    <string name="is_not_dir">ਇਹ ਕੋਈ ਡਾਇਰੈਕਟਰੀ ਨਹੀਂ ਹੈ।</string>
+    <string name="dir_is_not_exist">ਡਾਇਰੈਕਟਰੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ</string>
+    <string name="dir_read_permission_denied">ਡਾਇਰੈਕਟਰੀ ਤੋਂ ਪੜ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ</string>
+    <string name="dir_write_permission_denied">ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਲਿਖਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ</string>
+    <string name="new_file_name_does_not_pass_filter">ਨਵੀਂ ਫਾਈਲ ਦੇ ਨਾਮ ਦਾ ਫਾਰਮੈਟ ਸਹੀ ਨਹੀਂ ਹੈ।</string>
+    <string name="new_file_name_already_exists">ਨਵੀਂ ਫਾਈਲ ਦਾ ਨਾਮ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ</string>
+    <string name="press_back_button_again_to_exit">ਪ੍ਰੈਸ \'ਵਾਪਸ\' ਫਿਰ ਰੱਦ ਕਰਨ ਲਈ</string>
+    <string name="press_up_button_again_to_exit">ਪ੍ਰੈਸ \'ਉੱਪਰ\' ਫਿਰ ਰੱਦ ਕਰਨ ਲਈ</string>
+</resources>

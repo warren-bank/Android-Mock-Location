@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Kaya</string>
+    <string name="up">Ehenhla</string>
+    <string name="neww">Lerintshwa</string>
+    <string name="select">Hlawula</string>
+    <string name="cancel">Herisa</string>
+    <string name="title">Hlawula foldara</string>
+    <string name="location">Ndhawu</string>
+    <string name="enter_folder_name">Nghenisa vito ra foldara</string>
+    <string name="edit_location">Lulamisa ndhawu</string>
+    <string name="create">Tumbuluxa</string>
+    <string name="ok">Ina</string>
+    <string name="select_file">U fanele ku hlawula fayili.</string>
+    <string name="select_empty_folder">U fanele ku hlawula foldara leyi nga riki na nchumu.</string>
+    <string name="no_access_to_storage">Mpfumelelo wo fikelela vuhlayiselo a wu nyikiwanga</string>
+    <string name="location_mask">Ndhawu: %s</string>
+    <string name="error_string_mask">Xihoxo: %s</string>
+    <string name="select_empty_dir">Hlawula dayirektori leyi nga riki na nchumu</string>
+    <string name="is_not_dir">Leyi a hi dayirektori.</string>
+    <string name="dir_is_not_exist">Dayirektori a yi kona</string>
+    <string name="dir_read_permission_denied">A swi koteki ku hlaya eka dayirektori</string>
+    <string name="dir_write_permission_denied">A swi koteki ku tsala eka dayirektori</string>
+    <string name="new_file_name_does_not_pass_filter">Fomati ya vito ra fayili leyintshwa a yi lulamanga.</string>
+    <string name="new_file_name_already_exists">Vito ra fayili lerintshwa se ri kona</string>
+    <string name="press_back_button_again_to_exit">Vahaxi va mahungu \'Vuyela endzhaku\' Nakambe ku herisa</string>
+    <string name="press_up_button_again_to_exit">Vahaxi va mahungu \'Ehenhla\' Nakambe ku herisa</string>
+</resources>

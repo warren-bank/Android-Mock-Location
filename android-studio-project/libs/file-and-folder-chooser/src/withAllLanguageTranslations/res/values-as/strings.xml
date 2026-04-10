@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">ঘৰ</string>
+    <string name="up">ওপৰলৈ</string>
+    <string name="neww">নতুন</string>
+    <string name="select">বাছনি কৰক</string>
+    <string name="cancel">বাতিল কৰক</string>
+    <string name="title">ফ\'ল্ডাৰ বাছনি কৰক</string>
+    <string name="location">অৱস্থান</string>
+    <string name="enter_folder_name">ফ\'ল্ডাৰৰ নাম দিয়ক</string>
+    <string name="edit_location">অৱস্থান সম্পাদনা কৰক</string>
+    <string name="create">সৃষ্টি কৰক</string>
+    <string name="ok">ঠিক আছে</string>
+    <string name="select_file">আপুনি এটা ফাইল বাছনি কৰিব লাগিব।</string>
+    <string name="select_empty_folder">আপুনি এটা খালী ফোল্ডাৰ বাছিব লাগিব।</string>
+    <string name="no_access_to_storage">সংৰক্ষণত প্ৰৱেশৰ অনুমতি দিয়া হোৱা নাই</string>
+    <string name="location_mask">অৱস্থান: %s</string>
+    <string name="error_string_mask">ত্ৰুটি: %s</string>
+    <string name="select_empty_dir">এটা খালী ডাইৰেক্টৰী বাছনি কৰক</string>
+    <string name="is_not_dir">এইটো এটা ডাইৰেক্টৰী নহয়।</string>
+    <string name="dir_is_not_exist">ডাইৰেক্টৰীটো নাই</string>
+    <string name="dir_read_permission_denied">ডাইৰেক্টৰীৰ পৰা পঢ়িব পৰা নাই</string>
+    <string name="dir_write_permission_denied">ডাইৰেক্টৰীত লিখিব নোৱাৰি</string>
+    <string name="new_file_name_does_not_pass_filter">নতুন ফাইলৰ নামৰ ফৰ্মেটটো শুদ্ধ নহয়।</string>
+    <string name="new_file_name_already_exists">নতুন ফাইলৰ নামটো ইতিমধ্যে আছে।</string>
+    <string name="press_back_button_again_to_exit">প্ৰেছ \'পূৰ্বৱৰ্তী\' পুনৰ বাতিল কৰিবলৈ</string>
+    <string name="press_up_button_again_to_exit">প্ৰেছ \'ওপৰলৈ\' পুনৰ বাতিল কৰিবলৈ</string>
+</resources>

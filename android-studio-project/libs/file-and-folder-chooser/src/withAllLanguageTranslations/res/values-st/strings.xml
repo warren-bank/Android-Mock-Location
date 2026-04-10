@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Lehae</string>
+    <string name="up">Holimo</string>
+    <string name="neww">Ncha</string>
+    <string name="select">Kgetha</string>
+    <string name="cancel">Hlakola</string>
+    <string name="title">Kgetha foldara</string>
+    <string name="location">Sebaka</string>
+    <string name="enter_folder_name">Kenya lebitso la foldara</string>
+    <string name="edit_location">Lokisa sebaka</string>
+    <string name="create">Bopa</string>
+    <string name="ok">Ho lokile</string>
+    <string name="select_file">O tlameha ho kgetha faele.</string>
+    <string name="select_empty_folder">U tlameha ho kgetha foldara e se nang letho.</string>
+    <string name="no_access_to_storage">Tumello ya phihlello ya polokelo ha e a fanoa</string>
+    <string name="location_mask">Sebaka: %s</string>
+    <string name="error_string_mask">Phoso: %s</string>
+    <string name="select_empty_dir">Kgetha polokelo e se nang letho</string>
+    <string name="is_not_dir">Hona ha se lenane</string>
+    <string name="dir_is_not_exist">Lethathamo ha le eo</string>
+    <string name="dir_read_permission_denied">Ha ho kgonehe ho bala ho tswa ho directory</string>
+    <string name="dir_write_permission_denied">Ha ho kgonehe ho ngola ho directory</string>
+    <string name="new_file_name_does_not_pass_filter">Fomate ea lebitso le lecha la faele ha e nepahetse.</string>
+    <string name="new_file_name_already_exists">Lebitso le letjha la faele le se le le teng.</string>
+    <string name="press_back_button_again_to_exit">Baphatlalatsi \'Khutlela morao\' hape ho hlakola</string>
+    <string name="press_up_button_again_to_exit">Baphatlalatsi \'Holimo\' hape ho hlakola</string>
+</resources>

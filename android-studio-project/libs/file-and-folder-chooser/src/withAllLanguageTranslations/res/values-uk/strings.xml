@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Головна</string>
+    <string name="up">Вгору</string>
+    <string name="neww">Нове</string>
+    <string name="select">Вибрати</string>
+    <string name="cancel">Скасувати</string>
+    <string name="title">Вибрати папку</string>
+    <string name="location">Місцезнаходження</string>
+    <string name="enter_folder_name">Введіть назву папки</string>
+    <string name="edit_location">Редагувати місцезнаходження</string>
+    <string name="create">Створити</string>
+    <string name="ok">Гаразд</string>
+    <string name="select_file">Вам потрібно вибрати файл</string>
+    <string name="select_empty_folder">Вам потрібно вибрати порожню папку</string>
+    <string name="no_access_to_storage">Не надано дозвіл на доступ до сховища</string>
+    <string name="location_mask">Місцезнаходження: %s</string>
+    <string name="error_string_mask">Помилка: %s</string>
+    <string name="select_empty_dir">Виберіть порожній каталог</string>
+    <string name="is_not_dir">Це не каталог</string>
+    <string name="dir_is_not_exist">Каталог не існує</string>
+    <string name="dir_read_permission_denied">Неможливо прочитати дані з каталогу</string>
+    <string name="dir_write_permission_denied">Неможливо записати дані в каталог</string>
+    <string name="new_file_name_does_not_pass_filter">Формат імені нового файлу неправильний</string>
+    <string name="new_file_name_already_exists">Таке ім\'я файлу вже існує</string>
+    <string name="press_back_button_again_to_exit">Преса \'Назад\' ще раз, щоб скасувати</string>
+    <string name="press_up_button_again_to_exit">Преса \'Вгору\' ще раз, щоб скасувати</string>
+</resources>

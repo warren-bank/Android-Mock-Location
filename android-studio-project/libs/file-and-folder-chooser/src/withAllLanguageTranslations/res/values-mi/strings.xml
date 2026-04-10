@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Kāinga</string>
+    <string name="up">Runga</string>
+    <string name="neww">Hōu</string>
+    <string name="select">Tīpako</string>
+    <string name="cancel">Whakakore</string>
+    <string name="title">Tīpako kōpaki</string>
+    <string name="location">Wāhi</string>
+    <string name="enter_folder_name">Whakauruhia te ingoa kōpaki</string>
+    <string name="edit_location">Whakarerekē i te wāhi</string>
+    <string name="create">Waihanga</string>
+    <string name="ok">Āe</string>
+    <string name="select_file">Me tīpako koe i tētahi kōnae.</string>
+    <string name="select_empty_folder">Me tīpako koe i tētahi kōpaki wātea.</string>
+    <string name="no_access_to_storage">Kāore i whakawhiwhia te whakaaetanga uru rokiroki</string>
+    <string name="location_mask">Wāhi: %s</string>
+    <string name="error_string_mask">Hapa: %s</string>
+    <string name="select_empty_dir">Tīpakohia tētahi kōpaki wātea</string>
+    <string name="is_not_dir">Ehara tēnei i te rārangi</string>
+    <string name="dir_is_not_exist">Kāore te kōpaki e kitea</string>
+    <string name="dir_read_permission_denied">Kāore e taea te pānui i te kōpaki</string>
+    <string name="dir_write_permission_denied">Kāore e taea te tuhi ki te kōpaki</string>
+    <string name="new_file_name_does_not_pass_filter">Ehara i te tika te hōputu o te ingoa kōnae hou</string>
+    <string name="new_file_name_already_exists">Kei te noho kē te ingoa kōnae hou.</string>
+    <string name="press_back_button_again_to_exit">Pāpāho \'Hoki\' Anō kia whakakore</string>
+    <string name="press_up_button_again_to_exit">Pāpāho \'Runga\' Anō kia whakakore</string>
+</resources>

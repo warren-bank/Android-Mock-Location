@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Өй</string>
+    <string name="up">Өскә</string>
+    <string name="neww">Яңа</string>
+    <string name="select">Сайлагыз</string>
+    <string name="cancel">Бөтерү</string>
+    <string name="title">Папканы сайлагыз</string>
+    <string name="location">Урнашу урыны</string>
+    <string name="enter_folder_name">Папка исемен языгыз</string>
+    <string name="edit_location">Урынны үзгәртергә</string>
+    <string name="create">Төзү</string>
+    <string name="ok">Ярар</string>
+    <string name="select_file">Сезгә файл сайларга кирәк</string>
+    <string name="select_empty_folder">Сез буш папканы сайларга тиешсез</string>
+    <string name="no_access_to_storage">Саклау урынына керү рөхсәте бирелмәде</string>
+    <string name="location_mask">Урнашу урыны: %s</string>
+    <string name="error_string_mask">Хата: %s</string>
+    <string name="select_empty_dir">Буш папканы сайлагыз</string>
+    <string name="is_not_dir">Бу каталог түгел</string>
+    <string name="dir_is_not_exist">Директория юк</string>
+    <string name="dir_read_permission_denied">Директориядән укып булмый</string>
+    <string name="dir_write_permission_denied">Директориягә яза алмыйм</string>
+    <string name="new_file_name_does_not_pass_filter">Яңа файл исеменең форматы дөрес түгел</string>
+    <string name="new_file_name_already_exists">Яңа файл исеме инде бар</string>
+    <string name="press_back_button_again_to_exit">Матбугат \'Кире\' тагын бетерү өчен</string>
+    <string name="press_up_button_again_to_exit">Матбугат \'Өскә\' тагын бетерү өчен</string>
+</resources>

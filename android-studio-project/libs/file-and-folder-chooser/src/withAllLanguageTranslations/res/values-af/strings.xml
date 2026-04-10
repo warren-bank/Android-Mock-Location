@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Tuis</string>
+    <string name="up">Op</string>
+    <string name="neww">Nuut</string>
+    <string name="select">Kies</string>
+    <string name="cancel">Kanselleer</string>
+    <string name="title">Kies vouer</string>
+    <string name="location">Posisie</string>
+    <string name="enter_folder_name">Voer vouernaam in</string>
+    <string name="edit_location">Bewerk ligging</string>
+    <string name="create">Skep</string>
+    <string name="ok">Ok</string>
+    <string name="select_file">Jy moet \'n lêer kies.</string>
+    <string name="select_empty_folder">Jy moet \'n leë vouer kies.</string>
+    <string name="no_access_to_storage">Stoor-toegangspermisie is nie toegestaan nie</string>
+    <string name="location_mask">Posisie: %s</string>
+    <string name="error_string_mask">Fout: %s</string>
+    <string name="select_empty_dir">Kies \'n leë gids</string>
+    <string name="is_not_dir">Dit is nie \'n gids nie</string>
+    <string name="dir_is_not_exist">Gids bestaan nie</string>
+    <string name="dir_read_permission_denied">Kan nie uit die gids lees nie</string>
+    <string name="dir_write_permission_denied">Kan nie na gids skryf nie</string>
+    <string name="new_file_name_does_not_pass_filter">Die formaat van die nuwe lêernaam is nie korrek nie.</string>
+    <string name="new_file_name_already_exists">Nuwe lêernaam bestaan reeds</string>
+    <string name="press_back_button_again_to_exit">Pers \'Terug\' weer kanselleer</string>
+    <string name="press_up_button_again_to_exit">Pers \'Op\' weer kanselleer</string>
+</resources>

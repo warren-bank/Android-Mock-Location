@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Hejmo</string>
+    <string name="up">Supre</string>
+    <string name="neww">Nova</string>
+    <string name="select">Elekti</string>
+    <string name="cancel">Nuligi</string>
+    <string name="title">Elektu dosierujon</string>
+    <string name="location">Loko</string>
+    <string name="enter_folder_name">Enigu dosiernomon</string>
+    <string name="edit_location">Redakti lokon</string>
+    <string name="create">Krei</string>
+    <string name="ok">Bone</string>
+    <string name="select_file">Vi devas elekti dosieron.</string>
+    <string name="select_empty_folder">Vi devas elekti malplenan dosierujon.</string>
+    <string name="no_access_to_storage">Alirpermeso al stokejo ne donita</string>
+    <string name="location_mask">Loko: %s</string>
+    <string name="error_string_mask">Eraro: %s</string>
+    <string name="select_empty_dir">Elektu malplenan dosierujon</string>
+    <string name="is_not_dir">Tio ne estas dosierujo.</string>
+    <string name="dir_is_not_exist">Dosierujo ne ekzistas</string>
+    <string name="dir_read_permission_denied">Ne eblas legi el dosierujo</string>
+    <string name="dir_write_permission_denied">Ne eblas skribi al dosierujo</string>
+    <string name="new_file_name_does_not_pass_filter">La formato de la nomo de la nova dosiero ne estas ĝusta.</string>
+    <string name="new_file_name_already_exists">Nova dosiernomo jam ekzistas</string>
+    <string name="press_back_button_again_to_exit">Gazetara servo \'Reen\' denove nuligi</string>
+    <string name="press_up_button_again_to_exit">Gazetara servo \'Supre\' denove nuligi</string>
+</resources>

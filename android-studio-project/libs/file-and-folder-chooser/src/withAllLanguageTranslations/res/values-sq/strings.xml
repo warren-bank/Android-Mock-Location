@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Shtëpia</string>
+    <string name="up">Lart</string>
+    <string name="neww">I ri</string>
+    <string name="select">Zgjidh</string>
+    <string name="cancel">Shfuqizo</string>
+    <string name="title">Zgjidh dosjen</string>
+    <string name="location">Vendndodhja</string>
+    <string name="enter_folder_name">Futni emrin e dosjes</string>
+    <string name="edit_location">Redakto vendndodhjen</string>
+    <string name="create">Krijo</string>
+    <string name="ok">Mirë</string>
+    <string name="select_file">Duhet të zgjidhni një skedar.</string>
+    <string name="select_empty_folder">Duhet të zgjidhni një dosje bosh.</string>
+    <string name="no_access_to_storage">Leja e aksesit në magazinë nuk është dhënë</string>
+    <string name="location_mask">Vendndodhja: %s</string>
+    <string name="error_string_mask">Gabim: %s</string>
+    <string name="select_empty_dir">Zgjidhni një dosje bosh</string>
+    <string name="is_not_dir">Kjo nuk është një direktori</string>
+    <string name="dir_is_not_exist">Direktoria nuk ekziston</string>
+    <string name="dir_read_permission_denied">Nuk mund të lexohet nga direktoria</string>
+    <string name="dir_write_permission_denied">Nuk mund të shkruhet në direktori</string>
+    <string name="new_file_name_does_not_pass_filter">Formati i emrit të ri të skedarit nuk është i saktë.</string>
+    <string name="new_file_name_already_exists">Emri i ri i skedarit tashmë ekziston</string>
+    <string name="press_back_button_again_to_exit">Shtyp \'Përsëri\' përsëri për të anuluar</string>
+    <string name="press_up_button_again_to_exit">Shtyp \'Lart\' përsëri për të anuluar</string>
+</resources>

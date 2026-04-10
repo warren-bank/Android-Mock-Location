@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">घर</string>
+    <string name="up">वर</string>
+    <string name="neww">नवीन</string>
+    <string name="select">निवडा</string>
+    <string name="cancel">रद्द करा</string>
+    <string name="title">फोल्डर निवडा</string>
+    <string name="location">स्थान</string>
+    <string name="enter_folder_name">फोल्डरचे नाव प्रविष्ट करा</string>
+    <string name="edit_location">स्थान संपादित करा</string>
+    <string name="create">निर्मिती करा</string>
+    <string name="ok">ठीक आहे</string>
+    <string name="select_file">आपण एक फाइल निवडली पाहिजे</string>
+    <string name="select_empty_folder">आपण एक रिकामी फोल्डर निवडणे आवश्यक आहे.</string>
+    <string name="no_access_to_storage">साठवण प्रवेश परवानगी दिलेली नाही</string>
+    <string name="location_mask">स्थान: %s</string>
+    <string name="error_string_mask">त्रुटी: %s</string>
+    <string name="select_empty_dir">एक रिकामी निर्देशिका निवडा</string>
+    <string name="is_not_dir">ही निर्देशिका नाही</string>
+    <string name="dir_is_not_exist">निर्देशिका अस्तित्वात नाही</string>
+    <string name="dir_read_permission_denied">डिरेक्टरीमधून वाचता येत नाही</string>
+    <string name="dir_write_permission_denied">डिरेक्टरीमध्ये लिहू शकत नाही</string>
+    <string name="new_file_name_does_not_pass_filter">नवीन फाइल नावाचे स्वरूप बरोबर नाही</string>
+    <string name="new_file_name_already_exists">नवीन फाइलचे नाव आधीच अस्तित्वात आहे</string>
+    <string name="press_back_button_again_to_exit">दाबा \'मागे\' पुन्हा रद्द करण्यासाठी</string>
+    <string name="press_up_button_again_to_exit">दाबा \'वर\' पुन्हा रद्द करण्यासाठी</string>
+</resources>

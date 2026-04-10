@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Хона</string>
+    <string name="up">Ба боло</string>
+    <string name="neww">Нав</string>
+    <string name="select">Интихоб кунед</string>
+    <string name="cancel">Бекор кардан</string>
+    <string name="title">Зебобаро интихоб кунед</string>
+    <string name="location">Макон</string>
+    <string name="enter_folder_name">Номи ҷузвдонро ворид кунед</string>
+    <string name="edit_location">Ҷойгиршавиро таҳрир кунед</string>
+    <string name="create">Эҷод кунед</string>
+    <string name="ok">Хуб</string>
+    <string name="select_file">Шумо бояд як файлро интихоб кунед.</string>
+    <string name="select_empty_folder">Шумо бояд як ҷузвдони холиро интихоб кунед.</string>
+    <string name="no_access_to_storage">Иҷозати дастрасӣ ба нигоҳдорӣ дода нашудааст</string>
+    <string name="location_mask">Макон: %s</string>
+    <string name="error_string_mask">Хато: %s</string>
+    <string name="select_empty_dir">Як директорияи холиро интихоб кунед</string>
+    <string name="is_not_dir">Ин директория нест</string>
+    <string name="dir_is_not_exist">Директория вуҷуд надорад</string>
+    <string name="dir_read_permission_denied">Аз директория хондан ғайриимкон аст</string>
+    <string name="dir_write_permission_denied">Ба директория навиштан ғайриимкон аст</string>
+    <string name="new_file_name_does_not_pass_filter">Формати номи нави файл дуруст нест</string>
+    <string name="new_file_name_already_exists">Номи нави файл аллакай вуҷуд дорад</string>
+    <string name="press_back_button_again_to_exit">Матбуот \'Баргаштан\' боз бекор кардан</string>
+    <string name="press_up_button_again_to_exit">Матбуот \'Ба боло\' боз бекор кардан</string>
+</resources>

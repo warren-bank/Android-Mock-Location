@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Acasă</string>
+    <string name="up">Sus</string>
+    <string name="neww">Nou</string>
+    <string name="select">Selectează</string>
+    <string name="cancel">Anulează</string>
+    <string name="title">Selectează folderul</string>
+    <string name="location">Locație</string>
+    <string name="enter_folder_name">Introduceți numele folderului</string>
+    <string name="edit_location">Editează locația</string>
+    <string name="create">Creează</string>
+    <string name="ok">Bine</string>
+    <string name="select_file">Trebuie să selectați un fișier</string>
+    <string name="select_empty_folder">Trebuie să selectați un dosar gol</string>
+    <string name="no_access_to_storage">Nu s-a acordat permisiunea de acces la spațiul de stocare</string>
+    <string name="location_mask">Locație: %s</string>
+    <string name="error_string_mask">Eroare: %s</string>
+    <string name="select_empty_dir">Selectați un director gol</string>
+    <string name="is_not_dir">Acesta nu este un director</string>
+    <string name="dir_is_not_exist">Directorul nu există</string>
+    <string name="dir_read_permission_denied">Nu se poate citi din director</string>
+    <string name="dir_write_permission_denied">Nu se poate scrie în director</string>
+    <string name="new_file_name_does_not_pass_filter">Formatul numelui noului fișier nu este corect</string>
+    <string name="new_file_name_already_exists">Numele noului fișier există deja</string>
+    <string name="press_back_button_again_to_exit">Presă \'Înapoi\' din nou pentru a anula</string>
+    <string name="press_up_button_again_to_exit">Presă \'Sus\' din nou pentru a anula</string>
+</resources>

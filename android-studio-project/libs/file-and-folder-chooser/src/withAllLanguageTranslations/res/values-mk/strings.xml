@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Почетна</string>
+    <string name="up">Горе</string>
+    <string name="neww">Ново</string>
+    <string name="select">Избери</string>
+    <string name="cancel">Откажи</string>
+    <string name="title">Изберете папка</string>
+    <string name="location">Локација</string>
+    <string name="enter_folder_name">Внесете го името на папката</string>
+    <string name="edit_location">Уреди локација</string>
+    <string name="create">Креирај</string>
+    <string name="ok">Океј</string>
+    <string name="select_file">Мора да изберете датотека</string>
+    <string name="select_empty_folder">Мора да изберете празна папка</string>
+    <string name="no_access_to_storage">Не е дадена дозвола за пристап до складиштето</string>
+    <string name="location_mask">Локација: %s</string>
+    <string name="error_string_mask">Грешка: %s</string>
+    <string name="select_empty_dir">Изберете празен директориум</string>
+    <string name="is_not_dir">Ова не е директориум</string>
+    <string name="dir_is_not_exist">Директориумот не постои</string>
+    <string name="dir_read_permission_denied">Не може да се прочита од директориумот</string>
+    <string name="dir_write_permission_denied">Не може да се запише во директориумот</string>
+    <string name="new_file_name_does_not_pass_filter">Форматот на новото име на датотеката не е правилен</string>
+    <string name="new_file_name_already_exists">Новото име на датотеката веќе постои</string>
+    <string name="press_back_button_again_to_exit">Печати \'Назад\' повторно да откаже</string>
+    <string name="press_up_button_again_to_exit">Печати \'Горе\' повторно да откаже</string>
+</resources>

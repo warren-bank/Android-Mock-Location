@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Startseite</string>
+    <string name="up">Nach oben</string>
+    <string name="neww">Neu</string>
+    <string name="select">Auswählen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="title">Ordner auswählen</string>
+    <string name="location">Standort</string>
+    <string name="enter_folder_name">Ordnernamen eingeben</string>
+    <string name="edit_location">Standort bearbeiten</string>
+    <string name="create">Erstellen</string>
+    <string name="ok">Ok</string>
+    <string name="select_file">Sie müssen eine Datei auswählen</string>
+    <string name="select_empty_folder">Sie müssen einen leeren Ordner auswählen</string>
+    <string name="no_access_to_storage">Keine Berechtigung für den Speicherzugriff</string>
+    <string name="location_mask">Standort: %s</string>
+    <string name="error_string_mask">Fehler: %s</string>
+    <string name="select_empty_dir">Wählen Sie ein leeres Verzeichnis aus</string>
+    <string name="is_not_dir">Dies ist kein Verzeichnis</string>
+    <string name="dir_is_not_exist">Das Verzeichnis existiert nicht</string>
+    <string name="dir_read_permission_denied">Das Verzeichnis kann nicht gelesen werden</string>
+    <string name="dir_write_permission_denied">Es kann nicht in das Verzeichnis geschrieben werden</string>
+    <string name="new_file_name_does_not_pass_filter">Das Format des neuen Dateinamens ist nicht korrekt</string>
+    <string name="new_file_name_already_exists">Der neue Dateiname existiert bereits</string>
+    <string name="press_back_button_again_to_exit">Presse \'Zurück\' noch einmal, um abzubrechen</string>
+    <string name="press_up_button_again_to_exit">Presse \'Nach oben\' noch einmal, um abzubrechen</string>
+</resources>
