@@ -8,6 +8,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.Manifest;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
@@ -15,11 +16,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public final class RuntimePermissions {
-    private static final int REQUEST_CODE_PERMISSIONS  = 999;
-    private static final int REQUEST_CODE_DRAWOVERLAYS = 998;
+    private static final int REQUEST_CODE_PERMISSIONS                = 999;
+    private static final int REQUEST_CODE_DRAW_OVERLAYS              = 998;
+    private static final int REQUEST_CODE_ACCESS_BACKGROUND_LOCATION = 997;
 
     private static final ArrayList<String> MANDATORY_PERMISSIONS = new ArrayList<String>(
-        Arrays.asList("android.permission.ACCESS_COARSE_LOCATION", "android.permission.ACCESS_FINE_LOCATION")
+        Arrays.asList(Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION)
     );
 
     // =============================================================================================
@@ -45,11 +47,36 @@ public final class RuntimePermissions {
         onPermissionsGranted(activity, listener);
     }
 
+    public static boolean canAccessBackgroundLocation(Context context) {
+        if (Build.VERSION.SDK_INT < 29)
+            return true;
+
+        String permission = Manifest.permission.ACCESS_BACKGROUND_LOCATION;
+        return (context.checkCallingOrSelfPermission(permission) == PackageManager.PERMISSION_GRANTED);
+    }
+
+    public static void requestPermissionAccessBackgroundLocation(Activity activity, RuntimePermissionsListener listener) {
+        if (Build.VERSION.SDK_INT >= 29) {
+          String[] missingPermissions = new String[]{Manifest.permission.ACCESS_BACKGROUND_LOCATION};
+
+          activity.requestPermissions(missingPermissions, REQUEST_CODE_ACCESS_BACKGROUND_LOCATION);
+          return;
+        }
+
+        // no permissions to request
+        onPermissionsGranted(activity, listener);
+    }
+
     public static boolean canDrawOverlays(Context context) {
         if (Build.VERSION.SDK_INT < 23)
             return true;
 
         return Settings.canDrawOverlays(context);
+    }
+
+    public static void requestPermissionDrawOverlays(Activity activity) {
+        Intent permissionIntent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION, Uri.parse("package:" + activity.getPackageName()));
+        activity.startActivityForResult(permissionIntent, REQUEST_CODE_DRAW_OVERLAYS);
     }
 
     // not used
@@ -66,51 +93,65 @@ public final class RuntimePermissions {
     // =============================================================================================
 
     public static void onRequestPermissionsResult (Activity activity, RuntimePermissionsListener listener, int requestCode, String[] permissions, int[] grantResults) {
-        if (requestCode != REQUEST_CODE_PERMISSIONS)
-            return;
+        switch(requestCode) {
 
-        if (grantResults.length == 0) {
-            if (permissions.length == 0) {
-                // no "dangerous" permissions are needed
-                onPermissionsGranted(activity, listener);
-            }
-            else {
-                // request was cancelled. show the prompts again.
-                requestPermissions(activity, listener);
-            }
-        }
-        else {
-            ArrayList<String> deniedPermissions = new ArrayList<>();
+            case REQUEST_CODE_PERMISSIONS : {
+                if (grantResults.length == 0) {
+                    if (permissions.length == 0) {
+                        // no "dangerous" permissions are needed
+                        onPermissionsGranted(activity, listener);
+                    }
+                    else {
+                        // request was cancelled. show the prompts again.
+                        requestPermissions(activity, listener);
+                    }
+                }
+                else {
+                    ArrayList<String> deniedPermissions = new ArrayList<>();
 
-            for (int i=0; i < grantResults.length; i++) {
-                if (
-                    (grantResults[i] != PackageManager.PERMISSION_GRANTED) &&
-                    MANDATORY_PERMISSIONS.contains(permissions[i])
-                ) {
-                    // a mandatory permission is not granted
-                    deniedPermissions.add(permissions[i]);
+                    for (int i=0; i < grantResults.length; i++) {
+                        if (
+                            (grantResults[i] != PackageManager.PERMISSION_GRANTED) &&
+                            MANDATORY_PERMISSIONS.contains(permissions[i])
+                        ) {
+                            // a mandatory permission is not granted
+                            deniedPermissions.add(permissions[i]);
+                        }
+                    }
+
+                    if (deniedPermissions.isEmpty()) {
+                        onPermissionsGranted(activity, listener);
+                    }
+                    else {
+                        listener.onPermissionsDenied(
+                            deniedPermissions.toArray(new String[deniedPermissions.size()])
+                        );
+                    }
                 }
             }
+            break;
 
-            if (deniedPermissions.isEmpty()) {
-                onPermissionsGranted(activity, listener);
+            case REQUEST_CODE_ACCESS_BACKGROUND_LOCATION : {
+                if (canAccessBackgroundLocation(activity))
+                    listener.onPermissionsGranted();
+                else
+                    listener.onPermissionsDenied(new String[]{Manifest.permission.ACCESS_BACKGROUND_LOCATION});
             }
-            else {
-                listener.onPermissionsDenied(
-                    deniedPermissions.toArray(new String[deniedPermissions.size()])
-                );
-            }
+            break;
         }
     }
 
     public static void onActivityResult(Activity activity, RuntimePermissionsListener listener, int requestCode, int resultCode, Intent data) {
-        if (requestCode != REQUEST_CODE_DRAWOVERLAYS)
-            return;
+        switch(requestCode) {
 
-        if (canDrawOverlays(activity))
-            listener.onPermissionsGranted();
-        else
-            listener.onPermissionsDenied(new String[]{"android.permission.SYSTEM_ALERT_WINDOW"});
+            case REQUEST_CODE_DRAW_OVERLAYS : {
+                if (canDrawOverlays(activity))
+                    listener.onPermissionsGranted();
+                else
+                    listener.onPermissionsDenied(new String[]{Manifest.permission.SYSTEM_ALERT_WINDOW});
+            }
+            break;
+        }
     }
 
     // =============================================================================================
@@ -140,12 +181,10 @@ public final class RuntimePermissions {
             }
         }
 
-        return missingPermissions.toArray(new String[missingPermissions.size()]);
-    }
+        // permissions that must always be requested individually:
+        missingPermissions.remove(Manifest.permission.ACCESS_BACKGROUND_LOCATION);
 
-    public static void requestPermissionDrawOverlays(Activity activity) {
-        Intent permissionIntent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION, Uri.parse("package:" + activity.getPackageName()));
-        activity.startActivityForResult(permissionIntent, REQUEST_CODE_DRAWOVERLAYS);
+        return missingPermissions.toArray(new String[missingPermissions.size()]);
     }
 
     // =============================================================================================

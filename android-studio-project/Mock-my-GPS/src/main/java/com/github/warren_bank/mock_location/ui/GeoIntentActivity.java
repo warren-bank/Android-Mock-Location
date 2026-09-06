@@ -6,6 +6,7 @@ package com.github.warren_bank.mock_location.ui;
 import com.github.warren_bank.mock_location.R;
 import com.github.warren_bank.mock_location.data_model.LocPoint;
 import com.github.warren_bank.mock_location.data_model.SharedPrefs;
+import com.github.warren_bank.mock_location.security_model.RuntimePermissions;
 import com.github.warren_bank.mock_location.service.LocationService;
 import com.github.warren_bank.mock_location.util.GeoPointParserUtil;
 import com.github.warren_bank.mock_location.util.GeoPointParserUtil.GeoParsedPoint;
@@ -17,7 +18,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class GeoIntentActivity extends Activity {
+public class GeoIntentActivity extends Activity implements RuntimePermissions.RuntimePermissionsListener {
     private final static String EXTRA_PURPOSE               = "purpose";
     private final static String EXTRA_SILENT_UPDATE         = "silent_update";
     private final static String EXTRA_FORCE_START           = "force_start";
@@ -108,9 +109,8 @@ public class GeoIntentActivity extends Activity {
                     finish();
                   }
                   else if (force_start) {
-                    LocationService.doStart(getApplicationContext(), true, point, null, 0);
+                    startLocationService(point);
                     handled = true;
-                    finish();
                   }
                 }
                 if (!handled) {
@@ -202,6 +202,51 @@ public class GeoIntentActivity extends Activity {
         intent.putExtra(getString(R.string.BookmarksActivity_extra_add_lat), lat);
         intent.putExtra(getString(R.string.BookmarksActivity_extra_add_lon), lon);
         startActivity(intent);
+    }
+
+    // =============================================================================================
+    // Runtime Permissions
+    // =============================================================================================
+
+    private LocPoint pointLocationService;
+
+    private void startLocationService(LocPoint point) {
+        if (point == null) return;
+
+        pointLocationService = point;
+        RuntimePermissions.requestPermissions(/* activity */ GeoIntentActivity.this, /* listener */ GeoIntentActivity.this);
+    }
+
+    private void startLocationService() {
+        if (pointLocationService == null) return;
+
+        LocationService.doStart(getApplicationContext(), true, pointLocationService, null, 0);
+        finish();
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        RuntimePermissions.onRequestPermissionsResult(/* activity */ GeoIntentActivity.this, /* listener */ GeoIntentActivity.this, requestCode, permissions, grantResults);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        RuntimePermissions.onActivityResult(/* activity */ GeoIntentActivity.this, /* listener */ GeoIntentActivity.this, requestCode, resultCode, data);
+    }
+
+    // =============================================================================================
+    // interface implementation: RuntimePermissions.RuntimePermissionsListener
+    // =============================================================================================
+
+    public void onPermissionsGranted() {
+        if (RuntimePermissions.canAccessBackgroundLocation(GeoIntentActivity.this))
+            startLocationService();
+        else
+            RuntimePermissions.requestPermissionAccessBackgroundLocation(/* activity */ GeoIntentActivity.this, /* listener */ GeoIntentActivity.this);
+    }
+
+    public void onPermissionsDenied(String[] permissions) {
+        finish();
     }
 
 }
