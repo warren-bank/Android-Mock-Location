@@ -20,11 +20,12 @@
     <!-- required for "LocationService" on API 28+ -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
-    <!-- required for FGS w/ foregroundServiceType="dataSync" on API 34+ -->
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
-
     <!-- required for FGS w/ foregroundServiceType="location" on API 34+ -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+
+    <!-- required for starting FGS w/ foregroundServiceType="location" from background on API 34+ -->
+    <!-- note: the only time this occurs is when an Intent starts ".ui.GeoIntentActivity" with extras: "silent_update" and "force_start" -->
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
 
     <!-- required to display notification for foreground service on API 33+ -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
@@ -41,7 +42,7 @@
 
         <service
             android:name=".service.LocationService"
-            android:foregroundServiceType="dataSync|location"
+            android:foregroundServiceType="location"
             android:enabled="true"
             android:exported="false" />
 

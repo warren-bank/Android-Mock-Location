@@ -12,6 +12,7 @@ import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ServiceInfo;
 import android.os.Binder;
 import android.os.Build;
 import android.os.IBinder;
@@ -85,7 +86,11 @@ public class LocationService extends Service {
 
         if (Build.VERSION.SDK_INT >= 5) {
             createNotificationChannel();
-            startForeground(NOTIFICATION_ID, notification);
+
+            if (Build.VERSION.SDK_INT >= 29)
+                startForeground(NOTIFICATION_ID, notification, ServiceInfo.FOREGROUND_SERVICE_TYPE_LOCATION);
+            else
+                startForeground(NOTIFICATION_ID, notification);
         }
         else {
             NotificationManager NM = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
