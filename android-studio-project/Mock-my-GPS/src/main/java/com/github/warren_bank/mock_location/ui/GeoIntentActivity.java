@@ -103,19 +103,20 @@ public class GeoIntentActivity extends Activity implements RuntimePermissions.Ru
             case 1:
                 // fixed position
                 if (silent_update) {
-                  if (LocationService.isStarted()) {
-                    LocationService.getLocationThreadManager().jumpToLocation(point);
-                    handled = true;
-                    finish();
-                  }
-                  else if (force_start) {
-                    startLocationService(point);
-                    handled = true;
-                  }
+                    if (LocationService.isStarted()) {
+                        SharedPrefs.putTripOrigin(GeoIntentActivity.this, point);
+                        LocationService.getLocationThreadManager().jumpToLocation(point);
+                        handled = true;
+                        finish();
+                    }
+                    else if (force_start) {
+                        startLocationService(point);
+                        handled = true;
+                    }
                 }
                 if (!handled) {
-                  handleFixedPosition(point);
-                  handled = true;
+                    handleFixedPosition(point);
+                    handled = true;
                 }
                 break;
             case 2:
@@ -126,13 +127,14 @@ public class GeoIntentActivity extends Activity implements RuntimePermissions.Ru
             case 3:
                 // trip destination
                 if (silent_update && LocationService.isStarted()) {
-                  LocationService.getLocationThreadManager().flyToLocation(point, trip_duration_seconds);
-                  handled = true;
-                  finish();
+                    SharedPrefs.putTripDestination(GeoIntentActivity.this, point);
+                    LocationService.getLocationThreadManager().flyToLocation(point, trip_duration_seconds);
+                    handled = true;
+                    finish();
                 }
                 else {
-                  handleTripDestination(point);
-                  handled = true;
+                    handleTripDestination(point);
+                    handled = true;
                 }
                 break;
             case 4:
@@ -220,6 +222,7 @@ public class GeoIntentActivity extends Activity implements RuntimePermissions.Ru
     private void startLocationService() {
         if (pointLocationService == null) return;
 
+        SharedPrefs.putTripOrigin(GeoIntentActivity.this, pointLocationService);
         LocationService.doStart(getApplicationContext(), true, pointLocationService, null, 0);
         finish();
     }
