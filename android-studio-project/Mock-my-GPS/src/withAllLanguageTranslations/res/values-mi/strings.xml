@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Taitara:</string>
     <string name="edit_bookmark_field_2">Wāhi:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Whānui</string>
+    <string name="PreferencesActivity_heading_4">Āhua</string>
+    <string name="PreferencesActivity_heading_5">Reo</string>
     <string name="PreferencesActivity_field_1">Wā (ms) i waenga i ia whakahōu:</string>
+    <string name="PreferencesActivity_field_8">Whakaaetia ngā wāhi i tohaina mai i ētahi atu taupānga:\n<small>(ka rapua ngā hono Google Maps ā-ipurangi)</small></string>
     <string name="PreferencesActivity_field_2">Te tokomaha o ngā wā hei tārua i te wāhi:\n<small>(0 = haere tonu kia mutu ā-tūturu)</small></string>
     <string name="PreferencesActivity_field_3">Whakaatuhia te joystick:</string>
     <string name="PreferencesActivity_field_4">Tohorā koa lat/lon pikinga:</string>
     <string name="PreferencesActivity_field_5">Me mau tonu te ūnga hei tūranga tū.:</string>
+    <string name="PreferencesActivity_field_6">Kaupapa:</string>
+    <string name="PreferencesActivity_theme_system">Whai i te pūnaha</string>
+    <string name="PreferencesActivity_theme_light">Mārama</string>
+    <string name="PreferencesActivity_theme_dark">Pōuri</string>
+    <string name="PreferencesActivity_field_7">Te reo o te taupānga:</string>
+    <string name="PreferencesActivity_language_system_default">Whai i te pūnaha</string>
     <string name="label_button_start">Tīmatanga</string>
     <string name="label_button_stop">Tū</string>
     <string name="label_button_update">Whakahōu</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Kua oti kē te tohu whārangi. \'%s\'.</string>
     <string name="error_missing_required_value">Hapa: Kua ngaro te uara e hiahiatia ana</string>
     <string name="error_add_bookmarkitem">Hapa: Kāore i taea te tāpiri tohu whakamaharatanga hou</string>
+    <string name="share_progress_lookup">E pānui ana i te hono Google Maps…</string>
+    <string name="share_error_no_location">Kāore he wāhi i kitea i te kuputuhi i tohaina.</string>
+    <string name="share_error_no_coordinates">Kāore he taunga ki tēnei hono Google Maps. Pēhi roa i te mahere hei whakatakoto pine, kātahi ka toha i te pine.</string>
+    <string name="share_error_unreachable">Kāore i taea te toro atu ki Google Maps hei pānui i tēnei hono. Tirohia tō hononga, ka toha anō.</string>
     <string name="notification_service_ticker">Whakakatakata i taku GPS: e oma ana</string>
     <string name="notification_service_content_line1">Whakakatakata i taku GPS</string>
     <!--

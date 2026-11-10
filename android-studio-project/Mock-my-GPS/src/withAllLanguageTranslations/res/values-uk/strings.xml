@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Назва:</string>
     <string name="edit_bookmark_field_2">Місцезнаходження:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Загальна інформація</string>
+    <string name="PreferencesActivity_heading_4">Вигляд</string>
+    <string name="PreferencesActivity_heading_5">Мова</string>
     <string name="PreferencesActivity_field_1">Час (ms) між кожним оновленням:</string>
+    <string name="PreferencesActivity_field_8">Приймати місця, якими поділилися з інших застосунків:\n<small>(посилання Google Карт перевіряються в інтернеті)</small></string>
     <string name="PreferencesActivity_field_2">Кількість імітацій місцезнаходження:\n<small>(0 = продовжувати, доки не буде явно зупинено)</small></string>
     <string name="PreferencesActivity_field_3">Показати джойстик:</string>
     <string name="PreferencesActivity_field_4">Джойстик lat/lon приріст:</string>
     <string name="PreferencesActivity_field_5">Утримувати пункт призначення як фіксоване положення:</string>
+    <string name="PreferencesActivity_field_6">Тема:</string>
+    <string name="PreferencesActivity_theme_system">Як у системі</string>
+    <string name="PreferencesActivity_theme_light">Світла</string>
+    <string name="PreferencesActivity_theme_dark">Темна</string>
+    <string name="PreferencesActivity_field_7">Мова застосунку:</string>
+    <string name="PreferencesActivity_language_system_default">Як у системі</string>
     <string name="label_button_start">СТАРТ</string>
     <string name="label_button_stop">СТОП</string>
     <string name="label_button_update">Оновлення</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Закладка вже існує \'%s\'.</string>
     <string name="error_missing_required_value">Помилка: відсутнє обов’язкове значення</string>
     <string name="error_add_bookmarkitem">Помилка: не вдалося додати нову закладку</string>
+    <string name="share_progress_lookup">Читання посилання Google Карт…</string>
+    <string name="share_error_no_location">У тексті, яким поділилися, не знайдено місця.</string>
+    <string name="share_error_no_coordinates">У цьому посиланні Google Карт немає координат. Натисніть і утримуйте карту, щоб поставити мітку, а потім поділіться міткою.</string>
+    <string name="share_error_unreachable">Не вдалося зв\'язатися з Google Картами, щоб прочитати посилання. Перевірте з\'єднання й поділіться ще раз.</string>
     <string name="notification_service_ticker">Насміхайся з мене GPS: біг</string>
     <string name="notification_service_content_line1">Насміхайся з мене GPS</string>
     <!--

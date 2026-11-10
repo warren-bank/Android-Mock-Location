@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Mata duree:</string>
     <string name="edit_bookmark_field_2">Iddoo:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Waliigalaa</string>
+    <string name="PreferencesActivity_heading_4">Bifa</string>
+    <string name="PreferencesActivity_heading_5">Afaan</string>
     <string name="PreferencesActivity_field_1">Yeroo (ms) Gidduu haaromsa hundaatti:</string>
+    <string name="PreferencesActivity_field_8">Bakkeewwan appii biroo irraa qooddaman fudhadhu:\n<small>(geessituuwwan Google Maps toora interneetiin barbaadamu)</small></string>
     <string name="PreferencesActivity_field_2">Lakkoofsa yeroo iddoo itti qoosu:\n<small>(0 = hanga ifatti dhaabamutti itti fufi)</small></string>
     <string name="PreferencesActivity_field_3">Jooyistiki agarsiisi:</string>
     <string name="PreferencesActivity_field_4">Qabannoo gammachuu lat/lon Dabali:</string>
     <string name="PreferencesActivity_field_5">Iddoo gahuu akka iddoo dhaabbataatti qabadhu:</string>
+    <string name="PreferencesActivity_field_6">Mata duree:</string>
+    <string name="PreferencesActivity_theme_system">Sirna hordofi</string>
+    <string name="PreferencesActivity_theme_light">Ifaa</string>
+    <string name="PreferencesActivity_theme_dark">Dukkana</string>
+    <string name="PreferencesActivity_field_7">Afaan appii:</string>
+    <string name="PreferencesActivity_language_system_default">Sirna hordofi</string>
     <string name="label_button_start">Jalqabi</string>
     <string name="label_button_stop">Dhaabbadhu</string>
     <string name="label_button_update">Haaromsa</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Asxaan duruu ni jira \'%s\'.</string>
     <string name="error_missing_required_value">Dogoggora: Gatii Barbaachisuu Dhabame</string>
     <string name="error_add_bookmarkitem">Dogoggora: Mallattoo fuula haaraa dabaluun hin danda\'amne</string>
+    <string name="share_progress_lookup">Geessituu Google Maps dubbisaa jira…</string>
+    <string name="share_error_no_location">Barreeffama qoodame keessatti bakki hin argamne.</string>
+    <string name="share_error_no_coordinates">Geessituun Google Maps kun koordineetii hin qabu. Piinii kaa\'uuf kaartaa irratti yeroo dheeraa tuqi, achiis piinicha qoodi.</string>
+    <string name="share_error_unreachable">Geessituu kana dubbisuuf Google Maps bira gaʼuu hin dandeenye. Walqunnamtii kee mirkaneessiitii irra deebiʼii qoodi.</string>
     <string name="notification_service_ticker">Na qoosaa GPS: Fiigicha</string>
     <string name="notification_service_content_line1">Na qoosaa GPS</string>
     <!--

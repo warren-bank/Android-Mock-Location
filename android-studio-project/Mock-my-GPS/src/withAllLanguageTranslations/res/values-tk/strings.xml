@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">At:</string>
     <string name="edit_bookmark_field_2">Orun:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Umumy</string>
+    <string name="PreferencesActivity_heading_4">Daşky görnüş</string>
+    <string name="PreferencesActivity_heading_5">Dil</string>
     <string name="PreferencesActivity_field_1">Wagt (ms) Her täzelenişiň arasynda:</string>
+    <string name="PreferencesActivity_field_8">Beýleki programmalardan paýlaşylan ýerleri kabul et:\n<small>(Google Maps baglanyşyklary onlaýn barlanýar)</small></string>
     <string name="PreferencesActivity_field_2">Ornuny makara etmek üçin gezek sany:\n<small>(0 = açyk görnüşde togtadylýança dowam et)</small></string>
     <string name="PreferencesActivity_field_3">Joystiki görkez:</string>
     <string name="PreferencesActivity_field_4">Joystik lat/lon artdyrmak:</string>
     <string name="PreferencesActivity_field_5">Barkyş nokadyny durnukly ýagdaýda saklaň:</string>
+    <string name="PreferencesActivity_field_6">Tema:</string>
+    <string name="PreferencesActivity_theme_system">Ulgama eýer</string>
+    <string name="PreferencesActivity_theme_light">Açyk</string>
+    <string name="PreferencesActivity_theme_dark">Garaňky</string>
+    <string name="PreferencesActivity_field_7">Programmanyň dili:</string>
+    <string name="PreferencesActivity_language_system_default">Ulgama eýer</string>
     <string name="label_button_start">başla</string>
     <string name="label_button_stop">DUR</string>
     <string name="label_button_update">Täzelik</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Belgi eýýäm bar \'%s\'.</string>
     <string name="error_missing_required_value">Ýalňyşlyk: Zerur bolan gymmat ýetmeýär</string>
     <string name="error_add_bookmarkitem">Ýalňyşlyk: Täze bellik goşulmady</string>
+    <string name="share_progress_lookup">Google Maps baglanyşygy okalýar…</string>
+    <string name="share_error_no_location">Paýlaşylan tekstde ýer tapylmady.</string>
+    <string name="share_error_no_coordinates">Bu Google Maps baglanyşygynda koordinatalar ýok. Bellik goýmak üçin karta uzak basyň, soňra belligi paýlaşyň.</string>
+    <string name="share_error_unreachable">Bu baglanyşygy okamak üçin Google Maps-e birigip bolmady. Birikmäňizi barlaň we täzeden paýlaşyň.</string>
     <string name="notification_service_ticker">Meniň maketimi masgara et GPS: ýöremek</string>
     <string name="notification_service_content_line1">Meniň maketimi masgara et GPS</string>
     <!--

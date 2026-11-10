@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Títol:</string>
     <string name="edit_bookmark_field_2">Localizacion:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">General</string>
+    <string name="PreferencesActivity_heading_4">Aparéncia</string>
+    <string name="PreferencesActivity_heading_5">Lenga</string>
     <string name="PreferencesActivity_field_1">Temps (ms) entre cada mesa a jorn:</string>
+    <string name="PreferencesActivity_field_8">Acceptar las posicions partejadas d\'autras aplicacions:\n<small>(los ligams Google Maps son consultats en linha)</small></string>
     <string name="PreferencesActivity_field_2">Nombre de còps per se moquer de la localizacion:\n<small>(0 = contunhar fins a l\'arrest explicit)</small></string>
     <string name="PreferencesActivity_field_3">Mostrar lo joystick:</string>
     <string name="PreferencesActivity_field_4">Maneta lat/lon augment:</string>
     <string name="PreferencesActivity_field_5">Tèn la destinacion coma posicion fixa:</string>
+    <string name="PreferencesActivity_field_6">Tèma:</string>
+    <string name="PreferencesActivity_theme_system">Seguir lo sistèma</string>
+    <string name="PreferencesActivity_theme_light">Clar</string>
+    <string name="PreferencesActivity_theme_dark">Escur</string>
+    <string name="PreferencesActivity_field_7">Lenga de l\'aplicacion:</string>
+    <string name="PreferencesActivity_language_system_default">Seguir lo sistèma</string>
     <string name="label_button_start">Començar</string>
     <string name="label_button_stop">Arrèsta</string>
     <string name="label_button_update">Mesa a jorn</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Un marcador existís ja. \'%s\'.</string>
     <string name="error_missing_required_value">Error: Valor obligatòria mancanta</string>
     <string name="error_add_bookmarkitem">Error: Se pòt pas apondre un novèl marcapagina.</string>
+    <string name="share_progress_lookup">Lectura del ligam Google Maps…</string>
+    <string name="share_error_no_location">Cap de posicion pas trobada dins lo tèxt partejat.</string>
+    <string name="share_error_no_coordinates">Aqueste ligam Google Maps a pas de coordenadas. Quichatz longament la mapa per plaçar una espingla, puèi partejatz l\'espingla.</string>
+    <string name="share_error_unreachable">Impossible de contactar Google Maps per legir aqueste ligam. Verificatz la connexion e partejatz tornamai.</string>
     <string name="notification_service_ticker">Imitar mon GPS: corrent</string>
     <string name="notification_service_content_line1">Imitar mon GPS</string>
     <!--

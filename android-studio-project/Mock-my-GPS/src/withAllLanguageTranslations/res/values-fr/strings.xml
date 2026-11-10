@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Titre:</string>
     <string name="edit_bookmark_field_2">Lieu:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Généralités</string>
+    <string name="PreferencesActivity_heading_4">Apparence</string>
+    <string name="PreferencesActivity_heading_5">Langue</string>
     <string name="PreferencesActivity_field_1">Heure (ms) entre chaque mise à jour:</string>
+    <string name="PreferencesActivity_field_8">Accepter les positions partagées depuis d\'autres applis:\n<small>(les liens Google Maps sont consultés en ligne)</small></string>
     <string name="PreferencesActivity_field_2">Nombre de fois où simuler la localisation:\n<small>(0 = continuer jusqu\'à ce que le processus soit explicitement arrêté)</small></string>
     <string name="PreferencesActivity_field_3">Afficher le joystick:</string>
     <string name="PreferencesActivity_field_4">Manette lat/lon incrément:</string>
     <string name="PreferencesActivity_field_5">Conserver la destination comme position fixe:</string>
+    <string name="PreferencesActivity_field_6">Thème:</string>
+    <string name="PreferencesActivity_theme_system">Suivre le système</string>
+    <string name="PreferencesActivity_theme_light">Clair</string>
+    <string name="PreferencesActivity_theme_dark">Sombre</string>
+    <string name="PreferencesActivity_field_7">Langue de l\'application:</string>
+    <string name="PreferencesActivity_language_system_default">Suivre le système</string>
     <string name="label_button_start">DÉMARRER</string>
     <string name="label_button_stop">STOP</string>
     <string name="label_button_update">MISE À JOUR</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Ce signet existe déjà \'%s\'.</string>
     <string name="error_missing_required_value">Erreur : valeur obligatoire manquante</string>
     <string name="error_add_bookmarkitem">Erreur : impossible d\'ajouter un nouveau signet</string>
+    <string name="share_progress_lookup">Lecture du lien Google Maps…</string>
+    <string name="share_error_no_location">Aucune position trouvée dans le texte partagé.</string>
+    <string name="share_error_no_coordinates">Ce lien Google Maps ne contient pas de coordonnées. Appuyez longuement sur la carte pour placer un repère, puis partagez le repère.</string>
+    <string name="share_error_unreachable">Impossible de joindre Google Maps pour lire ce lien. Vérifiez votre connexion et partagez à nouveau.</string>
     <string name="notification_service_ticker">Se moquer de moi GPS: course à pied</string>
     <string name="notification_service_content_line1">Se moquer de moi GPS</string>
     <!--

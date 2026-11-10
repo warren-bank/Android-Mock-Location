@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Titlu:</string>
     <string name="edit_bookmark_field_2">Post:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Ġenerali</string>
+    <string name="PreferencesActivity_heading_4">Dehra</string>
+    <string name="PreferencesActivity_heading_5">Lingwa</string>
     <string name="PreferencesActivity_field_1">Ħin (ms) bejn kull aġġornament:</string>
+    <string name="PreferencesActivity_field_8">Aċċetta postijiet maqsuma minn apps oħra:\n<small>(il-links ta\' Google Maps jiġu mfittxija online)</small></string>
     <string name="PreferencesActivity_field_2">In-numru ta\' drabi biex timmockja l-lokazzjoni:\n<small>(0 = kompli sakemm tieqaf b\'mod esplicitu)</small></string>
     <string name="PreferencesActivity_field_3">Uri l-joystick:</string>
     <string name="PreferencesActivity_field_4">Ġojstik lat/lon żieda:</string>
     <string name="PreferencesActivity_field_5">Żomm id-destinazzjoni bħala pożizzjoni fissa:</string>
+    <string name="PreferencesActivity_field_6">Tema:</string>
+    <string name="PreferencesActivity_theme_system">Segwi s-sistema</string>
+    <string name="PreferencesActivity_theme_light">Ċar</string>
+    <string name="PreferencesActivity_theme_dark">Skur</string>
+    <string name="PreferencesActivity_field_7">Lingwa tal-app:</string>
+    <string name="PreferencesActivity_language_system_default">Segwi s-sistema</string>
     <string name="label_button_start">Ibda</string>
     <string name="label_button_stop">Waqqaf</string>
     <string name="label_button_update">Aġġornament</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Il-bookmark diġà jeżisti \'%s\'.</string>
     <string name="error_missing_required_value">Żball: Valur meħtieġ nieqes</string>
     <string name="error_add_bookmarkitem">Żball: Ma setax iżid bookmark ġdid</string>
+    <string name="share_progress_lookup">Qed jinqara l-link ta\' Google Maps…</string>
+    <string name="share_error_no_location">Ma nstab l-ebda post fit-test maqsum.</string>
+    <string name="share_error_no_coordinates">Dan il-link ta\' Google Maps m\'għandux koordinati. Agħfas fit-tul fuq il-mappa biex tqiegħed pin, imbagħad aqsam il-pin.</string>
+    <string name="share_error_unreachable">Ma setax jintlaħaq Google Maps biex jinqara dan il-link. Iċċekkja l-konnessjoni u erġa\' aqsam.</string>
     <string name="notification_service_ticker">Imsaħli GPS: qed jiġri</string>
     <string name="notification_service_content_line1">Imsaħli GPS</string>
     <!--

@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">ശീർഷകം:</string>
     <string name="edit_bookmark_field_2">സ്ഥലം:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">പൊതുവായ</string>
+    <string name="PreferencesActivity_heading_4">രൂപം</string>
+    <string name="PreferencesActivity_heading_5">ഭാഷ</string>
     <string name="PreferencesActivity_field_1">സമയം (ms) ഓരോ അപ്ഡേറ്റിനും ഇടയിൽ:</string>
+    <string name="PreferencesActivity_field_8">മറ്റ് ആപ്പുകളിൽ നിന്ന് പങ്കിട്ട ലൊക്കേഷനുകൾ സ്വീകരിക്കുക:\n<small>(Google Maps ലിങ്കുകൾ ഓൺലൈനായി പരിശോധിക്കുന്നു)</small></string>
     <string name="PreferencesActivity_field_2">ലൊക്കേഷൻ മോക്ക് ചെയ്യേണ്ട തവണകൾ:\n<small>(0 = വ്യക്തമായി നിർത്തുന്നത് വരെ തുടരുക)</small></string>
     <string name="PreferencesActivity_field_3">ജോയിസ്റ്റിക്ക് കാണിക്കുക:</string>
     <string name="PreferencesActivity_field_4">ജോയിസ്റ്റിക്ക് lat/lon വർദ്ധനവ്:</string>
     <string name="PreferencesActivity_field_5">ലക്ഷ്യസ്ഥാനം ഒരു നിശ്ചിത സ്ഥാനമായി നിലനിർത്തുക:</string>
+    <string name="PreferencesActivity_field_6">തീം:</string>
+    <string name="PreferencesActivity_theme_system">സിസ്റ്റം പിന്തുടരുക</string>
+    <string name="PreferencesActivity_theme_light">ലൈറ്റ്</string>
+    <string name="PreferencesActivity_theme_dark">ഡാർക്ക്</string>
+    <string name="PreferencesActivity_field_7">ആപ്പ് ഭാഷ:</string>
+    <string name="PreferencesActivity_language_system_default">സിസ്റ്റം പിന്തുടരുക</string>
     <string name="label_button_start">തുടങ്ങുക</string>
     <string name="label_button_stop">നിൽക്കുക</string>
     <string name="label_button_update">പുതിയ വിവരം</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">ബുക്ക്മാർക്ക് ഇതിനകം നിലവിലുണ്ട് \'%s\'.</string>
     <string name="error_missing_required_value">പിശക്: ആവശ്യമായ മൂല്യം നൽകിയിട്ടില്ല</string>
     <string name="error_add_bookmarkitem">പിശക്: പുതിയ ബുക്ക്മാർക്ക് ചേർക്കാൻ കഴിഞ്ഞില്ല</string>
+    <string name="share_progress_lookup">Google Maps ലിങ്ക് വായിക്കുന്നു…</string>
+    <string name="share_error_no_location">പങ്കിട്ട ടെക്സ്റ്റിൽ ലൊക്കേഷൻ ഒന്നും കണ്ടെത്തിയില്ല.</string>
+    <string name="share_error_no_coordinates">ഈ Google Maps ലിങ്കിൽ കോർഡിനേറ്റുകളില്ല. പിൻ ഇടാൻ മാപ്പിൽ ദീർഘനേരം അമർത്തി, ആ പിൻ പങ്കിടുക.</string>
+    <string name="share_error_unreachable">ഈ ലിങ്ക് വായിക്കാൻ Google Maps-ൽ എത്താനായില്ല. കണക്ഷൻ പരിശോധിച്ച് വീണ്ടും പങ്കിടുക.</string>
     <string name="notification_service_ticker">എൻ്റെയെ അനുകരിക്കുക GPS: ഓടുന്നു</string>
     <string name="notification_service_content_line1">എൻ്റെയെ അനുകരിക്കുക GPS</string>
     <!--

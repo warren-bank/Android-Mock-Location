@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">ชื่อเรื่อง:</string>
     <string name="edit_bookmark_field_2">สถานที่:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">ทั่วไป</string>
+    <string name="PreferencesActivity_heading_4">ลักษณะ</string>
+    <string name="PreferencesActivity_heading_5">ภาษา</string>
     <string name="PreferencesActivity_field_1">เวลา (ms) ระหว่างแต่ละการอัปเดต:</string>
+    <string name="PreferencesActivity_field_8">รับตำแหน่งที่แชร์จากแอปอื่น:\n<small>(ลิงก์ Google Maps จะถูกค้นหาทางออนไลน์)</small></string>
     <string name="PreferencesActivity_field_2">จำนวนครั้งที่จำลองตำแหน่ง:\n<small>(0 = ดำเนินการต่อไปจนกว่าจะหยุดอย่างชัดเจน)</small></string>
     <string name="PreferencesActivity_field_3">แสดงจอยสติ๊ก:</string>
     <string name="PreferencesActivity_field_4">จอยสติ๊ก lat/lon การเพิ่มขึ้น:</string>
     <string name="PreferencesActivity_field_5">ถือจุดหมายปลายทางเป็นตำแหน่งคงที่:</string>
+    <string name="PreferencesActivity_field_6">ธีม:</string>
+    <string name="PreferencesActivity_theme_system">ตามระบบ</string>
+    <string name="PreferencesActivity_theme_light">สว่าง</string>
+    <string name="PreferencesActivity_theme_dark">มืด</string>
+    <string name="PreferencesActivity_field_7">ภาษาของแอป:</string>
+    <string name="PreferencesActivity_language_system_default">ตามระบบ</string>
     <string name="label_button_start">เริ่มต้น</string>
     <string name="label_button_stop">หยุด</string>
     <string name="label_button_update">อัปเดต</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">บันทึกที่ค้างอยู่มีอยู่แล้ว \'%s\'.</string>
     <string name="error_missing_required_value">ข้อผิดพลาด: ไม่มีค่าที่จำเป็น</string>
     <string name="error_add_bookmarkitem">ข้อผิดพลาด: ไม่สามารถเพิ่มบุ๊กมาร์กใหม่ได้</string>
+    <string name="share_progress_lookup">กำลังอ่านลิงก์ Google Maps…</string>
+    <string name="share_error_no_location">ไม่พบตำแหน่งในข้อความที่แชร์</string>
+    <string name="share_error_no_coordinates">ลิงก์ Google Maps นี้ไม่มีพิกัด กดแผนที่ค้างไว้เพื่อปักหมุด แล้วแชร์หมุดนั้น</string>
+    <string name="share_error_unreachable">ไม่สามารถเชื่อมต่อ Google Maps เพื่ออ่านลิงก์นี้ได้ ตรวจสอบการเชื่อมต่อแล้วแชร์อีกครั้ง</string>
     <string name="notification_service_ticker">ล้อเลียนของฉัน GPS: วิ่ง</string>
     <string name="notification_service_content_line1">ล้อเลียนของฉัน GPS</string>
     <!--

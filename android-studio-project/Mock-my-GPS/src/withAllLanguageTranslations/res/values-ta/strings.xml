@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">தலைப்பு:</string>
     <string name="edit_bookmark_field_2">இடம்:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">பொதுவான</string>
+    <string name="PreferencesActivity_heading_4">தோற்றம்</string>
+    <string name="PreferencesActivity_heading_5">மொழி</string>
     <string name="PreferencesActivity_field_1">நேரம் (ms) ஒவ்வொரு புதுப்பிப்பிற்கும் இடையில்:</string>
+    <string name="PreferencesActivity_field_8">பிற ஆப்ஸிலிருந்து பகிரப்பட்ட இருப்பிடங்களை ஏற்கவும்:\n<small>(Google Maps இணைப்புகள் ஆன்லைனில் தேடப்படும்)</small></string>
     <string name="PreferencesActivity_field_2">இடம் பகிரும் முறைகள்:\n<small>(0 = வெளிப்படையாக நிறுத்தப்படும் வரை தொடரவும்)</small></string>
     <string name="PreferencesActivity_field_3">ஜாய்ஸ்டிக்கைக் காட்டு:</string>
     <string name="PreferencesActivity_field_4">ஜாய்ஸ்டிக் lat/lon அதிகரிப்பு:</string>
     <string name="PreferencesActivity_field_5">இலக்கை நிலையான நிலையில் வைத்திரு:</string>
+    <string name="PreferencesActivity_field_6">தீம்:</string>
+    <string name="PreferencesActivity_theme_system">சிஸ்டத்தைப் பின்பற்று</string>
+    <string name="PreferencesActivity_theme_light">வெளிர்</string>
+    <string name="PreferencesActivity_theme_dark">அடர்</string>
+    <string name="PreferencesActivity_field_7">ஆப்ஸ் மொழி:</string>
+    <string name="PreferencesActivity_language_system_default">சிஸ்டத்தைப் பின்பற்று</string>
     <string name="label_button_start">தொடங்கு</string>
     <string name="label_button_stop">நிறுத்து</string>
     <string name="label_button_update">புதுப்பிப்பு</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">பக்கக்குறி ஏற்கனவே உள்ளது \'%s\'.</string>
     <string name="error_missing_required_value">பிழை: தேவைப்படும் மதிப்பு இல்லை</string>
     <string name="error_add_bookmarkitem">பிழை: புதிய புக்மார்க் சேர்க்க முடியவில்லை</string>
+    <string name="share_progress_lookup">Google Maps இணைப்பைப் படிக்கிறது…</string>
+    <string name="share_error_no_location">பகிரப்பட்ட உரையில் இருப்பிடம் எதுவும் கிடைக்கவில்லை.</string>
+    <string name="share_error_no_coordinates">இந்த Google Maps இணைப்பில் ஆயத்தொலைவுகள் இல்லை. பின் இட வரைபடத்தை நீண்ட நேரம் அழுத்தி, பின்னை பகிரவும்.</string>
+    <string name="share_error_unreachable">இந்த இணைப்பைப் படிக்க Google Maps-ஐ அணுக முடியவில்லை. இணைப்பைச் சரிபார்த்து மீண்டும் பகிரவும்.</string>
     <string name="notification_service_ticker">என் மீது கேலி செய் GPS: ஓடுதல்</string>
     <string name="notification_service_content_line1">என் மீது கேலி செய் GPS</string>
     <!--

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- light theme -->
+
     <color name="listview_background">#FFFFFF</color>
     <color name="listview_divider">#999999</color>
 
@@ -9,6 +11,19 @@
 
     <color name="input_label_textview_background">#999999</color>
     <color name="input_label_textview_color">#FFFFFF</color>
+
+    <!-- dark theme -->
+
+    <color name="listview_background_dark">@android:color/transparent</color>
+    <color name="listview_divider_dark">#555555</color>
+
+    <color name="section_heading_textview_background_dark">#444444</color>
+    <color name="section_heading_textview_color_dark">#EEEEEE</color>
+
+    <color name="input_label_textview_background_dark">#5A5A5A</color>
+    <color name="input_label_textview_color_dark">#FFFFFF</color>
+
+    <!-- joystick overlay: same in both themes -->
 
     <color name="joystick_button_background_none">@android:color/transparent</color>
     <color name="joystick_button_background">#CCE2EEF6</color>

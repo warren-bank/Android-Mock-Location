@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Исеме:</string>
     <string name="edit_bookmark_field_2">Урын:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Гомуми</string>
+    <string name="PreferencesActivity_heading_4">Тышҡы күренеш</string>
+    <string name="PreferencesActivity_heading_5">Тел</string>
     <string name="PreferencesActivity_field_1">Ваҡыт (ms) Һәр яңыртыу араһында:</string>
+    <string name="PreferencesActivity_field_8">Башҡа ҡушымталарҙан бүлешелгән урындарҙы ҡабул итергә:\n<small>(Google Maps һылтанмалары онлайн тикшерелә)</small></string>
     <string name="PreferencesActivity_field_2">Урынды көйләүҙең тапҡыр һаны:\n<small>(0 = асыҡтан-асыҡ туҡтатылғансы дауам итеү)</small></string>
     <string name="PreferencesActivity_field_3">Джойстикты күрһәтегеҙ:</string>
     <string name="PreferencesActivity_field_4">Джойстик lat/lon арттырыу:</string>
     <string name="PreferencesActivity_field_5">Тәғәйен урынды ныҡлы урын итеп тотоу:</string>
+    <string name="PreferencesActivity_field_6">Тема:</string>
+    <string name="PreferencesActivity_theme_system">Системаға эйәреү</string>
+    <string name="PreferencesActivity_theme_light">Яҡты</string>
+    <string name="PreferencesActivity_theme_dark">Ҡараңғы</string>
+    <string name="PreferencesActivity_field_7">Ҡушымта теле:</string>
+    <string name="PreferencesActivity_language_system_default">Системаға эйәреү</string>
     <string name="label_button_start">Башла</string>
     <string name="label_button_stop">Туҡта</string>
     <string name="label_button_update">Яңыртыу</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Килештереү инде бар \'%s\'.</string>
     <string name="error_missing_required_value">Хата: мотлаҡ ҡиммәт юҡ</string>
     <string name="error_add_bookmarkitem">Хата: Яңы закладка өҫтәй алманы</string>
+    <string name="share_progress_lookup">Google Maps һылтанмаһы уҡыла…</string>
+    <string name="share_error_no_location">Бүлешелгән текста урын табылманы.</string>
+    <string name="share_error_no_coordinates">Был Google Maps һылтанмаһында координаталар юҡ. Билдә ҡуйыу өсөн картаға оҙаҡ баҫығыҙ, һуңынан билдәне бүлешегеҙ.</string>
+    <string name="share_error_unreachable">Был һылтанманы уҡыу өсөн Google Maps-ҡа тоташып булманы. Тоташыуҙы тикшерегеҙ һәм ҡабат бүлешегеҙ.</string>
     <string name="notification_service_ticker">Минеке итеп көл GPS: йүгереп</string>
     <string name="notification_service_content_line1">Минеке итеп көл GPS</string>
     <!--

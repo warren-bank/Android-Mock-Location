@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Tajuk:</string>
     <string name="edit_bookmark_field_2">Lokasi:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Am</string>
+    <string name="PreferencesActivity_heading_4">Penampilan</string>
+    <string name="PreferencesActivity_heading_5">Bahasa</string>
     <string name="PreferencesActivity_field_1">Masa (ms) antara setiap kemas kini:</string>
+    <string name="PreferencesActivity_field_8">Terima lokasi yang dikongsi daripada apl lain:\n<small>(pautan Google Maps dicari dalam talian)</small></string>
     <string name="PreferencesActivity_field_2">Bilangan kali untuk meniru lokasi:\n<small>(0 = teruskan sehingga dihentikan secara eksplisit)</small></string>
     <string name="PreferencesActivity_field_3">Tunjukkan joystick:</string>
     <string name="PreferencesActivity_field_4">Joystick lat/lon penambahan:</string>
     <string name="PreferencesActivity_field_5">Tahan destinasi sebagai kedudukan tetap:</string>
+    <string name="PreferencesActivity_field_6">Tema:</string>
+    <string name="PreferencesActivity_theme_system">Ikut sistem</string>
+    <string name="PreferencesActivity_theme_light">Cerah</string>
+    <string name="PreferencesActivity_theme_dark">Gelap</string>
+    <string name="PreferencesActivity_field_7">Bahasa aplikasi:</string>
+    <string name="PreferencesActivity_language_system_default">Ikut sistem</string>
     <string name="label_button_start">Mula</string>
     <string name="label_button_stop">BERHENTI</string>
     <string name="label_button_update">KEMAS KINI</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Penanda halaman sudah wujud \'%s\'.</string>
     <string name="error_missing_required_value">Ralat: Nilai Wajib Hilang</string>
     <string name="error_add_bookmarkitem">Ralat: Tidak dapat menambah penanda buku baru</string>
+    <string name="share_progress_lookup">Membaca pautan Google Maps…</string>
+    <string name="share_error_no_location">Tiada lokasi ditemui dalam teks yang dikongsi.</string>
+    <string name="share_error_no_coordinates">Pautan Google Maps ini tiada koordinat. Tekan lama pada peta untuk meletakkan pin, kemudian kongsi pin itu.</string>
+    <string name="share_error_unreachable">Tidak dapat menghubungi Google Maps untuk membaca pautan ini. Semak sambungan anda dan kongsi semula.</string>
     <string name="notification_service_ticker">Mock saya GPS: berlari</string>
     <string name="notification_service_content_line1">Mock saya GPS</string>
     <!--

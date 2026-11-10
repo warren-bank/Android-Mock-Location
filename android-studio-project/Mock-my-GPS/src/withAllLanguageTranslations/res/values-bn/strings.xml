@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">শিরোনাম:</string>
     <string name="edit_bookmark_field_2">অবস্থান:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">সাধারণ</string>
+    <string name="PreferencesActivity_heading_4">চেহারা</string>
+    <string name="PreferencesActivity_heading_5">ভাষা</string>
     <string name="PreferencesActivity_field_1">সময় (ms) প্রতি আপডেটের মধ্যে:</string>
+    <string name="PreferencesActivity_field_8">অন্য অ্যাপ থেকে শেয়ার করা অবস্থান গ্রহণ করুন:\n<small>(Google Maps লিঙ্ক অনলাইনে খোঁজা হয়)</small></string>
     <string name="PreferencesActivity_field_2">অবস্থান মক করার সংখ্যা:\n<small>(0 = স্পষ্টভাবে থামানো না হওয়া পর্যন্ত চালিয়ে যান)</small></string>
     <string name="PreferencesActivity_field_3">জয়স্টিক দেখান:</string>
     <string name="PreferencesActivity_field_4">জয়স্টিক lat/lon বৃদ্ধি:</string>
     <string name="PreferencesActivity_field_5">গন্তব্যকে স্থির অবস্থানে রাখুন:</string>
+    <string name="PreferencesActivity_field_6">থিম:</string>
+    <string name="PreferencesActivity_theme_system">সিস্টেম অনুসরণ করুন</string>
+    <string name="PreferencesActivity_theme_light">হালকা</string>
+    <string name="PreferencesActivity_theme_dark">গাঢ়</string>
+    <string name="PreferencesActivity_field_7">অ্যাপের ভাষা:</string>
+    <string name="PreferencesActivity_language_system_default">সিস্টেম অনুসরণ করুন</string>
     <string name="label_button_start">শুরু করুন</string>
     <string name="label_button_stop">থামো</string>
     <string name="label_button_update">আপডেট</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">বুকমার্ক ইতিমধ্যেই বিদ্যমান। \'%s\'.</string>
     <string name="error_missing_required_value">ত্রুটি: প্রয়োজনীয় মান অনুপস্থিত</string>
     <string name="error_add_bookmarkitem">ত্রুটি: নতুন বুকমার্ক যোগ করা যায়নি</string>
+    <string name="share_progress_lookup">Google Maps লিঙ্ক পড়া হচ্ছে…</string>
+    <string name="share_error_no_location">শেয়ার করা টেক্সটে কোনো অবস্থান পাওয়া যায়নি।</string>
+    <string name="share_error_no_coordinates">এই Google Maps লিঙ্কে কোনো স্থানাঙ্ক নেই। পিন বসাতে ম্যাপে দীর্ঘক্ষণ চাপুন, তারপর পিনটি শেয়ার করুন।</string>
+    <string name="share_error_unreachable">এই লিঙ্ক পড়তে Google Maps-এ পৌঁছানো যায়নি। আপনার সংযোগ পরীক্ষা করে আবার শেয়ার করুন।</string>
     <string name="notification_service_ticker">আমার মক করো GPS: দৌড়ানো</string>
     <string name="notification_service_content_line1">আমার মক করো GPS</string>
     <!--

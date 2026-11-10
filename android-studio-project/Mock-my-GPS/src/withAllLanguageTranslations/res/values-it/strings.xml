@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Titolo:</string>
     <string name="edit_bookmark_field_2">Ubicazione:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Informazioni generali</string>
+    <string name="PreferencesActivity_heading_4">Aspetto</string>
+    <string name="PreferencesActivity_heading_5">Lingua</string>
     <string name="PreferencesActivity_field_1">Ora (ms) tra un aggiornamento e l\'altro:</string>
+    <string name="PreferencesActivity_field_8">Accetta posizioni condivise da altre app:\n<small>(i link di Google Maps vengono consultati online)</small></string>
     <string name="PreferencesActivity_field_2">Numero di volte in cui simulare la posizione:\n<small>(0 = continuare finché non viene interrotto esplicitamente)</small></string>
     <string name="PreferencesActivity_field_3">Mostra joystick:</string>
     <string name="PreferencesActivity_field_4">Joystick lat/lon incremento:</string>
     <string name="PreferencesActivity_field_5">Mantieni la destinazione come posizione fissa:</string>
+    <string name="PreferencesActivity_field_6">Tema:</string>
+    <string name="PreferencesActivity_theme_system">Segui il sistema</string>
+    <string name="PreferencesActivity_theme_light">Chiaro</string>
+    <string name="PreferencesActivity_theme_dark">Scuro</string>
+    <string name="PreferencesActivity_field_7">Lingua dell\'app:</string>
+    <string name="PreferencesActivity_language_system_default">Segui il sistema</string>
     <string name="label_button_start">INIZIO</string>
     <string name="label_button_stop">BASTA</string>
     <string name="label_button_update">AGGIORNAMENTO</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Il segnalibro esiste già \'%s\'.</string>
     <string name="error_missing_required_value">Errore: manca un valore obbligatorio</string>
     <string name="error_add_bookmarkitem">Errore: impossibile aggiungere un nuovo segnalibro</string>
+    <string name="share_progress_lookup">Lettura del link di Google Maps…</string>
+    <string name="share_error_no_location">Nessuna posizione trovata nel testo condiviso.</string>
+    <string name="share_error_no_coordinates">Questo link di Google Maps non ha coordinate. Tieni premuto sulla mappa per inserire un segnaposto, poi condividi il segnaposto.</string>
+    <string name="share_error_unreachable">Impossibile raggiungere Google Maps per leggere questo link. Controlla la connessione e condividi di nuovo.</string>
     <string name="notification_service_ticker">Prendimi in giro GPS: correre</string>
     <string name="notification_service_content_line1">Prendimi in giro GPS</string>
     <!--

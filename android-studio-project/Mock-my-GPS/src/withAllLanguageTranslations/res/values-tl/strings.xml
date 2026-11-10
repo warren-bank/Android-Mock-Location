@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Pamagat:</string>
     <string name="edit_bookmark_field_2">Lokasyon:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Pangkalahatan</string>
+    <string name="PreferencesActivity_heading_4">Hitsura</string>
+    <string name="PreferencesActivity_heading_5">Wika</string>
     <string name="PreferencesActivity_field_1">Oras (ms) sa pagitan ng bawat pag-update:</string>
+    <string name="PreferencesActivity_field_8">Tanggapin ang mga lokasyong ibinahagi mula sa ibang app:\n<small>(hinahanap online ang mga link ng Google Maps)</small></string>
     <string name="PreferencesActivity_field_2">Bilang ng beses ng pekeng lokasyon:\n<small>(0 = magpatuloy hanggang sa tahasang mapigilan)</small></string>
     <string name="PreferencesActivity_field_3">Ipakita ang joystick:</string>
     <string name="PreferencesActivity_field_4">Joystick lat/lon dagdag:</string>
     <string name="PreferencesActivity_field_5">Panatilihin ang destinasyon bilang nakapirming posisyon.:</string>
+    <string name="PreferencesActivity_field_6">Tema:</string>
+    <string name="PreferencesActivity_theme_system">Sundin ang sistema</string>
+    <string name="PreferencesActivity_theme_light">Maliwanag</string>
+    <string name="PreferencesActivity_theme_dark">Madilim</string>
+    <string name="PreferencesActivity_field_7">Wika ng app:</string>
+    <string name="PreferencesActivity_language_system_default">Sundin ang sistema</string>
     <string name="label_button_start">Simulan</string>
     <string name="label_button_stop">Tumigil</string>
     <string name="label_button_update">Pinakabagong impormasyon</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Nauu na ang bookmark. \'%s\'.</string>
     <string name="error_missing_required_value">Maling: Kulang ang Kinakailangang Halaga</string>
     <string name="error_add_bookmarkitem">Maling: Hindi maidagdag ang bagong bookmark</string>
+    <string name="share_progress_lookup">Binabasa ang link ng Google Maps…</string>
+    <string name="share_error_no_location">Walang nahanap na lokasyon sa ibinahaging text.</string>
+    <string name="share_error_no_coordinates">Walang coordinates ang link na ito ng Google Maps. Pindutin nang matagal ang mapa para maglagay ng pin, saka ibahagi ang pin.</string>
+    <string name="share_error_unreachable">Hindi maabot ang Google Maps para basahin ang link na ito. Tingnan ang iyong koneksyon at ibahagi muli.</string>
     <string name="notification_service_ticker">Gagayahin ko ang aking GPS: tumatakbo</string>
     <string name="notification_service_content_line1">Gagayahin ko ang aking GPS</string>
     <!--

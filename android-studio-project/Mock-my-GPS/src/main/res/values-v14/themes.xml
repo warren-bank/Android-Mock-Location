@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="app_theme" parent="@android:style/Theme.DeviceDefault.Light">
-        <item name="android:windowNoTitle">false</item>
-        <item name="android:windowActionBar">true</item>
-    </style>
+    <style name="base_theme_light" parent="@android:style/Theme.DeviceDefault.Light" />
+    <style name="base_theme_dark"  parent="@android:style/Theme.DeviceDefault" />
 
 </resources>

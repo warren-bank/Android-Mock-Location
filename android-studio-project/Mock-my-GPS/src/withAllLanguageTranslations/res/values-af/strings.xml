@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Titel:</string>
     <string name="edit_bookmark_field_2">Posisie:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Algemeen</string>
+    <string name="PreferencesActivity_heading_4">Voorkoms</string>
+    <string name="PreferencesActivity_heading_5">Taal</string>
     <string name="PreferencesActivity_field_1">Tyd (ms) tussen elke opdatering:</string>
+    <string name="PreferencesActivity_field_8">Aanvaar liggings wat vanaf ander toepassings gedeel word:\n<small>(Google Maps-skakels word aanlyn opgesoek)</small></string>
     <string name="PreferencesActivity_field_2">Aantal kere om die ligging na te boots:\n<small>(0 = gaan voort totdat dit uitdruklik gestop word)</small></string>
     <string name="PreferencesActivity_field_3">Wys joystick:</string>
     <string name="PreferencesActivity_field_4">Joystick lat/lon toename:</string>
     <string name="PreferencesActivity_field_5">Hou bestemming as vaste posisie:</string>
+    <string name="PreferencesActivity_field_6">Tema:</string>
+    <string name="PreferencesActivity_theme_system">Volg stelsel</string>
+    <string name="PreferencesActivity_theme_light">Lig</string>
+    <string name="PreferencesActivity_theme_dark">Donker</string>
+    <string name="PreferencesActivity_field_7">Toepassingstaal:</string>
+    <string name="PreferencesActivity_language_system_default">Volg stelsel</string>
     <string name="label_button_start">Begin</string>
     <string name="label_button_stop">STAAN OP</string>
     <string name="label_button_update">OPDATEER</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Boekmerk bestaan reeds \'%s\'.</string>
     <string name="error_missing_required_value">Fout: Vereiste waarde ontbreek</string>
     <string name="error_add_bookmarkitem">Fout: Kon nie \'n nuwe boekmerk byvoeg nie</string>
+    <string name="share_progress_lookup">Lees tans Google Maps-skakel…</string>
+    <string name="share_error_no_location">Geen ligging in die gedeelde teks gevind nie.</string>
+    <string name="share_error_no_coordinates">Hierdie Google Maps-skakel het geen koördinate nie. Druk lank op die kaart om \'n speld te plaas en deel dan die speld.</string>
+    <string name="share_error_unreachable">Kon nie Google Maps bereik om hierdie skakel te lees nie. Gaan jou verbinding na en deel weer.</string>
     <string name="notification_service_ticker">Bespot my GPS: hardloop</string>
     <string name="notification_service_content_line1">Bespot my GPS</string>
     <!--

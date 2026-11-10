@@ -75,9 +75,12 @@
     <string name="PreferencesActivity_heading_1">General</string>
     <string name="PreferencesActivity_heading_2">@string/MainActivity_tab_1_label</string>
     <string name="PreferencesActivity_heading_3">@string/MainActivity_tab_2_label</string>
+    <string name="PreferencesActivity_heading_4">Appearance</string>
+    <string name="PreferencesActivity_heading_5">Language</string>
 
     <!-- heading_1 -->
     <string name="PreferencesActivity_field_1">Time (ms) between each update:</string>
+    <string name="PreferencesActivity_field_8">Accept locations shared from other apps:\n<small>(Google Maps links are looked up online)</small></string>
 
     <!-- heading_2 -->
     <string name="PreferencesActivity_field_2">Number of times to mock location:\n<small>(0 = continue until explicitly stopped)</small></string>
@@ -86,6 +89,16 @@
 
     <!-- heading_3 -->
     <string name="PreferencesActivity_field_5">Hold destination as fixed position:</string>
+
+    <!-- heading_4 -->
+    <string name="PreferencesActivity_field_6">Theme:</string>
+    <string name="PreferencesActivity_theme_system">Follow system</string>
+    <string name="PreferencesActivity_theme_light">Light</string>
+    <string name="PreferencesActivity_theme_dark">Dark</string>
+
+    <!-- heading_5 -->
+    <string name="PreferencesActivity_field_7">App language:</string>
+    <string name="PreferencesActivity_language_system_default">System default</string>
 
     <!-- common ============================================================ -->
 
@@ -110,6 +123,8 @@
     <!-- double        --><string translatable="false" name="pref_trip_destination_lat">trip_destination_lat</string>
     <!-- double        --><string translatable="false" name="pref_trip_destination_lon">trip_destination_lon</string>
     <!-- int     (sec) --><string translatable="false" name="pref_trip_duration">trip_duration</string>
+    <!-- int           --><string translatable="false" name="pref_theme_mode">theme_mode</string>
+    <!-- string        --><string translatable="false" name="pref_language_tag">language_tag</string>
 
     <!-- errors -->
     <!-- copied from https://github.com/osmandapp/Osmand/blob/2.0.0/OsmAnd/res/values/strings.xml#L2760 -->
@@ -119,6 +134,12 @@
     <string name="error_bookmarkitem_exists">Bookmark already exists \'%s\'.</string>
     <string name="error_missing_required_value">Error: Missing Required Value</string>
     <string name="error_add_bookmarkitem">Error: Could not add new bookmark</string>
+
+    <!-- share -->
+    <string name="share_progress_lookup">Reading Google Maps link…</string>
+    <string name="share_error_no_location">No location found in the shared text.</string>
+    <string name="share_error_no_coordinates">This Google Maps link has no coordinates. Long-press the map to drop a pin, then share the pin.</string>
+    <string name="share_error_unreachable">Couldn\'t reach Google Maps to read this link. Check your connection and share again.</string>
 
     <!-- notifications -->
     <string name="notification_service_ticker">Mock my GPS: running</string>

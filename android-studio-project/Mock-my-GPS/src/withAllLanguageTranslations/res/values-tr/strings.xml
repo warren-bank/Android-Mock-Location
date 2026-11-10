@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Başlık:</string>
     <string name="edit_bookmark_field_2">Konum:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Genel</string>
+    <string name="PreferencesActivity_heading_4">Görünüm</string>
+    <string name="PreferencesActivity_heading_5">Dil</string>
     <string name="PreferencesActivity_field_1">Zaman (ms) her güncelleme arasında:</string>
+    <string name="PreferencesActivity_field_8">Diğer uygulamalardan paylaşılan konumları kabul et:\n<small>(Google Haritalar bağlantıları çevrimiçi sorgulanır)</small></string>
     <string name="PreferencesActivity_field_2">Konumun simüle edileceği sayı:\n<small>(0 = açıkça durdurulana kadar devam et)</small></string>
     <string name="PreferencesActivity_field_3">Joystick\'i göster:</string>
     <string name="PreferencesActivity_field_4">Joystick lat/lon artış:</string>
     <string name="PreferencesActivity_field_5">Hedefi sabit konumda tut:</string>
+    <string name="PreferencesActivity_field_6">Tema:</string>
+    <string name="PreferencesActivity_theme_system">Sistemi takip et</string>
+    <string name="PreferencesActivity_theme_light">Açık</string>
+    <string name="PreferencesActivity_theme_dark">Koyu</string>
+    <string name="PreferencesActivity_field_7">Uygulama dili:</string>
+    <string name="PreferencesActivity_language_system_default">Sistemi takip et</string>
     <string name="label_button_start">BAŞLAT</string>
     <string name="label_button_stop">DUR</string>
     <string name="label_button_update">GÜNCELLEME</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Yer imi zaten mevcut \'%s\'.</string>
     <string name="error_missing_required_value">Hata: Gerekli değer eksik</string>
     <string name="error_add_bookmarkitem">Hata: Yeni yer imi eklenemedi</string>
+    <string name="share_progress_lookup">Google Haritalar bağlantısı okunuyor…</string>
+    <string name="share_error_no_location">Paylaşılan metinde konum bulunamadı.</string>
+    <string name="share_error_no_coordinates">Bu Google Haritalar bağlantısında koordinat yok. Raptiye bırakmak için haritaya uzun basın, ardından raptiyeyi paylaşın.</string>
+    <string name="share_error_unreachable">Bu bağlantıyı okumak için Google Haritalar\'a ulaşılamadı. Bağlantınızı kontrol edip yeniden paylaşın.</string>
     <string name="notification_service_ticker">Benimle dalga geç GPS: koşmak</string>
     <string name="notification_service_content_line1">Benimle dalga geç GPS</string>
     <!--

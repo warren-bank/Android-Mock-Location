@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">عنوان:</string>
     <string name="edit_bookmark_field_2">مقام:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">عمومی</string>
+    <string name="PreferencesActivity_heading_4">ظاہری شکل</string>
+    <string name="PreferencesActivity_heading_5">زبان</string>
     <string name="PreferencesActivity_field_1">وقت (ms) ہر اپ ڈیٹ کے درمیان:</string>
+    <string name="PreferencesActivity_field_8">دوسری ایپس سے شیئر کیے گئے مقامات قبول کریں:\n<small>(Google Maps لنکس آن لائن دیکھے جاتے ہیں)</small></string>
     <string name="PreferencesActivity_field_2">مقامی جگہ کی نقالی کرنے کی تعداد:\n<small>(0 = جب تک واضح طور پر روکا نہ جائے جاری رکھیں)</small></string>
     <string name="PreferencesActivity_field_3">جوائسٹک دکھائیں:</string>
     <string name="PreferencesActivity_field_4">جوائسٹک lat/lon اضافہ:</string>
     <string name="PreferencesActivity_field_5">مقصد کو ایک مقررہ مقام کے طور پر برقرار رکھیں:</string>
+    <string name="PreferencesActivity_field_6">تھیم:</string>
+    <string name="PreferencesActivity_theme_system">سسٹم کے مطابق</string>
+    <string name="PreferencesActivity_theme_light">ہلکی</string>
+    <string name="PreferencesActivity_theme_dark">گہری</string>
+    <string name="PreferencesActivity_field_7">ایپ کی زبان:</string>
+    <string name="PreferencesActivity_language_system_default">سسٹم کے مطابق</string>
     <string name="label_button_start">شروع کریں</string>
     <string name="label_button_stop">رکیں</string>
     <string name="label_button_update">اپ ڈیٹ</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">بُک مارک پہلے ہی موجود ہے۔ \'%s\'.</string>
     <string name="error_missing_required_value">غلطی: مطلوبہ قدر غائب ہے</string>
     <string name="error_add_bookmarkitem">غلطی: نیا بک مارک شامل نہیں کیا جا سکا۔</string>
+    <string name="share_progress_lookup">Google Maps لنک پڑھا جا رہا ہے…</string>
+    <string name="share_error_no_location">شیئر کیے گئے متن میں کوئی مقام نہیں ملا۔</string>
+    <string name="share_error_no_coordinates">اس Google Maps لنک میں کوئی کوآرڈینیٹس نہیں ہیں۔ پن لگانے کے لیے نقشے کو دیر تک دبائیں، پھر پن شیئر کریں۔</string>
+    <string name="share_error_unreachable">یہ لنک پڑھنے کے لیے Google Maps تک رسائی نہیں ہو سکی۔ اپنا کنکشن چیک کریں اور دوبارہ شیئر کریں۔</string>
     <string name="notification_service_ticker">میری نقل اڑاؤ GPS: دوڑنا</string>
     <string name="notification_service_content_line1">میری نقل اڑاؤ GPS</string>
     <!--

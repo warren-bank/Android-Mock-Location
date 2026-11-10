@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Наслов:</string>
     <string name="edit_bookmark_field_2">Локација:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Опште</string>
+    <string name="PreferencesActivity_heading_4">Изглед</string>
+    <string name="PreferencesActivity_heading_5">Језик</string>
     <string name="PreferencesActivity_field_1">Време (ms) између сваког ажурирања:</string>
+    <string name="PreferencesActivity_field_8">Прихвати локације подељене из других апликација:\n<small>(Google Maps линкови се проверавају на мрежи)</small></string>
     <string name="PreferencesActivity_field_2">Број пута да симулирате локацију:\n<small>(0 = настави док не будеш експлицитно заустављен)</small></string>
     <string name="PreferencesActivity_field_3">Прикажи џојстик:</string>
     <string name="PreferencesActivity_field_4">Џојстик lat/lon повећање:</string>
     <string name="PreferencesActivity_field_5">Држите одредиште као фиксну позицију:</string>
+    <string name="PreferencesActivity_field_6">Тема:</string>
+    <string name="PreferencesActivity_theme_system">Прати систем</string>
+    <string name="PreferencesActivity_theme_light">Светла</string>
+    <string name="PreferencesActivity_theme_dark">Тамна</string>
+    <string name="PreferencesActivity_field_7">Језик апликације:</string>
+    <string name="PreferencesActivity_language_system_default">Прати систем</string>
     <string name="label_button_start">СТАРТ</string>
     <string name="label_button_stop">СТОП</string>
     <string name="label_button_update">АЖУРИРАЊЕ</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Ознака већ постоји \'%s\'.</string>
     <string name="error_missing_required_value">Грешка: Фали вредност обавезног поља</string>
     <string name="error_add_bookmarkitem">Грешка: није могуће додати нову ознаку</string>
+    <string name="share_progress_lookup">Читање Google Maps линка…</string>
+    <string name="share_error_no_location">У подељеном тексту није пронађена локација.</string>
+    <string name="share_error_no_coordinates">Овај Google Maps линк нема координате. Дуго притисните мапу да поставите чиоду, па поделите чиоду.</string>
+    <string name="share_error_unreachable">Није могуће приступити Google Maps-у ради читања овог линка. Проверите везу и поделите поново.</string>
     <string name="notification_service_ticker">Имитирај моје GPS: трчање</string>
     <string name="notification_service_content_line1">Имитирај моје GPS</string>
     <!--

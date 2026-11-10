@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Nhlokomhaka:</string>
     <string name="edit_bookmark_field_2">Ndhawu:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Hinkwaswo</string>
+    <string name="PreferencesActivity_heading_4">Xivumbeko</string>
+    <string name="PreferencesActivity_heading_5">Ririmi</string>
     <string name="PreferencesActivity_field_1">Nkarhi (ms) exikarhi ka ku pfuxeta kun\'wana na kun\'wana:</string>
+    <string name="PreferencesActivity_field_8">Amukela tindhawu leti avelaniweke ku suka eka ti-app tin\'wana:\n<small>(swihlanganisi swa Google Maps swi laviwa eka inthanete)</small></string>
     <string name="PreferencesActivity_field_2">Ntsengo wa minkarhi yo teka ndhawu:\n<small>(0 = ya emahlweni ku fikela loko u yimisiwa hi ku kongoma)</small></string>
     <string name="PreferencesActivity_field_3">Kombisa joystick:</string>
     <string name="PreferencesActivity_field_4">Joyistiki lat/lon Ku engetela:</string>
     <string name="PreferencesActivity_field_5">Hlayisa xikongomelo xi ri ndhawu leyi nga cinciwiki:</string>
+    <string name="PreferencesActivity_field_6">Nhloko:</string>
+    <string name="PreferencesActivity_theme_system">Landzelela sisiteme</string>
+    <string name="PreferencesActivity_theme_light">Ku vonakala</string>
+    <string name="PreferencesActivity_theme_dark">Munyama</string>
+    <string name="PreferencesActivity_field_7">Ririmi ra app:</string>
+    <string name="PreferencesActivity_language_system_default">Landzelela sisiteme</string>
     <string name="label_button_start">Sungula</string>
     <string name="label_button_stop">Yima</string>
     <string name="label_button_update">Xiviko lexintshwa</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Xikombiso xa tluka se xi kona \'%s\'.</string>
     <string name="error_missing_required_value">Xihoxo: Ku pfumaleka ka nkoka lowu lavekaka</string>
     <string name="error_add_bookmarkitem">Xihoxo: A swi kotekanga ku engetela bookmark leyintshwa</string>
+    <string name="share_progress_lookup">Ku hlaya xihlanganisi xa Google Maps…</string>
+    <string name="share_error_no_location">A ku kumiwanga ndhawu eka matsalwa lama avelaniweke.</string>
+    <string name="share_error_no_coordinates">Xihlanganisi lexi xa Google Maps a xi na tikhoodineti. Tshikelela mepe nkarhi wo leha ku veka phini, kutani u avelana phini.</string>
+    <string name="share_error_unreachable">A swi kotekanga ku fikelela Google Maps ku hlaya xihlanganisi lexi. Kambela vuhlanganisi bya wena kutani u avelana nakambe.</string>
     <string name="notification_service_ticker">Tshaha ya mina GPS: ku tsutsuma</string>
     <string name="notification_service_content_line1">Tshaha ya mina GPS</string>
     <!--

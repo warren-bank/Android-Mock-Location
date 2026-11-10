@@ -7,8 +7,12 @@ import com.github.warren_bank.mock_location.data_model.SharedPrefs;
 import com.github.warren_bank.mock_location.service.LocationService;
 import com.github.warren_bank.mock_location.ui.interfaces.RuntimePermissionsListener;
 import com.github.warren_bank.mock_location.ui.interfaces.RuntimePermissionsRequester;
+import com.github.warren_bank.mock_location.util.LocaleUtils;
+import com.github.warren_bank.mock_location.util.ThemeUtils;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -32,8 +36,17 @@ public class TripSimulationActivity extends Activity implements RuntimePermissio
     private short diff_fields = 0;
 
     @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(base);
+        ThemeUtils.applyUiModeOverride(TripSimulationActivity.this, base);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // embedded in the tabs of "MainActivity", which restarts it when the theme changes
+        ThemeUtils.applyTheme(TripSimulationActivity.this);
         super.onCreate(savedInstanceState);
+        LocaleUtils.apply(this);
         setContentView(R.layout.activity_trip_simulation);
 
         originalLocOrigin      = SharedPrefs.getTripOrigin(TripSimulationActivity.this);
@@ -247,5 +260,13 @@ public class TripSimulationActivity extends Activity implements RuntimePermissio
 
         button_toggle_state.setText(R.string.label_button_stop);
         button_update.setVisibility(View.GONE);
+    }
+
+    // the activities handle "locale" config changes themselves (see AndroidManifest.xml),
+    // which resets their Resources to the system language below Android 13
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        LocaleUtils.apply(this);
     }
 }

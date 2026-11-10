@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- custom colors that differ between "app_theme_light" and "app_theme_dark" -->
+    <attr name="listview_background"                 format="reference|color" />
+    <attr name="listview_divider"                    format="reference|color" />
+    <attr name="section_heading_textview_background" format="reference|color" />
+    <attr name="section_heading_textview_color"      format="reference|color" />
+    <attr name="input_label_textview_background"     format="reference|color" />
+    <attr name="input_label_textview_color"          format="reference|color" />
+
+</resources>

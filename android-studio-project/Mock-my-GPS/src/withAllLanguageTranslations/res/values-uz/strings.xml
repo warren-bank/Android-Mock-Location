@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Sarlavha:</string>
     <string name="edit_bookmark_field_2">Joylashuv:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Umumiy</string>
+    <string name="PreferencesActivity_heading_4">Ko‘rinish</string>
+    <string name="PreferencesActivity_heading_5">Til</string>
     <string name="PreferencesActivity_field_1">Vaqt (ms) har bir yangilanish orasida:</string>
+    <string name="PreferencesActivity_field_8">Boshqa ilovalardan ulashilgan joylarni qabul qilish:\n<small>(Google Maps havolalari onlayn tekshiriladi)</small></string>
     <string name="PreferencesActivity_field_2">Joyni soxtalashtirish soni:\n<small>(0 = aniq to\'xtatilguncha davom ettirish)</small></string>
     <string name="PreferencesActivity_field_3">Joystikni ko\'rsating:</string>
     <string name="PreferencesActivity_field_4">Joystik lat/lon ortish:</string>
     <string name="PreferencesActivity_field_5">Manzilni doimiy pozitsiya sifatida saqlang:</string>
+    <string name="PreferencesActivity_field_6">Mavzu:</string>
+    <string name="PreferencesActivity_theme_system">Tizim bo‘yicha</string>
+    <string name="PreferencesActivity_theme_light">Yorug‘</string>
+    <string name="PreferencesActivity_theme_dark">Qorong‘i</string>
+    <string name="PreferencesActivity_field_7">Ilova tili:</string>
+    <string name="PreferencesActivity_language_system_default">Tizim bo‘yicha</string>
     <string name="label_button_start">Boshlang</string>
     <string name="label_button_stop">To\'xtang</string>
     <string name="label_button_update">Yangilash</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Belgi allaqachon mavjud \'%s\'.</string>
     <string name="error_missing_required_value">Xato: Majburiy qiymat yetishmayapti</string>
     <string name="error_add_bookmarkitem">Xato: Yangi belgi qo\'shib bo\'lmadi</string>
+    <string name="share_progress_lookup">Google Maps havolasi o‘qilmoqda…</string>
+    <string name="share_error_no_location">Ulashilgan matnda joy topilmadi.</string>
+    <string name="share_error_no_coordinates">Bu Google Maps havolasida koordinatalar yo‘q. Belgi qo‘yish uchun xaritani bosib turing, so‘ng belgini ulashing.</string>
+    <string name="share_error_unreachable">Havolani o‘qish uchun Google Maps bilan bog‘lanib bo‘lmadi. Ulanishni tekshirib, qayta ulashing.</string>
     <string name="notification_service_ticker">Meni masxara qil GPS: yugurish</string>
     <string name="notification_service_content_line1">Meni masxara qil GPS</string>
     <!--

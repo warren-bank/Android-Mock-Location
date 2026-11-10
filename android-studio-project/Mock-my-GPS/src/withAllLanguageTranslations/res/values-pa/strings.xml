@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">ਸਿਰਲੇਖ:</string>
     <string name="edit_bookmark_field_2">ਸਥਾਨ:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">ਆਮ</string>
+    <string name="PreferencesActivity_heading_4">ਦਿੱਖ</string>
+    <string name="PreferencesActivity_heading_5">ਭਾਸ਼ਾ</string>
     <string name="PreferencesActivity_field_1">ਸਮਾਂ (ms) ਹਰ ਅੱਪਡੇਟ ਦੇ ਵਿਚਕਾਰ:</string>
+    <string name="PreferencesActivity_field_8">ਹੋਰ ਐਪਾਂ ਤੋਂ ਸਾਂਝੇ ਕੀਤੇ ਟਿਕਾਣੇ ਸਵੀਕਾਰ ਕਰੋ:\n<small>(Google Maps ਲਿੰਕ ਆਨਲਾਈਨ ਦੇਖੇ ਜਾਂਦੇ ਹਨ)</small></string>
     <string name="PreferencesActivity_field_2">ਲੋਕੇਸ਼ਨ ਮਾਕ ਕਰਨ ਦੀ ਗਿਣਤੀ:\n<small>(0 = ਜਦ ਤੱਕ ਸਪੱਸ਼ਟ ਤੌਰ \'ਤੇ ਰੋਕਿਆ ਨਾ ਜਾਵੇ, ਉਦੋਂ ਤੱਕ ਜਾਰੀ ਰੱਖੋ)</small></string>
     <string name="PreferencesActivity_field_3">ਜੌਇਸਟਿਕ ਦਿਖਾਓ:</string>
     <string name="PreferencesActivity_field_4">ਜੋਇਸਟਿਕ lat/lon ਵਿਵਾਧਾਰ:</string>
     <string name="PreferencesActivity_field_5">ਮੰਜ਼ਿਲ ਨੂੰ ਇੱਕ ਨਿਸ਼ਚਿਤ ਸਥਿਤੀ ਵਜੋਂ ਰੱਖੋ:</string>
+    <string name="PreferencesActivity_field_6">ਥੀਮ:</string>
+    <string name="PreferencesActivity_theme_system">ਸਿਸਟਮ ਅਨੁਸਾਰ</string>
+    <string name="PreferencesActivity_theme_light">ਹਲਕਾ</string>
+    <string name="PreferencesActivity_theme_dark">ਗੂੜ੍ਹਾ</string>
+    <string name="PreferencesActivity_field_7">ਐਪ ਦੀ ਭਾਸ਼ਾ:</string>
+    <string name="PreferencesActivity_language_system_default">ਸਿਸਟਮ ਅਨੁਸਾਰ</string>
     <string name="label_button_start">ਸ਼ੁਰੂ ਕਰੋ</string>
     <string name="label_button_stop">ਰੁਕੋ</string>
     <string name="label_button_update">ਅੱਪਡੇਟ</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">ਬੁੱਕਮਾਰਕ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ \'%s\'.</string>
     <string name="error_missing_required_value">ਗਲਤੀ: ਲੋੜੀਂਦੀ ਕੀਮਤ ਗਾਇਬ ਹੈ</string>
     <string name="error_add_bookmarkitem">ਗਲਤੀ: ਨਵਾਂ ਬੁੱਕਮਾਰਕ ਨਹੀਂ ਜੋੜਿਆ ਜਾ ਸਕਿਆ।</string>
+    <string name="share_progress_lookup">Google Maps ਲਿੰਕ ਪੜ੍ਹਿਆ ਜਾ ਰਿਹਾ ਹੈ…</string>
+    <string name="share_error_no_location">ਸਾਂਝੇ ਕੀਤੇ ਟੈਕਸਟ ਵਿੱਚ ਕੋਈ ਟਿਕਾਣਾ ਨਹੀਂ ਮਿਲਿਆ।</string>
+    <string name="share_error_no_coordinates">ਇਸ Google Maps ਲਿੰਕ ਵਿੱਚ ਕੋਈ ਕੋਆਰਡੀਨੇਟ ਨਹੀਂ ਹਨ। ਪਿੰਨ ਲਗਾਉਣ ਲਈ ਨਕਸ਼ੇ ਨੂੰ ਦੇਰ ਤੱਕ ਦਬਾਓ, ਫਿਰ ਪਿੰਨ ਸਾਂਝਾ ਕਰੋ।</string>
+    <string name="share_error_unreachable">ਇਹ ਲਿੰਕ ਪੜ੍ਹਨ ਲਈ Google Maps ਤੱਕ ਨਹੀਂ ਪਹੁੰਚ ਸਕੇ। ਆਪਣਾ ਕਨੈਕਸ਼ਨ ਜਾਂਚੋ ਅਤੇ ਦੁਬਾਰਾ ਸਾਂਝਾ ਕਰੋ।</string>
     <string name="notification_service_ticker">ਮੇਰੇ ਦਾ ਮਜ਼ਾਕ ਉਡਾਓ GPS: ਦੌੜਨਾ</string>
     <string name="notification_service_content_line1">ਮੇਰੇ ਦਾ ਮਜ਼ਾਕ ਉਡਾਓ GPS</string>
     <!--

@@ -585,6 +585,59 @@ public final class SharedPrefs {
         return getInt(sharedPreferences, context, pref_key_id, defValue);
     }
 
+    // --------------------------------------------------------------------------------------------- putThemeMode()
+
+    // values: ThemeUtils.MODE_SYSTEM, ThemeUtils.MODE_LIGHT, ThemeUtils.MODE_DARK
+
+    public static boolean putThemeMode(Context context, int value) {
+        SharedPreferences.Editor editor = getSharedPreferencesEditor(context);
+        return putThemeMode(editor, context, value, true);
+    }
+
+    public static boolean putThemeMode(SharedPreferences.Editor editor, Context context, int value, boolean flush) {
+        int pref_key_id = R.string.pref_theme_mode;
+        return putInt(editor, context, pref_key_id, value, flush);
+    }
+
+    // --------------------------------------------------------------------------------------------- getThemeMode()
+
+    public static int getThemeMode(Context context) {
+        SharedPreferences sharedPreferences = getSharedPreferences(context);
+        return getThemeMode(sharedPreferences, context);
+    }
+
+    public static int getThemeMode(SharedPreferences sharedPreferences, Context context) {
+        int pref_key_id = R.string.pref_theme_mode;
+        int defValue = 0;  // ThemeUtils.MODE_SYSTEM
+        return getInt(sharedPreferences, context, pref_key_id, defValue);
+    }
+
+    // --------------------------------------------------------------------------------------------- putLanguageTag()
+
+    // only used below Android 13; see LocaleUtils
+    public static boolean putLanguageTag(Context context, String value) {
+        SharedPreferences.Editor editor = getSharedPreferencesEditor(context);
+        return putLanguageTag(editor, context, value, true);
+    }
+
+    public static boolean putLanguageTag(SharedPreferences.Editor editor, Context context, String value, boolean flush) {
+        int pref_key_id = R.string.pref_language_tag;
+        return putString(editor, context, pref_key_id, value, flush);
+    }
+
+    // --------------------------------------------------------------------------------------------- getLanguageTag()
+
+    public static String getLanguageTag(Context context) {
+        SharedPreferences sharedPreferences = getSharedPreferences(context);
+        return getLanguageTag(sharedPreferences, context);
+    }
+
+    public static String getLanguageTag(SharedPreferences sharedPreferences, Context context) {
+        int pref_key_id = R.string.pref_language_tag;
+        String defValue = "";
+        return getString(sharedPreferences, context, pref_key_id, defValue);
+    }
+
     // ---------------------------------------------------------------------------------------------
 
 }

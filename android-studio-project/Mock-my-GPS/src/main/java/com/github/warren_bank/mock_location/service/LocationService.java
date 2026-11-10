@@ -4,6 +4,7 @@ import com.github.warren_bank.mock_location.R;
 import com.github.warren_bank.mock_location.data_model.LocPoint;
 import com.github.warren_bank.mock_location.service.looper.LocationThreadManager;
 import com.github.warren_bank.mock_location.ui.MainActivity;
+import com.github.warren_bank.mock_location.util.LocaleUtils;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -35,6 +36,8 @@ public class LocationService extends Service {
 
     @Override
     public void onCreate() {
+        LocaleUtils.apply(LocationService.this);
+
         LTM = LocationThreadManager.get();
         LTM.init(LocationService.this);
 

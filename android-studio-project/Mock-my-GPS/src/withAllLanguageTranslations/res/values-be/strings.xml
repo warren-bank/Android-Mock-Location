@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Назва:</string>
     <string name="edit_bookmark_field_2">Месцазнаходжанне:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Агульнае</string>
+    <string name="PreferencesActivity_heading_4">Выгляд</string>
+    <string name="PreferencesActivity_heading_5">Мова</string>
     <string name="PreferencesActivity_field_1">Час (ms) паміж кожным абнаўленнем:</string>
+    <string name="PreferencesActivity_field_8">Прымаць месцы, якімі падзяліліся з іншых праграм:\n<small>(спасылкі Google Maps правяраюцца ў інтэрнэце)</small></string>
     <string name="PreferencesActivity_field_2">Колькасць разоў для макетавання размяшчэння:\n<small>(0 = працягваць, пакуль не будзе яўна спынена)</small></string>
     <string name="PreferencesActivity_field_3">Паказаць джойсцік:</string>
     <string name="PreferencesActivity_field_4">Джойсцік lat/lon павелічэнне:</string>
     <string name="PreferencesActivity_field_5">Зафіксаваць пункт прызначэння як фіксаванае становішча:</string>
+    <string name="PreferencesActivity_field_6">Тэма:</string>
+    <string name="PreferencesActivity_theme_system">Як у сістэме</string>
+    <string name="PreferencesActivity_theme_light">Светлая</string>
+    <string name="PreferencesActivity_theme_dark">Цёмная</string>
+    <string name="PreferencesActivity_field_7">Мова праграмы:</string>
+    <string name="PreferencesActivity_language_system_default">Як у сістэме</string>
     <string name="label_button_start">ПАЧАЦЬ</string>
     <string name="label_button_stop">СТОП</string>
     <string name="label_button_update">АБНАЎЛЕННЕ</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Закладка ўжо існуе \'%s\'.</string>
     <string name="error_missing_required_value">Памылка: адсутнічае абавязковае значэнне</string>
     <string name="error_add_bookmarkitem">Памылка: не ўдалося дадаць новую закладку</string>
+    <string name="share_progress_lookup">Чытанне спасылкі Google Maps…</string>
+    <string name="share_error_no_location">У тэксце, якім падзяліліся, месца не знойдзена.</string>
+    <string name="share_error_no_coordinates">У гэтай спасылцы Google Maps няма каардынат. Націсніце і ўтрымлівайце карту, каб паставіць метку, а потым падзяліцеся меткай.</string>
+    <string name="share_error_unreachable">Не ўдалося звязацца з Google Maps, каб прачытаць гэту спасылку. Праверце злучэнне і падзяліцеся зноў.</string>
     <string name="notification_service_ticker">Пасмеяцца з майго GPS: бег</string>
     <string name="notification_service_content_line1">Пасмеяцца з майго GPS</string>
     <!--

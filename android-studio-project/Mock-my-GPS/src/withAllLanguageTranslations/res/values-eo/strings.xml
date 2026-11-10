@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Titolo:</string>
     <string name="edit_bookmark_field_2">Loko:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Ĝenerala</string>
+    <string name="PreferencesActivity_heading_4">Aspekto</string>
+    <string name="PreferencesActivity_heading_5">Lingvo</string>
     <string name="PreferencesActivity_field_1">Tempo (ms) inter ĉiu ĝisdatigo:</string>
+    <string name="PreferencesActivity_field_8">Akcepti lokojn kunhavigitajn el aliaj aplikaĵoj:\n<small>(Google Maps-ligiloj estas serĉataj enrete)</small></string>
     <string name="PreferencesActivity_field_2">Nombro da fojoj por ŝajnigi lokon:\n<small>(0 = daŭrigu ĝis eksplicite haltigita)</small></string>
     <string name="PreferencesActivity_field_3">Montri stangregilon:</string>
     <string name="PreferencesActivity_field_4">Ĝojstango lat/lon plialtigo:</string>
     <string name="PreferencesActivity_field_5">Tenu la celon kiel fiksan pozicion:</string>
+    <string name="PreferencesActivity_field_6">Etoso:</string>
+    <string name="PreferencesActivity_theme_system">Sekvi la sistemon</string>
+    <string name="PreferencesActivity_theme_light">Hela</string>
+    <string name="PreferencesActivity_theme_dark">Malhela</string>
+    <string name="PreferencesActivity_field_7">Lingvo de la aplikaĵo:</string>
+    <string name="PreferencesActivity_language_system_default">Sekvi la sistemon</string>
     <string name="label_button_start">Komenco</string>
     <string name="label_button_stop">ĈESU</string>
     <string name="label_button_update">ĜISDATIGO</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Legosigno jam ekzistas \'%s\'.</string>
     <string name="error_missing_required_value">Eraro: Mankas deviga valoro</string>
     <string name="error_add_bookmarkitem">Eraro: Ne eblis aldoni novan legosignon.</string>
+    <string name="share_progress_lookup">Legante Google Maps-ligilon…</string>
+    <string name="share_error_no_location">Neniu loko trovita en la kunhavigita teksto.</string>
+    <string name="share_error_no_coordinates">Ĉi tiu Google Maps-ligilo ne havas koordinatojn. Longe premu la mapon por meti pinglon, poste kunhavigu la pinglon.</string>
+    <string name="share_error_unreachable">Ne eblis atingi Google Maps por legi ĉi tiun ligilon. Kontrolu vian konekton kaj kunhavigu denove.</string>
     <string name="notification_service_ticker">Parodiu mian GPS: kurado</string>
     <string name="notification_service_content_line1">Parodiu mian GPS</string>
     <!--

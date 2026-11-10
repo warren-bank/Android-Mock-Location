@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">शीर्षकम्:</string>
     <string name="edit_bookmark_field_2">स्थानम्:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">सामान्यः</string>
+    <string name="PreferencesActivity_heading_4">रूपम्</string>
+    <string name="PreferencesActivity_heading_5">भाषा</string>
     <string name="PreferencesActivity_field_1">कालः (ms) प्रत्येक अद्यतनान्तरम्:</string>
+    <string name="PreferencesActivity_field_8">अन्येभ्यः अनुप्रयोगेभ्यः साझाकृतानि स्थानानि स्वीकुरु:\n<small>(Google Maps सम्बन्धाः अन्तर्जाले अन्विष्यन्ते)</small></string>
     <string name="PreferencesActivity_field_2">स्थानविनोदनसंख्या:\n<small>(शून्यः = यावत् स्पष्टतया विरामः न दत्तः तावत् अनुवर्तस्व।)</small></string>
     <string name="PreferencesActivity_field_3">आनन्ददण्डं प्रदर्शय:</string>
     <string name="PreferencesActivity_field_4">आनन्ददण्डः lat/lon वृद्धिः:</string>
     <string name="PreferencesActivity_field_5">गन्तव्यं स्थिरस्थानरूपेण धारयतु।:</string>
+    <string name="PreferencesActivity_field_6">वर्णविन्यासः:</string>
+    <string name="PreferencesActivity_theme_system">तन्त्रम् अनुसरतु</string>
+    <string name="PreferencesActivity_theme_light">प्रकाशः</string>
+    <string name="PreferencesActivity_theme_dark">अन्धकारः</string>
+    <string name="PreferencesActivity_field_7">अनुप्रयोगस्य भाषा:</string>
+    <string name="PreferencesActivity_language_system_default">तन्त्रम् अनुसरतु</string>
     <string name="label_button_start">आरभ्यताम्</string>
     <string name="label_button_stop">विरामः</string>
     <string name="label_button_update">नवीनीकरणम्</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">चिह्नः पूर्वमेव अस्ति। \'%s\'.</string>
     <string name="error_missing_required_value">त्रुटि: अनिवार्यमूल्यस्य अभावः</string>
     <string name="error_add_bookmarkitem">दोषः: नूतनं चिह्नकं योजयितुं न शक्यते।</string>
+    <string name="share_progress_lookup">Google Maps सम्बन्धः पठ्यते…</string>
+    <string name="share_error_no_location">साझाकृते पाठे किमपि स्थानं न लब्धम्।</string>
+    <string name="share_error_no_coordinates">अस्मिन् Google Maps सम्बन्धे निर्देशाङ्काः न सन्ति। कीलं स्थापयितुं मानचित्रं दीर्घं नुद, ततः कीलं साझाकुरु।</string>
+    <string name="share_error_unreachable">एतं सम्बन्धं पठितुं Google Maps प्राप्तुं न शक्तम्। संयोजनं परीक्ष्य पुनः साझाकुरु।</string>
     <string name="notification_service_ticker">मम उपहासय GPS: धावन्</string>
     <string name="notification_service_content_line1">मम उपहासय GPS</string>
     <!--

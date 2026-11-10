@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">العنوان:</string>
     <string name="edit_bookmark_field_2">الموقع:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">عام</string>
+    <string name="PreferencesActivity_heading_4">المظهر</string>
+    <string name="PreferencesActivity_heading_5">اللغة</string>
     <string name="PreferencesActivity_field_1">الوقت (ms) بين كل تحديث:</string>
+    <string name="PreferencesActivity_field_8">قبول المواقع المشاركة من تطبيقات أخرى:\n<small>(يتم البحث عن روابط خرائط Google عبر الإنترنت)</small></string>
     <string name="PreferencesActivity_field_2">عدد مرات محاكاة الموقع:\n<small>(0 = الاستمرار حتى يتم إيقاف العملية صراحةً)</small></string>
     <string name="PreferencesActivity_field_3">إظهار عصا التحكم:</string>
     <string name="PreferencesActivity_field_4">عصا التحكم lat/lon زيادة:</string>
     <string name="PreferencesActivity_field_5">تثبيت الوجهة في مكان ثابت:</string>
+    <string name="PreferencesActivity_field_6">السمة:</string>
+    <string name="PreferencesActivity_theme_system">اتباع النظام</string>
+    <string name="PreferencesActivity_theme_light">فاتح</string>
+    <string name="PreferencesActivity_theme_dark">داكن</string>
+    <string name="PreferencesActivity_field_7">لغة التطبيق:</string>
+    <string name="PreferencesActivity_language_system_default">اتباع النظام</string>
     <string name="label_button_start">ابدأ</string>
     <string name="label_button_stop">توقف</string>
     <string name="label_button_update">تحديث</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">العلامة موجودة بالفعل \'%s\'.</string>
     <string name="error_missing_required_value">خطأ: القيمة المطلوبة غير موجودة</string>
     <string name="error_add_bookmarkitem">خطأ: تعذر إضافة إشارة مرجعية جديدة</string>
+    <string name="share_progress_lookup">جارٍ قراءة رابط خرائط Google…</string>
+    <string name="share_error_no_location">لم يتم العثور على موقع في النص المشارك.</string>
+    <string name="share_error_no_coordinates">لا يحتوي رابط خرائط Google هذا على إحداثيات. اضغط مطولاً على الخريطة لوضع دبوس، ثم شارك الدبوس.</string>
+    <string name="share_error_unreachable">تعذّر الوصول إلى خرائط Google لقراءة هذا الرابط. تحقق من اتصالك وشارك مرة أخرى.</string>
     <string name="notification_service_ticker">اسخر مني GPS: الجري</string>
     <string name="notification_service_content_line1">اسخر مني GPS</string>
     <!--

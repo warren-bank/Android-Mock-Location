@@ -14,8 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:dividerHeight="1dp"
-        android:divider="@color/listview_divider"
+        android:divider="?attr/listview_divider"
         android:scrollbars="none"
-        android:background="@color/listview_background" />
+        android:background="?attr/listview_background" />
 
 </LinearLayout>

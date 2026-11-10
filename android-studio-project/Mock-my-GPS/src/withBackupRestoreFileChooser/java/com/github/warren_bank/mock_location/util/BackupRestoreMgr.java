@@ -67,6 +67,7 @@ public class BackupRestoreMgr extends AbstractBackupRestoreMgr {
       .withBuilder()
       .withActivity(activity)
       .withRequestCode(requestCode)
+      .withTheme(R.style.app_theme_light)  // the picker's layout is always light
       .withTitle(activity.getString(R.string.app_folderpicker_json_export_filepath_title))
       .withDescription(activity.getString(R.string.app_folderpicker_json_export_filepath_description))
       .withNewFilePrompt(activity.getString(R.string.app_folderpicker_json_export_filepath_newfile_prompt))
@@ -80,6 +81,7 @@ public class BackupRestoreMgr extends AbstractBackupRestoreMgr {
       .withBuilder()
       .withActivity(activity)
       .withRequestCode(requestCode)
+      .withTheme(R.style.app_theme_light)  // the picker's layout is always light
       .withTitle(activity.getString(R.string.app_folderpicker_json_import_filepath_title))
       .withDescription(activity.getString(R.string.app_folderpicker_json_import_filepath_description))
       .withFilePicker(true)

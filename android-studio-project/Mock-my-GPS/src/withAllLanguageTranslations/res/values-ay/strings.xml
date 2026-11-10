@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Suti:</string>
     <string name="edit_bookmark_field_2">Kawki:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Taqpachani</string>
+    <string name="PreferencesActivity_heading_4">Uñnaqa</string>
+    <string name="PreferencesActivity_heading_5">Aru</string>
     <string name="PreferencesActivity_field_1">Pacha (ms) Sapa machaqaptäwi taypin:</string>
+    <string name="PreferencesActivity_field_8">Yaqha aplicacionanakat uñt\'ayat chiqanak katuqaña:\n<small>(Google Maps enlaces internet tuqi thaqhatawa)</small></string>
     <string name="PreferencesActivity_field_2">Qawqha kuti chiqawsa k\'añaskakiña:\n<small>(0 = qhananchata sayt\'ayatañkama sarantaskakiña)</small></string>
     <string name="PreferencesActivity_field_3">Joystick uñacht\'ayaña:</string>
     <string name="PreferencesActivity_field_4">Kusisiñ k\'aspi lat/lon Jilxattäwi:</string>
     <string name="PreferencesActivity_field_5">Purïwi chiqax sayt\'ata chiqjam katxaruña:</string>
+    <string name="PreferencesActivity_field_6">Tema:</string>
+    <string name="PreferencesActivity_theme_system">Sistema arkaña</string>
+    <string name="PreferencesActivity_theme_light">Qhana</string>
+    <string name="PreferencesActivity_theme_dark">Ch\'amaka</string>
+    <string name="PreferencesActivity_field_7">App aru:</string>
+    <string name="PreferencesActivity_language_system_default">Sistema arkaña</string>
     <string name="label_button_start">Qalltaña</string>
     <string name="label_button_stop">Sayt\'am</string>
     <string name="label_button_update">Machaqaptäwi</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Imanawi ukax utjxiwa \'%s\'.</string>
     <string name="error_missing_required_value">Pantjasiwi: Mayit chimpu chhaqhata</string>
     <string name="error_add_bookmarkitem">Pantjasiwi: Machaq chimpu janiw yapxatañjamäkänti</string>
+    <string name="share_progress_lookup">Google Maps enlace liyt\'aski…</string>
+    <string name="share_error_no_location">Uñt\'ayat qillqanxa janiw kawki chiqas jikxataskiti.</string>
+    <string name="share_error_no_coordinates">Aka Google Maps enlacexa janiw coordenadanïkiti. Mapa jach\'ata ch\'iqt\'am mä pin uchañataki, ukatsti pin uñt\'ayam.</string>
+    <string name="share_error_unreachable">Janiw Google Maps ukar purkaspati aka enlace liyt\'añataki. Conexión uñakipam ukat wasitat uñt\'ayam.</string>
     <string name="notification_service_ticker">Nayar k\'umiña GPS: T\'ijuña</string>
     <string name="notification_service_content_line1">Nayar k\'umiña GPS</string>
     <!--

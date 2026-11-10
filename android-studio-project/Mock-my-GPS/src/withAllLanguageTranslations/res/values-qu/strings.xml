@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Umancha:</string>
     <string name="edit_bookmark_field_2">Maypi:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Sapsi</string>
+    <string name="PreferencesActivity_heading_4">Rikchay</string>
+    <string name="PreferencesActivity_heading_5">Simi</string>
     <string name="PreferencesActivity_field_1">Pacha (ms) Sapa musuqyachiy chawpipi:</string>
+    <string name="PreferencesActivity_field_8">Huk aplicacionkunamanta rakinakusqa maykunatapas chaskiy:\n<small>(Google Maps t\'inkikunataqa internetpi maskakun)</small></string>
     <string name="PreferencesActivity_field_2">Maypi kasqanta asipayana yupay:\n<small>(0 = sut\'ita hark\'asqa kanankama qatipay)</small></string>
     <string name="PreferencesActivity_field_3">Joystickta rikuchiy:</string>
     <string name="PreferencesActivity_field_4">Kusikuy wanku lat/lon Yapay:</string>
     <string name="PreferencesActivity_field_5">Chayana k\'itita mana kuyuriq k\'itita hina hap\'iy:</string>
+    <string name="PreferencesActivity_field_6">Tema:</string>
+    <string name="PreferencesActivity_theme_system">Sistemata qatiy</string>
+    <string name="PreferencesActivity_theme_light">K\'anchay</string>
+    <string name="PreferencesActivity_theme_dark">Laqha</string>
+    <string name="PreferencesActivity_field_7">App simi:</string>
+    <string name="PreferencesActivity_language_system_default">Sistemata qatiy</string>
     <string name="label_button_start">Qallariy</string>
     <string name="label_button_stop">Sayay</string>
     <string name="label_button_update">Musuqyachiy</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Unanchaqa ñam kachkan. \'%s\'.</string>
     <string name="error_missing_required_value">Pantay: Mañasqa Chanin Chinkasqa</string>
     <string name="error_add_bookmarkitem">Pantay: Manam atikunchu musuq unancha yapayta.</string>
+    <string name="share_progress_lookup">Google Maps t\'inkita ñawirispa…</string>
+    <string name="share_error_no_location">Rakinakusqa qillqapiqa manam ima maypas tarikunchu.</string>
+    <string name="share_error_no_coordinates">Kay Google Maps t\'inkiqa mana coordenadayuqchu. Mapata unayta ñit\'iy huk pinta churanaykipaq, chaymanta pinta rakinakuy.</string>
+    <string name="share_error_unreachable">Manam Google Mapsman chayayta atikurqanchu kay t\'inkita ñawirinapaq. Conexiónniykita qhaway hinaspa kaqmanta rakinakuy.</string>
     <string name="notification_service_ticker">Asipayayniyta GPS: Phaway</string>
     <string name="notification_service_content_line1">Asipayayniyta GPS</string>
     <!--

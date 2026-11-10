@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Titill:</string>
     <string name="edit_bookmark_field_2">Staðsetning:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Almennt</string>
+    <string name="PreferencesActivity_heading_4">Útlit</string>
+    <string name="PreferencesActivity_heading_5">Tungumál</string>
     <string name="PreferencesActivity_field_1">Tími (ms) milli hverrar uppfærslu:</string>
+    <string name="PreferencesActivity_field_8">Taka við staðsetningum sem deilt er úr öðrum forritum:\n<small>(Google Maps-tenglum er flett upp á netinu)</small></string>
     <string name="PreferencesActivity_field_2">Fjöldi sinnum til að herma eftir staðsetningu:\n<small>(0 = halda áfram þar til stöðvað er með skýrum hætti)</small></string>
     <string name="PreferencesActivity_field_3">Sýna stýristöng:</string>
     <string name="PreferencesActivity_field_4">Stýristöng lat/lon aukning:</string>
     <string name="PreferencesActivity_field_5">Halda áfangastað sem fasta stöðu:</string>
+    <string name="PreferencesActivity_field_6">Þema:</string>
+    <string name="PreferencesActivity_theme_system">Fylgja kerfi</string>
+    <string name="PreferencesActivity_theme_light">Ljóst</string>
+    <string name="PreferencesActivity_theme_dark">Dökkt</string>
+    <string name="PreferencesActivity_field_7">Tungumál forrits:</string>
+    <string name="PreferencesActivity_language_system_default">Fylgja kerfi</string>
     <string name="label_button_start">Byrja</string>
     <string name="label_button_stop">STAÐNÁST</string>
     <string name="label_button_update">Uppfærsla</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Bókamerki er þegar til \'%s\'.</string>
     <string name="error_missing_required_value">Villa: Skortir nauðsynlegt gildi</string>
     <string name="error_add_bookmarkitem">Villa: Ekki var hægt að bæta við nýjum bókamerki</string>
+    <string name="share_progress_lookup">Les Google Maps-tengil…</string>
+    <string name="share_error_no_location">Engin staðsetning fannst í textanum sem var deilt.</string>
+    <string name="share_error_no_coordinates">Þessi Google Maps-tengill hefur engin hnit. Haltu fingri á kortinu til að setja pinna og deildu svo pinnanum.</string>
+    <string name="share_error_unreachable">Ekki náðist í Google Maps til að lesa tengilinn. Athugaðu tenginguna og deildu aftur.</string>
     <string name="notification_service_ticker">Gerðu grín að mér GPS: hlaupandi</string>
     <string name="notification_service_content_line1">Gerðu grín að mér GPS</string>
     <!--

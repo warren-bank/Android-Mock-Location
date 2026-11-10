@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Otsikko:</string>
     <string name="edit_bookmark_field_2">Sijainti:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Yleistä</string>
+    <string name="PreferencesActivity_heading_4">Ulkoasu</string>
+    <string name="PreferencesActivity_heading_5">Kieli</string>
     <string name="PreferencesActivity_field_1">Aika (ms) päivitysten välillä:</string>
+    <string name="PreferencesActivity_field_8">Hyväksy muista sovelluksista jaetut sijainnit:\n<small>(Google Maps -linkit haetaan verkosta)</small></string>
     <string name="PreferencesActivity_field_2">Sijainnin simuloinnin toistojen määrä:\n<small>(0 = jatka, kunnes toiminta keskeytetään nimenomaisesti)</small></string>
     <string name="PreferencesActivity_field_3">Näytä ohjaussauva:</string>
     <string name="PreferencesActivity_field_4">Ohjaussauva lat/lon lisäys:</string>
     <string name="PreferencesActivity_field_5">Pidä määränpää kiinteänä:</string>
+    <string name="PreferencesActivity_field_6">Teema:</string>
+    <string name="PreferencesActivity_theme_system">Järjestelmän mukaan</string>
+    <string name="PreferencesActivity_theme_light">Vaalea</string>
+    <string name="PreferencesActivity_theme_dark">Tumma</string>
+    <string name="PreferencesActivity_field_7">Sovelluksen kieli:</string>
+    <string name="PreferencesActivity_language_system_default">Järjestelmän mukaan</string>
     <string name="label_button_start">ALOITA</string>
     <string name="label_button_stop">LOPETA</string>
     <string name="label_button_update">PÄIVITYS</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Kirjanmerkki on jo olemassa \'%s\'.</string>
     <string name="error_missing_required_value">Virhe: Pakollista arvoa puuttuu</string>
     <string name="error_add_bookmarkitem">Virhe: Uutta kirjanmerkkiä ei voitu lisätä</string>
+    <string name="share_progress_lookup">Luetaan Google Maps -linkkiä…</string>
+    <string name="share_error_no_location">Jaetusta tekstistä ei löytynyt sijaintia.</string>
+    <string name="share_error_no_coordinates">Tässä Google Maps -linkissä ei ole koordinaatteja. Pudota nasta painamalla karttaa pitkään ja jaa sitten nasta.</string>
+    <string name="share_error_unreachable">Google Mapsiin ei saatu yhteyttä linkin lukemiseksi. Tarkista yhteys ja jaa uudelleen.</string>
     <string name="notification_service_ticker">Pilkkaa minua GPS: juokseminen</string>
     <string name="notification_service_content_line1">Pilkkaa minua GPS</string>
     <!--

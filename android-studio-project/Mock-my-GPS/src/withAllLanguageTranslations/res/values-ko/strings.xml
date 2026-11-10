@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">제목:</string>
     <string name="edit_bookmark_field_2">위치:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">일반</string>
+    <string name="PreferencesActivity_heading_4">모양</string>
+    <string name="PreferencesActivity_heading_5">언어</string>
     <string name="PreferencesActivity_field_1">시간 (ms) 각 업데이트 사이에:</string>
+    <string name="PreferencesActivity_field_8">다른 앱에서 공유한 위치 받기:\n<small>(Google 지도 링크는 온라인으로 조회됩니다)</small></string>
     <string name="PreferencesActivity_field_2">위치 시뮬레이션 횟수:\n<small>(0 = 명시적으로 중지될 때까지 계속)</small></string>
     <string name="PreferencesActivity_field_3">조이스틱 표시:</string>
     <string name="PreferencesActivity_field_4">조이스틱 lat/lon 증가:</string>
     <string name="PreferencesActivity_field_5">목적지를 고정된 위치로 유지:</string>
+    <string name="PreferencesActivity_field_6">테마:</string>
+    <string name="PreferencesActivity_theme_system">시스템 설정 따르기</string>
+    <string name="PreferencesActivity_theme_light">밝게</string>
+    <string name="PreferencesActivity_theme_dark">어둡게</string>
+    <string name="PreferencesActivity_field_7">앱 언어:</string>
+    <string name="PreferencesActivity_language_system_default">시스템 설정 따르기</string>
     <string name="label_button_start">시작</string>
     <string name="label_button_stop">중지</string>
     <string name="label_button_update">최신 소식</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">이 북마크는 이미 존재합니다 \'%s\'.</string>
     <string name="error_missing_required_value">오류: 필수 값이 누락되었습니다</string>
     <string name="error_add_bookmarkitem">오류: 새 북마크를 추가할 수 없습니다</string>
+    <string name="share_progress_lookup">Google 지도 링크를 읽는 중…</string>
+    <string name="share_error_no_location">공유된 텍스트에서 위치를 찾지 못했습니다.</string>
+    <string name="share_error_no_coordinates">이 Google 지도 링크에는 좌표가 없습니다. 지도를 길게 눌러 핀을 놓은 다음 핀을 공유하세요.</string>
+    <string name="share_error_unreachable">이 링크를 읽기 위해 Google 지도에 연결할 수 없습니다. 연결을 확인하고 다시 공유하세요.</string>
     <string name="notification_service_ticker">나를 비웃어 봐 GPS: 달리기</string>
     <string name="notification_service_content_line1">나를 비웃어 봐 GPS</string>
     <!--

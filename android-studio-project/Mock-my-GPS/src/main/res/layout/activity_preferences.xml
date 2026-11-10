@@ -36,6 +36,17 @@
             android:layout_height="wrap_content"
             android:inputType="number|textMultiLine" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PreferencesActivity_field_8"
+            style="@style/input_label_textview" />
+
+        <CheckBox
+            android:id="@+id/input_share_target_enabled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
         <!-- heading_2 =========================================== -->
         <TextView
             android:layout_width="match_parent"
@@ -95,6 +106,72 @@
             android:id="@+id/input_trip_hold_destination"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
+        <!-- heading_4 =========================================== -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PreferencesActivity_heading_4"
+            style="@style/section_heading_textview" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PreferencesActivity_field_6"
+            style="@style/input_label_textview" />
+
+        <RadioGroup
+            android:id="@+id/input_theme_mode"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/input_theme_mode_system"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PreferencesActivity_theme_system" />
+
+            <RadioButton
+                android:id="@+id/input_theme_mode_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PreferencesActivity_theme_light" />
+
+            <RadioButton
+                android:id="@+id/input_theme_mode_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PreferencesActivity_theme_dark" />
+
+        </RadioGroup>
+
+        <!-- heading_5 =========================================== -->
+        <!-- hidden when res/xml/locales_config.xml lists only one language -->
+        <LinearLayout
+            android:id="@+id/section_language"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PreferencesActivity_heading_5"
+                style="@style/section_heading_textview" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PreferencesActivity_field_7"
+                style="@style/input_label_textview" />
+
+            <Spinner
+                android:id="@+id/input_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
 
         <!-- buttons ============================================= -->
         <LinearLayout

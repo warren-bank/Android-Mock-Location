@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">శీర్షిక:</string>
     <string name="edit_bookmark_field_2">స్థానం:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">సాధారణం</string>
+    <string name="PreferencesActivity_heading_4">రూపం</string>
+    <string name="PreferencesActivity_heading_5">భాష</string>
     <string name="PreferencesActivity_field_1">సమయం (ms) ప్రతి అప్‌డేట్ మధ్య:</string>
+    <string name="PreferencesActivity_field_8">ఇతర యాప్‌ల నుండి షేర్ చేసిన లొకేషన్‌లను ఆమోదించండి:\n<small>(Google Maps లింక్‌లు ఆన్‌లైన్‌లో చూడబడతాయి)</small></string>
     <string name="PreferencesActivity_field_2">స్థానాన్ని అనుకరించే సార్ల సంఖ్య:\n<small>(0 = స్పష్టంగా ఆపే వరకు కొనసాగించండి)</small></string>
     <string name="PreferencesActivity_field_3">జాయిస్టిక్‌ను చూపించు:</string>
     <string name="PreferencesActivity_field_4">జాయ్‌స్టిక్ lat/lon వృద్ధి:</string>
     <string name="PreferencesActivity_field_5">గమ్యాన్ని స్థిరమైన స్థానంగా ఉంచండి:</string>
+    <string name="PreferencesActivity_field_6">థీమ్:</string>
+    <string name="PreferencesActivity_theme_system">సిస్టమ్‌ను అనుసరించు</string>
+    <string name="PreferencesActivity_theme_light">లేత</string>
+    <string name="PreferencesActivity_theme_dark">ముదురు</string>
+    <string name="PreferencesActivity_field_7">యాప్ భాష:</string>
+    <string name="PreferencesActivity_language_system_default">సిస్టమ్‌ను అనుసరించు</string>
     <string name="label_button_start">ప్రారంభించు</string>
     <string name="label_button_stop">ఆపండి</string>
     <string name="label_button_update">అప్‌డేట్</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">బుక్‌మార్క్ ఇప్పటికే ఉంది \'%s\'.</string>
     <string name="error_missing_required_value">లోపం: తప్పనిసరి విలువ లేదు</string>
     <string name="error_add_bookmarkitem">లోపం: కొత్త బుక్‌మార్క్‌ను జోడించలేకపోయింది</string>
+    <string name="share_progress_lookup">Google Maps లింక్ చదువుతోంది…</string>
+    <string name="share_error_no_location">షేర్ చేసిన టెక్స్ట్‌లో లొకేషన్ ఏదీ కనుగొనబడలేదు.</string>
+    <string name="share_error_no_coordinates">ఈ Google Maps లింక్‌లో కోఆర్డినేట్‌లు లేవు. పిన్ వేయడానికి మ్యాప్‌ను ఎక్కువసేపు నొక్కి, ఆపై పిన్‌ను షేర్ చేయండి.</string>
+    <string name="share_error_unreachable">ఈ లింక్ చదవడానికి Google Maps‌ను చేరుకోలేకపోయాము. మీ కనెక్షన్‌ను తనిఖీ చేసి మళ్లీ షేర్ చేయండి.</string>
     <string name="notification_service_ticker">నాను అనుకరించు GPS: నడుస్తున్న</string>
     <string name="notification_service_content_line1">నాను అనుకరించు GPS</string>
     <!--

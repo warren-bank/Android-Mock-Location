@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Sehlooho:</string>
     <string name="edit_bookmark_field_2">Sebaka:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Kakaretso</string>
+    <string name="PreferencesActivity_heading_4">Ponahalo</string>
+    <string name="PreferencesActivity_heading_5">Puo</string>
     <string name="PreferencesActivity_field_1">Nako (ms) pakeng tsa ntjhafatso e \'ngoe le e \'ngoe:</string>
+    <string name="PreferencesActivity_field_8">Amohela dibaka tse arolelanweng ho tswa ho di-app tse ding:\n<small>(dikgokahano tsa Google Maps di batlwa inthaneteng)</small></string>
     <string name="PreferencesActivity_field_2">Palo ea makhetlo a ho qhekella sebaka:\n<small>(0 = tswela pele ho fihlela o emisiwa ka ho hlaka)</small></string>
     <string name="PreferencesActivity_field_3">Bontsha joystick:</string>
     <string name="PreferencesActivity_field_4">Thupa ea thabo lat/lon Keketso:</string>
     <string name="PreferencesActivity_field_5">Tšoara sebaka sa ho ea e le sebaka se tsitsitseng:</string>
+    <string name="PreferencesActivity_field_6">Sehlooho:</string>
+    <string name="PreferencesActivity_theme_system">Latela sistimi</string>
+    <string name="PreferencesActivity_theme_light">Kganya</string>
+    <string name="PreferencesActivity_theme_dark">Lefifi</string>
+    <string name="PreferencesActivity_field_7">Puo ya app:</string>
+    <string name="PreferencesActivity_language_system_default">Latela sistimi</string>
     <string name="label_button_start">QALA</string>
     <string name="label_button_stop">Ema</string>
     <string name="label_button_update">Nchafatso</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Letšoao la leqephe le se le le teng \'%s\'.</string>
     <string name="error_missing_required_value">Phoso: Boleng bo hlokehang bo haella</string>
     <string name="error_add_bookmarkitem">Phoso: Ho sitiloe ho eketsa lets\'oao le lecha la leqephe</string>
+    <string name="share_progress_lookup">E bala kgokahano ya Google Maps…</string>
+    <string name="share_error_no_location">Ha ho sebaka se fumanweng mongolong o arolelanweng.</string>
+    <string name="share_error_no_coordinates">Kgokahano ena ya Google Maps ha e na dikhoorinete. Tobetsa nako e telele mmapeng ho beha phini, ebe o arolelana phini.</string>
+    <string name="share_error_unreachable">Ha ho a kgonahala ho fihlella Google Maps ho bala kgokahano ena. Hlahloba kgokahano ya hao mme o arolelane hape.</string>
     <string name="notification_service_ticker">Tshwantsha ya ka GPS: Ho matha</string>
     <string name="notification_service_content_line1">Tshwantsha ya ka GPS</string>
     <!--
