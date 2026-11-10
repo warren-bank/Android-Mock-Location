@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Isihloko:</string>
     <string name="edit_bookmark_field_2">Indawo:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Jikelele</string>
+    <string name="PreferencesActivity_heading_4">Ukubukeka</string>
+    <string name="PreferencesActivity_heading_5">Ulimi</string>
     <string name="PreferencesActivity_field_1">Isikhathi (ms) phakathi kwesibuyekezo ngasinye:</string>
+    <string name="PreferencesActivity_field_8">Yamukela izindawo ezabiwe kwezinye izinhlelo zokusebenza:\n<small>(izixhumanisi ze-Google Maps zibhekwa ku-inthanethi)</small></string>
     <string name="PreferencesActivity_field_2">Inani lezikhathi zokulingisa indawo:\n<small>(0 = qhubeka kuze kube sekumiswa ngokusobala)</small></string>
     <string name="PreferencesActivity_field_3">Bonisa i-joystick:</string>
     <string name="PreferencesActivity_field_4">I-joystick lat/lon ukunyuka:</string>
     <string name="PreferencesActivity_field_5">Bamba indawo oya kuyo njengendawo engashukumiyo:</string>
+    <string name="PreferencesActivity_field_6">Itimu:</string>
+    <string name="PreferencesActivity_theme_system">Landela isistimu</string>
+    <string name="PreferencesActivity_theme_light">Ekhanyayo</string>
+    <string name="PreferencesActivity_theme_dark">Emnyama</string>
+    <string name="PreferencesActivity_field_7">Ulimi lwe-app:</string>
+    <string name="PreferencesActivity_language_system_default">Landela isistimu</string>
     <string name="label_button_start">Qala</string>
     <string name="label_button_stop">Yima</string>
     <string name="label_button_update">Isibuyekezo</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Isibheji sesivele sikhona \'%s\'.</string>
     <string name="error_missing_required_value">Iphutha: Inani elidingekayo alikho</string>
     <string name="error_add_bookmarkitem">Iphutha: Akwenzeki ukwengeza ibhukumaka entsha</string>
+    <string name="share_progress_lookup">Ifunda isixhumanisi se-Google Maps…</string>
+    <string name="share_error_no_location">Ayikho indawo etholakele embhalweni owabiwe.</string>
+    <string name="share_error_no_coordinates">Lesi sixhumanisi se-Google Maps asinawo amakhoodinethi. Cindezela imephu isikhathi eside ukuze ubeke iphini, bese wabelana ngephini.</string>
+    <string name="share_error_unreachable">Akukwazekanga ukufinyelela ku-Google Maps ukuze kufundwe lesi sixhumanisi. Hlola ukuxhumeka kwakho bese wabelana futhi.</string>
     <string name="notification_service_ticker">Hlekisa ngami GPS: egijima</string>
     <string name="notification_service_content_line1">Hlekisa ngami GPS</string>
     <!--

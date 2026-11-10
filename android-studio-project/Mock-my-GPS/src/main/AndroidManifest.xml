@@ -30,6 +30,10 @@
     <!-- required to display notification for foreground service on API 33+ -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
+    <!-- required to look up Google Maps short links shared into ".ui.ShareTargetActivity" -->
+    <!-- see "util/ShortLinkLookup.java" and the "Privacy" section of README.md -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <!-- custom signature-level permission -->
     <!-- required to bind to "LocationService" in "UnifiedNlp" backend plugin -->
     <uses-permission android:name="com.github.warren_bank.mock_location.service.microg_nlp_backend.LocationService.BIND" />
@@ -38,6 +42,7 @@
         android:label="@string/app_name"
         android:icon="@drawable/launcher"
         android:theme="@style/app_theme"
+        android:localeConfig="@xml/locales_config"
         android:allowBackup="false">
 
         <service
@@ -585,6 +590,20 @@
                 <data android:host="www.google.ws" />
             </intent-filter>
         </activity>
+
+        <!-- share target for text from other apps (ex: Google Maps "Share"); off by default, switched in "PreferencesActivity" -->
+        <activity-alias
+            android:name=".ui.ShareTargetActivity"
+            android:targetActivity=".ui.GeoIntentActivity"
+            android:enabled="false"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity-alias>
 
     </application>
 </manifest>

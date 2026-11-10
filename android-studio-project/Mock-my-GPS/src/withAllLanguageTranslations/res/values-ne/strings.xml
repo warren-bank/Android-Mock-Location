@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">शीर्षक:</string>
     <string name="edit_bookmark_field_2">स्थान:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">सामान्य</string>
+    <string name="PreferencesActivity_heading_4">स्वरूप</string>
+    <string name="PreferencesActivity_heading_5">भाषा</string>
     <string name="PreferencesActivity_field_1">समय (ms) प्रत्येक अद्यावधिकको बीचमा:</string>
+    <string name="PreferencesActivity_field_8">अन्य एपबाट सेयर गरिएका स्थानहरू स्वीकार गर्नुहोस्:\n<small>(Google Maps लिंकहरू अनलाइन खोजिन्छन्)</small></string>
     <string name="PreferencesActivity_field_2">मोक लोकेशन गर्ने पटक संख्या:\n<small>(0 = स्पष्ट रूपमा रोकिने बेलासम्म जारी राख्नुहोस्)</small></string>
     <string name="PreferencesActivity_field_3">जॉयस्टिक देखाउनुहोस्:</string>
     <string name="PreferencesActivity_field_4">जॉयस्टिक lat/lon बृद्धि:</string>
     <string name="PreferencesActivity_field_5">गन्तव्यलाई निश्चित स्थानको रूपमा कायम राख्नुहोस्:</string>
+    <string name="PreferencesActivity_field_6">थिम:</string>
+    <string name="PreferencesActivity_theme_system">प्रणाली अनुसार</string>
+    <string name="PreferencesActivity_theme_light">उज्यालो</string>
+    <string name="PreferencesActivity_theme_dark">अँध्यारो</string>
+    <string name="PreferencesActivity_field_7">एपको भाषा:</string>
+    <string name="PreferencesActivity_language_system_default">प्रणाली अनुसार</string>
     <string name="label_button_start">सुरु गर्नुहोस्</string>
     <string name="label_button_stop">रोक</string>
     <string name="label_button_update">अद्यावधिक</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">बुकमार्क पहिले नै अवस्थित छ। \'%s\'.</string>
     <string name="error_missing_required_value">त्रुटि: आवश्यक मान छुटेको</string>
     <string name="error_add_bookmarkitem">त्रुटि: नयाँ बुकमार्क थप्न सकिएन</string>
+    <string name="share_progress_lookup">Google Maps लिंक पढ्दै…</string>
+    <string name="share_error_no_location">सेयर गरिएको पाठमा कुनै स्थान भेटिएन।</string>
+    <string name="share_error_no_coordinates">यो Google Maps लिंकमा कुनै निर्देशांक छैन। पिन राख्न नक्सामा लामो समय थिच्नुहोस्, त्यसपछि पिन सेयर गर्नुहोस्।</string>
+    <string name="share_error_unreachable">यो लिंक पढ्न Google Maps मा पुग्न सकिएन। आफ्नो जडान जाँच गरी फेरि सेयर गर्नुहोस्।</string>
     <string name="notification_service_ticker">मेरो मजाक उडाउनुहोस् GPS: दौडिरहेको</string>
     <string name="notification_service_content_line1">मेरो मजाक उडाउनुहोस् GPS</string>
     <!--

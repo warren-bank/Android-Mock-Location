@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Judul:</string>
     <string name="edit_bookmark_field_2">Lokasi:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Umumna</string>
+    <string name="PreferencesActivity_heading_4">Pidangan</string>
+    <string name="PreferencesActivity_heading_5">Basa</string>
     <string name="PreferencesActivity_field_1">Waktos (ms) antara unggal apdet:</string>
+    <string name="PreferencesActivity_field_8">Tarima lokasi anu dibagikeun ti aplikasi séjén:\n<small>(tautan Google Maps dipilarian sacara online)</small></string>
     <string name="PreferencesActivity_field_2">Jumlah kali pikeun nyonto lokasi:\n<small>(0 = teras nepi ka dieureunkeun sacara eksplisit)</small></string>
     <string name="PreferencesActivity_field_3">Témbongkeun joystick:</string>
     <string name="PreferencesActivity_field_4">Tongkat kontrol lat/lon panambahan:</string>
     <string name="PreferencesActivity_field_5">Jaga tujuan salaku posisi tetep:</string>
+    <string name="PreferencesActivity_field_6">Téma:</string>
+    <string name="PreferencesActivity_theme_system">Turutan sistem</string>
+    <string name="PreferencesActivity_theme_light">Caang</string>
+    <string name="PreferencesActivity_theme_dark">Poék</string>
+    <string name="PreferencesActivity_field_7">Basa aplikasi:</string>
+    <string name="PreferencesActivity_language_system_default">Turutan sistem</string>
     <string name="label_button_start">Mimitian</string>
     <string name="label_button_stop">Eureun</string>
     <string name="label_button_update">Pembaruan</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Tanda buku geus aya \'%s\'.</string>
     <string name="error_missing_required_value">Kasalahan: Nilai wajib leungit</string>
     <string name="error_add_bookmarkitem">Kasalahan: Henteu tiasa nambahkeun bookmark anyar</string>
+    <string name="share_progress_lookup">Maca tautan Google Maps…</string>
+    <string name="share_error_no_location">Teu aya lokasi anu kapendak dina téks anu dibagikeun.</string>
+    <string name="share_error_no_coordinates">Tautan Google Maps ieu teu gaduh koordinat. Pencét lami peta pikeun nempatkeun pin, teras bagikeun pin éta.</string>
+    <string name="share_error_unreachable">Teu tiasa ngahontal Google Maps pikeun maca tautan ieu. Pariksa sambungan anjeun sareng bagikeun deui.</string>
     <string name="notification_service_ticker">Mock kuring GPS: ngajalankeun</string>
     <string name="notification_service_content_line1">Mock kuring GPS</string>
     <!--

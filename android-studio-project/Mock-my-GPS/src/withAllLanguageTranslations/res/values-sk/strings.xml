@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Názov:</string>
     <string name="edit_bookmark_field_2">Poloha:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Všeobecné informácie</string>
+    <string name="PreferencesActivity_heading_4">Vzhľad</string>
+    <string name="PreferencesActivity_heading_5">Jazyk</string>
     <string name="PreferencesActivity_field_1">Čas (ms) medzi jednotlivými aktualizáciami:</string>
+    <string name="PreferencesActivity_field_8">Prijímať polohy zdieľané z iných aplikácií:\n<small>(odkazy Google Maps sa vyhľadávajú online)</small></string>
     <string name="PreferencesActivity_field_2">Počet simulácií polohy:\n<small>(0 = pokračovať, kým sa proces výslovne nezastaví)</small></string>
     <string name="PreferencesActivity_field_3">Zobraziť joystick:</string>
     <string name="PreferencesActivity_field_4">Joystick lat/lon prírastok:</string>
     <string name="PreferencesActivity_field_5">Udržať cieľovú polohu ako pevnú pozíciu:</string>
+    <string name="PreferencesActivity_field_6">Motív:</string>
+    <string name="PreferencesActivity_theme_system">Podľa systému</string>
+    <string name="PreferencesActivity_theme_light">Svetlý</string>
+    <string name="PreferencesActivity_theme_dark">Tmavý</string>
+    <string name="PreferencesActivity_field_7">Jazyk aplikácie:</string>
+    <string name="PreferencesActivity_language_system_default">Podľa systému</string>
     <string name="label_button_start">ŠTART</string>
     <string name="label_button_stop">STOP</string>
     <string name="label_button_update">AKTUALIZÁCIA</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Záložka už existuje \'%s\'.</string>
     <string name="error_missing_required_value">Chyba: Chýba povinná hodnota</string>
     <string name="error_add_bookmarkitem">Chyba: Nepodarilo sa pridať novú záložku</string>
+    <string name="share_progress_lookup">Číta sa odkaz Google Maps…</string>
+    <string name="share_error_no_location">V zdieľanom texte sa nenašla žiadna poloha.</string>
+    <string name="share_error_no_coordinates">Tento odkaz Google Maps nemá súradnice. Dlhým stlačením mapy umiestnite špendlík a potom zdieľajte špendlík.</string>
+    <string name="share_error_unreachable">Nepodarilo sa spojiť s Google Maps na prečítanie odkazu. Skontrolujte pripojenie a zdieľajte znova.</string>
     <string name="notification_service_ticker">Vysmievaj sa mi GPS: beh</string>
     <string name="notification_service_content_line1">Vysmievaj sa mi GPS</string>
     <!--

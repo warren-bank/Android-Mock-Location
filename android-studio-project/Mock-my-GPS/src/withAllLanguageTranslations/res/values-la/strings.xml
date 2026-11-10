@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Titulus:</string>
     <string name="edit_bookmark_field_2">Locus:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Universalis</string>
+    <string name="PreferencesActivity_heading_4">Species</string>
+    <string name="PreferencesActivity_heading_5">Lingua</string>
     <string name="PreferencesActivity_field_1">Tempus (ms) inter unamqueque renovationem:</string>
+    <string name="PreferencesActivity_field_8">Accipe loca ex aliis applicationibus communicata:\n<small>(nexus Google Maps interretiali modo quaeruntur)</small></string>
     <string name="PreferencesActivity_field_2">Numerus viciorum loci ludicri:\n<small>(0 = perge donec explicite sistaris)</small></string>
     <string name="PreferencesActivity_field_3">Monstrā vectem:</string>
     <string name="PreferencesActivity_field_4">Vectis laetus lat/lon augmentum:</string>
     <string name="PreferencesActivity_field_5">Tenendum est metam ut locum fixum.:</string>
+    <string name="PreferencesActivity_field_6">Thema:</string>
+    <string name="PreferencesActivity_theme_system">Systema sequi</string>
+    <string name="PreferencesActivity_theme_light">Clarum</string>
+    <string name="PreferencesActivity_theme_dark">Obscurum</string>
+    <string name="PreferencesActivity_field_7">Lingua applicationis:</string>
+    <string name="PreferencesActivity_language_system_default">Systema sequi</string>
     <string name="label_button_start">Inceptum</string>
     <string name="label_button_stop">Statte</string>
     <string name="label_button_update">Renovatio</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Signum iam exstat. \'%s\'.</string>
     <string name="error_missing_required_value">Error: Valore Requisito Deest</string>
     <string name="error_add_bookmarkitem">Error: Nova nota paginae addi non potuit.</string>
+    <string name="share_progress_lookup">Nexus Google Maps legitur…</string>
+    <string name="share_error_no_location">Nullus locus in textu communicato inventus est.</string>
+    <string name="share_error_no_coordinates">Hic nexus Google Maps coordinatas non habet. Mappam diu preme ut acum ponas, deinde acum communica.</string>
+    <string name="share_error_unreachable">Google Maps attingi non potuit ut hic nexus legeretur. Conexionem inspice et iterum communica.</string>
     <string name="notification_service_ticker">Moc meum GPS: currens</string>
     <string name="notification_service_content_line1">Moc meum GPS</string>
     <!--

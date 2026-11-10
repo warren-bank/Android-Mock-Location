@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Nosaukums:</string>
     <string name="edit_bookmark_field_2">Atrašanās vieta:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Vispārīgi</string>
+    <string name="PreferencesActivity_heading_4">Izskats</string>
+    <string name="PreferencesActivity_heading_5">Valoda</string>
     <string name="PreferencesActivity_field_1">Laiks (ms) starp katru atjauninājumu:</string>
+    <string name="PreferencesActivity_field_8">Pieņemt atrašanās vietas, kas kopīgotas no citām lietotnēm:\n<small>(Google Maps saites tiek pārbaudītas tiešsaistē)</small></string>
     <string name="PreferencesActivity_field_2">Reizes, cik bieži simulēt atrašanās vietu:\n<small>(0 = turpināt, līdz tiek skaidri apturēts)</small></string>
     <string name="PreferencesActivity_field_3">Rādīt vadības sviru:</string>
     <string name="PreferencesActivity_field_4">Džojstiks lat/lon pieaugums:</string>
     <string name="PreferencesActivity_field_5">Saglabāt galamērķi kā fiksētu pozīciju:</string>
+    <string name="PreferencesActivity_field_6">Motīvs:</string>
+    <string name="PreferencesActivity_theme_system">Kā sistēmā</string>
+    <string name="PreferencesActivity_theme_light">Gaišs</string>
+    <string name="PreferencesActivity_theme_dark">Tumšs</string>
+    <string name="PreferencesActivity_field_7">Lietotnes valoda:</string>
+    <string name="PreferencesActivity_language_system_default">Kā sistēmā</string>
     <string name="label_button_start">SĀKT</string>
     <string name="label_button_stop">STOP</string>
     <string name="label_button_update">AKTUALIZĀCIJA</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Grāmatzīme jau pastāv \'%s\'.</string>
     <string name="error_missing_required_value">Kļūda: trūkst obligātās vērtības</string>
     <string name="error_add_bookmarkitem">Kļūda: neizdevās pievienot jaunu grāmatzīmi</string>
+    <string name="share_progress_lookup">Notiek Google Maps saites lasīšana…</string>
+    <string name="share_error_no_location">Kopīgotajā tekstā netika atrasta atrašanās vieta.</string>
+    <string name="share_error_no_coordinates">Šai Google Maps saitei nav koordinātu. Ilgi nospiediet karti, lai novietotu spraudīti, un pēc tam kopīgojiet spraudīti.</string>
+    <string name="share_error_unreachable">Neizdevās sazināties ar Google Maps, lai nolasītu šo saiti. Pārbaudiet savienojumu un kopīgojiet vēlreiz.</string>
     <string name="notification_service_ticker">Izsmiet mani GPS: skriešana</string>
     <string name="notification_service_content_line1">Izsmiet mani GPS</string>
     <!--

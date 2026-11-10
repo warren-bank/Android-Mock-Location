@@ -1,22 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="app_theme" parent="@android:style/Theme.Light">
+    <!--
+      Framework parents per API level:
+        values:     Theme.Light                 / Theme.Black
+        values-v11: Theme.Holo.Light            / Theme.Holo
+        values-v14: Theme.DeviceDefault.Light   / Theme.DeviceDefault
+      Activities pick "app_theme_light" or "app_theme_dark" at runtime (see "util/ThemeUtils").
+      "app_theme" (manifest default) follows the system via "values-night".
+    -->
+    <style name="base_theme_light" parent="@android:style/Theme.Light" />
+    <style name="base_theme_dark"  parent="@android:style/Theme.Black" />
+
+    <style name="app_theme_light" parent="@style/base_theme_light">
         <item name="android:windowNoTitle">false</item>
-        <item name="android:windowActionBar">true</item>
+        <item name="android:windowActionBar" tools:targetApi="11">true</item>
+
+        <item name="listview_background">@color/listview_background</item>
+        <item name="listview_divider">@color/listview_divider</item>
+        <item name="section_heading_textview_background">@color/section_heading_textview_background</item>
+        <item name="section_heading_textview_color">@color/section_heading_textview_color</item>
+        <item name="input_label_textview_background">@color/input_label_textview_background</item>
+        <item name="input_label_textview_color">@color/input_label_textview_color</item>
     </style>
 
+    <style name="app_theme_dark" parent="@style/base_theme_dark">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar" tools:targetApi="11">true</item>
+
+        <item name="listview_background">@color/listview_background_dark</item>
+        <item name="listview_divider">@color/listview_divider_dark</item>
+        <item name="section_heading_textview_background">@color/section_heading_textview_background_dark</item>
+        <item name="section_heading_textview_color">@color/section_heading_textview_color_dark</item>
+        <item name="input_label_textview_background">@color/input_label_textview_background_dark</item>
+        <item name="input_label_textview_color">@color/input_label_textview_color_dark</item>
+    </style>
+
+    <style name="app_theme" parent="@style/app_theme_light" />
+
     <style name="section_heading_textview" parent="@android:style/TextAppearance">
-        <item name="android:background">@color/section_heading_textview_background</item>
-        <item name="android:textColor">@color/section_heading_textview_color</item>
+        <item name="android:background">?attr/section_heading_textview_background</item>
+        <item name="android:textColor">?attr/section_heading_textview_color</item>
         <item name="android:padding">6dp</item>
         <item name="android:gravity">center_horizontal</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="input_label_textview" parent="@android:style/TextAppearance">
-        <item name="android:background">@color/input_label_textview_background</item>
-        <item name="android:textColor">@color/input_label_textview_color</item>
+        <item name="android:background">?attr/input_label_textview_background</item>
+        <item name="android:textColor">?attr/input_label_textview_color</item>
         <item name="android:layout_marginLeft">2dp</item>
         <item name="android:layout_marginRight">2dp</item>
         <item name="android:padding">4dp</item>

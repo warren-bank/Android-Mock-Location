@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Անվանում:</string>
     <string name="edit_bookmark_field_2">Տեղանք:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Ընդհանուր</string>
+    <string name="PreferencesActivity_heading_4">Տեսք</string>
+    <string name="PreferencesActivity_heading_5">Լեզու</string>
     <string name="PreferencesActivity_field_1">Ժամանակ (ms) յուրաքանչյուր թարմացման միջև:</string>
+    <string name="PreferencesActivity_field_8">Ընդունել այլ հավելվածներից կիսված վայրերը:\n<small>(Google Maps-ի հղումները ստուգվում են առցանց)</small></string>
     <string name="PreferencesActivity_field_2">Տեղանքի կեղծման անգամների քանակը:\n<small>(0 = շարունակել մինչև հստակ դադարեցումը)</small></string>
     <string name="PreferencesActivity_field_3">Ցուցադրել ջոյսթիկը:</string>
     <string name="PreferencesActivity_field_4">Ջոյսթիկ lat/lon աճեցնել:</string>
     <string name="PreferencesActivity_field_5">Նպատակակետը պահել որպես հաստատուն դիրք:</string>
+    <string name="PreferencesActivity_field_6">Թեմա:</string>
+    <string name="PreferencesActivity_theme_system">Ըստ համակարգի</string>
+    <string name="PreferencesActivity_theme_light">Բաց</string>
+    <string name="PreferencesActivity_theme_dark">Մուգ</string>
+    <string name="PreferencesActivity_field_7">Հավելվածի լեզուն:</string>
+    <string name="PreferencesActivity_language_system_default">Ըստ համակարգի</string>
     <string name="label_button_start">Սկսել</string>
     <string name="label_button_stop">Դադարեցնել</string>
     <string name="label_button_update">Թարմացում</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Նշումն արդեն գոյություն ունի \'%s\'.</string>
     <string name="error_missing_required_value">Սխալ՝ պարտադիր արժեքը բացակայում է</string>
     <string name="error_add_bookmarkitem">Սխալ՝ նոր նշմանջան չի ավելացվել</string>
+    <string name="share_progress_lookup">Google Maps-ի հղումը կարդացվում է…</string>
+    <string name="share_error_no_location">Կիսված տեքստում վայր չի գտնվել։</string>
+    <string name="share_error_no_coordinates">Այս Google Maps հղումը կոորդինատներ չունի։ Երկար սեղմեք քարտեզին՝ նշիչ դնելու համար, ապա կիսվեք նշիչով։</string>
+    <string name="share_error_unreachable">Չհաջողվեց կապվել Google Maps-ի հետ՝ հղումը կարդալու համար։ Ստուգեք կապը և նորից կիսվեք։</string>
     <string name="notification_service_ticker">Ծաղրիր իմ GPS: վազք</string>
     <string name="notification_service_content_line1">Ծաղրիր իմ GPS</string>
     <!--

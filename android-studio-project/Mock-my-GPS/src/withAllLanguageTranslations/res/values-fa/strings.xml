@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">عنوان:</string>
     <string name="edit_bookmark_field_2">مکان:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">عمومی</string>
+    <string name="PreferencesActivity_heading_4">ظاهر</string>
+    <string name="PreferencesActivity_heading_5">زبان</string>
     <string name="PreferencesActivity_field_1">زمان (ms) بین هر به‌روزرسانی:</string>
+    <string name="PreferencesActivity_field_8">پذیرش مکان‌های اشتراک‌گذاری‌شده از برنامه‌های دیگر:\n<small>(پیوندهای Google Maps به‌صورت آنلاین جستجو می‌شوند)</small></string>
     <string name="PreferencesActivity_field_2">تعداد دفعات ارسال موقعیت جعلی:\n<small>(۰ = تا زمانی که به صراحت متوقف نشود ادامه دهد)</small></string>
     <string name="PreferencesActivity_field_3">نمایش جوی‌استیک:</string>
     <string name="PreferencesActivity_field_4">جای‌استیک lat/lon افزایش:</string>
     <string name="PreferencesActivity_field_5">مقصد را به‌عنوان موقعیت ثابت نگه دارید:</string>
+    <string name="PreferencesActivity_field_6">پوسته:</string>
+    <string name="PreferencesActivity_theme_system">پیروی از سیستم</string>
+    <string name="PreferencesActivity_theme_light">روشن</string>
+    <string name="PreferencesActivity_theme_dark">تیره</string>
+    <string name="PreferencesActivity_field_7">زبان برنامه:</string>
+    <string name="PreferencesActivity_language_system_default">پیروی از سیستم</string>
     <string name="label_button_start">شروع</string>
     <string name="label_button_stop">ایست</string>
     <string name="label_button_update">به‌روزرسانی</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">نشانک از قبل وجود دارد \'%s\'.</string>
     <string name="error_missing_required_value">خطا: مقدار الزامی وجود ندارد</string>
     <string name="error_add_bookmarkitem">خطا: امکان افزودن نشانک جدید وجود ندارد</string>
+    <string name="share_progress_lookup">در حال خواندن پیوند Google Maps…</string>
+    <string name="share_error_no_location">هیچ مکانی در متن اشتراک‌گذاری‌شده پیدا نشد.</string>
+    <string name="share_error_no_coordinates">این پیوند Google Maps مختصات ندارد. برای گذاشتن سنجاق، روی نقشه طولانی فشار دهید و سپس سنجاق را به اشتراک بگذارید.</string>
+    <string name="share_error_unreachable">دسترسی به Google Maps برای خواندن این پیوند ممکن نشد. اتصال خود را بررسی کنید و دوباره به اشتراک بگذارید.</string>
     <string name="notification_service_ticker">از من تقلید کن GPS: دویدن</string>
     <string name="notification_service_content_line1">از من تقلید کن GPS</string>
     <!--

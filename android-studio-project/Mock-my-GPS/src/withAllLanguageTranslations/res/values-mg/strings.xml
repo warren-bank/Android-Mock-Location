@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Lohateny:</string>
     <string name="edit_bookmark_field_2">Toerana:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Ankapobeny</string>
+    <string name="PreferencesActivity_heading_4">Endrika</string>
+    <string name="PreferencesActivity_heading_5">Fiteny</string>
     <string name="PreferencesActivity_field_1">Fotoana (ms) eo anelanelan\'ny fanavaozana tsirairay:</string>
+    <string name="PreferencesActivity_field_8">Ekeo ny toerana zaraina avy amin\'ny rindranasa hafa:\n<small>(jerena an-tserasera ny rohy Google Maps)</small></string>
     <string name="PreferencesActivity_field_2">Isan\'ny fandefasana toerana sandoka:\n<small>(0 = tohizo mandra-pijanonana mazava)</small></string>
     <string name="PreferencesActivity_field_3">Asehoy ny joystick:</string>
     <string name="PreferencesActivity_field_4">Tondro-pitondra lat/lon fampitomboana:</string>
     <string name="PreferencesActivity_field_5">Tazomy ho toerana raikitra ny toerana haleha:</string>
+    <string name="PreferencesActivity_field_6">Lohahevitra:</string>
+    <string name="PreferencesActivity_theme_system">Araho ny rafitra</string>
+    <string name="PreferencesActivity_theme_light">Mazava</string>
+    <string name="PreferencesActivity_theme_dark">Maizina</string>
+    <string name="PreferencesActivity_field_7">Fitenin\'ny rindranasa:</string>
+    <string name="PreferencesActivity_language_system_default">Araho ny rafitra</string>
     <string name="label_button_start">Hanomboka</string>
     <string name="label_button_stop">Atsaharo</string>
     <string name="label_button_update">Fanavaozana</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Efa misy ny boky marika \'%s\'.</string>
     <string name="error_missing_required_value">Hadisoana: Tsy ampy ny sanda takiana</string>
     <string name="error_add_bookmarkitem">Hadisoana: Tsy afaka nampiana bokimarka vaovao</string>
+    <string name="share_progress_lookup">Mamaky ny rohy Google Maps…</string>
+    <string name="share_error_no_location">Tsy nahitana toerana tao amin\'ny lahatsoratra nozaraina.</string>
+    <string name="share_error_no_coordinates">Tsy misy koordinata ity rohy Google Maps ity. Tsindrio ela ny sarintany mba hametrahana tsimatra, dia zarao ilay tsimatra.</string>
+    <string name="share_error_unreachable">Tsy tratra ny Google Maps hamakiana ity rohy ity. Hamarino ny fifandraisanao ary zarao indray.</string>
     <string name="notification_service_ticker">Manaova vazivazy momba ny ahy GPS: Mihazakazaka</string>
     <string name="notification_service_content_line1">Manaova vazivazy momba ny ahy GPS</string>
     <!--

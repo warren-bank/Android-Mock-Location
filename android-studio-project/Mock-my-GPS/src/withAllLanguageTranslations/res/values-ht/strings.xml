@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Tit:</string>
     <string name="edit_bookmark_field_2">Kote:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Jeneral</string>
+    <string name="PreferencesActivity_heading_4">Aparans</string>
+    <string name="PreferencesActivity_heading_5">Lang</string>
     <string name="PreferencesActivity_field_1">Tan (ms) ant chak mizajou:</string>
+    <string name="PreferencesActivity_field_8">Aksepte pozisyon lòt aplikasyon pataje:\n<small>(yo chèche lyen Google Maps sou entènèt)</small></string>
     <string name="PreferencesActivity_field_2">Konbyen fwa pou imite kote:\n<small>(0 = kontinye jiskaske yo kanpe l klèman)</small></string>
     <string name="PreferencesActivity_field_3">Montre joystick la:</string>
     <string name="PreferencesActivity_field_4">Manch lat/lon ogmantasyon:</string>
     <string name="PreferencesActivity_field_5">Kenbe destinasyon kòm yon pozisyon fiks:</string>
+    <string name="PreferencesActivity_field_6">Tèm:</string>
+    <string name="PreferencesActivity_theme_system">Swiv sistèm nan</string>
+    <string name="PreferencesActivity_theme_light">Klè</string>
+    <string name="PreferencesActivity_theme_dark">Fonse</string>
+    <string name="PreferencesActivity_field_7">Lang aplikasyon an:</string>
+    <string name="PreferencesActivity_language_system_default">Swiv sistèm nan</string>
     <string name="label_button_start">Kòmanse</string>
     <string name="label_button_stop">SISPANN</string>
     <string name="label_button_update">Mizajou</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Bookmark deja egziste \'%s\'.</string>
     <string name="error_missing_required_value">Erè: Valè obligatwa manke</string>
     <string name="error_add_bookmarkitem">Erè: Pa t kapab ajoute nouvo makè paj</string>
+    <string name="share_progress_lookup">N ap li lyen Google Maps la…</string>
+    <string name="share_error_no_location">Pa gen okenn pozisyon nan tèks yo pataje a.</string>
+    <string name="share_error_no_coordinates">Lyen Google Maps sa a pa gen kowòdone. Peze lontan sou kat la pou mete yon pine, epi pataje pine a.</string>
+    <string name="share_error_unreachable">Pa t kapab rive jwenn Google Maps pou li lyen sa a. Tcheke koneksyon ou epi pataje ankò.</string>
     <string name="notification_service_ticker">Fè blag sou mwen GPS: kouri</string>
     <string name="notification_service_content_line1">Fè blag sou mwen GPS</string>
     <!--

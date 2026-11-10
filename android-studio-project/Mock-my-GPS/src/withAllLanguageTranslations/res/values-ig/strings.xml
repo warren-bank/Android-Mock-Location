@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Aha:</string>
     <string name="edit_bookmark_field_2">Ebe:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Ozi izugbe</string>
+    <string name="PreferencesActivity_heading_4">Ọdịdị</string>
+    <string name="PreferencesActivity_heading_5">Asụsụ</string>
     <string name="PreferencesActivity_field_1">Oge (ms) n\'etiti mmelite ọ bụla:</string>
+    <string name="PreferencesActivity_field_8">Nabata ọnọdụ ndị e kesara site na ngwa ndị ọzọ:\n<small>(a na-achọ njikọ Google Maps n\'ịntanetị)</small></string>
     <string name="PreferencesActivity_field_2">Ọnụọgụ ugboro iji gbanwee ọnọdụ:\n<small>(0 = gaa n\'ihu ruo mgbe a kwụsịrị ya kpọmkwem)</small></string>
     <string name="PreferencesActivity_field_3">Gosi joystick:</string>
     <string name="PreferencesActivity_field_4">Ọdụ aka ọṅụ lat/lon ịbawanye:</string>
     <string name="PreferencesActivity_field_5">Jide ebe a ga-aga ka ọ bụrụ ọnọdụ kwụ ọtọ:</string>
+    <string name="PreferencesActivity_field_6">Isiokwu:</string>
+    <string name="PreferencesActivity_theme_system">Soro sistemụ</string>
+    <string name="PreferencesActivity_theme_light">Ìhè</string>
+    <string name="PreferencesActivity_theme_dark">Ọchịchịrị</string>
+    <string name="PreferencesActivity_field_7">Asụsụ ngwa:</string>
+    <string name="PreferencesActivity_language_system_default">Soro sistemụ</string>
     <string name="label_button_start">Bido</string>
     <string name="label_button_stop">Kwụsị</string>
     <string name="label_button_update">MELITE</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Akara peeji adịlarị \'%s\'.</string>
     <string name="error_missing_required_value">Mmejọ: Ọnụọgụ a chọrọ adịghị</string>
     <string name="error_add_bookmarkitem">Mmejọ: Enweghị ike itinye akara ibe ọhụrụ</string>
+    <string name="share_progress_lookup">Na-agụ njikọ Google Maps…</string>
+    <string name="share_error_no_location">Ahụghị ọnọdụ ọ bụla n\'ederede e kesara.</string>
+    <string name="share_error_no_coordinates">Njikọ Google Maps a enweghị nhazi. Pịa map ahụ ogologo oge ka ịtọọ pin, wee kesaa pin ahụ.</string>
+    <string name="share_error_unreachable">Enweghị ike iru Google Maps iji gụọ njikọ a. Lelee njikọ gị wee kesaa ọzọ.</string>
     <string name="notification_service_ticker">Kpọọ ihe m n\'ọchị GPS: na-agba ọsọ</string>
     <string name="notification_service_content_line1">Kpọọ ihe m n\'ọchị GPS</string>
     <!--

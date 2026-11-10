@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Titel:</string>
     <string name="edit_bookmark_field_2">Lokalitéit:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Allgemeng</string>
+    <string name="PreferencesActivity_heading_4">Ausgesinn</string>
+    <string name="PreferencesActivity_heading_5">Sprooch</string>
     <string name="PreferencesActivity_field_1">Zäit (ms) tëscht all Updates:</string>
+    <string name="PreferencesActivity_field_8">Standuerter akzeptéieren, déi vun aneren Apps gedeelt goufen:\n<small>(Google-Maps-Linke ginn online nogekuckt)</small></string>
     <string name="PreferencesActivity_field_2">Zuel vun de Mol fir d\'Standuert ze simuléieren:\n<small>(0 = weidergoen bis explizit gestoppt)</small></string>
     <string name="PreferencesActivity_field_3">Joystick weisen:</string>
     <string name="PreferencesActivity_field_4">Joystick lat/lon Zousaz:</string>
     <string name="PreferencesActivity_field_5">Halt d\'Destinatioun als fix Positioun:</string>
+    <string name="PreferencesActivity_field_6">Design:</string>
+    <string name="PreferencesActivity_theme_system">System verfollegen</string>
+    <string name="PreferencesActivity_theme_light">Hell</string>
+    <string name="PreferencesActivity_theme_dark">Donkel</string>
+    <string name="PreferencesActivity_field_7">App-Sprooch:</string>
+    <string name="PreferencesActivity_language_system_default">System verfollegen</string>
     <string name="label_button_start">Ufänken</string>
     <string name="label_button_stop">Stopp</string>
     <string name="label_button_update">Aktualiséierung</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">De Lesezeechen existéiert schonn. \'%s\'.</string>
     <string name="error_missing_required_value">Feeler: Feelt e erfuerderleche Wäert</string>
     <string name="error_add_bookmarkitem">Feeler: Konnt keen neie Lesezeechen derbäisetzen</string>
+    <string name="share_progress_lookup">Google-Maps-Link gëtt gelies…</string>
+    <string name="share_error_no_location">Am gedeelten Text gouf kee Standuert fonnt.</string>
+    <string name="share_error_no_coordinates">Dëse Google-Maps-Link huet keng Koordinaten. Dréckt laang op d\'Kaart fir eng Markéierung ze setzen, an deelt dann d\'Markéierung.</string>
+    <string name="share_error_unreachable">Google Maps war net erreechbar fir de Link ze liesen. Kontrolléiert Är Verbindung an deelt nach eng Kéier.</string>
     <string name="notification_service_ticker">Spott mäi GPS: lafend</string>
     <string name="notification_service_content_line1">Spott mäi GPS</string>
     <!--

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  Languages the app can be switched to: by the Android 13+ per-app language setting
+  (android:localeConfig in AndroidManifest.xml) and by the picker in PreferencesActivity.
+  This build ships only English, so the picker is hidden.
+  The withAllLanguageTranslations flavor overrides this file with every translation it ships.
+-->
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <locale android:name="en" />
+</locale-config>

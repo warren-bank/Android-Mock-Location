@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Títol:</string>
     <string name="edit_bookmark_field_2">Localización:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Cheneral</string>
+    <string name="PreferencesActivity_heading_4">Aparencia</string>
+    <string name="PreferencesActivity_heading_5">Idioma</string>
     <string name="PreferencesActivity_field_1">Tiempo (ms) entre cada actualización:</string>
+    <string name="PreferencesActivity_field_8">Acceptar ubicacions compartidas dende atras aplicacions:\n<small>(os vinclos de Google Maps se consultan en linia)</small></string>
     <string name="PreferencesActivity_field_2">Numero de vegadas de simular a ubicación:\n<small>(0 = continar dica que s\'ature explicitament)</small></string>
     <string name="PreferencesActivity_field_3">Amostrar o joystick:</string>
     <string name="PreferencesActivity_field_4">Palanca de mando lat/lon augmento:</string>
     <string name="PreferencesActivity_field_5">Mantener o destín como posición fixa:</string>
+    <string name="PreferencesActivity_field_6">Tema:</string>
+    <string name="PreferencesActivity_theme_system">Seguir lo sistema</string>
+    <string name="PreferencesActivity_theme_light">Claro</string>
+    <string name="PreferencesActivity_theme_dark">Escuro</string>
+    <string name="PreferencesActivity_field_7">Idioma de l\'aplicación:</string>
+    <string name="PreferencesActivity_language_system_default">Seguir lo sistema</string>
     <string name="label_button_start">Prencipio</string>
     <string name="label_button_stop">Alto</string>
     <string name="label_button_update">Actualización</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">O marcador ya existe \'%s\'.</string>
     <string name="error_missing_required_value">Error: Falta una valor requerida</string>
     <string name="error_add_bookmarkitem">Error: No s\'ha puesto adhibir un nuevo marcador</string>
+    <string name="share_progress_lookup">Leyendo o vinclo de Google Maps…</string>
+    <string name="share_error_no_location">No s\'ha trobau garra ubicación en o texto compartiu.</string>
+    <string name="share_error_no_coordinates">Iste vinclo de Google Maps no tiene coordenadas. Preta largo en o mapa pa meter una agulla y compartiz l\'agulla.</string>
+    <string name="share_error_unreachable">No s\'ha puesto contactar con Google Maps pa leyer iste vinclo. Revisa a connexión y torna a compartir.</string>
     <string name="notification_service_ticker">Imitar o mío GPS: corriendo</string>
     <string name="notification_service_content_line1">Imitar o mío GPS</string>
     <!--

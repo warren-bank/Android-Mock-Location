@@ -10,13 +10,24 @@ import com.github.warren_bank.mock_location.security_model.RuntimePermissions;
 import com.github.warren_bank.mock_location.service.LocationService;
 import com.github.warren_bank.mock_location.util.GeoPointParserUtil;
 import com.github.warren_bank.mock_location.util.GeoPointParserUtil.GeoParsedPoint;
+import com.github.warren_bank.mock_location.util.LocaleUtils;
+import com.github.warren_bank.mock_location.util.ShortLinkLookup;
+import com.github.warren_bank.mock_location.util.ThemeUtils;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.ProgressDialog;
 import android.net.Uri;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+
+import java.io.IOException;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class GeoIntentActivity extends Activity implements RuntimePermissions.RuntimePermissionsListener {
     private final static String EXTRA_PURPOSE               = "purpose";
@@ -25,8 +36,17 @@ public class GeoIntentActivity extends Activity implements RuntimePermissions.Ru
     private final static String EXTRA_TRIP_DURATION_SECONDS = "trip_duration_seconds";
 
     @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(base);
+        ThemeUtils.applyUiModeOverride(GeoIntentActivity.this, base);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // its dialogs (Purpose, link lookup, messages) follow the theme chosen in "PreferencesActivity"
+        ThemeUtils.applyTheme(GeoIntentActivity.this);
         super.onCreate(savedInstanceState);
+        LocaleUtils.apply(this);
 
         onNewIntent(getIntent());
     }
@@ -35,6 +55,11 @@ public class GeoIntentActivity extends Activity implements RuntimePermissions.Ru
     protected void onNewIntent(Intent intent) {
         if (intent == null) {
             handleNoData(null);
+            return;
+        }
+
+        if (Intent.ACTION_SEND.equals(intent.getAction())) {
+            handleSharedText(intent.getStringExtra(Intent.EXTRA_TEXT));
             return;
         }
 
@@ -75,6 +100,168 @@ public class GeoIntentActivity extends Activity implements RuntimePermissions.Ru
 
     private void handleNoData(String error_message) {
         startMainActivity(error_message);
+    }
+
+    // =============================================================================================
+    // Share: text sent from another app through the share sheet (enabled in "PreferencesActivity")
+    // =============================================================================================
+
+    private static final Pattern urlPattern        = Pattern.compile("https?://[^\\s<>\"']+", Pattern.CASE_INSENSITIVE);
+    private static final Pattern coordinatePattern = Pattern.compile("([+-]?\\d{1,2}\\.\\d+)\\s*,\\s*([+-]?\\d{1,3}\\.\\d+)");
+
+    private ProgressDialog lookupDialog;
+    private boolean        lookupCancelled;
+
+    private void handleSharedText(String text) {
+        if ((text == null) || (text.trim().length() == 0)) {
+            finishWithMessage(R.string.share_error_no_location);
+            return;
+        }
+
+        // 1. a map URL that carries coordinates
+        Matcher urlMatcher = urlPattern.matcher(text);
+        while (urlMatcher.find()) {
+            LocPoint point = parsePoint(urlMatcher.group());
+            if (point != null) {
+                handleGeoData(point);
+                return;
+            }
+        }
+
+        // 2. plain coordinates: "48.2082, 16.3738"
+        Matcher coordinateMatcher = coordinatePattern.matcher(text);
+        if (coordinateMatcher.find()) {
+            try {
+                double lat = Double.parseDouble(coordinateMatcher.group(1));
+                double lon = Double.parseDouble(coordinateMatcher.group(2));
+
+                if ((Math.abs(lat) <= 90) && (Math.abs(lon) <= 180)) {
+                    handleGeoData(new LocPoint(lat, lon));
+                    return;
+                }
+            }
+            catch(NumberFormatException e) {}
+        }
+
+        // 3. a Google Maps short link: the only case that goes online
+        String shortLink = ShortLinkLookup.findShortLink(text);
+        if (shortLink != null) {
+            lookUpShortLink(shortLink);
+            return;
+        }
+
+        finishWithMessage(R.string.share_error_no_location);
+    }
+
+    private LocPoint parsePoint(String uriString) {
+        GeoParsedPoint geoPoint = GeoPointParserUtil.parse(uriString);
+
+        return ((geoPoint != null) && geoPoint.isGeoPoint())
+            ? new LocPoint(geoPoint.getLatitude(), geoPoint.getLongitude())
+            : null;
+    }
+
+    private void lookUpShortLink(final String shortLink) {
+        lookupCancelled = false;
+
+        lookupDialog = new ProgressDialog(GeoIntentActivity.this);
+        lookupDialog.setMessage(getString(R.string.share_progress_lookup));
+        lookupDialog.setIndeterminate(true);
+        lookupDialog.setCancelable(true);
+        lookupDialog.setCanceledOnTouchOutside(false);
+        lookupDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
+            @Override
+            public void onCancel(DialogInterface dialog) {
+                lookupCancelled = true;
+                finish();
+            }
+        });
+        lookupDialog.setButton(DialogInterface.BUTTON_NEGATIVE, getString(android.R.string.cancel), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.cancel();
+            }
+        });
+        lookupDialog.show();
+
+        final Handler handler = new Handler(Looper.getMainLooper());
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                String location = null;
+                boolean reached = true;
+
+                try {
+                    location = ShortLinkLookup.lookUp(shortLink);
+                }
+                catch(IOException e) {
+                    reached = false;
+                }
+
+                final String  result         = location;
+                final boolean resultReached  = reached;
+
+                handler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        onShortLinkLookedUp(result, resultReached);
+                    }
+                });
+            }
+        }).start();
+    }
+
+    private void onShortLinkLookedUp(String location, boolean reached) {
+        if (lookupCancelled || isFinishing()) return;
+
+        if (lookupDialog != null) {
+            try {
+                lookupDialog.dismiss();
+            }
+            catch(Exception e) {}
+            lookupDialog = null;
+        }
+
+        if (!reached) {
+            finishWithMessage(R.string.share_error_unreachable);
+            return;
+        }
+
+        LocPoint point = (location == null) ? null : parsePoint(location);
+        if (point != null) {
+            handleGeoData(point);
+            return;
+        }
+
+        // a place picked by search or tap resolves to an address and a feature ID, without coordinates
+        finishWithMessage((location == null) ? R.string.share_error_no_location : R.string.share_error_no_coordinates);
+    }
+
+    // a dialog rather than a Toast: some devices (ex: Samsung One UI) cut a Toast off after two lines
+    private void finishWithMessage(int message_id) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(GeoIntentActivity.this);
+        builder.setMessage(message_id);
+        builder.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        builder.setOnCancelListener(new DialogInterface.OnCancelListener() {
+            @Override
+            public void onCancel(DialogInterface dialog) {
+                finish();
+            }
+        });
+        AlertDialog dialog = builder.create();
+        dialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
+            @Override
+            public void onDismiss(DialogInterface dialog) {
+                finish();
+            }
+        });
+        dialog.show();
     }
 
     private void handleGeoData(LocPoint point) {

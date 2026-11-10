@@ -16,6 +16,9 @@ import java.util.regex.Pattern;
 
 public class GeoPointParserUtil {
 
+    private static final Pattern googleMapsPinPattern      = Pattern.compile("!3d([+-]?\\d+(?:\\.\\d+)?)!4d([+-]?\\d+(?:\\.\\d+)?)");
+    private static final Pattern googleMapsPathPairPattern = Pattern.compile("/(?:place|search)/([+-]?\\d+(?:\\.\\d+)?),\\+?([+-]?\\d+(?:\\.\\d+)?)(?:[/,+]|$)");
+
     private static String getQueryParameter(final String param, URI uri) {
         final String query = uri.getQuery();
         String value = null;
@@ -220,7 +223,24 @@ public class GeoPointParserUtil {
                     String latString = null;
                     String lonString = null;
                     String z = String.valueOf(GeoParsedPoint.NO_ZOOM);
-                    
+
+                    // the pin of a place or dropped pin: ".../data=...!3d<lat>!4d<lon>..."
+                    // preferred over "/@<lat>,<lon>,<zoom>z", which is the center of the map view
+                    {
+                        Matcher matcher = googleMapsPinPattern.matcher(uri.getRawPath() + "?" + uri.getRawQuery());
+                        if (matcher.find()) {
+                            return new GeoParsedPoint(matcher.group(1), matcher.group(2));
+                        }
+                    }
+
+                    // a dropped pin or coordinate search: "/maps/place/<lat>,<lon>/..." or "/maps/search/<lat>,+<lon>"
+                    {
+                        Matcher matcher = googleMapsPathPairPattern.matcher(path);
+                        if (matcher.find()) {
+                            return new GeoParsedPoint(matcher.group(1), matcher.group(2));
+                        }
+                    }
+
                     if (params.containsKey("q")) {
                         System.out.println("q=" + params.get("q"));
                         Matcher matcher = commaSeparatedPairPattern.matcher(params.get("q"));

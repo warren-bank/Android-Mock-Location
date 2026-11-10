@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Заглавие:</string>
     <string name="edit_bookmark_field_2">Местоположение:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Общо</string>
+    <string name="PreferencesActivity_heading_4">Облик</string>
+    <string name="PreferencesActivity_heading_5">Език</string>
     <string name="PreferencesActivity_field_1">Време (ms) между всяко обновяване:</string>
+    <string name="PreferencesActivity_field_8">Приемане на местоположения, споделени от други приложения:\n<small>(връзките от Google Maps се проверяват онлайн)</small></string>
     <string name="PreferencesActivity_field_2">Брой пъти, през които да се симулира местоположение:\n<small>(0 = продължава, докато не бъде изрично спряно)</small></string>
     <string name="PreferencesActivity_field_3">Покажи джойстика:</string>
     <string name="PreferencesActivity_field_4">джойстик lat/lon увеличение:</string>
     <string name="PreferencesActivity_field_5">Запази местоназначението като фиксирана позиция:</string>
+    <string name="PreferencesActivity_field_6">Тема:</string>
+    <string name="PreferencesActivity_theme_system">Според системата</string>
+    <string name="PreferencesActivity_theme_light">Светла</string>
+    <string name="PreferencesActivity_theme_dark">Тъмна</string>
+    <string name="PreferencesActivity_field_7">Език на приложението:</string>
+    <string name="PreferencesActivity_language_system_default">Според системата</string>
     <string name="label_button_start">СТАРТ</string>
     <string name="label_button_stop">СТОП</string>
     <string name="label_button_update">АКТУАЛИЗАЦИЯ</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Маркерът вече съществува \'%s\'.</string>
     <string name="error_missing_required_value">Грешка: Липсва задължителна стойност</string>
     <string name="error_add_bookmarkitem">Грешка: Не може да се добави нова отметка</string>
+    <string name="share_progress_lookup">Четене на връзката от Google Maps…</string>
+    <string name="share_error_no_location">В споделения текст не е намерено местоположение.</string>
+    <string name="share_error_no_coordinates">Тази връзка от Google Maps няма координати. Натиснете продължително върху картата, за да поставите карфица, и споделете карфицата.</string>
+    <string name="share_error_unreachable">Не може да се осъществи връзка с Google Maps, за да се прочете връзката. Проверете връзката си и споделете отново.</string>
     <string name="notification_service_ticker">Подигравай се на мен GPS: бягане</string>
     <string name="notification_service_content_line1">Подигравай се на мен GPS</string>
     <!--

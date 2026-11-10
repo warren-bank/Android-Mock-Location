@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">سرلیک:</string>
     <string name="edit_bookmark_field_2">موقعیت:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">عمومي</string>
+    <string name="PreferencesActivity_heading_4">بڼه</string>
+    <string name="PreferencesActivity_heading_5">ژبه</string>
     <string name="PreferencesActivity_field_1">وخت (ms) د هر اپډېټ ترمنځ:</string>
+    <string name="PreferencesActivity_field_8">له نورو اپونو څخه شریک شوي ځایونه ومنئ:\n<small>(د Google Maps لینکونه آنلاین لټول کیږي)</small></string>
     <string name="PreferencesActivity_field_2">د موقعیت طنز کولو ځله:\n<small>(۰ = تر څرګندې درېدو پورې دوام ورکړئ)</small></string>
     <string name="PreferencesActivity_field_3">جویسټیک وښایاست:</string>
     <string name="PreferencesActivity_field_4">جویسټیک lat/lon زیاتوالی:</string>
     <string name="PreferencesActivity_field_5">منزل د ثابت ځای په توګه وساتئ:</string>
+    <string name="PreferencesActivity_field_6">تم:</string>
+    <string name="PreferencesActivity_theme_system">د سیسټم پیروي</string>
+    <string name="PreferencesActivity_theme_light">روښانه</string>
+    <string name="PreferencesActivity_theme_dark">تیاره</string>
+    <string name="PreferencesActivity_field_7">د اپ ژبه:</string>
+    <string name="PreferencesActivity_language_system_default">د سیسټم پیروي</string>
     <string name="label_button_start">پیل</string>
     <string name="label_button_stop">درېدئ</string>
     <string name="label_button_update">تازه حال</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">نښه لا دمخه شتون لري \'%s\'.</string>
     <string name="error_missing_required_value">تېروتنه: اړین ارزښت نشته</string>
     <string name="error_add_bookmarkitem">تېروتنه: نوی بوکمارک اضافه نشو کیدای</string>
+    <string name="share_progress_lookup">د Google Maps لینک لوستل کیږي…</string>
+    <string name="share_error_no_location">په شریک شوي متن کې هیڅ ځای ونه موندل شو.</string>
+    <string name="share_error_no_coordinates">دا Google Maps لینک همغږي نه لري. د پن ایښودلو لپاره نقشه اوږده کېکاږئ، بیا پن شریک کړئ.</string>
+    <string name="share_error_unreachable">د دې لینک لوستلو لپاره Google Maps ته لاسرسی ونه شو. خپل اتصال وګورئ او بیا شریک کړئ.</string>
     <string name="notification_service_ticker">زما ماک کاړه GPS: منډه وهل</string>
     <string name="notification_service_content_line1">زما ماک کاړه GPS</string>
     <!--

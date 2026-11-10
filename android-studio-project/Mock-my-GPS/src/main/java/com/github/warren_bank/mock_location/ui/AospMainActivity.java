@@ -8,13 +8,17 @@ import com.github.warren_bank.mock_location.security_model.RuntimePermissions;
 import com.github.warren_bank.mock_location.service.LocationService;
 import com.github.warren_bank.mock_location.ui.interfaces.RuntimePermissionsListener;
 import com.github.warren_bank.mock_location.ui.interfaces.RuntimePermissionsRequester;
+import com.github.warren_bank.mock_location.util.LocaleUtils;
+import com.github.warren_bank.mock_location.util.ThemeUtils;
 
 import android.Manifest;
 import android.app.ActivityGroup;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.res.Configuration;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -29,14 +33,23 @@ import java.util.ArrayList;
 
 public class AospMainActivity extends ActivityGroup implements RuntimePermissionsRequester, RuntimePermissions.RuntimePermissionsListener {
     private TabHost tabHost;
+    private int     appliedThemeResId;
 
     // =============================================================================================
     // Lifecycle Events:
     // =============================================================================================
 
     @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(base);
+        ThemeUtils.applyUiModeOverride(AospMainActivity.this, base);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
+        appliedThemeResId = ThemeUtils.applyTheme(AospMainActivity.this);
         super.onCreate(savedInstanceState);
+        LocaleUtils.apply(this);
         setContentView(R.layout.activity_main);
 
         tabHost = (TabHost) findViewById(android.R.id.tabhost);
@@ -60,8 +73,25 @@ public class AospMainActivity extends ActivityGroup implements RuntimePermission
             tabHost.setCurrentTabByTag(currentTabTag);
         }
 
-        showToast(intent);
+        // skip when recreated (ex: after a theme change)
+        if (savedInstanceState == null) {
+            showToast(intent);
+        }
         requestPermissions();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        ThemeUtils.restartIfThemeChanged(AospMainActivity.this, appliedThemeResId);
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        // "locale" config changes reset the Resources to the system language below Android 13 (see LocaleUtils)
+        LocaleUtils.apply(this);
+        ThemeUtils.restartIfThemeChanged(AospMainActivity.this, appliedThemeResId);
     }
 
     private String getCurrentTabTag(Intent intent) {
@@ -95,6 +125,7 @@ public class AospMainActivity extends ActivityGroup implements RuntimePermission
         }
 
         getMenuInflater().inflate(R.menu.activity_main, menu);
+        ThemeUtils.tintMenuIcons(AospMainActivity.this, menu, appliedThemeResId);
         return true;
     }
 

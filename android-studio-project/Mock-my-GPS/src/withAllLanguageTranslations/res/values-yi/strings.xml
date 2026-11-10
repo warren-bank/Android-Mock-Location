@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">טיטל:</string>
     <string name="edit_bookmark_field_2">אָרט:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">אַלגעמיין</string>
+    <string name="PreferencesActivity_heading_4">אויסזען</string>
+    <string name="PreferencesActivity_heading_5">שפּראַך</string>
     <string name="PreferencesActivity_field_1">צײַט (ms) צווישן יעדן דערהײַנטיקונג:</string>
+    <string name="PreferencesActivity_field_8">אָננעמען ערטער וואָס מען האָט געטיילט פֿון אַנדערע אַפּס:\n<small>(Google Maps לינקען ווערן נאָכגעקוקט אָנליין)</small></string>
     <string name="PreferencesActivity_field_2">צאָל מאָל צו מאָקן אָרט:\n<small>(0 = פאָרזעצן ביז מען שטעלט עס אויף אויסדריקלעך)</small></string>
     <string name="PreferencesActivity_field_3">ווײַזן דזשויסטיק:</string>
     <string name="PreferencesActivity_field_4">פֿריידשטעק lat/lon צוגאָב:</string>
     <string name="PreferencesActivity_field_5">האַלטן דעם ציל־אָרט ווי אַ פֿיקסירטע פּאָזיציע:</string>
+    <string name="PreferencesActivity_field_6">טעמע:</string>
+    <string name="PreferencesActivity_theme_system">לויט דער סיסטעם</string>
+    <string name="PreferencesActivity_theme_light">ליכטיק</string>
+    <string name="PreferencesActivity_theme_dark">טונקל</string>
+    <string name="PreferencesActivity_field_7">אַפּ שפּראַך:</string>
+    <string name="PreferencesActivity_language_system_default">לויט דער סיסטעם</string>
     <string name="label_button_start">אָנהייב</string>
     <string name="label_button_stop">האַלט</string>
     <string name="label_button_update">דערהײַנטיקונג</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">בוकमארק איז שוין עקזיסטירנדיק \'%s\'.</string>
     <string name="error_missing_required_value">פֿעלער: פֿעלט דער נויטיקער ווערט</string>
     <string name="error_add_bookmarkitem">פֿעלער: ניט געקענט צוגעבן אַ נײַעם בוקמאַרק</string>
+    <string name="share_progress_lookup">לייענט Google Maps לינק…</string>
+    <string name="share_error_no_location">קיין אָרט נישט געפֿונען אינעם געטיילטן טעקסט.</string>
+    <string name="share_error_no_coordinates">דער Google Maps לינק האָט נישט קיין קאָאָרדינאַטן. דריקט לאַנג אויף דער מאַפּע צו אַוועקשטעלן אַ שפּילקע, דערנאָך טיילט די שפּילקע.</string>
+    <string name="share_error_unreachable">קען נישט דערגרייכן Google Maps צו לייענען דעם לינק. קאָנטראָלירט אײַער פֿאַרבינדונג און טיילט נאָך אַ מאָל.</string>
     <string name="notification_service_ticker">מאַכן שפּאָט פֿון מײַן GPS: לויפֿן</string>
     <string name="notification_service_content_line1">מאַכן שפּאָט פֿון מײַן GPS</string>
     <!--

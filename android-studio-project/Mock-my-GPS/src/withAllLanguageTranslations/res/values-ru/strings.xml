@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Название:</string>
     <string name="edit_bookmark_field_2">Местоположение:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Общие сведения</string>
+    <string name="PreferencesActivity_heading_4">Оформление</string>
+    <string name="PreferencesActivity_heading_5">Язык</string>
     <string name="PreferencesActivity_field_1">Время (ms) между каждым обновлением:</string>
+    <string name="PreferencesActivity_field_8">Принимать местоположения, которыми поделились из других приложений:\n<small>(ссылки Google Карт проверяются в интернете)</small></string>
     <string name="PreferencesActivity_field_2">Количество раз, когда необходимо имитировать местоположение:\n<small>(0 = продолжать до явного прекращения)</small></string>
     <string name="PreferencesActivity_field_3">Показать джойстик:</string>
     <string name="PreferencesActivity_field_4">джойстик lat/lon приращение:</string>
     <string name="PreferencesActivity_field_5">Установить пункт назначения в качестве фиксированной позиции:</string>
+    <string name="PreferencesActivity_field_6">Тема:</string>
+    <string name="PreferencesActivity_theme_system">Как в системе</string>
+    <string name="PreferencesActivity_theme_light">Светлая</string>
+    <string name="PreferencesActivity_theme_dark">Тёмная</string>
+    <string name="PreferencesActivity_field_7">Язык приложения:</string>
+    <string name="PreferencesActivity_language_system_default">Как в системе</string>
     <string name="label_button_start">НАЧАЛО</string>
     <string name="label_button_stop">СТОП</string>
     <string name="label_button_update">ОБНОВЛЕНИЕ</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Закладка уже существует \'%s\'.</string>
     <string name="error_missing_required_value">Ошибка: отсутствует обязательное значение</string>
     <string name="error_add_bookmarkitem">Ошибка: не удалось добавить новую закладку</string>
+    <string name="share_progress_lookup">Чтение ссылки Google Карт…</string>
+    <string name="share_error_no_location">В полученном тексте не найдено местоположение.</string>
+    <string name="share_error_no_coordinates">В этой ссылке Google Карт нет координат. Нажмите и удерживайте карту, чтобы поставить метку, а затем поделитесь меткой.</string>
+    <string name="share_error_unreachable">Не удалось связаться с Google Картами, чтобы прочитать ссылку. Проверьте подключение и поделитесь снова.</string>
     <string name="notification_service_ticker">Посмейтесь надо мной GPS: бег</string>
     <string name="notification_service_content_line1">Посмейтесь надо мной GPS</string>
     <!--

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- manifest default follows the system's night mode; activities still override it at runtime (see "util/ThemeUtils") -->
+    <style name="app_theme" parent="@style/app_theme_dark" />
+
+</resources>

@@ -257,6 +257,45 @@ __Example__:
 
 - - - -
 
+#### Sharing locations
+
+* `Mock-my-GPS` can appear in Android's share menu, so a location can be sent to it with the _Share_ button of another app
+  - off by default
+  - to turn it on: _Preferences_ &gt; _Accept locations shared from other apps_
+  - while on, `Mock-my-GPS` is offered whenever any app shares text
+* the shared text is searched for, in this order:
+  1. a map link that contains coordinates (ex: OpenStreetMap, OsmAnd, Apple Maps, full Google Maps links)
+  2. plain coordinates (ex: `48.2082, 16.3738`)
+  3. a Google Maps short link: `https://maps.app.goo.gl/…` or `https://goo.gl/maps/…`
+* a location that is found opens the same "purpose" Dialog as a Geo-Intent
+* Google Maps shares a place only as a short link, which must be looked up online (see: [Privacy](#privacy))
+  - a place picked by long-pressing the map (a dropped pin) always resolves to coordinates
+  - a place picked by search or tap may resolve to an address without coordinates, which can't be used
+    * workaround: long-press the map at that place, and share the dropped pin
+
+- - - -
+
+#### Privacy
+
+* `Mock-my-GPS` requires the `INTERNET` permission for one purpose only: to look up Google Maps short links that are shared with it
+* nothing is ever sent unless:
+  - sharing is turned on in _Preferences_ (it is off by default)
+  - a Google Maps short link is shared with `Mock-my-GPS`
+* when a short link is looked up:
+  - only `maps.app.goo.gl` or `goo.gl` is contacted
+  - exactly one `HEAD` request is sent per shared link
+    * without the link's query string or fragment
+    * with the request header: `User-Agent: N/A`
+    * without cookies
+  - the redirect it answers with is read, but never opened
+  - what Google receives: your IP address, the short link, and the time of the request
+* nothing is stored or logged
+* other location data, bookmarks, and settings never leave the device
+* `Mock-Silently` and `Mock-my-GPS-UnifiedNlp-Backend` don't have the `INTERNET` permission
+* on very old versions of Android (API 4 to 10), the lookup may fail to establish a secure connection, and the shared link can't be read
+
+- - - -
+
 #### Legal:
 
 * copyright: [Warren Bank](https://github.com/warren-bank)

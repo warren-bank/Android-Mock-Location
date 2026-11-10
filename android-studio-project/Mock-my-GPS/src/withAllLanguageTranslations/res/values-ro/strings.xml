@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Titlu:</string>
     <string name="edit_bookmark_field_2">Locație:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Generalități</string>
+    <string name="PreferencesActivity_heading_4">Aspect</string>
+    <string name="PreferencesActivity_heading_5">Limbă</string>
     <string name="PreferencesActivity_field_1">Ora (ms) între fiecare actualizare:</string>
+    <string name="PreferencesActivity_field_8">Acceptă locații partajate din alte aplicații:\n<small>(linkurile Google Maps sunt verificate online)</small></string>
     <string name="PreferencesActivity_field_2">Numărul de ori în care se simulează locația:\n<small>(0 = continuă până la oprirea explicită)</small></string>
     <string name="PreferencesActivity_field_3">Afișează joystick-ul:</string>
     <string name="PreferencesActivity_field_4">Joystick lat/lon increment:</string>
     <string name="PreferencesActivity_field_5">Menține destinația ca poziție fixă:</string>
+    <string name="PreferencesActivity_field_6">Temă:</string>
+    <string name="PreferencesActivity_theme_system">Urmează sistemul</string>
+    <string name="PreferencesActivity_theme_light">Luminoasă</string>
+    <string name="PreferencesActivity_theme_dark">Întunecată</string>
+    <string name="PreferencesActivity_field_7">Limba aplicației:</string>
+    <string name="PreferencesActivity_language_system_default">Urmează sistemul</string>
     <string name="label_button_start">ÎNCEPUT</string>
     <string name="label_button_stop">STOP</string>
     <string name="label_button_update">ACTUALIZARE</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Marcajul există deja \'%s\'.</string>
     <string name="error_missing_required_value">Eroare: Valoare obligatorie lipsă</string>
     <string name="error_add_bookmarkitem">Eroare: Nu s-a putut adăuga un marcaj nou</string>
+    <string name="share_progress_lookup">Se citește linkul Google Maps…</string>
+    <string name="share_error_no_location">Nu s-a găsit nicio locație în textul partajat.</string>
+    <string name="share_error_no_coordinates">Acest link Google Maps nu are coordonate. Apasă lung pe hartă pentru a plasa o piuneză, apoi partajează piuneza.</string>
+    <string name="share_error_unreachable">Google Maps nu a putut fi accesat pentru a citi linkul. Verifică conexiunea și partajează din nou.</string>
     <string name="notification_service_ticker">Râzi de mine GPS: alergare</string>
     <string name="notification_service_content_line1">Râzi de mine GPS</string>
     <!--

@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Kichwa:</string>
     <string name="edit_bookmark_field_2">Mahali:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Kawaida</string>
+    <string name="PreferencesActivity_heading_4">Mwonekano</string>
+    <string name="PreferencesActivity_heading_5">Lugha</string>
     <string name="PreferencesActivity_field_1">Muda (ms) katikati ya kila sasisho:</string>
+    <string name="PreferencesActivity_field_8">Kubali maeneo yanayoshirikiwa kutoka programu nyingine:\n<small>(viungo vya Google Maps hutafutwa mtandaoni)</small></string>
     <string name="PreferencesActivity_field_2">Idadi ya mara za kudanganya eneo:\n<small>(0 = endelea hadi utakapozuiwa waziwazi)</small></string>
     <string name="PreferencesActivity_field_3">Onyesha joystick:</string>
     <string name="PreferencesActivity_field_4">Joi lat/lon ongezeko:</string>
     <string name="PreferencesActivity_field_5">Shikilia kituo cha lengo kama nafasi thabiti:</string>
+    <string name="PreferencesActivity_field_6">Mandhari:</string>
+    <string name="PreferencesActivity_theme_system">Fuata mfumo</string>
+    <string name="PreferencesActivity_theme_light">Mwanga</string>
+    <string name="PreferencesActivity_theme_dark">Giza</string>
+    <string name="PreferencesActivity_field_7">Lugha ya programu:</string>
+    <string name="PreferencesActivity_language_system_default">Fuata mfumo</string>
     <string name="label_button_start">Anza</string>
     <string name="label_button_stop">SIMAMA</string>
     <string name="label_button_update">Sasisho</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Alama ya ukurasa tayari ipo \'%s\'.</string>
     <string name="error_missing_required_value">Hitilafu: Thamani Muhimu Inakosekana</string>
     <string name="error_add_bookmarkitem">Hitilafu: Haikuweza kuongeza alamisho jipya</string>
+    <string name="share_progress_lookup">Inasoma kiungo cha Google Maps…</string>
+    <string name="share_error_no_location">Hakuna eneo lililopatikana katika maandishi yaliyoshirikiwa.</string>
+    <string name="share_error_no_coordinates">Kiungo hiki cha Google Maps hakina viwianishi. Bonyeza ramani kwa muda mrefu ili kuweka pini, kisha shiriki pini hiyo.</string>
+    <string name="share_error_unreachable">Imeshindwa kufikia Google Maps ili kusoma kiungo hiki. Angalia muunganisho wako na ushiriki tena.</string>
     <string name="notification_service_ticker">Nipe mfano wangu GPS: kukimbia</string>
     <string name="notification_service_content_line1">Nipe mfano wangu GPS</string>
     <!--

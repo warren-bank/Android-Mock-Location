@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">标题：</string>
     <string name="edit_bookmark_field_2">位置：\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">一般</string>
+    <string name="PreferencesActivity_heading_4">外观</string>
+    <string name="PreferencesActivity_heading_5">语言</string>
     <string name="PreferencesActivity_field_1">更新间隔(毫秒)：</string>
+    <string name="PreferencesActivity_field_8">接受从其他应用分享的位置：\n<small>(Google 地图链接会在线查询)</small></string>
     <string name="PreferencesActivity_field_2">模拟位置的次数：\n<small>(0 = 在明确停止前一直继续)</small></string>
     <string name="PreferencesActivity_field_3">显示操纵杆：</string>
     <string name="PreferencesActivity_field_4">操纵杆纬度/经度增量：</string>
     <string name="PreferencesActivity_field_5">保持目的地为固定位置：</string>
+    <string name="PreferencesActivity_field_6">主题：</string>
+    <string name="PreferencesActivity_theme_system">跟随系统</string>
+    <string name="PreferencesActivity_theme_light">浅色</string>
+    <string name="PreferencesActivity_theme_dark">深色</string>
+    <string name="PreferencesActivity_field_7">应用语言：</string>
+    <string name="PreferencesActivity_language_system_default">跟随系统</string>
     <string name="label_button_start">启动</string>
     <string name="label_button_stop">停止</string>
     <string name="label_button_update">更新</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">书签已经存在 \'%s\'.</string>
     <string name="error_missing_required_value">错误： 缺少所需的值</string>
     <string name="error_add_bookmarkitem">错误：无法添加新书签</string>
+    <string name="share_progress_lookup">正在读取 Google 地图链接…</string>
+    <string name="share_error_no_location">在分享的文本中未找到位置。</string>
+    <string name="share_error_no_coordinates">此 Google 地图链接不含坐标。请长按地图放置图钉，然后分享该图钉。</string>
+    <string name="share_error_unreachable">无法连接 Google 地图来读取此链接。请检查网络连接后重新分享。</string>
     <string name="notification_service_ticker">模拟我的 GPS： 运行中</string>
     <string name="notification_service_content_line1">模拟我的 GPS</string>
     <!--

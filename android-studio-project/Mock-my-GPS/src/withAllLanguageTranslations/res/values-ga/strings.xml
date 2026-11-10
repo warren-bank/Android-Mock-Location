@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Teideal:</string>
     <string name="edit_bookmark_field_2">Suíomh:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Ginearálta</string>
+    <string name="PreferencesActivity_heading_4">Cuma</string>
+    <string name="PreferencesActivity_heading_5">Teanga</string>
     <string name="PreferencesActivity_field_1">Am (ms) idir gach nuashonraithe:</string>
+    <string name="PreferencesActivity_field_8">Glac le suímh a roinneadh ó aipeanna eile:\n<small>(lorgaítear naisc Google Maps ar líne)</small></string>
     <string name="PreferencesActivity_field_2">Líon na n-amanna chun suíomh a mhaíomh:\n<small>(0 = lean ar aghaidh go dtí go stopfar go sonrach)</small></string>
     <string name="PreferencesActivity_field_3">Taispeáin an luamhán rialaithe:</string>
     <string name="PreferencesActivity_field_4">Sláiste aoibhnis lat/lon Méadú:</string>
     <string name="PreferencesActivity_field_5">Coinnigh an ceann scríbe mar shuíomh seasta:</string>
+    <string name="PreferencesActivity_field_6">Téama:</string>
+    <string name="PreferencesActivity_theme_system">Lean an córas</string>
+    <string name="PreferencesActivity_theme_light">Geal</string>
+    <string name="PreferencesActivity_theme_dark">Dorcha</string>
+    <string name="PreferencesActivity_field_7">Teanga na haipe:</string>
+    <string name="PreferencesActivity_language_system_default">Lean an córas</string>
     <string name="label_button_start">Tosaigh</string>
     <string name="label_button_stop">STAD</string>
     <string name="label_button_update">Nuashonrú</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Tá an leabharmharc ann cheana féin. \'%s\'.</string>
     <string name="error_missing_required_value">Earráid: Luach Riachtanach in easnamh</string>
     <string name="error_add_bookmarkitem">Earráid: Níorbh fhéidir leabharmharc nua a chur leis</string>
+    <string name="share_progress_lookup">Nasc Google Maps á léamh…</string>
+    <string name="share_error_no_location">Níor aimsíodh suíomh sa téacs a roinneadh.</string>
+    <string name="share_error_no_coordinates">Níl comhordanáidí ag an nasc Google Maps seo. Brúigh go fada ar an léarscáil chun biorán a scaoileadh, ansin roinn an biorán.</string>
+    <string name="share_error_unreachable">Níorbh fhéidir teacht ar Google Maps chun an nasc seo a léamh. Seiceáil do cheangal agus roinn arís.</string>
     <string name="notification_service_ticker">Déan magadh fúm GPS: ag rith</string>
     <string name="notification_service_content_line1">Déan magadh fúm GPS</string>
     <!--

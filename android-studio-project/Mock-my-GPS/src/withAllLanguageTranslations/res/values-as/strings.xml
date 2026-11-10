@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">শিৰোনাম:</string>
     <string name="edit_bookmark_field_2">অৱস্থান:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">সাধাৰণ</string>
+    <string name="PreferencesActivity_heading_4">ৰূপ</string>
+    <string name="PreferencesActivity_heading_5">ভাষা</string>
     <string name="PreferencesActivity_field_1">সময় (ms) প্ৰতিটো আপডেটৰ মাজত:</string>
+    <string name="PreferencesActivity_field_8">অন্য এপৰ পৰা শ্বেয়াৰ কৰা অৱস্থান গ্ৰহণ কৰক:\n<small>(Google Maps লিংক অনলাইনত বিচৰা হয়)</small></string>
     <string name="PreferencesActivity_field_2">অৱস্থান নকল কৰাৰ সংখ্যা:\n<small>(০ = স্পষ্টভাৱে বন্ধ নকৰালৈকে অব্যাহত ৰাখক)</small></string>
     <string name="PreferencesActivity_field_3">জয়ষ্টিক দেখুৱাওক:</string>
     <string name="PreferencesActivity_field_4">জয়ষ্টিক lat/lon বৃদ্ধি:</string>
     <string name="PreferencesActivity_field_5">গন্তব্যস্থানক স্থিৰ অৱস্থান হিচাপে ধৰি ৰাখক:</string>
+    <string name="PreferencesActivity_field_6">থীম:</string>
+    <string name="PreferencesActivity_theme_system">ছিষ্টেম অনুসৰণ কৰক</string>
+    <string name="PreferencesActivity_theme_light">পোহৰ</string>
+    <string name="PreferencesActivity_theme_dark">আন্ধাৰ</string>
+    <string name="PreferencesActivity_field_7">এপৰ ভাষা:</string>
+    <string name="PreferencesActivity_language_system_default">ছিষ্টেম অনুসৰণ কৰক</string>
     <string name="label_button_start">আৰম্ভ কৰক</string>
     <string name="label_button_stop">ৰ\'ব</string>
     <string name="label_button_update">আপডেট</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">বুকমাৰ্ক ইতিমধ্যে আছে \'%s\'.</string>
     <string name="error_missing_required_value">ত্ৰুটি: প্ৰয়োজনীয় মান অনুপস্থিত</string>
     <string name="error_add_bookmarkitem">ত্ৰুটি: নতুন বুকমাৰ্ক যোগ কৰিব পৰা নগ\'ল</string>
+    <string name="share_progress_lookup">Google Maps লিংক পঢ়ি আছে…</string>
+    <string name="share_error_no_location">শ্বেয়াৰ কৰা লিখনিত কোনো অৱস্থান পোৱা নগ\'ল।</string>
+    <string name="share_error_no_coordinates">এই Google Maps লিংকত কোনো স্থানাংক নাই। পিন দিবলৈ মেপত দীঘলীয়াকৈ টিপক, তাৰ পিছত পিনটো শ্বেয়াৰ কৰক।</string>
+    <string name="share_error_unreachable">এই লিংক পঢ়িবলৈ Google Maps লৈ যাব পৰা নগ\'ল। আপোনাৰ সংযোগ পৰীক্ষা কৰি পুনৰ শ্বেয়াৰ কৰক।</string>
     <string name="notification_service_ticker">মোৰ ওপৰত উপহাস কৰা GPS: দৌৰি</string>
     <string name="notification_service_content_line1">মোৰ ওপৰত উপহাস কৰা GPS</string>
     <!--

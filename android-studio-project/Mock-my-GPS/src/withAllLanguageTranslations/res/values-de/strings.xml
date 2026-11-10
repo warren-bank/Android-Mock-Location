@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Titel:</string>
     <string name="edit_bookmark_field_2">Standort:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Allgemein</string>
+    <string name="PreferencesActivity_heading_4">Darstellung</string>
+    <string name="PreferencesActivity_heading_5">Sprache</string>
     <string name="PreferencesActivity_field_1">Zeit (ms) zwischen jeder Aktualisierung:</string>
+    <string name="PreferencesActivity_field_8">Von anderen Apps geteilte Standorte annehmen:\n<small>(Google-Maps-Links werden online nachgeschlagen)</small></string>
     <string name="PreferencesActivity_field_2">Anzahl der Standortnachahmungen:\n<small>(0 = fortsetzen bis zum stoppen)</small></string>
     <string name="PreferencesActivity_field_3">Joystick anzeigen:</string>
     <string name="PreferencesActivity_field_4">Joystick Breiten-/Längen-Zuwachs:</string>
     <string name="PreferencesActivity_field_5">Ziel als feste Position halten:</string>
+    <string name="PreferencesActivity_field_6">Design:</string>
+    <string name="PreferencesActivity_theme_system">Systemstandard</string>
+    <string name="PreferencesActivity_theme_light">Hell</string>
+    <string name="PreferencesActivity_theme_dark">Dunkel</string>
+    <string name="PreferencesActivity_field_7">App-Sprache:</string>
+    <string name="PreferencesActivity_language_system_default">Systemstandard</string>
     <string name="label_button_start">START</string>
     <string name="label_button_stop">STOPP</string>
     <string name="label_button_update">AKTUALISIEREN</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Favorit \'%s\' existiert bereits.</string>
     <string name="error_missing_required_value">Fehler: Erforderlicher Wert fehlt</string>
     <string name="error_add_bookmarkitem">Fehler: Neuer Favorit konnte nicht hinzugefügt werden</string>
+    <string name="share_progress_lookup">Google-Maps-Link wird gelesen…</string>
+    <string name="share_error_no_location">Im geteilten Text wurde kein Standort gefunden.</string>
+    <string name="share_error_no_coordinates">Dieser Google-Maps-Link enthält keine Koordinaten. Tippe lange auf die Karte, um eine Markierung zu setzen, und teile dann die Markierung.</string>
+    <string name="share_error_unreachable">Google Maps war nicht erreichbar, um den Link zu lesen. Prüfe deine Verbindung und teile erneut.</string>
     <string name="notification_service_ticker">Mock my GPS: in Betrieb</string>
     <string name="notification_service_content_line1">Mock my GPS</string>
     <!--

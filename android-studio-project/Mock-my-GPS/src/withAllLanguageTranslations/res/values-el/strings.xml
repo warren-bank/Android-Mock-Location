@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Τίτλος:</string>
     <string name="edit_bookmark_field_2">Τοποθεσία:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Γενικά</string>
+    <string name="PreferencesActivity_heading_4">Εμφάνιση</string>
+    <string name="PreferencesActivity_heading_5">Γλώσσα</string>
     <string name="PreferencesActivity_field_1">Ώρα (ms) μεταξύ κάθε ενημέρωσης:</string>
+    <string name="PreferencesActivity_field_8">Αποδοχή τοποθεσιών που κοινοποιούνται από άλλες εφαρμογές:\n<small>(οι σύνδεσμοι Google Maps αναζητούνται online)</small></string>
     <string name="PreferencesActivity_field_2">Αριθμός φορών που θα προσομοιωθεί η τοποθεσία:\n<small>(0 = συνέχιση μέχρι να σταματήσει ρητά)</small></string>
     <string name="PreferencesActivity_field_3">Εμφάνιση χειριστηρίου:</string>
     <string name="PreferencesActivity_field_4">Τζόιστικ lat/lon αύξηση:</string>
     <string name="PreferencesActivity_field_5">Διατήρηση του προορισμού ως σταθερή θέση:</string>
+    <string name="PreferencesActivity_field_6">Θέμα:</string>
+    <string name="PreferencesActivity_theme_system">Ακολούθηση συστήματος</string>
+    <string name="PreferencesActivity_theme_light">Ανοιχτό</string>
+    <string name="PreferencesActivity_theme_dark">Σκούρο</string>
+    <string name="PreferencesActivity_field_7">Γλώσσα εφαρμογής:</string>
+    <string name="PreferencesActivity_language_system_default">Ακολούθηση συστήματος</string>
     <string name="label_button_start">ΕΝΑΡΞΗ</string>
     <string name="label_button_stop">ΣΤΑΜΑΤΗΣΤΕ</string>
     <string name="label_button_update">ΕΝΗΜΕΡΩΣΗ</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Ο σελιδοδείκτης υπάρχει ήδη \'%s\'.</string>
     <string name="error_missing_required_value">Σφάλμα: Λείπει απαιτούμενη τιμή</string>
     <string name="error_add_bookmarkitem">Σφάλμα: Δεν ήταν δυνατή η προσθήκη νέου σελιδοδείκτη</string>
+    <string name="share_progress_lookup">Ανάγνωση συνδέσμου Google Maps…</string>
+    <string name="share_error_no_location">Δεν βρέθηκε τοποθεσία στο κοινοποιημένο κείμενο.</string>
+    <string name="share_error_no_coordinates">Αυτός ο σύνδεσμος Google Maps δεν έχει συντεταγμένες. Πατήστε παρατεταμένα στον χάρτη για να βάλετε πινέζα και κοινοποιήστε την πινέζα.</string>
+    <string name="share_error_unreachable">Δεν ήταν δυνατή η σύνδεση με το Google Maps για την ανάγνωση του συνδέσμου. Ελέγξτε τη σύνδεσή σας και κοινοποιήστε ξανά.</string>
     <string name="notification_service_ticker">Κάνε πλάκα με GPS: τρέξιμο</string>
     <string name="notification_service_content_line1">Κάνε πλάκα με GPS</string>
     <!--

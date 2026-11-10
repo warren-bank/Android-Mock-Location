@@ -6,12 +6,16 @@ import com.github.warren_bank.mock_location.data_model.BookmarkItem;
 import com.github.warren_bank.mock_location.data_model.LocPoint;
 import com.github.warren_bank.mock_location.data_model.SharedPrefs;
 import com.github.warren_bank.mock_location.util.BackupRestoreMgr;
+import com.github.warren_bank.mock_location.util.LocaleUtils;
+import com.github.warren_bank.mock_location.util.ThemeUtils;
 
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
@@ -31,6 +35,7 @@ public class BookmarksActivity extends Activity {
     private ListView                    listView;
     private ArrayList<BookmarkItem>     listItems;
     private ArrayAdapter<BookmarkItem>  listAdapter;
+    private int                         appliedThemeResId;
 
     // ---------------------------------------------------------------------------------------------
     // Data Mutation:
@@ -46,8 +51,16 @@ public class BookmarksActivity extends Activity {
     // ---------------------------------------------------------------------------------------------
 
     @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(base);
+        ThemeUtils.applyUiModeOverride(BookmarksActivity.this, base);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
+        appliedThemeResId = ThemeUtils.applyTheme(BookmarksActivity.this);
         super.onCreate(savedInstanceState);
+        LocaleUtils.apply(this);
         setContentView(R.layout.activity_bookmarks);
 
         backupRestoreMgr = new BackupRestoreMgr();
@@ -73,7 +86,24 @@ public class BookmarksActivity extends Activity {
             }
         });
 
-        onNewIntent(getIntent());
+        // skip when recreated (ex: after a theme change), so the "add bookmark" dialog isn't shown twice
+        if (savedInstanceState == null) {
+            onNewIntent(getIntent());
+        }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        ThemeUtils.restartIfThemeChanged(BookmarksActivity.this, appliedThemeResId);
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        // "locale" config changes reset the Resources to the system language below Android 13 (see LocaleUtils)
+        LocaleUtils.apply(this);
+        ThemeUtils.restartIfThemeChanged(BookmarksActivity.this, appliedThemeResId);
     }
 
     @Override
@@ -117,6 +147,7 @@ public class BookmarksActivity extends Activity {
         }
 
         getMenuInflater().inflate(R.menu.activity_bookmarks, menu);
+        ThemeUtils.tintMenuIcons(BookmarksActivity.this, menu, appliedThemeResId);
 
         // conditionally enable backup and restore menu items
         MenuItem item;
@@ -256,7 +287,7 @@ public class BookmarksActivity extends Activity {
           : listItems.get(position)
         ;
 
-        final Dialog dialog = new Dialog(BookmarksActivity.this, R.style.app_theme);
+        final Dialog dialog = new Dialog(BookmarksActivity.this, appliedThemeResId);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setContentView(R.layout.dialog_bookmarkitem);
 

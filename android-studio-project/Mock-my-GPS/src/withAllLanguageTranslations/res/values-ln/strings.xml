@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Motó ya likambo:</string>
     <string name="edit_bookmark_field_2">Esika:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Monene</string>
+    <string name="PreferencesActivity_heading_4">Lolenge</string>
+    <string name="PreferencesActivity_heading_5">Monoko</string>
     <string name="PreferencesActivity_field_1">Ntango (ms) Kati na kati ya mise à jour moko na moko:</string>
+    <string name="PreferencesActivity_field_8">Kondima bisika oyo bakaboli uta na ba application mosusu:\n<small>(ba lien ya Google Maps ezali koluka na internet)</small></string>
     <string name="PreferencesActivity_field_2">Motango ya mbala ya kosɛka esika:\n<small>(0 = koba kino bakopekisa yo polele)</small></string>
     <string name="PreferencesActivity_field_3">Lakisa joystick:</string>
     <string name="PreferencesActivity_field_4">Bâton de commande lat/lon Kobakisa:</string>
     <string name="PreferencesActivity_field_5">Kanga esika ya kokende lokola esika ya kotɛlɛma.:</string>
+    <string name="PreferencesActivity_field_6">Motó:</string>
+    <string name="PreferencesActivity_theme_system">Kolanda sisitɛmɛ</string>
+    <string name="PreferencesActivity_theme_light">Mwinda</string>
+    <string name="PreferencesActivity_theme_dark">Molili</string>
+    <string name="PreferencesActivity_field_7">Monoko ya application:</string>
+    <string name="PreferencesActivity_language_system_default">Kolanda sisitɛmɛ</string>
     <string name="label_button_start">Banda</string>
     <string name="label_button_stop">Tɛlɛmá</string>
     <string name="label_button_update">Sango ya sika</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Elembo ya bokebi ezali déjà. \'%s\'.</string>
     <string name="error_missing_required_value">Libunga: Motuya oyo esengeli ezangi</string>
     <string name="error_add_bookmarkitem">Libunga: Bakokaki te kobakisa elembo ya sika</string>
+    <string name="share_progress_lookup">Ezali kotánga lien ya Google Maps…</string>
+    <string name="share_error_no_location">Esika moko te ezwami na makomi oyo bakaboli.</string>
+    <string name="share_error_no_coordinates">Lien oyo ya Google Maps ezali na ba coordonnées te. Finá mokili mpo na kotia épingle, sima kabola épingle yango.</string>
+    <string name="share_error_unreachable">Ekoki te kokóma na Google Maps mpo na kotánga lien oyo. Tálá connexion na yo mpe kabola lisusu.</string>
     <string name="notification_service_ticker">Kosɛka ngai GPS: kokima</string>
     <string name="notification_service_content_line1">Kosɛka ngai GPS</string>
     <!--

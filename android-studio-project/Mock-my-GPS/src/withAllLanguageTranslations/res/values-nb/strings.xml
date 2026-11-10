@@ -32,11 +32,20 @@
     <string name="edit_bookmark_field_1">Tittel:</string>
     <string name="edit_bookmark_field_2">Sted:\n<small>(&lat_lon;)</small></string>
     <string name="PreferencesActivity_heading_1">Generelt</string>
+    <string name="PreferencesActivity_heading_4">Utseende</string>
+    <string name="PreferencesActivity_heading_5">Språk</string>
     <string name="PreferencesActivity_field_1">Tid (ms) mellom hver oppdatering:</string>
+    <string name="PreferencesActivity_field_8">Godta posisjoner som deles fra andre apper:\n<small>(Google Maps-lenker slås opp på nettet)</small></string>
     <string name="PreferencesActivity_field_2">Antall ganger posisjonen skal simuleres:\n<small>(0 = fortsett til det uttrykkelig stoppes)</small></string>
     <string name="PreferencesActivity_field_3">Vis joystick:</string>
     <string name="PreferencesActivity_field_4">Joystick lat/lon økning:</string>
     <string name="PreferencesActivity_field_5">Hold destinasjonen som fast posisjon:</string>
+    <string name="PreferencesActivity_field_6">Tema:</string>
+    <string name="PreferencesActivity_theme_system">Følg systemet</string>
+    <string name="PreferencesActivity_theme_light">Lyst</string>
+    <string name="PreferencesActivity_theme_dark">Mørkt</string>
+    <string name="PreferencesActivity_field_7">Appspråk:</string>
+    <string name="PreferencesActivity_language_system_default">Følg systemet</string>
     <string name="label_button_start">START</string>
     <string name="label_button_stop">STOPP</string>
     <string name="label_button_update">OPPDATERING</string>
@@ -49,6 +58,10 @@
     <string name="error_bookmarkitem_exists">Bokmerket finnes allerede \'%s\'.</string>
     <string name="error_missing_required_value">Feil: Manglende obligatorisk verdi</string>
     <string name="error_add_bookmarkitem">Feil: Kunne ikke legge til nytt bokmerke</string>
+    <string name="share_progress_lookup">Leser Google Maps-lenke…</string>
+    <string name="share_error_no_location">Fant ingen posisjon i den delte teksten.</string>
+    <string name="share_error_no_coordinates">Denne Google Maps-lenken har ingen koordinater. Trykk lenge på kartet for å slippe en nål, og del deretter nålen.</string>
+    <string name="share_error_unreachable">Kunne ikke nå Google Maps for å lese lenken. Sjekk tilkoblingen og del på nytt.</string>
     <string name="notification_service_ticker">Gjør narr av meg GPS: løping</string>
     <string name="notification_service_content_line1">Gjør narr av meg GPS</string>
     <!--
